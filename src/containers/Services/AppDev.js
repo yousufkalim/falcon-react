@@ -2,15 +2,15 @@
 import React from "react";
 
 // Importing Components
-import NavBar from "../Common/NavBar";
-import Header from "../Common/Header";
-import Footer from "../Common/Footer";
+import NavBar from "../../components/Common/NavBar";
+import Header from "../../components/Common/Header";
+import Footer from "../../components/Common/Footer";
 import AppDevImg from "../../assets/images/appdevImg.svg";
 import AppDevFrame from "../../assets/images/appdevframe.svg";
-import ServiceFrame from "../Common/ServiceFrame";
-import LatestProjects from "../Common/LatestProjects";
-import WorkProcessSection from "../Common/WorkProcessSection";
-import KeyFeatureSection from "../Common/KeyFeatureSection";
+import ServiceFrame from "../../components/Common/ServiceFrame";
+import LatestProjects from "../../components/Common/LatestProjects";
+import WorkProcessSection from "../../components/Common/WorkProcessSection";
+import KeyFeatureSection from "../../components/Common/KeyFeatureSection";
 
 // Home Component
 export default function AppDev() {
