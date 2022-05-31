@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 // Component
 export default function Header(props) {
   return (
-    <Grid className={props.DetailHeader || "HeaderMain"} container spacing={1}>
+    <Grid className={props.DetailHeader? "DetailHeader" : "HeaderMain"} container spacing={1}>
       <Grid xs={12} sm={12} md={5}>
         <motion.div
           className="HeaderTypo"
@@ -43,7 +43,7 @@ export default function Header(props) {
           >
             {props.Description}
           </Typography>
-          {props.btn ? (
+          {props.btn && (
             <Button
               // color="red"
               variant={props.btnVariant || "outlined"}
@@ -51,8 +51,6 @@ export default function Header(props) {
             >
               {props.btnText}
             </Button>
-          ) : (
-            ""
           )}
         </motion.div>
       </Grid>
@@ -63,9 +61,9 @@ export default function Header(props) {
         md={7}
       >
         <motion.img
-          initial={{ x: 400 }}
+          initial={{ x: 300 }}
           whileInView={{ x: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: .5 }}
           viewport={{ once: true }}
           alt={props.ImgAlt || "Header"}
           src={props.ImgSrc || HeaderImg}
@@ -74,17 +72,17 @@ export default function Header(props) {
         />
         {props.chatIcons ? (
           <div className="ChatIconsDiv">
-            <a href="https://wa.me/03241013344">
+            <a href="https://wa.me/03135098197">
               <img
               className="ChatIconImg" 
                 alt="whatsapp"
                 src={WhatsappIcon}
               />
             </a>
-            <a href={`${process.env.REACT_APP_DEMO}/contactus`}>
+            <a href={`/contactus`}>
               <img className="ChatIconImg" alt="chat" src={ChatIcon} />
             </a>
-            <a href={`${process.env.REACT_APP_DEMO}/contactus`}>
+            <a href={`/contactus`}>
               <img className="ChatIconImg"  alt="Calendly" src={Calendly}  />
             </a>
           </div>

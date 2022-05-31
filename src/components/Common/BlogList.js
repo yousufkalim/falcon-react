@@ -52,7 +52,7 @@ export default function BlogList() {
               title="What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?"
             />
           </Grid>
-          {MoreBlogs ? (
+          {MoreBlogs && (
             <>
               <Grid md={5} className="BlogListGrid">
                 <BlogCard
@@ -83,8 +83,6 @@ export default function BlogList() {
                 />
               </Grid>
             </>
-          ) : (
-            ""
           )}
           <Grid xs={12} className="BlogBtnGrid">
             <Button
