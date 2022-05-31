@@ -47,6 +47,9 @@
 .FooterRight ul li{
     padding-bottom: 5px;
 }
+.FooterRight ul li a{
+    color: black;
+}
 .CopyRightDiv{
     padding: 1% 9%;
   background-color: #F8F8F8;
