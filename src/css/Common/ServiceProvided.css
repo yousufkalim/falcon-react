@@ -1,3 +1,93 @@
+.ServiceProvided_Card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #003B7E;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow : hidden;
+    max-height: 350px;
+    min-height: 350px;
+
+}
+.ServiceProvided_CardTypo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    padding: 3% 0% 3% 5%;
+}
+.ServiceProvided_SubCardTypo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+.ServiceProvided_CardTitle{
+        font-size: 1.6rem !important;
+        color: #003B7E;
+        font-weight: 600;
+        /* padding: 10% 0% 10% 10% !important; */
+        /* height: 60%; */
+}
+.ServiceProvided_CardBtn{
+        border: none;
+        background-color: #F8F8F8;
+        /* padding: 10% 0% 10% 10%; */
+        color: #003B7E;
+        font-weight: 600;
+        cursor: pointer;
+}
+.ServiceProvided_CardImgDiv{
+    width: 45%;
+    overflow: visible;
+}
+.ServiceProvided_CardImg{
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+    object-fit: cover;
+}
+/* Verticle Card */
+.ServiceProvided_VerticleCard{
+        
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        border: 1px solid #003B7E;
+        border-radius: 20px;
+        object-fit: cover;
+        overflow : hidden;
+        max-height: 730px;
+        min-height: 730px;
+        
+}
+.ServiceProvided_VerticleCardTypo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    padding: 10% 0% 3% 5%;
+}
+.ServiceProvided_VerticleSubCardTypo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.ServiceProvided_VerticleCardImgDiv{
+    width: 100%;
+    overflow: visible;
+}
+.ServiceProvided_VerticleCardImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
 .ServiceProvidedDiv{
   padding: 2% ;
 /* height: 100vh; */
@@ -53,4 +143,89 @@ background-color: #F8F8F8;
     color: #404040B2 !important;
     font-weight: 400 !important;
 } */
+@media only screen and (max-width: 1680px) {
+    .ServiceProvided_Card{
+        max-height: 300px;
+        min-height: 300px;
+    
+    }
+    .ServiceProvided_VerticleCard{
+        max-height: 620px;
+        min-height: 620px;
+        
+}
+.ServiceProvided_VerticleCardTypo{
+    height: 200px;
+}
+}
+@media only screen and (max-width: 1366px) {
+    .ServiceProvided_Card{
+        max-height: 250px;
+        min-height: 250px;
+    
+    }
+    .ServiceProvided_VerticleCard{
+        max-height: 520px;
+        min-height: 520px;
+        
+}
+}
+@media only screen and (max-width: 1024px) {
+    .ServiceProvided_Card{
+        max-height: 180px;
+        min-height: 180px;
+    
+    }
+    .ServiceProvided_VerticleCard{
+        max-height: 380px;
+        min-height: 380px;
+        
+}
+.ServiceProvided_VerticleCardTypo{
+    height: 200px;
+}
+.ServiceProvided_CardTitle{
+    font-size: 1.3rem !important;
+}
+}
+@media only screen and (max-width: 900px) {
+    .ServiceProvided_Card{
+        max-height: 250px;
+        min-height: 250px;
+    
+    }
+    .VerticleCard_ContainerGrid{
+        display: flex;
+        justify-content: center;
+    }
+    .ServiceProvided_VerticleCard{
+        max-height: 500px;
+        min-height: 500px;
+        width: 100%;
+        
+}
+.ServiceProvided_VerticleCardTypo{
+    height: 200px;
+}
+}
+@media only screen and (max-width: 768px) {
+    .ServiceProvided_Card{
+        max-height: 200px;
+        min-height: 200px;
+    
+    }
+}
+@media only screen and (max-width: 600px) {
+    .ServiceProvided_Card{
+        max-height: 300px;
+        min-height: 300px;
+    
+    }
+    .ServiceProvided_VerticleCard{
+        max-height: 700px;
+        min-height: 700px;
+        width: 100%;
+        
+}
+}
 
