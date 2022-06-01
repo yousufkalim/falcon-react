@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import SectionHeader from "./SectionHeader";
 import { Carousel } from "@trendyol-js/react-carousel";
 import KidCab from "../../assets/images/kidcab.svg";
@@ -18,10 +18,19 @@ import { motion } from "framer-motion";
 import BasicModal from "./BasicModal";
 
 export default function LatestProjects(props) {
-  let slideShow = 4.5;
-  if (window.innerWidth <= 600){
-    slideShow = 2;
-  }
+  let [slideShow, setSlideShow] = useState(window.innerWidth <= 600 ? 2 : 4.5);
+
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth <= 600) {
+        setSlideShow(2);
+      } else {
+        setSlideShow(4.5);
+      }
+    }
+
+    window.addEventListener("resize", handleResize);
+  }, []);
  
   return (
     <>
@@ -132,7 +141,7 @@ export default function LatestProjects(props) {
             </div>
           </Carousel>
         </motion.div>
-        {props.ProjectsSummary ? (
+        {props.ProjectsSummary && (
           <div className="ProjectsCompletedDiv">
             <div className="Left">
               <Typography
@@ -204,8 +213,6 @@ export default function LatestProjects(props) {
               </Typography>
             </div>
           </div>
-        ) : (
-          ""
         )}
       </div>
     </>

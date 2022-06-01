@@ -8,8 +8,8 @@ export default function ServiceProvidedCard(props) {
     <>
       {props.verticleCard ? (
         <motion.div
-          initial={{ x: 200 }}
-          whileInView={{ x: 0 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1}}
           transition={{ duration: 1 }}
           viewport={{ once: true }}
           style={{
@@ -64,8 +64,8 @@ export default function ServiceProvidedCard(props) {
         </motion.div>
       ) : (
         <motion.div
-          initial={{ x: -400 }}
-          whileInView={{ x: 0 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
           viewport={{ once: true }}
           style={{

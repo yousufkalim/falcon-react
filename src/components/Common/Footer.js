@@ -2,11 +2,10 @@ import { Divider, Typography } from "@mui/material";
 import React from "react";
 import Logo from "../../assets/images/logo.png";
 import FB from "../../assets/images/FooterFB.svg";
-import Twitter from "../../assets/images/FooterTwitter.svg";
 import LinkedIn from "../../assets/images/FooterLinkedIn.svg";
 import WhatsApp from "../../assets/images/FooterWhatsApp.svg";
 import { motion } from "framer-motion";
-export default function (props) {
+export default function Footer(props) {
   return (
     <>
       <motion.div
@@ -32,7 +31,10 @@ export default function (props) {
               <img className="FooterIcons" src={FB} />
               {/* <img className="FooterIcons" src={Twitter} /> */}
               <img className="FooterIcons" src={LinkedIn} />
+            <a href="https://wa.me/03135098197">
+
               <img className="FooterIcons" src={WhatsApp} />
+              </a>
             </div>
           </div>
           <div className="FooterRight">
@@ -44,10 +46,23 @@ export default function (props) {
                 Pages
               </Typography>
               <ul>
-                <li>About</li>
-                <li>Services</li>
-                <li>Our projects</li>
-                <li>Contact</li>
+                <li>
+                  <a href="/about">
+                  About
+                  </a>
+                  </li>
+                  <li>
+                  <a href="/ourprojects">
+                  Our projects
+                  </a>
+                  </li>
+                  <li>
+                  <a href="/contactus">
+                  Contact
+                  </a>
+                  </li>
+               
+                
               </ul>
             </div>
             <div className="FooterList">
@@ -55,13 +70,35 @@ export default function (props) {
                 className="FooterListHeading"
                 sx={{ fontWeight: "700", opacity: "50%", marginBottom: "23%" }}
               >
-                Focus
+                Services
               </Typography>
               <ul>
-                <li>UI/UX Developmemt</li>
-                <li>App Development</li>
-                <li>Web Development</li>
-                <li>Website Design</li>
+              <li>
+                  <a href="/services/web-development">
+                  Web Development
+                  </a>
+                  </li>
+                  <li>
+                  <a href="/services/app-development">
+                  App Development
+                  </a>
+                  </li>
+                  <li>
+                  <a href="/services/software-development">
+                  Software Development
+                  </a>
+                  </li>
+                  <li>
+                  <a href="/services/ondemand-developers">
+                  On Demand Developers
+                  </a>
+                  </li>
+                  <li>
+                  <a href="/services/ui-development">
+                  UI/UX Developmemt
+                  </a>
+                  </li>
+               
               </ul>
             </div>
             <div className="FooterList">
@@ -82,7 +119,7 @@ export default function (props) {
       <Divider />
       <div className="CopyRightDiv">
         <Typography sx={{ fontSize: "80%", fontWeight: "700" }}>
-          © 2015-2022
+          © 2015-{new Date().getFullYear()}
           <span style={{ color: "#003B7E" }}> Falcon Consulting</span>, All
           Rights Reserved.
         </Typography>

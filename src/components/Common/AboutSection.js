@@ -25,7 +25,7 @@ export default function AboutSection() {
           <Grid container spacing={1}>
             <Grid xs={12}>
               <motion.div
-                initial={{ x: -400 }}
+                initial={{ x: -300 }}
                 whileInView={{ x: 0 }}
                 transition={{ duration: 1 }}
                 viewport={{ once: true }}
@@ -58,7 +58,7 @@ export default function AboutSection() {
               </Grid>
               <Grid sm={6}>
                 <motion.div
-                  initial={{ x: 400 }}
+                  initial={{ x: 300 }}
                   whileInView={{ x: 0 }}
                   transition={{ duration: 1 }}
                   viewport={{ once: true }}
@@ -101,7 +101,7 @@ export default function AboutSection() {
                       strive to put in place a continuous improvement process
                       internally
                     </Typography>
-                    <a href={`${process.env.REACT_APP_DEMO}/about`}>
+                    <a href={`/about`}>
                       <button className="AboutSectionBtn">READ MORE ‘ </button>
                     </a>
                   </div>

@@ -6,9 +6,7 @@ import PermispopImg from "../../assets/images/PermispopImg.svg";
 import PP_logo from "../../assets/images/permisLogo.png";
 import DesignConf from "../../assets/images/DesignImg.svg";
 import Desine_Logo from "../../assets/images/desineLogo.png";
-import QB_logo from "../../assets/images/quadraLogo.png";
 import RealEstate_Logo from "../../assets/images/realestateLogo.png";
-import EzBox_Logo from "../../assets/images/ezBoxLogo.png";
 import Movement from "../../assets/images/movement.svg";
 import Quadra from "../../assets/images/QuadraImg.svg";
 import BarberShop from "../../assets/images/BarberShopImg.svg";
@@ -135,7 +133,7 @@ export default function BasicTabs() {
           title="Quadrabase"
           description="A revolutionary approach to construction document generation for big companies."
         />
-        {MoreProjects ? (
+        {MoreProjects && (
           <>
             <OurProjectCard
               Reverse
@@ -181,8 +179,6 @@ export default function BasicTabs() {
               description="Mobile application allowing students to learn easily the Tajweed."
             />
           </>
-        ) : (
-          ""
         )}
         <Grid xs={12} className="BlogBtnGrid">
           <Button className="BlogBtn" variant="outlined" onClick={(e) => SetMoreProjects(!MoreProjects)}>
@@ -220,7 +216,7 @@ export default function BasicTabs() {
           title="Quadrabase"
           description="A revolutionary approach to construction document generation for big companies."
         />
-        {MoreProjects ? (
+        {MoreProjects && (
           <>
             <OurProjectCard
               Reverse
@@ -337,8 +333,6 @@ export default function BasicTabs() {
               description="Mobile application allowing students to learn easily the Tajweed."
             />
           </>
-        ) : (
-          ""
         )}
         <Grid xs={12} className="BlogBtnGrid">
           <Button className="BlogBtn" variant="outlined" onClick={(e) => SetMoreProjects(!MoreProjects)}>
@@ -366,7 +360,7 @@ export default function BasicTabs() {
           description="Cutting-Edge technology allowing health professional to assess their patients remotely,"
         />
 
-        {MoreProjects ? (
+        {MoreProjects && (
           <>
             <OurProjectCard
               src={Orgaplan}
@@ -422,8 +416,6 @@ export default function BasicTabs() {
               description="Mobile application allowing students to learn easily the Tajweed."
             />
           </>
-        ) : (
-          ""
         )}
         <Grid xs={12} className="BlogBtnGrid">
           <Button className="BlogBtn" variant="outlined" onClick={(e) => SetMoreProjects(!MoreProjects)}>
@@ -455,7 +447,7 @@ export default function BasicTabs() {
           title="Quadrabase"
           description="A revolutionary approach to construction document generation for big companies."
         />
-        {MoreProjects ? (
+        {MoreProjects && (
           <>
             <OurProjectCard
               Reverse
@@ -500,8 +492,6 @@ export default function BasicTabs() {
               description="Mobile application allowing students to learn easily the Tajweed."
             />
           </>
-        ) : (
-          ""
         )}
         <Grid xs={12} className="BlogBtnGrid">
           <Button className="BlogBtn" variant="outlined" onClick={(e) => SetMoreProjects(!MoreProjects)}>

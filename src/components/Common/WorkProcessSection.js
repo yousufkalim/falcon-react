@@ -1,5 +1,5 @@
 // Init
-import { Grid, Typography } from "@mui/material";
+import { Grid} from "@mui/material";
 import React from "react";
 import SectionHeader from "./SectionHeader";
 import Step1 from "../../assets/images/step1.svg";

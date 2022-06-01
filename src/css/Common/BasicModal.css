@@ -34,6 +34,11 @@
     font-weight: 600 !important;
     /* font-weight: 500 !important; */
 }
+@media only screen and (max-width: 420px) {
+    .ModalOpenBtn{
+        font-size: .5rem !important;
+    }
+}
 /* .ModalProjectBtn{
     width: 100% !important;
     border-radius: 10px !important;

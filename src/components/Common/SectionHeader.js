@@ -2,8 +2,6 @@ import React from "react";
 import { Typography } from "@mui/material";
 import { Divider } from "@mui/material";
 import { motion } from "framer-motion";
-import { AOS } from "aos";
-// AOS.init();
 export default function SectionHeader(props) {
   return (
     <>
@@ -12,9 +10,7 @@ export default function SectionHeader(props) {
           className={
             props.LeftSectionHeader ? "LeftSectionHeader" : "SectionHeaderTypo"
           }
-          // data-aos="fade-down-left"
-          // animate={{ scale: 2 }}
-          // transition={{ duration: 0.5 }}
+        
         >
           <Typography
             className="SectionHeaderH1"

@@ -1,15 +1,10 @@
 import { Grid, Typography } from "@mui/material";
 import React, { useRef } from "react";
 import SectionHeader from "./SectionHeader";
-import WhatsappIcon from "../../assets/images/whatsapp.svg";
 import EmailIcon from "../../assets/images/emailIcon.svg";
 import Robot from "../../assets/images/notRobort.svg";
-import CallIcon from "../../assets/images/callIcon.svg";
 import CalendlyIcon from "../../assets/images/calendlyIcon.svg";
-import TextField from "@mui/material/TextField";
 import emailjs from "emailjs-com";
-import { Checkbox } from "@mui/material";
-import { motion } from "framer-motion";
 export default function ContactUsSection(props) {
   const sendEmail = (e) => {
     e.preventDefault();

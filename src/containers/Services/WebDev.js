@@ -2,14 +2,14 @@
 import React from "react";
 
 // Importing Components
-import NavBar from "../Common/NavBar";
-import Header from "../Common/Header";
-import Footer from "../Common/Footer";
-import ServiceFrame from "../Common/ServiceFrame";
-import LatestProjects from "../Common/LatestProjects";
+import NavBar from "../../components/Common/NavBar";
+import Header from "../../components/Common/Header";
+import Footer from "../../components/Common/Footer";
+import ServiceFrame from "../../components/Common/ServiceFrame";
+import LatestProjects from "../../components/Common/LatestProjects";
 import WebDevImg from "../../assets/images/webdevImg.svg";
-import WorkProcessSection from "../Common/WorkProcessSection";
-import KeyFeatureSection from "../Common/KeyFeatureSection";
+import WorkProcessSection from "../../components/Common/WorkProcessSection";
+import KeyFeatureSection from "../../components/Common/KeyFeatureSection";
 // Home Component
 export default function WebDev() {
   return (

@@ -12,7 +12,7 @@ export default function DeveloperSlider(props) {
           <Typography className="DeveloperTypo_H">{props.heading}</Typography>
           <Typography className="DeveloperTypo_Desp">{props.desp}</Typography>
           <Button className="DeveloperTypo_Btn" variant="outlined">
-            <a href={`${process.env.REACT_APP_DEMO}/contactus`}>
+            <a href={`/contactus`}>
               {props.btnText || "Contact us"}
             </a>
           </Button>

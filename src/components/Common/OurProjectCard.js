@@ -13,9 +13,9 @@ export default function OurProjectCard(props) {
     <>
       {props.Reverse ? (
         <motion.div
-          initial={{ x: 500 }}
+          initial={{ x: 300 }}
           whileInView={{ x: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: .5 }}
           viewport={{ once: true }}
           className="ProjectCardMain"
         >
@@ -69,9 +69,9 @@ export default function OurProjectCard(props) {
         </motion.div>
       ) : (
         <motion.div
-          initial={{ x: -500 }}
+          initial={{ x: -300 }}
           whileInView={{ x: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: .5 }}
           viewport={{ once: true }}
           className="ProjectCardMain"
         >

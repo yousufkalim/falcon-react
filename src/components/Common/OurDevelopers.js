@@ -1,7 +1,5 @@
 import React from "react";
 import { Carousel } from "@trendyol-js/react-carousel";
-// import { Carousel } from "react-responsive-carousel";
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionHeader from "../Common/SectionHeader";
 import Agile from "../../assets/images/od_agile.png";
 import Experienced from "../../assets/images/od_experienced.png";
@@ -31,10 +29,6 @@ export default function OurDevelopers(props) {
             slide={1}
             infinite={true}
             transition={0.5}
-            // autoPlay={true}
-            // useArrowKeys={false}
-            // width="100%"
-            // transitionTime={1}
             rightArrow={<img src={Right} />}
             leftArrow={<img src={Left} />}
           >
