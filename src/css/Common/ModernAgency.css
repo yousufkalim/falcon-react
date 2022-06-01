@@ -22,6 +22,11 @@
     flex-direction: column;
     width: 200px;
 }
+.HistoryMain_Last{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
 .HistoryDiv{
     display: flex;
     text-align: center;
@@ -58,6 +63,11 @@
     margin-top: 2%;
     text-align: center;
 }
+.HistoryTypoDiv_Last{
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
 .HistoryTypoH{
     color: #fff; 
     font-size: 1.3rem !important;
@@ -87,6 +97,20 @@
     .HistoryTypoP{
         font-size: .7rem !important;
     }
+    .HistoryMain{
+        width: 150px;
+    }
+    .HistoryMain_Last{
+        width: 75px;
+    }
+    .HistoryImgDiv{
+        width: 75px;
+        height: 75px !important;
+    }
+    .ArrowMain{
+        width: 75px;
+        height: 75px; 
+    }
   
 }
 @media only screen and (max-width: 600px) {
@@ -95,6 +119,31 @@
     }
     .HistoryTypoP{
         font-size: .5rem !important;
+    }
+    .HistorySumary{
+        flex-direction: column;
+    }
+    .HistoryMain{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+            width: 100px;
+            margin-bottom: 5%;
+    }
+    .HistoryMain_Last{
+        width: 100px;
+    }
+    .HistoryImgDiv{
+        width: 100px;
+        height: 100px !important;
+    }
+    .HistoryImg{
+        width: 80%;
+    }
+    .ArrowMain{
+        visibility: hidden;
+        width: 0px;
+        height: 0px; 
     }
     /* .ArrowMain{
         height: 5vh;
