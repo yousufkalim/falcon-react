@@ -29,7 +29,6 @@ export default function Footer(props) {
             </Typography>
             <div className="IconsDiv">
               <img className="FooterIcons" src={FB} />
-              {/* <img className="FooterIcons" src={Twitter} /> */}
               <img className="FooterIcons" src={LinkedIn} />
             <a href="https://wa.me/03135098197">
 

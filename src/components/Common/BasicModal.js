@@ -49,6 +49,7 @@ export default function BasicModal(props) {
                 position: "absolute",
                 width: "4%",
                 right: "5%",
+                cursor:"pointer"
               }}
               onClick={handleClose}
               src={CloseIcon}

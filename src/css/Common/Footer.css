@@ -74,8 +74,14 @@
     }
 }
 @media only screen and (max-width: 600px) {
+    .FooterLogo {
+        width: 60%;
+    }
     .FooterTypo {
-        font-size: .7rem !important;
+        font-size: .6rem !important;
+    }
+    .FooterIcons{
+        width: 10%;
     }
     .FooterListHeading{
         font-size: .7rem !important;

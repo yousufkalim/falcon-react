@@ -40,7 +40,7 @@ width: 50%;
 }
 @media only screen and (max-width: 600px) {
     .DeveloperCardMain{
-        flex-direction: column-reverse;
+        flex-direction: column-reverse !important;
     }
     .DeveloperCardMain_R{
         flex-direction: column;

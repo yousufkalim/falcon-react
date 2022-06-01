@@ -80,6 +80,7 @@ export default function BlogHeader() {
               borderRadius: "35px",
               padding: "1%",
               color: "white",
+              cursor:"pointer"
             }}
           >
             SUBSCRIBE

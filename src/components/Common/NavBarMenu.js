@@ -30,7 +30,7 @@ export default function NavBarMenu({Menu, SetMenu}) {
                     className="MenuIconMob"
                     alt="NavMenu"
                     src={CloseIcon}
-                    style={{ width: "2.5%", color: "white" }}
+                    style={{ width: "2.5%", color: "white",cursor:"pointer" }}
                     onClick={(e) => SetMenu(!Menu)}
                   />
                 </Toolbar>
