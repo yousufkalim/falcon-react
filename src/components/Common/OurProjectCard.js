@@ -1,6 +1,6 @@
 // Init
 import { Grid, Typography } from "@mui/material";
-import React from "react";
+import React,{useState,useEffect} from "react";
 import { motion } from "framer-motion";
 // Importing Components
 import PP_logo from "../../assets/images/permisLogo.png";
@@ -8,7 +8,19 @@ import Button from "@mui/material/Button";
 import { Divider } from "@mui/material";
 import BasicModal from "./BasicModal";
 // Home Component
+function useWindowSize() {
+  const [size, setSize] = useState([window.innerWidth]);
+  useEffect(() => {
+    const handleResize = () => {
+      setSize([window.innerWidth]);
+    };
+    window.addEventListener("resize", handleResize);
+  }, []);
+  return size;
+}
 export default function OurProjectCard(props) {
+  const [width] = useWindowSize();
+  console.log(props.description.length);
   return (
     <>
       {props.Reverse ? (
@@ -30,7 +42,7 @@ export default function OurProjectCard(props) {
             <Grid xs={12} sm={10} md={3}>
               <div className="ProjectCardTypo">
                 <Typography className="ProjectCardTitle">
-                  {props.title || "Permispop."}
+                  {props?.title?.length>15?props?.title?.slice(0,15)+"...":props?.title || "Permispop."}
                 </Typography>
                 <Divider
                   className="ProjectCardDivider"
@@ -44,7 +56,7 @@ export default function OurProjectCard(props) {
                 />
 
                 <Typography className="ProjectCardDesp">
-                  {props.description}
+                  {props?.description?.length>50? props?.description.slice(0,50)+"...":props?.description}
                 </Typography>
                 <Button className="ProjectCardBtn" variant="outlined">
                   <BasicModal
@@ -79,7 +91,7 @@ export default function OurProjectCard(props) {
             <Grid xs={12} sm={10} md={3}>
               <div className="ProjectCardTypo">
                 <Typography className="ProjectCardTitle">
-                  {props.title || "Permispop."}
+                {props?.title?.length>15?props?.title?.slice(0,15)+"...":props?.title || "Permispop."}
                 </Typography>
                 <Divider
                   className="ProjectCardDivider"
@@ -93,7 +105,7 @@ export default function OurProjectCard(props) {
                 />
 
                 <Typography className="ProjectCardDesp">
-                  {props.description}
+                {props?.description?.length>50? props?.description.slice(0,50)+"...":props?.description}
                 </Typography>
 
                 <Button className="ProjectCardBtn" variant="outlined">

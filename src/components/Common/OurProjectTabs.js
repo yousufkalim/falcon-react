@@ -1,4 +1,4 @@
-import * as React from "react";
+import  React,{useState} from "react";
 import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import OurProjectCard from "../Common/OurProjectCard";
@@ -35,9 +35,36 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 // import Website from "./WebsiteList";
 
+
+const items = [
+  {
+    text:"SOFTWARE",
+    id:"0"
+  },
+  {
+  text:"WEBSITE",
+  id:"1"
+  },
+{
+  text:"ALL",
+  id:"2"
+},
+{
+  text:"MOBILE APPLICATION",
+  id:"3"
+},
+{
+  text:"UI/UX",
+  id:"4"
+},
+{
+  text:"DATA & CLOUD",
+  id:"5"
+}
+]
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
-
+   
   return (
     <div
       role="tabpanel"
@@ -70,24 +97,33 @@ function a11yProps(index) {
 
 export default function BasicTabs() {
   const [MoreProjects, SetMoreProjects] = React.useState(false);
-
+  const [activeId, setactiveId] = useState("")
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-
+ 
   return (
-    <Box className="ProjectListMain" sx={{ width: "100%" }}>
+   
+    <Box  className="ProjectListMain" sx={{ width: "100%" }}> <>
+    </>
       <Box className="ProjectListTabsBox">
-        <Tabs allowScrollButtonsMobile selectionFollowsFocus={true} visibleScrollbar className="ProjectListTabs" value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab className="ProjectListLabel" label="Software" {...a11yProps(0)} />
-          <Tab className="ProjectListLabel" label="Website" {...a11yProps(1)} />
-          <Tab className="ProjectListLabel" label="ALL" {...a11yProps(2)} />
-          <Tab className="ProjectListLabel" label="Mobile Application" {...a11yProps(3)} />
-          <Tab className="ProjectListLabel" label="UI/UX" {...a11yProps(4)} />
-          <Tab className="ProjectListLabel" label="Data & Cloud" {...a11yProps(5)} />
-        </Tabs>
+        <Tabs  
+         allowScrollButtonsMobile 
+         selectionFollowsFocus={true} 
+         visibleScrollbar 
+         className="ProjectListTabs" 
+         value={value} 
+         onChange={handleChange} 
+         aria-label="basic tabs example">
+           {
+             items.map((val,index)=>(
+            <Tab onClick={(event)=>setactiveId(event.target.id)}  className={`${`simple-tab-${val?.id}`==activeId? "pjlabs":"ProjectListLabel "}`} label={val?.text} {...a11yProps(index)} />
+             ))
+           }
+
+        </Tabs> 
       </Box>
       <TabPanel value={value} index={0}>
         <OurProjectCard

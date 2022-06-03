@@ -59,17 +59,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
+    width: 587px;
     color: #fff;
-    height: 80vh;
+    position: relative;
+
   }
   .ServiceOptionDiv{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 50%;
+    justify-content: end;
+    width: 42%;
     color: #fff;
-    height: 80vh;
+    border-right: 1px solid;
   }
   .ServicesFields li{
     list-style: none;
@@ -88,7 +89,6 @@
     line-height: 2;
     font-weight: 700;
     font-size: 1.5rem;
-    list-style: none;
   }
   .MainMenuList li a{
     color: #E5E5E5;
@@ -103,12 +103,50 @@
     padding:0% !important;
   }
 
+  .text-dot-container{
+    display: flex;
+    align-items: center;
+  }
+  .text-dot-container a{
+       color: #E5E5E5;
+      font-weight: 700;
+      font-size: 1.5rem;
+      padding-left:6%;
+  }
+  .services{
+    color: #E5E5E5;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-left: 6%;
+  }
+  .dot {
+    height: 6px;
+    width: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .class-name{
+    border-bottom: 1px solid white;
+    width: 25%;
+    position: absolute;
+    left: 42%;
+    top: 51.5px;
+  }
+  
+  .MainMenu{
+    width: 34%;
+  }
+  
+  .MainMenu>*{
+    padding-bottom: 10px;
+  }
 @media only screen and (max-width: 900px) {
   .MenuSection{
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: center; */
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
     margin: 2%;
   }
@@ -124,33 +162,37 @@
     width: 100%;
   }
   .MenuTypoDiv{
-    /* display: flex; */
-    /* align-items: center; */
+     display: flex; 
+     align-items: center; 
     justify-content: space-between;
-    width: 70%;
+    /*width: 70%;*/
     height: 30vh;
   }
   .MainMenu{
-    display: flex;
     width: fit-content;
   }
   .ServiceOptionDiv{
-    /* display: flex; */
-    /* align-items: center; */
+    display: flex; 
+     align-items: center;
     justify-content: space-between;
-    width: 50%;
-    /* color: #fff; */
-    /* height: 80vh; */
+    /*width: 50%;*/
+     color: #fff;
   }
-
+  .MenuSectionMain{
+    width: 100%;
+  }
+.class-name{
+  top: 45.5px;
+  width: 33%;
+}
 
 }
 @media only screen and (max-width: 600px) {
 
   .MenuSection{
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
+     display: flex; 
+     align-items: center; 
+     justify-content: center; 
     flex-direction: column;
     width: 100%;
     margin: 2% 0%;
@@ -178,7 +220,6 @@
 
   }
   .MainMenuList{
-   
     width: 100%;
   }
 
@@ -198,6 +239,7 @@
   }
   .MainMenu{
     width: 100%;
+    visibility: hidden;
   }
   .Service_Pc{
     position: absolute;
@@ -265,6 +307,24 @@
   /* #Mob_items:focus{
     color: black !important;
   } */
-
-
+  .class-name{
+    display: none;
+  }
+  .text-dot-container{
+    display: none;
+  }
 }
+
+#Mob_items{
+font-size: 10px;
+}
+
+
+.Service_Mobile span{
+  color: #003B7E;
+}
+
+
+
+
+

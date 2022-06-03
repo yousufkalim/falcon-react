@@ -1,3 +1,9 @@
+.ProjectListTabsBox{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
 .ProjectListMain{
     margin: 2%;
     display: flex;
@@ -7,11 +13,17 @@
 .ProjectListLabel{
     font-family:  Montserrat !important;
     color: black !important;
-    
+    padding:1.5%;
     font-weight: 600 !important;
     opacity: 40%;
 }
 .ProjectListLabel:hover{
+    color: white !important;
+    background-color: #003B7E !important;
+    opacity: 100% !important;
+    border-radius: 10px !important;
+}
+.pjlabs{
     color: white !important;
     background-color: #003B7E !important;
     opacity: 100% !important;
@@ -25,4 +37,12 @@
     height: 0 !important;
     width: 0 !important;
 }
-
+@media only screen and (max-width: 768px) {
+    .css-jpln7h-MuiTabs-scroller{
+        overflow-x: scroll !important;
+        max-width: 500px !important;
+    }
+    .ProjectListTabsBox{
+        width: 70%;
+    }
+}

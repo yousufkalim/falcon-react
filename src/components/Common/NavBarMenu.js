@@ -80,21 +80,43 @@ export default function NavBarMenu({Menu, SetMenu}) {
                           </>
                         )}
                       </div>
-
+                      {
+                        ServiceDropDown?(
+                        <>
+                        <div className="class-name"> 
+                      </div> 
+                        </>
+                        ):null
+                      }
+                     
                       <div className="MainMenu">
+                         <div className="text-dot-container"> 
+                         <span class="dot"></span>
+                         <a style={{color:"white"}} href={`/about`}>About</a>
+                         </div>
+                         <div className="text-dot-container">
+                         
+                         <span class="dot"></span>
+                        <span className="services" onClick={(e) => SetServiceDropDown(!ServiceDropDown)} >Services</span>  
+                         </div>
+                         <div className="text-dot-container"> 
+                         <span class="dot"></span>
+                         <a style={{color:"white"}} href={`/blog`}>Blog</a>
+                         </div>
+                         <div className="text-dot-container"> 
+                         <span class="dot"></span>
+                         <a style={{color:"white"}} href={`/ourprojects`}>Our Projects</a>
+                         </div>
+                         <div className="text-dot-container"> 
+                         <span class="dot"></span>
+                         <a style={{color:"white"}} href={`/contactus`}>Contact Us</a>
+                         </div>
                         <ul className="MainMenuList">
-                          <li className="Service_Pc">
-                            <a href={`/about`}>About</a>
-                          </li>
-                          <div
-                            className="Service_Pc"
-                            style={{
-                              display: "flex",
-                              alignItems: "center",
-                            }}
-                          >
-                            <li onClick={(e) => SetServiceDropDown(!ServiceDropDown)}>Services</li>
-                          </div>
+                            {/* <li onClick={(e) => SetServiceDropDown(!ServiceDropDown)}>
+                            Services
+                              </li> */}
+                          
+                          {/* mobileview */}
                           <div className="Service_Mobile">
                             <List
                               sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}
@@ -157,7 +179,9 @@ export default function NavBarMenu({Menu, SetMenu}) {
                               </ListItemButton>
                             </List>
                           </div>
-                          <li className="Service_Pc">
+                            {/* mobileview */}
+
+                          {/* <li className="Service_Pc">
                             <a href={`/blog`}>Blog</a>
                           </li>
                           <li className="Service_Pc">
@@ -165,7 +189,7 @@ export default function NavBarMenu({Menu, SetMenu}) {
                           </li>
                           <li className="Service_Pc">
                             <a href={`/contactus`}>Contact Us</a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>
