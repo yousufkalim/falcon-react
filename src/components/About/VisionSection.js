@@ -12,13 +12,10 @@ export default function VisionSection() {
             h1="We believe our vision"
             h2="Our Vision"
             decription="Falcon Consulting is a development agency that specializes in consulting, application development and consulting in the field of new technologies. We combine rigor, quality of work and optimized production costs"
-            colorDesp
-            width="15%"
+            colorDesp="black"
           />
           <div className="VisionList">
-            <Typography sx={{ fontSize: ".9rem", padding: "1% 0%" }}>
-              We believe that talent and skills do not have borders.
-            </Typography>
+            
             <ul style={{ marginLeft: "5%" }}>
               <li>IN-HOUSE TEAM</li>
               <li>TECHNOLOGIES</li>
@@ -31,8 +28,8 @@ export default function VisionSection() {
             </ul>
           </div>
         </div>
-        <div className="VisionImg">
-          <img style={{ width: "65%" }} src={VisionImg} />
+        <div className="VisionImgDiv">
+          <img className="VisionImg" src={VisionImg} />
         </div>
       </div>
     </>
