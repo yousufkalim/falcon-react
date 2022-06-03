@@ -9,16 +9,9 @@
     z-index:1000;
     margin: 0%;
     width: 100%;
-    /* overflow: hidden; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* flex-direction: column; */
     position: absolute;
-    /* top:100%; */
-    /* width: 100%; */
-    /* transform: scaleY(100,50); */
-    /* transition: 1s; */
+    left: 0;
+
   }
   .css-13i1luw-MuiPaper-root-MuiAppBar-root{
     padding: 0% !important; 
@@ -101,6 +94,9 @@
   }
   .css-1ts5xjn-MuiPaper-root-MuiAppBar-root{
     padding:0% !important;
+  }
+  .Servive_DropDown{
+    font-size: 1.2rem;
   }
 
 @media only screen and (max-width: 900px) {
@@ -236,7 +232,7 @@
   }
   .css-10hburv-MuiTypography-root{
     color: #E5E5E5 !important;
-    line-height: 1.33 !important;
+    line-height: 1 !important;
     font-weight: 700 !important;
     font-size: 1.5rem !important;
     transition: .5s;
