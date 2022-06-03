@@ -30,7 +30,8 @@ export default function OurProjectCard(props) {
             <Grid xs={12} sm={10} md={3}>
               <div className="ProjectCardTypo">
                 <Typography className="ProjectCardTitle">
-                  {props.title || "Permispop."}
+                {props?.title?.length>15?props?.title?.slice(0,15)+ "...":props?.title || "Permispop."}
+                  {/* {props.title || "Permispop."} */}
                 </Typography>
                 <Divider
                   className="ProjectCardDivider"
@@ -44,7 +45,8 @@ export default function OurProjectCard(props) {
                 />
 
                 <Typography className="ProjectCardDesp">
-                  {props.description}
+                  {/* {props.description} */}
+                  {props?.description?.length>90? props?.description.slice(0,90)+"...":props?.description}
                 </Typography>
                 <Button className="ProjectCardBtn" variant="outlined">
                   <BasicModal
@@ -55,12 +57,14 @@ export default function OurProjectCard(props) {
                     Heading={props.title}
                     Dividerwidth={props.Dividerwidth || "12%"}
                     DividerTheme={props.DividerTheme}
-                    SubH1={props.SubH1}
                     para1={props.para1}
-                    SubH2={props.SubH1}
                     para2={props.para2}
-                    SubH3={props.SubH1}
                     para3={props.para3}
+                    para4={props.para4}
+                    para5={props.para5}
+                    para6={props.para6}
+                    para7={props.para7}
+                    para8={props.para8}
                   />
                 </Button>
               </div>
@@ -79,7 +83,8 @@ export default function OurProjectCard(props) {
             <Grid xs={12} sm={10} md={3}>
               <div className="ProjectCardTypo">
                 <Typography className="ProjectCardTitle">
-                  {props.title || "Permispop."}
+                {props?.title?.length>15?props?.title?.slice(0,15)+ "...":props?.title || "Permispop."}
+                  {/* {props.title || "Permispop."} */}
                 </Typography>
                 <Divider
                   className="ProjectCardDivider"
@@ -93,7 +98,8 @@ export default function OurProjectCard(props) {
                 />
 
                 <Typography className="ProjectCardDesp">
-                  {props.description}
+                  {props?.description?.length>90? props?.description.slice(0,90)+"...":props?.description}
+                  {/* {props.description} */}
                 </Typography>
 
                 <Button className="ProjectCardBtn" variant="outlined">
@@ -105,12 +111,14 @@ export default function OurProjectCard(props) {
                     Heading={props.title}
                     Dividerwidth={props.Dividerwidth || "12%"}
                     DividerTheme={props.DividerTheme}
-                    SubH1={props.SubH1}
                     para1={props.para1}
-                    SubH2={props.SubH1}
                     para2={props.para2}
-                    SubH3={props.SubH1}
                     para3={props.para3}
+                    para4={props.para4}
+                    para5={props.para5}
+                    para6={props.para6}
+                    para7={props.para7}
+                    para8={props.para8}
                   />
                 </Button>
               </div>
