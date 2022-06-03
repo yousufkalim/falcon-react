@@ -25,15 +25,21 @@
 
 }
 .ProjectCardTitle{
+    max-lines: 2;
         color: #000 !important;
         font-size: 2.2rem !important;
         font-weight: 800 !important;
+        
+       
 }
 .ProjectCardDesp{
         font-size: 1.2rem !important;
         font-weight: 400 !important;
+        max-height: 20vh !important;
         width: 95% !important;
         margin: 2% 0% !important;
+        overflow: hidden !important;
+       
 }
 .ProjectCardBtn{
     border: 3px solid #003B7E !important;
@@ -44,11 +50,19 @@
     margin-top: 5% !important;
     text-transform: capitalize !important;
     width: 35%;
-
 }
-
 .ProjectCardImg{
-    border-radius: 15px;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 1024px) {
+.ProjectCardTitle{
+    
+    font-size: 1.5rem !important;
+}
+.ProjectCardDesp{
+    font-size: .9rem !important;
+    width: 100% !important;
+}
 }
 @media only screen and (max-width: 900px) {
     .ProjectCardContainer1{
@@ -63,18 +77,9 @@
         margin: 5% 0% !important;
 
     }
-    /* .ProjectCardDivider{
-        display: flex !important;
-        align-items: center !important;
-    } */
-
-
 }
-
-/* @media only screen and (max-width: 600px) {
-    .ProjectCardTypo{
+@media only screen and (max-width: 600px) {
+    .ProjectCardBtn{
+        width: 40%;
     }
-    .ProjectCardDivider{
-
-    }
-} */
+}
