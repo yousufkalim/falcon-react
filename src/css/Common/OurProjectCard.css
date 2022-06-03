@@ -25,21 +25,15 @@
 
 }
 .ProjectCardTitle{
-    max-lines: 2;
         color: #000 !important;
         font-size: 2.2rem !important;
         font-weight: 800 !important;
-        
-       
 }
 .ProjectCardDesp{
         font-size: 1.2rem !important;
         font-weight: 400 !important;
-        max-height: 20vh !important;
         width: 95% !important;
         margin: 2% 0% !important;
-        overflow: hidden !important;
-       
 }
 .ProjectCardBtn{
     border: 3px solid #003B7E !important;
