@@ -78,7 +78,7 @@ export default function ModernAgencySection() {
           <div className="HistoryMain_Last">
             <div className="HistoryDiv">
               <div className="HistoryImgDiv">
-                <img className="HistoryImg" src={Tick2} />
+                <img className="HistoryImg" style={{padding:"15%"}} src={Tick2} />
               </div>
             
             </div>
