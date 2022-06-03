@@ -1,13 +1,9 @@
-/* .LocationSectionMain{
-    display: flex;
-    flex-direction: column;
-  justify-content: space-between;
-  padding: 2%;
-  align-items: center;
-  height: 80vh;
-} */
+.LocationSectionMain{
+  height: 100%;
+}
 .LocationSliderDiv{
     width: 100%;
+    /* height: 50vh; */
   padding: 2%;
   display: flex !important;
   align-items: center !important;
@@ -30,10 +26,11 @@
 }
 .LocationDiv_Typo{
     width: 45%;
+    text-align: left;
     /* margin-left: 2%; */
 }
 .LocationDiv_Typo img{
-    width: 30%;
+    width: 25% !important;
 }
 .Location_Country{
     color: #003B7E ;
@@ -55,9 +52,11 @@
     width: 100%;
 }
 
+
 @media only screen and (max-width: 600px) {
     .Awesome_Slider{
         height: 100% !important;
+        margin-top: 2% !important;
     }
     .LocationDiv{
         display: flex;
@@ -65,11 +64,11 @@
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        padding: 0%;
+        padding-top: 10% !important;
     
     }
     .LocationDiv_Img{
-        width: 85%;
+        width: 85% !important;
     }
     .LocationDiv_Typo{
         width: 85%;
@@ -88,9 +87,7 @@
 }
 }
 @media only screen and (max-width: 520px) {
-    .Awesome_Slider{
-        height: 100% !important;
-    }
+    
     .LocationDiv{
         display: flex;
         flex-direction: column-reverse;
