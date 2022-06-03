@@ -75,14 +75,14 @@ export default function ModernAgencySection() {
               </Typography>
               </div>
           </div>
-          <div className="HistoryMain">
+          <div className="HistoryMain_Last">
             <div className="HistoryDiv">
               <div className="HistoryImgDiv">
                 <img className="HistoryImg" src={Tick2} />
               </div>
             
             </div>
-            <div className="HistoryTypoDiv">
+            <div className="HistoryTypoDiv_Last">
               <Typography className="HistoryTypoH">3</Typography>
               <Typography className="HistoryTypoP">
               Office Loocations

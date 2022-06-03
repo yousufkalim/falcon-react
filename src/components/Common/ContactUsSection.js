@@ -73,7 +73,7 @@ export default function ContactUsSection(props) {
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "space-between",
-                        width: "40%",
+                        width: "45%",
                         backgroundColor: "rgba(255, 255, 255, 0.912)",
                         padding: "0.5% 2%",
                         margin: "3% 1%",

@@ -99,7 +99,7 @@ input::-webkit-inner-spin-button {
     /* left:-100%; */
 }
 .ContactSection_Web_Header{
-    width: 70%;
+    width: 90%;
     /* left:-100%; */
 }
 
@@ -227,6 +227,9 @@ input:focus ,textarea:focus{
 }
 }
 @media only screen and (max-width: 600px) {
+    .SocialMediaIcons{
+        width: 15%;
+    }
   
     .ContactUsDiv{
         padding: 15% 5%;
