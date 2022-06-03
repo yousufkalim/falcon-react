@@ -56,7 +56,7 @@ export default function ReviewSection() {
   return (
     <>
       <div className="ReviewSectionMain">
-        <SectionHeader colorH2="#0F52BA" h1="your feedback matters" h2="Client Reviews" />
+        <SectionHeader colorH2="#0F52BA" h1="your feedback matters" h2="Client Reviews" width="30%" />
         <div className="ReviewCardSlider">
           <div className="ReviewSliderContainer">
             <div className="fade-left"></div>

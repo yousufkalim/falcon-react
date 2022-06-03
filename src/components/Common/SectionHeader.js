@@ -73,6 +73,7 @@ export default function SectionHeader(props) {
           <Typography
             className="SectionHeaderDesp"
             color={props.colorDesp || "#404040B2"}
+            width={props.despWidth}
           >
             {props.decription}
           </Typography>
