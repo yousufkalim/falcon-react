@@ -14,6 +14,7 @@ export default function ServiceProvided() {
         <SectionHeader
           h1="our aim provide better service"
           h2="Services We Provide"
+          width="8%"
           // decription="This sounds simple, but it is beneficial to your business success."
         />
         <div className="ServiceProvidedBoxes">

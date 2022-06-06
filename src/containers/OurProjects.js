@@ -15,9 +15,12 @@ export default function OurProjects() {
 
       <NavBar />
       <Header
-        Title="ALL PROJECTS START BY A SIMPLE IDEA LET US TAKE CARE OF THE REST!"
-        Description="Software house with a team of experienced developers and project managers"
+        ColorTitle="ALL PROJECTS "
+        Title="START BY A SIMPLE IDEA LET US TAKE CARE OF THE REST!"
+        Description="Falcon Consulting had the opportunity to work on  various type of projects for its clients. 
+        We implemented an efficient process in order to deliver qualitative work on time. "
         ImgSrc={HeaderImg}
+        HeaderParaClassName
       />
       <LabTabs />
       <Footer />

@@ -26,6 +26,11 @@
   color: black;
   width: 90%;
 }
+.HeaderPara_Style{
+  font-weight: 400 !important;
+  font-size: .9rem !important;
+  opacity: .7;
+}
 .HeaderBtn{
   font-size: 1rem !important;
   font-weight: 700 !important;

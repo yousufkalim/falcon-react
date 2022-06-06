@@ -3,7 +3,6 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
-import KC_Logo from "../../assets/images/kidcabLogo.png";
 import { Divider } from "@mui/material";
 import CloseIcon from "../../assets/images/modalClose.svg";
 const style = {
@@ -43,10 +42,11 @@ export default function BasicModal(props) {
       >
         <Box className="ModalBox" sx={style}>
           <div className="Modal_Top">
-            <img className="Modal_Logo" src={props.LogoSrc || KC_Logo} />
+            <img className="Modal_Logo" src={props.LogoSrc} />
             <img
               style={{
                 position: "absolute",
+                top:"5%",
                 width: "4%",
                 right: "5%",
                 cursor:"pointer"
@@ -72,29 +72,30 @@ export default function BasicModal(props) {
               margin: "1% 0",
             }}
           />
-          <Typography className="Modal_SubHeading" id="modal-modal-description">
-            {props.SubH1 ||
-              "The standard Lorem Ipsum passage, used since the 1500s"}
+          <Typography className="Modal_Para" id="modal-modal-description">
+            {props.para1}
           </Typography>
           <Typography className="Modal_Para" id="modal-modal-description">
-            {props.para1 ||
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit involuptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
-          </Typography>
-          <Typography className="Modal_SubHeading" id="modal-modal-description">
-            {props.SubH2 ||
-              "Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC"}
-          </Typography>
+            {props.para2 }
+            </Typography>
           <Typography className="Modal_Para" id="modal-modal-description">
-            {props.para2 ||
-              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto "}
-          </Typography>
-          <Typography className="Modal_SubHeading" id="modal-modal-description">
-            {props.SubH3 || "1914 translation by H. Rackham"}
-          </Typography>
+            {props.para3 }
+            </Typography>
           <Typography className="Modal_Para" id="modal-modal-description">
-            {props.par3 ||
-              "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes"}
-          </Typography>
+            {props.para4 }
+            </Typography>
+          <Typography className="Modal_Para" id="modal-modal-description">
+            {props.para5 }
+            </Typography>
+          <Typography className="Modal_Para" id="modal-modal-description">
+            {props.para6 } 
+            </Typography>
+          <Typography className="Modal_Para" id="modal-modal-description">
+            {props.para7}
+            </Typography>
+            <Typography className="Modal_Para" id="modal-modal-description">
+            {props.para8}
+            </Typography>
         </Box>
       </Modal>
     </div>
@@ -107,9 +108,12 @@ export default function BasicModal(props) {
 // Heading = main project Title
 // Dividerwidth = divider's width
 // DividerBG = Divider's background color
-// SubH1 = sub heading title
 // para1 = sub heading description
-// SubH2 = sub heading title
 // para2 = sub heading description
-// SubH3 = sub heading title
 // para3 = sub heading description
+// para4 = sub heading description
+// para5 = sub heading description
+// para6 = sub heading description
+// para7 = sub heading description
+// para8 = sub heading description
+

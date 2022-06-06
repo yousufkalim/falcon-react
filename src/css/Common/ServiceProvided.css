@@ -84,6 +84,7 @@
 .ServiceProvided_VerticleCardImg{
     height: 100%;
     width: 100%;
+    margin-bottom: -6px;
     object-fit: cover;
 }
 

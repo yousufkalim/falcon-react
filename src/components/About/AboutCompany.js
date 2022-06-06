@@ -1,59 +1,43 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
+import { Divider } from "@mui/material";
 import AboutCompanyImg from "../../assets/images/aboutCompanyImg.svg";
 export default function AboutCompany() {
   return (
     <>
       <div className="AboutCompanySection">
         <Grid container spacing={1}>
-          <Grid sm={6}>
-            <div className="AboutCompanyImg">
-              <img src={AboutCompanyImg} style={{ width: "85%" }} />
+          <Grid sm={12} md={6}>
+            <div className="AboutCompanyImgDiv">
+              <img src={AboutCompanyImg} className="AboutCompanyImg" />
             </div>
           </Grid>
-          <Grid sm={6}>
+          <Grid sm={12} md={6}>
             <div className="AboutCompanyTypo">
               <Typography
-                sx={{
-                  fontSize: "1rem",
-                  color: "#42C2FF",
-                  fontWeight: "600",
-                  textTransform: "uppercase",
-                }}
+              className="AboutCompanyTypo_H1"
               >
                 BEST company
               </Typography>
+              <Divider
+            sx={{
+              width:"10%",
+              height: "5px",
+              backgroundColor: "#42C2FF",
+              borderRadius: "5px",
+              marginTop: "1% ",
+            }}
+          />
               <Typography
-                sx={{
-                  fontSize: "1.2rem",
-                  margin: "3% 0%",
-                  width: "30%",
-                  color: "#0F52BA",
-                  fontWeight: "800",
-                  textTransform: "capitalize",
-                }}
+              className="AboutCompanyTypo_H2"
               >
                 About Falcon Consulting
               </Typography>
               <Typography
-                sx={{
-                  fontSize: ".7rem",
-                  // width: "40%",
-                  fontWeight: "400",
-                }}
+              className="AboutCompanyTypo_Desp"
+             
               >
-                Falcon Consulting is a development agency that specializes in
-                consulting, application development and consulting in the field
-                of new technologies. We combine rigor, quality of work and
-                optimized production costs. Founded in 2015, Falcon Consulting
-                started out as a consulting company that worked with large
-                accounts such as Microsoft, Canon and Accor. In 2019, Falcon
-                Consulting took off and became a development agency, bringing
-                together over 10 years of experience in application development
-                and project management in its team. Established in France, the
-                agency has launched on the American market since March 2019. We
-                offer you to make our expertise available in the management and
-                development of your IT projects.
+                Falcon Consulting is a development agency that specializes in web application development and consultancy in the field of new technologies. We combine rigor, quality of work and optimized production costs. Founded in 2015, Falcon Consulting started out as a consulting company which worked with large companies such as Microsoft, Canon and Accor. In 2017, Falcon Consulting took off and became a development agency, bringing together over 10 years of experience in application development and project management in its team. Established in France, United States and Pakistan, the company is providing development services worldwide. 
               </Typography>
             </div>
           </Grid>

@@ -22,14 +22,15 @@ export default function Header(props) {
           viewport={{ once: true }}
         >
           <Typography
-            className={props.HeaderTitleClassName || "HeaderHeading"}
+            className={props.HeaderTitleClassName? "HeaderTitleClassName" : "HeaderHeading"}
             style={props.TitleStyle}
             color={props.Titlecolor || "#282828"}
           >
+           <span style={{color:"#003B7E"}}>{props.ColorTitle}</span>
             {props.Title}
           </Typography>
           <Divider
-            width={props.Dividerwidth || "35%"}
+            width={props.Dividerwidth || "17%"}
             color={props.DividerBG || "#003B7E"}
             sx={{
               height: "5px",
@@ -38,7 +39,7 @@ export default function Header(props) {
             }}
           />
           <Typography
-            className={props.HeaderParaClassName || "HeaderPara"}
+            className={props.HeaderParaClassName ? "HeaderPara_Style" : "HeaderPara"}
             style={props.ParaStyle}
           >
             {props.Description}
@@ -47,7 +48,7 @@ export default function Header(props) {
             <Button
               // color="red"
               variant={props.btnVariant || "outlined"}
-              className={props.btnClassName || "HeaderBtn"}
+              className={props.btnClassName ? "btnClassName" :  "HeaderBtn"}
             >
               {props.btnText}
             </Button>
@@ -55,7 +56,7 @@ export default function Header(props) {
         </motion.div>
       </Grid>
       <Grid
-        className={props.DetailHeaderImg || "HeaderImg"}
+        className={props.DetailHeaderImg ? "DetailHeaderImg" : "HeaderImg"}
         xs={12}
         sm={12}
         md={7}

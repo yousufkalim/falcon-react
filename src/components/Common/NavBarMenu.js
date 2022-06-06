@@ -115,27 +115,27 @@ export default function NavBarMenu({Menu, SetMenu}) {
                                 {/* primaryTypographyProps={{fontSize: "1.4rem",color:"white",fontWeight:"500",lineHeight:1 }}  */}
                                   <ListItemButton id="Mob_nav" sx={{ pl: 6}}>
                                     <a style={{width:"100%"}}  href={`/services/web-development`}>
-                                      <ListItemText primary="WEB DEVELOPMENT" />
+                                     <ListItemText><span className="Servive_DropDown"> WEB DEVELOPMENT</span></ListItemText>
                                     </a>
                                   </ListItemButton>
                                   <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
                                     <a style={{width:"100%"}}  href={`/services/app-development`}>
-                                      <ListItemText primary="APP DEVELOPMENT" />
+                                      <ListItemText><span className="Servive_DropDown"> APP DEVELOPMENT</span></ListItemText>
                                     </a>
                                   </ListItemButton>
                                   <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
                                     <a style={{width:"100%"}}  href={`/services/software-development`}>
-                                      <ListItemText primary="SOFTWARE DEVELOPMENT" />
+                                      <ListItemText><span className="Servive_DropDown"> SOFTWARE DEVELOPMENT</span></ListItemText>
                                     </a>
                                   </ListItemButton>
                                   <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
                                     <a style={{width:"100%"}}  href={`/services/ondemand-developers`}>
-                                      <ListItemText primary="ON DEMAND DEVELOPERS" />
+                                      <ListItemText><span className="Servive_DropDown"> ON DEMAND DEVELOPERS</span></ListItemText>
                                     </a>
                                   </ListItemButton>
                                   <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
                                     <a style={{width:"100%"}}  href={`/services/ui-development`}>
-                                      <ListItemText primary="UI/UX DEVELOPMENT" />
+                                      <ListItemText><span className="Servive_DropDown"> UI/UX DEVELOPMENT</span></ListItemText>
                                     </a>
                                   </ListItemButton>
                                 </List>
