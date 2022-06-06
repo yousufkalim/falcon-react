@@ -18,6 +18,7 @@
     "react-dom": "^17.0.2",
     "react-error-overlay": "6.0.9",
     "react-responsive-carousel": "^3.2.23",
+    "react-google-recaptcha": "^2.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.0",
     "react-stacked-center-carousel": "^1.0.5",

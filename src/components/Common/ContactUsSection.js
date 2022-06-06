@@ -5,6 +5,7 @@ import EmailIcon from "../../assets/images/emailIcon.svg";
 import Robot from "../../assets/images/notRobort.svg";
 import CalendlyIcon from "../../assets/images/calendlyIcon.svg";
 import emailjs from "emailjs-com";
+import ReCAPTCHA from "react-google-recaptcha";
 export default function ContactUsSection(props) {
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,14 +19,16 @@ export default function ContactUsSection(props) {
       }
     );
   };
+  function onChange(value) {
+    console.log("Captcha value:", value);
+  }
   return (
     <>
       {props.ContactUs ? (
         <div className="ContactUsDiv">
           <div>
             <SectionHeader
-            
-              width="5%"
+              width="6%"
               h1="Contact Us"
               h2="Share Your Project/Idea with us!"
               colorH2="#fff"
@@ -39,23 +42,23 @@ export default function ContactUsSection(props) {
               <Grid container sm={8} md={6} className="ContactFormGrid">
                 <form onSubmit={sendEmail} className="ContactForm">
                   <div style={{ display: "flex", width: "100%" }}>
-                    <Grid className="InputGrid" xs={12} sm={6}>
+                    <Grid xs={12} sm={6}>
                       <input required type="text" name="name" placeholder="Your Name" className="InputField" />
                     </Grid>
-                    <Grid className="InputGrid" xs={12} sm={6}>
+                    <Grid xs={12} sm={6}>
                       <input required type="email" name="email" placeholder="Email" className="InputField" />
                     </Grid>
                   </div>
                   <div style={{ display: "flex" }}>
-                    <Grid className="InputGrid" xs={12} sm={6}>
+                    <Grid xs={12} sm={6}>
                       <input required type="number" name="phone" placeholder="Phone" className="InputField" />
                     </Grid>
-                    <Grid className="InputGrid" xs={12} sm={6}>
+                    <Grid xs={12} sm={6}>
                       <input required type="text" name="budget" placeholder="Budget" className="InputField" />
                     </Grid>
                   </div>
                   <div>
-                    <Grid className="InputGrid"  xs={12}>
+                    <Grid className="InputGrid" xs={12}>
                       <textarea
                         required
                         type="text"
@@ -66,9 +69,10 @@ export default function ContactUsSection(props) {
                       />
                     </Grid>
                   </div>
-                  <Grid className="Robot_Grid"  xs={12}>
-                    <div
-                    className="RobotDiv"
+                  <Grid xs={12}>
+                    <ReCAPTCHA sitekey="6Ldx_T0gAAAAAEUJmHBAIEaOLc2sTPgb00PcbhnA" onChange={onChange} />
+                    {/* <div
+                      className="RobotDiv"
                       style={{
                         display: "flex",
                         alignItems: "center",
@@ -97,9 +101,10 @@ export default function ContactUsSection(props) {
                         >
                           I'm not a robot
                         </Typography>
+                       
                       </div>
                       <img src={Robot} />
-                    </div>
+                    </div> */}
                   </Grid>
                   <Grid className="Contact_Send_Grid" xs={3}>
                     <button type="submit" className="ContactUsBtn">
