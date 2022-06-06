@@ -8,19 +8,10 @@ import Button from "@mui/material/Button";
 import { Divider } from "@mui/material";
 import BasicModal from "./BasicModal";
 // Home Component
-function useWindowSize() {
-  const [size, setSize] = useState([window.innerWidth]);
-  useEffect(() => {
-    const handleResize = () => {
-      setSize([window.innerWidth]);
-    };
-    window.addEventListener("resize", handleResize);
-  }, []);
-  return size;
-}
+
 export default function OurProjectCard(props) {
-  const [width] = useWindowSize();
-  console.log(props.description.length);
+
+
   return (
     <>
       {props.Reverse ? (

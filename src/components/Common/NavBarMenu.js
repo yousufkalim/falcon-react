@@ -11,6 +11,7 @@ import ListItemText from "@mui/material/ListItemText";
 import Collapse from "@mui/material/Collapse";
 import ExpandLess from "@mui/icons-material/ExpandLess";
 import ExpandMore from "@mui/icons-material/ExpandMore";
+import {Link} from "react-router-dom";
 
 export default function NavBarMenu({Menu, SetMenu}) {
   const [ServiceDropDown, SetServiceDropDown] = React.useState(false);
@@ -92,7 +93,8 @@ export default function NavBarMenu({Menu, SetMenu}) {
                       <div className="MainMenu">
                          <div className="text-dot-container"> 
                          <span class="dot"></span>
-                         <a style={{color:"white"}} href={`/about`}>About</a>
+                         {/* <a style={{color:"white"}} href={`/about`}>About</a> */}
+                         <Link to="/about">About</Link>
                          </div>
                          <div className="text-dot-container">
                          
@@ -101,15 +103,18 @@ export default function NavBarMenu({Menu, SetMenu}) {
                          </div>
                          <div className="text-dot-container"> 
                          <span class="dot"></span>
-                         <a style={{color:"white"}} href={`/blog`}>Blog</a>
+                         <Link to="/blog">Blog</Link>
+                         {/* <a style={{color:"white"}} href={`/blog`}>Blog</a> */}
                          </div>
                          <div className="text-dot-container"> 
                          <span class="dot"></span>
-                         <a style={{color:"white"}} href={`/ourprojects`}>Our Projects</a>
+                         {/* <a style={{color:"white"}} href={`/ourprojects`}>Our Projects</a> */}
+                         <Link to="/ourprojects">Our Projects</Link>
                          </div>
                          <div className="text-dot-container"> 
                          <span class="dot"></span>
-                         <a style={{color:"white"}} href={`/contactus`}>Contact Us</a>
+                         <Link to="/contactus">Contact Us</Link>
+                         {/* <a style={{color:"white"}} href={`/contactus`}>Contact Us</a> */}
                          </div>
                         <ul className="MainMenuList">
                             {/* <li onClick={(e) => SetServiceDropDown(!ServiceDropDown)}>

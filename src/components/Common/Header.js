@@ -11,7 +11,6 @@ import { motion } from "framer-motion";
 
 // Component
 export default function Header(props) {
-  console.log(props,"props");
   return (
     <Grid className={props.DetailHeader? "DetailHeader" : "HeaderMain"} container spacing={1}>
       <Grid xs={12} sm={12} md={5}>

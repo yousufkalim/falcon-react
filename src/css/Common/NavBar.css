@@ -2,147 +2,149 @@
 /* .css-1u4elim-MuiPaper-root-MuiAppBar-root {
     box-shadow: 0px 2px 7px -1px rgb(0 0 0 / 20%) !important;
   } */
-  
-  .MenuDiv{
-    height: 100vh;
-    background:  linear-gradient(180deg, #003B7E 0%, #003B7E 21.35%, #003B7E 100%);;
-    z-index:1000;
-    margin: 0%;
-    width: 100%;
-    /* overflow: hidden; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* flex-direction: column; */
-    position: absolute;
-    /* top:100%; */
-    /* width: 100%; */
-    /* transform: scaleY(100,50); */
-    /* transition: 1s; */
-  }
-  .css-13i1luw-MuiPaper-root-MuiAppBar-root{
-    padding: 0% !important; 
-  }
-  .NavToolbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* position:fixed !important; */
-    margin:  0% 3%;
-    /* width: 90%; */
-  }
-  .MenuSectionMain{
-    display: flex;
-    width: 90%;
-    align-items: center;
-    justify-content: center;
-  }
-  .MenuSection{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    margin: 0%;
-  }
-  .MenuImgDiv{
-    width: 35%;
-    display: flex;
-    flex-direction: column;
 
-    justify-content: flex-end;
-    height: 75vh;
-  }
-  .MenuImg{
-    width: 100%;
-  }
-  .MenuTypoDiv{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 587px;
-    color: #fff;
-    position: relative;
+.MenuDiv {
+  height: 100vh;
+  background: linear-gradient(180deg, #003b7e 0%, #003b7e 21.35%, #003b7e 100%);
+  z-index: 1000;
+  margin: 0%;
+  width: 100%;
+  /* overflow: hidden; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+  position: absolute;
+  /* top:100%; */
+  /* width: 100%; */
+  /* transform: scaleY(100,50); */
+  /* transition: 1s; */
+}
+.css-13i1luw-MuiPaper-root-MuiAppBar-root {
+  padding: 0% !important;
+}
+.NavToolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position:fixed !important; */
+  margin: 0% 3%;
+  /* width: 90%; */
+}
+.MenuSectionMain {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+.MenuSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0%;
+}
+.MenuImgDiv {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
 
-  }
-  .ServiceOptionDiv{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    width: 42%;
-    color: #fff;
-    border-right: 1px solid;
-  }
-  .ServicesFields li{
-    list-style: none;
-    color: #E5E5E5;
-    text-align: right;
-    /* font-size: 90%; */
-    line-height: 1.7;
-    font-weight: 600;
-  }
-  .ServicesFields li a{
-    color: #E5E5E5;
-    text-decoration: none;
-  }
-  .MainMenuList li{
-    color: #E5E5E5;
-    line-height: 2;
-    font-weight: 700;
-    font-size: 1.5rem;
-  }
-  .MainMenuList li a{
-    color: #E5E5E5;
-    text-decoration: none;
-  }
-  .Service_Mobile{
-    position: absolute;
-    left: -1000%;
-    visibility: hidden;
-  }
-  .css-1ts5xjn-MuiPaper-root-MuiAppBar-root{
-    padding:0% !important;
-  }
+  justify-content: flex-end;
+  height: 75vh;
+}
+.MenuImg {
+  width: 100%;
+}
+.MenuTypoDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+  color: #fff;
+  position: relative;
+}
+.ServiceOptionDiv {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 42%;
+  color: #fff;
+  border-right: 1px solid;
+}
+.ServicesFields li {
+  list-style: none;
+  color: #e5e5e5;
+  text-align: right;
+  /* font-size: 90%; */
+  line-height: 1.7;
+  font-weight: 600;
+}
+.ServicesFields li a {
+  color: #e5e5e5;
+  text-decoration: none;
+}
+.MainMenuList li {
+  color: #e5e5e5;
+  line-height: 2;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.MainMenuList li a {
+  color: #e5e5e5;
+  text-decoration: none;
+}
+.Service_Mobile {
+  position: absolute;
+  left: -1000%;
+  visibility: hidden;
+}
+.css-1ts5xjn-MuiPaper-root-MuiAppBar-root {
+  padding: 0% !important;
+}
 
-  .text-dot-container{
-    display: flex;
-    align-items: center;
-  }
-  .text-dot-container a{
-       color: #E5E5E5;
-      font-weight: 700;
-      font-size: 1.5rem;
-      padding-left:6%;
-  }
-  .services{
-    color: #E5E5E5;
-    font-weight: 700;
-    font-size: 1.5rem;
-    padding-left: 6%;
-  }
-  .dot {
-    height: 6px;
-    width: 6px;
-    background-color: #fff;
-    border-radius: 50%;
-    display: inline-block;
-  }
-  .class-name{
-    border-bottom: 1px solid white;
-    width: 25%;
-    position: absolute;
-    left: 42%;
-    top: 51.5px;
-  }
-  
-  .MainMenu{
-    width: 34%;
-  }
-  
-  .MainMenu>*{
-    padding-bottom: 10px;
-  }
+.text-dot-container {
+  display: flex;
+  align-items: center;
+}
+.text-dot-container a {
+  color: #e5e5e5;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-left: 6%;
+  white-space: nowrap;
+}
+.services {
+  color: #e5e5e5;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-left: 6%;
+}
+.dot {
+  height: 6px;
+  width: 6px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+.class-name {
+  border-bottom: 1px solid white;
+  width: 25%;
+  position: absolute;
+  left: 42%;
+  top: 19.5px;
+}
+
+.MainMenu {
+  width: 31%;
+  position: absolute;
+  left: 67%;
+}
+
+.MainMenu > * {
+  padding-bottom: 10px;
+}
 @media only screen and (max-width: 900px) {
-  .MenuSection{
+  .MenuSection {
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: center; */
@@ -150,7 +152,7 @@
     width: 100%;
     margin: 2%;
   }
-  .MenuImgDiv{
+  .MenuImgDiv {
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -158,98 +160,94 @@
     justify-content: center;
     height: 50vh;
   }
-  .MenuImg{
+  .MenuImg {
     width: 100%;
   }
-  .MenuTypoDiv{
-     display: flex; 
-     align-items: center; 
+  .MenuTypoDiv {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     /*width: 70%;*/
-    height: 30vh;
+    /* height: 30vh; */
   }
-  .MainMenu{
-    width: fit-content;
+  .MainMenu {
+    position: initial;
+    width: 33%;
   }
-  .ServiceOptionDiv{
-    display: flex; 
-     align-items: center;
-    justify-content: space-between;
+  .ServiceOptionDiv {
+    display: flex;
+    align-items: center;
     /*width: 50%;*/
-     color: #fff;
+    color: #fff;
   }
-  .MenuSectionMain{
+  .MenuSectionMain {
     width: 100%;
   }
-.class-name{
-  top: 45.5px;
-  width: 33%;
-}
-
+  .class-name {
+    top: 26%;
+    width: 25%;
+  }
 }
 @media only screen and (max-width: 600px) {
-
-  .MenuSection{
-     display: flex; 
-     align-items: center; 
-     justify-content: center; 
+  .MenuSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 100%;
     margin: 2% 0%;
   }
-  .MenuSectionMain{
+  .MenuSectionMain {
     width: 100%;
   }
-  .MenuIconMob{
+  .MenuIconMob {
     width: 5% !important;
   }
-  .MenuTypoDiv{
+  .MenuTypoDiv {
     width: 100%;
     height: 1vh;
-
   }
-  .ServiceOptionDiv{
-    position:absolute;
+  .ServiceOptionDiv {
+    position: absolute;
     visibility: hidden;
     left: -100%;
   }
-  .MenuImgDiv{
+  .MenuImgDiv {
     position: absolute;
     left: -100%;
     width: 1%;
-
   }
-  .MainMenuList{
+  .MainMenuList {
     width: 100%;
   }
 
-  
-  .MainMenuList li{
+  .MainMenuList li {
     width: 100%;
     padding-left: 5%;
     list-style: none;
   }
-  .MainMenuList li:hover{
-    background-color: #E5E5E5;
-    color: #003B7E
+  .MainMenuList li:hover {
+    background-color: #e5e5e5;
+    color: #003b7e;
   }
-  .MainMenuList li a:hover{
-    background-color: #E5E5E5;
-    color: #003B7E
+  .MainMenuList li a:hover {
+    background-color: #e5e5e5;
+    color: #003b7e;
   }
-  .MainMenu{
+  .MainMenu {
     width: 100%;
     visibility: hidden;
+    position: initial;
   }
-  .Service_Pc{
+  .Service_Pc {
     position: absolute;
     left: -100%;
     width: 1%;
   }
-  .Service_Mobile{
+  .Service_Mobile {
     width: 100%;
     /* padding-left: 3%; */
-    position:absolute;
+    position: absolute;
     left: 0%;
     visibility: visible;
   }
@@ -257,11 +255,11 @@
     background-color: #E5E5E5 !important;
     color: #003B7E !important;
   } */
-  .Service_list{
+  .Service_list {
     /* position: fixed !important; */
-    background-color: #003B7E !important;
+    background-color: #003b7e !important;
   }
-  .dropDown_list{
+  .dropDown_list {
     font-size: 1.5rem;
     padding: 0% 2%;
   }
@@ -269,37 +267,36 @@
     font-size: 1% !important;
     width: 10% !important;
   } */
-  .css-1mcnwpj-MuiList-root{
-    background-color: #003B7E !important;
+  .css-1mcnwpj-MuiList-root {
+    background-color: #003b7e !important;
     max-width: 100% !important;
     padding: 0% !important;
     /* position: inherit !important; */
     /* font-size: 1.5rem !important; */
   }
-  .css-10hburv-MuiTypography-root{
-    color: #E5E5E5 !important;
+  .css-10hburv-MuiTypography-root {
+    color: #e5e5e5 !important;
     line-height: 1.33 !important;
     font-weight: 700 !important;
     font-size: 1.5rem !important;
-    transition: .5s;
+    transition: 0.5s;
   }
-  .css-10hburv-MuiTypography-root:hover{
+  .css-10hburv-MuiTypography-root:hover {
     color: #000 !important;
   }
-  .Nav_links{
+  .Nav_links {
     width: 100% !important;
     padding: 0% 2%;
   }
-  .DropLinks{
+  .DropLinks {
     font-size: 10% !important;
     font-weight: 400 !important;
     /* width: 10% !important; */
   }
-  #Mob_nav{
-    transition: .5s;
-
+  #Mob_nav {
+    transition: 0.5s;
   }
-  #Mob_nav:hover{
+  #Mob_nav:hover {
     color: #000 !important;
     background-color: white !important;
   }
@@ -307,24 +304,18 @@
   /* #Mob_items:focus{
     color: black !important;
   } */
-  .class-name{
+  .class-name {
     display: none;
   }
-  .text-dot-container{
+  .text-dot-container {
     display: none;
   }
 }
 
-#Mob_items{
-font-size: 10px;
+#Mob_items {
+  font-size: 10px;
 }
 
-
-.Service_Mobile span{
-  color: #003B7E;
+.Service_Mobile span {
+  color: #003b7e;
 }
-
-
-
-
-
