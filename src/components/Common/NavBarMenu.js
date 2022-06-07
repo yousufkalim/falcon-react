@@ -11,6 +11,7 @@ import ListItemText from "@mui/material/ListItemText";
 import Collapse from "@mui/material/Collapse";
 import ExpandLess from "@mui/icons-material/ExpandLess";
 import ExpandMore from "@mui/icons-material/ExpandMore";
+import {Link} from "react-router-dom";
 
 export default function NavBarMenu({Menu, SetMenu}) {
   const [ServiceDropDown, SetServiceDropDown] = React.useState(false);
@@ -80,21 +81,47 @@ export default function NavBarMenu({Menu, SetMenu}) {
                           </>
                         )}
                       </div>
-
+                      {
+                        ServiceDropDown?(
+                        <>
+                        <div className="class-name"> 
+                      </div> 
+                        </>
+                        ):null
+                      }
+                     
                       <div className="MainMenu">
+                         <div className="text-dot-container"> 
+                         <span class="dot"></span>
+                         {/* <a style={{color:"white"}} href={`/about`}>About</a> */}
+                         <Link to="/about">About</Link>
+                         </div>
+                         <div className="text-dot-container">
+                         
+                         <span class="dot"></span>
+                        <span className="services" onClick={(e) => SetServiceDropDown(!ServiceDropDown)} >Services</span>  
+                         </div>
+                         <div className="text-dot-container"> 
+                         <span class="dot"></span>
+                         <Link to="/blog">Blog</Link>
+                         {/* <a style={{color:"white"}} href={`/blog`}>Blog</a> */}
+                         </div>
+                         <div className="text-dot-container"> 
+                         <span class="dot"></span>
+                         {/* <a style={{color:"white"}} href={`/ourprojects`}>Our Projects</a> */}
+                         <Link to="/ourprojects">Our Projects</Link>
+                         </div>
+                         <div className="text-dot-container"> 
+                         <span class="dot"></span>
+                         <Link to="/contactus">Contact Us</Link>
+                         {/* <a style={{color:"white"}} href={`/contactus`}>Contact Us</a> */}
+                         </div>
                         <ul className="MainMenuList">
-                          <li className="Service_Pc">
-                            <a href={`/about`}>About</a>
-                          </li>
-                          <div
-                            className="Service_Pc"
-                            style={{
-                              display: "flex",
-                              alignItems: "center",
-                            }}
-                          >
-                            <li onClick={(e) => SetServiceDropDown(!ServiceDropDown)}>Services</li>
-                          </div>
+                            {/* <li onClick={(e) => SetServiceDropDown(!ServiceDropDown)}>
+                            Services
+                              </li> */}
+                          
+                          {/* mobileview */}
                           <div className="Service_Mobile">
                             <List
                               sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}
@@ -157,7 +184,9 @@ export default function NavBarMenu({Menu, SetMenu}) {
                               </ListItemButton>
                             </List>
                           </div>
-                          <li className="Service_Pc">
+                            {/* mobileview */}
+
+                          {/* <li className="Service_Pc">
                             <a href={`/blog`}>Blog</a>
                           </li>
                           <li className="Service_Pc">
@@ -165,7 +194,7 @@ export default function NavBarMenu({Menu, SetMenu}) {
                           </li>
                           <li className="Service_Pc">
                             <a href={`/contactus`}>Contact Us</a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>

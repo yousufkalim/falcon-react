@@ -71,9 +71,24 @@
         margin: 5% 0% !important;
 
     }
+    
+    /* .ProjectCardDivider{
+        display: flex !important;
+        align-items: center !important;
+    } */
+
+
+}
+/* @media only screen and (max-width: 600px) {
+    .ProjectCardTypo{
+    }
+    .ProjectCardDivider{
+
 }
 @media only screen and (max-width: 600px) {
     .ProjectCardBtn{
         width: 40%;
     }
 }
+
+*/

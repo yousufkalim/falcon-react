@@ -5,19 +5,30 @@ import EmailIcon from "../../assets/images/emailIcon.svg";
 import Robot from "../../assets/images/notRobort.svg";
 import CalendlyIcon from "../../assets/images/calendlyIcon.svg";
 import emailjs from "emailjs-com";
+import ReCAPTCHA from "react-google-recaptcha";
 export default function ContactUsSection(props) {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_p9t3cg6", "template_imi9dne", e.target, "user_Dh0YsMnLOPp5ckc48VOcP").then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
+    emailjs
+      .sendForm(
+        "service_p9t3cg6",
+        "template_imi9dne",
+        e.target,
+        "user_Dh0YsMnLOPp5ckc48VOcP"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
+  function onChange(value) {
+  console.log("Captcha value:", value);
+}
   return (
     <>
       {props.ContactUs ? (
@@ -66,9 +77,13 @@ export default function ContactUsSection(props) {
                       />
                     </Grid>
                   </div>
-                  <Grid className="Robot_Grid"  xs={12}>
-                    <div
-                    className="RobotDiv"
+                  <Grid xs={12}>
+                  <ReCAPTCHA
+                          sitekey="6Ldx_T0gAAAAAEUJmHBAIEaOLc2sTPgb00PcbhnA"
+                          onChange={onChange}
+                        />
+                    {/* <div
+                      className="RobotDiv"
                       style={{
                         display: "flex",
                         alignItems: "center",
@@ -97,9 +112,10 @@ export default function ContactUsSection(props) {
                         >
                           I'm not a robot
                         </Typography>
+                       
                       </div>
                       <img src={Robot} />
-                    </div>
+                    </div> */}
                   </Grid>
                   <Grid className="Contact_Send_Grid" xs={3}>
                     <button type="submit" className="ContactUsBtn">
@@ -114,7 +130,9 @@ export default function ContactUsSection(props) {
                     <img className="ContactMediaIcons" src={EmailIcon} />
                     <div className="SocialMediaText">
                       <Typography sx={{ fontSize: "1rem" }}>Email</Typography>
-                      <Typography sx={{ fontSize: ".7rem" }}>contact@falconconsulting.fr</Typography>
+                      <Typography sx={{ fontSize: ".7rem" }}>
+                        contact@falconconsulting.fr
+                      </Typography>
                     </div>
                   </div>
                 </a>
@@ -122,8 +140,12 @@ export default function ContactUsSection(props) {
                   <div className="ContactMediaDiv">
                     <img className="ContactMediaIcons" src={CalendlyIcon} />
                     <div className="SocialMediaText">
-                      <Typography sx={{ fontSize: "1rem" }}>Calendly</Typography>
-                      <Typography sx={{ fontSize: ".7rem" }}>Click and join link</Typography>
+                      <Typography sx={{ fontSize: "1rem" }}>
+                        Calendly
+                      </Typography>
+                      <Typography sx={{ fontSize: ".7rem" }}>
+                        Click and join link
+                      </Typography>
                     </div>
                   </div>
                 </a>
@@ -185,23 +207,53 @@ export default function ContactUsSection(props) {
                 <form onSubmit={sendEmail} className="ContactForm">
                   <div style={{ display: "flex", width: "100%" }}>
                     <Grid xs={12} sm={6}>
-                      <input required type="text" name="name" placeholder="Your Name" className="InputField" />
+                      <input
+                        required
+                        type="text"
+                        name="name"
+                        placeholder="Your Name"
+                        className="InputField"
+                      />
                     </Grid>
                     <Grid xs={12} sm={6}>
-                      <input required type="email" name="email" placeholder="Email" className="InputField" />
+                      <input
+                        required
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        className="InputField"
+                      />
                     </Grid>
                   </div>
                   <div style={{ display: "flex" }}>
                     <Grid xs={12} sm={6}>
-                      <input required type="number" name="phone" placeholder="Phone" className="InputField" />
+                      <input
+                        required
+                        type="number"
+                        name="phone"
+                        placeholder="Phone"
+                        className="InputField"
+                      />
                     </Grid>
                     <Grid xs={12} sm={6}>
-                      <input required type="text" name="budget" placeholder="Budget" className="InputField" />
+                      <input
+                        required
+                        type="text"
+                        name="budget"
+                        placeholder="Budget"
+                        className="InputField"
+                      />
                     </Grid>
                   </div>
                   <div>
                     <Grid xs={12}>
-                      <textarea required type="text" name="message" placeholder="Type Your Message" className="textField" />
+                      <textarea
+                        required
+                        type="text"
+                        name="message"
+                        placeholder="Type Your Message"
+                        className="textField"
+                      />
                     </Grid>
                   </div>
                   <Grid xs={12}>

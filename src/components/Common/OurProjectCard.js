@@ -1,6 +1,6 @@
 // Init
 import { Grid, Typography } from "@mui/material";
-import React from "react";
+import React,{useState,useEffect} from "react";
 import { motion } from "framer-motion";
 // Importing Components
 import PP_logo from "../../assets/images/permisLogo.png";
@@ -8,7 +8,10 @@ import Button from "@mui/material/Button";
 import { Divider } from "@mui/material";
 import BasicModal from "./BasicModal";
 // Home Component
+
 export default function OurProjectCard(props) {
+
+
   return (
     <>
       {props.Reverse ? (
