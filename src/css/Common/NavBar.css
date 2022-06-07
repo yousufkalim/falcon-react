@@ -314,7 +314,9 @@
 #Mob_items {
   font-size: 10px;
 }
-
-/* .Service_Mobile span {
+.Servive_DropDown{
+  font-size: 1.2rem !important;
+}
+/* .Service_Mobile {
   color: #003b7e;
 } */
