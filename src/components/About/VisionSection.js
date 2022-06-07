@@ -11,11 +11,10 @@ export default function VisionSection() {
             LeftSectionHeader
             h1="We believe our vision"
             h2="Our Vision"
-            decription="Falcon Consulting is a development agency that specializes in consulting, application development and consulting in the field of new technologies. We combine rigor, quality of work and optimized production costs"
+            decription="We strongly believe that talent and skills has no border. By providing a great working environment in our offices, we allow our partners to benefit from competitive pricing with a qualitative work. "
             colorDesp="black"
           />
           <div className="VisionList">
-            
             <ul style={{ marginLeft: "5%" }}>
               <li>IN-HOUSE TEAM</li>
               <li>TECHNOLOGIES</li>
