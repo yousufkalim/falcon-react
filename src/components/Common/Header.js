@@ -12,7 +12,11 @@ import { motion } from "framer-motion";
 // Component
 export default function Header(props) {
   return (
-    <Grid className={props.DetailHeader? "DetailHeader" : "HeaderMain"} container spacing={1}>
+    <Grid
+      className={props.DetailHeader ? "DetailHeader" : "HeaderMain"}
+      container
+      spacing={1}
+    >
       <Grid xs={12} sm={12} md={5}>
         <motion.div
           className="HeaderTypo"
@@ -22,11 +26,15 @@ export default function Header(props) {
           viewport={{ once: true }}
         >
           <Typography
-            className={props.HeaderTitleClassName? "HeaderTitleClassName" : "HeaderHeading"}
+            className={
+              props.HeaderTitleClassName
+                ? "HeaderTitleClassName"
+                : "HeaderHeading"
+            }
             style={props.TitleStyle}
             color={props.Titlecolor || "#282828"}
           >
-           <span style={{color:"#003B7E"}}>{props.ColorTitle}</span>
+            <span style={{ color: "#003B7E" }}>{props.ColorTitle}</span>
             {props.Title}
           </Typography>
           <Divider
@@ -39,19 +47,22 @@ export default function Header(props) {
             }}
           />
           <Typography
-            className={props.HeaderParaClassName ? "HeaderPara_Style" : "HeaderPara"}
+            className={
+              props.HeaderParaClassName ? "HeaderPara_Style" : "HeaderPara"
+            }
+            color={props.DespColor}
             style={props.ParaStyle}
           >
             {props.Description}
           </Typography>
           {props.btn && (
-            <Button
-              // color="red"
-              variant={props.btnVariant || "outlined"}
-              className={props.btnClassName ? "btnClassName" :  "HeaderBtn"}
-            >
-              {props.btnText}
-            </Button>
+            <a href={`/contactus`}>
+              <Button
+                className={props.btnClassName ? "btnClassName" : "HeaderBtn"}
+              >
+                {props.btnText}
+              </Button>
+            </a>
           )}
         </motion.div>
       </Grid>
@@ -64,7 +75,7 @@ export default function Header(props) {
         <motion.img
           initial={{ x: 300 }}
           whileInView={{ x: 0 }}
-          transition={{ duration: .5 }}
+          transition={{ duration: 0.5 }}
           viewport={{ once: true }}
           alt={props.ImgAlt || "Header"}
           src={props.ImgSrc || HeaderImg}
@@ -74,17 +85,13 @@ export default function Header(props) {
         {props.chatIcons ? (
           <div className="ChatIconsDiv">
             <a href="https://wa.me/03135098197">
-              <img
-              className="ChatIconImg" 
-                alt="whatsapp"
-                src={WhatsappIcon}
-              />
+              <img className="ChatIconImg" alt="whatsapp" src={WhatsappIcon} />
             </a>
             <a href={`/contactus`}>
               <img className="ChatIconImg" alt="chat" src={ChatIcon} />
             </a>
-            <a href={`/contactus`}>
-              <img className="ChatIconImg"  alt="Calendly" src={Calendly}  />
+            <a href={`http://calendly.com/falconit`}>
+              <img className="ChatIconImg" alt="Calendly" src={Calendly} />
             </a>
           </div>
         ) : null}
