@@ -11,6 +11,7 @@ export default function ClientSection() {
       <div className="ClientSectionMain">
         <SectionHeader
           width="15%"
+          colorH2="#0F52BA"
           h1="SINCERELY YOURS"
           h2="Some Amazing Partners We Worked With"
           // decription="This sounds simple, but it is beneficial to your business success."
@@ -29,7 +30,6 @@ export default function ClientSection() {
             <Grid className="ClientLogoGrid" xs={6} sm={3}>
               <img className="ClientLogo" src={Client4} alt="client" />
             </Grid>
-         
           </Grid>
         </div>
       </div>
