@@ -11,14 +11,12 @@ import ModernAgencySection from "../components/About/ModernAgencySection";
 import Header_Img from "../assets/images/AboutUs_Header_Img.png";
 // Home Component
 export default function About() {
-  
   return (
     <div className="AboutContainer">
-
       <NavBar />
       <Header
-        Title="falcon"
-        Description="falcon consulting"
+        Title="Our Goal Is To Exceed Your Expectations "
+        Description="Healthy, skilled and ambitious team"
         ImgSrc={Header_Img}
       />
       <AboutCompany />
