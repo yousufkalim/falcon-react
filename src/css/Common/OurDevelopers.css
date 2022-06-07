@@ -19,10 +19,7 @@
 
 }
 .DeveloperCarouselDiv{
-    width: 100%;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between  !important;
+    width: 90%;
 }
 .DeveloperDiv{
     display: flex;
@@ -33,16 +30,17 @@
 
 }
 .DeveloperDiv_Img{
-    width: 60%;
+    width: 50%;
 }
 .Developer_Img{
-    width: 70%;
+    width: 90% !important;
 }
 
 /* .Developer_Img img{
     width: 100%;
 } */
 .DeveloperDiv_Typo{
+    text-align: left;
     width: 40%;
 }
 .DeveloperTypo_H{
@@ -82,7 +80,7 @@
 
 @media only screen and (max-width: 600px) {
     .DeveloperDiv{
-        flex-direction: column;
+        flex-direction: column !important;
     }
     .DeveloperDiv_Img{
         width: 100%;

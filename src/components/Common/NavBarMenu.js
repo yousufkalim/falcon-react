@@ -31,7 +31,7 @@ export default function NavBarMenu({Menu, SetMenu}) {
                     className="MenuIconMob"
                     alt="NavMenu"
                     src={CloseIcon}
-                    style={{ width: "2.5%", color: "white" }}
+                    style={{ width: "2.5%", color: "white",cursor:"pointer" }}
                     onClick={(e) => SetMenu(!Menu)}
                   />
                 </Toolbar>
@@ -141,28 +141,28 @@ export default function NavBarMenu({Menu, SetMenu}) {
                                 <List component="div" disablePadding>
                                 {/* primaryTypographyProps={{fontSize: "1.4rem",color:"white",fontWeight:"500",lineHeight:1 }}  */}
                                   <ListItemButton id="Mob_nav" sx={{ pl: 6}}>
-                                    <a  href={`/services/web-development`}>
-                                      <ListItemText primary="WEB DEVELOPMENT" />
+                                    <a style={{width:"100%"}}  href={`/services/web-development`}>
+                                     <ListItemText><span className="Servive_DropDown"> WEB DEVELOPMENT</span></ListItemText>
                                     </a>
                                   </ListItemButton>
                                   <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
-                                    <a  href={`/services/app-development`}>
-                                      <ListItemText primary="APP DEVELOPMENT" />
+                                    <a style={{width:"100%"}}  href={`/services/app-development`}>
+                                      <ListItemText><span className="Servive_DropDown"> APP DEVELOPMENT</span></ListItemText>
                                     </a>
                                   </ListItemButton>
                                   <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
-                                    <a  href={`/services/software-development`}>
-                                      <ListItemText primary="SOFTWARE DEVELOPMENT" />
+                                    <a style={{width:"100%"}}  href={`/services/software-development`}>
+                                      <ListItemText><span className="Servive_DropDown"> SOFTWARE DEVELOPMENT</span></ListItemText>
                                     </a>
                                   </ListItemButton>
                                   <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
-                                    <a  href={`/services/ondemand-developers`}>
-                                      <ListItemText primary="ON DEMAND DEVELOPERS" />
+                                    <a style={{width:"100%"}}  href={`/services/ondemand-developers`}>
+                                      <ListItemText><span className="Servive_DropDown"> ON DEMAND DEVELOPERS</span></ListItemText>
                                     </a>
                                   </ListItemButton>
                                   <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
-                                    <a  href={`/services/ui-development`}>
-                                      <ListItemText primary="UI/UX DEVELOPMENT" />
+                                    <a style={{width:"100%"}}  href={`/services/ui-development`}>
+                                      <ListItemText><span className="Servive_DropDown"> UI/UX DEVELOPMENT</span></ListItemText>
                                     </a>
                                   </ListItemButton>
                                 </List>

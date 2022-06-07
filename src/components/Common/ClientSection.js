@@ -10,7 +10,7 @@ export default function ClientSection() {
     <>
       <div className="ClientSectionMain">
         <SectionHeader
-          width="40%"
+          width="15%"
           h1="SINCERELY YOURS"
           h2="Some Amazing Partners We Worked With"
           // decription="This sounds simple, but it is beneficial to your business success."

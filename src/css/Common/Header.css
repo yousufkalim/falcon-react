@@ -26,6 +26,11 @@
   color: black;
   width: 90%;
 }
+.HeaderPara_Style{
+  font-weight: 400 !important;
+  font-size: .9rem !important;
+  opacity: .7;
+}
 .HeaderBtn{
   font-size: 1rem !important;
   font-weight: 700 !important;
@@ -101,6 +106,7 @@
 } */
 @media only screen and (max-width: 900px) {
   .HeaderMain{
+    flex-direction: column-reverse !important;
     padding: 8% 3%;
   }
   .HeaderTypo{
@@ -126,17 +132,10 @@
 @media only screen and (max-width: 600px) {
     .HeaderMain{
     padding: 15% 3%;
-
     }
-   
-    
-  
- 
- 
   .HeaderHeading{
     width: 90%;
     font-size: 1.7rem !important;
-
   }
   .HeaderPara{
     width: 95%;

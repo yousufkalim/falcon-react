@@ -35,7 +35,8 @@ export default function ContactUsSection(props) {
         <div className="ContactUsDiv">
           <div>
             <SectionHeader
-              width="6%"
+            
+              width="5%"
               h1="Contact Us"
               h2="Share Your Project/Idea with us!"
               colorH2="#fff"
@@ -49,54 +50,30 @@ export default function ContactUsSection(props) {
               <Grid container sm={8} md={6} className="ContactFormGrid">
                 <form onSubmit={sendEmail} className="ContactForm">
                   <div style={{ display: "flex", width: "100%" }}>
-                    <Grid xs={12} sm={6}>
-                      <input
-                        required
-                        type="text"
-                        name="name"
-                        placeholder="Your Name"
-                        className="InputField"
-                      />
+                    <Grid className="InputGrid" xs={12} sm={6}>
+                      <input required type="text" name="name" placeholder="Your Name" className="InputField" />
                     </Grid>
-                    <Grid xs={12} sm={6}>
-                      <input
-                        required
-                        type="email"
-                        name="email"
-                        placeholder="Email"
-                        className="InputField"
-                      />
+                    <Grid className="InputGrid" xs={12} sm={6}>
+                      <input required type="email" name="email" placeholder="Email" className="InputField" />
                     </Grid>
                   </div>
                   <div style={{ display: "flex" }}>
-                    <Grid xs={12} sm={6}>
-                      <input
-                        required
-                        type="number"
-                        name="phone"
-                        placeholder="Phone"
-                        className="InputField"
-                      />
+                    <Grid className="InputGrid" xs={12} sm={6}>
+                      <input required type="number" name="phone" placeholder="Phone" className="InputField" />
                     </Grid>
-                    <Grid xs={12} sm={6}>
-                      <input
-                        required
-                        type="text"
-                        name="budget"
-                        placeholder="Budget"
-                        className="InputField"
-                      />
+                    <Grid className="InputGrid" xs={12} sm={6}>
+                      <input required type="text" name="budget" placeholder="Budget" className="InputField" />
                     </Grid>
                   </div>
                   <div>
-                    <Grid xs={12}>
+                    <Grid className="InputGrid"  xs={12}>
                       <textarea
                         required
                         type="text"
                         name="message"
                         placeholder="Type Your Message"
                         className="textField"
-                        style={{ marginLeft: "1%" }}
+                        // style={{ marginLeft: "1%" }}
                       />
                     </Grid>
                   </div>
@@ -111,10 +88,10 @@ export default function ContactUsSection(props) {
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "space-between",
-                        width: "40%",
+                        width: "45%",
                         backgroundColor: "rgba(255, 255, 255, 0.912)",
                         padding: "0.5% 2%",
-                        margin: "3% 1%",
+                        margin: "2.5%",
                         opacity: ".9",
                       }}
                     >
@@ -140,7 +117,7 @@ export default function ContactUsSection(props) {
                       <img src={Robot} />
                     </div> */}
                   </Grid>
-                  <Grid xs={3}>
+                  <Grid className="Contact_Send_Grid" xs={3}>
                     <button type="submit" className="ContactUsBtn">
                       Send
                     </button>

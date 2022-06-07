@@ -8,25 +8,17 @@ export default function ServiceProvidedCard(props) {
     <>
       {props.verticleCard ? (
         <motion.div
-          initial={{ opacity: 0 }}
+        className="ServiceProvided_VerticleCard"
+        initial={{ opacity: 0 }}
           whileInView={{ opacity: 1}}
           transition={{ duration: 1 }}
           viewport={{ once: true }}
-          style={{
-            // display: "flex",
-            width: "100%",
-            border: "1px solid #003B7E",
-            borderRadius: "20px",
-          }}
+         
         >
-          <div>
+          <div className="ServiceProvided_VerticleCardTypo" >
+            <div className="ServiceProvided_SubCardTypo">
             <Typography
-              sx={{
-                fontSize: "1.6rem",
-                color: "#003B7E",
-                fontWeight: "600",
-                margin: "10% 0% 10% 10%",
-              }}
+              className="ServiceProvided_CardTitle"
             >
               {props.CardTitle}
             </Typography>
@@ -35,17 +27,11 @@ export default function ServiceProvidedCard(props) {
                 style={{
                   display: "flex",
                   alignItems: "center",
-                  marginTop: "20%",
+                  cursor:"pointer" 
                 }}
               >
                 <button
-                  style={{
-                    border: "none",
-                    backgroundColor: "#F8F8F8",
-                    margin: "10% 0% 10% 10%",
-                    color: "#003B7E",
-                    fontWeight: 600,
-                  }}
+                  className="ServiceProvided_CardBtn"
                 >
                   {props.BtnText ? props.BtnText : "Get Details"}
                 </button>
@@ -57,38 +43,26 @@ export default function ServiceProvidedCard(props) {
                 />
               </div>
             </a>
+          
           </div>
-          <div style={{ width: "100%" }}>
-            <img src={props.CardImgSrc || MobileApp} style={{ width: "100%" }} />
+          
+          </div>
+          <div className="ServiceProvided_VerticleCardImgDiv">
+            <img className="ServiceProvided_VerticleCardImg" src={props.CardImgSrc || MobileApp}  />
           </div>
         </motion.div>
       ) : (
         <motion.div
+        className="ServiceProvided_Card"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
           viewport={{ once: true }}
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            width: "100%",
-            border: "1px solid #003B7E",
-            borderRadius: "20px",
-            objectFit: "cover" ,
-            height: "100%",
-            overflow:"hidden"
-          }}
+     
         >
-          <div >
-            <Typography
-              sx={{
-                fontSize: "1.6rem",
-                color: "#003B7E",
-                fontWeight: "600",
-                margin: "10% 0% 10% 10%",
-                height: "60%",
-              }}
-            >
+          <div className="ServiceProvided_CardTypo" >
+            <div className="ServiceProvided_SubCardTypo">
+            <Typography className="ServiceProvided_CardTitle" >
               {props.CardTitle}
             </Typography>
             <a href={props.href}>
@@ -96,17 +70,11 @@ export default function ServiceProvidedCard(props) {
                 style={{
                   display: "flex",
                   alignItems: "center",
-                  // marginTop: "30%",
                 }}
               >
                 <button
-                  style={{
-                    border: "none",
-                    backgroundColor: "#F8F8F8",
-                    margin: "10% 0% 10% 10%",
-                    color: "#003B7E",
-                    fontWeight: 600,
-                  }}
+                className="ServiceProvided_CardBtn"
+                 
                 >
                   {props.BtnText ? props.BtnText : "Get Details"}
                 </button>
@@ -118,14 +86,12 @@ export default function ServiceProvidedCard(props) {
                 />
               </div>
             </a>
+            </div>
           </div>
-          <div >
+          <div  className="ServiceProvided_CardImgDiv">
             <img
-            style={{height:"100%", objectFit:"cover"}}
+            className="ServiceProvided_CardImg"
               src={props.CardImgSrc || MobileApp}
-              // style={{  }}
-              width={props.width || "100%"}
-              // width="200"
             />
           </div>
         </motion.div>

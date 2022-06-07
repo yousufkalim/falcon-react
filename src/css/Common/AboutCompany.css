@@ -7,15 +7,68 @@
 .AboutCompanyTypo{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     margin-top: 3%;
     width: 85%;
 }
-/* .AboutCompanyImg{
-    width: 80% !important;
-} */
-
-@media only screen and (max-width: 600px) {
+.AboutCompanyTypo_H1{
+        font-size: 1.2rem !important;
+        color: #42C2FF;
+        font-weight: 600;
+        text-transform: uppercase;
+}
+.AboutCompanyTypo_H2{
+        font-size: 1.7rem !important;
+        margin: 2% 0% !important;
+        width: 30%;
+        color: #0F52BA;
+        font-weight: 800 !important;
+        text-transform: capitalize;
+}
+.AboutCompanyTypo_Desp{
+    font-size: 1rem !important; 
+    width: 90%;
+    font-weight: 400 !important;
+}
+.AboutCompanyImg{
+    width: 85%;
+}
+@media only screen and (max-width: 1366px) {
+    .AboutCompanyTypo_H2{
+        width: 50%;
+}
+.AboutCompanyTypo_Desp{
+    font-size: .9rem !important; 
+}
+.AboutCompanyImg{
+    width: 95%;
+}
+}
+@media only screen and (max-width: 1024px) {
+    .AboutCompanyTypo_H1{
+        font-size: 1rem !important;
+    }
+    .AboutCompanyTypo_H2{
+        width: 50%;
+        font-size: 1.5rem !important;
+}
+    .AboutCompanyTypo_Desp{
+        font-size: .6rem !important;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .AboutCompanyTypo_H1{
+        font-size: 1.2rem !important;
+    }
+    .AboutCompanyTypo_H2{
+        font-size: 1.7rem !important;
+}
+    .AboutCompanyTypo_Desp{
+        font-size: .8rem !important;
+        width: 80%;
+    }
+    .AboutCompanyImg{
+        width: 100%;
+    }
     .AboutCompanySection{
         justify-content: center;
     }
@@ -25,10 +78,21 @@
         align-items: center ;
         width: 100%;
     }
-    .AboutCompanyImg{
+    .AboutCompanyImgDiv{
         display: flex;
         align-items: center;
         justify-content: center;
     width: 100% !important;
 }
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .AboutCompanyTypo_H2{
+        width: 80%;
+}
+    .AboutCompanyTypo_Desp{
+        width: 90%;
+    }
+    
   }

@@ -6,7 +6,7 @@
 .ContactUsGrid{
     width: 100%;
     display: flex;
-    margin: 5% 3%;
+    margin: 5% 1%;
     align-items: center;
     justify-content: center;
 }
@@ -99,7 +99,7 @@ input::-webkit-inner-spin-button {
     /* left:-100%; */
 }
 .ContactSection_Web_Header{
-    width: 70%;
+    width: 90%;
     /* left:-100%; */
 }
 
@@ -141,7 +141,7 @@ input::-webkit-inner-spin-button {
     padding: 2%;
     margin: 3% 2%;
     background: transparent;
-    border: .5px solid rgb(223, 214, 214,70%);
+    border: 1px solid rgb(223, 214, 214,70%);
     border-radius: 3px;
     width: 95%;
     height: 17vh;
@@ -171,11 +171,26 @@ input:focus ,textarea:focus{
     color: #003B7E;
     background-color:white ;
     font-weight: 600;
+    /* margin-left: 2.5% ; */
 }
 .ContactForm{
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin: 1% 0%;
+}
+.InputGrid{
+    display: flex;
+    justify-content: center;
+    margin: .5% 0%;
+}
+.Robot_Grid{
+    display: flex;
+    justify-content: left;
+}
+.Contact_Send_Grid{
+    display: flex;
+    justify-content: center;
 }
 @media only screen and (max-width: 1366px) {
 
@@ -227,6 +242,9 @@ input:focus ,textarea:focus{
 }
 }
 @media only screen and (max-width: 600px) {
+    .SocialMediaIcons{
+        width: 15%;
+    }
   
     .ContactUsDiv{
         padding: 15% 5%;

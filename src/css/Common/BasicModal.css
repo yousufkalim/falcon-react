@@ -1,5 +1,6 @@
 .ModalBox{
     max-height: 80%;
+    width: 50% !important;
     overflow-y: scroll;
     /* padding: 3%; */
 }
@@ -34,13 +35,20 @@
     font-weight: 600 !important;
     /* font-weight: 500 !important; */
 }
+@media only screen and (max-width: 1024px) {
+    .ModalBox{
+        max-height: 70%;
+        width: 60% !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .ModalBox{
+        max-height: 60%;
+        width: 80% !important;
+    }
+}
 @media only screen and (max-width: 420px) {
     .ModalOpenBtn{
         font-size: .5rem !important;
     }
 }
-/* .ModalProjectBtn{
-    width: 100% !important;
-    border-radius: 10px !important;
-    text-transform: capitalize !important;
-} */

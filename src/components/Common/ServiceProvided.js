@@ -14,6 +14,7 @@ export default function ServiceProvided() {
         <SectionHeader
           h1="our aim provide better service"
           h2="Services We Provide"
+          width="8%"
           // decription="This sounds simple, but it is beneficial to your business success."
         />
         <div className="ServiceProvidedBoxes">
@@ -56,8 +57,8 @@ export default function ServiceProvided() {
               />
             </Grid>
           </Grid>
-          <Grid container md={3}>
-          <Grid xs={12} md={10} sx={{ margin: "1%" }} className="VerticleCard">
+          <Grid container md={3} className="VerticleCard_ContainerGrid">
+          <Grid xs={12} sm={5} md={10} sx={{ margin: "1%" }} className="VerticleCard">
             <ServiceProvidedCard
               verticleCard
               CardImgSrc={UiDev}

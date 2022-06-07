@@ -25,13 +25,6 @@
 @import url("./Common/LocationSection.css");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
-@import 'react-awesome-slider/dist/styles.css';
-/* @import "../css/base.css";
-@import "../css/reset.css"; */
-
-/* @import url("./Common/ProjectDetails.css"); */
-/* @import url("./Common/OverviewSection.css"); */
-
 
 /* Defaults */
 * {
@@ -39,7 +32,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family:  Raleway, Montserrat  !important;
-  /* overflow-x: hidden; */
 }
 a{
   text-decoration: none;

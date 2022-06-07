@@ -25,19 +25,17 @@ export default function NavBar(props) {
             }}
           >
             {Menu ? (
-              <>
               <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
-              </>
             ) : (
               <Toolbar className="NavToolbar" >
                 <a href={`/`}>
-                  <img alt="logo" src={LogoWhite} style={{ width: "75%" ,marginTop:"5%" }} />
+                  <img alt="logo" src={LogoWhite} style={{ width: "75%" ,marginTop:"5%" ,cursor:"pointer" }} />
                 </a>
                 <img
                   className="MenuIconMob"
                   alt="menu"
                   src={WhiteMenuIcon}
-                  style={{ width: "2.5%" }}
+                  style={{ width: "2.5%",cursor:"pointer" }}
                   onClick={(e) => SetMenu(!Menu)}
                 />
               </Toolbar>
@@ -57,16 +55,13 @@ export default function NavBar(props) {
             }}
           >
             {Menu ? (
-              <>
               <NavBarMenu Menu={Menu} SetMenu={SetMenu}/>
-              </>
             ) : (
               <Toolbar className="NavToolbar">
                 <a href={`/`}>
-                  <img alt="logo" src={Logo} style={{ width: "75%",marginTop:"5%" }} />
+                  <img alt="logo" src={Logo} style={{ width: "75%",marginTop:"5%",cursor:"pointer"  }} />
                 </a>
-
-                <img className="MenuIconMob" alt="menu" src={NavMenu} style={{ width: "2.5%" }} onClick={(e) => SetMenu(!Menu)} />
+                <img className="MenuIconMob" alt="menu" src={NavMenu} style={{ width: "2.5%",cursor:"pointer" }} onClick={(e) => SetMenu(!Menu)} />
               </Toolbar>
             )}
           </AppBar>

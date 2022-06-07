@@ -44,11 +44,19 @@
     margin-top: 5% !important;
     text-transform: capitalize !important;
     width: 35%;
-
 }
-
 .ProjectCardImg{
-    border-radius: 15px;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 1024px) {
+.ProjectCardTitle{
+    
+    font-size: 1.5rem !important;
+}
+.ProjectCardDesp{
+    font-size: .9rem !important;
+    width: 100% !important;
+}
 }
 @media only screen and (max-width: 900px) {
     .ProjectCardContainer1{
@@ -76,5 +84,11 @@
     }
     .ProjectCardDivider{
 
+}
+@media only screen and (max-width: 600px) {
+    .ProjectCardBtn{
+        width: 40%;
     }
-} */
+}
+
+*/
