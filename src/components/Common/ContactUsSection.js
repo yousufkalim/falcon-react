@@ -27,15 +27,14 @@ export default function ContactUsSection(props) {
       );
   };
   function onChange(value) {
-  console.log("Captcha value:", value);
-}
+    console.log("Captcha value:", value);
+  }
   return (
     <>
       {props.ContactUs ? (
         <div className="ContactUsDiv">
           <div>
             <SectionHeader
-            
               width="5%"
               h1="Contact Us"
               h2="Share Your Project/Idea with us!"
@@ -51,22 +50,46 @@ export default function ContactUsSection(props) {
                 <form onSubmit={sendEmail} className="ContactForm">
                   <div style={{ display: "flex", width: "100%" }}>
                     <Grid className="InputGrid" xs={12} sm={6}>
-                      <input required type="text" name="name" placeholder="Your Name" className="InputField" />
+                      <input
+                        required
+                        type="text"
+                        name="name"
+                        placeholder="Your Name"
+                        className="InputField"
+                      />
                     </Grid>
                     <Grid className="InputGrid" xs={12} sm={6}>
-                      <input required type="email" name="email" placeholder="Email" className="InputField" />
+                      <input
+                        required
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        className="InputField"
+                      />
                     </Grid>
                   </div>
                   <div style={{ display: "flex" }}>
                     <Grid className="InputGrid" xs={12} sm={6}>
-                      <input required type="number" name="phone" placeholder="Phone" className="InputField" />
+                      <input
+                        required
+                        type="number"
+                        name="phone"
+                        placeholder="Phone"
+                        className="InputField"
+                      />
                     </Grid>
                     <Grid className="InputGrid" xs={12} sm={6}>
-                      <input required type="text" name="budget" placeholder="Budget" className="InputField" />
+                      <input
+                        required
+                        type="text"
+                        name="budget"
+                        placeholder="Budget"
+                        className="InputField"
+                      />
                     </Grid>
                   </div>
                   <div>
-                    <Grid className="InputGrid"  xs={12}>
+                    <Grid className="InputGrid" xs={12}>
                       <textarea
                         required
                         type="text"
@@ -78,10 +101,10 @@ export default function ContactUsSection(props) {
                     </Grid>
                   </div>
                   <Grid xs={12}>
-                  <ReCAPTCHA
-                          sitekey="6Ldx_T0gAAAAAEUJmHBAIEaOLc2sTPgb00PcbhnA"
-                          onChange={onChange}
-                        />
+                    <ReCAPTCHA
+                      sitekey="6Ldx_T0gAAAAAEUJmHBAIEaOLc2sTPgb00PcbhnA"
+                      onChange={onChange}
+                    />
                     {/* <div
                       className="RobotDiv"
                       style={{
@@ -136,7 +159,7 @@ export default function ContactUsSection(props) {
                     </div>
                   </div>
                 </a>
-                <a href="tel:0318-4310639">
+                <a href="http://calendly.com/falconit">
                   <div className="ContactMediaDiv">
                     <img className="ContactMediaIcons" src={CalendlyIcon} />
                     <div className="SocialMediaText">
@@ -183,12 +206,12 @@ export default function ContactUsSection(props) {
                   />
                 </div>
                 <div>
-                  <a href="mailto:contact@falconconsulting.fr">
+                  <a href="http://calendly.com/falconit">
                     <div className="SocialMediaDiv">
                       <img className="SocialMediaIcons" src={CalendlyIcon} />
                       <div className="SocialMediaText">
                         <Typography>Schedule Meeting</Typography>
-                        <Typography>calendly.com/falcon-consulting</Typography>
+                        <Typography>calendly.com/falconit</Typography>
                       </div>
                     </div>
                   </a>
