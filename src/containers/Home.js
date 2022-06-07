@@ -20,9 +20,7 @@ export default function Home() {
       <NavBar />
       <Header
         Title="WE PROVIDE GREAT SERVICES AT THE BEST PRICE."
-        Description="Software house with a team of experienced developers and project
-        managers. We provide lump-sum services, or based on hours. In either
-        cases, you will receive a qualitative service for the best price!"
+        Description="Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners. "
         btn
         btnText="GET A FREE QUOTE"
         chatIcons
