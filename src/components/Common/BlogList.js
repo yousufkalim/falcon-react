@@ -1,3 +1,6 @@
+//Importing core
+import { useState, useEffect } from "react";
+import api from "../../api/index";
 // Init
 import { Grid } from "@mui/material";
 import React from "react";
@@ -13,7 +16,16 @@ import { motion } from "framer-motion";
 // Home Component
 export default function BlogList() {
   const [MoreBlogs, SetMoreBlogs] = React.useState(false);
+  const [blogs, setBlogs] = useState([]);
+  useEffect(() => {
+    getBlog();
+  }, []);
 
+  const getBlog = async () => {
+    await api("get", "/blogs").then((res) => {
+      setBlogs(res?.data?.blogs);
+    });
+  };
   return (
     <>
       <motion.div
@@ -24,75 +36,66 @@ export default function BlogList() {
         className="BlogListMain"
       >
         <Grid container spacing={1} className="BlogListContainer">
-          <Grid md={5} className="BlogListGrid">
-            <BlogCard
-              src={BlogList1}
-              date="November 25, 2022"
-              title="A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021"
-            />
-          </Grid>
-          <Grid md={5} className="BlogListGrid">
-            <BlogCard
-              src={BlogList2}
-              date="November 16, 2022"
-              title="What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?"
-            />
-          </Grid>
-          <Grid md={5} className="BlogListGrid">
-            <BlogCard
-              src={BlogList3}
-              date="November 25, 2022"
-              title="A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021"
-            />
-          </Grid>
-          <Grid md={5} className="BlogListGrid">
-            <BlogCard
-              src={BlogList4}
-              date="November 16, 2022"
-              title="What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?"
-            />
-          </Grid>
+          {!MoreBlogs && (
+            <Grid md={5} className="BlogListGrid">
+              {blogs.length <= 2 ? (
+                <>
+                  {blogs.map((blog) => {
+                    return (
+                      <BlogCard
+                        src={
+                          process.env.REACT_APP_SERVER_MEDIA_URL + blog.photo
+                        }
+                        date={new Date(blog.createdAt).toDateString()}
+                        title={blog?.title}
+                      />
+                    );
+                  })}
+                </>
+              ) : (
+                <>
+                  {blogs.slice(0, 4).map((blog) => {
+                    return (
+                      <BlogCard
+                        src={
+                          process.env.REACT_APP_SERVER_MEDIA_URL + blog.photo
+                        }
+                        date={new Date(blog.createdAt).toDateString()}
+                        title={blog?.title}
+                      />
+                    );
+                  })}
+                </>
+              )}
+            </Grid>
+          )}
+
           {MoreBlogs && (
             <>
               <Grid md={5} className="BlogListGrid">
-                <BlogCard
-                  src={BlogList1}
-                  date="November 25, 2022"
-                  title="A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021"
-                />
-              </Grid>
-              <Grid md={5} className="BlogListGrid">
-                <BlogCard
-                  src={BlogList2}
-                  date="November 16, 2022"
-                  title="What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?"
-                />
-              </Grid>
-              <Grid md={5} className="BlogListGrid">
-                <BlogCard
-                  src={BlogList3}
-                  date="November 25, 2022"
-                  title="A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021"
-                />
-              </Grid>
-              <Grid md={5} className="BlogListGrid">
-                <BlogCard
-                  src={BlogList4}
-                  date="November 16, 2022"
-                  title="What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?"
-                />
+                {blogs.map((blog) => {
+                  return (
+                    <BlogCard
+                      src={process.env.REACT_APP_SERVER_MEDIA_URL + blog.photo}
+                      date={new Date(blog.createdAt).toDateString()}
+                      title={blog?.title}
+                    />
+                  );
+                })}
               </Grid>
             </>
           )}
-          <Grid xs={12} className="BlogBtnGrid">
-            <Button
-              className="BlogBtn"
-              variant="outlined"
-              onClick={(e) => SetMoreBlogs(!MoreBlogs)}
-            >
-              {MoreBlogs ? "Show less" : "See more"}
-            </Button>
-          </Grid>
+          {blogs.length > 2 && (
+            <Grid xs={12} className="BlogBtnGrid">
+              <Button
+                className="BlogBtn"
+                variant="outlined"
+                onClick={(e) => SetMoreBlogs(!MoreBlogs)}
+              >
+                {MoreBlogs ? "Show less" : "See more"}
+              </Button>
+            </Grid>
+          )}
         </Grid>
       </motion.div>
     </>

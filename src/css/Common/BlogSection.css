@@ -6,7 +6,10 @@
 }
 
 .BlogCardMain img{
- width: 100%;
+ max-width: 350px;
+ min-width: 350px;
+ max-height: 250px;
+ min-height: 250px;
 }
 .BlogContainerGrid{
     display: flex;
