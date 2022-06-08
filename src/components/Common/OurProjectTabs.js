@@ -35,8 +35,11 @@ import PizzaBoli from "../../assets/images/Pizza_Boli.svg";
 import Sindoor from "../../assets/images/Sindoor.svg";
 import Yuwway from "../../assets/images/Yuwway.svg";
 import Zypzap from "../../assets/images/Zypzap.svg";
+import Zypzap_Logo from "../../assets/images/zypzap_Logo.svg";
 import Wina from "../../assets/images/wina.svg";
 import Wina_Logo from "../../assets/images/wina_logo.svg";
+import Ficility from "../../assets/images/facility.svg";
+import Fireman from "../../assets/images/Fireman.svg";
 import { Grid } from "@mui/material";
 import { Button } from "@mui/material";
 import Tab from "@mui/material/Tab";
@@ -338,7 +341,7 @@ export default function BasicTabs() {
           Reverse
           LogoSrc={RealEstate_Logo}
           // ModalHeading="Real Estate"
-          DividerTheme="#11A283"
+          DividerTheme="#837C6B"
           RealEstate_Logo
           src={RealEstate}
           title="Real Estate"
@@ -518,6 +521,8 @@ export default function BasicTabs() {
             />
             <OurProjectCard
               Reverse
+              LogoSrc={Zypzap_Logo}
+              DividerTheme="#522F6D"
               src={Zypzap}
               title="Zypzap"
               description="ZypZap is a gaming platform by Falcon IT."
@@ -541,6 +546,20 @@ export default function BasicTabs() {
               para3="Once the matching is done, a calendar allows the student to book an interview session with the company. "
               para4="The platform automatically retrieves (scrapes) all offers from reference websites in France, and add them to Winaa’s database. "
               para5="Companies have a full dashboard allowing them to manage their offers, see the potential matches and accept the interview sessions. "
+            />
+            <OurProjectCard
+              Reverse
+              src={Ficility}
+              title="Facility Management"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+              // Modal Data
+            />
+            <OurProjectCard
+              DividerTheme="blue"
+              src={Fireman}
+              title="Fireman"
+              description="MediaPipe offers cross-platform, customizable ML solutions for live and streaming media"
+              // Modal Data
             />
           </>
         )}
