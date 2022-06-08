@@ -251,6 +251,9 @@
     left: 0%;
     visibility: visible;
   }
+  .NavMenu_box{
+    background-color: #003b7e !important;
+  }
   /* .Service_Mobile:hover{
     background-color: #E5E5E5 !important;
     color: #003B7E !important;
@@ -287,6 +290,10 @@
   .Nav_links {
     width: 100% !important;
     padding: 0% 2%;
+    color: #fff !important;
+  }
+  .Nav_links:hover{
+    color: #000 !important;
   }
   .DropLinks {
     font-size: 10% !important;
@@ -295,6 +302,7 @@
   }
   #Mob_nav {
     transition: 0.5s;
+    width: 95vw !important;
   }
   #Mob_nav:hover {
     color: #000 !important;
@@ -317,6 +325,10 @@
 }
 .Servive_DropDown{
   font-size: 1.2rem !important;
+  color: #fff !important;
+}
+.Servive_DropDown:hover{
+  color: #000 !important;
 }
 /* .Service_Mobile {
   color: #003b7e;
