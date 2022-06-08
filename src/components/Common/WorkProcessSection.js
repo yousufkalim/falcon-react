@@ -1,5 +1,5 @@
 // Init
-import { Grid} from "@mui/material";
+import { Grid } from "@mui/material";
 import React from "react";
 import SectionHeader from "./SectionHeader";
 import Step1 from "../../assets/images/step1.svg";
@@ -72,8 +72,8 @@ export default function WorkProcessSection(props) {
             <Grid xs={12} sm={6} md={3}>
               <WorkProcessSteps
                 src={Step1}
-                title="Research"
-                desp="We do research before we start any projects"
+                title="Project Requirement"
+                desp="We do research and validate the specs before we start any projects"
               />
             </Grid>
             <Grid xs={12} sm={6} md={3}>

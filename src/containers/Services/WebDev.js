@@ -17,9 +17,11 @@ export default function WebDev() {
       <NavBar />
       <Header
         Title="WEB DEVELOPMENT "
+        Titlecolor="#003B7E"
         Description="We are ready to handle your ambitious projects!"
+        DespColor="#003B7E"
         btn
-        btnText="Get This Service"
+        btnText="More information"
         ImgSrc={WebDevImg}
       />
       <KeyFeatureSection />

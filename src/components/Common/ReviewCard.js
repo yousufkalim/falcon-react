@@ -6,7 +6,7 @@ import img from "../../assets/images/muh_ali.webp";
 
 export default function ReviewCard(props) {
   const { data, dataIndex } = props;
-  const { name, review } = data[dataIndex];
+  const { name, review, avatar } = data[dataIndex];
 
   const [value, setValue] = React.useState(4);
 
@@ -20,8 +20,10 @@ export default function ReviewCard(props) {
       }}
     >
       <div className="ReviewCard">
-        <Avatar alt="Remy Sharp" src={props.src || img} sx={{ width: 99, height: 99 }} />
-        <Typography sx={{ margin: "6% 0%", fontWeight: 600 }}>{name}</Typography>
+        <Avatar alt="Remy Sharp" src={avatar} sx={{ width: 99, height: 99 }} />
+        <Typography sx={{ margin: "6% 0%", fontWeight: 600 }}>
+          {name}
+        </Typography>
         <Rating
           name="simple-controlled"
           // name="size-medium"

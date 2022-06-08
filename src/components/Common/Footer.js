@@ -23,16 +23,18 @@ export default function Footer(props) {
               sx={{ color: "#282828", opacity: "50%", marginBottom: "3%" }}
             >
               The services are provided at a flat rate, or according to a
-              determined daily rate, according to your preference. In both
-              cases, we guarantee you a quality service at a very competitive
-              price.
+              determined daily rate, based on your preference. In both cases, we
+              guarantee you a quality service at a very competitive price.
             </Typography>
             <div className="IconsDiv">
-              <img className="FooterIcons" src={FB} />
-              <img className="FooterIcons" src={LinkedIn} />
-            <a href="https://wa.me/03135098197">
-
-              <img className="FooterIcons" src={WhatsApp} />
+              <a href="https://www.facebook.com/FalconConsulting.fr">
+                <img className="FooterIcons" src={FB} />
+              </a>
+              <a href="https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F">
+                <img className="FooterIcons" src={LinkedIn} />
+              </a>
+              <a href="https://wa.me/03135098197">
+                <img className="FooterIcons" src={WhatsApp} />
               </a>
             </div>
           </div>
@@ -46,22 +48,14 @@ export default function Footer(props) {
               </Typography>
               <ul>
                 <li>
-                  <a href="/about">
-                  About
-                  </a>
-                  </li>
-                  <li>
-                  <a href="/ourprojects">
-                  Our projects
-                  </a>
-                  </li>
-                  <li>
-                  <a href="/contactus">
-                  Contact
-                  </a>
-                  </li>
-               
-                
+                  <a href="/about">About</a>
+                </li>
+                <li>
+                  <a href="/ourprojects">Our projects</a>
+                </li>
+                <li>
+                  <a href="/contactus">Contact</a>
+                </li>
               </ul>
             </div>
             <div className="FooterList">
@@ -72,32 +66,25 @@ export default function Footer(props) {
                 Services
               </Typography>
               <ul>
-              <li>
-                  <a href="/services/web-development">
-                  Web Development
-                  </a>
-                  </li>
-                  <li>
-                  <a href="/services/app-development">
-                  App Development
-                  </a>
-                  </li>
-                  <li>
+                <li>
+                  <a href="/services/web-development">Web Development</a>
+                </li>
+                <li>
+                  <a href="/services/app-development">App Development</a>
+                </li>
+                <li>
                   <a href="/services/software-development">
-                  Software Development
+                    Software Development
                   </a>
-                  </li>
-                  <li>
+                </li>
+                <li>
                   <a href="/services/ondemand-developers">
-                  On Demand Developers
+                    On Demand Developers
                   </a>
-                  </li>
-                  <li>
-                  <a href="/services/ui-development">
-                  UI/UX Developmemt
-                  </a>
-                  </li>
-               
+                </li>
+                <li>
+                  <a href="/services/ui-development">UI/UX Developmemt</a>
+                </li>
               </ul>
             </div>
             <div className="FooterList">

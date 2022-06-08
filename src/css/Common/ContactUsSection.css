@@ -192,6 +192,9 @@ input:focus ,textarea:focus{
     display: flex;
     justify-content: center;
 }
+.ReCAPTCHA_DIV{
+    margin: 2.5%;
+}
 @media only screen and (max-width: 1366px) {
 
 .RobotDiv{
