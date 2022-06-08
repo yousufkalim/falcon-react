@@ -31,7 +31,7 @@ export default function NavBarMenu({ Menu, SetMenu }) {
           className="NavToolbar"
           sx={{ display: "flex", justifyContent: "space-between" }}
         >
-          <Link to={"/"}>
+          <Link to={`/`}>
             <img alt="logo" src={LogoWhite} style={{ width: "70%" }} />
           </Link>
           <img
@@ -122,17 +122,14 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                 <div className="text-dot-container">
                   <span class="dot"></span>
                   <Link to="/blog">Blog</Link>
-                  {/* <a style={{color:"white"}} href={`/blog`}>Blog</a> */}
                 </div>
                 <div className="text-dot-container">
                   <span class="dot"></span>
-                  {/* <a style={{color:"white"}} href={`/ourprojects`}>Our Projects</a> */}
                   <Link to="/ourprojects">Our Projects</Link>
                 </div>
                 <div className="text-dot-container">
                   <span class="dot"></span>
                   <Link to="/contactus">Contact Us</Link>
-                  {/* <a style={{color:"white"}} href={`/contactus`}>Contact Us</a> */}
                 </div>
                 <ul className="MainMenuList">
                   {/* <li onClick={(e) => SetServiceDropDown(!ServiceDropDown)}>
@@ -172,16 +169,21 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                       >
                         <List component="div" disablePadding>
                           {/* primaryTypographyProps={{fontSize: "1.4rem",color:"white",fontWeight:"500",lineHeight:1 }}  */}
-                          <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
+                          <ListItemButton
+                            id="Mob_nav"
+                            sx={{
+                              pl: 6,
+                            }}
+                          >
                             <Link
                               style={{ width: "100%" }}
                               to={`/services/web-development`}
                             >
                               <ListItemText>
-                                <span className="Servive_DropDown">
+                                <div className="Servive_DropDown">
                                   {" "}
                                   WEB DEVELOPMENT
-                                </span>
+                                </div>
                               </ListItemText>
                             </Link>
                           </ListItemButton>
@@ -191,10 +193,10 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                               to={`/services/app-development`}
                             >
                               <ListItemText>
-                                <span className="Servive_DropDown">
+                                <div className="Servive_DropDown">
                                   {" "}
                                   APP DEVELOPMENT
-                                </span>
+                                </div>
                               </ListItemText>
                             </Link>
                           </ListItemButton>
@@ -204,10 +206,10 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                               to={`/services/software-development`}
                             >
                               <ListItemText>
-                                <span className="Servive_DropDown">
+                                <div className="Servive_DropDown">
                                   {" "}
                                   SOFTWARE DEVELOPMENT
-                                </span>
+                                </div>
                               </ListItemText>
                             </Link>
                           </ListItemButton>
@@ -217,10 +219,10 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                               to={`/services/ondemand-developers`}
                             >
                               <ListItemText>
-                                <span className="Servive_DropDown">
+                                <div className="Servive_DropDown">
                                   {" "}
                                   ON DEMAND DEVELOPERS
-                                </span>
+                                </div>
                               </ListItemText>
                             </Link>
                           </ListItemButton>
@@ -230,10 +232,10 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                               to={`/services/ui-development`}
                             >
                               <ListItemText>
-                                <span className="Servive_DropDown">
+                                <div className="Servive_DropDown">
                                   {" "}
                                   UI/UX DEVELOPMENT
-                                </span>
+                                </div>
                               </ListItemText>
                             </Link>
                           </ListItemButton>
