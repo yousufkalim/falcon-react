@@ -282,18 +282,18 @@
     line-height: 1 !important;
     font-weight: 700 !important;
     font-size: 1.5rem !important;
-    transition: 0.5s;
+    transition: 0.5s !important;
   }
   .css-10hburv-MuiTypography-root:hover {
-    color: #000 !important;
+    color: #003b7e !important;
   }
   .Nav_links {
-    width: 100% !important;
+    width: 100vw !important;
     padding: 0% 2%;
     color: #fff !important;
   }
   .Nav_links:hover{
-    color: #000 !important;
+    color: #003b7e !important;
   }
   .DropLinks {
     font-size: 10% !important;
@@ -302,10 +302,10 @@
   }
   #Mob_nav {
     transition: 0.5s;
-    width: 95vw !important;
+    width: 100vw !important;
   }
   #Mob_nav:hover {
-    color: #000 !important;
+    color: #003b7e !important;
     background-color: white !important;
   }
 
@@ -318,17 +318,25 @@
   .text-dot-container {
     display: none;
   }
-}
+
 
 #Mob_items {
-  font-size: 10px;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
 }
 .Servive_DropDown{
   font-size: 1.2rem !important;
   color: #fff !important;
+  line-height: 1.2 !important;
 }
 .Servive_DropDown:hover{
-  color: #000 !important;
+  color: #003b7e !important;
+}
+.css-yb0lig{
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+}
 }
 /* .Service_Mobile {
   color: #003b7e;
