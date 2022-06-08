@@ -13,7 +13,7 @@ import KeyFeatureSection from "../../components/Common/KeyFeatureSection";
 // Home Component
 export default function WebDev() {
   return (
-    <div>
+    <div className="Services_WebContainer">
       <NavBar />
       <Header
         Title="WEB DEVELOPMENT "

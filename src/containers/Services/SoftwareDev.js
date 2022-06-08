@@ -15,7 +15,7 @@ import KeyFeatureSection from "../../components/Common/KeyFeatureSection";
 // Home Component
 export default function SoftwareDev() {
   return (
-    <div>
+    <div className="Services_SoftwareContainer">
       <NavBar />
       <Header
         Title="SoftWare DEVELOPMENT "
