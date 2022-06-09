@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import SectionHeader from "./SectionHeader";
 import ReviewCard from "./ReviewCard";
 import Client_1 from "../../assets/images/client_1.svg";
@@ -14,13 +14,14 @@ import {
   StackedCarousel,
   ResponsiveContainer,
 } from "react-stacked-center-carousel";
-
+import { useState, useEffect } from "react";
+import api from "../../api/index";
+import { clientsClaim } from "workbox-core";
 export default function ReviewSection() {
-  const ref = React.useRef();
+  const [clients, setClients] = useState([]);
   const [data, setData] = useState([
     {
       avatar: Client_1,
-
       name: "Farhan Shakir",
       review:
         " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
@@ -37,43 +38,40 @@ export default function ReviewSection() {
       review:
         " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     },
-    {
-      avatar: Client_4,
-      name: "Anderson Silva",
-      review:
-        " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    },
-    {
-      avatar: Client_5,
-      name: "Salauddin Ayubi",
-      review:
-        " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    },
-    {
-      avatar: Client_6,
-      name: " Mam Zunaira",
-      review:
-        " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    },
-    {
-      avatar: Client_7,
-      name: "Adeel Baig",
-      review:
-        " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    },
-    {
-      avatar: Client_8,
-      name: "Yousaf Kaleem",
-      review:
-        " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    },
-    {
-      avatar: Client_9,
-      name: "Amanda Nunes",
-      review:
-        " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    },
   ]);
+
+  useEffect(() => {
+    getClients();
+  }, []);
+
+  const getClients = async () => {
+    await api("get", "/clients").then((res) => {
+      setClients(res?.data?.clients);
+    });
+  };
+  const ref = React.useRef();
+
+  useEffect(() => {
+    if (clients.length > 1) {
+      let cp = [...clients];
+      cp = cp.map((D) => {
+        return {
+          avatar: process.env.REACT_APP_SERVER_MEDIA_URL + D?.photo,
+          name: D.name,
+          review: D.comment,
+        };
+      });
+      cp.push({
+        avatar: Client_9,
+        name: "Amanda Nunes",
+        review:
+          " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      });
+      // console.log(cp, "cpppp");
+      // console.log(data, "cpppp");
+      setData(cp);
+    }
+  }, [clients]);
 
   return (
     <>
