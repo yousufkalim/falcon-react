@@ -1,17 +1,22 @@
 import { Typography } from "@mui/material";
+import { useState, useEffect } from "react";
+import api from "../../api/index";
 import React from "react";
 import SectionHeader from "../Common/SectionHeader";
-import Pak from "../../assets/images/location_pak.png";
-import Pak_Icon from "../../assets/images/pak_icon.svg";
-import London from "../../assets/images/location_london.png";
-import Paris_Icon from "../../assets/images/paris_icon.svg";
-import US from "../../assets/images/location_us.png";
-import US_Icon from "../../assets/images/us_icon.svg";
-import UAE from "../../assets/images/UAE.png";
-import UAE_Icon from "../../assets/images/UAE_Icon.svg";
 import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default function LocationSection(props) {
+  const [offices, setOffices] = useState([]);
+
+  useEffect(() => {
+    getOffices();
+  }, []);
+
+  const getOffices = async () => {
+    await api("get", "/offices").then((res) => {
+      setOffices(res?.data?.offices);
+    });
+  };
   return (
     <>
       <div className="LocationSectionMain">
@@ -24,71 +29,41 @@ export default function LocationSection(props) {
           />
         </div>
         <div className="LocationSliderDiv">
-
-  <Carousel
-  className="Awesome_Slider"
-  autoPlay
-  infiniteLoop
-  showIndicators={false}
-  showStatus={false}
-  // swipeable={false}
-  >
-    <div className="LocationDiv">
-              <div className="LocationDiv_Typo">
-                <img src={Pak_Icon} />
-
-                <Typography className="Location_Country">Pakistan</Typography>
-                <Typography className="Location_Address">
-                  8-A, Iqbal Avenue Cooperative Housing Society - Phase I
-                  Lahore, Punjab
-                </Typography>
-              </div>
-              <div className="LocationDiv_Img">
-                <img className="Location_Img" src={Pak} />
-              </div>
-            </div>
-            <div className="LocationDiv">
-              <div className="LocationDiv_Typo">
-                <img src={Paris_Icon} />
-
-                <Typography className="Location_Country">France</Typography>
-                <Typography className="Location_Address">
-                  53 Avenue Victor Hugo 94290 Villeneuve-Le-Roi
-                </Typography>
-              </div>
-              <div className="LocationDiv_Img">
-                <img className="Location_Img" src={London} />
-              </div>
-            </div>
-            <div className="LocationDiv">
-              <div className="LocationDiv_Typo">
-                <img src={US_Icon} />
-
-                <Typography className="Location_Country">
-                  United States
-                </Typography>
-                <Typography className="Location_Address">
-                  4201 31st St S, Arlington, VA 22206
-                </Typography>
-              </div>
-              <div className="LocationDiv_Img">
-                <img className="Location_Img" src={US} />
-              </div>
-            </div>
-            <div className="LocationDiv">
-              <div className="LocationDiv_Typo">
-                <img src={UAE_Icon} />
-
-                <Typography className="Location_Country">UAE</Typography>
-                <Typography className="Location_Address">
-                  Mazyad Mall, Tower 2 - 4th Floor, Office 425, Abu Dhabi, UAE
-                </Typography>
-              </div>
-              <div className="LocationDiv_Img">
-                <img className="Location_Img" src={UAE} />
-              </div>
-            </div>
-  </Carousel>
+          <Carousel
+            className="Awesome_Slider"
+            autoPlay
+            infiniteLoop
+            showIndicators={false}
+            showStatus={false}
+          >
+            {offices?.map((office) => {
+              return (
+                <div className="LocationDiv">
+                  <div className="LocationDiv_Typo">
+                    <img
+                      src={
+                        process.env.REACT_APP_SERVER_MEDIA_URL + office.photo
+                      }
+                    />
+                    <Typography className="Location_Country">
+                      {office?.country}
+                    </Typography>
+                    <Typography className="Location_Address">
+                      {office.address}
+                    </Typography>
+                  </div>
+                  <div className="LocationDiv_Img">
+                    <img
+                      className="Location_Img"
+                      src={
+                        process.env.REACT_APP_SERVER_MEDIA_URL + office.photo
+                      }
+                    />
+                  </div>
+                </div>
+              );
+            })}
+          </Carousel>
         </div>
       </div>
     </>
