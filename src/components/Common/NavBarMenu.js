@@ -3,7 +3,7 @@ import Toolbar from "@mui/material/Toolbar";
 import LogoWhite from "../../assets/images/logo_white.png";
 import CloseIcon from "../../assets/images/close_White.png";
 import MenuImg from "../../assets/images/MenuImg.svg";
-import { Divider} from "@mui/material";
+import { Divider } from "@mui/material";
 import { motion } from "framer-motion";
 import List from "@mui/material/List";
 import ListItemButton from "@mui/material/ListItemButton";
@@ -11,9 +11,9 @@ import ListItemText from "@mui/material/ListItemText";
 import Collapse from "@mui/material/Collapse";
 import ExpandLess from "@mui/icons-material/ExpandLess";
 import ExpandMore from "@mui/icons-material/ExpandMore";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
-export default function NavBarMenu({Menu, SetMenu}) {
+export default function NavBarMenu({ Menu, SetMenu }) {
   const [ServiceDropDown, SetServiceDropDown] = React.useState(false);
   const [open, setOpen] = React.useState(false);
 
@@ -22,171 +22,245 @@ export default function NavBarMenu({Menu, SetMenu}) {
   };
   return (
     <>
-              <motion.div className="MenuDiv" animate={{ opacity: [0, 1] }} transition={{ ease: "easeOut", duration: .5 }}>
-                <Toolbar className="NavToolbar" sx={{ display: "flex", justifyContent: "space-between" }}>
-                  <a href={"/"}>
-                    <img alt="logo" src={LogoWhite} style={{ width: "70%" }} />
-                  </a>
-                  <img
-                    className="MenuIconMob"
-                    alt="NavMenu"
-                    src={CloseIcon}
-                    style={{ width: "2.5%", color: "white",cursor:"pointer" }}
-                    onClick={(e) => SetMenu(!Menu)}
-                  />
-                </Toolbar>
-                <div className="MenuSectionMain">
-                  <div className="MenuSection">
-                    <div className="MenuImgDiv">
-                      <img className="MenuImg" src={MenuImg} />
-                    </div>
-                    <div className="MenuTypoDiv">
-                      <div className="ServiceOptionDiv">
-                        {ServiceDropDown && (
-                          <>
-                            <motion.div
-                              initial={{ opacity: 0 }}
-                              whileInView={{ opacity: 1 }}
-                              transition={{ duration: 1 }}
-                              className="ServicesDropDown"
-                            >
-                              <ul className="ServicesFields">
-                                <li>
-                                  <a href={`/services/web-development`}>WEB DEVELOPMENT</a>
-                                </li>
-                                <li>
-                                  <a href={`/services/app-development`}>APP DEVELOPMENT</a>
-                                </li>
-                                <li>
-                                  <a href={`/services/software-development`}>SOFTWARE DEVELOPMENT</a>
-                                </li>
-                                <li>
-                                  <a href={`/services/ondemand-developers`}>ON DEMAND DEVELOPERS</a>
-                                </li>
-                                <li>
-                                  <a href={`/services/ui-development`}>UI/UX DEVELOPMENT</a>
-                                </li>
-                              </ul>
-                            </motion.div>
-                            <Divider
-                              orientation="vertical"
-                              sx={{
-                                width: ".5%",
-                                height: "35%",
-                                backgroundColor: "#fff",
-                                borderRadius: "4px",
-                                marginLeft: "5%",
-                              }}
-                            />
-                          </>
-                        )}
-                      </div>
-                      {
-                        ServiceDropDown?(
-                        <>
-                        <div className="class-name"> 
-                      </div> 
-                        </>
-                        ):null
-                      }
-                     
-                      <div className="MainMenu">
-                         <div className="text-dot-container"> 
-                         <span class="dot"></span>
-                         {/* <a style={{color:"white"}} href={`/about`}>About</a> */}
-                         <Link to="/about">About</Link>
-                         </div>
-                         <div className="text-dot-container">
-                         
-                         <span class="dot"></span>
-                        <span className="services" onClick={(e) => SetServiceDropDown(!ServiceDropDown)} >Services</span>  
-                         </div>
-                         <div className="text-dot-container"> 
-                         <span class="dot"></span>
-                         <Link to="/blog">Blog</Link>
-                         {/* <a style={{color:"white"}} href={`/blog`}>Blog</a> */}
-                         </div>
-                         <div className="text-dot-container"> 
-                         <span class="dot"></span>
-                         {/* <a style={{color:"white"}} href={`/ourprojects`}>Our Projects</a> */}
-                         <Link to="/ourprojects">Our Projects</Link>
-                         </div>
-                         <div className="text-dot-container"> 
-                         <span class="dot"></span>
-                         <Link to="/contactus">Contact Us</Link>
-                         {/* <a style={{color:"white"}} href={`/contactus`}>Contact Us</a> */}
-                         </div>
-                        <ul className="MainMenuList">
-                            {/* <li onClick={(e) => SetServiceDropDown(!ServiceDropDown)}>
+      <motion.div
+        className="MenuDiv"
+        animate={{ opacity: [0, 1] }}
+        transition={{ ease: "easeOut", duration: 0.5 }}
+      >
+        <Toolbar
+          className="NavToolbar"
+          sx={{ display: "flex", justifyContent: "space-between" }}
+        >
+          <Link to={`/`}>
+            <img alt="logo" src={LogoWhite} style={{ width: "70%" }} />
+          </Link>
+          <img
+            className="MenuIconMob"
+            alt="NavMenu"
+            src={CloseIcon}
+            style={{ width: "2.5%", color: "white", cursor: "pointer" }}
+            onClick={(e) => SetMenu(!Menu)}
+          />
+        </Toolbar>
+        <div className="MenuSectionMain">
+          <div className="MenuSection">
+            <div className="MenuImgDiv">
+              <img className="MenuImg" src={MenuImg} />
+            </div>
+            <div className="MenuTypoDiv">
+              <div className="ServiceOptionDiv">
+                {ServiceDropDown && (
+                  <>
+                    <motion.div
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      transition={{ duration: 1 }}
+                      className="ServicesDropDown"
+                    >
+                      <ul className="ServicesFields">
+                        <li>
+                          <Link to={`/services/web-development`}>
+                            WEB DEVELOPMENT
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={`/services/app-development`}>
+                            APP DEVELOPMENT
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={`/services/software-development`}>
+                            SOFTWARE DEVELOPMENT
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={`/services/ondemand-developers`}>
+                            ON DEMAND DEVELOPERS
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={`/services/ui-development`}>
+                            UI/UX DEVELOPMENT
+                          </Link>
+                        </li>
+                      </ul>
+                    </motion.div>
+                    <Divider
+                      orientation="vertical"
+                      sx={{
+                        width: ".5%",
+                        height: "35%",
+                        backgroundColor: "#fff",
+                        borderRadius: "4px",
+                        marginLeft: "5%",
+                      }}
+                    />
+                  </>
+                )}
+              </div>
+              {ServiceDropDown ? (
+                <>
+                  <div className="class-name"></div>
+                </>
+              ) : null}
+
+              <div className="MainMenu">
+                <div className="text-dot-container">
+                  <span class="dot"></span>
+                  {/* <a style={{color:"white"}} href={`/about`}>About</a> */}
+                  <Link to="/about">About</Link>
+                </div>
+                <div className="text-dot-container">
+                  <span class="dot"></span>
+                  <span
+                    className="services"
+                    onClick={(e) => SetServiceDropDown(!ServiceDropDown)}
+                  >
+                    Services
+                  </span>
+                </div>
+                <div className="text-dot-container">
+                  <span class="dot"></span>
+                  <Link to="/blog">Blog</Link>
+                </div>
+                <div className="text-dot-container">
+                  <span class="dot"></span>
+                  <Link to="/ourprojects">Our Projects</Link>
+                </div>
+                <div className="text-dot-container">
+                  <span class="dot"></span>
+                  <Link to="/contactus">Contact Us</Link>
+                </div>
+                <ul className="MainMenuList">
+                  {/* <li onClick={(e) => SetServiceDropDown(!ServiceDropDown)}>
                             Services
                               </li> */}
-                          
-                          {/* mobileview */}
-                          <div className="Service_Mobile">
-                            <List
-                              sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}
-                              component="nav"
-                              // aria-labelledby="nested-list-subheader"
-                            >
-                              <ListItemButton id="Mob_nav">
-                                <a className="Nav_links" href={`/about`}>
-                                  <ListItemText id="Mob_items" primary="About" />
-                                </a>
-                              </ListItemButton>
-                              <ListItemButton  id="Mob_nav" onClick={handleClick}>
-                                <ListItemText id="Mob_items" className="dropDown_list" primary="Services" />
-                                {open ? <ExpandLess/> : <ExpandMore/>}
-                              </ListItemButton>
-                              <Collapse className="Service_list" in={open} timeout="auto" unmountOnExit>
-                                <List component="div" disablePadding>
-                                {/* primaryTypographyProps={{fontSize: "1.4rem",color:"white",fontWeight:"500",lineHeight:1 }}  */}
-                                  <ListItemButton id="Mob_nav" sx={{ pl: 6}}>
-                                    <a style={{width:"100%"}}  href={`/services/web-development`}>
-                                     <ListItemText><span className="Servive_DropDown"> WEB DEVELOPMENT</span></ListItemText>
-                                    </a>
-                                  </ListItemButton>
-                                  <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
-                                    <a style={{width:"100%"}}  href={`/services/app-development`}>
-                                      <ListItemText><span className="Servive_DropDown"> APP DEVELOPMENT</span></ListItemText>
-                                    </a>
-                                  </ListItemButton>
-                                  <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
-                                    <a style={{width:"100%"}}  href={`/services/software-development`}>
-                                      <ListItemText><span className="Servive_DropDown"> SOFTWARE DEVELOPMENT</span></ListItemText>
-                                    </a>
-                                  </ListItemButton>
-                                  <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
-                                    <a style={{width:"100%"}}  href={`/services/ondemand-developers`}>
-                                      <ListItemText><span className="Servive_DropDown"> ON DEMAND DEVELOPERS</span></ListItemText>
-                                    </a>
-                                  </ListItemButton>
-                                  <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
-                                    <a style={{width:"100%"}}  href={`/services/ui-development`}>
-                                      <ListItemText><span className="Servive_DropDown"> UI/UX DEVELOPMENT</span></ListItemText>
-                                    </a>
-                                  </ListItemButton>
-                                </List>
-                              </Collapse>
-                              <ListItemButton  id="Mob_nav"> 
-                                <a className="Nav_links" href={`/blog`}>
-                                  <ListItemText primary="Blog" />
-                                </a>
-                              </ListItemButton>
-                              <ListItemButton id="Mob_nav">
-                                <a className="Nav_links" href={`/ourprojects`}>
-                                  <ListItemText primary="Our Projects" />
-                                </a>
-                              </ListItemButton>
-                              <ListItemButton id="Mob_nav">
-                                <a className="Nav_links" href={`/contactus`}>
-                                  <ListItemText primary="Contact Us" />
-                                </a>
-                              </ListItemButton>
-                            </List>
-                          </div>
-                            {/* mobileview */}
 
-                          {/* <li className="Service_Pc">
+                  {/* mobileview */}
+                  <div className="Service_Mobile">
+                    <List
+                      sx={{
+                        width: "100%",
+                        maxWidth: 360,
+                        bgcolor: "background.paper",
+                      }}
+                      component="nav"
+                      className="NavMenu_box"
+                      // aria-labelledby="nested-list-subheader"
+                    >
+                      <ListItemButton id="Mob_nav">
+                        <Link className="Nav_links" to={`/about`}>
+                          <ListItemText id="Mob_items" primary="About" />
+                        </Link>
+                      </ListItemButton>
+                      <ListItemButton id="Mob_nav" onClick={handleClick}>
+                        <ListItemText
+                          id="Mob_items"
+                          className="dropDown_list"
+                          primary="Services"
+                        />
+                        {open ? <ExpandLess /> : <ExpandMore />}
+                      </ListItemButton>
+                      <Collapse
+                        className="Service_list"
+                        in={open}
+                        timeout="auto"
+                        unmountOnExit
+                      >
+                        <List component="div" disablePadding>
+                          {/* primaryTypographyProps={{fontSize: "1.4rem",color:"white",fontWeight:"500",lineHeight:1 }}  */}
+                          <ListItemButton
+                            id="Mob_nav"
+                            sx={{
+                              pl: 6,
+                            }}
+                          >
+                            <Link
+                              style={{ width: "100%" }}
+                              to={`/services/web-development`}
+                            >
+                              <ListItemText>
+                                <div className="Servive_DropDown">
+                                  {" "}
+                                  WEB DEVELOPMENT
+                                </div>
+                              </ListItemText>
+                            </Link>
+                          </ListItemButton>
+                          <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
+                            <Link
+                              style={{ width: "100%" }}
+                              to={`/services/app-development`}
+                            >
+                              <ListItemText>
+                                <div className="Servive_DropDown">
+                                  {" "}
+                                  APP DEVELOPMENT
+                                </div>
+                              </ListItemText>
+                            </Link>
+                          </ListItemButton>
+                          <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
+                            <Link
+                              style={{ width: "100%" }}
+                              to={`/services/software-development`}
+                            >
+                              <ListItemText>
+                                <div className="Servive_DropDown">
+                                  {" "}
+                                  SOFTWARE DEVELOPMENT
+                                </div>
+                              </ListItemText>
+                            </Link>
+                          </ListItemButton>
+                          <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
+                            <Link
+                              style={{ width: "100%" }}
+                              to={`/services/ondemand-developers`}
+                            >
+                              <ListItemText>
+                                <div className="Servive_DropDown">
+                                  {" "}
+                                  ON DEMAND DEVELOPERS
+                                </div>
+                              </ListItemText>
+                            </Link>
+                          </ListItemButton>
+                          <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
+                            <Link
+                              style={{ width: "100%" }}
+                              to={`/services/ui-development`}
+                            >
+                              <ListItemText>
+                                <div className="Servive_DropDown">
+                                  {" "}
+                                  UI/UX DEVELOPMENT
+                                </div>
+                              </ListItemText>
+                            </Link>
+                          </ListItemButton>
+                        </List>
+                      </Collapse>
+                      <ListItemButton id="Mob_nav">
+                        <Link className="Nav_links" to={`/blog`}>
+                          <ListItemText primary="Blog" />
+                        </Link>
+                      </ListItemButton>
+                      <ListItemButton id="Mob_nav">
+                        <Link className="Nav_links" to={`/ourprojects`}>
+                          <ListItemText primary="Our Projects" />
+                        </Link>
+                      </ListItemButton>
+                      <ListItemButton id="Mob_nav">
+                        <Link className="Nav_links" to={`/contactus`}>
+                          <ListItemText primary="Contact Us" />
+                        </Link>
+                      </ListItemButton>
+                    </List>
+                  </div>
+                  {/* mobileview */}
+
+                  {/* <li className="Service_Pc">
                             <a href={`/blog`}>Blog</a>
                           </li>
                           <li className="Service_Pc">
@@ -195,14 +269,12 @@ export default function NavBarMenu({Menu, SetMenu}) {
                           <li className="Service_Pc">
                             <a href={`/contactus`}>Contact Us</a>
                           </li> */}
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-          
-      
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </motion.div>
     </>
   );
 }

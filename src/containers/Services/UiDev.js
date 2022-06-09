@@ -15,7 +15,7 @@ import KeyFeatureSection from "../../components/Common/KeyFeatureSection";
 // Home Component
 export default function UiDev() {
   return (
-    <div>
+    <div className="Services_UiContainer">
       <NavBar />
       <Header
         Title="Ui/Ux DEVELOPMENT "

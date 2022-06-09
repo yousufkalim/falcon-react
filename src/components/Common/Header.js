@@ -8,6 +8,7 @@ import Calendly from "../../assets/images/calendly.svg";
 import Divider from "@mui/material/Divider";
 import Button from "@mui/material/Button";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 // Component
 export default function Header(props) {
@@ -56,13 +57,13 @@ export default function Header(props) {
             {props.Description}
           </Typography>
           {props.btn && (
-            <a href={`/contactus`}>
+            <Link to={`/contactus`}>
               <Button
                 className={props.btnClassName ? "btnClassName" : "HeaderBtn"}
               >
                 {props.btnText}
               </Button>
-            </a>
+            </Link>
           )}
         </motion.div>
       </Grid>
@@ -87,9 +88,9 @@ export default function Header(props) {
             <a href="https://wa.me/03135098197">
               <img className="ChatIconImg" alt="whatsapp" src={WhatsappIcon} />
             </a>
-            <a href={`/contactus`}>
+            <Link to={`/contactus`}>
               <img className="ChatIconImg" alt="chat" src={ChatIcon} />
-            </a>
+            </Link>
             <a href={`http://calendly.com/falconit`}>
               <img className="ChatIconImg" alt="Calendly" src={Calendly} />
             </a>

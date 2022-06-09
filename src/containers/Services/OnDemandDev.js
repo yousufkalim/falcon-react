@@ -15,7 +15,7 @@ import DeveloperWorkProcess from "../../components/Common/DeveloperWorkProcess";
 // Home Component
 export default function OnDemandDev() {
   return (
-    <div>
+    <div className="Services_DemandContainer">
       <NavBar />
       <Header
         Titlecolor="#003B7E"

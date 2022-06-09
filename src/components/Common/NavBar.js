@@ -7,9 +7,10 @@ import LogoWhite from "../../assets/images/logo_white.png";
 import NavMenu from "../../assets/images/NavMenu.png";
 import WhiteMenuIcon from "../../assets/images/WhiteMenuIcon.svg";
 import NavBarMenu from "./NavBarMenu";
+import { Link } from "react-router-dom";
 export default function NavBar(props) {
   const [Menu, SetMenu] = React.useState(false);
-  
+
   return (
     <>
       {props.ContactUs ? (
@@ -27,15 +28,19 @@ export default function NavBar(props) {
             {Menu ? (
               <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
             ) : (
-              <Toolbar className="NavToolbar" >
-                <a href={`/`}>
-                  <img alt="logo" src={LogoWhite} style={{ width: "75%" ,marginTop:"5%" ,cursor:"pointer" }} />
-                </a>
+              <Toolbar className="NavToolbar">
+                <Link to={`/`}>
+                  <img
+                    alt="logo"
+                    src={LogoWhite}
+                    style={{ width: "75%", marginTop: "5%", cursor: "pointer" }}
+                  />
+                </Link>
                 <img
                   className="MenuIconMob"
                   alt="menu"
                   src={WhiteMenuIcon}
-                  style={{ width: "2.5%",cursor:"pointer" }}
+                  style={{ width: "2.5%", cursor: "pointer" }}
                   onClick={(e) => SetMenu(!Menu)}
                 />
               </Toolbar>
@@ -55,13 +60,23 @@ export default function NavBar(props) {
             }}
           >
             {Menu ? (
-              <NavBarMenu Menu={Menu} SetMenu={SetMenu}/>
+              <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
             ) : (
               <Toolbar className="NavToolbar">
-                <a href={`/`}>
-                  <img alt="logo" src={Logo} style={{ width: "75%",marginTop:"5%",cursor:"pointer"  }} />
-                </a>
-                <img className="MenuIconMob" alt="menu" src={NavMenu} style={{ width: "2.5%",cursor:"pointer" }} onClick={(e) => SetMenu(!Menu)} />
+                <Link to={`/`}>
+                  <img
+                    alt="logo"
+                    src={Logo}
+                    style={{ width: "75%", marginTop: "5%", cursor: "pointer" }}
+                  />
+                </Link>
+                <img
+                  className="MenuIconMob"
+                  alt="menu"
+                  src={NavMenu}
+                  style={{ width: "2.5%", cursor: "pointer" }}
+                  onClick={(e) => SetMenu(!Menu)}
+                />
               </Toolbar>
             )}
           </AppBar>

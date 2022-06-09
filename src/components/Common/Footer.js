@@ -5,6 +5,7 @@ import FB from "../../assets/images/FooterFB.svg";
 import LinkedIn from "../../assets/images/FooterLinkedIn.svg";
 import WhatsApp from "../../assets/images/FooterWhatsApp.svg";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 export default function Footer(props) {
   return (
     <>
@@ -48,13 +49,13 @@ export default function Footer(props) {
               </Typography>
               <ul>
                 <li>
-                  <a href="/about">About</a>
+                  <Link to="/about">About</Link>
                 </li>
                 <li>
-                  <a href="/ourprojects">Our projects</a>
+                  <Link to="/ourprojects">Our projects</Link>
                 </li>
                 <li>
-                  <a href="/contactus">Contact</a>
+                  <Link to="/contactus">Contact</Link>
                 </li>
               </ul>
             </div>
@@ -67,23 +68,23 @@ export default function Footer(props) {
               </Typography>
               <ul>
                 <li>
-                  <a href="/services/web-development">Web Development</a>
+                  <Link to="/services/web-development">Web Development</Link>
                 </li>
                 <li>
-                  <a href="/services/app-development">App Development</a>
+                  <Link to="/services/app-development">App Development</Link>
                 </li>
                 <li>
-                  <a href="/services/software-development">
+                  <Link to="/services/software-development">
                     Software Development
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/services/ondemand-developers">
+                  <Link to="/services/ondemand-developers">
                     On Demand Developers
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/services/ui-development">UI/UX Developmemt</a>
+                  <Link to="/services/ui-development">UI/UX Developmemt</Link>
                 </li>
               </ul>
             </div>

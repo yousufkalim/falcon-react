@@ -10,16 +10,13 @@ export default function SectionHeader(props) {
           className={
             props.LeftSectionHeader ? "LeftSectionHeader" : "SectionHeaderTypo"
           }
-        
         >
           <Typography
-            className="SectionHeaderH1"
-            color={props.colorH1 || "#fff"}
-            sx={{ width: "30%", fontWeight: "600", fontSize: "1.3rem" }}
+            className="SectionHeaderDesp"
+            color={props.colorDesp || "#fff"}
           >
-            {props.h1}
+            {props.decription}
           </Typography>
-
           <Divider
             className="SectionHeaderDivider"
             width={props.width || "10%"}
@@ -30,18 +27,19 @@ export default function SectionHeader(props) {
               margin: ".7% 0",
             }}
           />
+          <Typography
+            className="SectionHeaderH1"
+            color={props.colorH1 || "#fff"}
+            sx={{ width: "30%", fontWeight: "600", fontSize: "1.5rem" }}
+          >
+            {props.h1}
+          </Typography>
 
           <Typography
             className="SectionHeaderH2"
             color={props.colorH2 || "#003B7E"}
           >
             {props.h2}
-          </Typography>
-          <Typography
-            className="SectionHeaderDesp"
-            color={props.colorDesp || "#fff"}
-          >
-            {props.decription}
           </Typography>
         </motion.div>
       ) : (

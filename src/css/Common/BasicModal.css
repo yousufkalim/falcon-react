@@ -46,6 +46,10 @@
         max-height: 60%;
         width: 80% !important;
     }
+    .Modal_Logo{
+        width: 35%;
+    
+    }
 }
 @media only screen and (max-width: 420px) {
     .ModalOpenBtn{

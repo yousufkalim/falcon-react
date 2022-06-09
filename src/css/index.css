@@ -34,14 +34,19 @@
   font-family:  Raleway, Montserrat  !important;
 }
 a{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .HomeContainer, 
 .ContactContainer,
 .ProjectsContainer,
 .BlogContainer,
-  .AboutContainer{
+.AboutContainer,
+.Services_WebContainer,
+.Services_SoftwareContainer,
+.Services_UiContainer,
+.Services_DemandContainer,
+.Services_AppContainer{
   overflow-x: hidden !important;
 }
 

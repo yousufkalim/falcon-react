@@ -15,7 +15,7 @@ import KeyFeatureSection from "../../components/Common/KeyFeatureSection";
 // Home Component
 export default function AppDev() {
   return (
-    <div>
+    <div className="Services_AppContainer">
       <NavBar />
       <Header
         Title="APP DEVELOPMENT "

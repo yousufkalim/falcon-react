@@ -113,10 +113,6 @@ export default function LatestProjects(props) {
               ModalBtnTheme="#837C6B"
               Heading="Real Estate"
               LogoSrc={RealEstate_Logo}
-              para1="A web app designed to help customers with customized stitching to receive your creation at your home. "
-              para2="User login to register and add information regarding customized dress like color combination, stuff design, etc."
-              para3="After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs."
-              para4="Choose your designer with 99% accuracy as design confection brings your ideas to life."
             />
             <LatestProjectsCard
               hoverDesp="TEZBox media is a platform providing different services including"
