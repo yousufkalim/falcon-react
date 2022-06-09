@@ -49,18 +49,19 @@ export default function Header(props) {
             className={
               props.HeaderParaClassName ? "HeaderPara_Style" : "HeaderPara"
             }
+            color={props.DespColor}
             style={props.ParaStyle}
           >
             {props.Description}
           </Typography>
           {props.btn && (
-            <Button
-              // color="red"
-              variant={props.btnVariant || "outlined"}
-              className={props.btnClassName ? "btnClassName" : "HeaderBtn"}
-            >
-              {props.btnText}
-            </Button>
+            <a href={`/contactus`}>
+              <Button
+                className={props.btnClassName ? "btnClassName" : "HeaderBtn"}
+              >
+                {props.btnText}
+              </Button>
+            </a>
           )}
         </motion.div>
       </Grid>
@@ -88,7 +89,7 @@ export default function Header(props) {
             <a href={`/contactus`}>
               <img className="ChatIconImg" alt="chat" src={ChatIcon} />
             </a>
-            <a href={`/contactus`}>
+            <a href={`http://calendly.com/falconit`}>
               <img className="ChatIconImg" alt="Calendly" src={Calendly} />
             </a>
           </div>

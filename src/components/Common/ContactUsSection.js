@@ -28,7 +28,7 @@ export default function ContactUsSection(props) {
         <div className="ContactUsDiv">
           <div>
             <SectionHeader
-              width="6%"
+              width="5%"
               h1="Contact Us"
               h2="Share Your Project/Idea with us!"
               colorH2="#fff"
@@ -42,19 +42,43 @@ export default function ContactUsSection(props) {
               <Grid container sm={8} md={6} className="ContactFormGrid">
                 <form onSubmit={sendEmail} className="ContactForm">
                   <div style={{ display: "flex", width: "100%" }}>
-                    <Grid xs={12} sm={6}>
-                      <input required type="text" name="name" placeholder="Your Name" className="InputField" />
+                    <Grid className="InputGrid" xs={12} sm={6}>
+                      <input
+                        required
+                        type="text"
+                        name="name"
+                        placeholder="Your Name"
+                        className="InputField"
+                      />
                     </Grid>
-                    <Grid xs={12} sm={6}>
-                      <input required type="email" name="email" placeholder="Email" className="InputField" />
+                    <Grid className="InputGrid" xs={12} sm={6}>
+                      <input
+                        required
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        className="InputField"
+                      />
                     </Grid>
                   </div>
                   <div style={{ display: "flex" }}>
-                    <Grid xs={12} sm={6}>
-                      <input required type="number" name="phone" placeholder="Phone" className="InputField" />
+                    <Grid className="InputGrid" xs={12} sm={6}>
+                      <input
+                        required
+                        type="number"
+                        name="phone"
+                        placeholder="Phone"
+                        className="InputField"
+                      />
                     </Grid>
-                    <Grid xs={12} sm={6}>
-                      <input required type="text" name="budget" placeholder="Budget" className="InputField" />
+                    <Grid className="InputGrid" xs={12} sm={6}>
+                      <input
+                        required
+                        type="text"
+                        name="budget"
+                        placeholder="Budget"
+                        className="InputField"
+                      />
                     </Grid>
                   </div>
                   <div>
@@ -69,8 +93,11 @@ export default function ContactUsSection(props) {
                       />
                     </Grid>
                   </div>
-                  <Grid xs={12}>
-                    <ReCAPTCHA sitekey="6Ldx_T0gAAAAAEUJmHBAIEaOLc2sTPgb00PcbhnA" onChange={onChange} />
+                  <Grid xs={12} className="ReCAPTCHA_DIV">
+                    <ReCAPTCHA
+                      sitekey="6Ldx_T0gAAAAAEUJmHBAIEaOLc2sTPgb00PcbhnA"
+                      onChange={onChange}
+                    />
                     {/* <div
                       className="RobotDiv"
                       style={{
@@ -123,7 +150,7 @@ export default function ContactUsSection(props) {
                     </div>
                   </div>
                 </a>
-                <a href="tel:0318-4310639">
+                <a href="http://calendly.com/falconit">
                   <div className="ContactMediaDiv">
                     <img className="ContactMediaIcons" src={CalendlyIcon} />
                     <div className="SocialMediaText">
@@ -166,12 +193,12 @@ export default function ContactUsSection(props) {
                   />
                 </div>
                 <div>
-                  <a href="mailto:contact@falconconsulting.fr">
+                  <a href="http://calendly.com/falconit">
                     <div className="SocialMediaDiv">
                       <img className="SocialMediaIcons" src={CalendlyIcon} />
                       <div className="SocialMediaText">
                         <Typography>Schedule Meeting</Typography>
-                        <Typography>calendly.com/falcon-consulting</Typography>
+                        <Typography>calendly.com/falconit</Typography>
                       </div>
                     </div>
                   </a>
@@ -209,7 +236,13 @@ export default function ContactUsSection(props) {
                       <textarea required type="text" name="message" placeholder="Type Your Message" className="textField" />
                     </Grid>
                   </div>
-                  <Grid xs={12}>
+                  <Grid xs={12} className="ReCAPTCHA_DIV">
+                    <ReCAPTCHA
+                      sitekey="6Ldx_T0gAAAAAEUJmHBAIEaOLc2sTPgb00PcbhnA"
+                      onChange={onChange}
+                    />
+                  </Grid>
+                  {/* <Grid xs={12}>
                     <div
                       style={{
                         display: "flex",
@@ -242,7 +275,7 @@ export default function ContactUsSection(props) {
                       </div>
                       <img src={Robot} />
                     </div>
-                  </Grid>
+                  </Grid> */}
                   <Grid xs={3}>
                     <button type="submit" className="ContactUsBtn">
                       Send

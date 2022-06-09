@@ -122,7 +122,6 @@ export default function NavBarMenu({ Menu, SetMenu }) {
               <div className="MainMenu">
                 <div className="text-dot-container">
                   <span class="dot"></span>
-                  {/* <a style={{color:"white"}} href={`/about`}>About</a> */}
                   <Link to="/about">About</Link>
                 </div>
                 <div className="text-dot-container">

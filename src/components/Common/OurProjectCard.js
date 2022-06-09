@@ -22,12 +22,19 @@ export default function OurProjectCard(props) {
         >
           <Grid container spacing={1} className="ProjectCardContainer2">
             <Grid xs={12} sm={10} md={9}>
-              <img className="ProjectCardImg" width={props.width || "100%"} src={props.src} />
+              <img
+                className="ProjectCardImg"
+                width={props.width || "100%"}
+                src={props.src}
+              />
             </Grid>
             <Grid xs={12} sm={10} md={3}>
               <div className="ProjectCardTypo">
                 <Typography className="ProjectCardTitle">
-                  {props?.title?.length > 15 ? props?.title?.slice(0, 15) + "..." : props?.title || "Permispop."}
+                  {props?.title?.length > 15
+                    ? props?.title?.slice(0, 15) + "..."
+                    : props?.title || "Permispop."}
+                  {/* {props.title || "Permispop."} */}
                 </Typography>
                 <Divider
                   className="ProjectCardDivider"
@@ -41,7 +48,10 @@ export default function OurProjectCard(props) {
                 />
 
                 <Typography className="ProjectCardDesp">
-                  {props?.description?.length > 50 ? props?.description.slice(0, 50) + "..." : props?.description}
+                  {/* {props.description} */}
+                  {props?.description?.length > 90
+                    ? props?.description.slice(0, 90) + "..."
+                    : props?.description}
                 </Typography>
                 <Button className="ProjectCardBtn" variant="outlined">
                   <BasicModal
@@ -78,7 +88,10 @@ export default function OurProjectCard(props) {
             <Grid xs={12} sm={10} md={3}>
               <div className="ProjectCardTypo">
                 <Typography className="ProjectCardTitle">
-                  {props?.title?.length > 15 ? props?.title?.slice(0, 15) + "..." : props?.title || "Permispop."}
+                  {props?.title?.length > 15
+                    ? props?.title?.slice(0, 15) + "..."
+                    : props?.title || "Permispop."}
+                  {/* {props.title || "Permispop."} */}
                 </Typography>
                 <Divider
                   className="ProjectCardDivider"
@@ -92,7 +105,10 @@ export default function OurProjectCard(props) {
                 />
 
                 <Typography className="ProjectCardDesp">
-                  {props?.description?.length > 50 ? props?.description.slice(0, 50) + "..." : props?.description}
+                  {props?.description?.length > 90
+                    ? props?.description.slice(0, 90) + "..."
+                    : props?.description}
+                  {/* {props.description} */}
                 </Typography>
 
                 <Button className="ProjectCardBtn" variant="outlined">
@@ -117,7 +133,11 @@ export default function OurProjectCard(props) {
               </div>
             </Grid>
             <Grid xs={12} sm={10} md={9}>
-              <img className="ProjectCardImg" width={props.width || "100%"} src={props.src} />
+              <img
+                className="ProjectCardImg"
+                width={props.width || "100%"}
+                src={props.src}
+              />
             </Grid>
           </Grid>
         </motion.div>

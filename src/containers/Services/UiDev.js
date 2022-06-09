@@ -19,6 +19,8 @@ export default function UiDev() {
       <NavBar />
       <Header
         Title="Ui/Ux DEVELOPMENT "
+        Titlecolor="#003B7E"
+        DespColor="#003B7E"
         Description="We are ready to handle your ambitious projects!"
         btn
         btnText="Get This Service"

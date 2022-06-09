@@ -18,6 +18,8 @@ export default function OnDemandDev() {
     <div>
       <NavBar />
       <Header
+        Titlecolor="#003B7E"
+        DespColor="#003B7E"
         Title="Skilled Developers for your Projects"
         Description="Are you in need of developers for short of long term tasks ? 
         Our all-inclusive approach will allow you to get the best match !"
