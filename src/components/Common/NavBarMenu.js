@@ -1,4 +1,7 @@
 import * as React from "react";
+//Importing core
+import { useState, useEffect } from "react";
+import api from "../../api/index";
 import Toolbar from "@mui/material/Toolbar";
 import LogoWhite from "../../assets/images/logo_white.png";
 import CloseIcon from "../../assets/images/close_White.png";
@@ -20,6 +23,18 @@ export default function NavBarMenu({ Menu, SetMenu }) {
   const handleClick = () => {
     setOpen(!open);
   };
+  const [services, setServices] = useState([]);
+  useEffect(() => {
+    getServices();
+  }, []);
+  const getServices = async () => {
+    await api("get", "/services").then((res) => {
+      setServices(res?.data?.services);
+    });
+  };
+  {
+    console.log(services, "services");
+  }
   return (
     <>
       <motion.div

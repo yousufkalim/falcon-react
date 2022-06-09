@@ -15,12 +15,9 @@ import Footer from "../components/Common/Footer";
 export default function Blog() {
   return (
     <div className="BlogContainer">
-
       <NavBar />
       <BlogHeader />
       <BlogReadArticles src={BlogImg1} />
-      <BlogReadArticles Reverse src={BlogImg2} />
-      <BlogReadArticles src={BlogImg3} />
       <BlogList />
       <Footer />
     </div>

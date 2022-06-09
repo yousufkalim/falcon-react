@@ -1,6 +1,6 @@
 // Init
 import { Grid, Typography } from "@mui/material";
-import React,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 // Importing Components
 import PP_logo from "../../assets/images/permisLogo.png";
@@ -10,15 +10,13 @@ import BasicModal from "./BasicModal";
 // Home Component
 
 export default function OurProjectCard(props) {
-
-
   return (
     <>
       {props.Reverse ? (
         <motion.div
           initial={{ x: 300 }}
           whileInView={{ x: 0 }}
-          transition={{ duration: .5 }}
+          transition={{ duration: 0.5 }}
           viewport={{ once: true }}
           className="ProjectCardMain"
         >
@@ -33,7 +31,9 @@ export default function OurProjectCard(props) {
             <Grid xs={12} sm={10} md={3}>
               <div className="ProjectCardTypo">
                 <Typography className="ProjectCardTitle">
-                {props?.title?.length>15?props?.title?.slice(0,15)+ "...":props?.title || "Permispop."}
+                  {props?.title?.length > 15
+                    ? props?.title?.slice(0, 15) + "..."
+                    : props?.title || "Permispop."}
                   {/* {props.title || "Permispop."} */}
                 </Typography>
                 <Divider
@@ -49,7 +49,9 @@ export default function OurProjectCard(props) {
 
                 <Typography className="ProjectCardDesp">
                   {/* {props.description} */}
-                  {props?.description?.length>90? props?.description.slice(0,90)+"...":props?.description}
+                  {props?.description?.length > 90
+                    ? props?.description.slice(0, 90) + "..."
+                    : props?.description}
                 </Typography>
                 <Button className="ProjectCardBtn" variant="outlined">
                   <BasicModal
@@ -78,7 +80,7 @@ export default function OurProjectCard(props) {
         <motion.div
           initial={{ x: -300 }}
           whileInView={{ x: 0 }}
-          transition={{ duration: .5 }}
+          transition={{ duration: 0.5 }}
           viewport={{ once: true }}
           className="ProjectCardMain"
         >
@@ -86,7 +88,9 @@ export default function OurProjectCard(props) {
             <Grid xs={12} sm={10} md={3}>
               <div className="ProjectCardTypo">
                 <Typography className="ProjectCardTitle">
-                {props?.title?.length>15?props?.title?.slice(0,15)+ "...":props?.title || "Permispop."}
+                  {props?.title?.length > 15
+                    ? props?.title?.slice(0, 15) + "..."
+                    : props?.title || "Permispop."}
                   {/* {props.title || "Permispop."} */}
                 </Typography>
                 <Divider
@@ -101,7 +105,9 @@ export default function OurProjectCard(props) {
                 />
 
                 <Typography className="ProjectCardDesp">
-                  {props?.description?.length>90? props?.description.slice(0,90)+"...":props?.description}
+                  {props?.description?.length > 90
+                    ? props?.description.slice(0, 90) + "..."
+                    : props?.description}
                   {/* {props.description} */}
                 </Typography>
 

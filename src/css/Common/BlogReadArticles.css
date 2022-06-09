@@ -12,6 +12,7 @@
 .BlogArticleContainer2{
     display: flex !important;
     width: 90% !important;
+    flex-direction: row-reverse !important;
 }
 .BlogTypo{
     margin: 1% !important;

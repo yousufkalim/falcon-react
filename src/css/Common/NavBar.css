@@ -9,11 +9,6 @@
   z-index: 1000;
   margin: 0%;
   width: 100%;
-  /* overflow: hidden; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* flex-direction: column; */
   position: absolute;
   left: 0;
   /* top:100%; */
@@ -53,6 +48,60 @@
   justify-content: flex-end;
   height: 75vh;
 }
+.MenuImg {
+  width: 100%;
+}
+.MenuTypoDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  color: #fff;
+  height: 80vh;
+}
+.ServiceOptionDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  color: #fff;
+  height: 80vh;
+}
+.ServicesFields li {
+  list-style: none;
+  color: #e5e5e5;
+  text-align: right;
+  /* font-size: 90%; */
+  line-height: 1.7;
+  font-weight: 600;
+}
+.ServicesFields li a {
+  color: #e5e5e5;
+  text-decoration: none;
+}
+.MainMenuList li {
+  color: #e5e5e5;
+  line-height: 2;
+  font-weight: 700;
+  font-size: 1.5rem;
+  list-style: none;
+}
+.MainMenuList li a {
+  color: #e5e5e5;
+  text-decoration: none;
+}
+.Service_Mobile {
+  position: absolute;
+  left: -1000%;
+  visibility: hidden;
+}
+.css-1ts5xjn-MuiPaper-root-MuiAppBar-root {
+  padding: 0% !important;
+}
+.Servive_DropDown {
+  font-size: 1.2rem;
+}
+
 .MenuImg {
   width: 100%;
 }

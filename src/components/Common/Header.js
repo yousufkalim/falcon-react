@@ -1,7 +1,6 @@
 // Init
 import React from "react";
 import { Grid, Typography } from "@mui/material";
-import HeaderImg from "../../assets/images/HeaderImg.svg";
 import ChatIcon from "../../assets/images/whatsappIcon.svg";
 import WhatsappIcon from "../../assets/images/ChatIcon.svg";
 import Calendly from "../../assets/images/calendly.svg";
@@ -79,7 +78,7 @@ export default function Header(props) {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
           alt={props.ImgAlt || "Header"}
-          src={props.ImgSrc || HeaderImg}
+          src={props.ImgSrc}
           style={props.ImgStyle}
           width={props.ImgWidth || "95%"}
         />

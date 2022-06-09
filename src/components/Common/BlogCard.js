@@ -5,7 +5,7 @@ export default function BlogCard(props) {
   return (
     <>
       <div className="BlogCardMain">
-        <img src={props.src || Blog1} />
+        <img className="BlogCardImg" src={props.src || Blog1} />
         <Typography
           sx={{
             fontSize: "70%",
