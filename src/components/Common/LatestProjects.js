@@ -78,14 +78,6 @@ export default function LatestProjects(props) {
                     LogoSrc={
                       process.env.REACT_APP_SERVER_MEDIA_URL + project.photo
                     }
-                    para1="EZBox media is a platform providing different services including..."
-                    para2="Advertising: "
-                    para3="•	Advertising by understanding how a user can react to the advertisement shown to them."
-                    para4="•	Target ads based on non-personal criteria."
-                    para5="Product development: "
-                    para6="•	EZBox media helps Product development for the next generation products with the wide variety of technologies available today."
-                    para7="Chromium Browser:"
-                    para8="•	EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions. "
                   />
                 );
               })}

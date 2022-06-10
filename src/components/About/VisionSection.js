@@ -1,8 +1,27 @@
 import React from "react";
+import { useState, useEffect } from "react";
+import api from "../../api/index";
 import SectionHeader from "../Common/SectionHeader";
 import VisionImg from "../../assets/images/visionImg.svg";
 import { Typography } from "@mui/material";
 export default function VisionSection() {
+  const [company, setCompany] = useState({});
+  const [list, setList] = useState([]);
+  useEffect(() => {
+    getCompany();
+  }, []);
+
+  const getCompany = async () => {
+    await api("post", "/about/getVision").then((res) => {
+      setCompany(res?.data?.about);
+      const li = res?.data?.about.description.split(".");
+      setList(li);
+      console.log(li, "li");
+    });
+  };
+  {
+    console.log(company, "co");
+  }
   return (
     <>
       <div className="VisionDiv">
@@ -11,24 +30,22 @@ export default function VisionSection() {
             LeftSectionHeader
             h1="We believe our vision"
             h2="Our Vision"
-            decription="We strongly believe that talent and skills has no border. By providing a great working environment in our offices, we allow our partners to benefit from competitive pricing with a qualitative work. "
+            decription={company?.title}
             colorDesp="black"
           />
           <div className="VisionList">
             <ul style={{ marginLeft: "5%" }}>
-              <li>IN-HOUSE TEAM</li>
-              <li>TECHNOLOGIES</li>
-              <li>USER-FOCUSED PROCESS</li>
-              <li>SMOOTH COMMUNICATION</li>
-              <li>6 YEARS' EXPERIENCE</li>
-              <li>FULL FLEXIBILITY</li>
-              <li>HIGH QUALITY CODE</li>
-              <li>TRANSPARENCY</li>
+              {list.map((li) => {
+                return <li>{li}</li>;
+              })}
             </ul>
           </div>
         </div>
         <div className="VisionImgDiv">
-          <img className="VisionImg" src={VisionImg} />
+          <img
+            className="VisionImg"
+            src={process.env.REACT_APP_SERVER_MEDIA_URL + company.photo}
+          />
         </div>
       </div>
     </>
