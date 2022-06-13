@@ -21,7 +21,10 @@ export default function ReviewCard(props) {
     >
       <div className="ReviewCard">
         <Avatar alt="Remy Sharp" src={avatar} sx={{ width: 99, height: 99 }} />
-        <Typography sx={{ margin: "6% 0%", fontWeight: 600 }}>
+        <Typography
+          className="Selection"
+          sx={{ margin: "6% 0%", fontWeight: 600 }}
+        >
           {name}
         </Typography>
         <Rating
@@ -35,6 +38,7 @@ export default function ReviewCard(props) {
           }}
         />
         <Typography
+          className="Selection"
           sx={{
             width: "80%",
             fontSize: ".7rem",
