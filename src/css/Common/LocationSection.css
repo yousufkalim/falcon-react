@@ -51,15 +51,7 @@
 .Location_Img{
     width: 100%;
 }
-/* .carousel.carousel-slider,  */
-.control-next{
-    background: url(../../assets/images/right_arrow.svg) !important;
-    background-repeat: no-repeat !important;
-}
-.control-prev{
-    background: url(../../assets/images/left_arrow.svg) !important;
-    background-repeat: no-repeat !important;
-}
+
 
 
 @media only screen and (max-width: 600px) {

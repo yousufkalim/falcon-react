@@ -9,8 +9,8 @@ import US from "../../assets/images/location_us.png";
 import US_Icon from "../../assets/images/us_icon.svg";
 import UAE from "../../assets/images/UAE.png";
 import UAE_Icon from "../../assets/images/UAE_Icon.svg";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
 export default function LocationSection(props) {
   return (
     <>
@@ -24,16 +24,8 @@ export default function LocationSection(props) {
           />
         </div>
         <div className="LocationSliderDiv">
-
-  <Carousel
-  className="Awesome_Slider"
-  autoPlay
-  infiniteLoop
-  showIndicators={false}
-  showStatus={false}
-  // swipeable={false}
-  >
-    <div className="LocationDiv">
+          <AwesomeSlider className="Awesome_Slider">
+            <div className="LocationDiv">
               <div className="LocationDiv_Typo">
                 <img src={Pak_Icon} />
 
@@ -88,7 +80,7 @@ export default function LocationSection(props) {
                 <img className="Location_Img" src={UAE} />
               </div>
             </div>
-  </Carousel>
+          </AwesomeSlider>
         </div>
       </div>
     </>
