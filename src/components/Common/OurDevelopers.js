@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import api from "../../api/index";
 import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionHeader from "../Common/SectionHeader";
 import Agile from "../../assets/images/od_agile.png";
 import Experienced from "../../assets/images/od_experienced.png";
@@ -9,6 +10,16 @@ import Dedicated from "../../assets/images/od_dedicated.png";
 import DeveloperSlider from "../Common/DeveloperSlider";
 
 export default function OurDevelopers(props) {
+  const [services, setServices] = useState([]);
+  useEffect(() => {
+    getSlider();
+  }, []);
+
+  const getSlider = async () => {
+    await api("post", "/services/getSlider").then((res) => {
+      setServices(res?.data?.services);
+    });
+  };
   return (
     <>
       <div className="OurDevelopersMain">
@@ -21,34 +32,23 @@ export default function OurDevelopers(props) {
           />
         </div>
         <div className="DeveloperSliderDiv">
-          <Carousel 
-          className="DeveloperCarouselDiv"
-          autoPlay
-          infiniteLoop
-          showIndicators={false}
-          showStatus={false}
-          swipeable={false}
+          <Carousel
+            className="DeveloperCarouselDiv"
+            autoPlay
+            infiniteLoop
+            showIndicators={false}
+            showStatus={false}
+            swipeable={false}
           >
-          <DeveloperSlider
-              src={Agile}
-              heading="Agile"
-              desp=" We train them in agile management methods so that our partners can take full advantage of them"
-            />
-            <DeveloperSlider
-              src={Experienced}
-              heading="Experienced"
-              desp="We are Flexible in the search for the ideal  profile and we can can offer you very experienced profiles"
-            />
-            <DeveloperSlider
-              src={Trained}
-              heading="Trained"
-              desp="We train our developers ourselves by positioning them on internet internet project in order to ensure that we transmit to them the “soft skills” as well as the “hard skills”"
-            />
-            <DeveloperSlider
-              src={Dedicated}
-              heading="Dedicated to your projects"
-              desp="Our developers work full-time on your projects and our collaborative tools guarantee Transparency regarding the progress of task"
-            />
+            {services?.map((service) => {
+              return (
+                <DeveloperSlider
+                  heading={service.title}
+                  desp={service.description}
+                  src={process.env.REACT_APP_SERVER_MEDIA_URL + service.photo}
+                />
+              );
+            })}
           </Carousel>
         </div>
       </div>
