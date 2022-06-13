@@ -1,12 +1,23 @@
 import { Divider, Typography } from "@mui/material";
 import React from "react";
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/logo.svg";
 import FB from "../../assets/images/FooterFB.svg";
 import LinkedIn from "../../assets/images/FooterLinkedIn.svg";
 import WhatsApp from "../../assets/images/FooterWhatsApp.svg";
+import TopBtn from "../../assets/images/top_btn.svg";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 export default function Footer(props) {
+  var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+  var rootElement = document.documentElement;
+  function scrollToTop() {
+    // Scroll to top logic
+    rootElement.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+
   return (
     <>
       <motion.div
@@ -16,6 +27,7 @@ export default function Footer(props) {
         viewport={{ once: true }}
         className="FooterMain"
       >
+        <img id="scrollToTopBtn" onClick={scrollToTop} src={TopBtn} alt="top" />
         <div className="FooterDiv">
           <div className="FooterLeft">
             <img className="FooterLogo" src={Logo} alt="logo" />
