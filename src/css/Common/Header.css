@@ -74,7 +74,8 @@
     z-index: 999;
 }
 .ChatIconImg{
-  width: 9%;
+  width: 8%;
+  margin-bottom: 1%;
 }
 
 /* MEDIA QUERIES*/
