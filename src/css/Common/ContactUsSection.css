@@ -1,6 +1,6 @@
 .ContactUsDiv{
     background-color: #003B7E;
-    padding: 10% 5%;
+    padding-top: 10%;
     
 }
 .ContactUsGrid{
@@ -73,7 +73,7 @@ input::-webkit-inner-spin-button {
     
     background: linear-gradient(to left,#2632380B,#263238B0);
     background-color: #003B7E;
-    padding: 5% 10%;
+    padding: 5%;
     /* height: 100vh; */
 }
 .ContactSectionGrid{
