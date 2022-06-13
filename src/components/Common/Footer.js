@@ -30,7 +30,9 @@ export default function Footer(props) {
         <img id="scrollToTopBtn" onClick={scrollToTop} src={TopBtn} alt="top" />
         <div className="FooterDiv">
           <div className="FooterLeft">
-            <img className="FooterLogo" src={Logo} alt="logo" />
+            <Link to={`/`}>
+              <img className="FooterLogo" src={Logo} alt="logo" />
+            </Link>
             <Typography
               className="FooterTypo"
               sx={{ color: "#282828", opacity: "50%", marginBottom: "3%" }}
