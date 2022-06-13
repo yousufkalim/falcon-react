@@ -1,9 +1,10 @@
 .FooterMain{
     display: flex;
-  padding: 5% 5% 1% 5%;
+  padding: 5% 0% 1% 0%;
   justify-content: center;
   align-items: center;
   background-color: #F8F8F8;
+  position: relative;
 }
 .footerBg{
 
@@ -51,9 +52,18 @@
     color: black;
 }
 .CopyRightDiv{
-    padding: 1% 9%;
+    padding: 1% 5%;
   background-color: #F8F8F8;
 
+}
+#scrollToTopBtn {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 15%;
 }
 @media only screen and (max-width: 900px) {
     .FooterRight ul {

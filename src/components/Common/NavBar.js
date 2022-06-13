@@ -2,8 +2,8 @@ import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import Logo from "../../assets/images/logo.png";
-import LogoWhite from "../../assets/images/logo_white.png";
+import Logo from "../../assets/images/logo.svg";
+import LogoWhite from "../../assets/images/logo_white.svg";
 import NavMenu from "../../assets/images/NavMenu.png";
 import WhiteMenuIcon from "../../assets/images/WhiteMenuIcon.svg";
 import NavBarMenu from "./NavBarMenu";
@@ -28,12 +28,13 @@ export default function NavBar(props) {
             {Menu ? (
               <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
             ) : (
-              <Toolbar className="NavToolbar">
+              <Toolbar className="NavToolbar" sx={{ width: "95%" }}>
                 <Link to={`/`}>
                   <img
+                    className="Falcon_logo"
                     alt="logo"
                     src={LogoWhite}
-                    style={{ width: "75%", marginTop: "5%", cursor: "pointer" }}
+                    style={{ width: "10%", margin: "1% 0", cursor: "pointer" }}
                   />
                 </Link>
                 <img
@@ -65,9 +66,10 @@ export default function NavBar(props) {
               <Toolbar className="NavToolbar">
                 <Link to={`/`}>
                   <img
+                    className="Falcon_logo"
                     alt="logo"
                     src={Logo}
-                    style={{ width: "75%", marginTop: "5%", cursor: "pointer" }}
+                    style={{ width: "10%", margin: "1% 0", cursor: "pointer" }}
                   />
                 </Link>
                 <img
