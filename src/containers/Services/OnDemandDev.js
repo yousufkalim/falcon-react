@@ -1,6 +1,7 @@
 // Init
 import React from "react";
-
+import { useState, useEffect } from "react";
+import api from "../../api/index";
 // Importing Components
 import NavBar from "../../components/Common/NavBar";
 import Header from "../../components/Common/Header";
@@ -14,22 +15,33 @@ import DeveloperWorkProcess from "../../components/Common/DeveloperWorkProcess";
 
 // Home Component
 export default function OnDemandDev() {
+  const [services, setServices] = useState([]);
+  useEffect(() => {
+    getOnDemand();
+  }, []);
+
+  const getOnDemand = async () => {
+    await api("post", "/services/getOnDemand").then((res) => {
+      setServices(res?.data?.services);
+    });
+  };
   return (
     <div className="Services_DemandContainer">
       <NavBar />
       <Header
         Titlecolor="#003B7E"
         DespColor="#003B7E"
-        Title="Skilled Developers for your Projects"
-        Description="Are you in need of developers for short of long term tasks ? 
-        Our all-inclusive approach will allow you to get the best match !"
+        Title={services.title}
+        Description={services.description}
         btn
         btnText="More information"
-        ImgSrc={DemandDevImg}
+        ImgSrc={process.env.REACT_APP_SERVER_MEDIA_URL + services.photo}
       />
       <OurDevelopers />
       <DeveloperWorkProcess />
-      <ServiceFrame src={DemandDevFrame} />
+      <ServiceFrame
+        src={process.env.REACT_APP_SERVER_MEDIA_URL + services.logo}
+      />
       <LatestProjects />
       <Footer />
     </div>

@@ -22,9 +22,8 @@ export default function LatestProjects(props) {
   useEffect(() => {
     getProjects();
   }, []);
-
   const getProjects = async () => {
-    await api("get", "/projects").then((res) => {
+    await api("post", "/projects").then((res) => {
       setProjects(res?.data?.projects);
     });
   };
@@ -38,10 +37,7 @@ export default function LatestProjects(props) {
         setSlideShow(4.5);
       }
     }
-
-    window.addEventListener("resize", handleResize);
   }, []);
-  console.log(projects, "projects");
   return (
     <>
       <div className="LatestProjectDiv">
@@ -76,7 +72,7 @@ export default function LatestProjects(props) {
                     ModalBtnTheme="#3399FE"
                     Heading="Box Media"
                     LogoSrc={
-                      process.env.REACT_APP_SERVER_MEDIA_URL + project.photo
+                      process.env.REACT_APP_SERVER_MEDIA_URL + project.logo
                     }
                   />
                 );

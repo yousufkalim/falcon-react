@@ -44,7 +44,7 @@ export default function ClientSection() {
                 );
               })}
             </Grid>
-            </>
+          </>
         </div>
       </div>
     </>
