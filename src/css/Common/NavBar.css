@@ -145,6 +145,9 @@
   padding-bottom: 10px;
 }
 @media only screen and (max-width: 900px) {
+  .Falcon_logo{
+    width: 20% !important;
+  }
   .MenuSection {
     /* display: flex; */
     /* align-items: center; */
@@ -189,6 +192,9 @@
   }
 }
 @media only screen and (max-width: 600px) {
+  .Falcon_logo{
+    width: 30% !important;
+  }
   .MenuSection {
     display: flex;
     align-items: center;
