@@ -92,7 +92,7 @@ export default function LatestProjects(props) {
                   textAlign: "center",
                 }}
               >
-                10+
+                8+
               </Typography>
               <Typography
                 sx={{
@@ -138,7 +138,7 @@ export default function LatestProjects(props) {
                   textAlign: "center",
                 }}
               >
-                100+
+                60+
               </Typography>
               <Typography
                 sx={{

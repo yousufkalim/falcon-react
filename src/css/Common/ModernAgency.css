@@ -14,18 +14,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5% 1%;
+    margin-top: 3%;
     width: 100%;
 }
 .HistoryMain{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 250px;
 }
 .HistoryMain_Last{
     display: flex;
     flex-direction: column;
-    width: 100px;
+    width: 150px;
 }
 .HistoryDiv{
     display: flex;
@@ -37,13 +37,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 15%;
+    padding: 20%;
     text-align: center;
     background-color: #0F52BA40;
     border: 2px solid #42C2FF40;
     border-radius: 50%;
-    width: 100px;
-    height: 100px !important;
+    width: 150px;
+    height: 150px !important;
 
 
 }
@@ -51,15 +51,18 @@
     width: 100%;
     align-items: center;
 }
+.Last_icon{
+    padding: 30%;
+}
 .ArrowMain{
     width: 100px;
-    height: 100px; 
+    height: 150px; 
     display: flex; 
     align-items: center;
 
 }
 .HistoryTypoDiv{
-    width: 50%;
+    width: 60%;
     margin-top: 2%;
     text-align: center;
 }
@@ -89,7 +92,32 @@
         height: 8vh;
     }
 } */
+@media only screen and (max-width: 900px) {
+    .HistoryMain{
+        width: 200px;
+    }
+    .HistoryImgDiv{
+        width: 100px;
+        height: 100px !important;
+        padding: 15%;
 
+    }
+    .HistoryMain_Last{
+        width: 100px;
+    }
+    .ArrowMain{
+        width: 100px;
+        height: 100px; 
+    }
+    .HistoryTypoDiv{
+        width: 50%;
+        margin-top: 2%;
+        text-align: center;
+    }
+    .Last_icon{
+        padding: 30%;
+    }
+}
 @media only screen and (max-width: 778px) {
     .HistoryTypoH{
         font-size: .8rem !important;
@@ -121,6 +149,7 @@
         font-size: .5rem !important;
     }
     .HistorySumary{
+        margin: 5%;
         flex-direction: column;
     }
     .HistoryMain{
@@ -136,6 +165,7 @@
     .HistoryImgDiv{
         width: 100px;
         height: 100px !important;
+        padding: 20%;
     }
     .HistoryImg{
         width: 80%;

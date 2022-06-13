@@ -3,9 +3,9 @@ import * as React from "react";
 import { useState, useEffect } from "react";
 import api from "../../api/index";
 import Toolbar from "@mui/material/Toolbar";
-import LogoWhite from "../../assets/images/logo_white.png";
+import LogoWhite from "../../assets/images/logo_white.svg";
 import CloseIcon from "../../assets/images/close_White.png";
-import MenuImg from "../../assets/images/MenuImg.svg";
+import FalconIcon from "../../assets/images/falcon_Icon.svg";
 import { Divider } from "@mui/material";
 import { motion } from "framer-motion";
 import List from "@mui/material/List";
@@ -44,10 +44,18 @@ export default function NavBarMenu({ Menu, SetMenu }) {
       >
         <Toolbar
           className="NavToolbar"
-          sx={{ display: "flex", justifyContent: "space-between" }}
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+          }}
         >
           <Link to={`/`}>
-            <img alt="logo" src={LogoWhite} style={{ width: "70%" }} />
+            <img
+              className="Falcon_logo"
+              alt="logo"
+              src={LogoWhite}
+              style={{ width: "10%", margin: "1% 0" }}
+            />
           </Link>
           <img
             className="MenuIconMob"
@@ -60,7 +68,7 @@ export default function NavBarMenu({ Menu, SetMenu }) {
         <div className="MenuSectionMain">
           <div className="MenuSection">
             <div className="MenuImgDiv">
-              <img className="MenuImg" src={MenuImg} />
+              <img className="MenuImg" src={FalconIcon} />
             </div>
             <div className="MenuTypoDiv">
               <div className="ServiceOptionDiv">

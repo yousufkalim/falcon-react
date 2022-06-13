@@ -97,40 +97,6 @@ export default function ContactUsSection(props) {
                       sitekey="6Ldx_T0gAAAAAEUJmHBAIEaOLc2sTPgb00PcbhnA"
                       onChange={onChange}
                     />
-                    {/* <div
-                      className="RobotDiv"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                        width: "45%",
-                        backgroundColor: "rgba(255, 255, 255, 0.912)",
-                        padding: "0.5% 2%",
-                        margin: "2.5%",
-                        opacity: ".9",
-                      }}
-                    >
-                      <div
-                        style={{
-                          display: "flex",
-                          alignItems: "center",
-                          width: "60%",
-                        }}
-                      >
-                        <input type="checkbox" />
-                        <Typography
-                          sx={{
-                            marginLeft: "5%",
-                            fontSize: ".8rem",
-                            fontWeight: "600",
-                          }}
-                        >
-                          I'm not a robot
-                        </Typography>
-                       
-                      </div>
-                      <img src={Robot} />
-                    </div> */}
                   </Grid>
                   <Grid className="Contact_Send_Grid" xs={3}>
                     <button type="submit" className="ContactUsBtn">

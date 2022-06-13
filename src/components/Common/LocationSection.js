@@ -3,8 +3,9 @@ import { useState, useEffect } from "react";
 import api from "../../api/index";
 import React from "react";
 import SectionHeader from "../Common/SectionHeader";
-import { Carousel } from "react-responsive-carousel";
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import "react-responsive-carousel/lib/styles/carousel.min.css"
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
 export default function LocationSection(props) {
   const [offices, setOffices] = useState([]);
 
@@ -29,24 +30,17 @@ export default function LocationSection(props) {
           />
         </div>
         <div className="LocationSliderDiv">
-          <Carousel
-            className="Awesome_Slider"
-            autoPlay
-            infiniteLoop
-            showIndicators={false}
-            showStatus={false}
-          >
+          <AwesomeSlider className="Awesome_Slider">
             {offices?.map((office) => {
               return (
                 <div className="LocationDiv">
                   <div className="LocationDiv_Typo">
                     <img
-                      src={
-                        process.env.REACT_APP_SERVER_MEDIA_URL + office.photo
-                      }
+                      src={process.env.REACT_APP_SERVER_MEDIA_URL + office.logo}
                     />
+
                     <Typography className="Location_Country">
-                      {office?.country}
+                      {office.country}
                     </Typography>
                     <Typography className="Location_Address">
                       {office.address}
@@ -63,7 +57,7 @@ export default function LocationSection(props) {
                 </div>
               );
             })}
-          </Carousel>
+          </AwesomeSlider>
         </div>
       </div>
     </>

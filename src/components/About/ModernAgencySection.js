@@ -32,64 +32,62 @@ export default function ModernAgencySection() {
               <div className="HistoryImgDiv">
                 <img className="HistoryImg" src={Tick1} />
               </div>
-            <div className="ArrowMain">
-              <img className="ArrowImg" src={AgencyArrow} />
-            </div>
+              <div className="ArrowMain">
+                <img className="ArrowImg" src={AgencyArrow} />
+              </div>
             </div>
             <div className="HistoryTypoDiv">
-              <Typography className="HistoryTypoH">10+</Typography>
+              <Typography className="HistoryTypoH">8+</Typography>
               <Typography className="HistoryTypoP">
                 Years of Excellence
               </Typography>
-              </div>
+            </div>
           </div>
           <div className="HistoryMain">
             <div className="HistoryDiv">
               <div className="HistoryImgDiv">
                 <img className="HistoryImg" src={Tick2} />
               </div>
-            <div className="ArrowMain">
-              <img className="ArrowImg" src={AgencyArrow} />
-            </div>
+              <div className="ArrowMain">
+                <img className="ArrowImg" src={AgencyArrow} />
+              </div>
             </div>
             <div className="HistoryTypoDiv">
-              <Typography className="HistoryTypoH">95+</Typography>
+              <Typography className="HistoryTypoH">85+</Typography>
               <Typography className="HistoryTypoP">
-              Successfull Projects
+                Successfull Projects
               </Typography>
-              </div>
+            </div>
           </div>
           <div className="HistoryMain">
             <div className="HistoryDiv">
               <div className="HistoryImgDiv">
                 <img className="HistoryImg" src={Tick3} />
               </div>
-            <div className="ArrowMain">
-              <img className="ArrowImg" src={AgencyArrow} />
-            </div>
+              <div className="ArrowMain">
+                <img className="ArrowImg" src={AgencyArrow} />
+              </div>
             </div>
             <div className="HistoryTypoDiv">
               <Typography className="HistoryTypoH">100%</Typography>
               <Typography className="HistoryTypoP">
-              Client satisfication
+                Client satisfication
               </Typography>
-              </div>
+            </div>
           </div>
           <div className="HistoryMain_Last">
             <div className="HistoryDiv">
-              <div className="HistoryImgDiv">
-                <img className="HistoryImg" style={{padding:"15%"}} src={Tick2} />
+              <div className="HistoryImgDiv Last_icon">
+                <img className="HistoryImg " src={Tick2} />
               </div>
-            
             </div>
             <div className="HistoryTypoDiv_Last">
               <Typography className="HistoryTypoH">3</Typography>
               <Typography className="HistoryTypoP">
-              Office Loocations
+                Office Loocations
               </Typography>
-              </div>
+            </div>
           </div>
-          
         </div>
       </div>
     </>

@@ -11,10 +11,6 @@
   width: 100%;
   position: absolute;
   left: 0;
-  /* top:100%; */
-  /* width: 100%; */
-  /* transform: scaleY(100,50); */
-  /* transition: 1s; */
 }
 .css-13i1luw-MuiPaper-root-MuiAppBar-root {
   padding: 0% !important;
@@ -194,6 +190,9 @@
   padding-bottom: 10px;
 }
 @media only screen and (max-width: 900px) {
+  .Falcon_logo{
+    width: 20% !important;
+  }
   .MenuSection {
     /* display: flex; */
     /* align-items: center; */
@@ -238,6 +237,9 @@
   }
 }
 @media only screen and (max-width: 600px) {
+  .Falcon_logo{
+    width: 30% !important;
+  }
   .MenuSection {
     display: flex;
     align-items: center;

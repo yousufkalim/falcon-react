@@ -186,7 +186,7 @@ export default function BasicTabs() {
             <Tab
               onClick={(event) => setactiveId(event.target.id)}
               className={`${
-                `simple-tab-${val?.id}` == activeId
+                `simple-tab-${val?.id}` == activeId || val?.id == activeId
                   ? "pjlabs"
                   : "ProjectListLabel "
               }`}
