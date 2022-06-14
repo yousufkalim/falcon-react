@@ -57,7 +57,7 @@ export default function Footer(props) {
             <div className="FooterList">
               <Typography
                 className="FooterListHeading"
-                sx={{ fontWeight: "700", opacity: "50%", marginBottom: "40%" }}
+                sx={{ fontWeight: "700", opacity: "40%", marginBottom: "40%" }}
               >
                 Pages
               </Typography>
@@ -76,7 +76,7 @@ export default function Footer(props) {
             <div className="FooterList">
               <Typography
                 className="FooterListHeading"
-                sx={{ fontWeight: "700", opacity: "50%", marginBottom: "23%" }}
+                sx={{ fontWeight: "700", opacity: "40%", marginBottom: "23%" }}
               >
                 Services
               </Typography>
@@ -105,7 +105,7 @@ export default function Footer(props) {
             <div className="FooterList">
               <Typography
                 className="FooterListHeading"
-                sx={{ fontWeight: "700", opacity: "50%", marginBottom: "28%" }}
+                sx={{ fontWeight: "700", opacity: "40%", marginBottom: "28%" }}
               >
                 Privacy
               </Typography>

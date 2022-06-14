@@ -108,8 +108,8 @@ function a11yProps(index) {
 
 export default function BasicTabs() {
   const [MoreProjects, SetMoreProjects] = React.useState(false);
-  const [activeId, setactiveId] = useState("");
-  const [value, setValue] = React.useState(0);
+  const [activeId, setactiveId] = useState(2);
+  const [value, setValue] = React.useState(2);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -133,7 +133,7 @@ export default function BasicTabs() {
             <Tab
               onClick={(event) => setactiveId(event.target.id)}
               className={`${
-                `simple-tab-${val?.id}` == activeId
+                `simple-tab-${val?.id}` == activeId || val?.id == activeId
                   ? "pjlabs"
                   : "ProjectListLabel "
               }`}
