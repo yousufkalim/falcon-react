@@ -19,14 +19,6 @@ import LatestProjectsCard from "./LatestProjectCard";
 import api from "../../api/index";
 export default function LatestProjects(props) {
   const [projects, setProjects] = useState([]);
-  useEffect(() => {
-    getProjects();
-  }, []);
-  const getProjects = async () => {
-    await api("post", "/projects").then((res) => {
-      setProjects(res?.data?.projects);
-    });
-  };
   let [slideShow, setSlideShow] = useState(window.innerWidth <= 600 ? 2 : 4.5);
 
   useEffect(() => {
@@ -37,7 +29,18 @@ export default function LatestProjects(props) {
         setSlideShow(4.5);
       }
     }
+    getProjects();
   }, []);
+
+  const getProjects = async () => {
+    await api("get", "/projects").then((res) => {
+      setProjects(res?.data?.projects);
+    });
+  };
+  {
+    console.log(projects, "projects");
+  }
+
   return (
     <>
       <div className="LatestProjectDiv">
@@ -70,7 +73,7 @@ export default function LatestProjects(props) {
                     src={process.env.REACT_APP_SERVER_MEDIA_URL + project.photo}
                     DividerTheme="#3399FE"
                     ModalBtnTheme="#3399FE"
-                    Heading="Box Media"
+                    Heading={project.name}
                     LogoSrc={
                       process.env.REACT_APP_SERVER_MEDIA_URL + project.logo
                     }

@@ -1,5 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
+import { useState, useEffect } from "react";
+import api from "../../api/index";
 import SectionHeader from "./SectionHeader";
 import InfoBox from "./InfoBox";
 import AboutImg from "../../assets/images/about_section.png";
@@ -11,6 +13,17 @@ import AboutInfo6 from "../../assets/images/aboutSec_6.svg";
 import { motion } from "framer-motion";
 
 export default function AboutSection() {
+  const [about, setAbout] = useState([]);
+
+  useEffect(() => {
+    getAbout();
+  }, []);
+
+  const getAbout = async () => {
+    await api("post", "/about/getChoosing").then((res) => {
+      setAbout(res?.data?.about);
+    });
+  };
   return (
     <>
       <div className="AboutSectionDiv">
@@ -54,7 +67,9 @@ export default function AboutSection() {
                   viewport={{ once: true }}
                   className="AboutImg"
                 >
-                  <img src={AboutImg} />
+                  <img
+                    src={process.env.REACT_APP_SERVER_MEDIA_URL + about.photo}
+                  />
                 </motion.div>
               </Grid>
               <Grid sm={6}>
@@ -85,7 +100,7 @@ export default function AboutSection() {
                         color: "#003B7E",
                       }}
                     >
-                      We believe that talent and skills do not have borders
+                      {about?.title}
                     </Typography>
                     <Typography
                       sx={{
@@ -94,13 +109,7 @@ export default function AboutSection() {
                         color: "#003B7E",
                       }}
                     >
-                      We are a human-oriented company, investing in training
-                      healthy atmosphere and cooperative management to make sure
-                      our employees reach their full potential, and personally
-                      develop through their work. Our team is sensitized every
-                      day about the importance of quality management, and we
-                      strive to put in place a continuous improvement process
-                      internally
+                      {about?.description}
                     </Typography>
                     <a href={`/about`}>
                       <button className="AboutSectionBtn">READ MORE ‘ </button>
