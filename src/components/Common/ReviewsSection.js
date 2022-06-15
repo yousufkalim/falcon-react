@@ -17,7 +17,7 @@ import {
 import { useState, useEffect } from "react";
 import api from "../../api/index";
 import { clientsClaim } from "workbox-core";
-export default function ReviewSection() {
+export default function ReviewSection({ heading, sub_heading }) {
   const [clients, setClients] = useState([]);
   const [data, setData] = useState([
     {
@@ -78,8 +78,8 @@ export default function ReviewSection() {
       <div className="ReviewSectionMain">
         <SectionHeader
           colorH2="#0F52BA"
-          h1="your feedback matters"
-          h2="Client Reviews"
+          h1={heading}
+          h2={sub_heading}
           width="30%"
         />
         <div className="ReviewCardSlider">

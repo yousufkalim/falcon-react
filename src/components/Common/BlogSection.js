@@ -8,7 +8,7 @@ import { Grid } from "@mui/material";
 import Blog2 from "../../assets/images/Blog2.svg";
 import { motion } from "framer-motion";
 
-export default function BlogSection() {
+export default function BlogSection({ heading, sub_heading }) {
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
     getBlog();
@@ -22,11 +22,7 @@ export default function BlogSection() {
   return (
     <>
       <div className="BlogSectionMain">
-        <SectionHeader
-          width="40%"
-          h1="With lots of unique blogs"
-          h2="Read our blog"
-        />
+        <SectionHeader width="40%" h1={heading} h2={sub_heading} />
         <div className="BlogContainerGrid">
           <Grid container spacing={1}>
             <>

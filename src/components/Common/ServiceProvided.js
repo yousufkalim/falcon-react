@@ -8,13 +8,13 @@ import SoftDev from "../../assets/images/SoftDev.svg";
 import OnDemand from "../../assets/images/OnDemand.svg";
 import { Link } from "react-router-dom";
 
-export default function ServiceProvided() {
+export default function ServiceProvided({ heading, sub_heading }) {
   return (
     <>
       <div className="ServiceProvidedDiv">
         <SectionHeader
-          h1="our aim provide better service"
-          h2="Services We Provide"
+          h1={heading}
+          h2={sub_heading}
           width="8%"
           // decription="This sounds simple, but it is beneficial to your business success."
         />

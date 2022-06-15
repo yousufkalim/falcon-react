@@ -33,21 +33,18 @@ export default function LatestProjects(props) {
   }, []);
 
   const getProjects = async () => {
-    await api("get", "/projects").then((res) => {
+    api("post", "/projects/getLatest").then((res) => {
       setProjects(res?.data?.projects);
     });
   };
-  {
-    console.log(projects, "projects");
-  }
 
   return (
     <>
       <div className="LatestProjectDiv">
         <SectionHeader
           width="30%"
-          h1="A Project offers a challenge"
-          h2="Latest Projects"
+          h1={props.heading}
+          h2={props.sub_heading}
           // decription="This sounds simple, but it is beneficial to your business success."
         />
 
@@ -66,20 +63,19 @@ export default function LatestProjects(props) {
               slide={1}
               swiping={true}
             >
-              {projects.map((project) => {
-                return (
-                  <LatestProjectsCard
-                    hoverDesp={project.name}
-                    src={process.env.REACT_APP_SERVER_MEDIA_URL + project.photo}
-                    DividerTheme="#3399FE"
-                    ModalBtnTheme="#3399FE"
-                    Heading={project.name}
-                    LogoSrc={
-                      process.env.REACT_APP_SERVER_MEDIA_URL + project.logo
-                    }
-                  />
-                );
-              })}
+              {projects.map((project) => (
+                <LatestProjectsCard
+                  hoverDesp={project.heading}
+                  src={process.env.REACT_APP_SERVER_MEDIA_URL + project.photo}
+                  DividerTheme="#FF8616"
+                  ModalBtnTheme="#FF8616"
+                  Heading={project.name}
+                  LogoSrc={
+                    process.env.REACT_APP_SERVER_MEDIA_URL + project.logo
+                  }
+                  para1={project.description}
+                />
+              ))}
             </Carousel>
           </>
         </motion.div>
@@ -95,7 +91,7 @@ export default function LatestProjects(props) {
                   textAlign: "center",
                 }}
               >
-                8+
+                {props.total_years}
               </Typography>
               <Typography
                 sx={{
@@ -118,7 +114,7 @@ export default function LatestProjects(props) {
                   textAlign: "center",
                 }}
               >
-                85+
+                {props.total_projects}
               </Typography>
               <Typography
                 sx={{
@@ -141,7 +137,7 @@ export default function LatestProjects(props) {
                   textAlign: "center",
                 }}
               >
-                60+
+                {props.total_customers}
               </Typography>
               <Typography
                 sx={{

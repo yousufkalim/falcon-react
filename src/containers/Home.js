@@ -18,35 +18,74 @@ import HeaderImg from "../assets/images/HeaderImg.svg";
 import Footer from "../components/Common/Footer";
 // Home Component
 export default function Home() {
-  const [aboutData, setAboutData] = useState("");
+  const [aboutData, setAboutData] = useState({});
   useEffect(() => {
-    getAbout();
+    getHome();
   }, []);
 
-  const getAbout = async () => {
-    await api("post", "/about/getActive").then((res) => {
-      setAboutData(res?.data?.about);
+  const getHome = async () => {
+    await api("get", "/homes").then((res) => {
+      setAboutData(res?.data?.home);
     });
   };
   return (
     <div className="HomeContainer">
       <NavBar />
       <Header
-        Title={aboutData?.title}
-        Description={aboutData?.description}
+        Title={aboutData?.header_heading}
+        Description={aboutData?.header_subheading}
         btn
-        ImgSrc={process.env.REACT_APP_SERVER_MEDIA_URL + aboutData?.photo}
+        ImgSrc={process.env.REACT_APP_SERVER_MEDIA_URL + aboutData?.header_img}
         btnText="GET A FREE QUOTE"
         chatIcons
       />
-      <ServiceProvided />
-      <LatestProjects ProjectsSummary />
-      <AboutSection />
-      <ClientSection />
-      <ReviewSection />
-      <BlogSection />
-      <ContactUsSection />
-      <LocationSection />
+      {/* {aboutData?.map.} */}
+      <ServiceProvided
+        heading={aboutData?.service_heading}
+        sub_heading={aboutData?.service_subheading}
+      />
+      <LatestProjects
+        ProjectsSummary
+        heading={aboutData?.project_heading}
+        sub_heading={aboutData?.project_subheading}
+        total_years={aboutData?.total_years}
+        total_customers={aboutData?.total_customers}
+        total_projects={aboutData?.total_projects}
+      />
+      <AboutSection
+        heading={aboutData?.about_heading}
+        sub_heading={aboutData?.about_subheading}
+        title={aboutData?.about_title}
+        description={aboutData?.about_description}
+        total_years={aboutData?.total_years}
+        total_customers={aboutData?.total_customers}
+        total_projects={aboutData?.total_projects}
+        total_offices={aboutData?.total_offices}
+        about_img={aboutData?.about_img}
+      />
+      <ClientSection
+        heading={aboutData?.partner_heading}
+        sub_heading={aboutData?.partner_subheading}
+      />
+      <ReviewSection
+        heading={aboutData?.client_heading}
+        sub_heading={aboutData?.client_subheading}
+      />
+      <BlogSection
+        heading={aboutData?.article_heading}
+        sub_heading={aboutData?.article_heading}
+      />
+      <ContactUsSection
+        heading={aboutData?.contact_heading}
+        sub_heading={aboutData?.contact_subheading}
+        description={aboutData?.about_description}
+        meeting_link={aboutData?.meeting_link}
+        contact_email={aboutData?.contact_email}
+      />
+      <LocationSection
+        heading={aboutData?.office_heading}
+        sub_heading={aboutData?.office_subheading}
+      />
       <Footer />
     </div>
   );

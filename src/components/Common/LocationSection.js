@@ -24,8 +24,8 @@ export default function LocationSection(props) {
         <div className="LocationSectionHeader">
           <SectionHeader
             colorH2="#0F52BA"
-            h1="WHERE YOU CAN MEET"
-            h2="Our Offices"
+            h1={props.heading}
+            h2={props.sub_heading}
             width="5%"
           />
         </div>

@@ -10,14 +10,21 @@ export default function ContactUsSection(props) {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_p9t3cg6", "template_imi9dne", e.target, "user_Dh0YsMnLOPp5ckc48VOcP").then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
+    emailjs
+      .sendForm(
+        "service_p9t3cg6",
+        "template_imi9dne",
+        e.target,
+        "user_Dh0YsMnLOPp5ckc48VOcP"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
   function onChange(value) {
     console.log("Captcha value:", value);
@@ -29,11 +36,10 @@ export default function ContactUsSection(props) {
           <div>
             <SectionHeader
               width="5%"
-              h1="Contact Us"
-              h2="Share Your Project/Idea with us!"
+              h1={props.heading}
+              h2={props.sub_heading}
               colorH2="#fff"
               colorDesp="#F8F8F8"
-              decription="Our Team Member will get back to you within 24 hours. "
             />
           </div>
           <div className="ContactUsGrid">
@@ -111,7 +117,9 @@ export default function ContactUsSection(props) {
                     <img className="ContactMediaIcons" src={EmailIcon} />
                     <div className="SocialMediaText">
                       <Typography sx={{ fontSize: "1rem" }}>Email</Typography>
-                      <Typography sx={{ fontSize: ".7rem" }}>contact@falconconsulting.fr</Typography>
+                      <Typography sx={{ fontSize: ".7rem" }}>
+                        contact@falconconsulting.fr
+                      </Typography>
                     </div>
                   </div>
                 </a>
@@ -119,8 +127,12 @@ export default function ContactUsSection(props) {
                   <div className="ContactMediaDiv">
                     <img className="ContactMediaIcons" src={CalendlyIcon} />
                     <div className="SocialMediaText">
-                      <Typography sx={{ fontSize: "1rem" }}>Calendly</Typography>
-                      <Typography sx={{ fontSize: ".7rem" }}>Click and join link</Typography>
+                      <Typography sx={{ fontSize: "1rem" }}>
+                        Calendly
+                      </Typography>
+                      <Typography sx={{ fontSize: ".7rem" }}>
+                        {props.contact_email}
+                      </Typography>
                     </div>
                   </div>
                 </a>
@@ -149,21 +161,20 @@ export default function ContactUsSection(props) {
                   <SectionHeader
                     LeftSectionHeader
                     width="10%"
-                    h1="Contact Us"
-                    h2="Share Your Project/Idea with us!"
+                    h1={props.heading}
+                    h2={props.sub_heading}
                     colorH2="#fff"
                     colorDesp="#F8F8F8"
-                    decription="Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? 
-                    Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours. "
+                    decription={props.description}
                   />
                 </div>
                 <div>
-                  <a href="http://calendly.com/falconit">
+                  <a href={props.meeting_link}>
                     <div className="SocialMediaDiv">
                       <img className="SocialMediaIcons" src={CalendlyIcon} />
                       <div className="SocialMediaText">
                         <Typography>Schedule Meeting</Typography>
-                        <Typography>calendly.com/falconit</Typography>
+                        <Typography>{props.meeting_link}</Typography>
                       </div>
                     </div>
                   </a>
@@ -172,7 +183,7 @@ export default function ContactUsSection(props) {
                       <img className="SocialMediaIcons" src={EmailIcon} />
                       <div className="SocialMediaText">
                         <Typography>Email</Typography>
-                        <Typography>contact@falconconsulting.fr</Typography>
+                        <Typography>{props.contact_email}</Typography>
                       </div>
                     </div>
                   </a>
@@ -182,23 +193,53 @@ export default function ContactUsSection(props) {
                 <form onSubmit={sendEmail} className="ContactForm">
                   <div style={{ display: "flex", width: "100%" }}>
                     <Grid xs={12} sm={6}>
-                      <input required type="text" name="name" placeholder="Your Name" className="InputField" />
+                      <input
+                        required
+                        type="text"
+                        name="name"
+                        placeholder="Your Name"
+                        className="InputField"
+                      />
                     </Grid>
                     <Grid xs={12} sm={6}>
-                      <input required type="email" name="email" placeholder="Email" className="InputField" />
+                      <input
+                        required
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        className="InputField"
+                      />
                     </Grid>
                   </div>
                   <div style={{ display: "flex" }}>
                     <Grid xs={12} sm={6}>
-                      <input required type="number" name="phone" placeholder="Phone" className="InputField" />
+                      <input
+                        required
+                        type="number"
+                        name="phone"
+                        placeholder="Phone"
+                        className="InputField"
+                      />
                     </Grid>
                     <Grid xs={12} sm={6}>
-                      <input required type="text" name="budget" placeholder="Budget" className="InputField" />
+                      <input
+                        required
+                        type="text"
+                        name="budget"
+                        placeholder="Budget"
+                        className="InputField"
+                      />
                     </Grid>
                   </div>
                   <div>
                     <Grid xs={12}>
-                      <textarea required type="text" name="message" placeholder="Type Your Message" className="textField" />
+                      <textarea
+                        required
+                        type="text"
+                        name="message"
+                        placeholder="Type Your Message"
+                        className="textField"
+                      />
                     </Grid>
                   </div>
                   <Grid xs={12} className="ReCAPTCHA_DIV">

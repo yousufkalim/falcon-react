@@ -5,7 +5,7 @@ import api from "../../api/index";
 import { Grid } from "@mui/material";
 import React from "react";
 import SectionHeader from "./SectionHeader";
-export default function ClientSection() {
+export default function ClientSection({ heading, sub_heading }) {
   const [partners, setPartners] = useState([]);
 
   useEffect(() => {
@@ -23,8 +23,8 @@ export default function ClientSection() {
         <SectionHeader
           width="15%"
           colorH2="#0F52BA"
-          h1="SINCERELY YOURS"
-          h2="Some Amazing Partners We Worked With"
+          h1={heading}
+          h2={sub_heading}
           // decription="This sounds simple, but it is beneficial to your business success."
         />
         <div className="ClientsDiv">

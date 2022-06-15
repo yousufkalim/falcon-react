@@ -12,18 +12,17 @@ import AboutInfo5 from "../../assets/images/aboutSec_5.svg";
 import AboutInfo6 from "../../assets/images/aboutSec_6.svg";
 import { motion } from "framer-motion";
 
-export default function AboutSection() {
-  const [about, setAbout] = useState([]);
-
-  useEffect(() => {
-    getAbout();
-  }, []);
-
-  const getAbout = async () => {
-    await api("post", "/about/getChoosing").then((res) => {
-      setAbout(res?.data?.about);
-    });
-  };
+export default function AboutSection({
+  heading,
+  sub_heading,
+  title,
+  description,
+  tottal_years,
+  total_projects,
+  total_customers,
+  total_offices,
+  about_img,
+}) {
   return (
     <>
       <div className="AboutSectionDiv">
@@ -31,8 +30,8 @@ export default function AboutSection() {
           LeftSectionHeader={true}
           colorH2="#0F52BA"
           width="7%"
-          h1="your work is our priority"
-          h2="Why choose Falcon Consulting?"
+          h1={heading}
+          h2={sub_heading}
           // decription="This sounds simple, but it is beneficial to your business success."
         />
         <div className="AboutSectionLower">
@@ -53,7 +52,7 @@ export default function AboutSection() {
                 />
                 <InfoBox
                   src={AboutInfo3}
-                  number="85"
+                  number={total_projects}
                   title="Successfull Projects"
                 />
               </motion.div>
@@ -68,7 +67,7 @@ export default function AboutSection() {
                   className="AboutImg"
                 >
                   <img
-                    src={process.env.REACT_APP_SERVER_MEDIA_URL + about.photo}
+                    src={process.env.REACT_APP_SERVER_MEDIA_URL + about_img}
                   />
                 </motion.div>
               </Grid>
@@ -82,7 +81,7 @@ export default function AboutSection() {
                 >
                   <InfoBox
                     src={AboutInfo4}
-                    number="3"
+                    number={total_offices}
                     title="Number of Offices"
                   />
                   <InfoBox src={AboutInfo5} title="External Tools Built" />
@@ -100,7 +99,7 @@ export default function AboutSection() {
                         color: "#003B7E",
                       }}
                     >
-                      {about?.title}
+                      {title}
                     </Typography>
                     <Typography
                       sx={{
@@ -109,7 +108,7 @@ export default function AboutSection() {
                         color: "#003B7E",
                       }}
                     >
-                      {about?.description}
+                      {description}
                     </Typography>
                     <a href={`/about`}>
                       <button className="AboutSectionBtn">READ MORE ‘ </button>
