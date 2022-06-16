@@ -135,6 +135,26 @@
 .MainMenu > * {
   padding-bottom: 10px;
 }
+
+.Menu_languageContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Menu_languageDiv{
+  cursor: pointer;
+  width: 30%;
+}
+.Menu_languageMobMain{
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Menu_languageDiv{
+    width: 40%;
+  }
+}
 @media only screen and (max-width: 900px) {
   .Falcon_logo{
     width: 20% !important;
@@ -335,7 +355,40 @@
   font-weight: 700 !important;
   line-height: 1.2 !important;
 }
+.Menu_languageContainer{
+  display: none;
+  height: 100%;
+  position: relative;
+  justify-content: center;
+}
+.Menu_languageDiv{
+  position: absolute;
+  top: 80%;
+width: 50%;
+}
+.Service_MobileDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80vh;
+}
+.Menu_languageMobMain{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Menu_languageMobDiv{
+  width: 80%;
+  text-align: center;
+  cursor: pointer;
+}
 }
 /* .Service_Mobile {
   color: #003b7e;
+} */
+/* @media only screen and (max-width: 520px) {
+  .Menu_languageDiv{
+  width: 70%;
+  }
 } */
