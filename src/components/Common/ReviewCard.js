@@ -15,7 +15,7 @@ export default function ReviewCard(props) {
       style={{
         userSelect: "none",
         maxWidth: "400px",
-        minWidth: "400px",
+        minWidth: "200px",
         height: "516px",
         borderRadius: 15,
       }}
