@@ -18,7 +18,7 @@ export default function UiDev() {
     <div className="Services_UiContainer">
       <NavBar />
       <Header
-        Title="Ui/Ux DEVELOPMENT "
+        Title="UI/UX DEVELOPMENT "
         Titlecolor="#003B7E"
         DespColor="#003B7E"
         Description="We are ready to handle your ambitious projects!"

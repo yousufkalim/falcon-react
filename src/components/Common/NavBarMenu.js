@@ -18,7 +18,7 @@ export default function NavBarMenu({ Menu, SetMenu }) {
   const { i18n, t } = useTranslation();
   const { language } = i18n;
 
-  const [ServiceDropDown, SetServiceDropDown] = React.useState(false);
+  const [ServiceDropDown, SetServiceDropDown] = React.useState(true);
   const [open, setOpen] = React.useState(false);
 
   const handleClick = () => {
@@ -32,8 +32,9 @@ export default function NavBarMenu({ Menu, SetMenu }) {
         transition={{ ease: "easeOut", duration: 0.5 }}
       >
         <Toolbar
-          className="NavToolbar"
+          className="NavToolbar "
           sx={{
+            margin: "0 4%",
             display: "flex",
             justifyContent: "space-between",
           }}
@@ -50,14 +51,18 @@ export default function NavBarMenu({ Menu, SetMenu }) {
             className="MenuIconMob"
             alt="NavMenu"
             src={CloseIcon}
-            style={{ width: "2.5%", color: "white", cursor: "pointer" }}
+            style={{ width: "6%", color: "white", cursor: "pointer" }}
             onClick={(e) => SetMenu(!Menu)}
           />
         </Toolbar>
         <div className="MenuSectionMain">
           <div className="MenuSection">
             <div className="MenuImgDiv">
-              <img className="MenuImg" src={FalconIcon} />
+              <img
+                className="MenuImg"
+                style={{ opacity: ".5" }}
+                src={FalconIcon}
+              />
             </div>
             <div className="MenuTypoDiv">
               <div className="ServiceOptionDiv">
@@ -126,7 +131,7 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                   <span class="dot"></span>
                   <span
                     className="services"
-                    onClick={(e) => SetServiceDropDown(!ServiceDropDown)}
+                    // onClick={(e) => SetServiceDropDown(!ServiceDropDown)}
                   >
                     Services
                   </span>

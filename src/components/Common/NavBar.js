@@ -32,7 +32,7 @@ export default function NavBar(props) {
             {Menu ? (
               <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
             ) : (
-              <Toolbar className="NavToolbar" sx={{ width: "95%" }}>
+              <Toolbar className="NavToolbar ">
                 <Link to={`/`}>
                   <img
                     className="Falcon_logo"
