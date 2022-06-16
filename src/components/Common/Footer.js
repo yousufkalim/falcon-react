@@ -7,8 +7,12 @@ import WhatsApp from "../../assets/images/FooterWhatsApp.svg";
 import TopBtn from "../../assets/images/top_btn.svg";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
 export default function Footer(props) {
-  var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+  const { i18n, t } = useTranslation();
+  const { language } = i18n;
+
   var rootElement = document.documentElement;
   function scrollToTop() {
     // Scroll to top logic
@@ -123,6 +127,23 @@ export default function Footer(props) {
           © 2015-{new Date().getFullYear()}
           <span style={{ color: "#003B7E" }}> Falcon Consulting</span>, All
           Rights Reserved.
+        </Typography>
+
+        <Typography
+          sx={{ color: "black", fontWeight: "700", cursor: "pointer" }}
+          onClick={() => {
+            if (language === "fr") {
+              i18n.changeLanguage("en");
+            } else {
+              i18n.changeLanguage("fr");
+            }
+          }}
+        >
+          <span style={{ color: "#000", opacity: ".6" }}>
+            {" "}
+            {t("Changer de langue en")}{" "}
+          </span>
+          {t("Français")}
         </Typography>
       </div>
     </>
