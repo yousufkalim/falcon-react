@@ -22,7 +22,6 @@ export default function Home() {
   useEffect(() => {
     getHome();
   }, []);
-
   const getHome = async () => {
     await api("get", "/homes").then((res) => {
       setAboutData(res?.data?.home);

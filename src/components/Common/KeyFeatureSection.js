@@ -1,6 +1,8 @@
 // Init
 import { Grid, Typography } from "@mui/material";
 import React from "react";
+import { useState, useEffect } from "react";
+import api from "../../api/index";
 import SectionHeader from "./SectionHeader";
 import KeyFeatures from "./KeyFeatures";
 import keyIcon5 from "../../assets/images/keyIcon5.svg";
@@ -14,6 +16,15 @@ import { motion } from "framer-motion";
 
 // Home Component
 export default function KeyFeatureSection(props) {
+  const [feature, setFeature] = useState({});
+  useEffect(() => {
+    getFeature();
+  }, []);
+  const getFeature = async () => {
+    await api("get", "/features").then((res) => {
+      setFeature(res?.data?.feature);
+    });
+  };
   return (
     <div
       style={{
@@ -25,8 +36,8 @@ export default function KeyFeatureSection(props) {
       }}
     >
       <SectionHeader
-        h2="Key features"
-        decription="This sounds simple, but it is beneficial to your business success."
+        h2={feature.heading}
+        decription={feature.sub_heading}
         colorDesp
       />
       <motion.div
@@ -45,52 +56,44 @@ export default function KeyFeatureSection(props) {
         <Grid container spacing={1} sx={{ width: "85%" }}>
           <Grid xs={12} sm={6} md={4}>
             <KeyFeatures
-              src={keyIcon5}
-              title="SMOOTH COMMUNICATION"
-              desp="Many of these business ideas are home-based. While they may not make you a billionaire."
+              src={process.env.REACT_APP_SERVER_MEDIA_URL + feature?.icon1}
+              title={feature.icon1_title}
+              desp={feature.icon1_description}
             />
           </Grid>
           <Grid xs={12} sm={6} md={4}>
             <KeyFeatures
-              src={keyIcon1}
-              title="TECHNOLOGIES"
-              desp="Many of these business ideas are home-based. While they may not make you a billionaire."
+              src={process.env.REACT_APP_SERVER_MEDIA_URL + feature?.icon2}
+              title={feature.icon2_title}
+              desp={feature.icon2_description}
             />
           </Grid>
           <Grid xs={12} sm={6} md={4}>
             <KeyFeatures
-              src={keyIcon2}
-              title="In-House Team"
-              desp="Many of these business ideas are home-based. While they may not make you a billionaire."
-            />
-          </Grid>
-          <Grid xs={12} sm={6} md={4}>
-            {props.UxKey ? (
-              <KeyFeatures
-                src={keyIcon3}
-                title="UX RESEARCH"
-                desp="Many of these business ideas are home-based. While they may not make you a billionaire."
-              />
-            ) : (
-              <KeyFeatures
-                src={keyIcon3}
-                title="Product Development"
-                desp="Many of these business ideas are home-based. While they may not make you a billionaire."
-              />
-            )}
-          </Grid>
-          <Grid xs={12} sm={6} md={4}>
-            <KeyFeatures
-              src={keyIcon4}
-              title="FULL FLEXIBILITY"
-              desp="Many of these business ideas are home-based. While they may not make you a billionaire."
+              src={process.env.REACT_APP_SERVER_MEDIA_URL + feature?.icon3}
+              title={feature.icon3_title}
+              desp={feature.icon3_description}
             />
           </Grid>
           <Grid xs={12} sm={6} md={4}>
             <KeyFeatures
-              src={keyIcon6}
-              title="USER-FOCUSED PROCESS"
-              desp="Many of these business ideas are home-based. While they may not make you a billionaire."
+              src={process.env.REACT_APP_SERVER_MEDIA_URL + feature?.icon4}
+              title={feature.icon4_title}
+              desp={feature.icon4_description}
+            />
+          </Grid>
+          <Grid xs={12} sm={6} md={4}>
+            <KeyFeatures
+              src={process.env.REACT_APP_SERVER_MEDIA_URL + feature?.icon5}
+              title={feature.icon5_title}
+              desp={feature.icon5_description}
+            />
+          </Grid>
+          <Grid xs={12} sm={6} md={4}>
+            <KeyFeatures
+              src={process.env.REACT_APP_SERVER_MEDIA_URL + feature?.icon6}
+              title={feature.icon6_title}
+              desp={feature.icon6_description}
             />
           </Grid>
         </Grid>
