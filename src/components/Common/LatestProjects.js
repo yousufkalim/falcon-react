@@ -52,7 +52,7 @@ export default function LatestProjects(props) {
             className="SliderDiv"
             responsive
             show={slideShow}
-            slide={1}
+            slide={2}
             swiping={true}
           >
             <LatestProjectsCard
@@ -135,71 +135,20 @@ export default function LatestProjects(props) {
         {props.ProjectsSummary && (
           <div className="ProjectsCompletedDiv">
             <div className="Left">
-              <Typography
-                sx={{
-                  fontFamily: "Montserrat !important",
-                  color: "white",
-                  fontSize: "1.5rem",
-                  fontWeight: "700",
-                  textAlign: "center",
-                }}
-              >
-                8+
-              </Typography>
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: "1rem",
-                  fontWeight: "400",
-                  textAlign: "center",
-                }}
-              >
+              <Typography className="ProjectsCompleted_Num">8</Typography>
+              <Typography className="ProjectsCompleted_H">
                 Years of Excellence
               </Typography>
             </div>
             <div className="center">
-              <Typography
-                sx={{
-                  fontFamily: "Montserrat !important",
-                  color: "white",
-                  fontSize: "1.5rem",
-                  fontWeight: "700",
-                  textAlign: "center",
-                }}
-              >
-                85+
-              </Typography>
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: "1rem",
-                  fontWeight: "400",
-                  textAlign: "center",
-                }}
-              >
+              <Typography className="ProjectsCompleted_Num">85+</Typography>
+              <Typography className="ProjectsCompleted_H">
                 Project Completed
               </Typography>
             </div>
             <div className="Right">
-              <Typography
-                sx={{
-                  fontFamily: "Montserrat !important",
-                  color: "white",
-                  fontSize: "1.5rem",
-                  fontWeight: "700",
-                  textAlign: "center",
-                }}
-              >
-                60+
-              </Typography>
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: "1rem",
-                  fontWeight: "400",
-                  textAlign: "center",
-                }}
-              >
+              <Typography className="ProjectsCompleted_Num">60+</Typography>
+              <Typography className="ProjectsCompleted_H">
                 Customer Satisfaction
               </Typography>
             </div>

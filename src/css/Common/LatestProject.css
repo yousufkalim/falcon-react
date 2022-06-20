@@ -118,6 +118,20 @@ opacity: .8;
 .awssld__bullets{
     visibility: hidden !important;
 }
+.ProjectsCompleted_Num{
+        font-family: Montserrat !important;
+        color: white !important;
+        font-size: 1.5rem !important;
+        font-weight: 700 !important;
+        text-align: center;
+}
+.ProjectsCompleted_H{
+        color: white;
+        font-family: Montserrat !important;
+        font-size: 1rem !important;
+        font-weight: 400 !important;
+        text-align: center;
+}
 @media only screen and (max-width: 1200px) {
     .hoverDivLogo{
         width: 60%;
@@ -136,12 +150,27 @@ opacity: .8;
     .HoverDivTypo{
         font-size: .6rem !important;
     }
+    .ProjectsCompleted_Num{
+        font-size: 1.2rem !important;
+}
+.ProjectsCompleted_H{
+        font-size: .8rem !important;
+}
   
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
 
 .ProjectsCompletedDiv{
     padding: 5% 10%;
+}
+.HoverDivBtnDark{
+    width: 70% !important;
+}
+.ProjectsCompleted_Num{
+    font-size: 1.2rem !important;
+}
+.ProjectsCompleted_H{
+    font-size: .7rem !important;
 }
 }
