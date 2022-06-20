@@ -19,7 +19,7 @@
 .AboutCompanyTypo_H2{
         font-size: 1.7rem !important;
         margin: 2% 0% !important;
-        width: 30%;
+        width: 100%;
         color: #0F52BA;
         font-weight: 800 !important;
         text-transform: capitalize;
@@ -33,9 +33,7 @@
     width: 85%;
 }
 @media only screen and (max-width: 1366px) {
-    .AboutCompanyTypo_H2{
-        width: 50%;
-}
+
 .AboutCompanyTypo_Desp{
     font-size: .9rem !important; 
 }
@@ -48,7 +46,6 @@
         font-size: 1rem !important;
     }
     .AboutCompanyTypo_H2{
-        width: 50%;
         font-size: 1.5rem !important;
 }
     .AboutCompanyTypo_Desp{

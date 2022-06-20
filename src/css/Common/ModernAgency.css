@@ -75,11 +75,15 @@
     color: #fff; 
     font-size: 1.3rem !important;
     margin-top: 3%;
+    font-family: Roboto !important;
 
 }
 .HistoryTypoP{
     font-size: .8rem !important;
     color: white;
+    font-family: Roboto !important;
+    width: 100% !important;
+
 }
 /* style={{ height: 100, display: "flex", alignItems: "center" }} */
 

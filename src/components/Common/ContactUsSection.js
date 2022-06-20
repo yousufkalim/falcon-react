@@ -99,12 +99,12 @@ export default function ContactUsSection(props) {
                       />
                     </Grid>
                   </div>
-                  <Grid xs={12} className="ReCAPTCHA_DIV">
+                  {/* <Grid xs={12} className="ReCAPTCHA_DIV">
                     <ReCAPTCHA
                       sitekey="6Ldx_T0gAAAAAEUJmHBAIEaOLc2sTPgb00PcbhnA"
                       onChange={onChange}
                     />
-                  </Grid>
+                  </Grid> */}
                   <Grid className="Contact_Send_Grid" xs={3}>
                     <button type="submit" className="ContactUsBtn">
                       Send
@@ -244,12 +244,12 @@ export default function ContactUsSection(props) {
                       />
                     </Grid>
                   </div>
-                  <Grid xs={12} className="ReCAPTCHA_DIV">
+                  {/* <Grid xs={12} className="ReCAPTCHA_DIV">
                     <ReCAPTCHA
                       sitekey="6Ldx_T0gAAAAAEUJmHBAIEaOLc2sTPgb00PcbhnA"
                       onChange={onChange}
                     />
-                  </Grid>
+                  </Grid> */}
                   {/* <Grid xs={12}>
                     <div
                       style={{

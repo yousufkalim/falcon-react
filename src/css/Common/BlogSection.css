@@ -16,3 +16,13 @@
 .BlogGrid{
     margin: 2%;
 }
+.BlogCardTitle{
+    color: #12141D; 
+    font-weight: 700 !important; 
+    width: 70%;
+}
+@media only screen and (max-width: 600px) {
+    .BlogCardTitle{
+        width: 100%;
+    }
+}
