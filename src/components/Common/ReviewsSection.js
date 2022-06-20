@@ -39,31 +39,31 @@ export default function ReviewSection() {
     },
     {
       avatar: Client_4,
-      name: "Anderson Silva",
+      name: "Ali Asad",
       review:
         " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     },
     {
       avatar: Client_5,
-      name: "Salauddin Ayubi",
+      name: "Zayed Saeed",
       review:
         " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     },
     {
       avatar: Client_6,
-      name: " Mam Zunaira",
+      name: " Mam Ayesha",
       review:
         " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     },
     {
       avatar: Client_7,
-      name: "Adeel Baig",
+      name: "Abdullah Adil",
       review:
         " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     },
     {
       avatar: Client_8,
-      name: "Yousaf Kaleem",
+      name: "Ameer Hamza",
       review:
         " It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     },
