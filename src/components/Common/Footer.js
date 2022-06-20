@@ -67,13 +67,19 @@ export default function Footer(props) {
               </Typography>
               <ul>
                 <li>
-                  <Link to="/about">About</Link>
+                  <Link className="Footer_li" to="/about">
+                    About
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/ourprojects">Our projects</Link>
+                  <Link className="Footer_li" to="/ourprojects">
+                    Our projects
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/contactus">Contact</Link>
+                  <Link className="Footer_li" to="/contactus">
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -86,23 +92,35 @@ export default function Footer(props) {
               </Typography>
               <ul>
                 <li>
-                  <Link to="/services/web-development">Web Development</Link>
+                  <Link className="Footer_li" to="/services/web-development">
+                    Web Development
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/services/app-development">App Development</Link>
+                  <Link className="Footer_li" to="/services/app-development">
+                    App Development
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/services/software-development">
+                  <Link
+                    className="Footer_li"
+                    to="/services/software-development"
+                  >
                     Software Development
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services/ondemand-developers">
+                  <Link
+                    className="Footer_li"
+                    to="/services/ondemand-developers"
+                  >
                     On Demand Developers
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services/ui-development">UI/UX Developmemt</Link>
+                  <Link className="Footer_li" to="/services/ui-development">
+                    UI/UX Developmemt
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -114,8 +132,8 @@ export default function Footer(props) {
                 Privacy
               </Typography>
               <ul>
-                <li>Terms of Service</li>
-                <li>Cookies</li>
+                <li className="Footer_li">Terms of Service</li>
+                <li className="Footer_li">Cookies</li>
               </ul>
             </div>
           </div>
@@ -123,14 +141,17 @@ export default function Footer(props) {
       </motion.div>
       <Divider />
       <div className="CopyRightDiv">
-        <Typography sx={{ fontSize: "80%", fontWeight: "700" }}>
+        <Typography
+          ClassName="CopyRightTypo"
+          sx={{ fontSize: "70%", fontWeight: "700" }}
+        >
           © 2015-{new Date().getFullYear()}
           <span style={{ color: "#003B7E" }}> Falcon Consulting</span>, All
           Rights Reserved.
         </Typography>
 
         <Typography
-          sx={{ color: "black", fontWeight: "700", cursor: "pointer" }}
+          className="Footer_ChangeLanguage"
           onClick={() => {
             if (language === "fr") {
               i18n.changeLanguage("en");

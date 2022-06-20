@@ -61,6 +61,11 @@
   background-color: #F8F8F8;
 
 }
+.CopyRightTypo{
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+
+}
 #scrollToTopBtn {
     position: absolute;
     top: 5%;
@@ -70,6 +75,11 @@
   cursor: pointer;
   height: 15%;
 }
+.Footer_ChangeLanguage{
+    color: black;
+    font-weight: 700 !important; 
+    cursor: pointer; 
+}
 @media only screen and (max-width: 900px) {
     .FooterRight ul {
         font-size: .7rem;
@@ -78,6 +88,10 @@
         font-size: .8rem !important;
 
     }
+    .Footer_ChangeLanguage{
+        font-size: .8rem !important;
+        /* width: 70%; */
+        }
 }
 
 @media only screen and (max-width: 768px) {
@@ -93,7 +107,8 @@
         width: 60%;
     }
     .FooterTypo {
-        font-size: .6rem !important;
+        width: 90% !important;
+        font-size: .5rem !important;
     }
     .FooterIcons{
         width: 10%;
@@ -102,7 +117,30 @@
         font-size: .7rem !important;
 
     }
+    .Footer_li{
+        font-size: 8px !important;
+    }
+    .FooterLeft{
+        width: 40%;
+    }
+    .FooterRight{
+        width: 60%;
+    }
     .FooterRight ul {
         font-size: .5rem;
+    }
+    .CopyRightTypo{
+        width: 50%;
+            font-size: 1rem !important;
+            font-weight: 700 !important;
+        
+    }
+    .CopyRightDiv{
+    flex-direction: column-reverse ;
+    }
+    .Footer_ChangeLanguage{
+    font-size: .8rem !important;
+    width: 100%;
+    margin-bottom: .5% !important;
     }
   }
