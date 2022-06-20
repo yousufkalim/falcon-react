@@ -29,8 +29,8 @@ export default function Home() {
       <LatestProjects ProjectsSummary />
       <AboutSection />
       <ClientSection />
-      <ReviewSection />
-      <BlogSection />
+      {/* <ReviewSection /> */}
+      {/* <BlogSection /> */}
       <ContactUsSection />
       <LocationSection />
       <Footer />
