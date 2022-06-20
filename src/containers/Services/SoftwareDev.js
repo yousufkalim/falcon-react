@@ -18,7 +18,7 @@ export default function SoftwareDev() {
     <div className="Services_SoftwareContainer">
       <NavBar />
       <Header
-        Title="SoftWare DEVELOPMENT "
+        Title="SOFTWARE DEVELOPMENT "
         Titlecolor="#003B7E"
         DespColor="#003B7E"
         Description="We are ready to handle your ambitious projects!"
