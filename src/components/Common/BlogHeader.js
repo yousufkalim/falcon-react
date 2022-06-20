@@ -20,7 +20,7 @@ export default function BlogHeader() {
           className="BlogHeaderTypo"
           sx={{ color: "#263238", fontSize: "1.7rem", fontWeight: "800" }}
         >
-          FALCON <span style={{ color: "#0F52BA" }}>BLOGS</span>
+          FALCON <span style={{ color: "#0F52BA" }}>BLOG</span>
         </Typography>
         <Typography
           className="BlogHeaderTypo"
@@ -32,7 +32,7 @@ export default function BlogHeader() {
             margin: ".5% 0%",
           }}
         >
-          Proin consequat consequat erat eget sagittis.
+          Always looking into improving ourselves.
         </Typography>
         <Typography
           className="BlogHeaderTypo"
@@ -40,12 +40,11 @@ export default function BlogHeader() {
             color: "#263238",
             fontSize: ".7rem",
             fontWeight: "400",
-            width: "35%",
+            width: "20%",
           }}
         >
-          Aenean viverra sagittis lacinia. Integer non semper mauris sed lacinia
-          mauris. Nam eget fermentum diam. Sed ut suscipit mauris, id imperdiet
-          purus.
+          The articles written below by our team reflect our values and
+          expertize when it comes to collaborating in mid-size and big projects.
         </Typography>
         <div
           className="BlogHeaderInput"
@@ -66,7 +65,7 @@ export default function BlogHeader() {
               border: "none",
               borderRadius: "35px",
               paddingLeft: "5%",
-              fontSize: ".7rem",
+              fontSize: "1rem",
             }}
             placeholder="Your Email"
           />
@@ -75,12 +74,12 @@ export default function BlogHeader() {
               backgroundColor: "#0F52BA",
               border: "none",
               width: "40%",
-              fontSize: ".7rem",
+              fontSize: "1rem",
               fontWeight: "600",
               borderRadius: "35px",
               padding: "1%",
               color: "white",
-              cursor:"pointer"
+              cursor: "pointer",
             }}
           >
             SUBSCRIBE

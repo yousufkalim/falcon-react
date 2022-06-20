@@ -22,7 +22,7 @@ export default function KeyFeatures(props) {
           sx={{
             fontWeight: "400",
             fontSize: ".7rem",
-            width: "60%",
+            width: "50%",
             opacity: "80%",
           }}
         >
