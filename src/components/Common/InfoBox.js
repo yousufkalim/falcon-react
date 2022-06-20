@@ -4,7 +4,9 @@ export default function InfoBox(props) {
   return (
     <>
       <div className="InfoDiv">
-        <img src={props.src || Info1} />
+        <div className="InfoImg">
+          <img src={props.src || Info1} />
+        </div>
         <h2>{props.number}</h2>
         <p>{props.title}</p>
       </div>

@@ -68,9 +68,16 @@
         align-items: center;
         text-align: center;
         width: 100%;
-        margin: 5% 0% !important;
+        margin: 2% 0% !important;
 
     }
+    .ProjectCardMain{
+        margin:10% 0;
+    }
+    .ProjectCardBtn{
+        margin-top: 2% !important;
+    }
+
     
     /* .ProjectCardDivider{
         display: flex !important;
@@ -79,12 +86,16 @@
 
 
 }
-/* @media only screen and (max-width: 600px) {
-    .ProjectCardTypo{
+@media only screen and (max-width: 600px) {
+    .ProjectCardBtn{
+        width: 45%;
+        margin-top: 1% !important;
     }
-    .ProjectCardDivider{
-
+    .ProjectCardMain{
+        margin:15% 0;
+    }
 }
+/*  
 @media only screen and (max-width: 600px) {
     .ProjectCardBtn{
         width: 40%;

@@ -8,9 +8,13 @@ import NavMenu from "../../assets/images/NavMenu.png";
 import WhiteMenuIcon from "../../assets/images/WhiteMenuIcon.svg";
 import NavBarMenu from "./NavBarMenu";
 import { Link } from "react-router-dom";
+import { useScrollPosition } from "../../utils/ScrollPosition";
+
 export default function NavBar(props) {
   const [Menu, SetMenu] = React.useState(false);
 
+  let position = useScrollPosition();
+  console.log(position, "position");
   return (
     <>
       {props.ContactUs ? (
@@ -19,16 +23,16 @@ export default function NavBar(props) {
             className="AppBarBox"
             position="fixed"
             sx={{
-              backgroundColor: "#02356f",
+              backgroundColor: "#0000000D",
               color: "blue",
               padding: "0px 20px",
-              boxShadow: "0px 4px 13px rgba(0, 0, 0, 0.1)",
+              boxShadow: position <= 3 && "none",
             }}
           >
             {Menu ? (
               <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
             ) : (
-              <Toolbar className="NavToolbar" sx={{ width: "95%" }}>
+              <Toolbar className="NavToolbar ">
                 <Link to={`/`}>
                   <img
                     className="Falcon_logo"
@@ -57,7 +61,7 @@ export default function NavBar(props) {
               backgroundColor: "white",
               color: "blue",
               padding: "0px 20px",
-              boxShadow: "0px 4px 13px rgba(0, 0, 0, 0.1)",
+              boxShadow: position <= 3 && "none",
             }}
           >
             {Menu ? (
@@ -72,6 +76,7 @@ export default function NavBar(props) {
                     style={{ width: "10%", margin: "1% 0", cursor: "pointer" }}
                   />
                 </Link>
+
                 <img
                   className="MenuIconMob"
                   alt="menu"

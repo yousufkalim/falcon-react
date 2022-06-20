@@ -51,19 +51,24 @@
     display: flex;
     flex-direction: column;
     align-items:center;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     padding: 2%;
     margin: 1%;
     background-color: #0F52BA14;
     border-radius: 10px;
-   min-height: 180px;
-    max-height: 180px;
-    max-width: 180px;
-    min-width: 180px;
+   height: 180px;
+    width: 180px;
+}
+.InfoImg{
+    height: 90px;
+    display:flex;
+    justify-content: center;
+
 }
 .InfoDiv img{
-    width: 40%;
+    width: 70%;
+    /* margin-bottom: 2%; */
 
 }
 .InfoDiv h2{
@@ -73,38 +78,61 @@
 .InfoDiv p{
     font-size: 70%;
     color:#003B7E;
+    /* margin-top: 2%; */
 }
 @media only screen and (max-width: 1366px) {
     .InfoDiv{
-        min-height: 150px;
-         max-height: 150px;
-         max-width: 150px;
-         min-width: 150px;
+        height: 150px;
+         width: 150px;
      }
+     .InfoImg{
+        height: 75px;
+    }
+    .InfoDiv img{
+        width: 70%;
+    
+    }
 }
 @media only screen and (max-width: 992px) {
     .InfoDiv{
-        min-height: 120px;
-         max-height: 120px;
-         max-width: 120px;
-         min-width: 120px;
+        height: 120px;
+         width: 120px;
      }
+     .InfoImg{
+        height: 60px;
+    }
+    .InfoDiv img{
+        width: 60%;
+
+    }
+    .InfoDiv h2{
+    font-size: 1rem;
+    }
+    .InfoDiv p{
+        font-size: .6rem;
+    }
 }
 @media only screen and (max-width: 768px) {
     .InfoDiv{
-       min-height: 110px;
-        max-height: 110px;
-        max-width: 110px;
-        min-width: 110px;
+       height: 110px;
+        width: 110px;
+    }
+    .InfoImg{
+        height: 55px;
+    }
+    .InfoDiv img{
+        width: 60%;
+
     }
 }
 @media only screen and (max-width: 600px) {
     .InfoDiv{
-        min-height: 120px;
-         max-height: 120px;
-         max-width: 120px;
-         min-width: 120px;
+        height: 120px;
+         width: 120px;
      }
+     .InfoImg{
+        height:50px;
+    }
     .AboutSectionDiv{
         display: flex !important;
         flex-direction: column !important;

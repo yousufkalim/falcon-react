@@ -16,9 +16,7 @@ export default function BlogCard(props) {
         >
           {props.date}
         </Typography>
-        <Typography sx={{ color: "#12141D", fontWeight: "700", width: "70%" }}>
-          {props.title}
-        </Typography>
+        <Typography className="BlogCardTitle">{props.title}</Typography>
       </div>
     </>
   );

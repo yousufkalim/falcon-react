@@ -88,12 +88,13 @@ export default function Header(props) {
             <a href="https://wa.me/03135098197">
               <img className="ChatIconImg" alt="whatsapp" src={WhatsappIcon} />
             </a>
-            <Link to={`/contactus`}>
-              <img className="ChatIconImg" alt="chat" src={ChatIcon} />
-            </Link>
+
             <a href={`http://calendly.com/falconit`}>
               <img className="ChatIconImg" alt="Calendly" src={Calendly} />
             </a>
+            <Link to={`/contactus`}>
+              <img className="ChatIconImg" alt="chat" src={ChatIcon} />
+            </Link>
           </div>
         ) : null}
       </Grid>

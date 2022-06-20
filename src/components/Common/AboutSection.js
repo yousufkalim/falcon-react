@@ -32,10 +32,10 @@ export default function AboutSection() {
                 viewport={{ once: true }}
                 className="AboutTopGrid"
               >
-                <InfoBox number="8+" title="Years of Experience" />
+                <InfoBox number="8" title="Years of Excellence" />
                 <InfoBox
                   src={AboutInfo2}
-                  number="60+"
+                  number="65"
                   title="Number of Employes"
                 />
                 <InfoBox
@@ -67,13 +67,18 @@ export default function AboutSection() {
                 >
                   <InfoBox
                     src={AboutInfo4}
-                    number="3"
+                    number="4"
                     title="Number of Offices"
                   />
-                  <InfoBox src={AboutInfo5} title="External Tools Built" />
+                  <InfoBox
+                    src={AboutInfo5}
+                    number="20"
+                    title="External Tools Built"
+                  />
                   <InfoBox
                     src={AboutInfo6}
-                    title="100% Improvement and Customer focused"
+                    number="100%"
+                    title="Improvement and Customer focused"
                   />
                 </motion.div>
                 <div className="AboutTypo">
