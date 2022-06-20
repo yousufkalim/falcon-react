@@ -37,7 +37,7 @@ export default function ModernAgencySection() {
               </div>
             </div>
             <div className="HistoryTypoDiv">
-              <Typography className="HistoryTypoH">8+</Typography>
+              <Typography className="HistoryTypoH">8</Typography>
               <Typography className="HistoryTypoP">
                 Years of Excellence
               </Typography>
@@ -53,7 +53,7 @@ export default function ModernAgencySection() {
               </div>
             </div>
             <div className="HistoryTypoDiv">
-              <Typography className="HistoryTypoH">85+</Typography>
+              <Typography className="HistoryTypoH">85</Typography>
               <Typography className="HistoryTypoP">
                 Successfull Projects
               </Typography>
@@ -82,7 +82,7 @@ export default function ModernAgencySection() {
               </div>
             </div>
             <div className="HistoryTypoDiv_Last">
-              <Typography className="HistoryTypoH">3</Typography>
+              <Typography className="HistoryTypoH">4</Typography>
               <Typography className="HistoryTypoP">
                 Office Loocations
               </Typography>
