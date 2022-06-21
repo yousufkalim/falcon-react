@@ -9,7 +9,6 @@ import Divider from "@mui/material/Divider";
 import Button from "@mui/material/Button";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-
 // Component
 export default function Header(props) {
   return (
@@ -57,7 +56,7 @@ export default function Header(props) {
             {props.Description}
           </Typography>
           {props.btn && (
-            <Link to={`/contactus`}>
+            <Link className="BtnLink" to={`/contactus`}>
               <Button
                 className={props.btnClassName ? "btnClassName" : "HeaderBtn"}
               >
