@@ -5,6 +5,7 @@ import EmailIcon from "../../assets/images/emailIcon.svg";
 import Robot from "../../assets/images/notRobort.svg";
 import CalendlyIcon from "../../assets/images/calendlyIcon.svg";
 import emailjs from "emailjs-com";
+import { toast } from "react-toastify";
 import ReCAPTCHA from "react-google-recaptcha";
 export default function ContactUsSection(props) {
   const sendEmail = (e) => {
@@ -25,6 +26,7 @@ export default function ContactUsSection(props) {
           console.log(error.text);
         }
       );
+    toast.success("Form Submitted");
   };
   function onChange(value) {
     console.log("Captcha value:", value);
