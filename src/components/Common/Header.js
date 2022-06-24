@@ -32,7 +32,7 @@ export default function Header(props) {
                 : "HeaderHeading"
             }
             style={props.TitleStyle}
-            color={props.Titlecolor || "#282828"}
+            color={props.Titlecolor || "#003B7E"}
           >
             <span style={{ color: "#003B7E" }}>{props.ColorTitle}</span>
             {props.Title}
