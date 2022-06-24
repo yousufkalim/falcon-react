@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import OurProjectCard from "../Common/OurProjectCard";
-import PermispopImg from "../../assets/images/PermispopImg.svg";
+import PermispopImg from "../../assets/images/permisImg.svg";
 import PP_logo from "../../assets/images/permisLogo.png";
 import DesignConf from "../../assets/images/DesignImg.svg";
 import Desine_Logo from "../../assets/images/desineLogo.png";
