@@ -23,6 +23,7 @@
 @import url("./Common/OurDevelopers.css");
 @import url("./Common/DeveloperWorkProcess.css");
 @import url("./Common/LocationSection.css");
+@import url("./Common/LegalMention.css");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
@@ -46,7 +47,8 @@ a{
 .Services_SoftwareContainer,
 .Services_UiContainer,
 .Services_DemandContainer,
-.Services_AppContainer{
+.Services_AppContainer,
+.Permispop_Container{
   overflow-x: hidden !important;
 }
 
