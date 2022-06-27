@@ -51,6 +51,7 @@
 .LegalMention_ListDiv {
         width: 100%;
         margin: 1% 0;
+        cursor: pointer;
 }
 
 .LegalMention_ListBar {
