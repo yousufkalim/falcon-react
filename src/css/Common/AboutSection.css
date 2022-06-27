@@ -73,7 +73,8 @@
 }
 .InfoDiv h2{
     color:#003B7E;
-
+    
+    font-family: Montserrat !important;
 }
 .InfoDiv p{
     font-size: 70%;
