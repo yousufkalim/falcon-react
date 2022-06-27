@@ -1,0 +1,133 @@
+// Init
+import React from "react";
+
+// Importing Components
+import NavBar from "../../components/Common/NavBar";
+import DetailHeader from "../../components/ProjectDetails/DetailHeader";
+import EZbox_Header from "../../assets/images/ezbox_header.png";
+import DetailOverview from "../../components/ProjectDetails/DetailOverview";
+import OV_EZbox from "../../assets/images/ov_ezbox.png";
+import DetailService from "../../components/ProjectDetails/DetailService";
+
+import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
+import DetailDemo from "../../components/ProjectDetails/DetailDemo";
+import EZbox_Demo from "../../assets/images/ezbox_demo.png";
+import DetailDesign from "../../components/ProjectDetails/DetailDesign";
+import EZbox_Design1 from "../../assets/images/ezbox_design1.png";
+import EZbox_Design2 from "../../assets/images/ezbox_design2.png";
+import EZbox_Design3 from "../../assets/images/ezbox_design3.png";
+
+import DetailTheme from "../../components/ProjectDetails/DetailTheme";
+import EZbox_Theme1 from "../../assets/images/ezbox_theme1.png";
+import EZbox_Theme2 from "../../assets/images/ezbox_theme2.png";
+import EZbox_Theme3 from "../../assets/images/ezbox_theme3.png";
+import DetailLogo from "../../components/ProjectDetails/DetailLogo";
+import EZbox_Logo from "../../assets/images/detail_ezbox_logo.png";
+import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
+import EZbox_WebDesign from "../../assets/images/ezbox_webdesign.png";
+import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
+import Footer from "../../components/Common/Footer";
+
+// Home Component
+export default function EZbox() {
+  return (
+    <div className="Permispop_Container">
+      <NavBar ContactUs />
+      <DetailHeader
+        // DividerBG
+        background="#454238"
+        bottomBG="#3399FE"
+        typoBG="#3399FE"
+        HeaderImg={EZbox_Header}
+        title="EZbox Media"
+        subTitle="What is EZbox Media"
+        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      />
+      <DetailOverview
+        // desp
+        // location
+        titleTheme="#454238"
+        AvatarSrc={Kidcab_Avatar}
+        nameColor="#3399FE"
+        name="Eassa Awake"
+        src={OV_EZbox}
+      />
+      <DetailService
+        // both
+        web
+        // app
+        titleTheme="#454238"
+        borderColor="#454238"
+        circleTheme="#3399FE"
+      />
+
+      <DetailDemo
+        // desp
+        // btnText
+        DetailDemo_SquareDiv
+        // DetailDemo_RoundDiv
+        titleColor="#454238"
+        title="EZbox Media"
+        btnTheme="#3399FE"
+        theme="#3399FE"
+        src={EZbox_Demo}
+      />
+      <DetailDesign
+        titleTheme="#454238"
+        title="UI DESIGN"
+        // overlap
+        TopImg={EZbox_Design1}
+        MidImg={EZbox_Design2}
+        BottomImg={EZbox_Design3}
+        // grids
+        // src1
+        // src2
+        // src3
+        // src4
+        // src5
+        // src6
+        overlap
+      />
+
+      <DetailTheme
+        // desp
+        // centerImage
+        // src
+        Images
+        src1={EZbox_Theme1}
+        src2={EZbox_Theme2}
+        src3={EZbox_Theme3}
+        // fullscreen
+        titleTheme="#454238"
+        // desp
+        Theme1="#454238"
+        Theme2="#3399FE"
+        Theme3="#FCFCFC"
+        Theme4="#FE9433"
+        // Theme5=""
+        // Theme6=""
+        // Theme7=""
+        // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
+        // src={KidCab_Theme}
+      />
+      <DetailLogo theme="#454238" src={EZbox_Logo} />
+      <DetailAppDev
+        title="WEB DESIGN"
+        // desp
+        halfImg={EZbox_WebDesign}
+        titleTheme="#454238"
+        // fullImg=(src Required)
+      />
+      <DetailFeedback
+        // titleTheme
+        // despTheme
+        // desp
+        // location
+        ThemeBG="#3399FE"
+        AvatarSrc={Kidcab_Avatar}
+        name="Eassa Awake"
+      />
+      <Footer />
+    </div>
+  );
+}

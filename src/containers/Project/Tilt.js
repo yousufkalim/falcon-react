@@ -1,0 +1,131 @@
+// Init
+import React from "react";
+
+// Importing Components
+import NavBar from "../../components/Common/NavBar";
+import DetailHeader from "../../components/ProjectDetails/DetailHeader";
+import Tilt_Header from "../../assets/images/tilt_header.png";
+import DetailOverview from "../../components/ProjectDetails/DetailOverview";
+import OV_Tilt from "../../assets/images/ov_tilt.png";
+import DetailService from "../../components/ProjectDetails/DetailService";
+
+import QB_Avatar from "../../assets/images/overview_quadraAvatar.png";
+import DetailDemo from "../../components/ProjectDetails/DetailDemo";
+import Tilt_Demo from "../../assets/images/tilt_demo.png";
+import DetailDesign from "../../components/ProjectDetails/DetailDesign";
+import Tilt_Design1 from "../../assets/images/tilt_design1.png";
+import Tilt_Design2 from "../../assets/images/tilt_design2.png";
+import Tilt_Design3 from "../../assets/images/tilt_design3.png";
+
+import DetailTheme from "../../components/ProjectDetails/DetailTheme";
+import QB_Theme from "../../assets/images/detail_qb_theme.png";
+import DetailLogo from "../../components/ProjectDetails/DetailLogo";
+import Tilt_Logo from "../../assets/images/detail_tilt_logo.png";
+import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
+import Tilt_AppDesign from "../../assets/images/tilt_appdesign.png";
+import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
+import Footer from "../../components/Common/Footer";
+
+// Home Component
+export default function Tilt() {
+  return (
+    <div className="Permispop_Container">
+      <NavBar ContactUs />
+      <DetailHeader
+        background="#282828"
+        bottomBG="#D3014A"
+        typoBG="#D3014A"
+        HeaderImg={Tilt_Header}
+        title="Tilt"
+        subTitle="What is Tilt"
+        // iconTheme="#9D3C64"
+        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      />
+      <DetailOverview
+        titleTheme="#282828"
+        // desp=""
+        AvatarSrc={QB_Avatar}
+        nameColor="#D3014A"
+        // name="Dylan Field"
+        // location="France"
+        src={OV_Tilt}
+      />
+      <DetailService
+        // web
+        both
+        titleTheme="#282828"
+        borderColor="#282828"
+        circleTheme="#D3014A"
+      />
+
+      <DetailDemo
+        // desp
+        // btnText
+        // DetailDemo_SquareDiv
+        DetailDemo_RoundDiv
+        titleColor="#282828"
+        title="Tilt"
+        btnTheme="#D3014A"
+        theme="#D3014A"
+        src={Tilt_Demo}
+      />
+      <DetailDesign
+        titleTheme="#282828"
+        title="APP UI DESIGN"
+        // overlap
+        TopImg={Tilt_Design1}
+        MidImg={Tilt_Design2}
+        BottomImg={Tilt_Design3}
+        // grids
+        // src1
+        // src2
+        // src3
+        // src4
+        // src5
+        // src6
+        overlap
+      />
+
+      <DetailTheme
+        // desp
+        centerImage
+        // src
+        // Images
+        // src1={OrgaPlan_Theme}
+        // src2={OrgaPlan_Theme}
+        // src3={EZbox_Theme3}
+        // fullscreen
+        title="COLOR THEME"
+        titleTheme="#282828"
+        // desp
+        Theme1="#D3014A"
+        Theme2="#282828"
+        Theme3="#00000040"
+        Theme4="#C8CFD0"
+        // Theme5="#00000040"
+        // Theme6=""
+        // Theme7=""
+        // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
+        // src={OrgaPlan_Theme}
+      />
+      <DetailLogo theme="#D3014A" src={Tilt_Logo} />
+      <DetailAppDev
+        title="MOBILE APP DEVELOPMENT"
+        // desp
+        fullImg={Tilt_AppDesign}
+        titleTheme="#282828"
+        // halfImg=(src Required)
+      />
+      <DetailFeedback
+        // titleTheme="#9D936D"
+        // despTheme="#282828"
+        // desp
+        // location
+        ThemeBG="#D3014A"
+        // AvatarSrc={Kidcab_Avatar}
+        // name="Ukhano"
+      />
+      <Footer />
+    </div>
+  );
+}
