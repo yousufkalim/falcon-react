@@ -3,13 +3,15 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { ToastContainer, Flip } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import "./utils/i18n";
+import { useTranslation } from "react-i18next";
 // Files
 import Index from "./routes/index";
 import "./css/index.css";
 
 // Component
 function App() {
+  const { i18n } = useTranslation();
   let { pathname } = useLocation();
 
   useEffect(() => {
