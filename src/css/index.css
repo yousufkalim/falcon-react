@@ -24,6 +24,16 @@
 @import url("./Common/DeveloperWorkProcess.css");
 @import url("./Common/LocationSection.css");
 @import url("./Common/LegalMention.css");
+@import url("./Projects/DetailHeader.css");
+@import url("./Projects/DetailOverview.css");
+@import url("./Projects/DetailDemo.css");
+@import url("./Projects/DetailService.css");
+@import url("./Projects/DetailDesign.css");
+@import url("./Projects/DetailFeedback.css");
+@import url("./Projects/DetailTheme.css");
+@import url("./Projects/DetailLogo.css");
+@import url("./Projects/DetailAppDev.css");
+@import url("./Projects/DetailWebDev.css");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
