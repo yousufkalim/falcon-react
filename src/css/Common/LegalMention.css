@@ -1,0 +1,160 @@
+.LegalMention_HeaderDiv {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8%;
+        padding: 0 5%;
+}
+
+.LegalMention_HeaderTitleDiv {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.LegalMention_HeaderTitle {
+        font-weight: 700 !important;
+        font-family: inter !important;
+        font-size: 1.5rem;
+        margin-top: 2%;
+}
+
+.LegalMention_HeaderDespDiv {
+        margin-top: 5%;
+        padding: 2%;
+        box-shadow: 0px 5px 19px rgba(0, 0, 0, 0.05);
+}
+
+.LegalMention_HeaderDesp_H {
+        font-size: 1.5rem !important;
+        font-weight: 700 !important;
+        opacity: .7;
+}
+
+.LegalMention_HeaderDesp_P {
+        font-size: 1.2rem !important;
+        font-weight: 500 !important;
+        opacity: .7;
+
+}
+
+/* list */
+.LegalMention_ListContainer {
+        width: 100%;
+        padding: 3% 5%;
+}
+
+.LegalMention_ListDiv {
+        width: 100%;
+        margin: 1% 0;
+}
+
+.LegalMention_ListBar {
+        box-shadow: 0px 5px 19px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.LegalMention_ListBar_Left {
+        display: flex;
+        align-items: center;
+        width: 80%;
+}
+
+.LegalMention_ListBar_IndexDiv {
+        width: 5%;
+        display: flex;
+        justify-content: center;
+}
+
+.LegalMention_ListBar_Index {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #003B7E;
+        color: #fff;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        margin: 1%;
+}
+
+.LegalMention_ListBar_TitleDiv {
+        width: 80%;
+}
+
+.LegalMention_Collapse_Btn {
+        margin: 1% 2%;
+}
+
+.LegalMention_ListBar_Title {
+        font-weight: 500 !important;
+        margin-left: 2% !important;
+}
+
+.LegalMention_Collapse_Body {
+        padding: 2% 5%;
+        background-color: #F5F6F8;
+        border-radius: 0 0 10px 10px;
+}
+
+/* body content */
+.LegalMentions_Data_P {
+        opacity: .7;
+        font-family: Inter !important;
+        font-weight: 500 !important;
+}
+
+.LegalMentions_Data_H {
+        font-weight: 700 !important;
+        font-family: Inter !important;
+        opacity: 1;
+}
+
+.LegalMention_FalconConsulting {
+        color: #003B7E;
+        font-family: Inter !important;
+        opacity: 1;
+        font-weight: 550;
+}
+
+@media only screen and (max-width: 900px) {
+        .LegalMention_HeaderDiv {
+                margin-top: 15%;
+        }
+
+        .LegalMention_HeaderDesp_P {
+                font-size: 1.1rem !important;
+        }
+
+        .LegalMention_ListBar_IndexDiv {
+                width: 7%;
+        }
+}
+
+@media only screen and (max-width: 600px) {
+        .LegalMention_HeaderDiv {
+                margin-top: 20%;
+        }
+
+        .LegalMention_HeaderDesp_P {
+                font-size: 1rem !important;
+        }
+
+        .LegalMention_ListBar_IndexDiv {
+                width: 10%;
+        }
+
+        .LegalMention_ListBar_Title {
+                font-size: .8rem !important;
+                margin-left: 4% !important;
+        }
+}
