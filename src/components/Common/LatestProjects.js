@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import SectionHeader from "./SectionHeader";
-import { Carousel } from "@trendyol-js/react-carousel";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import KidCab from "../../assets/images/kidcab.svg";
 import KC_logo from "../../assets/images/kidcabLogo.png";
 import Permispop from "../../assets/images/Permispop.svg";
@@ -17,20 +18,39 @@ import { Typography } from "@mui/material";
 import { motion } from "framer-motion";
 import LatestProjectsCard from "./LatestProjectCard";
 
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 5,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+};
+
 export default function LatestProjects(props) {
-  let [slideShow, setSlideShow] = useState(window.innerWidth <= 600 ? 2 : 4.5);
+  // let [slideShow, setSlideShow] = useState(window.innerWidth <= 600 ? 2 : 4.5);
 
-  useEffect(() => {
-    function handleResize() {
-      if (window.innerWidth <= 600) {
-        setSlideShow(2);
-      } else {
-        setSlideShow(4.5);
-      }
-    }
+  // useEffect(() => {
+  //   function handleResize() {
+  //     if (window.innerWidth <= 600) {
+  //       setSlideShow(2);
+  //     } else {
+  //       setSlideShow(4.5);
+  //     }
+  //   }
 
-    window.addEventListener("resize", handleResize);
-  }, []);
+  //   window.addEventListener("resize", handleResize);
+  // }, []);
+
   return (
     <>
       <div className="LatestProjectDiv">
@@ -50,10 +70,12 @@ export default function LatestProjects(props) {
         >
           <Carousel
             className="SliderDiv"
-            responsive
-            show={slideShow}
-            slide={2}
-            swiping={true}
+            autoPlay={true}
+            responsive={responsive}
+            transitionDuration={2000}
+            slidesToSlide={1}
+            renderArrowNext={true}
+            infinite={true}
           >
             <LatestProjectsCard
               HoverDetailLite
