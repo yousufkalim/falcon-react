@@ -3,7 +3,7 @@ import SectionHeader from "./SectionHeader";
 import { Carousel } from "@trendyol-js/react-carousel";
 import KidCab from "../../assets/images/kidcab.svg";
 import KC_logo from "../../assets/images/kidcabLogo.png";
-import Permispop from "../../assets/images/permispop.svg";
+import Permispop from "../../assets/images/Permispop.svg";
 import PP_logo from "../../assets/images/permisLogo.png";
 import QB from "../../assets/images/quadrabase.svg";
 import QB_logo from "../../assets/images/qudra_logo.svg";
