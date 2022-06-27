@@ -1,59 +1,72 @@
-.ProjectListTabsBox{
+.ProjectListTabsBox {
     display: flex;
     width: 50%;
     justify-content: center;
 }
 
-.ProjectListMain{
+.ProjectListMain {
     /* margin: 2%; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.ProjectListLabel{
-    font-family:  Montserrat !important;
+
+.ProjectListLabel {
+    font-family: Montserrat !important;
     color: black !important;
-    padding:1.5%;
+    padding: 1.5%;
     font-weight: 600 !important;
     opacity: 40%;
 }
-.ProjectListLabel:hover{
+
+.ProjectListLabel:hover {
     color: white !important;
     background-color: #003B7E !important;
     opacity: 100% !important;
     border-radius: 10px !important;
 }
-.pjlabs{
+
+.pjlabs {
     color: white !important;
     background-color: #003B7E !important;
     opacity: 100% !important;
     border-radius: 10px !important;
 }
-    
-.css-1aquho2-MuiTabs-indicator{
-    height:0 !important;
+
+.css-1aquho2-MuiTabs-indicator {
+    height: 0 !important;
 }
-.css-ttwr4n{
+
+.css-ttwr4n {
     height: 0 !important;
     width: 0 !important;
 }
-.css-19kzrtu{
+
+.css-19kzrtu {
     padding: 2%;
 }
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    margin: 0 0.5% !important;
+}
+
 @media only screen and (max-width: 768px) {
-    .css-jpln7h-MuiTabs-scroller{
+    .css-jpln7h-MuiTabs-scroller {
         overflow-x: scroll !important;
         max-width: 500px !important;
     }
-    .css-pc1mzd{
+
+    .css-pc1mzd {
         overflow-x: scroll !important;
         max-width: 500px !important;
     }
-    .css-1anid1y{
+
+    .css-1anid1y {
         overflow-x: scroll !important;
         max-width: 500px !important;
     }
-    .ProjectListTabsBox{
+
+    .ProjectListTabsBox {
         width: 70%;
     }
 }
