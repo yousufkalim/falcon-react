@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import OurProjectCard from "../Common/OurProjectCard";
-import PermispopImg from "../../assets/images/permisImg.svg";
+import PermispopImg from "../../assets/images/permispop_new.svg";
 import PP_logo from "../../assets/images/permisLogo.png";
 import DesignConf from "../../assets/images/DesignImg.svg";
 import Desine_Logo from "../../assets/images/desineLogo.png";
@@ -339,6 +339,7 @@ export default function BasicTabs() {
 
         <OurProjectCard
           Reverse
+          to="/ourprojects/realestate"
           LogoSrc={RealEstate_Logo}
           // ModalHeading="Real Estate"
           DividerTheme="#837C6B"
@@ -349,14 +350,15 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           LogoSrc={Quadra_Logo}
+          to="/ourprojects/quadrabase"
           DividerTheme="#7A7A7A"
           src={Quadra}
           title="Quadrabase"
           description="Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details."
           // Modal Data
-          para1="Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details."
-          para2="Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. "
-          para3="This project is ambitious and aims to revolutionize the approach to design in the field of construction in France. "
+          // para1="Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details."
+          // para2="Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. "
+          // para3="This project is ambitious and aims to revolutionize the approach to design in the field of construction in France. "
         />
         {MoreProjects && (
           <>
