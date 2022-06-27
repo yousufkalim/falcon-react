@@ -1,0 +1,99 @@
+.DetailTheme_Container {
+    width: 100%;
+    padding: 5%;
+}
+
+.DetailTheme_TitleDiv {
+    display: flex;
+    align-items: center;
+}
+
+.DetailTheme_TitleDivider {
+    width: 7%;
+    height: 2px;
+    margin-right: 1% !important;
+}
+
+.DetailTheme_Title {
+    font-weight: 700 !important;
+    font-size: 1.5rem !important;
+}
+
+.DetailTheme_Desp {
+    font-weight: 500 !important;
+    margin-top: 1.5% !important;
+    font-size: 1.1rem !important;
+}
+
+.DetailTheme_BoxContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.DetailTheme_BoxDiv {
+    display: flex;
+    width: 90%;
+    margin: 5% 0;
+}
+
+.DetailTheme_Box {
+    width: 115px;
+    height: 176px;
+    border-radius: 141px;
+    margin: 0 1%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* border: .5px solid gainsboro; */
+}
+
+@media only screen and (max-width: 1500px) {
+    .DetailTheme_BoxDiv {
+        width: 100%;
+    }
+
+    .DetailTheme_Box {
+        width: 91px;
+        height: 140px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .DetailTheme_BoxDiv {
+        width: 100%;
+    }
+
+    .DetailTheme_Desp {
+        font-size: 1rem !important;
+    }
+
+    .DetailTheme_Box {
+        width: 78px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .DetailTheme_BoxDiv {
+        width: 100%;
+    }
+
+    .DetailTheme_Box {
+        width: 65px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .DetailTheme_BoxDiv {
+        width: 100%;
+    }
+
+    .DetailTheme_Desp {
+        font-size: .8rem !important;
+    }
+
+    .DetailTheme_Box {
+        width: 52px;
+        height: 80px;
+    }
+}
