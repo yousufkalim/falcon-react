@@ -19,8 +19,8 @@
 .LegalMention_HeaderTitle {
         font-weight: 700 !important;
         font-family: inter !important;
-        font-size: 1.5rem;
-        margin-top: 2%;
+        font-size: 1.5rem !important;
+        margin-top: 2% !important;
 }
 
 .LegalMention_HeaderDespDiv {
