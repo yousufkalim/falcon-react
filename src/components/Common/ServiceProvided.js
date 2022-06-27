@@ -3,9 +3,10 @@ import React from "react";
 import ServiceProvidedCard from "../Common/ServiceProvidedCard";
 import SectionHeader from "../Common/SectionHeader";
 import UiDev from "../../assets/images/UiDev.svg";
-import WebDev from "../../assets/images/WebDev.svg";
-import SoftDev from "../../assets/images/SoftDev.svg";
-import OnDemand from "../../assets/images/OnDemand.svg";
+import AppDev from "../../assets/images/appdev_new.svg";
+import WebDev from "../../assets/images/webdev_new.svg";
+import SoftDev from "../../assets/images/softdev_new.svg";
+import OnDemand from "../../assets/images/ondemand_new.svg";
 import { Link } from "react-router-dom";
 
 export default function ServiceProvided() {
@@ -25,7 +26,7 @@ export default function ServiceProvided() {
                 <ServiceProvidedCard
                   to={`/services/app-development`}
                   CardTitle="Mobile Application Development"
-                  // CardImgSrc={UiDev}
+                  CardImgSrc={AppDev}
                 />
               </Grid>
 
