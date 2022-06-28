@@ -14,7 +14,6 @@ export default function NavBar(props) {
   const [Menu, SetMenu] = React.useState(false);
 
   let position = useScrollPosition();
-  console.log(position, "position");
   return (
     <>
       {props.ContactUs ? (
