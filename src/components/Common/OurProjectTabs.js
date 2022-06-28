@@ -13,14 +13,14 @@ import Quadra from "../../assets/images/QuadraImg.svg";
 import Quadra_Logo from "../../assets/images/qudra_logo.svg";
 import BarberShop from "../../assets/images/BarberShopImg.svg";
 import Blsh from "../../assets/images/BlshImg.svg";
-import Kidcap from "../../assets/images/KidcapImg.svg";
+import Kidcap from "../../assets/images/kidcab_new.svg";
 import Kidcab_Logo from "../../assets/images/kidcabLogo.png";
-import Tajweed from "../../assets/images/TajweedImg.svg";
+import Tajweed from "../../assets/images/tajweed_new.svg";
 import Tajweed_logo from "../../assets/images/tajweed_logo.svg";
 import EZbox from "../../assets/images/EZboxImg.svg";
 import EZBox_Logo from "../../assets/images/ezbox_logo.svg";
 import BeautySalon from "../../assets/images/BeautySalonImg.svg";
-import RealEstate from "../../assets/images/RealEstate.svg";
+import RealEstate from "../../assets/images/realestate_new.svg";
 import Orgaplan from "../../assets/images/Orgaplan.svg";
 import Orgaplan_Logo from "../../assets/images/orgaplan_logo.svg";
 import Tilt from "../../assets/images/Tilt.svg";
@@ -31,8 +31,8 @@ import Canon from "../../assets/images/Canon.svg";
 import AccorHotel from "../../assets/images/AccorHotels.svg";
 import Toyota from "../../assets/images/Toyota.svg";
 import ERP from "../../assets/images/ERP_Excellence.svg";
-import PizzaBoli from "../../assets/images/Pizza_Boli.svg";
-import Sindoor from "../../assets/images/Sindoor.svg";
+import PizzaBoli from "../../assets/images/pizzaboli.svg";
+import Sindoor from "../../assets/images/sindoor_new.svg";
 import Yuwway from "../../assets/images/Yuwway.svg";
 import Zypzap from "../../assets/images/Zypzap.svg";
 import Zypzap_Logo from "../../assets/images/zypzap_Logo.svg";
@@ -40,6 +40,8 @@ import Wina from "../../assets/images/wina.svg";
 import Wina_Logo from "../../assets/images/wina_logo.svg";
 import Ficility from "../../assets/images/facility.svg";
 import Fireman from "../../assets/images/Fireman.svg";
+import Orientator from "../../assets/images/orientator.svg";
+import Register_RH from "../../assets/images/register_rh.svg";
 import { Grid } from "@mui/material";
 import { Button } from "@mui/material";
 import Tab from "@mui/material/Tab";
@@ -178,6 +180,12 @@ export default function BasicTabs() {
           para4="Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. "
         />
         <OurProjectCard
+          src={Blsh}
+          title="Blsh Delivery"
+          description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+        />
+        <OurProjectCard
+          Reverse
           LogoSrc={PP_logo}
           DividerTheme="#11A283"
           src={PermispopImg}
@@ -193,12 +201,6 @@ export default function BasicTabs() {
           para7="- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. "
         />
 
-        <OurProjectCard
-          Reverse
-          src={Blsh}
-          title="Blsh Delivery"
-          description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-        />
         <OurProjectCard
           LogoSrc={Quadra_Logo}
           DividerTheme="#7A7A7A"
@@ -226,8 +228,18 @@ export default function BasicTabs() {
               para4="Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. "
               para5="This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. "
             />
-
             <OurProjectCard
+              src={DesignConf}
+              title="Design Confection Ethiques"
+              description="A web app designed to help customers with customized stitching to receive your creation at your home. "
+              // Modal Data
+              para1="A web app designed to help customers with customized stitching to receive your creation at your home. "
+              para2="User login to register and add information regarding customized dress like color combination, stuff design, etc."
+              para3="After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs."
+              para4="Choose your designer with 99% accuracy as design confection brings your ideas to life."
+            />
+            <OurProjectCard
+              Reverse
               LogoSrc={Tilt_Logo}
               DividerTheme="red"
               title="Tilt"
@@ -238,18 +250,6 @@ export default function BasicTabs() {
               para2="The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience. "
               para3="On the restaurant side, it is possible to create and manage a customized menu, see all the incoming orders, and change their status."
               para4="On the delivery side, the application the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications. "
-            />
-
-            <OurProjectCard
-              Reverse
-              src={DesignConf}
-              title="Design Confection Ethiques"
-              description="A web app designed to help customers with customized stitching to receive your creation at your home. "
-              // Modal Data
-              para1="A web app designed to help customers with customized stitching to receive your creation at your home. "
-              para2="User login to register and add information regarding customized dress like color combination, stuff design, etc."
-              para3="After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs."
-              para4="Choose your designer with 99% accuracy as design confection brings your ideas to life."
             />
 
             <OurProjectCard
@@ -270,6 +270,11 @@ export default function BasicTabs() {
             />
             <OurProjectCard
               Reverse
+              title="ERP Excellence"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+              src={ERP}
+            />
+            <OurProjectCard
               LogoSrc={Tele_logo}
               DividerTheme="#0F52BA"
               src={Movement}
@@ -279,12 +284,6 @@ export default function BasicTabs() {
               para1="Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. "
               para2="The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not."
               para3="The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results."
-            />
-
-            <OurProjectCard
-              title="ERP Excellence"
-              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-              src={ERP}
             />
 
             <OurProjectCard
@@ -316,11 +315,6 @@ export default function BasicTabs() {
       <TabPanel value={value} index={2}>
         <OurProjectCard
           Reverse
-          src={Blsh}
-          title="Blsh Delivery"
-          description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-        />
-        <OurProjectCard
           LogoSrc={PP_logo}
           // ModalHeading="Permispop"
           DividerTheme="#11A283"
@@ -336,19 +330,13 @@ export default function BasicTabs() {
           para6="- An internal messaging system;"
           para7="- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. "
         />
-
         <OurProjectCard
-          Reverse
-          to="/ourprojects/realestate"
-          LogoSrc={RealEstate_Logo}
-          // ModalHeading="Real Estate"
-          DividerTheme="#837C6B"
-          RealEstate_Logo
-          src={RealEstate}
-          title="Real Estate"
+          src={Blsh}
+          title="Blsh Delivery"
           description="A revolutionary approach to mobile giving, fundraising, and donation collection."
         />
         <OurProjectCard
+          Reverse
           LogoSrc={Quadra_Logo}
           to="/ourprojects/quadrabase"
           DividerTheme="#7A7A7A"
@@ -360,22 +348,34 @@ export default function BasicTabs() {
           // para2="Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. "
           // para3="This project is ambitious and aims to revolutionize the approach to design in the field of construction in France. "
         />
+
+        <OurProjectCard
+          to="/ourprojects/realestate"
+          LogoSrc={RealEstate_Logo}
+          // ModalHeading="Real Estate"
+          DividerTheme="#837C6B"
+          RealEstate_Logo
+          src={RealEstate}
+          title="Real Estate"
+          description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+        />
+
         {MoreProjects && (
           <>
             <OurProjectCard
               Reverse
-              LogoSrc={Orgaplan_Logo}
-              DividerTheme="#DBB208"
-              src={Orgaplan}
-              title="OrgaPlan"
-              description="Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities."
-              // Modal Data
-              para1="Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities."
-              para2="Available in web and mobile version, with 5 types of users: Super admin / Admin / Company / Traffic agent / Buffer traffic agent. Each user has his own rights and functionalities, allowing an infinity of scenarios, as per the real situations on site. "
-              para3="Possibility to create and draw the Site Installation Plan, as well as the buildings and storage areas. Possibility to create deliveries and monitor the general state of the site."
-              para4="Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. "
+              title="Yuwway"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+              src={Yuwway}
+            />
+
+            <OurProjectCard
+              src={Microsoft}
+              title="Microsoft"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
             />
             <OurProjectCard
+              Reverse
               LogoSrc={Tilt_Logo}
               DividerTheme="red"
               title="Tilt"
@@ -389,18 +389,18 @@ export default function BasicTabs() {
             />
 
             <OurProjectCard
-              Reverse
-              src={Microsoft}
-              title="Microsoft"
-              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-            />
-            <OurProjectCard
               src={Canon}
               title="Canon"
               description="A revolutionary approach to mobile giving, fundraising, and donation collection."
             />
+
             <OurProjectCard
               Reverse
+              src={Fnac}
+              title="Fnac"
+              description="MediaPipe offers cross-platform, customizable ML solutions for live and streaming media"
+            />
+            <OurProjectCard
               src={Kidcap}
               LogoSrc={Kidcab_Logo}
               DividerTheme="#0097A7"
@@ -412,11 +412,6 @@ export default function BasicTabs() {
               para3="The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. "
               para4="Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. "
               para5="This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. "
-            />
-            <OurProjectCard
-              src={Fnac}
-              title="Fnac"
-              description="MediaPipe offers cross-platform, customizable ML solutions for live and streaming media"
             />
             <OurProjectCard
               Reverse
@@ -442,6 +437,53 @@ export default function BasicTabs() {
             />
             <OurProjectCard
               Reverse
+              title="Sindoor"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+              src={Sindoor}
+            />
+            <OurProjectCard
+              LogoSrc={Tele_logo}
+              DividerTheme="#0F52BA"
+              src={Movement}
+              title="Movement detection for health providers"
+              description="Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. "
+              // Modal Data
+              para1="Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. "
+              para2="The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not."
+              para3="The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results."
+            />
+            <OurProjectCard
+              Reverse
+              title="Barber Shop"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+              src={BarberShop}
+            />
+
+            <OurProjectCard
+              title="Accor Hotels"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+              src={AccorHotel}
+            />
+            <OurProjectCard
+              Reverse
+              title="ERP Excellence"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+              src={ERP}
+            />
+
+            <OurProjectCard
+              src={PizzaBoli}
+              title="Table"
+              description="MediaPipe offers cross-platform, customizable ML solutions for live and streaming media"
+            />
+            <OurProjectCard
+              Reverse
+              src={Toyota}
+              title="Toyota"
+              description="MediaPipe offers cross-platform, customizable ML solutions for live and streaming media"
+            />
+
+            <OurProjectCard
               LogoSrc={Desine_Logo}
               // ModalHeading="Design Confection Ethiques"
               DividerTheme="#CC8E9C"
@@ -453,54 +495,6 @@ export default function BasicTabs() {
               para2="User login to register and add information regarding customized dress like color combination, stuff design, etc."
               para3="After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs."
               para4="Choose your designer with 99% accuracy as design confection brings your ideas to life."
-            />
-
-            <OurProjectCard
-              title="Barber Shop"
-              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-              src={BarberShop}
-            />
-            <OurProjectCard
-              Reverse
-              LogoSrc={Tele_logo}
-              DividerTheme="#0F52BA"
-              src={Movement}
-              title="Movement detection for health providers"
-              description="Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. "
-              // Modal Data
-              para1="Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. "
-              para2="The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not."
-              para3="The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results."
-            />
-
-            <OurProjectCard
-              title="Accor Hotels"
-              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-              src={AccorHotel}
-            />
-
-            <OurProjectCard
-              Reverse
-              src={Toyota}
-              title="Toyota"
-              description="MediaPipe offers cross-platform, customizable ML solutions for live and streaming media"
-            />
-            <OurProjectCard
-              title="ERP Excellence"
-              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-              src={ERP}
-            />
-
-            <OurProjectCard
-              Reverse
-              src={PizzaBoli}
-              title="Table"
-              description="MediaPipe offers cross-platform, customizable ML solutions for live and streaming media"
-            />
-            <OurProjectCard
-              title="Sindoor"
-              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-              src={Sindoor}
             />
             <OurProjectCard
               Reverse
@@ -517,9 +511,16 @@ export default function BasicTabs() {
               para5="•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy."
             />
             <OurProjectCard
-              title="Yuwway"
-              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-              src={Yuwway}
+              LogoSrc={Orgaplan_Logo}
+              DividerTheme="#DBB208"
+              src={Orgaplan}
+              title="OrgaPlan"
+              description="Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities."
+              // Modal Data
+              para1="Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities."
+              para2="Available in web and mobile version, with 5 types of users: Super admin / Admin / Company / Traffic agent / Buffer traffic agent. Each user has his own rights and functionalities, allowing an infinity of scenarios, as per the real situations on site. "
+              para3="Possibility to create and draw the Site Installation Plan, as well as the buildings and storage areas. Possibility to create deliveries and monitor the general state of the site."
+              para4="Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. "
             />
             <OurProjectCard
               Reverse
@@ -556,10 +557,25 @@ export default function BasicTabs() {
               description="A revolutionary approach to mobile giving, fundraising, and donation collection."
               // Modal Data
             />
+
             <OurProjectCard
+              src={Orientator}
+              title="Orientator"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+              // Modal Data
+            />
+            <OurProjectCard
+              Reverse
               DividerTheme="blue"
               src={Fireman}
               title="Fireman"
+              description="MediaPipe offers cross-platform, customizable ML solutions for live and streaming media"
+              // Modal Data
+            />
+            <OurProjectCard
+              DividerTheme="blue"
+              src={Register_RH}
+              title="Register-RH"
               description="MediaPipe offers cross-platform, customizable ML solutions for live and streaming media"
               // Modal Data
             />
@@ -578,9 +594,18 @@ export default function BasicTabs() {
       <TabPanel value={value} index={3}>
         <OurProjectCard
           Reverse
-          src={RealEstate}
-          title="Real Estate"
-          description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+          LogoSrc={PP_logo}
+          src={PermispopImg}
+          title="Permispop"
+          description="Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. "
+          // Modal Data
+          para1="Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. "
+          para2="The platform offers several features such as : "
+          para3="- the possibility to search for an instructor with an interactive map, and book a session depending on his availability."
+          para4="- The booking feature allows the driving schools and instructors to have an overview of all the activities and manage them efficiently;"
+          para5="- At the end of each session, the student can rate the instructor and provide feedback to the platform; "
+          para6="- An internal messaging system;"
+          para7="- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. "
         />
         <OurProjectCard
           LogoSrc={Orgaplan_Logo}
@@ -594,30 +619,21 @@ export default function BasicTabs() {
           para3="Possibility to create and draw the Site Installation Plan, as well as the buildings and storage areas. Possibility to create deliveries and monitor the general state of the site."
           para4="Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. "
         />
-
         <OurProjectCard
           Reverse
-          src={Blsh}
-          title="Blsh Delivery"
+          title="Barber Shop"
           description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+          src={BarberShop}
         />
 
         {MoreProjects && (
           <>
             <OurProjectCard
-              LogoSrc={PP_logo}
-              src={PermispopImg}
-              title="Permispop"
-              description="Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. "
-              // Modal Data
-              para1="Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. "
-              para2="The platform offers several features such as : "
-              para3="- the possibility to search for an instructor with an interactive map, and book a session depending on his availability."
-              para4="- The booking feature allows the driving schools and instructors to have an overview of all the activities and manage them efficiently;"
-              para5="- At the end of each session, the student can rate the instructor and provide feedback to the platform; "
-              para6="- An internal messaging system;"
-              para7="- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. "
+              src={Blsh}
+              title="Blsh Delivery"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
             />
+
             <OurProjectCard
               Reverse
               LogoSrc={Tilt_Logo}
@@ -647,18 +663,20 @@ export default function BasicTabs() {
             />
             <OurProjectCard
               Reverse
-              title="Barber Shop"
-              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-              src={BarberShop}
+              LogoSrc={Tajweed_logo}
+              DividerTheme="#007536"
+              src={Tajweed}
+              title="Tajweed"
+              description="Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij."
+              // Modal Data
+              para1="Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij."
+              para2="•	User can signup and start learning Quran with Tajweed."
+              para3="•	Practice lessons are available."
+              para4="•	User can repeat the lesson at any time without an internet connection"
+              para5="•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy."
             />
 
             <OurProjectCard
-              src={BeautySalon}
-              title="Beauty Salon"
-              description="MediaPipe offers cross-platform, customizable ML solutions for live and streaming media"
-            />
-            <OurProjectCard
-              Reverse
               LogoSrc={Tele_logo}
               DividerTheme="#0F52BA"
               src={Movement}
@@ -668,6 +686,12 @@ export default function BasicTabs() {
               para1="Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. "
               para2="The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not."
               para3="The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results."
+            />
+            <OurProjectCard
+              Reverse
+              src={BeautySalon}
+              title="Beauty Salon"
+              description="MediaPipe offers cross-platform, customizable ML solutions for live and streaming media"
             />
 
             <OurProjectCard
@@ -683,17 +707,9 @@ export default function BasicTabs() {
             />
 
             <OurProjectCard
-              LogoSrc={Tajweed_logo}
-              DividerTheme="#007536"
-              src={Tajweed}
-              title="Tajweed"
-              description="Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij."
-              // Modal Data
-              para1="Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij."
-              para2="•	User can signup and start learning Quran with Tajweed."
-              para3="•	Practice lessons are available."
-              para4="•	User can repeat the lesson at any time without an internet connection"
-              para5="•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy."
+              src={RealEstate}
+              title="Real Estate"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
             />
           </>
         )}
@@ -710,11 +726,6 @@ export default function BasicTabs() {
       <TabPanel value={value} index={4}>
         <OurProjectCard
           Reverse
-          src={Blsh}
-          title="Blsh Delivery"
-          description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-        />
-        <OurProjectCard
           LogoSrc={PP_logo}
           src={PermispopImg}
           title="Permispop"
@@ -727,6 +738,11 @@ export default function BasicTabs() {
           para5="- At the end of each session, the student can rate the instructor and provide feedback to the platform; "
           para6="- An internal messaging system;"
           para7="- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. "
+        />
+        <OurProjectCard
+          src={Blsh}
+          title="Blsh Delivery"
+          description="A revolutionary approach to mobile giving, fundraising, and donation collection."
         />
         <OurProjectCard
           Reverse
@@ -750,19 +766,6 @@ export default function BasicTabs() {
           <>
             <OurProjectCard
               Reverse
-              LogoSrc={Kidcab_Logo}
-              DividerTheme="#0097A7"
-              src={Kidcap}
-              title="Kidcab"
-              description="Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. "
-              // Modal Data
-              para1="Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. "
-              para2="The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. "
-              para3="The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. "
-              para4="Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. "
-              para5="This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. "
-            />
-            <OurProjectCard
               LogoSrc={EZBox_Logo}
               DividerTheme="blue"
               title="EZbox"
@@ -778,9 +781,26 @@ export default function BasicTabs() {
               para7="Chromium Browser: "
               para8="•	EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions. "
             />
-
+            <OurProjectCard
+              LogoSrc={Kidcab_Logo}
+              DividerTheme="#0097A7"
+              src={Kidcap}
+              title="Kidcab"
+              description="Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. "
+              // Modal Data
+              para1="Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. "
+              para2="The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. "
+              para3="The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. "
+              para4="Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. "
+              para5="This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. "
+            />
             <OurProjectCard
               Reverse
+              title="Barber Shop"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+              src={BarberShop}
+            />
+            <OurProjectCard
               LogoSrc={Tele_logo}
               DividerTheme="#0F52BA"
               src={Movement}
@@ -791,15 +811,13 @@ export default function BasicTabs() {
               para2="The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not."
               para3="The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results."
             />
-
-            <OurProjectCard
-              title="Barber Shop"
-              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-              src={BarberShop}
-            />
-
             <OurProjectCard
               Reverse
+              src={RealEstate}
+              title="Real Estate"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+            />
+            <OurProjectCard
               src={DesignConf}
               title="Design Confection Ethiques"
               description="A web app designed to help customers with customized stitching to receive your creation at your home. "
@@ -810,11 +828,6 @@ export default function BasicTabs() {
               para4="Choose your designer with 99% accuracy as design confection brings your ideas to life."
             />
 
-            <OurProjectCard
-              src={RealEstate}
-              title="Real Estate"
-              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-            />
             <OurProjectCard
               Reverse
               LogoSrc={Tajweed_logo}
