@@ -3,9 +3,9 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Logo from "../../assets/images/logo.svg";
-import LogoWhite from "../../assets/images/logo_white.svg";
+import { ReactComponent as LogoWhite } from "../../assets/images/logo_white.svg";
 import NavMenu from "../../assets/images/NavMenu.png";
-import WhiteMenuIcon from "../../assets/images/WhiteMenuIcon.svg";
+import { ReactComponent as WhiteMenuIcon } from "../../assets/images/WhiteMenuIcon.svg";
 import NavBarMenu from "./NavBarMenu";
 import { Link } from "react-router-dom";
 import { useScrollPosition } from "../../utils/ScrollPosition";
@@ -34,19 +34,30 @@ export default function NavBar(props) {
             ) : (
               <Toolbar className="NavToolbar ">
                 <Link to={`/`}>
-                  <img
+                  <LogoWhite
+                    // className="Falcon_logo"
+                    style={{
+                      width: "50%",
+                      transition: ".5s",
+                      color: position <= 970 ? "white" : "#003B7E",
+                      height: 30,
+                    }}
+                  />
+                  {/* <img
                     className="Falcon_logo"
                     alt="logo"
                     src={LogoWhite}
                     style={{ width: "10%", margin: "1% 0", cursor: "pointer" }}
-                  />
+                  /> */}
                 </Link>
-                <img
+                <WhiteMenuIcon
                   className="MenuIconMob"
-                  alt="menu"
-                  src={WhiteMenuIcon}
-                  style={{ width: "2.5%", cursor: "pointer" }}
                   onClick={(e) => SetMenu(!Menu)}
+                  style={{
+                    color: position <= 970 ? "white" : "#003B7E",
+                    transition: ".5s",
+                    cursor: "pointer",
+                  }}
                 />
               </Toolbar>
             )}
