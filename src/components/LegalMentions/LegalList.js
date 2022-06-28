@@ -1,5 +1,4 @@
 import React from "react";
-import LegalDropDown from "./LegalDropDown";
 import { data } from "../../utils/Data";
 import Collapse from "@mui/material/Collapse";
 import ExpandLess from "@mui/icons-material/ExpandLess";
