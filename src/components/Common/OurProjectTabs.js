@@ -2,46 +2,46 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import OurProjectCard from "../Common/OurProjectCard";
-import PermispopImg from "../../assets/images/permispop_new.svg";
+import PermispopImg from "../../assets/images/permispop_update.png";
 import PP_logo from "../../assets/images/permisLogo.png";
-import DesignConf from "../../assets/images/DesignImg.svg";
+import DesignConf from "../../assets/images/designconf_update.png";
 import Desine_Logo from "../../assets/images/desineLogo.png";
 import RealEstate_Logo from "../../assets/images/realestateLogo.png";
-import Movement from "../../assets/images/movement.svg";
+import Movement from "../../assets/images/tele_update.png";
 import Tele_logo from "../../assets/images/tele_logo.svg";
-import Quadra from "../../assets/images/QuadraImg.svg";
+import Quadra from "../../assets/images/quadra_update.png";
 import Quadra_Logo from "../../assets/images/qudra_logo.svg";
-import BarberShop from "../../assets/images/BarberShopImg.svg";
-import Blsh from "../../assets/images/BlshImg.svg";
-import Kidcap from "../../assets/images/kidcab_new.svg";
+import BarberShop from "../../assets/images/barber_update.png";
+import Blsh from "../../assets/images/blish_update.png";
+import Kidcap from "../../assets/images/kidcab_update.png";
 import Kidcab_Logo from "../../assets/images/kidcabLogo.png";
-import Tajweed from "../../assets/images/tajweed_new.svg";
+import Tajweed from "../../assets/images/tajweed_update.png";
 import Tajweed_logo from "../../assets/images/tajweed_logo.svg";
-import EZbox from "../../assets/images/EZboxImg.svg";
+import EZbox from "../../assets/images/ezbox_update.png";
 import EZBox_Logo from "../../assets/images/ezbox_logo.svg";
-import BeautySalon from "../../assets/images/BeautySalonImg.svg";
-import RealEstate from "../../assets/images/realestate_new.svg";
-import Orgaplan from "../../assets/images/Orgaplan.svg";
+import BeautySalon from "../../assets/images/salon_update.png";
+import RealEstate from "../../assets/images/realestate_update.png";
+import Orgaplan from "../../assets/images/orgaplan_update.png";
 import Orgaplan_Logo from "../../assets/images/orgaplan_logo.svg";
-import Tilt from "../../assets/images/Tilt.svg";
+import Tilt from "../../assets/images/tilt_update.png";
 import Tilt_Logo from "../../assets/images/tilt_logo.svg";
-import Microsoft from "../../assets/images/Microsoft.svg";
-import Fnac from "../../assets/images/Fnac.svg";
-import Canon from "../../assets/images/Canon.svg";
-import AccorHotel from "../../assets/images/AccorHotels.svg";
-import Toyota from "../../assets/images/Toyota.svg";
-import ERP from "../../assets/images/ERP_Excellence.svg";
-import PizzaBoli from "../../assets/images/pizzaboli.svg";
-import Sindoor from "../../assets/images/sindoor_new.svg";
-import Yuwway from "../../assets/images/Yuwway.svg";
-import Zypzap from "../../assets/images/Zypzap.svg";
+import Microsoft from "../../assets/images/microsoft_update.png";
+import Fnac from "../../assets/images/fnac_update.png";
+import Canon from "../../assets/images/canon_update.png";
+import AccorHotel from "../../assets/images/accor_update.png";
+import Toyota from "../../assets/images/toyota_update.png";
+import ERP from "../../assets/images/excellence_update.png";
+import PizzaBoli from "../../assets/images/table_update.png";
+import Sindoor from "../../assets/images/sindoor_update.png";
+import Yuwway from "../../assets/images/yuwway_update.png";
+import Zypzap from "../../assets/images/zypzap_update.png";
 import Zypzap_Logo from "../../assets/images/zypzap_Logo.svg";
-import Wina from "../../assets/images/wina.svg";
+import Wina from "../../assets/images/wina_update.png";
 import Wina_Logo from "../../assets/images/wina_logo.svg";
-import Ficility from "../../assets/images/facility.svg";
-import Fireman from "../../assets/images/Fireman.svg";
-import Orientator from "../../assets/images/orientator.svg";
-import Register_RH from "../../assets/images/register_rh.svg";
+import Ficility from "../../assets/images/facility_update.png";
+import Fireman from "../../assets/images/fireman_update.png";
+import Orientator from "../../assets/images/orientator_update.png";
+import Register_RH from "../../assets/images/register_update.png";
 import { Grid } from "@mui/material";
 import { Button } from "@mui/material";
 import Tab from "@mui/material/Tab";
@@ -186,6 +186,17 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           Reverse
+          LogoSrc={Quadra_Logo}
+          DividerTheme="#7A7A7A"
+          src={Quadra}
+          title="Quadrabase"
+          description="Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details."
+          // Modal Data
+          para1="Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details."
+          para2="Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. "
+          para3="This project is ambitious and aims to revolutionize the approach to design in the field of construction in France. "
+        />
+        <OurProjectCard
           LogoSrc={PP_logo}
           DividerTheme="#11A283"
           src={PermispopImg}
@@ -201,21 +212,20 @@ export default function BasicTabs() {
           para7="- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. "
         />
 
-        <OurProjectCard
-          LogoSrc={Quadra_Logo}
-          DividerTheme="#7A7A7A"
-          src={Quadra}
-          title="Quadrabase"
-          description="Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details."
-          // Modal Data
-          para1="Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details."
-          para2="Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. "
-          para3="This project is ambitious and aims to revolutionize the approach to design in the field of construction in France. "
-        />
         {MoreProjects && (
           <>
             <OurProjectCard
               Reverse
+              src={DesignConf}
+              title="Design Confection Ethiques"
+              description="A web app designed to help customers with customized stitching to receive your creation at your home. "
+              // Modal Data
+              para1="A web app designed to help customers with customized stitching to receive your creation at your home. "
+              para2="User login to register and add information regarding customized dress like color combination, stuff design, etc."
+              para3="After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs."
+              para4="Choose your designer with 99% accuracy as design confection brings your ideas to life."
+            />
+            <OurProjectCard
               LogoSrc={Kidcab_Logo}
               DividerTheme="#0097A7"
               src={Kidcap}
@@ -228,16 +238,7 @@ export default function BasicTabs() {
               para4="Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. "
               para5="This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. "
             />
-            <OurProjectCard
-              src={DesignConf}
-              title="Design Confection Ethiques"
-              description="A web app designed to help customers with customized stitching to receive your creation at your home. "
-              // Modal Data
-              para1="A web app designed to help customers with customized stitching to receive your creation at your home. "
-              para2="User login to register and add information regarding customized dress like color combination, stuff design, etc."
-              para3="After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs."
-              para4="Choose your designer with 99% accuracy as design confection brings your ideas to life."
-            />
+
             <OurProjectCard
               Reverse
               LogoSrc={Tilt_Logo}
@@ -315,6 +316,11 @@ export default function BasicTabs() {
       <TabPanel value={value} index={2}>
         <OurProjectCard
           Reverse
+          src={Blsh}
+          title="Blsh Delivery"
+          description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+        />
+        <OurProjectCard
           LogoSrc={PP_logo}
           // ModalHeading="Permispop"
           DividerTheme="#11A283"
@@ -330,11 +336,7 @@ export default function BasicTabs() {
           para6="- An internal messaging system;"
           para7="- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. "
         />
-        <OurProjectCard
-          src={Blsh}
-          title="Blsh Delivery"
-          description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-        />
+
         <OurProjectCard
           Reverse
           LogoSrc={Quadra_Logo}
@@ -559,17 +561,17 @@ export default function BasicTabs() {
             />
 
             <OurProjectCard
-              src={Orientator}
-              title="Orientator"
-              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-              // Modal Data
-            />
-            <OurProjectCard
-              Reverse
               DividerTheme="blue"
               src={Fireman}
               title="Fireman"
               description="MediaPipe offers cross-platform, customizable ML solutions for live and streaming media"
+              // Modal Data
+            />
+            <OurProjectCard
+              Reverse
+              src={Orientator}
+              title="Orientator"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
               // Modal Data
             />
             <OurProjectCard
@@ -594,6 +596,18 @@ export default function BasicTabs() {
       <TabPanel value={value} index={3}>
         <OurProjectCard
           Reverse
+          LogoSrc={Orgaplan_Logo}
+          DividerTheme="#DBB208"
+          src={Orgaplan}
+          title="OrgaPlan"
+          description="Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities."
+          // Modal Data
+          para1="Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities."
+          para2="Available in web and mobile version, with 5 types of users: Super admin / Admin / Company / Traffic agent / Buffer traffic agent. Each user has his own rights and functionalities, allowing an infinity of scenarios, as per the real situations on site. "
+          para3="Possibility to create and draw the Site Installation Plan, as well as the buildings and storage areas. Possibility to create deliveries and monitor the general state of the site."
+          para4="Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. "
+        />
+        <OurProjectCard
           LogoSrc={PP_logo}
           src={PermispopImg}
           title="Permispop"
@@ -607,18 +621,7 @@ export default function BasicTabs() {
           para6="- An internal messaging system;"
           para7="- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. "
         />
-        <OurProjectCard
-          LogoSrc={Orgaplan_Logo}
-          DividerTheme="#DBB208"
-          src={Orgaplan}
-          title="OrgaPlan"
-          description="Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities."
-          // Modal Data
-          para1="Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities."
-          para2="Available in web and mobile version, with 5 types of users: Super admin / Admin / Company / Traffic agent / Buffer traffic agent. Each user has his own rights and functionalities, allowing an infinity of scenarios, as per the real situations on site. "
-          para3="Possibility to create and draw the Site Installation Plan, as well as the buildings and storage areas. Possibility to create deliveries and monitor the general state of the site."
-          para4="Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. "
-        />
+
         <OurProjectCard
           Reverse
           title="Barber Shop"
@@ -726,6 +729,11 @@ export default function BasicTabs() {
       <TabPanel value={value} index={4}>
         <OurProjectCard
           Reverse
+          src={Blsh}
+          title="Blsh Delivery"
+          description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+        />
+        <OurProjectCard
           LogoSrc={PP_logo}
           src={PermispopImg}
           title="Permispop"
@@ -739,11 +747,7 @@ export default function BasicTabs() {
           para6="- An internal messaging system;"
           para7="- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. "
         />
-        <OurProjectCard
-          src={Blsh}
-          title="Blsh Delivery"
-          description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-        />
+
         <OurProjectCard
           Reverse
           src={BeautySalon}
@@ -801,6 +805,12 @@ export default function BasicTabs() {
               src={BarberShop}
             />
             <OurProjectCard
+              src={RealEstate}
+              title="Real Estate"
+              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
+            />
+            <OurProjectCard
+              Reverse
               LogoSrc={Tele_logo}
               DividerTheme="#0F52BA"
               src={Movement}
@@ -811,12 +821,7 @@ export default function BasicTabs() {
               para2="The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not."
               para3="The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results."
             />
-            <OurProjectCard
-              Reverse
-              src={RealEstate}
-              title="Real Estate"
-              description="A revolutionary approach to mobile giving, fundraising, and donation collection."
-            />
+
             <OurProjectCard
               src={DesignConf}
               title="Design Confection Ethiques"
