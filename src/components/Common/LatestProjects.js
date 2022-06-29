@@ -76,6 +76,7 @@ export default function LatestProjects(props) {
             slidesToSlide={1}
             renderArrowNext={true}
             infinite={true}
+            arrows={false}
           >
             <LatestProjectsCard
               HoverDetailLite
@@ -117,7 +118,7 @@ export default function LatestProjects(props) {
             stitching services with customizable designs for salwar suits, blouses, kurtas, bottoms, western wear as per
             customers measurement at the doorstep. Coming Soon for other cities also."
               src={Real_Estate}
-              to="/ourprojects/excellence"
+              to="/ourprojects/realestate"
               DividerTheme="#837C6B"
               btnBackground="#837C6B"
               Heading="Real Estate"
@@ -135,7 +136,12 @@ export default function LatestProjects(props) {
           </Carousel>
         </motion.div>
         {props.ProjectsSummary && (
-          <div className="ProjectsCompletedDiv">
+          <motion.div
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            className="ProjectsCompletedDiv"
+          >
             <div className="Left">
               <Typography className="ProjectsCompleted_Num">8</Typography>
               <Typography className="ProjectsCompleted_H">
@@ -154,7 +160,7 @@ export default function LatestProjects(props) {
                 Customer Satisfaction
               </Typography>
             </div>
-          </div>
+          </motion.div>
         )}
       </div>
     </>
