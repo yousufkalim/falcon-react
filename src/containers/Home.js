@@ -88,7 +88,7 @@ export default function Home() {
           <LatestProjects ProjectsSummary />
           <AboutSection />
           <ClientSection />
-          <ReviewSection />
+          {/* <ReviewSection /> */}
           <BlogSection />
           <ContactUsSection />
           <LocationSection />
