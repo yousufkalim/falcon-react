@@ -50,10 +50,7 @@
     background-image: linear-gradient(to left, rgba(255,255,255, 1) ,rgba(255,255,255, 0.8) , rgba(255,255,255, 0));
 }
 
-.SliderDiv{
-    width: 100% !important;
-    /* opacity: 50%; */
-}
+
 
 .SliderDiv2{
     width: 100% !important;
@@ -92,6 +89,9 @@
 .Selection::selection { 
     background: transparent; 
 } 
+.ReviewSection_Carousel{
+    overflow-x: scroll;
+}
 /* ::-moz-selection { background: transparent; } */
 
 @media only screen and (max-width: 1200px) {
