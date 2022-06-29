@@ -15,6 +15,13 @@ function App() {
   let { pathname } = useLocation();
 
   useEffect(() => {
+    let temp = localStorage.getItem("open");
+    if (!temp) {
+      localStorage.setItem("open", true);
+    }
+  }, []);
+
+  useEffect(() => {
     // Scroll to top logic
     window.scrollTo({
       top: 0,
