@@ -3,6 +3,8 @@ import SectionHeader from "./SectionHeader";
 import BlogCard from "./BlogCard";
 import { Grid } from "@mui/material";
 import Blog2 from "../../assets/images/Blog2.svg";
+import Blog1 from "../../assets/images/blog1.png";
+
 import { motion } from "framer-motion";
 
 export default function BlogSection() {
@@ -24,7 +26,7 @@ export default function BlogSection() {
                 viewport={{ once: true }}
               >
                 <BlogCard
-                  src={Blog2}
+                  src={Blog1}
                   date="November 25, 2022"
                   title="A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021"
                 />

@@ -1,0 +1,72 @@
+.DetailDesign_Container{
+    width: 100%; 
+    padding: 5%;
+}
+.DetailDesign_TitleDiv{
+   display: flex; 
+   align-items: center;
+}
+.DetailDesign_TitleDivider{
+   width: 7%; 
+   height: 2px; 
+   margin-right: 1% !important;
+}
+.DetailDesign_Title{
+   font-weight: 700 !important; 
+   font-size: 1.5rem !important;
+}
+.DetailDesign_Desp{
+   font-weight: 500 !important; 
+   margin-top: 1.5% !important; 
+   font-size: 1.1rem !important;
+}
+.DetailDesign_ImageContainer{
+        width: 100%;
+        padding: 5% 0;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+}
+.DetailDesign_ImgDiv_Middle{
+        margin: -14% 0 -8% 0;
+        z-index: 10;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+}
+/* .DetailDesign_ImgDiv_Bottom{
+   z-index: 9;
+
+} */
+.DetailDesign_Image_SubDiv{
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+}
+.DetailDesign_ImageContainer_Overlap{
+   display: flex;
+   flex-direction: column;
+  margin: 5% 0;
+}
+.DetailDesign_ImageContainer_Grids{
+  margin: 5% 0;
+}
+.DetailDesign_Image{
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+   .DetailDesign_Image_SubDiv{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+}
+}

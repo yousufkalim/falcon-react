@@ -2,7 +2,7 @@
 .HeaderMain{
   display: flex !important;
   justify-content: space-between !important;
-  padding: 5% 3%;
+  padding: 7.5% 3% 5% 3%;
   align-items: center !important;
   width: 100% !important;
   height: 100%;
@@ -77,6 +77,71 @@
   width: 8%;
   margin-bottom: 1%;
 }
+/* Cookie banner */
+.CookieBanner_DullScreen{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    opacity: 0.6;
+    /* background: #0000001A; */
+}
+.CookieBanner_Container{
+    width: 100%;
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+    padding: 3% 5%;
+    z-index: 10000;
+
+}
+.CookieBanner_Div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CookieBanner_TypoDiv{
+  width:40%;
+}
+.CookieBanner_desp{
+    color: #000000;
+    font-weight: 500 !important;
+    font-family: Inter !important;
+    font-size: 1.4rem !important;
+    line-height: 1 !important;
+}
+.CookieBanner_Link{
+    color: #003B7E;
+    font-weight: 400 !important;
+    font-family: Inter !important;
+    text-decoration-line: underline;
+    font-size: 1.5rem !important;
+}
+.CookieBanner_BtnDiv{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 3%;
+}
+.CookieBanner_AgreeBtn{
+    margin-right: 2% !important;
+    width: 50%;
+    padding: 5.5% !important;
+    background: #003B7E !important;
+    font-weight: 700 !important;
+    text-transform: capitalize !important;
+    border-radius: 10px !important;
+}
+.CookieBanner_DeclineBtn{
+    padding: 5% !important;
+    width: 50%;
+    font-weight: 700 !important;
+    text-transform: capitalize !important;
+    border: 3px solid #003B7E !important;
+    color: #003B7E !important;
+    border-radius: 10px !important;
+}
 
 /* MEDIA QUERIES*/
 
@@ -91,6 +156,9 @@
   }
   .HeaderPara{
     font-size: 1rem !important;
+  }
+  .CookieBanner_TypoDiv{
+    width:50%;
   }
 }
 /* @media only screen and (max-width: 992px) {
@@ -130,10 +198,19 @@
   width: 65%;
 }
 .BtnLink{
-  width: 100% !important;
+  width: 101% !important;
 }
 .HeaderBtn{
   padding: 3% 4% !important;
+}
+.CookieBanner_TypoDiv{
+  width:65%;
+}
+.CookieBanner_desp{
+  font-size: 1.2rem !important;
+}
+.CookieBanner_Link{
+  font-size: 1.3rem !important;
 }
 
 }

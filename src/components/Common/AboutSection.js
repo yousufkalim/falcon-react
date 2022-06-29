@@ -2,7 +2,7 @@ import { Grid, Typography } from "@mui/material";
 import React from "react";
 import SectionHeader from "./SectionHeader";
 import InfoBox from "./InfoBox";
-import AboutImg from "../../assets/images/about_section.png";
+import AboutImg from "../../assets/images/about_section.svg";
 import AboutInfo2 from "../../assets/images/aboutSec_2.svg";
 import AboutInfo3 from "../../assets/images/aboutSec_3.svg";
 import AboutInfo4 from "../../assets/images/aboutSec_4.svg";
@@ -26,8 +26,8 @@ export default function AboutSection() {
           <Grid container spacing={1}>
             <Grid xs={12}>
               <motion.div
-                initial={{ x: -300 }}
-                whileInView={{ x: 0 }}
+                initial={{ y: 100, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
                 viewport={{ once: true }}
                 className="AboutTopGrid"
@@ -59,8 +59,8 @@ export default function AboutSection() {
               </Grid>
               <Grid sm={6}>
                 <motion.div
-                  initial={{ x: 300 }}
-                  whileInView={{ x: 0 }}
+                  initial={{ y: 100, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
                   transition={{ duration: 1 }}
                   viewport={{ once: true }}
                   className="AboutbottomGrid"
@@ -82,7 +82,12 @@ export default function AboutSection() {
                   />
                 </motion.div>
                 <div className="AboutTypo">
-                  <div>
+                  <motion.div
+                    initial={{ y: 100, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true }}
+                  >
                     <Typography
                       sx={{
                         fontSize: "1.4rem",
@@ -110,7 +115,7 @@ export default function AboutSection() {
                     <a href={`/about`}>
                       <button className="AboutSectionBtn">READ MORE ‘ </button>
                     </a>
-                  </div>
+                  </motion.div>
                 </div>
               </Grid>
             </Grid>

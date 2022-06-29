@@ -17,11 +17,20 @@ export default function ServiceProvidedCard(props) {
           viewport={{ once: true }}
         >
           <div className="ServiceProvided_VerticleCardTypo">
-            <div className="ServiceProvided_SubCardTypo">
-              <Typography className="ServiceProvided_CardTitle">
-                {props.CardTitle}
-              </Typography>
-              <Link to={props.to}>
+            <Link
+              style={{
+                height: "100%",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                padding: "3% 0% 3% 5%",
+              }}
+              to={props.to}
+            >
+              <div className="ServiceProvided_SubCardTypo">
+                <Typography className="ServiceProvided_CardTitle">
+                  {props.CardTitle}
+                </Typography>
                 <div
                   style={{
                     display: "flex",
@@ -39,14 +48,16 @@ export default function ServiceProvidedCard(props) {
                     src={ArrowForward}
                   />
                 </div>
-              </Link>
-            </div>
+              </div>
+            </Link>
           </div>
           <div className="ServiceProvided_VerticleCardImgDiv">
-            <img
-              className="ServiceProvided_VerticleCardImg"
-              src={props.CardImgSrc || MobileApp}
-            />
+            <Link to={props.to}>
+              <img
+                className="ServiceProvided_VerticleCardImg"
+                src={props.CardImgSrc || MobileApp}
+              />
+            </Link>
           </div>
         </motion.div>
       ) : (
@@ -58,11 +69,20 @@ export default function ServiceProvidedCard(props) {
           viewport={{ once: true }}
         >
           <div className="ServiceProvided_CardTypo">
-            <div className="ServiceProvided_SubCardTypo">
-              <Typography className="ServiceProvided_CardTitle">
-                {props.CardTitle}
-              </Typography>
-              <Link to={props.to}>
+            <Link
+              style={{
+                height: "100%",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                padding: "3% 0% 3% 8%",
+              }}
+              to={props.to}
+            >
+              <div className="ServiceProvided_SubCardTypo">
+                <Typography className="ServiceProvided_CardTitle">
+                  {props.CardTitle}
+                </Typography>
                 <div
                   style={{
                     display: "flex",
@@ -79,14 +99,16 @@ export default function ServiceProvidedCard(props) {
                     src={ArrowForward}
                   />
                 </div>
-              </Link>
-            </div>
+              </div>
+            </Link>
           </div>
           <div className="ServiceProvided_CardImgDiv">
-            <img
-              className="ServiceProvided_CardImg"
-              src={props.CardImgSrc || MobileApp}
-            />
+            <Link to={props.to}>
+              <img
+                className="ServiceProvided_CardImg"
+                src={props.CardImgSrc || MobileApp}
+              />
+            </Link>
           </div>
         </motion.div>
       )}
