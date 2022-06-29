@@ -69,7 +69,6 @@ export default function NavBar(props) {
             position="fixed"
             sx={{
               backgroundColor: position <= 3 ? "transparent" : "white",
-              // color: "blue",
               padding: "0px 20px",
               boxShadow: position <= 3 && "none",
             }}
