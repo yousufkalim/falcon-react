@@ -3,11 +3,11 @@ import React from "react";
 import SectionHeader from "../Common/SectionHeader";
 import Pak from "../../assets/images/location_pak.png";
 import Pak_Icon from "../../assets/images/pak_icon.svg";
-import London from "../../assets/images/location_london.png";
+import London from "../../assets/images/location_london.svg";
 import Paris_Icon from "../../assets/images/paris_icon.svg";
 import US from "../../assets/images/location_us.png";
 import US_Icon from "../../assets/images/us_icon.svg";
-import UAE from "../../assets/images/UAE.png";
+import UAE from "../../assets/images/UAE.svg";
 import UAE_Icon from "../../assets/images/UAE_Icon.svg";
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
@@ -25,20 +25,6 @@ export default function LocationSection(props) {
         </div>
         <div className="LocationSliderDiv">
           <AwesomeSlider className="Awesome_Slider">
-            <div className="LocationDiv">
-              <div className="LocationDiv_Typo">
-                <img src={Pak_Icon} />
-
-                <Typography className="Location_Country">Pakistan</Typography>
-                <Typography className="Location_Address">
-                  8-A, Iqbal Avenue Cooperative Housing Society - Phase I
-                  Lahore, Punjab
-                </Typography>
-              </div>
-              <div className="LocationDiv_Img">
-                <img className="Location_Img" src={Pak} />
-              </div>
-            </div>
             <div className="LocationDiv">
               <div className="LocationDiv_Typo">
                 <img src={Paris_Icon} />
@@ -65,6 +51,20 @@ export default function LocationSection(props) {
               </div>
               <div className="LocationDiv_Img">
                 <img className="Location_Img" src={US} />
+              </div>
+            </div>
+            <div className="LocationDiv">
+              <div className="LocationDiv_Typo">
+                <img src={Pak_Icon} />
+
+                <Typography className="Location_Country">Pakistan</Typography>
+                <Typography className="Location_Address">
+                  8-A, Iqbal Avenue Cooperative Housing Society - Phase I
+                  Lahore, Punjab
+                </Typography>
+              </div>
+              <div className="LocationDiv_Img">
+                <img className="Location_Img" src={Pak} />
               </div>
             </div>
             <div className="LocationDiv">
