@@ -140,10 +140,10 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                     Services
                   </span>
                 </div>
-                <div className="text-dot-container">
+                {/* <div className="text-dot-container">
                   <span class="dot"></span>
                   <Link to="/blog">Blog</Link>
-                </div>
+                </div> */}
                 <div className="text-dot-container">
                   <span class="dot"></span>
                   <Link to="/ourprojects">Our Projects</Link>
@@ -263,11 +263,11 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                             </ListItemButton>
                           </List>
                         </Collapse>
-                        <ListItemButton id="Mob_nav">
+                        {/* <ListItemButton id="Mob_nav">
                           <Link className="Nav_links" to={`/blog`}>
                             <ListItemText primary="Blog" />
                           </Link>
-                        </ListItemButton>
+                        </ListItemButton> */}
                         <ListItemButton id="Mob_nav">
                           <Link className="Nav_links" to={`/ourprojects`}>
                             <ListItemText primary="Our Projects" />
