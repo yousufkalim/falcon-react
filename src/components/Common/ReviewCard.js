@@ -23,7 +23,7 @@ export default function ReviewCard(props) {
       <div className="ReviewCard">
         <Avatar
           alt="Remy Sharp"
-          src={avatar}
+          src={props.src}
           sx={{ width: 120, height: 120 }}
         />
         <Typography
@@ -70,7 +70,7 @@ export default function ReviewCard(props) {
             marginTop: "7%",
           }}
         >
-          {review?.length > 150 ? review?.slice(0, 150) + "..." : review}
+          {review?.length > 100 ? review?.slice(0, 100) + "..." : review}
           {/* {review} */}
         </Typography>
         <Typography
