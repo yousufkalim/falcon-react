@@ -14,7 +14,6 @@ export default function BlogCard(props) {
 
         <Typography
           sx={{
-            fontSize: "70%",
             color: "#52525B",
             fontWeight: "400",
             margin: "2% 0%",

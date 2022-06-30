@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 // Importing Components
 import Button from "@mui/material/Button";
+import { Link } from "react-router-dom";
 
 // Home Component
 export default function BlogReadArticles(props) {
@@ -13,7 +14,7 @@ export default function BlogReadArticles(props) {
         <motion.div
           initial={{ x: 300 }}
           whileInView={{ x: 0 }}
-          transition={{ duration: .5 }}
+          transition={{ duration: 0.5 }}
           viewport={{ once: true }}
           className="BlogArticleMain"
         >
@@ -53,7 +54,12 @@ export default function BlogReadArticles(props) {
                   obstacles
                 </Typography>
                 <Button className="BlogReadBtn" variant="text">
-                  {props.BtnTexr || "READ MORE"}
+                  <Link
+                    style={{ color: "#42C2FF", fontWeight: "600" }}
+                    to="/blogdetail"
+                  >
+                    {props.BtnTexr || "READ MORE"}
+                  </Link>
                 </Button>
               </div>
             </Grid>
@@ -63,7 +69,7 @@ export default function BlogReadArticles(props) {
         <motion.div
           initial={{ x: -300 }}
           whileInView={{ x: 0 }}
-          transition={{ duration: .5 }}
+          transition={{ duration: 0.5 }}
           viewport={{ once: true }}
           className="BlogArticleMain"
         >
@@ -96,7 +102,12 @@ export default function BlogReadArticles(props) {
                   obstacles
                 </Typography>
                 <Button className="BlogReadBtn" variant="text">
-                  {props.BtnTexr || "READ MORE"}
+                  <Link
+                    style={{ color: "#42C2FF", fontWeight: "600" }}
+                    to="/blogdetail"
+                  >
+                    {props.BtnTexr || "READ MORE"}
+                  </Link>
                 </Button>
               </div>
             </Grid>
