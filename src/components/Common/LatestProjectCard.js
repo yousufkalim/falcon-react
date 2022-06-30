@@ -20,14 +20,11 @@ export default function LatestProjectsCard(props) {
         <button
           className="HoverDivBtnDark"
           style={{
-            background: props.btnBackground ? props.btnBackground : "red",
+            background: props.btnBackground ? props.btnBackground : "#F8F8F8",
           }}
         >
-          <Link
-            style={{ fontSize: "1rem", color: "#fff", fontWeight: "500" }}
-            to={props.to}
-          >
-            View
+          <Link className="HoverDivBtnLink" to={props.to}>
+            View More
           </Link>
         </button>
       </div>
