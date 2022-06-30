@@ -34,9 +34,10 @@
 @import url("./Projects/DetailLogo.css");
 @import url("./Projects/DetailAppDev.css");
 @import url("./Projects/DetailWebDev.css");
+@import url("./Blog/BlogReadMore.css");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap');
 /* Defaults */
 * {
   padding:  0;

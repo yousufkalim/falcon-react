@@ -7,6 +7,7 @@ import Home from "../containers/Home.js";
 import About from "../containers/About.js";
 import ContactUs from "../containers/ContactUs.js";
 import Blog from "../containers/Blog";
+import BlogDetail from "../containers/Blog/BlogDetail";
 import LegalMentions from "../containers/LegalMentions";
 import OurProjects from "../containers/OurProjects";
 import WebDev from "../containers/Services/WebDev.js";
@@ -55,6 +56,8 @@ const index = () => {
       <Route exact path="/services/ui-development" component={UiDev} />
       <Route exact path="/contactus" component={ContactUs} />
       <Route exact path="/blog" component={Blog} />
+      <Route exact path="/blogdetail" component={BlogDetail} />
+
       <Route exact path="/legalmentions" component={LegalMentions} />
 
       <Route exact path="/ourprojects" component={OurProjects} />

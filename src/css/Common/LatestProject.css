@@ -52,7 +52,7 @@
 }
 .HoverDetail{
     color: white !important;
-    background-color: black !important;
+    background-color: #002051D9 !important;
     /* background-color: #003B7E !important; */
     border-radius: 15px;
     opacity: 0;
@@ -85,7 +85,7 @@
     transition: .5s;
 }
 .HoverDetail:hover{
-opacity: .8;
+opacity: 1;
 }
 .HoverDetailLite:hover{
     opacity: .9;
@@ -98,7 +98,7 @@ opacity: .8;
 .HoverDivTypo{
         /* color: white; */
         width: 80%;
-        font-size: .9rem !important;
+        font-size: 1.1rem !important;
 }
 .HoverDivBtn{
     width: 45%;
@@ -110,10 +110,17 @@ opacity: .8;
 .HoverDivBtnDark{
     width: 45%;
     margin-bottom: 10%;
-    padding:2% 3%;
+    padding:5% 3%;
     border-radius: 10px;
     border: none;
     background-color: #47B9B4;
+}
+.HoverDivBtnLink{
+        font-size: 1rem;
+        color: #003B7E;
+        font-weight: 700;
+        font-family: Raleway;
+        padding: 2% 3%;
 }
 .Awesome_Slider{
     height: 40vh;
@@ -126,16 +133,16 @@ opacity: .8;
     visibility: hidden !important;
 }
 .ProjectsCompleted_Num{
-        font-family: Montserrat !important;
-        color: white !important;
-        font-size: 1.5rem !important;
-        font-weight: 700 !important;
+        font-family: 'Rubik', sans-serif !important;
+        color: #F8F8F8 !important;
+        font-size: 4rem !important;
+        /* font-weight: 800 !important; */
         text-align: center;
 }
 .ProjectsCompleted_H{
-        color: white;
-        font-family: Montserrat !important;
-        font-size: 1rem !important;
+        color: #F8F8F8;
+        font-family: 'Rubik', sans-serif !important;
+        font-size: 1.7rem !important;
         font-weight: 400 !important;
         text-align: center;
 }
@@ -151,17 +158,23 @@ opacity: .8;
     .HoverDivBtn{
         font-size: .7rem;
     }
+    .HoverDivBtnLink{
+        font-size: .8rem !important;
+}
 }
 @media only screen and (max-width: 900px) {
 
     .HoverDivTypo{
-        font-size: .6rem !important;
+        font-size: .9rem !important;
     }
     .ProjectsCompleted_Num{
         font-size: 1.2rem !important;
 }
 .ProjectsCompleted_H{
         font-size: .8rem !important;
+}
+.HoverDivBtnLink{
+    font-size: 1rem !important;
 }
   
 }

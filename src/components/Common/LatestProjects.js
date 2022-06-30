@@ -17,6 +17,9 @@ import EzBox_Logo from "../../assets/images/ezBoxLogo.png";
 import { Typography } from "@mui/material";
 import { motion } from "framer-motion";
 import LatestProjectsCard from "./LatestProjectCard";
+import { ReactComponent as Timer } from "../../assets/images/timer.svg";
+import { ReactComponent as MedKit } from "../../assets/images/medkit.svg";
+import { ReactComponent as Award } from "../../assets/images/award.svg";
 
 const responsive = {
   desktop: {
@@ -79,18 +82,18 @@ export default function LatestProjects(props) {
             arrows={false}
           >
             <LatestProjectsCard
-              HoverDetailLite
+              // HoverDetailLite
               hoverDesp="Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application."
               src={KidCab}
               LogoSrc={KC_logo}
-              btnBackground="#47B9B4"
+              // btnBackground="#47B9B4"
               to="/ourprojects/kidcab"
             />
             <LatestProjectsCard
               hoverDesp="Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently."
               src={Permispop}
               DividerTheme="#11A283"
-              btnBackground="#11A283"
+              // btnBackground="#11A283"
               Heading="Permispop"
               LogoSrc={PP_logo}
               to="/ourprojects/permispop"
@@ -100,7 +103,7 @@ export default function LatestProjects(props) {
               src={QB}
               to="/ourprojects/quadrabase"
               DividerTheme="#FF8616"
-              btnBackground="#FF8616"
+              // btnBackground="#FF8616"
               Heading="Quadrabase"
               LogoSrc={QB_logo}
             />
@@ -109,7 +112,7 @@ export default function LatestProjects(props) {
               src={Desine}
               to="/ourprojects/designconfection"
               DividerTheme="#CC8E9C"
-              btnBackground="#CC8E9C"
+              // btnBackground="#CC8E9C"
               Heading="Design Confection"
               LogoSrc={Desine_Logo}
             />
@@ -120,7 +123,7 @@ export default function LatestProjects(props) {
               src={Real_Estate}
               to="/ourprojects/realestate"
               DividerTheme="#837C6B"
-              btnBackground="#837C6B"
+              // btnBackground="#837C6B"
               Heading="Real Estate"
               LogoSrc={RealEstate_Logo}
             />
@@ -129,7 +132,7 @@ export default function LatestProjects(props) {
               src={EzBox}
               to="/ourprojects/ezbox"
               DividerTheme="#3399FE"
-              btnBackground="#3399FE"
+              // btnBackground="#3399FE"
               Heading="Box Media"
               LogoSrc={EzBox_Logo}
             />
@@ -142,20 +145,59 @@ export default function LatestProjects(props) {
             transition={{ duration: 1 }}
             className="ProjectsCompletedDiv"
           >
-            <div className="Left">
-              <Typography className="ProjectsCompleted_Num">8</Typography>
+            <div className="Left" style={{ position: "relative" }}>
+              <Timer
+                style={{
+                  position: "absolute",
+                  color: "#F8F8F890",
+                  top: "-10%",
+                  left: "10%",
+                }}
+              />
+              <Typography
+                className="ProjectsCompleted_Num"
+                sx={{ fontWeight: "700" }}
+              >
+                8+
+              </Typography>
               <Typography className="ProjectsCompleted_H">
                 Years of Excellence
               </Typography>
             </div>
-            <div className="center">
-              <Typography className="ProjectsCompleted_Num">85+</Typography>
+            <div className="center" style={{ position: "relative" }}>
+              <MedKit
+                style={{
+                  position: "absolute",
+                  color: "#F8F8F890",
+                  top: "-10%",
+                  left: "0",
+                }}
+              />
+              <Typography
+                className="ProjectsCompleted_Num"
+                sx={{ fontWeight: "700" }}
+              >
+                85+
+              </Typography>
               <Typography className="ProjectsCompleted_H">
                 Project Completed
               </Typography>
             </div>
-            <div className="Right">
-              <Typography className="ProjectsCompleted_Num">60+</Typography>
+            <div className="Right" style={{ position: "relative" }}>
+              <Award
+                style={{
+                  position: "absolute",
+                  color: "#F8F8F890",
+                  top: "-20%",
+                  left: "10%",
+                }}
+              />
+              <Typography
+                className="ProjectsCompleted_Num"
+                sx={{ fontWeight: "700" }}
+              >
+                60+
+              </Typography>
               <Typography className="ProjectsCompleted_H">
                 Customer Satisfaction
               </Typography>
