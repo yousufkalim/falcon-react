@@ -1,6 +1,6 @@
 import * as React from "react";
 import Toolbar from "@mui/material/Toolbar";
-import LogoWhite from "../../assets/images/logo_white.svg";
+import { ReactComponent as LogoWhite } from "../../assets/images/logo_white.svg";
 import CloseIcon from "../../assets/images/close_White.png";
 import FalconIcon from "../../assets/images/falcon_Icon.svg";
 import { Divider, Typography } from "@mui/material";
@@ -13,7 +13,6 @@ import ExpandLess from "@mui/icons-material/ExpandLess";
 import ExpandMore from "@mui/icons-material/ExpandMore";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-
 export default function NavBarMenu({ Menu, SetMenu }) {
   const { i18n, t } = useTranslation();
   const { language } = i18n;
@@ -40,18 +39,23 @@ export default function NavBarMenu({ Menu, SetMenu }) {
           }}
         >
           <Link to={`/`}>
-            <img
-              className="Falcon_logo"
-              alt="logo"
-              src={LogoWhite}
-              style={{ width: "10%", margin: "1% 0" }}
+            <LogoWhite
+              style={{
+                width: "50%",
+                color: "white",
+                height: 30,
+              }}
             />
           </Link>
           <img
             className="MenuIconMob"
             alt="NavMenu"
             src={CloseIcon}
-            style={{ width: "6%", color: "white", cursor: "pointer" }}
+            style={{
+              width: "2.5%",
+              color: "white",
+              cursor: "pointer",
+            }}
             onClick={(e) => SetMenu(!Menu)}
           />
         </Toolbar>
@@ -136,10 +140,10 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                     Services
                   </span>
                 </div>
-                {/* <div className="text-dot-container">
+                <div className="text-dot-container">
                   <span class="dot"></span>
                   <Link to="/blog">Blog</Link>
-                </div> */}
+                </div>
                 <div className="text-dot-container">
                   <span class="dot"></span>
                   <Link to="/ourprojects">Our Projects</Link>
@@ -259,11 +263,11 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                             </ListItemButton>
                           </List>
                         </Collapse>
-                        {/* <ListItemButton id="Mob_nav">
+                        <ListItemButton id="Mob_nav">
                           <Link className="Nav_links" to={`/blog`}>
                             <ListItemText primary="Blog" />
                           </Link>
-                        </ListItemButton> */}
+                        </ListItemButton>
                         <ListItemButton id="Mob_nav">
                           <Link className="Nav_links" to={`/ourprojects`}>
                             <ListItemText primary="Our Projects" />

@@ -1,0 +1,114 @@
+.DetailOverview_Container{
+     width: 100%; 
+     padding: 5%;
+}
+.DetailOverview_TitleDiv{
+    display: flex; 
+    align-items: center;
+}
+.DetailOverview_TitleDivider{
+    width: 7%; 
+    height: 2px; 
+    margin-right: 1% !important;
+}
+.DetailOverview_Title{
+    font-weight: 700 !important; 
+    font-size: 1.5rem !important;
+}
+.DetailOverview_Desp{
+    font-weight: 500 !important; 
+    margin-top: 1.5% !important; 
+    font-size: 1.1rem !important;
+}
+.DetailOverview_ClientContainer{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+}
+.DetailOverview_ClientDiv{
+     width: 15%; 
+     margin: 1% 0;
+}
+.DetailOverview_ClientTitleDiv{
+        display: flex;
+        align-items: center;
+        width: 100%;
+}
+.DetailOverview_ClientTitleDivider{
+    width: 50%;
+    height: 2px; 
+    margin-right: 2% !important;
+
+}
+.DetailOverview_ClientTitle{
+        color: #7A7A7A;
+        font-weight: 700 !important;
+        font-size: .8rem !important;
+}
+.DetailOverview_AvatarDiv{
+        display: flex;
+        width: 100%;
+        padding: 2% 0;
+        align-items: center;
+}
+.DetailOverview_NameDiv{
+  padding-left: 5%;
+}
+.DetailOverview_Name{
+    width:100%;
+    font-size: 100% !important;
+    font-weight: 700 !important;
+}
+.DetailOverview_Location{
+        color: #7A7A7A;
+        opacity: .8;
+        font-weight: 500 !important;
+}
+.DetailOverview_ImageDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.DetailOverview_Image{
+    width: 50%; 
+}
+@media only screen and (max-width: 1500px) {
+    .DetailOverview_ClientDiv{
+        width: 20%; 
+   }
+}
+@media only screen and (max-width: 1200px) {
+    .DetailOverview_ClientDiv{
+        width: 25%; 
+   }
+   .DetailOverview_Image{
+    width: 70%; 
+}
+}
+@media only screen and (max-width: 900px) {
+    .DetailOverview_TitleDivider{
+        width: 15%; 
+    }
+    .DetailOverview_ClientDiv{
+        width: 35%; 
+   }
+   .DetailOverview_Image{
+    width: 80%; 
+}
+}
+@media only screen and (max-width: 600px) {
+    .DetailOverview_TitleDivider{
+        width: 20%; 
+    }
+    .DetailOverview_ClientDiv{
+        width: 50%; 
+   }
+   .DetailOverview_Image{
+       margin: 5% 0;
+    width: 90%; 
+}
+.DetailOverview_Desp{
+    margin: 5% 0 !important; 
+    font-size: 1.1rem !important;
+}
+}

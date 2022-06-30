@@ -45,17 +45,6 @@ export default function Footer(props) {
               determined daily rate, based on your preference. In both cases, we
               guarantee you a quality service at a very competitive price.
             </Typography>
-            <div className="IconsDiv">
-              <a href="https://www.facebook.com/FalconConsulting.fr">
-                <img className="FooterIcons" src={FB} />
-              </a>
-              <a href="https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F">
-                <img className="FooterIcons" src={LinkedIn} />
-              </a>
-              <a href="https://wa.me/03135098197">
-                <img className="FooterIcons" src={WhatsApp} />
-              </a>
-            </div>
           </div>
           <div className="FooterRight">
             <div className="FooterList">
@@ -63,7 +52,7 @@ export default function Footer(props) {
                 className="FooterListHeading"
                 sx={{ fontWeight: "700", opacity: "40%", marginBottom: "40%" }}
               >
-                Pages
+                Overview
               </Typography>
               <ul>
                 <li>
@@ -88,7 +77,7 @@ export default function Footer(props) {
                 className="FooterListHeading"
                 sx={{ fontWeight: "700", opacity: "40%", marginBottom: "23%" }}
               >
-                Services
+                Solutions
               </Typography>
               <ul>
                 <li>
@@ -109,14 +98,14 @@ export default function Footer(props) {
                     Software Development
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     className="Footer_li"
                     to="/services/ondemand-developers"
                   >
                     On Demand Developers
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link className="Footer_li" to="/services/ui-development">
                     UI/UX Developmemt
@@ -124,7 +113,7 @@ export default function Footer(props) {
                 </li>
               </ul>
             </div>
-            <div className="FooterList">
+            {/* <div className="FooterList">
               <Typography
                 className="FooterListHeading"
                 sx={{ fontWeight: "700", opacity: "40%", marginBottom: "28%" }}
@@ -135,10 +124,38 @@ export default function Footer(props) {
                 <li className="Footer_li">Terms of Service</li>
                 <li className="Footer_li">Cookies</li>
               </ul>
-            </div>
+            </div> */}
+          </div>
+        </div>
+        <div
+          style={{
+            width: "90%",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
+          <div className="IconsDiv">
+            <a href="https://www.facebook.com/FalconConsulting.fr">
+              <img className="FooterIcons" src={FB} />
+            </a>
+            <a href="https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F">
+              <img className="FooterIcons" src={LinkedIn} />
+            </a>
+            <a href="https://wa.me/03135098197">
+              <img className="FooterIcons" src={WhatsApp} />
+            </a>
+          </div>
+          <div className="LegalMentionDiv">
+            <Typography>
+              <a className="LegalMention_H" href="/legalmentions">
+                Legal Mentions
+              </a>{" "}
+            </Typography>
           </div>
         </div>
       </motion.div>
+
       <Divider />
       <div className="CopyRightDiv">
         <Typography

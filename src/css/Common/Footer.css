@@ -2,6 +2,7 @@
     display: flex;
   padding: 5% 0% 1% 0%;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   background-color: #F8F8F8;
   position: relative;
@@ -22,26 +23,29 @@
     width: 90%;
 }
 .FooterLeft{
-    width: 45%;
+    width: 50%;
 }
 .FooterLogo {
-    width: 40%;
+    width: 30%;
     margin-bottom: 3%;
 }
 .FooterTypo{
-    width: 80% !important;
+    width: 70% !important;
 }
 .IconsDiv{
-    margin-top: 6%;
+    width:30%;
+    display:flex;
+    align-items: center;
 }
 .FooterIcons{
-    width: 6%;
-    margin-right: 2%;
+    width: 100%;
+    /* margin-right: 5px; */
+    padding-right: 20%;
 }
 .FooterRight{
     display: flex;
     justify-content: space-between;
-    width: 45%;
+    width: 30%;
 }
 .FooterRight ul {
     list-style: none;
@@ -50,9 +54,12 @@
 }
 .FooterRight ul li{
     padding-bottom: 5px;
+    
 }
 .FooterRight ul li a{
-    color: black;
+    color: #003B7E;
+    font-weight: 400;
+    font-family: Raleway !important;
 }
 .CopyRightDiv{
     display: flex;
@@ -69,18 +76,35 @@
 #scrollToTopBtn {
     position: absolute;
     top: 5%;
-    right: 2%;
+    right: 5%;
   border: none;
   border-radius: 50%;
   cursor: pointer;
   height: 15%;
+}
+.LegalMentionDiv{
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        text-align: right;
+}
+.LegalMention_H{
+        color: black;
+        font-weight: 700;
+        font-family: Raleway;
+        text-decoration-line: underline !important;
 }
 .Footer_ChangeLanguage{
     color: black;
     font-weight: 700 !important; 
     cursor: pointer; 
 }
+
 @media only screen and (max-width: 900px) {
+    .FooterLogo {
+        width: 40%;
+    }
     .FooterRight ul {
         font-size: .7rem;
     }
@@ -88,6 +112,13 @@
         font-size: .8rem !important;
 
     }
+    .FooterRight{
+        width: 35%;
+    }
+ 
+.LegalMention_H{
+    font-size: .9rem;
+}
     .Footer_ChangeLanguage{
         font-size: .8rem !important;
         /* width: 70%; */
@@ -99,19 +130,23 @@
         font-size: .6rem;
     }
     .FooterTypo {
-        font-size: .8rem !important;
+    width: 80% !important;
+    font-size: .8rem !important;
     }
 }
 @media only screen and (max-width: 600px) {
     .FooterLogo {
-        width: 60%;
+        width: 50%;
     }
     .FooterTypo {
         width: 90% !important;
         font-size: .5rem !important;
     }
+    .IconsDiv{
+        width:15%;
+    }
     .FooterIcons{
-        width: 10%;
+        width: 100%;
     }
     .FooterListHeading{
         font-size: .7rem !important;
@@ -121,10 +156,10 @@
         font-size: 8px !important;
     }
     .FooterLeft{
-        width: 40%;
+        width: 50%;
     }
     .FooterRight{
-        width: 60%;
+        width: 40%;
     }
     .FooterRight ul {
         font-size: .5rem;

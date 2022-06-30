@@ -6,7 +6,7 @@ import img from "../../assets/images/muh_ali.webp";
 
 export default function ReviewCard(props) {
   const { data, dataIndex } = props;
-  const { name, review, avatar } = data[dataIndex];
+  const { name, review, avatar, country, work } = data[dataIndex];
 
   const [value, setValue] = React.useState(4);
 
@@ -16,17 +16,39 @@ export default function ReviewCard(props) {
         userSelect: "none",
         maxWidth: "400px",
         minWidth: "200px",
-        height: "516px",
+        height: "550px",
         borderRadius: 15,
       }}
     >
       <div className="ReviewCard">
-        <Avatar alt="Remy Sharp" src={avatar} sx={{ width: 99, height: 99 }} />
+        <Avatar
+          alt="Remy Sharp"
+          src={props.src}
+          sx={{ width: 120, height: 120 }}
+        />
         <Typography
           className="Selection"
-          sx={{ margin: "6% 0%", fontWeight: 600 }}
+          sx={{
+            marginTop: "4%",
+            fontWeight: 600,
+            fontSize: "1.4rem",
+            fontFamily: "Urbanist",
+            opacity: ".8",
+          }}
         >
           {name}
+        </Typography>
+        <Typography
+          className="Selection"
+          sx={{
+            margin: "0",
+            // fontWeight: 400,
+            fontSize: ".9rem",
+            opacity: ".8",
+            margin: "0 0 5% 0",
+          }}
+        >
+          {country}
         </Typography>
         <Rating
           name="simple-controlled"
@@ -42,13 +64,26 @@ export default function ReviewCard(props) {
           className="Selection"
           sx={{
             width: "80%",
-            fontSize: ".7rem",
-            color: "#454238",
+            fontSize: ".8rem",
+            opacity: ".9",
             fontWeight: "400",
-            marginTop: "10%",
+            marginTop: "7%",
           }}
         >
-          {review}
+          {review?.length > 100 ? review?.slice(0, 100) + "..." : review}
+          {/* {review} */}
+        </Typography>
+        <Typography
+          className="Selection"
+          sx={{
+            marginTop: "10%",
+            fontWeight: "400",
+            fontSize: ".7rem",
+            fontStyle: "italic",
+            opacity: ".8",
+          }}
+        >
+          {work}
         </Typography>
       </div>
     </div>

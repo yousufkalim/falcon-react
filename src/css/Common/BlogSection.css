@@ -20,8 +20,14 @@
     color: #12141D; 
     font-weight: 700 !important; 
     width: 70%;
+    font-size: 1.2rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1366px) {
+    .BlogCardTitle{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 900px) {
     .BlogCardTitle{
         width: 100%;
     }
