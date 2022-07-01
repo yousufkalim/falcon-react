@@ -74,6 +74,8 @@ input::-webkit-inner-spin-button {
     background: linear-gradient(to left,#2632380B,#263238B0);
     background-color: #003B7E;
     padding: 5%;
+    position: relative;
+    overflow: hidden !important;
     /* height: 100vh; */
 }
 .ContactSectionGrid{
