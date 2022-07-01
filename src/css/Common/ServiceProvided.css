@@ -124,6 +124,9 @@
     display: flex;
     justify-content: center;
 }
+.CardGridMain_MobView{
+    display: none;
+}
 
 /* .CardGridLeftMain{
 }
@@ -225,8 +228,7 @@
     }
 
     .VerticleCard_ContainerGrid {
-        display: flex;
-        justify-content: center;
+        display:  none !important;
     }
 
     .ServiceProvided_VerticleCard {
@@ -246,6 +248,15 @@
 
     .ServiceProvided_CardBtn {
         font-size: .9rem;
+    }
+    .CardGridMain_MobViewDiv{
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    .CardGridMain_MobView{
+        display: block;
+
     }
 }
 
