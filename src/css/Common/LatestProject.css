@@ -232,7 +232,7 @@ top: -45%;
         font-size: 1.2rem !important;
 }
 .ProjectsCompleted_H{
-        font-size: .8rem !important;
+        font-size: .7rem !important;
 }
 
 .ProjectsCompleted_Timer{
@@ -259,10 +259,23 @@ top: -80%;
 .HoverDivBtnDark{
     width: 70% !important;
 }
-.ProjectsCompleted_Num{
-    font-size: 1.2rem !important;
+
 }
+@media only screen and (max-width: 480px) {
+
 .ProjectsCompleted_H{
-    font-size: .7rem !important;
+        font-size: .5rem !important;
 }
+
+.ProjectsCompleted_Timer{
+    top: -90%;
 }
+.ProjectsCompleted_MedKit{
+    left:3%;
+}
+.ProjectsCompleted_Award{
+top: -90%;
+left: 15%;
+}
+
+} 
