@@ -36,7 +36,7 @@
     justify-content: space-between;
     background-color: #003B7E;
     width: 90%;
-    padding: 5% 15%;
+    padding: 4% 15%;
     border-radius: 15px;
     margin: 5%;
 }
@@ -132,10 +132,31 @@ opacity: 1;
 .awssld__bullets{
     visibility: hidden !important;
 }
+.ProjectsCompleted_Timer{
+        position: absolute;
+        color: #F8F8F890;
+        width: 30%;
+        top: -20%;
+        left: 15%;
+}
+.ProjectsCompleted_MedKit{
+
+  position: absolute;
+  color: #F8F8F890;
+  top: -20%;
+  left: 7%;
+}
+.ProjectsCompleted_Award{
+  position: absolute;
+  color: #F8F8F890;
+  width: 25%;
+  top: -30%;
+  left: 18%;
+}
 .ProjectsCompleted_Num{
         font-family: 'Rubik', sans-serif !important;
         color: #F8F8F8 !important;
-        font-size: 4rem !important;
+        font-size: 3rem !important;
         /* font-weight: 800 !important; */
         text-align: center;
 }
@@ -145,6 +166,26 @@ opacity: 1;
         font-size: 1.7rem !important;
         font-weight: 400 !important;
         text-align: center;
+}
+@media only screen and (max-width: 1366px) {
+    .ProjectsCompleted_Num{
+        font-size: 2.5rem !important;
+    }
+    .ProjectsCompleted_H{
+        font-size: 1.4rem !important;
+}
+    .ProjectsCompleted_Timer{
+        top: -30%;
+    }
+    .ProjectsCompleted_MedKit{
+        width:30%;
+    }
+    /* .ProjectsCompleted_Award{
+    width: 25%;
+    top: -30%;
+    left: 18%;
+    } */
+   
 }
 @media only screen and (max-width: 1200px) {
     .hoverDivLogo{
@@ -161,6 +202,26 @@ opacity: 1;
     .HoverDivBtnLink{
         font-size: .8rem !important;
 }
+.ProjectsCompleted_Num{
+    font-size: 2rem !important;
+}
+.ProjectsCompleted_H{
+    font-size: 1rem !important;
+}
+.ProjectsCompleted_Timer{
+    top: -40%;
+}
+.ProjectsCompleted_MedKit{
+    width:30%;
+    top: -25%;
+    left:5%;
+}
+.ProjectsCompleted_Award{
+/* width: 25%; */
+top: -45%;
+/* left: 18%; */
+}
+
 }
 @media only screen and (max-width: 900px) {
 
@@ -171,7 +232,18 @@ opacity: 1;
         font-size: 1.2rem !important;
 }
 .ProjectsCompleted_H{
-        font-size: .8rem !important;
+        font-size: .7rem !important;
+}
+
+.ProjectsCompleted_Timer{
+    top: -80%;
+}
+.ProjectsCompleted_MedKit{
+    top: -60%;
+    left:7%;
+}
+.ProjectsCompleted_Award{
+top: -80%;
 }
 .HoverDivBtnLink{
     font-size: 1rem !important;
@@ -187,10 +259,23 @@ opacity: 1;
 .HoverDivBtnDark{
     width: 70% !important;
 }
-.ProjectsCompleted_Num{
-    font-size: 1.2rem !important;
+
 }
+@media only screen and (max-width: 480px) {
+
 .ProjectsCompleted_H{
-    font-size: .7rem !important;
+        font-size: .5rem !important;
 }
+
+.ProjectsCompleted_Timer{
+    top: -90%;
 }
+.ProjectsCompleted_MedKit{
+    left:3%;
+}
+.ProjectsCompleted_Award{
+top: -90%;
+left: 15%;
+}
+
+} 
