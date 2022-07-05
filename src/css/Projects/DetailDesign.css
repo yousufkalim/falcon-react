@@ -42,7 +42,7 @@
 .DetailDesign_Image_SubDiv{
       display: flex;
       justify-content: center;
-      margin: 0;
+      margin: 0.5% -0.4%;
       padding: 0;
 }
 .DetailDesign_ImageContainer_Overlap{
@@ -63,10 +63,6 @@
 @media only screen and (max-width: 900px) {
 
    .DetailDesign_Image_SubDiv{
-      display: flex;
       flex-direction: column;
-      justify-content: center;
-      margin: 0;
-      padding: 0;
 }
 }
