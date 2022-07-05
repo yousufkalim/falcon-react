@@ -59,11 +59,11 @@ export default function LatestProjects(props) {
 
   return (
     <>
-      <div className="LatestProjectDiv">
+      <div className='LatestProjectDiv'>
         <SectionHeader
-          width="30%"
-          h1="A Project offers a challenge"
-          h2="Latest Projects"
+          width='30%'
+          h1='A Project offers a challenge'
+          h2='Latest Projects'
           // decription="This sounds simple, but it is beneficial to your business success."
         />
 
@@ -72,10 +72,10 @@ export default function LatestProjects(props) {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1.5 }}
           viewport={{ once: true }}
-          className="LatestProjectsSlider"
+          className='LatestProjectsSlider'
         >
           <Carousel
-            className="SliderDiv"
+            className='SliderDiv'
             autoPlay={true}
             responsive={responsive}
             transitionDuration={2000}
@@ -86,57 +86,57 @@ export default function LatestProjects(props) {
           >
             <LatestProjectsCard
               // HoverDetailLite
-              hoverDesp="Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application."
+              hoverDesp='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.'
               src={KidCab}
               LogoSrc={KC_logo}
               // btnBackground="#47B9B4"
-              to="/ourprojects/kidcab"
+              to='/ourprojects/kidcab'
             />
             <LatestProjectsCard
-              hoverDesp="Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently."
+              hoverDesp='Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.'
               src={Permispop}
-              DividerTheme="#11A283"
+              DividerTheme='#11A283'
               // btnBackground="#11A283"
-              Heading="Permispop"
+              Heading='Permispop'
               LogoSrc={PP_logo}
-              to="/ourprojects/permispop"
+              to='/ourprojects/permispop'
             />
             <LatestProjectsCard
-              hoverDesp="Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details."
+              hoverDesp='Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
               src={QB}
-              to="/ourprojects/quadrabase"
-              DividerTheme="#FF8616"
+              to='/ourprojects/quadrabase'
+              DividerTheme='#FF8616'
               // btnBackground="#FF8616"
-              Heading="Quadrabase"
+              Heading='Quadrabase'
               LogoSrc={QB_logo}
             />
             <LatestProjectsCard
-              hoverDesp="A web app designed to help customers with customized stitching to receive your creation at your home."
+              hoverDesp='A web app designed to help customers with customized stitching to receive your creation at your home.'
               src={Desine}
-              to="/ourprojects/designconfection"
-              DividerTheme="#CC8E9C"
+              to='/ourprojects/designconfection'
+              DividerTheme='#CC8E9C'
               // btnBackground="#CC8E9C"
-              Heading="Design Confection"
+              Heading='Design Confection'
               LogoSrc={Desine_Logo}
             />
             <LatestProjectsCard
-              hoverDesp="This website offers an online tailoring experience with free pick-up and delivery in Karachi. We provide
+              hoverDesp='This website offers an online tailoring experience with free pick-up and delivery in Karachi. We provide
             stitching services with customizable designs for salwar suits, blouses, kurtas, bottoms, western wear as per
-            customers measurement at the doorstep. Coming Soon for other cities also."
+            customers measurement at the doorstep. Coming Soon for other cities also.'
               src={Real_Estate}
-              to="/ourprojects/realestate"
-              DividerTheme="#837C6B"
+              to='/ourprojects/realestate'
+              DividerTheme='#837C6B'
               // btnBackground="#837C6B"
-              Heading="Real Estate"
+              Heading='Real Estate'
               LogoSrc={RealEstate_Logo}
             />
             <LatestProjectsCard
-              hoverDesp="EZBox media is a platform providing different services including"
+              hoverDesp='EZBox media is a platform providing different services including'
               src={EzBox}
-              to="/ourprojects/ezbox"
-              DividerTheme="#3399FE"
+              to='/ourprojects/ezbox'
+              DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              Heading="Box Media"
+              Heading='Box Media'
               LogoSrc={EzBox_Logo}
             />
           </Carousel>
@@ -146,43 +146,28 @@ export default function LatestProjects(props) {
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1 }}
-            className="ProjectsCompletedDiv"
+            className='ProjectsCompletedDiv'
           >
-            <div className="Left" style={{ position: "relative" }}>
-              <Timer className="ProjectsCompleted_Timer" />
-              <Typography
-                className="ProjectsCompleted_Num"
-                sx={{ fontWeight: "700" }}
-              >
+            <div className='Left' style={{ position: "relative" }}>
+              <Timer className='ProjectsCompleted_Timer' />
+              <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: "700" }}>
                 8+
               </Typography>
-              <Typography className="ProjectsCompleted_H">
-                {t("Years of Excellence")}
-              </Typography>
+              <Typography className='ProjectsCompleted_H'>{t("Years of Excellence")}</Typography>
             </div>
-            <div className="center" style={{ position: "relative" }}>
-              <MedKit className="ProjectsCompleted_MedKit" />
-              <Typography
-                className="ProjectsCompleted_Num"
-                sx={{ fontWeight: "700" }}
-              >
+            <div className='center' style={{ position: "relative" }}>
+              <MedKit className='ProjectsCompleted_MedKit' />
+              <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: "700" }}>
                 85+
               </Typography>
-              <Typography className="ProjectsCompleted_H">
-                {t("Project Completed")}
-              </Typography>
+              <Typography className='ProjectsCompleted_H'>{t("Project Completed")}</Typography>
             </div>
-            <div className="Right" style={{ position: "relative" }}>
-              <Award className="ProjectsCompleted_Award" />
-              <Typography
-                className="ProjectsCompleted_Num"
-                sx={{ fontWeight: "700" }}
-              >
+            <div className='Right' style={{ position: "relative" }}>
+              <Award className='ProjectsCompleted_Award' />
+              <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: "700" }}>
                 60+
               </Typography>
-              <Typography className="ProjectsCompleted_H">
-                {t("Customer Satisfaction")}
-              </Typography>
+              <Typography className='ProjectsCompleted_H'>{t("Customer Satisfaction")}</Typography>
             </div>
           </motion.div>
         )}
