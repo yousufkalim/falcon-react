@@ -7,7 +7,10 @@ import CalendlyIcon from "../../assets/images/calendlyIcon.svg";
 import emailjs from "emailjs-com";
 import { toast } from "react-toastify";
 import ReCAPTCHA from "react-google-recaptcha";
+import { useTranslation } from "react-i18next";
 export default function ContactUsSection(props) {
+  const { i18n, t } = useTranslation();
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -55,7 +58,7 @@ export default function ContactUsSection(props) {
                         required
                         type="text"
                         name="name"
-                        placeholder="Your Name"
+                        placeholder={t("Your Name")}
                         className="InputField"
                       />
                     </Grid>
@@ -64,7 +67,7 @@ export default function ContactUsSection(props) {
                         required
                         type="email"
                         name="email"
-                        placeholder="Email"
+                        placeholder={t("Email")}
                         className="InputField"
                       />
                     </Grid>
@@ -75,7 +78,7 @@ export default function ContactUsSection(props) {
                         required
                         type="number"
                         name="phone"
-                        placeholder="Phone"
+                        placeholder={t("Phone")}
                         className="InputField"
                       />
                     </Grid>
@@ -84,7 +87,7 @@ export default function ContactUsSection(props) {
                         required
                         type="text"
                         name="budget"
-                        placeholder="Budget"
+                        placeholder={t("Budget")}
                         className="InputField"
                       />
                     </Grid>
@@ -95,7 +98,7 @@ export default function ContactUsSection(props) {
                         required
                         type="text"
                         name="message"
-                        placeholder="Type Your Message"
+                        placeholder={t("Type Your Message")}
                         className="textField"
                         // style={{ marginLeft: "1%" }}
                       />
@@ -109,7 +112,7 @@ export default function ContactUsSection(props) {
                   </Grid> */}
                   <Grid className="Contact_Send_Grid" xs={3}>
                     <button type="submit" className="ContactUsBtn">
-                      Send
+                      {t("Send")}
                     </button>
                   </Grid>
                 </form>
@@ -119,7 +122,9 @@ export default function ContactUsSection(props) {
                   <div className="ContactMediaDiv">
                     <img className="ContactMediaIcons" src={EmailIcon} />
                     <div className="SocialMediaText">
-                      <Typography sx={{ fontSize: "1rem" }}>Email</Typography>
+                      <Typography sx={{ fontSize: "1rem" }}>
+                        {t("Email")}
+                      </Typography>
                       <Typography sx={{ fontSize: ".7rem" }}>
                         contact@falconconsulting.fr
                       </Typography>
@@ -131,10 +136,10 @@ export default function ContactUsSection(props) {
                     <img className="ContactMediaIcons" src={CalendlyIcon} />
                     <div className="SocialMediaText">
                       <Typography sx={{ fontSize: "1rem" }}>
-                        Calendly
+                        {t("Calendly")}
                       </Typography>
                       <Typography sx={{ fontSize: ".7rem" }}>
-                        Click and join link
+                        {t("Click and join link")}
                       </Typography>
                     </div>
                   </div>
@@ -168,8 +173,7 @@ export default function ContactUsSection(props) {
                     h2="Share Your Project/Idea with us!"
                     colorH2="#fff"
                     colorDesp="#F8F8F8"
-                    decription="Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? 
-                    Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours. "
+                    decription="Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours."
                   />
                 </div>
                 <div>
@@ -177,7 +181,7 @@ export default function ContactUsSection(props) {
                     <div className="SocialMediaDiv">
                       <img className="SocialMediaIcons" src={CalendlyIcon} />
                       <div className="SocialMediaText">
-                        <Typography>Schedule Meeting</Typography>
+                        <Typography>{t("Schedule Meeting")}</Typography>
                         <Typography>calendly.com/falconit</Typography>
                       </div>
                     </div>
@@ -186,7 +190,7 @@ export default function ContactUsSection(props) {
                     <div className="SocialMediaDiv">
                       <img className="SocialMediaIcons" src={EmailIcon} />
                       <div className="SocialMediaText">
-                        <Typography>Email</Typography>
+                        <Typography>{t("Email")}</Typography>
                         <Typography>contact@falconconsulting.fr</Typography>
                       </div>
                     </div>
@@ -201,7 +205,7 @@ export default function ContactUsSection(props) {
                         required
                         type="text"
                         name="name"
-                        placeholder="Your Name"
+                        placeholder={t("Your Name")}
                         className="InputField"
                       />
                     </Grid>
@@ -210,7 +214,7 @@ export default function ContactUsSection(props) {
                         required
                         type="email"
                         name="email"
-                        placeholder="Email"
+                        placeholder={t("Email")}
                         className="InputField"
                       />
                     </Grid>
@@ -221,7 +225,7 @@ export default function ContactUsSection(props) {
                         required
                         type="number"
                         name="phone"
-                        placeholder="Phone"
+                        placeholder={t("Phone")}
                         className="InputField"
                       />
                     </Grid>
@@ -230,7 +234,7 @@ export default function ContactUsSection(props) {
                         required
                         type="text"
                         name="budget"
-                        placeholder="Budget"
+                        placeholder={t("Budget")}
                         className="InputField"
                       />
                     </Grid>
@@ -241,7 +245,7 @@ export default function ContactUsSection(props) {
                         required
                         type="text"
                         name="message"
-                        placeholder="Type Your Message"
+                        placeholder={t("Type Your Message")}
                         className="textField"
                       />
                     </Grid>
@@ -288,7 +292,7 @@ export default function ContactUsSection(props) {
                   </Grid> */}
                   <Grid xs={3}>
                     <button type="submit" className="ContactUsBtn">
-                      Send
+                      {t("Send")}
                     </button>
                   </Grid>
                 </form>

@@ -18,12 +18,12 @@ export default function AppDev() {
     <div className="Services_AppContainer">
       <NavBar />
       <Header
-        Title="APP DEVELOPMENT "
+        Title="APP DEVELOPMENT"
         Titlecolor="#003B7E"
         DespColor="#003B7E"
         Description="We are ready to handle your ambitious projects!"
         btn
-        btnText="Get This Service"
+        btnText="More information"
         ImgSrc={AppDevImg}
         ImgWidth="75%"
       />

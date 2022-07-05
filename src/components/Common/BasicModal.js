@@ -5,6 +5,7 @@ import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { Divider } from "@mui/material";
 import CloseIcon from "../../assets/images/modalClose.svg";
+import { useTranslation } from "react-i18next";
 const style = {
   position: "absolute",
   top: "50%",
@@ -18,6 +19,7 @@ const style = {
 };
 
 export default function BasicModal(props) {
+  const { i18n, t } = useTranslation();
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -32,7 +34,7 @@ export default function BasicModal(props) {
         }}
         onClick={handleOpen}
       >
-        {props.ModalBtnText || "View More"}
+        {t(props.ModalBtnText || "View More")}
       </Button>
       <Modal
         open={open}
@@ -46,10 +48,10 @@ export default function BasicModal(props) {
             <img
               style={{
                 position: "absolute",
-                top:"5%",
+                top: "5%",
                 width: "4%",
                 right: "5%",
-                cursor:"pointer"
+                cursor: "pointer",
               }}
               onClick={handleClose}
               src={CloseIcon}
@@ -73,29 +75,29 @@ export default function BasicModal(props) {
             }}
           />
           <Typography className="Modal_Para" id="modal-modal-description">
-            {props.para1}
+            {t(props.para1)}
           </Typography>
           <Typography className="Modal_Para" id="modal-modal-description">
-            {props.para2 }
-            </Typography>
+            {t(props.para2)}
+          </Typography>
           <Typography className="Modal_Para" id="modal-modal-description">
-            {props.para3 }
-            </Typography>
+            {t(props.para3)}
+          </Typography>
           <Typography className="Modal_Para" id="modal-modal-description">
-            {props.para4 }
-            </Typography>
+            {t(props.para4)}
+          </Typography>
           <Typography className="Modal_Para" id="modal-modal-description">
-            {props.para5 }
-            </Typography>
+            {t(props.para5)}
+          </Typography>
           <Typography className="Modal_Para" id="modal-modal-description">
-            {props.para6 } 
-            </Typography>
+            {t(props.para6)}
+          </Typography>
           <Typography className="Modal_Para" id="modal-modal-description">
-            {props.para7}
-            </Typography>
-            <Typography className="Modal_Para" id="modal-modal-description">
-            {props.para8}
-            </Typography>
+            {t(props.para7)}
+          </Typography>
+          <Typography className="Modal_Para" id="modal-modal-description">
+            {t(props.para8)}
+          </Typography>
         </Box>
       </Modal>
     </div>
@@ -116,4 +118,3 @@ export default function BasicModal(props) {
 // para6 = sub heading description
 // para7 = sub heading description
 // para8 = sub heading description
-

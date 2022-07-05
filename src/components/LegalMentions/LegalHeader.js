@@ -1,7 +1,9 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import Legal_Icon from "../../assets/images/legal_icon.svg";
+import { useTranslation } from "react-i18next";
 export default function LegalHeader(props) {
+  const { i18n, t } = useTranslation();
   return (
     <>
       <div className="LegalMention_HeaderContainer">
@@ -11,18 +13,17 @@ export default function LegalHeader(props) {
               <img src={Legal_Icon} />
             </div>
             <Typography className="LegalMention_HeaderTitle">
-              Legal Mentions
+              {t("Legal Mentions")}
             </Typography>
           </div>
           <div className="LegalMention_HeaderDespDiv">
             <Typography className="LegalMention_HeaderDesp_H">
-              Definitions
+              {t("Definitions")}
             </Typography>
             <Typography className="LegalMention_HeaderDesp_P">
-              Definitions Client any professional or capable natural person
-              within the meaning of articles 1123 and following of the Civil
-              Code, or legal person, who visits the Site subject to these
-              general conditions.
+              Client any professional or capable natural person within the
+              meaning of articles 1123 and following of the Civil Code, or legal
+              person, who visits the Site subject to these general conditions.
               <br /> Services and Services https://www.falconconsulting.fr
               provides Customers <br /> <br />
               Content All the elements constituting the information present on

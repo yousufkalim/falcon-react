@@ -20,6 +20,7 @@ import LatestProjectsCard from "./LatestProjectCard";
 import { ReactComponent as Timer } from "../../assets/images/timer.svg";
 import { ReactComponent as MedKit } from "../../assets/images/medkit.svg";
 import { ReactComponent as Award } from "../../assets/images/award.svg";
+import { useTranslation } from "react-i18next";
 
 const responsive = {
   desktop: {
@@ -40,6 +41,8 @@ const responsive = {
 };
 
 export default function LatestProjects(props) {
+  const { i18n, t } = useTranslation();
+
   // let [slideShow, setSlideShow] = useState(window.innerWidth <= 600 ? 2 : 4.5);
 
   // useEffect(() => {
@@ -128,7 +131,7 @@ export default function LatestProjects(props) {
               LogoSrc={RealEstate_Logo}
             />
             <LatestProjectsCard
-              hoverDesp="TEZBox media is a platform providing different services including"
+              hoverDesp="EZBox media is a platform providing different services including"
               src={EzBox}
               to="/ourprojects/ezbox"
               DividerTheme="#3399FE"
@@ -154,7 +157,7 @@ export default function LatestProjects(props) {
                 8+
               </Typography>
               <Typography className="ProjectsCompleted_H">
-                Years of Excellence
+                {t("Years of Excellence")}
               </Typography>
             </div>
             <div className="center" style={{ position: "relative" }}>
@@ -166,7 +169,7 @@ export default function LatestProjects(props) {
                 85+
               </Typography>
               <Typography className="ProjectsCompleted_H">
-                Project Completed
+                {t("Project Completed")}
               </Typography>
             </div>
             <div className="Right" style={{ position: "relative" }}>
@@ -178,7 +181,7 @@ export default function LatestProjects(props) {
                 60+
               </Typography>
               <Typography className="ProjectsCompleted_H">
-                Customer Satisfaction
+                {t("Customer Satisfaction")}
               </Typography>
             </div>
           </motion.div>

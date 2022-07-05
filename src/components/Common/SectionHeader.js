@@ -2,7 +2,10 @@ import React from "react";
 import { Typography } from "@mui/material";
 import { Divider } from "@mui/material";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 export default function SectionHeader(props) {
+  const { i18n, t } = useTranslation();
+
   return (
     <>
       {props.WorkProcess ? (
@@ -15,7 +18,7 @@ export default function SectionHeader(props) {
             className="SectionHeaderDesp"
             color={props.colorDesp || "#fff"}
           >
-            {props.decription}
+            {t(props.decription)}
           </Typography>
           <Divider
             className="SectionHeaderDivider"
@@ -32,14 +35,14 @@ export default function SectionHeader(props) {
             color={props.colorH1 || "#fff"}
             sx={{ width: "30%", fontWeight: "600", fontSize: "1.5rem" }}
           >
-            {props.h1}
+            {t(props.h1)}
           </Typography>
 
           <Typography
             className="SectionHeaderH2"
             color={props.colorH2 || "#003B7E"}
           >
-            {props.h2}
+            {t(props.h2)}
           </Typography>
         </motion.div>
       ) : (
@@ -56,7 +59,7 @@ export default function SectionHeader(props) {
             className="SectionHeaderH1"
             color={props.colorH1 || "#42C2FF"}
           >
-            {props.h1}
+            {t(props.h1)}
           </Typography>
           <Divider
             className="SectionHeaderDivider"
@@ -66,14 +69,14 @@ export default function SectionHeader(props) {
             className="SectionHeaderH2"
             color={props.colorH2 || "#003B7E"}
           >
-            {props.h2}
+            {t(props.h2)}
           </Typography>
           <Typography
             className="SectionHeaderDesp"
             color={props.colorDesp || "#404040B2"}
             width={props.despWidth}
           >
-            {props.decription}
+            {t(props.decription)}
           </Typography>
         </motion.div>
       )}
