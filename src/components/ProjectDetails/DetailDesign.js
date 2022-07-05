@@ -4,6 +4,7 @@ import { Grid, Typography } from "@mui/material";
 import Image1 from "../../assets/images/detail_design_1.png";
 import Image2 from "../../assets/images/detail_design_2.png";
 import Image3 from "../../assets/images/detail_design_3.png";
+import Image7 from "../../assets/images/detail_design_4.png";
 import Image4 from "../../assets/images/detail_kc_design1.png";
 import Image5 from "../../assets/images/detail_kc_design2.png";
 import Image6 from "../../assets/images/detail_kc_design3.png";
@@ -67,13 +68,104 @@ export default function DetailDesign(props) {
           </div>
         )}
         {props.grids && (
+          // <div style={{ background: "red", width: "100%", height: "100%" }}>
+          //   <div style={{ display: "flex", justifyContent: "space-between" }}>
+          //     <div style={{ width: "33%" }}>
+          //       <img
+          //         style={{ objectFit: "cover", width: "100%", height: "100%" }}
+          //         src={Image1}
+          //       />
+          //     </div>
+          //     <div style={{ width: "66%" }}>
+          //       <img
+          //         style={{ objectFit: "cover", width: "100%", height: "100%" }}
+          //         src={Image2}
+          //       />
+          //     </div>
+          //   </div>
+          //   <div
+          //     style={{
+          //       width: "100%",
+          //       background: "green",
+          //       display: "flex",
+          //       justifyContent: "space-between",
+          //     }}
+          //   >
+          //     <div style={{ width: "67%", padding: "1% 0" }}>
+          //       <div
+          //         style={{
+          //           display: "flex",
+          //           justifyContent: "space-between",
+          //           background: "blue",
+          //           width: "100%",
+          //         }}
+          //       >
+          //         <div style={{ width: "49.2%" }}>
+          //           <img
+          //             style={{
+          //               objectFit: "cover",
+          //               width: "100%",
+          //               height: "100%",
+          //             }}
+          //             src={Image7}
+          //           />
+          //         </div>
+          //         <div style={{ width: "49.2%" }}>
+          //           <img
+          //             style={{
+          //               objectFit: "cover",
+          //               width: "100%",
+          //               height: "100%",
+          //             }}
+          //             src={Image1}
+          //           />
+          //         </div>
+          //       </div>
+          //       <div
+          //         style={{
+          //           width: "100%",
+          //           background: "purple",
+          //           padding: "1% 0",
+          //         }}
+          //       >
+          //         <img
+          //           style={{
+          //             objectFit: "cover",
+          //             width: "100%",
+          //             height: "100%",
+          //           }}
+          //           src={Image2}
+          //         />
+          //       </div>
+          //     </div>
+
+          //     <div
+          //       style={{
+          //         background: "pink",
+          //         width: "32%",
+          //         padding: "1% 0",
+          //       }}
+          //     >
+          //       <div style={{ width: "100%", height: "100vh" }}>
+          //         <img
+          //           style={{
+          //             objectFit: "cover",
+          //             width: "100%",
+          //             height: "100%",
+          //           }}
+          //           src={Image3}
+          //         />
+          //       </div>
+          //     </div>
+          //   </div>
+          // </div>
           <div className="DetailDesign_ImageContainer_Grids">
             <Grid container spacing={1}>
               <Grid
                 xs={12}
                 md={4}
                 sx={{
-                  padding: "1%",
+                  padding: "0.5%",
                 }}
               >
                 <img
@@ -85,7 +177,7 @@ export default function DetailDesign(props) {
                 xs={12}
                 md={8}
                 sx={{
-                  padding: "1%",
+                  padding: "0.5%",
                 }}
               >
                 <img
@@ -100,19 +192,19 @@ export default function DetailDesign(props) {
                   xs={12}
                   md={6}
                   sx={{
-                    padding: "1%",
+                    padding: "0.8%",
                   }}
                 >
                   <img
                     className="DetailDesign_Image"
-                    src={props.src3 || Image1}
+                    src={props.src3 || Image7}
                   />
                 </Grid>
                 <Grid
                   xs={12}
                   md={6}
                   sx={{
-                    padding: "1%",
+                    padding: "0.8%",
                   }}
                 >
                   <img
@@ -123,7 +215,7 @@ export default function DetailDesign(props) {
                 <Grid
                   xs={12}
                   sx={{
-                    padding: "1%",
+                    padding: ".8%",
                   }}
                 >
                   <img
@@ -136,7 +228,7 @@ export default function DetailDesign(props) {
                 <Grid
                   xs={12}
                   sx={{
-                    padding: "2%",
+                    padding: "1.5%",
                   }}
                 >
                   <img

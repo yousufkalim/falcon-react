@@ -42,7 +42,7 @@ export default function DetailTheme(props) {
               <div
                 className="DetailTheme_Box"
                 style={{
-                  backgroundColor: props.Theme1 ? props.Theme1 : "#FFA333",
+                  background: props.Theme1 ? props.Theme1 : "#FFA333",
                 }}
               ></div>
             )}
@@ -58,7 +58,7 @@ export default function DetailTheme(props) {
               <div
                 className="DetailTheme_Box"
                 style={{
-                  backgroundColor: props.Theme1 ? props.Theme3 : "#00654F",
+                  background: props.Theme1 ? props.Theme3 : "#00654F",
                 }}
               ></div>
             )}
@@ -66,7 +66,7 @@ export default function DetailTheme(props) {
               <div
                 className="DetailTheme_Box"
                 style={{
-                  backgroundColor: props.Theme1 ? props.Theme4 : "#454238",
+                  background: props.Theme1 ? props.Theme4 : "#454238",
                 }}
               ></div>
             )}
@@ -74,7 +74,7 @@ export default function DetailTheme(props) {
               <div
                 className="DetailTheme_Box"
                 style={{
-                  backgroundColor: props.Theme1 ? props.Theme5 : "#F6FAFB",
+                  background: props.Theme1 ? props.Theme5 : "#F6FAFB",
                 }}
               ></div>
             )}
@@ -82,7 +82,7 @@ export default function DetailTheme(props) {
               <div
                 className="DetailTheme_Box"
                 style={{
-                  backgroundColor: props.Theme1 ? props.Theme6 : "#C8CFD0",
+                  background: props.Theme1 ? props.Theme6 : "#C8CFD0",
                 }}
               ></div>
             )}
@@ -90,7 +90,7 @@ export default function DetailTheme(props) {
               <div
                 className="DetailTheme_Box"
                 style={{
-                  backgroundColor: props.Theme1 ? props.Theme7 : "#C8CFD0",
+                  background: props.Theme1 ? props.Theme7 : "#C8CFD0",
                 }}
               ></div>
             )}
@@ -119,6 +119,49 @@ export default function DetailTheme(props) {
       {props.fullscreen && (
         <div>
           <img style={{ width: "100%" }} src={props.src} />
+        </div>
+      )}
+      {props.overlap && (
+        <div
+          style={{ width: "100%", display: "flex", justifyContent: "flex-end" }}
+        >
+          <div style={{ width: "50%", margin: "0 5% -3% 0" }}>
+            <img style={{ width: "100%" }} src={props.src} />
+          </div>
+        </div>
+      )}
+      {props.inline && (
+        <div
+          style={{ width: "100%", display: "flex", justifyContent: "flex-end" }}
+        >
+          <div style={{ width: "30%", margin: "-15% 5% 0 0" }}>
+            <img style={{ width: "100%" }} src={props.src} />
+          </div>
+        </div>
+      )}
+      {props.double && (
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <div
+            style={{
+              width: "80%",
+              display: "flex",
+              justifyContent: "space-between",
+            }}
+          >
+            <div style={{ width: "40%" }}>
+              <img style={{ width: "100%" }} src={props.src1} />
+            </div>
+            <div style={{ width: "40%" }}>
+              <img style={{ width: "100%" }} src={props.src2} />
+            </div>
+          </div>
         </div>
       )}
     </>
