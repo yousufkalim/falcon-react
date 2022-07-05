@@ -18,7 +18,7 @@ import Register_Design2 from "../../assets/images/register_design2.png";
 import Register_Design3 from "../../assets/images/register_design3.png";
 
 import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import Register_Theme from "../../assets/images/register_theme.png";
+import Register_WebDev from "../../assets/images/register_webdev.png";
 import DetailLogo from "../../components/ProjectDetails/DetailLogo";
 import Yuwway_Logo from "../../assets/images/detail_yuwway_logo.png";
 import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
@@ -34,7 +34,7 @@ export default function RegisterRH() {
     <div className="Permispop_Container">
       <NavBar ContactUs />
       <DetailHeader
-        background="#ffffff"
+        background="#000000B8"
         bottomBG="#142E68"
         typoBG="#142E68"
         HeaderImg={Register_Header}
@@ -54,10 +54,10 @@ export default function RegisterRH() {
       />
       <DetailService
         // app
-        // web
-        both
+        web
+        // both
         titleTheme="#142E68"
-        borderColor="#000000"
+        borderColor="#42C2FF"
         circleTheme="#142E68"
       />
 
@@ -76,17 +76,17 @@ export default function RegisterRH() {
         titleTheme="#142E68"
         title="UI DESIGN"
         // overlap
-        TopImg={Register_Design1}
-        MidImg={Register_Design2}
-        BottomImg={Register_Design3}
-        // grids
-        // src1
-        // src2
+        // TopImg={Register_Design1}
+        // MidImg={Register_Design2}
+        // BottomImg={Register_Design3}
+        grids
+        src1={Register_Design2}
+        src2={Register_Design1}
         // src3
         // src4
-        // src5
+        src5={Register_Design3}
         // src6
-        overlap
+        // overlap
       />
 
       <DetailTheme
@@ -109,16 +109,16 @@ export default function RegisterRH() {
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
-        src={Register_Theme}
+        // src={Register_Theme}
       />
       {/* <DetailLogo theme="#0073BB" src={Yuwway_Logo} /> */}
-      {/* <DetailAppDev
-        title="MOBILE APP DEVELOPMENT"
+      <DetailAppDev
+        title="WEB DEVELOPMENT"
         // desp
-        // fullImg={Yuwway_AppDesign}
-        titleTheme="#0073BB"
-        halfImg={Yuwway_AppDesign}
-      /> */}
+        fullImg={Register_WebDev}
+        titleTheme="#142E68"
+        // halfImg={Yuwway_AppDesign}
+      />
       <DetailFeedback
         titleTheme="#0086EF"
         despTheme="#282828"

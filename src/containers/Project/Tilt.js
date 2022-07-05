@@ -8,10 +8,11 @@ import Tilt_Header from "../../assets/images/tilt_header.png";
 import DetailOverview from "../../components/ProjectDetails/DetailOverview";
 import OV_Tilt from "../../assets/images/ov_tilt.png";
 import DetailService from "../../components/ProjectDetails/DetailService";
+import BG_Logo from "../../assets/images/tilt_lite_logo.png";
 
 import QB_Avatar from "../../assets/images/overview_quadraAvatar.png";
 import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import Tilt_Demo from "../../assets/images/tilt_demo.png";
+import Tilt_Demo from "../../assets/images/tilt_demo_new.png";
 import DetailDesign from "../../components/ProjectDetails/DetailDesign";
 import Tilt_Design1 from "../../assets/images/tilt_design1.png";
 import Tilt_Design2 from "../../assets/images/tilt_design2.png";
@@ -23,6 +24,7 @@ import DetailLogo from "../../components/ProjectDetails/DetailLogo";
 import Tilt_Logo from "../../assets/images/detail_tilt_logo.png";
 import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
 import Tilt_AppDesign from "../../assets/images/tilt_appdesign.png";
+import Tilt_WebDesign from "../../assets/images/tilt_webdesign.png";
 import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
 import Footer from "../../components/Common/Footer";
 
@@ -56,6 +58,8 @@ export default function Tilt() {
         titleTheme="#282828"
         borderColor="#282828"
         circleTheme="#D3014A"
+        fitLogo
+        liteLogo={BG_Logo}
       />
 
       <DetailDemo
@@ -99,9 +103,9 @@ export default function Tilt() {
         titleTheme="#282828"
         // desp
         Theme1="#D3014A"
-        Theme2="#282828"
-        Theme3="#00000040"
-        Theme4="#C8CFD0"
+        Theme2="#ffffff"
+        Theme3="#282828"
+        Theme4="#575961"
         // Theme5="#00000040"
         // Theme6=""
         // Theme7=""
@@ -113,6 +117,13 @@ export default function Tilt() {
         title="MOBILE APP DEVELOPMENT"
         // desp
         fullImg={Tilt_AppDesign}
+        titleTheme="#282828"
+        // halfImg=(src Required)
+      />
+      <DetailAppDev
+        title="WEB DEVELOPMENT"
+        // desp
+        fullImg={Tilt_WebDesign}
         titleTheme="#282828"
         // halfImg=(src Required)
       />

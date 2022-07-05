@@ -8,17 +8,19 @@ import KidcabHeader from "../../assets/images/kidcabHeader.png";
 import DetailOverview from "../../components/ProjectDetails/DetailOverview";
 import OV_Kidcab from "../../assets/images/kidcab_overview.png";
 import DetailService from "../../components/ProjectDetails/DetailService";
+import BG_Logo from "../../assets/images/kidcab_lite_logo.png";
 
 import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
 import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import KidCab_Demo from "../../assets/images/kidcab_demo.png";
+import KidCab_Demo from "../../assets/images/kidcab_demo_new.png";
 import DetailDesign from "../../components/ProjectDetails/DetailDesign";
 import DetailTheme from "../../components/ProjectDetails/DetailTheme";
 import KidCab_Theme from "../../assets/images/kidcab_theme.png";
 import DetailLogo from "../../components/ProjectDetails/DetailLogo";
 import Kidcab_Logo from "../../assets/images/detail_kidcab_logo.png";
 import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import KidCab_AppDesign from "../../assets/images/kidcab_appDesign.png";
+import KidCab_AppDesign from "../../assets/images/kidcab_appDesign_new.png";
+import KidCab_WebDesign from "../../assets/images/kidcab_webDesign_new.png";
 import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
 import Footer from "../../components/Common/Footer";
 
@@ -53,6 +55,8 @@ export default function Kidcab() {
         titleTheme="#4CB9B4"
         borderColor="#18374E"
         circleTheme="#4CB9B4"
+        BGLogo
+        liteLogo={BG_Logo}
       />
 
       <DetailDemo
@@ -107,9 +111,16 @@ export default function Kidcab() {
       <DetailAppDev
         // title
         // desp
-        // halfImg (src Required)
+        halfImg={KidCab_AppDesign}
         titleTheme="#4CB9B4"
-        fullImg={KidCab_AppDesign}
+        // fullImg={KidCab_AppDesign}
+      />
+      <DetailAppDev
+        title="WEB DEVELOPMENT"
+        // desp
+        // halfImg={KidCab_AppDesign}
+        titleTheme="#4CB9B4"
+        fullImg={KidCab_WebDesign}
       />
       <DetailFeedback
         // titleTheme

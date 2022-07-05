@@ -8,6 +8,7 @@ import Table_Header from "../../assets/images/table_header.png";
 import DetailOverview from "../../components/ProjectDetails/DetailOverview";
 import OV_Table from "../../assets/images/ov_table.png";
 import DetailService from "../../components/ProjectDetails/DetailService";
+import BG_Logo from "../../assets/images/table_lite_logo.png";
 
 import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
 import DetailDemo from "../../components/ProjectDetails/DetailDemo";
@@ -57,6 +58,8 @@ export default function Table() {
         titleTheme="#D60000"
         borderColor="#18374E"
         circleTheme="#D60000"
+        fitLogo
+        liteLogo={BG_Logo}
       />
 
       <DetailDemo
@@ -103,7 +106,7 @@ export default function Table() {
         Theme2="#FFD54D"
         Theme3="#FAFAFA"
         Theme4="#191A1F"
-        // Theme5=""
+        Theme5="#575961"
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}

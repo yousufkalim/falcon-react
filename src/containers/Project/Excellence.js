@@ -102,7 +102,7 @@ export default function Excellence() {
         Theme1="#0086EF"
         Theme2="#FAFAFA"
         Theme3="#191A1F"
-        // Theme4="#282828"
+        Theme4="#575961"
         // Theme5="#00000040"
         // Theme6=""
         // Theme7=""
