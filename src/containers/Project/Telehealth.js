@@ -8,6 +8,7 @@ import Telehealth_Header from "../../assets/images/telehealth_header.png";
 import DetailOverview from "../../components/ProjectDetails/DetailOverview";
 import OV_Telehealth from "../../assets/images/ov_telehealth.png";
 import DetailService from "../../components/ProjectDetails/DetailService";
+import BG_Logo from "../../assets/images/tele_lite_logo.png";
 
 import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
 import DetailDemo from "../../components/ProjectDetails/DetailDemo";
@@ -59,6 +60,8 @@ export default function Telehealth() {
         titleTheme="#FBA622"
         borderColor="#FBA622"
         circleTheme="#136773"
+        BGLogo
+        liteLogo={BG_Logo}
       />
 
       <DetailDemo
@@ -67,7 +70,7 @@ export default function Telehealth() {
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
         titleColor="#FBA622"
-        title="EZbox Media"
+        title="Tele Health Platform"
         btnTheme="#FBA622"
         theme="#136773"
         src={Tele_Demo}
@@ -76,17 +79,17 @@ export default function Telehealth() {
         titleTheme="#454238"
         title="UI DESIGN"
         // overlap
-        TopImg={Tele_Design1}
-        MidImg={Tele_Design2}
-        BottomImg={Tele_Design3}
-        // grids
-        // src1
-        // src2
-        // src3
+        // TopImg={Tele_Design1}
+        // MidImg={Tele_Design2}
+        // BottomImg={Tele_Design3}
+        grids
+        src1={Tele_Design2}
+        src2={Tele_Design3}
+        // src3={Tele_Design2}
         // src4
-        // src5
-        // src6
-        overlap
+        src5={Tele_Design1}
+        src6={Tele_Design2}
+        // overlap
       />
 
       <DetailTheme

@@ -11,7 +11,7 @@ import DetailService from "../../components/ProjectDetails/DetailService";
 
 import QB_Avatar from "../../assets/images/overview_quadraAvatar.png";
 import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import Facility_Demo from "../../assets/images/facility_demo.png";
+import Facility_Demo from "../../assets/images/facility_demo_new.png";
 import DetailDesign from "../../components/ProjectDetails/DetailDesign";
 import Facility_Design1 from "../../assets/images/facility_design1.png";
 import Facility_Design2 from "../../assets/images/facility_design2.png";
@@ -97,28 +97,28 @@ export default function FacilityManagement() {
         // src1={OrgaPlan_Theme}
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
-        fullscreen
+        // fullscreen
         title="COLOR THEME AND DESIGN"
         titleTheme="#282828"
         // desp
         Theme1="#2F696D"
         Theme2="#FAFAFA"
         Theme3="#191A1F"
-        // Theme4="#C8CFD0"
+        Theme4="#575961"
         // Theme5="#00000040"
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
-        src={Facility_Theme}
+        // src={Facility_Theme}
       />
       {/* <DetailLogo theme="#0073BB" src={Yuwway_Logo} /> */}
-      {/* <DetailAppDev
-        title="MOBILE APP DEVELOPMENT"
+      <DetailAppDev
+        title="WEB DEVELOPMENT"
         // desp
-        // fullImg={Yuwway_AppDesign}
-        titleTheme="#0073BB"
-        halfImg={Yuwway_AppDesign}
-      /> */}
+        fullImg={Facility_Theme}
+        titleTheme="#282828"
+        // halfImg={Yuwway_AppDesign}
+      />
       <DetailFeedback
         titleTheme="#2F696D"
         despTheme="#282828"

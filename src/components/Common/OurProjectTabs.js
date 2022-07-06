@@ -47,6 +47,7 @@ import { Button } from "@mui/material";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import { useTranslation } from "react-i18next";
 // import Website from "./WebsiteList";
 
 const items = [
@@ -109,6 +110,8 @@ function a11yProps(index) {
 }
 
 export default function BasicTabs() {
+  const { i18n, t } = useTranslation();
+
   const [MoreProjects, SetMoreProjects] = React.useState(false);
   const [activeId, setactiveId] = useState(2);
   const [value, setValue] = React.useState(2);
@@ -139,7 +142,7 @@ export default function BasicTabs() {
                   ? "pjlabs"
                   : "ProjectListLabel "
               }`}
-              label={val?.text}
+              label={t(val?.text)}
               {...a11yProps(index)}
             />
           ))}
@@ -204,7 +207,7 @@ export default function BasicTabs() {
           description="Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. "
           // Modal Data
           para1="Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. "
-          para2="The platform offers several features such as : "
+          para2="The platform offers several features such as :"
           para3="- the possibility to search for an instructor with an interactive map, and book a session depending on his availability."
           para4="- The booking feature allows the driving schools and instructors to have an overview of all the activities and manage them efficiently;"
           para5="- At the end of each session, the student can rate the instructor and provide feedback to the platform; "
@@ -326,10 +329,12 @@ export default function BasicTabs() {
           DividerTheme="#11A283"
           src={PermispopImg}
           title="Permispop"
-          description="Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. "
+          description={t(
+            "Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. "
+          )}
           // Modal Data
           para1="Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. "
-          para2="The platform offers several features such as : "
+          para2="The platform offers several features such as :"
           para3="- the possibility to search for an instructor with an interactive map, and book a session depending on his availability."
           para4="- The booking feature allows the driving schools and instructors to have an overview of all the activities and manage them efficiently;"
           para5="- At the end of each session, the student can rate the instructor and provide feedback to the platform; "
@@ -384,8 +389,8 @@ export default function BasicTabs() {
           description="Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order. "
           src={Tilt}
           // Modal Data
-          para1="Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.  "
-          para2="The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience. "
+          para1="Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order."
+          para2="The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience."
           para3="On the restaurant side, it is possible to create and manage a customized menu, see all the incoming orders, and change their status."
           para4="On the delivery side, the application the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications. "
         />
@@ -409,10 +414,10 @@ export default function BasicTabs() {
           title="Kidcab"
           description="Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. "
           // Modal Data
-          para1="Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. "
+          para1="Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application."
           para2="The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. "
-          para3="The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. "
-          para4="Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. "
+          para3="The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides."
+          para4="Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created."
           para5="This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. "
         />
         <OurProjectCard

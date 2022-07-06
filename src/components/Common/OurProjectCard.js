@@ -7,9 +7,17 @@ import PP_logo from "../../assets/images/permisLogo.png";
 import Button from "@mui/material/Button";
 import { Divider } from "@mui/material";
 import BasicModal from "./BasicModal";
+import { useTranslation } from "react-i18next";
 // Home Component
 
 export default function OurProjectCard(props) {
+  const { i18n, t } = useTranslation();
+  const [desp, setDesp] = useState();
+
+  useEffect(() => {
+    setDesp(t(props?.description));
+  }, [props?.description]);
+
   return (
     <>
       {props.Reverse ? (
@@ -49,15 +57,13 @@ export default function OurProjectCard(props) {
 
                 <Typography className="ProjectCardDesp">
                   {/* {props.description} */}
-                  {props?.description?.length > 90
-                    ? props?.description.slice(0, 90) + "..."
-                    : props?.description}
+                  {t(desp?.length > 90 ? desp.slice(0, 90) + "..." : desp)}
                 </Typography>
                 <Button className="ProjectCardBtn" variant="outlined">
                   <BasicModal
                     ModalBtntextColor="#003B7E"
                     ModalBtnTheme={props.ModalBtnTheme || "transparent"}
-                    ModalBtnText="View"
+                    ModalBtnText={t("View")}
                     LogoSrc={props.LogoSrc}
                     Heading={props.title}
                     Dividerwidth={props.Dividerwidth || "12%"}
@@ -105,17 +111,15 @@ export default function OurProjectCard(props) {
                 />
 
                 <Typography className="ProjectCardDesp">
-                  {props?.description?.length > 90
-                    ? props?.description.slice(0, 90) + "..."
-                    : props?.description}
-                  {/* {props.description} */}
+                  {desp?.length > 90 ? desp.slice(0, 90) + "..." : desp}
+                  {/* {t(props.description)} */}
                 </Typography>
 
                 <Button className="ProjectCardBtn" variant="outlined">
                   <BasicModal
                     ModalBtntextColor="#003B7E"
                     ModalBtnTheme={props.ModalBtnTheme || "transparent"}
-                    ModalBtnText="View"
+                    ModalBtnText={t("View")}
                     LogoSrc={props.LogoSrc}
                     Heading={props.title}
                     Dividerwidth={props.Dividerwidth || "12%"}

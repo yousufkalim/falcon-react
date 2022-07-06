@@ -67,7 +67,7 @@ export default function Zypzap() {
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
         titleColor="#16172D"
-        title="Facility Management"
+        title="Zypzap"
         btnTheme="#16172D"
         theme="linear-gradient(227.79deg, #20BF55 -1.61%, #522F6D 74.91%)"
         src={Zypzap_Demo}
@@ -101,11 +101,11 @@ export default function Zypzap() {
         title="COLOR THEME"
         titleTheme="#000000"
         // desp
-        Theme1="#000000"
-        Theme2="#522F6D"
-        Theme3="#20BF55"
-        Theme4="#F5F5F5"
-        // Theme5="#00000040"
+        Theme1="#522F6D"
+        Theme2="#20BF55"
+        Theme3="#F5F5F5"
+        Theme4="#000000"
+        Theme5="#575961"
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}

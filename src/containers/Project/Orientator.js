@@ -19,6 +19,8 @@ import Facility_Design3 from "../../assets/images/facility_design3.png";
 
 import DetailTheme from "../../components/ProjectDetails/DetailTheme";
 import Orientator_Theme from "../../assets/images/orientator_theme.png";
+import Orientator_WebHalf from "../../assets/images/orientator_webhalf.png";
+import Orientator_WebFull from "../../assets/images/orientator_webfull.png";
 import DetailLogo from "../../components/ProjectDetails/DetailLogo";
 import Yuwway_Logo from "../../assets/images/detail_yuwway_logo.png";
 import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
@@ -67,8 +69,8 @@ export default function Orientator() {
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
         titleColor="#FF29AA"
-        title="Facility Management"
-        btnTheme="linear-gradient(267.62deg, #A70065 1.18%, #B81900 47.48%, #BB9200 100%)"
+        title="ORIENTATOR"
+        btnTheme="linear-gradient(267.62deg, #FF3A87 1.18%, #FF6924 47.48%, #FFA220 100%)"
         theme="linear-gradient(229.11deg, #FECE24 1.54%, #FF6D1A 100%)"
         src={Firemen_Demo}
       />
@@ -97,11 +99,11 @@ export default function Orientator() {
         // src1={OrgaPlan_Theme}
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
-        fullscreen
+        // fullscreen
         title="COLOR THEME AND DESIGN"
-        titleTheme="FF29AA"
+        titleTheme="#FF29AA"
         // desp
-        Theme1="FF29AA"
+        Theme1="#FF29AA"
         Theme2="#FF6D1A"
         Theme3="#FFFFFF"
         Theme4="#191A1F"
@@ -109,22 +111,22 @@ export default function Orientator() {
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
-        src={Orientator_Theme}
+        // src={Orientator_Theme}
       />
       {/* <DetailLogo theme="#0073BB" src={Yuwway_Logo} /> */}
-      {/* <DetailAppDev
-        title="MOBILE APP DEVELOPMENT"
+      <DetailAppDev
+        title="WEB DEVELOPMENT"
         // desp
-        // fullImg={Yuwway_AppDesign}
-        titleTheme="#0073BB"
-        halfImg={Yuwway_AppDesign}
-      /> */}
-      <DetailFeedback
+        fullImg={Orientator_WebFull}
         titleTheme="#FF29AA"
-        despTheme="#282828"
+        halfImg={Orientator_WebHalf}
+      />
+      <DetailFeedback
+        // titleTheme="#FF29AA"
+        // despTheme="#282828"
         // desp
         // location
-        ThemeBG="#fffff"
+        ThemeBG="linear-gradient(269.14deg, #BE9400 0%, #CB4B03 48.96%, #8B0054 100%)"
         // AvatarSrc={Kidcab_Avatar}
         name="Ukhano"
       />

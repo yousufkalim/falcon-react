@@ -102,7 +102,7 @@ export default function Sindoor() {
         Theme1="#E45A5A"
         Theme2="#FAFAFA"
         Theme3="#191A1F"
-        // Theme4="#191A1F"
+        Theme4="#575961"
         // Theme5=""
         // Theme6=""
         // Theme7=""

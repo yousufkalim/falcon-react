@@ -1,6 +1,8 @@
 import { Typography } from "@mui/material";
 import React from "react";
+import { useTranslation } from "react-i18next";
 export default function DeveloperWorkCard(props) {
+  const { i18n, t } = useTranslation();
   return (
     <>
       {props.reverse ? (
@@ -18,7 +20,7 @@ export default function DeveloperWorkCard(props) {
                   marginBottom: "2%",
                 }}
               >
-                {props.title}
+                {t(props.title)}
               </Typography>
               <Typography
                 sx={{
@@ -28,7 +30,7 @@ export default function DeveloperWorkCard(props) {
                   width: "90%",
                 }}
               >
-                {props.desp}
+                {t(props.desp)}
               </Typography>
             </div>
           </div>
@@ -45,7 +47,7 @@ export default function DeveloperWorkCard(props) {
                   marginBottom: "2%",
                 }}
               >
-                {props.title}
+                {t(props.title)}
               </Typography>
               <Typography
                 sx={{
@@ -55,7 +57,7 @@ export default function DeveloperWorkCard(props) {
                   width: "100%",
                 }}
               >
-                {props.desp}
+                {t(props.desp)}
               </Typography>
             </div>
           </div>

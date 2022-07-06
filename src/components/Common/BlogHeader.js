@@ -2,11 +2,13 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import { motion } from "framer-motion";
-
+import { useTranslation } from "react-i18next";
 // Importing Components
 
 // Home Component
 export default function BlogHeader() {
+  const { i18n, t } = useTranslation();
+
   return (
     <>
       <motion.div
@@ -32,7 +34,7 @@ export default function BlogHeader() {
             margin: ".5% 0%",
           }}
         >
-          Always looking into improving ourselves.
+          {t("Always looking into improving ourselves.")}
         </Typography>
         <Typography
           className="BlogHeaderTypo"
@@ -43,8 +45,9 @@ export default function BlogHeader() {
             width: "20%",
           }}
         >
-          The articles written below by our team reflect our values and
-          expertize when it comes to collaborating in mid-size and big projects.
+          {t(
+            "The articles written below by our team reflect our values and expertize when it comes to collaborating in mid-size and big projects."
+          )}
         </Typography>
         <div
           className="BlogHeaderInput"
@@ -67,7 +70,7 @@ export default function BlogHeader() {
               paddingLeft: "5%",
               fontSize: "1rem",
             }}
-            placeholder="Your Email"
+            placeholder={t("Your Email")}
           />
           <button
             style={{
@@ -82,7 +85,7 @@ export default function BlogHeader() {
               cursor: "pointer",
             }}
           >
-            SUBSCRIBE
+            {t("SUBSCRIBE")}
           </button>
         </div>
       </motion.div>

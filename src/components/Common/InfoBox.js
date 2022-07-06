@@ -1,6 +1,8 @@
 import React from "react";
 import Info1 from "../../assets/images/Info1.svg";
+import { useTranslation } from "react-i18next";
 export default function InfoBox(props) {
+  const { i18n, t } = useTranslation();
   return (
     <>
       <div className="InfoDiv">
@@ -8,7 +10,7 @@ export default function InfoBox(props) {
           <img src={props.src || Info1} />
         </div>
         <h2>{props.number}</h2>
-        <p>{props.title}</p>
+        <p>{t(props.title)}</p>
       </div>
     </>
   );

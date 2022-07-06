@@ -1,6 +1,8 @@
 import React from "react";
 import { Typography } from "@mui/material";
+import { useTranslation } from "react-i18next";
 export default function WorkProcessSteps(props) {
+  const { i18n, t } = useTranslation();
   return (
     <>
       <div
@@ -14,7 +16,7 @@ export default function WorkProcessSteps(props) {
       >
         <img style={{ width: "20%", margin: "3% 0%" }} src={props.src} />
         <Typography sx={{ color: "white", fontWeight: "700", margin: "5% 0%" }}>
-          {props.title}
+          {t(props.title)}
         </Typography>
         <Typography
           sx={{
@@ -25,7 +27,7 @@ export default function WorkProcessSteps(props) {
             opacity: "80%",
           }}
         >
-          {props.desp}
+          {t(props.desp)}
         </Typography>
       </div>
     </>

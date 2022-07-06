@@ -9,8 +9,11 @@ import Divider from "@mui/material/Divider";
 import Button from "@mui/material/Button";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 // Component
 export default function Header(props) {
+  const { i18n, t } = useTranslation();
+
   return (
     <>
       <Grid
@@ -35,8 +38,8 @@ export default function Header(props) {
               style={props.TitleStyle}
               color={props.Titlecolor || "#003B7E"}
             >
-              <span style={{ color: "#003B7E" }}>{props.ColorTitle}</span>
-              {props.Title}
+              {/* <span style={{ color: "#003B7E" }}>{props.ColorTitle}</span> */}
+              {t(props.Title)}
             </Typography>
             <Divider
               width={props.Dividerwidth || "17%"}
@@ -54,14 +57,14 @@ export default function Header(props) {
               color={props.DespColor}
               style={props.ParaStyle}
             >
-              {props.Description}
+              {t(props.Description)}
             </Typography>
             {props.btn && (
               <Link className="BtnLink" to={`/contactus`}>
                 <Button
                   className={props.btnClassName ? "btnClassName" : "HeaderBtn"}
                 >
-                  {props.btnText}
+                  {t(props.btnText)}
                 </Button>
               </Link>
             )}

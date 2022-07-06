@@ -81,27 +81,27 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                       <ul className="ServicesFields">
                         <li>
                           <Link to={`/services/web-development`}>
-                            WEB DEVELOPMENT
+                            {t("WEB DEVELOPMENT")}
                           </Link>
                         </li>
                         <li>
                           <Link to={`/services/app-development`}>
-                            APP DEVELOPMENT
+                            {t("APP DEVELOPMENT")}
                           </Link>
                         </li>
                         <li>
                           <Link to={`/services/software-development`}>
-                            SOFTWARE DEVELOPMENT
+                            {t("SOFTWARE DEVELOPMENT")}
                           </Link>
                         </li>
                         <li>
                           <Link to={`/services/ondemand-developers`}>
-                            ON DEMAND DEVELOPERS
+                            {t("ON DEMAND DEVELOPERS")}
                           </Link>
                         </li>
                         <li>
                           <Link to={`/services/ui-development`}>
-                            UI/UX DEVELOPMENT
+                            {t("UI/UX DEVELOPMENT")}
                           </Link>
                         </li>
                       </ul>
@@ -129,7 +129,7 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                 <div className="text-dot-container">
                   <span class="dot"></span>
                   {/* <a style={{color:"white"}} href={`/about`}>About</a> */}
-                  <Link to="/about">About</Link>
+                  <Link to="/about">{t("About")}</Link>
                 </div>
                 <div className="text-dot-container">
                   <span class="dot"></span>
@@ -137,20 +137,20 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                     className="services"
                     // onClick={(e) => SetServiceDropDown(!ServiceDropDown)}
                   >
-                    Services
+                    {t("Services")}
                   </span>
                 </div>
                 <div className="text-dot-container">
                   <span class="dot"></span>
-                  <Link to="/blog">Blog</Link>
+                  <Link to="/blog">{t("Blog")}</Link>
                 </div>
                 <div className="text-dot-container">
                   <span class="dot"></span>
-                  <Link to="/ourprojects">Our Projects</Link>
+                  <Link to="/ourprojects">{t("Our Projects")}</Link>
                 </div>
                 <div className="text-dot-container">
                   <span class="dot"></span>
-                  <Link to="/contactus">Contact Us</Link>
+                  <Link to="/contactus">{t("Contact Us")}</Link>
                 </div>
                 <ul className="MainMenuList">
                   {/* <li onClick={(e) => SetServiceDropDown(!ServiceDropDown)}>
@@ -172,14 +172,14 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                       >
                         <ListItemButton id="Mob_nav">
                           <Link className="Nav_links" to={`/about`}>
-                            <ListItemText id="Mob_items" primary="About" />
+                            <ListItemText id="Mob_items" primary={t("About")} />
                           </Link>
                         </ListItemButton>
                         <ListItemButton id="Mob_nav" onClick={handleClick}>
                           <ListItemText
                             id="Mob_items"
                             className="dropDown_list"
-                            primary="Services"
+                            primary={t("Services")}
                           />
                           {open ? <ExpandLess /> : <ExpandMore />}
                         </ListItemButton>
@@ -204,7 +204,7 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                                 <ListItemText>
                                   <div className="Servive_DropDown">
                                     {" "}
-                                    WEB DEVELOPMENT
+                                    {t("WEB DEVELOPMENT")}
                                   </div>
                                 </ListItemText>
                               </Link>
@@ -217,7 +217,7 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                                 <ListItemText>
                                   <div className="Servive_DropDown">
                                     {" "}
-                                    APP DEVELOPMENT
+                                    {t("APP DEVELOPMENT")}
                                   </div>
                                 </ListItemText>
                               </Link>
@@ -230,7 +230,7 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                                 <ListItemText>
                                   <div className="Servive_DropDown">
                                     {" "}
-                                    SOFTWARE DEVELOPMENT
+                                    {t("SOFTWARE DEVELOPMENT")}
                                   </div>
                                 </ListItemText>
                               </Link>
@@ -243,7 +243,7 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                                 <ListItemText>
                                   <div className="Servive_DropDown">
                                     {" "}
-                                    ON DEMAND DEVELOPERS
+                                    {t("ON DEMAND DEVELOPERS")}
                                   </div>
                                 </ListItemText>
                               </Link>
@@ -256,7 +256,7 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                                 <ListItemText>
                                   <div className="Servive_DropDown">
                                     {" "}
-                                    UI/UX DEVELOPMENT
+                                    {t("UI/UX DEVELOPMENT")}
                                   </div>
                                 </ListItemText>
                               </Link>
@@ -265,17 +265,17 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                         </Collapse>
                         <ListItemButton id="Mob_nav">
                           <Link className="Nav_links" to={`/blog`}>
-                            <ListItemText primary="Blog" />
+                            <ListItemText primary={t("Blog")} />
                           </Link>
                         </ListItemButton>
                         <ListItemButton id="Mob_nav">
                           <Link className="Nav_links" to={`/ourprojects`}>
-                            <ListItemText primary="Our Projects" />
+                            <ListItemText primary={t("Our Projects")} />
                           </Link>
                         </ListItemButton>
                         <ListItemButton id="Mob_nav">
                           <Link className="Nav_links" to={`/contactus`}>
-                            <ListItemText primary="Contact Us" />
+                            <ListItemText primary={t("Contact Us")} />
                           </Link>
                         </ListItemButton>
                       </List>

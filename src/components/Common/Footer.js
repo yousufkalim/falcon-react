@@ -41,9 +41,9 @@ export default function Footer(props) {
               className="FooterTypo"
               sx={{ color: "#282828", opacity: "50%", marginBottom: "3%" }}
             >
-              The services are provided at a flat rate, or according to a
-              determined daily rate, based on your preference. In both cases, we
-              guarantee you a quality service at a very competitive price.
+              {t(
+                "The services are provided at a flat rate, or according to a determined daily rate, based on your preference. In both cases, we guarantee you a quality service at a very competitive price."
+              )}
             </Typography>
           </div>
           <div className="FooterRight">
@@ -52,22 +52,22 @@ export default function Footer(props) {
                 className="FooterListHeading"
                 sx={{ fontWeight: "700", opacity: "40%", marginBottom: "40%" }}
               >
-                Overview
+                {t("Overview")}
               </Typography>
               <ul>
                 <li>
                   <Link className="Footer_li" to="/about">
-                    About
+                    {t("About")}
                   </Link>
                 </li>
                 <li>
                   <Link className="Footer_li" to="/ourprojects">
-                    Our projects
+                    {t("Our projects")}
                   </Link>
                 </li>
                 <li>
                   <Link className="Footer_li" to="/contactus">
-                    Contact
+                    {t("Contact")}
                   </Link>
                 </li>
               </ul>
@@ -77,17 +77,17 @@ export default function Footer(props) {
                 className="FooterListHeading"
                 sx={{ fontWeight: "700", opacity: "40%", marginBottom: "23%" }}
               >
-                Solutions
+                {t("Solutions")}
               </Typography>
               <ul>
                 <li>
                   <Link className="Footer_li" to="/services/web-development">
-                    Web Development
+                    {t("Web Development")}
                   </Link>
                 </li>
                 <li>
                   <Link className="Footer_li" to="/services/app-development">
-                    App Development
+                    {t("App Development")}
                   </Link>
                 </li>
                 <li>
@@ -95,7 +95,7 @@ export default function Footer(props) {
                     className="Footer_li"
                     to="/services/software-development"
                   >
-                    Software Development
+                    {t("Software Development")}
                   </Link>
                 </li>
                 {/* <li>
@@ -108,7 +108,7 @@ export default function Footer(props) {
                 </li> */}
                 <li>
                   <Link className="Footer_li" to="/services/ui-development">
-                    UI/UX Developmemt
+                    {t("UI/UX Developmemt")}
                   </Link>
                 </li>
               </ul>
@@ -149,7 +149,7 @@ export default function Footer(props) {
           <div className="LegalMentionDiv">
             <Typography>
               <a className="LegalMention_H" href="/legalmentions">
-                Legal Mentions
+                {t("Legal Mentions")}
               </a>{" "}
             </Typography>
           </div>
@@ -163,8 +163,8 @@ export default function Footer(props) {
           sx={{ fontSize: "70%", fontWeight: "700" }}
         >
           © 2015-{new Date().getFullYear()}
-          <span style={{ color: "#003B7E" }}> Falcon Consulting</span>, All
-          Rights Reserved.
+          <span style={{ color: "#003B7E" }}> Falcon Consulting</span>,{" "}
+          {t("All Rights Reserved")}.
         </Typography>
 
         <Typography

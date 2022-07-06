@@ -1,8 +1,9 @@
 import React from "react";
 import { Button, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-
+import { useTranslation } from "react-i18next";
 export default function DeveloperSlider(props) {
+  const { i18n, t } = useTranslation();
   return (
     <>
       <div className="DeveloperDiv">
@@ -10,10 +11,14 @@ export default function DeveloperSlider(props) {
           <img className="Developer_Img" src={props.src} />
         </div>
         <div className="DeveloperDiv_Typo">
-          <Typography className="DeveloperTypo_H">{props.heading}</Typography>
-          <Typography className="DeveloperTypo_Desp">{props.desp}</Typography>
+          <Typography className="DeveloperTypo_H">
+            {t(props.heading)}
+          </Typography>
+          <Typography className="DeveloperTypo_Desp">
+            {t(props.desp)}
+          </Typography>
           <Button className="DeveloperTypo_Btn" variant="outlined">
-            <Link to={`/contactus`}>{props.btnText || "Contact us"}</Link>
+            <Link to={`/contactus`}>{t(props.btnText || "Contact Us")}</Link>
           </Button>
         </div>
       </div>

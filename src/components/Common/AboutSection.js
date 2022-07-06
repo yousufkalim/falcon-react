@@ -9,8 +9,10 @@ import AboutInfo4 from "../../assets/images/aboutSec_4.svg";
 import AboutInfo5 from "../../assets/images/aboutSec_5.svg";
 import AboutInfo6 from "../../assets/images/aboutSec_6.svg";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 export default function AboutSection() {
+  const { i18n, t } = useTranslation();
   return (
     <>
       <div className="AboutSectionDiv">
@@ -36,7 +38,7 @@ export default function AboutSection() {
                 <InfoBox
                   src={AboutInfo2}
                   number="65"
-                  title="Number of Employes"
+                  title="Number of Employees"
                 />
                 <InfoBox
                   src={AboutInfo3}
@@ -95,7 +97,9 @@ export default function AboutSection() {
                         color: "#003B7E",
                       }}
                     >
-                      We believe that talent and skills do not have borders
+                      {t(
+                        "We believe that talent and skills do not have borders"
+                      )}
                     </Typography>
                     <Typography
                       sx={{
@@ -104,16 +108,14 @@ export default function AboutSection() {
                         color: "#003B7E",
                       }}
                     >
-                      We are a human-oriented company, investing in training
-                      healthy atmosphere and cooperative management to make sure
-                      our employees reach their full potential, and personally
-                      develop through their work. Our team is sensitized every
-                      day about the importance of quality management, and we
-                      strive to put in place a continuous improvement process
-                      internally
+                      {t(
+                        "We are a human-oriented company, investing in training healthy atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to put in place a continuous improvement process internally"
+                      )}
                     </Typography>
                     <a href={`/about`}>
-                      <button className="AboutSectionBtn">READ MORE ‘ </button>
+                      <button className="AboutSectionBtn">
+                        {t("READ MORE")}
+                      </button>
                     </a>
                   </motion.div>
                 </div>

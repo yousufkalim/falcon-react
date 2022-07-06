@@ -20,7 +20,7 @@ import Yuwway_Design3 from "../../assets/images/yuwway_design3.png";
 import DetailTheme from "../../components/ProjectDetails/DetailTheme";
 import Firemen_Theme from "../../assets/images/firemen_theme.png";
 import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import Wina_Logo from "../../assets/images/detail_wina_logo.png";
+import Wina_Logo from "../../assets/images/detail_wina_logo_new.png";
 import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
 import Wina_AppDesign from "../../assets/images/wina_appdesign.png";
 import Wina_WebDesign from "../../assets/images/wina_webdesign.png";
@@ -105,8 +105,8 @@ export default function Wina() {
         // desp
         Theme1="#2A5AA6"
         Theme2="#FAFAFA"
-        Theme3="#191A1F"
-        // Theme4="#C8CFD0"
+        Theme3="#D1A38D"
+        Theme4="#191A1F"
         // Theme5="#00000040"
         // Theme6=""
         // Theme7=""
@@ -122,7 +122,7 @@ export default function Wina() {
         // halfImg={Wina_AppDesign}
       />
       <DetailAppDev
-        title="WEB DESIGN"
+        title="WEB DEVELOPMENT"
         // desp
         fullImg={Wina_WebDesign}
         titleTheme="#2A5AA6"
