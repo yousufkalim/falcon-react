@@ -146,14 +146,7 @@ export default function LatestProjects(props) {
             className="ProjectsCompletedDiv"
           >
             <div className="Left" style={{ position: "relative" }}>
-              <Timer
-                style={{
-                  position: "absolute",
-                  color: "#F8F8F890",
-                  top: "-10%",
-                  left: "10%",
-                }}
-              />
+              <Timer className="ProjectsCompleted_Timer" />
               <Typography
                 className="ProjectsCompleted_Num"
                 sx={{ fontWeight: "700" }}
@@ -165,14 +158,7 @@ export default function LatestProjects(props) {
               </Typography>
             </div>
             <div className="center" style={{ position: "relative" }}>
-              <MedKit
-                style={{
-                  position: "absolute",
-                  color: "#F8F8F890",
-                  top: "-10%",
-                  left: "0",
-                }}
-              />
+              <MedKit className="ProjectsCompleted_MedKit" />
               <Typography
                 className="ProjectsCompleted_Num"
                 sx={{ fontWeight: "700" }}
@@ -184,14 +170,7 @@ export default function LatestProjects(props) {
               </Typography>
             </div>
             <div className="Right" style={{ position: "relative" }}>
-              <Award
-                style={{
-                  position: "absolute",
-                  color: "#F8F8F890",
-                  top: "-20%",
-                  left: "10%",
-                }}
-              />
+              <Award className="ProjectsCompleted_Award" />
               <Typography
                 className="ProjectsCompleted_Num"
                 sx={{ fontWeight: "700" }}
