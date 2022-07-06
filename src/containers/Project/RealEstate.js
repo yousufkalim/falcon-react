@@ -11,7 +11,7 @@ import DetailService from "../../components/ProjectDetails/DetailService";
 
 import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
 import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import RealEstate_Demo from "../../assets/images/realestate_demo.png";
+import RealEstate_Demo from "../../assets/images/realestate_demo_new.png";
 import DetailDesign from "../../components/ProjectDetails/DetailDesign";
 import RealEstate_Design1 from "../../assets/images/realestate_design1.png";
 import RealEstate_Design2 from "../../assets/images/realestate_design2.png";
@@ -22,7 +22,7 @@ import RealEstate_Theme1 from "../../assets/images/realestate_theme1.png";
 import DetailLogo from "../../components/ProjectDetails/DetailLogo";
 import RealEstate_Logo from "../../assets/images/detail_realestate_logo.png";
 import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import RealEstate_AppDesign from "../../assets/images/realestate_appdesign.png";
+import RealEstate_AppDesign from "../../assets/images/realestate_appdesign_new.png";
 import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
 import Footer from "../../components/Common/Footer";
 
@@ -91,8 +91,9 @@ export default function RealEstate() {
         // desp
         // centerImage
         // src
-        Images
-        src1={RealEstate_Theme1}
+        inline
+        // Images
+        src={RealEstate_Theme1}
         // src2={EZbox_Theme2}
         // src3={EZbox_Theme3}
         // fullscreen
@@ -102,7 +103,7 @@ export default function RealEstate() {
         Theme2="rgba(131, 124, 107, 0.5)"
         Theme3="#FAFAFA"
         Theme4="#191A1F"
-        // Theme5=""
+        Theme5="#575961"
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
@@ -112,9 +113,9 @@ export default function RealEstate() {
       <DetailAppDev
         title="MOBILE APP DEVELOPMENT"
         // desp
-        fullImg={RealEstate_AppDesign}
+        // fullImg={RealEstate_AppDesign}
         titleTheme="#837C6B"
-        // halfImg=(src Required)
+        halfImg={RealEstate_AppDesign}
       />
       <DetailFeedback
         // titleTheme

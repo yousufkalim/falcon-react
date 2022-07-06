@@ -18,6 +18,20 @@ export default function DetailService(props) {
   return (
     <>
       <div className="DetailService_Container">
+        {props.BGLogo && (
+          <div className="DetailService_BGLogo_Div">
+            <img className="DetailService_BGLogo_Img1" src={props.liteLogo} />
+            <img className="DetailService_BGLogo_Img2" src={props.liteLogo} />
+            <img className="DetailService_BGLogo_Img3" src={props.liteLogo} />
+          </div>
+        )}
+        {props.fitLogo && (
+          <div className="DetailService_FitLogo_Div">
+            <img className="DetailService_FitLogo_Img1" src={props.liteLogo} />
+            <img className="DetailService_FitLogo_Img2" src={props.liteLogo} />
+            <img className="DetailService_FitLogo_Img3" src={props.liteLogo} />
+          </div>
+        )}
         <div className="DetailService_TitleDiv">
           <Divider
             className="DetailService_TitleDivider"

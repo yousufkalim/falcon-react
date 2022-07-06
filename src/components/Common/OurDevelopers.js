@@ -1,14 +1,15 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionHeader from "../Common/SectionHeader";
 import Agile from "../../assets/images/od_agile.png";
 import Experienced from "../../assets/images/od_experienced.png";
 import Trained from "../../assets/images/od_trained.png";
 import Dedicated from "../../assets/images/od_dedicated.png";
 import DeveloperSlider from "../Common/DeveloperSlider";
-
+import { useTranslation } from "react-i18next";
 export default function OurDevelopers(props) {
+  const { i18n, t } = useTranslation();
   return (
     <>
       <div className="OurDevelopersMain">
@@ -21,18 +22,18 @@ export default function OurDevelopers(props) {
           />
         </div>
         <div className="DeveloperSliderDiv">
-          <Carousel 
-          className="DeveloperCarouselDiv"
-          autoPlay
-          infiniteLoop
-          showIndicators={false}
-          showStatus={false}
-          swipeable={false}
+          <Carousel
+            className="DeveloperCarouselDiv"
+            autoPlay
+            infiniteLoop
+            showIndicators={false}
+            showStatus={false}
+            swipeable={false}
           >
-          <DeveloperSlider
+            <DeveloperSlider
               src={Agile}
               heading="Agile"
-              desp=" We train them in agile management methods so that our partners can take full advantage of them"
+              desp="We train them in agile management methods so that our partners can take full advantage of them"
             />
             <DeveloperSlider
               src={Experienced}
@@ -42,7 +43,7 @@ export default function OurDevelopers(props) {
             <DeveloperSlider
               src={Trained}
               heading="Trained"
-              desp="We train our developers ourselves by positioning them on internet internet project in order to ensure that we transmit to them the “soft skills” as well as the “hard skills”"
+              desp="We train our developers ourselves by positioning them on internet internet project in order to ensure that we transmit to them the “soft skills” as well as the hard skills"
             />
             <DeveloperSlider
               src={Dedicated}

@@ -2,7 +2,10 @@ import React from "react";
 import SectionHeader from "../Common/SectionHeader";
 import VisionImg from "../../assets/images/visionImg.svg";
 import { Typography } from "@mui/material";
+import { useTranslation } from "react-i18next";
 export default function VisionSection() {
+  const { i18n, t } = useTranslation();
+
   return (
     <>
       <div className="VisionDiv">
@@ -16,14 +19,14 @@ export default function VisionSection() {
           />
           <div className="VisionList">
             <ul style={{ marginLeft: "5%" }}>
-              <li>IN-HOUSE TEAM</li>
-              <li>TECHNOLOGIES</li>
-              <li>USER-FOCUSED PROCESS</li>
-              <li>SMOOTH COMMUNICATION</li>
-              <li>6 YEARS' EXPERIENCE</li>
-              <li>FULL FLEXIBILITY</li>
-              <li>HIGH QUALITY CODE</li>
-              <li>TRANSPARENCY</li>
+              <li>{t("IN-HOUSE TEAM")}</li>
+              <li>{t("TECHNOLOGIES")}</li>
+              <li>{t("USER-FOCUSED PROCESS")}</li>
+              <li>{t("SMOOTH COMMUNICATION")}</li>
+              <li>{t("8 YEARS' EXPERIENCE")}</li>
+              <li>{t("FULL FLEXIBILITY")}</li>
+              <li>{t("HIGH QUALITY CODE")}</li>
+              <li>{t("TRANSPARENCY")}</li>
             </ul>
           </div>
         </div>

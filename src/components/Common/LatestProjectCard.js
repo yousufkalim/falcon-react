@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Typography } from "@mui/material";
 import BasicModal from "./BasicModal";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function LatestProjectsCard(props) {
+  const { i18n, t } = useTranslation();
+  const [desp, setDesp] = useState();
+
+  useEffect(() => {
+    setDesp(t(props?.hoverDesp));
+  }, [props?.hoverDesp]);
+
   return (
     <div className="SliderProject">
       <div
@@ -12,10 +20,8 @@ export default function LatestProjectsCard(props) {
         <img className="hoverDivLogo" src={props.LogoSrc} />
 
         <Typography className="HoverDivTypo">
-          {/* {props.hoverDesp} */}
-          {props?.hoverDesp?.length > 150
-            ? props?.hoverDesp.slice(0, 150) + "..."
-            : props?.hoverDesp}
+          {/* {t(props.hoverDesp)} */}
+          {t(desp?.length > 150 ? desp.slice(0, 150) + "..." : desp)}
         </Typography>
         <button
           className="HoverDivBtnDark"
@@ -24,7 +30,7 @@ export default function LatestProjectsCard(props) {
           }}
         >
           <Link className="HoverDivBtnLink" to={props.to}>
-            View More
+            {t("View More")}
           </Link>
         </button>
       </div>

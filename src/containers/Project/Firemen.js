@@ -34,7 +34,7 @@ export default function Firemen() {
     <div className="Permispop_Container">
       <NavBar ContactUs />
       <DetailHeader
-        background="#282828"
+        background="#3675B7"
         bottomBG="#3675B7"
         typoBG="#3675B7"
         HeaderImg={Firemen_Header}
@@ -67,7 +67,7 @@ export default function Firemen() {
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
         titleColor="#282828"
-        title="Facility Management"
+        title="Fireman"
         btnTheme="#3675B7"
         theme="#3675B7"
         src={Firemen_Demo}
@@ -104,21 +104,21 @@ export default function Firemen() {
         Theme1="#3675B7"
         Theme2="#FAFAFA"
         Theme3="#191A1F"
-        // Theme4="#C8CFD0"
+        Theme4="#575961"
         // Theme5="#00000040"
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
-        src={Firemen_Theme}
+        // src={Firemen_Theme}
       />
       {/* <DetailLogo theme="#0073BB" src={Yuwway_Logo} /> */}
-      {/* <DetailAppDev
-        title="MOBILE APP DEVELOPMENT"
+      <DetailAppDev
+        title="WEB DEVELOPMENT"
         // desp
-        // fullImg={Yuwway_AppDesign}
-        titleTheme="#0073BB"
-        halfImg={Yuwway_AppDesign}
-      /> */}
+        fullImg={Firemen_Theme}
+        titleTheme="#282828"
+        // halfImg={Yuwway_AppDesign}
+      />
       <DetailFeedback
         titleTheme="#3675B7"
         despTheme="#282828"

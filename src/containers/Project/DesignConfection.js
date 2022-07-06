@@ -8,10 +8,10 @@ import DesignConfectionHeader from "../../assets/images/detail_DC_header.png";
 import DetailOverview from "../../components/ProjectDetails/DetailOverview";
 import OV_DesignConfection from "../../assets/images/detail_dc_overview.png";
 import DetailService from "../../components/ProjectDetails/DetailService";
-
+import BG_Logo from "../../assets/images/dc_lite_logo.png";
 import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
 import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import DC_Demo from "../../assets/images/detail_dc_demo.png";
+import DC_Demo from "../../assets/images/detail_dc_demo_new.png";
 import DetailDesign from "../../components/ProjectDetails/DetailDesign";
 import DC_Design1 from "../../assets/images/dc_design1.png";
 import DC_Design2 from "../../assets/images/dc_design2.png";
@@ -58,6 +58,8 @@ export default function DesignConfection() {
         titleTheme="#282828"
         borderColor="#282828"
         circleTheme="#CC8E9C"
+        fitLogo
+        liteLogo={BG_Logo}
       />
 
       <DetailDemo
@@ -92,7 +94,8 @@ export default function DesignConfection() {
         // desp
         // centerImage
         // src
-        Images
+        // Images
+        double
         src1={DC_Theme1}
         src2={DC_Theme2}
         // src3
@@ -105,13 +108,13 @@ export default function DesignConfection() {
         Theme4="#FFFFFF"
         Theme5="#A0A0A0"
         Theme6="#DBDBDB"
-        Theme7="#E9A454"
+        Theme7="linear-gradient(180deg, #E9A454 32.81%, rgba(38, 50, 56, 0) 100%), #A0A0A0"
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={KidCab_Theme}
       />
       <DetailLogo theme="#282828" src={DC_Logo} />
       <DetailAppDev
-        title="WEB DESIGN"
+        title="WEB DEVELOPMENT"
         // desp
         // halfImg (src Required)
         titleTheme="#282828"

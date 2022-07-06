@@ -4,8 +4,11 @@ import MobileApp from "../../assets/images/MobileApp.svg";
 import ArrowForward from "../../assets/images/arrowForward.svg";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function ServiceProvidedCard(props) {
+  const { i18n, t } = useTranslation();
+
   return (
     <>
       {props.verticleCard ? (
@@ -29,7 +32,7 @@ export default function ServiceProvidedCard(props) {
             >
               <div className="ServiceProvided_SubCardTypo">
                 <Typography className="ServiceProvided_CardTitle">
-                  {props.CardTitle}
+                  {t(props.CardTitle)}
                 </Typography>
                 <div
                   style={{
@@ -39,7 +42,7 @@ export default function ServiceProvidedCard(props) {
                   }}
                 >
                   <button className="ServiceProvided_CardBtn">
-                    {props.BtnText ? props.BtnText : "Get Details"}
+                    {t(props.BtnText ? props.BtnText : "Get Details")}
                   </button>
                   <img
                     style={{
@@ -81,7 +84,7 @@ export default function ServiceProvidedCard(props) {
             >
               <div className="ServiceProvided_SubCardTypo">
                 <Typography className="ServiceProvided_CardTitle">
-                  {props.CardTitle}
+                  {t(props.CardTitle)}
                 </Typography>
                 <div
                   style={{
@@ -90,7 +93,7 @@ export default function ServiceProvidedCard(props) {
                   }}
                 >
                   <button className="ServiceProvided_CardBtn">
-                    {props.BtnText ? props.BtnText : "Get Details"}
+                    {t(props.BtnText ? props.BtnText : "Get Details")}
                   </button>
                   <img
                     style={{

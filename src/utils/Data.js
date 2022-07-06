@@ -6,9 +6,7 @@ export const data = [
     index: 1,
     body: (
       <>
-        <Typography
-        className="LegalMentions_Data_P"
-        >
+        <Typography className="LegalMentions_Data_P">
           Under article 6 of law n ° 2004-575 of June 21, 2004 for confidence in
           the digital economy, it is specified to the users of the website
           <span className="LegalMention_FalconConsulting">
@@ -20,25 +18,22 @@ export const data = [
         </Typography>
         <br />
         <Typography className="LegalMentions_Data_P">
-          <span className="LegalMentions_Data_H" >Owner :</span> EURL
-          Falcon Consulting Share capital of € 100 VAT number: FR84813509536 -
-          53 avenue Victor Hugo 94290 Villeneuve Le Roi
+          <span className="LegalMentions_Data_H">Owner :</span> EURL Falcon
+          Consulting Share capital of € 100 VAT number: FR84813509536 - 53
+          avenue Victor Hugo 94290 Villeneuve Le Roi
         </Typography>
         <Typography className="LegalMentions_Data_P">
-          <span className="LegalMentions_Data_H">
-            Publication manager :
-          </span>{" "}
+          <span className="LegalMentions_Data_H">Publication manager :</span>{" "}
           Falcon Consulting - contact@falconconsulting.fr <br /> The publication
           manager is a natural person or a legal person.
         </Typography>
         <Typography className="LegalMentions_Data_P">
-          <span className="LegalMentions_Data_H">Webmaster :</span>{" "}
-          Falcon Consulting - support@falconconsulting.fr
+          <span className="LegalMentions_Data_H">Webmaster :</span> Falcon
+          Consulting - support@falconconsulting.fr
         </Typography>
         <Typography className="LegalMentions_Data_P">
-          <span className="LegalMentions_Data_H">Host :</span>{" "}
-          GoDaddy - 14455 N Hayden Rd Ste 226 AZ 85260 Scottsdale United States
-          +1 (480) 505-8800
+          <span className="LegalMentions_Data_H">Host :</span> GoDaddy - 14455 N
+          Hayden Rd Ste 226 AZ 85260 Scottsdale United States +1 (480) 505-8800
         </Typography>
         <Typography className="LegalMentions_Data_P">
           <span className="LegalMentions_Data_H">
@@ -383,9 +378,9 @@ export const data = [
             <li>
               to conduct optional satisfaction surveys on{" "}
               <span className="LegalMention_FalconConsulting">
-            {" "}
-            Falcon Consulting{" "}
-          </span>{" "}
+                {" "}
+                Falcon Consulting{" "}
+              </span>{" "}
               : email address
             </li>
             <li>
@@ -619,8 +614,7 @@ export const data = [
         </Typography>
         <br />
         <Typography className="LegalMentions_Data_P">
-          <span className="LegalMentions_Data_H">Security </span>{" "}
-          <br />
+          <span className="LegalMentions_Data_H">Security </span> <br />
           To ensure the security and confidentiality of Personal Data and
           Personal Health Data,{" "}
           <span className="LegalMention_FalconConsulting">
@@ -645,7 +639,7 @@ export const data = [
     ),
   },
   {
-    title: 'Hypertext links "cookies" and internet tags',
+    title: "Hypertext links 'cookies' and internet tags",
     index: 9,
     body: (
       <>
@@ -679,16 +673,13 @@ export const data = [
         </Typography>
         <br />
         <Typography className="LegalMentions_Data_P">
-          <span className="LegalMentions_Data_H">
-            {" "}
-            9.1. "COOKIES"
-          </span>{" "}
-          <br />A "cookie" is a small information file sent to the User's
-          browser and saved in the User's terminal eg computer, smartphone,
-          hereinafter "Cookies". This file includes information such as the
-          domain name of the User, the Internet service provider of the User,
-          the Operating system of the User, as well as the date and time of
-          access. Cookies in no way risk damaging the User's terminal.
+          <span className="LegalMentions_Data_H"> 9.1. "COOKIES"</span> <br />A
+          "cookie" is a small information file sent to the User's browser and
+          saved in the User's terminal eg computer, smartphone, hereinafter
+          "Cookies". This file includes information such as the domain name of
+          the User, the Internet service provider of the User, the Operating
+          system of the User, as well as the date and time of access. Cookies in
+          no way risk damaging the User's terminal.
         </Typography>
         <br />
         <Typography className="LegalMentions_Data_P">

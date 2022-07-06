@@ -34,17 +34,19 @@
 }
 .DetailFeedback_ClientDiv{
      width: 40%;
+     display: flex;
+     justify-content: flex-end;
 }
 .DetailFeedback_AvatarDiv{
         display: flex;
-        width: 100%;
+        width: 60%;
         padding: 2% 0;
         margin-top: 2%;
         align-items: center;
 }
 .DetailFeedback_Avatar{
-    width: 25% !important;
-    height: 25% !important;
+    width: 40% !important;
+    height: 100% !important;
 
 }
 .DetailFeedback_NameDiv{

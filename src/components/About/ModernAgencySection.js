@@ -4,8 +4,10 @@ import Tick1 from "../../assets/images/MA1.svg";
 import Tick2 from "../../assets/images/MA2.svg";
 import Tick3 from "../../assets/images/MA3.svg";
 import AgencyArrow from "../../assets/images/AgencyArrow.svg";
-
+import { useTranslation } from "react-i18next";
 export default function ModernAgencySection() {
+  const { i18n, t } = useTranslation();
+
   return (
     <>
       <div className="ModernAgencyDiv">
@@ -13,7 +15,7 @@ export default function ModernAgencySection() {
           <Typography
             sx={{ fontSize: "1.5rem", fontWeight: "800", color: "#FFF" }}
           >
-            We Are Modern IT Agency
+            {t("We Are A Modern IT Agency")}
           </Typography>
           <Typography
             sx={{
@@ -23,7 +25,7 @@ export default function ModernAgencySection() {
               opacity: "80%",
             }}
           >
-            Accessible price, with no compromise on the Quality!
+            {t("Accessible price, with no compromise on the Quality!")}
           </Typography>
         </div>
         <div className="HistorySumary">
@@ -39,7 +41,7 @@ export default function ModernAgencySection() {
             <div className="HistoryTypoDiv">
               <Typography className="HistoryTypoH">8</Typography>
               <Typography className="HistoryTypoP">
-                Years of Excellence
+                {t("Years of Excellence")}
               </Typography>
             </div>
           </div>
@@ -55,7 +57,7 @@ export default function ModernAgencySection() {
             <div className="HistoryTypoDiv">
               <Typography className="HistoryTypoH">85</Typography>
               <Typography className="HistoryTypoP">
-                Successfull Projects
+                {t("Successfull Projects")}
               </Typography>
             </div>
           </div>
@@ -71,7 +73,7 @@ export default function ModernAgencySection() {
             <div className="HistoryTypoDiv">
               <Typography className="HistoryTypoH">100%</Typography>
               <Typography className="HistoryTypoP">
-                Client satisfication
+                {t("Client satisfication")}
               </Typography>
             </div>
           </div>
@@ -84,7 +86,7 @@ export default function ModernAgencySection() {
             <div className="HistoryTypoDiv_Last">
               <Typography className="HistoryTypoH">4</Typography>
               <Typography className="HistoryTypoP">
-                Office Loocations
+                {t("Office Loocations")}
               </Typography>
             </div>
           </div>

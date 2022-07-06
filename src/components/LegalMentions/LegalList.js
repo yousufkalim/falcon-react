@@ -4,7 +4,9 @@ import Collapse from "@mui/material/Collapse";
 import ExpandLess from "@mui/icons-material/ExpandLess";
 import ExpandMore from "@mui/icons-material/ExpandMore";
 import { Typography } from "@mui/material";
+import { useTranslation } from "react-i18next";
 export default function LegalList(props) {
+  const { i18n, t } = useTranslation();
   const [open, setOpen] = React.useState("");
 
   const handleClick = (item) => {
@@ -34,13 +36,13 @@ export default function LegalList(props) {
                       </div>
                     </div>
 
-                    <div className="LegalMention_ListBar_TitleDiv" >
+                    <div className="LegalMention_ListBar_TitleDiv">
                       <Typography className="LegalMention_ListBar_Title">
-                        {item.title}
+                        {t(item.title)}
                       </Typography>
                     </div>
                   </div>
-                  <div className="LegalMention_Collapse_Btn" >
+                  <div className="LegalMention_Collapse_Btn">
                     {open === item.title ? (
                       <ExpandLess fontSize="large" />
                     ) : (
@@ -55,9 +57,7 @@ export default function LegalList(props) {
                   timeout="auto"
                   unmountOnExit
                 >
-                  <div
-                  className="LegalMention_Collapse_Body" 
-                  >
+                  <div className="LegalMention_Collapse_Body">
                     <Typography>{item.body}</Typography>
                   </div>
                 </Collapse>

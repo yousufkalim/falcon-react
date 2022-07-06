@@ -11,7 +11,7 @@ import DetailService from "../../components/ProjectDetails/DetailService";
 
 import QB_Avatar from "../../assets/images/overview_quadraAvatar.png";
 import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import QB_Demo from "../../assets/images/qb_demo.png";
+import QB_Demo from "../../assets/images/qb_demo_new.png";
 import DetailDesign from "../../components/ProjectDetails/DetailDesign";
 import QB_Design1 from "../../assets/images/detail_qb_design1.png";
 import QB_Design2 from "../../assets/images/detail_qb_design2.png";

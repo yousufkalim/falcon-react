@@ -8,10 +8,11 @@ import OrgaPlan_Header from "../../assets/images/orgaplan_header.png";
 import DetailOverview from "../../components/ProjectDetails/DetailOverview";
 import OV_OrgaPlan from "../../assets/images/ov_orgaplan.png";
 import DetailService from "../../components/ProjectDetails/DetailService";
+import BG_Logo from "../../assets/images/orgaplan_lite_logo.png";
 
 import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
 import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import OrgaPlan_Demo from "../../assets/images/orgaplan_demo.png";
+import OrgaPlan_Demo from "../../assets/images/orgaplan_demo_new.png";
 import DetailDesign from "../../components/ProjectDetails/DetailDesign";
 import OrgaPlan_Design1 from "../../assets/images/orgaplan_design1.png";
 import OrgaPlan_Design2 from "../../assets/images/orgaplan_design2.png";
@@ -20,7 +21,7 @@ import OrgaPlan_Design3 from "../../assets/images/orgaplan_design3.png";
 import DetailTheme from "../../components/ProjectDetails/DetailTheme";
 import OrgaPlan_Theme from "../../assets/images/orgaplan_theme.png";
 import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import RealEstate_Logo from "../../assets/images/detail_realestate_logo.png";
+import OrgaPlan_Logo from "../../assets/images/detail_orgaplan_logo.png";
 import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
 import OrgaPlan_WebDesign from "../../assets/images/orgaplan_webdesign.png";
 import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
@@ -57,6 +58,8 @@ export default function Orgaplan() {
         titleTheme="#282828"
         borderColor="#282828"
         circleTheme="#9D936D"
+        fitLogo
+        liteLogo={BG_Logo}
       />
 
       <DetailDemo
@@ -89,7 +92,8 @@ export default function Orgaplan() {
 
       <DetailTheme
         // desp
-        centerImage
+        // centerImage
+        overlap
         // src
         // Images
         // src1={OrgaPlan_Theme}
@@ -101,16 +105,16 @@ export default function Orgaplan() {
         Theme1="#9D936D"
         Theme2="#EDCF99"
         Theme3="#AA912B"
-        Theme4="#282828"
-        Theme5="#00000040"
+        Theme4="#FFFFFF"
+        Theme5="#282828"
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         src={OrgaPlan_Theme}
       />
-      <DetailLogo theme="#EDCF99" src={RealEstate_Logo} />
+      <DetailLogo theme="#EDCF99" src={OrgaPlan_Logo} />
       <DetailAppDev
-        title="Web Design"
+        title="WEB DEVELOPMENT"
         // desp
         fullImg={OrgaPlan_WebDesign}
         titleTheme="#282828"

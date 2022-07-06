@@ -3,12 +3,15 @@ import Avatar from "@mui/material/Avatar";
 import { Typography } from "@mui/material";
 import Rating from "@mui/material/Rating";
 import img from "../../assets/images/muh_ali.webp";
-
+import { useTranslation } from "react-i18next";
 export default function ReviewCard(props) {
+  const { i18n, t } = useTranslation();
   const { data, dataIndex } = props;
   const { name, review, avatar, country, work } = data[dataIndex];
 
   const [value, setValue] = React.useState(4);
+
+  let text = t(review);
 
   return (
     <div
@@ -70,7 +73,7 @@ export default function ReviewCard(props) {
             marginTop: "7%",
           }}
         >
-          {review?.length > 100 ? review?.slice(0, 100) + "..." : review}
+          {text?.length > 100 ? text?.slice(0, 100) + "..." : text}
           {/* {review} */}
         </Typography>
         <Typography
