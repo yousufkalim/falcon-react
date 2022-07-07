@@ -29,24 +29,24 @@ import Footer from "../../components/Common/Footer";
 // Home Component
 export default function Yuwway() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
-        background="#282828"
-        bottomBG="#0073BB"
-        typoBG="#0073BB"
+        background='#282828'
+        bottomBG='#0073BB'
+        typoBG='#0073BB'
         HeaderImg={Yuwway_Header}
-        title="Yuwway"
-        subTitle="What is Yuwway"
+        title='Yuwway'
+        subTitle='What is Yuwway'
         // iconTheme="#9D3C64"
         desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       />
       <DetailOverview
-        titleTheme="#0073BB"
+        titleTheme='#0073BB'
         // desp=""
         AvatarSrc={QB_Avatar}
-        nameColor="#0073BB"
-        name="Shane Jhon"
+        nameColor='#0073BB'
+        name='Shane Jhon'
         // location="France"
         src={OV_Yuwway}
       />
@@ -54,9 +54,9 @@ export default function Yuwway() {
         app
         // web
         // both
-        titleTheme="#0073BB"
-        borderColor="#282828"
-        circleTheme="#0073BB"
+        titleTheme='#0073BB'
+        borderColor='#282828'
+        circleTheme='#0073BB'
       />
 
       <DetailDemo
@@ -64,27 +64,27 @@ export default function Yuwway() {
         // btnText
         // DetailDemo_SquareDiv
         DetailDemo_RoundDiv
-        titleColor="#0073BB"
-        title="Yuwway"
-        btnTheme="#0073BB"
-        theme="#0073BB"
+        titleColor='#0073BB'
+        title='Yuwway'
+        btnTheme='#0073BB'
+        theme='#0073BB'
         src={Yuwway_Demo}
       />
       <DetailDesign
-        titleTheme="#0073BB"
-        title="APP UI DESIGN"
+        titleTheme='#0073BB'
+        title='APP UI DESIGN'
         // overlap
-        TopImg={Yuwway_Design1}
-        MidImg={Yuwway_Design2}
-        BottomImg={Yuwway_Design3}
-        // grids
+        // TopImg={Yuwway_Design1}
+        // MidImg={Yuwway_Design2}
+        // BottomImg={Yuwway_Design3}
+        grids
         // src1
         // src2
         // src3
         // src4
         // src5
         // src6
-        overlap
+        // overlap
       />
 
       <DetailTheme
@@ -96,25 +96,25 @@ export default function Yuwway() {
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
         // fullscreen
-        title="COLOR THEME"
-        titleTheme="#0073BB"
+        title='COLOR THEME'
+        titleTheme='#0073BB'
         // desp
-        Theme1="#0073BB"
-        Theme2="#FAFAFA"
-        Theme3="#191A1F"
-        Theme4="#575961"
+        Theme1='#0073BB'
+        Theme2='#FAFAFA'
+        Theme3='#191A1F'
+        Theme4='#575961'
         // Theme5="#00000040"
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={OrgaPlan_Theme}
       />
-      <DetailLogo theme="#0073BB" src={Yuwway_Logo} />
+      <DetailLogo theme='#0073BB' src={Yuwway_Logo} />
       <DetailAppDev
-        title="MOBILE APP DEVELOPMENT"
+        title='MOBILE APP DEVELOPMENT'
         // desp
         // fullImg={Yuwway_AppDesign}
-        titleTheme="#0073BB"
+        titleTheme='#0073BB'
         halfImg={Yuwway_AppDesign}
       />
       <DetailFeedback
@@ -122,7 +122,7 @@ export default function Yuwway() {
         // despTheme="#282828"
         // desp
         // location
-        ThemeBG="#0073BB"
+        ThemeBG='#0073BB'
         // AvatarSrc={Kidcab_Avatar}
         // name="Ukhano"
       />
