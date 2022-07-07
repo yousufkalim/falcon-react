@@ -32,25 +32,23 @@ export default function NavBar(props) {
               <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
             ) : (
               <Toolbar className='NavToolbar '>
-                <div style={{ width: "10%" }}>
-                  <Link to={`/`}>
-                    <LogoWhite
-                      // className="Falcon_logo"
-                      style={{
-                        width: "100%",
-                        transition: ".5s",
-                        color: position <= 970 ? "white" : "#003B7E",
-                        height: 40,
-                      }}
-                    />
-                    {/* <img
+                <Link className='NavLogo_Link' to={`/`}>
+                  <LogoWhite
+                    // className="Falcon_logo"
+                    style={{
+                      width: "100%",
+                      transition: ".5s",
+                      color: position <= 970 ? "white" : "#003B7E",
+                      height: 40,
+                    }}
+                  />
+                  {/* <img
                     className="Falcon_logo"
                     alt="logo"
                     src={LogoWhite}
                     style={{ width: "10%", margin: "1% 0", cursor: "pointer" }}
                   /> */}
-                  </Link>
-                </div>
+                </Link>
                 <WhiteMenuIcon
                   className='MenuIconMob'
                   onClick={(e) => SetMenu(!Menu)}
@@ -79,25 +77,21 @@ export default function NavBar(props) {
               <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
             ) : (
               <Toolbar className='NavToolbar'>
-                <div style={{ width: "10%" }}>
-                  <Link to={`/`}>
-                    <img
-                      className='Falcon_logo'
-                      alt='logo'
-                      src={Logo}
-                      style={{ width: "100%", margin: "1% 0", cursor: "pointer" }}
-                    />
-                  </Link>
-                </div>
-                <div style={{ width: "2%" }}>
+                <Link className='NavLogo_Link' to={`/`}>
                   <img
-                    className='MenuIconMob'
-                    alt='menu'
-                    src={NavMenu}
-                    style={{ width: "100%", cursor: "pointer" }}
-                    onClick={(e) => SetMenu(!Menu)}
+                    className='Falcon_logo'
+                    alt='logo'
+                    src={Logo}
+                    style={{ width: "100%", margin: "1% 0", cursor: "pointer" }}
                   />
-                </div>
+                </Link>
+                <img
+                  className='MenuIconMob'
+                  alt='menu'
+                  src={NavMenu}
+                  style={{ cursor: "pointer" }}
+                  onClick={(e) => SetMenu(!Menu)}
+                />
               </Toolbar>
             )}
           </AppBar>

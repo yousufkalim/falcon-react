@@ -149,14 +149,23 @@
 .Menu_languageMobMain{
   display: none;
 }
+.NavLogo_Link{
+  width: 10%;
+}
 
 @media only screen and (max-width: 1200px) {
   .Menu_languageDiv{
     width: 40%;
   }
+  .NavLogo_Link{
+    width: 15% !important;
+  }
 }
 @media only screen and (max-width: 900px) {
   .Falcon_logo{
+    width: 100% !important;
+  }
+  .NavLogo_Link{
     width: 20% !important;
   }
   .MenuSection {
@@ -203,8 +212,11 @@
   }
 }
 @media only screen and (max-width: 600px) {
-  .Falcon_logo{
+  /* .Falcon_logo{
     width: 30% !important;
+  } */
+  .NavLogo_Link{
+    width: 25% !important;
   }
   .MenuSection {
     display: flex;

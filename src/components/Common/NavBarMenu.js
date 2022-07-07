@@ -38,12 +38,12 @@ export default function NavBarMenu({ Menu, SetMenu }) {
             justifyContent: "space-between",
           }}
         >
-          <Link to={`/`}>
+          <Link className='NavLogo_Link' to={`/`}>
             <LogoWhite
               style={{
-                width: "70%",
+                width: "100%",
                 color: "white",
-                height: 40,
+                height: 35,
               }}
             />
           </Link>
@@ -52,7 +52,6 @@ export default function NavBarMenu({ Menu, SetMenu }) {
             alt='NavMenu'
             src={CloseIcon}
             style={{
-              width: "2.5%",
               color: "white",
               cursor: "pointer",
             }}
