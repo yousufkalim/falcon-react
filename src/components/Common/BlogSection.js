@@ -20,7 +20,7 @@ export default function BlogSection() {
             <Grid className='BlogGrid' md={5.5}>
               <Link to='/blog'>
                 <motion.div
-                  initial={{ x: -350 }}
+                  initial={{ x: -200 }}
                   whileInView={{ x: 0 }}
                   transition={{ duration: 1 }}
                   viewport={{ once: true }}
@@ -37,7 +37,7 @@ export default function BlogSection() {
             <Grid className='BlogGrid' md={5.5}>
               <Link to='/blog'>
                 <motion.div
-                  initial={{ x: 350 }}
+                  initial={{ x: 200 }}
                   whileInView={{ x: 0 }}
                   transition={{ duration: 1 }}
                   viewport={{ once: true }}
