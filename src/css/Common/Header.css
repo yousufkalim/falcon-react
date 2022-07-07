@@ -251,7 +251,7 @@ width:65%;
 }
 .CookieBanner_BtnDiv{
   width: 25%;
-  margin-right: 5%;
+  margin-right: 7%;
 }
 .CookieBanner_AgreeBtn{
   width: 50%;
@@ -260,6 +260,21 @@ width:65%;
 .CookieBanner_DeclineBtn{
   padding: 5% !important;
   width: 50%;
+}
+}
+@media only screen and (max-width: 400px) {
+  .CookieBanner_BtnDiv{
+    flex-direction: column;
+    width: 35%;
+    margin: 0;
+  }
+  .CookieBanner_AgreeBtn{
+    margin: 2% !important;
+    width: 80%;
+}
+.CookieBanner_DeclineBtn{
+    padding: 5% !important;
+    width: 80%;
 }
 }
 
