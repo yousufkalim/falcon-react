@@ -10,7 +10,6 @@ import { useTranslation } from "react-i18next";
 // Home Component
 export default function BlogReadArticles(props) {
   const { i18n, t } = useTranslation();
-
   return (
     <>
       {props.Reverse ? (
@@ -19,34 +18,28 @@ export default function BlogReadArticles(props) {
           whileInView={{ x: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="BlogArticleMain"
+          className='BlogArticleMain'
         >
-          <Grid container spacing={1} className="BlogArticleContainer2">
+          <Grid container spacing={1} className='BlogArticleContainer2'>
             <Grid xs={12} sm={10} md={6}>
-              <img
-                className="BlogReadImg"
-                width={props.width}
-                src={props.src}
-              />
+              <img className='BlogReadImg' width={props.width} src={props.src} />
             </Grid>
             <Grid xs={12} sm={10} md={6}>
-              <div className="BlogTypo">
-                <Typography className="BlogReadTitle">
+              <div className='BlogTypo'>
+                <Typography className='BlogReadTitle'>
                   {t(props.title || "Manager une équipe en télétravail")}
                 </Typography>
-                <Typography className="BlogReadDate">
-                  {t(props.PublishDate || "Published on Wed Oct 06 2021")}
+                <Typography className='BlogReadDate'>
+                  {t("Published on")} {t(props.PublishDate || "Wed Oct 06 2021")}
                 </Typography>
-                <Typography className="BlogReadPara">
+                <Typography className='BlogReadPara'>
+                  {/* {t(props.text)} */}
                   {t(
-                    "Dans le passé, il était facile de gérer une équipe d'employés qui ne travaillaient pas à des milliers de kilomètres de chez soi. Aujourd'hui, les entreprises adoptent la tendance à l'éloignement en employant des travailleurs qualifiés aux quatre coins du monde. Naturellement, le manager est responsable non seulement de la gestion de l'équipe d'employés, mais aussi de la formation, de l'encouragement et du soutien de cette équipe. Cette responsabilité n'est pas toujours aussi simple. C'est pourquoi nous allons discuter ici des défis potentiels de la gestion d'une équipe à distance et de la manière de surmonter ces obstaclesseulement de la gestion de l'équipe d'employés, mais aussi de la formation, de l'encouragement et du soutien de cette équipe. Cette responsabilité n'est pas toujours aussi simple. C'est pourquoi nous allons discuter ici des défis potentiels de la gestion d'une équipe à distance et de la manière de surmonter ces obstacles"
+                    "We live in a digital world where everyone has cell-phones with the internet. Most consumers will be using their electronic devices to search for online information that will help them in making a smarter purchase decision. Actually, according to a survey, 88% of the consumers will search online information about a product before they finally buy it. Hence if your business doesn’t have a website, you are probably losing a lot of customers and opportunities. Nowadays business website serves as the backbone of the business as it lures new customers and can be used to employ different marketing strategies to expand your business. Below we’ll discuss the role of an online website in boosting your sales and growing your business."
                   )}
                 </Typography>
-                <Button className="BlogReadBtn" variant="text">
-                  <Link
-                    style={{ color: "#42C2FF", fontWeight: "600" }}
-                    to="/blogdetail"
-                  >
+                <Button className='BlogReadBtn' variant='text'>
+                  <Link to={props.to} style={{ color: "#42C2FF", fontWeight: "600" }}>
                     {t(props.BtnTexr || "READ MORE")}
                   </Link>
                 </Button>
@@ -60,38 +53,31 @@ export default function BlogReadArticles(props) {
           whileInView={{ x: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="BlogArticleMain"
+          className='BlogArticleMain'
         >
-          <Grid container spacing={1} className="BlogArticleContainer1">
+          <Grid container spacing={1} className='BlogArticleContainer1'>
             <Grid xs={12} sm={10} md={6}>
-              <div className="BlogTypo">
-                <Typography className="BlogReadTitle">
+              <div className='BlogTypo'>
+                <Typography className='BlogReadTitle'>
                   {t(props.title || "Manager une équipe en télétravail")}
                 </Typography>
-                <Typography className="BlogReadDate">
-                  {t(props.PublishDate || "Published on Wed Oct 06 2021")}
+                <Typography className='BlogReadDate'>
+                  {t("Published on")} {t(props.PublishDate || "Wed Oct 06 2021")}
                 </Typography>
-                <Typography className="BlogReadPara">
+                <Typography className='BlogReadPara'>
                   {t(
-                    "Dans le passé, il était facile de gérer une équipe d'employés qui ne travaillaient pas à des milliers de kilomètres de chez soi. Aujourd'hui, les entreprises adoptent la tendance à l'éloignement en employant des travailleurs qualifiés aux quatre coins du monde. Naturellement, le manager est responsable non seulement de la gestion de l'équipe d'employés, mais aussi de la formation, de l'encouragement et du soutien de cette équipe. Cette responsabilité n'est pas toujours aussi simple. C'est pourquoi nous allons discuter ici des défis potentiels de la gestion d'une équipe à distance et de la manière de surmonter ces obstaclesseulement de la gestion de l'équipe d'employés, mais aussi de la formation, de l'encouragement et du soutien de cette équipe. Cette responsabilité n'est pas toujours aussi simple. C'est pourquoi nous allons discuter ici des défis potentiels de la gestion d'une équipe à distance et de la manière de surmonter ces obstacles"
+                    "In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles."
                   )}
                 </Typography>
-                <Button className="BlogReadBtn" variant="text">
-                  <Link
-                    style={{ color: "#42C2FF", fontWeight: "600" }}
-                    to="/blogdetail"
-                  >
+                <Button className='BlogReadBtn' variant='text'>
+                  <Link to={props.to} style={{ color: "#42C2FF", fontWeight: "600" }}>
                     {t(props.BtnTexr || "READ MORE")}
                   </Link>
                 </Button>
               </div>
             </Grid>
             <Grid xs={12} sm={10} md={6}>
-              <img
-                className="BlogReadImg"
-                width={props.width}
-                src={props.src}
-              />
+              <img className='BlogReadImg' width={props.width} src={props.src} />
             </Grid>
           </Grid>
         </motion.div>

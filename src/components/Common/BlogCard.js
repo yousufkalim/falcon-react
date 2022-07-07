@@ -6,7 +6,7 @@ export default function BlogCard(props) {
   const { i18n, t } = useTranslation();
   return (
     <>
-      <div className="BlogCardMain">
+      <div className='BlogCardMain'>
         <div>
           <img
             style={{ objectFit: "cover", height: "100%", width: "100%" }}
@@ -23,7 +23,7 @@ export default function BlogCard(props) {
         >
           {props.date}
         </Typography>
-        <Typography className="BlogCardTitle">{t(props.title)}</Typography>
+        <Typography className='BlogCardTitle'>{t(props.title)}</Typography>
       </div>
     </>
   );

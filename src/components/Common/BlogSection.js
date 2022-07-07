@@ -4,6 +4,8 @@ import BlogCard from "./BlogCard";
 import { Grid } from "@mui/material";
 import Blog2 from "../../assets/images/Blog2.svg";
 import Blog1 from "../../assets/images/blog1.png";
+import BlogImg2 from "../../assets/images/blogarticle2.svg";
+import BlogImg1 from "../../assets/images/blogarticle1.svg";
 
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -11,16 +13,12 @@ import { Link } from "react-router-dom";
 export default function BlogSection() {
   return (
     <>
-      <div className="BlogSectionMain">
-        <SectionHeader
-          width="40%"
-          h1="With lots of unique blogs"
-          h2="Read our blog"
-        />
-        <div className="BlogContainerGrid">
+      <div className='BlogSectionMain'>
+        <SectionHeader width='40%' h1='With lots of unique blogs' h2='Read our blog' />
+        <div className='BlogContainerGrid'>
           <Grid container spacing={1}>
-            <Grid className="BlogGrid" md={5.5}>
-              <Link to="/blog">
+            <Grid className='BlogGrid' md={5.5}>
+              <Link to='/blog'>
                 <motion.div
                   initial={{ x: -350 }}
                   whileInView={{ x: 0 }}
@@ -28,15 +26,16 @@ export default function BlogSection() {
                   viewport={{ once: true }}
                 >
                   <BlogCard
-                    src={Blog1}
-                    date="November 25, 2022"
-                    title="A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021"
+                    HomeBlogCArd
+                    src={BlogImg1}
+                    date='November 25, 2022'
+                    title='Managing a Remote Team'
                   />
                 </motion.div>
               </Link>
             </Grid>
-            <Grid className="BlogGrid" md={5.5}>
-              <Link to="/blog">
+            <Grid className='BlogGrid' md={5.5}>
+              <Link to='/blog'>
                 <motion.div
                   initial={{ x: 350 }}
                   whileInView={{ x: 0 }}
@@ -44,9 +43,9 @@ export default function BlogSection() {
                   viewport={{ once: true }}
                 >
                   <BlogCard
-                    src={Blog2}
-                    date="November 16, 2022"
-                    title="What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?"
+                    src={BlogImg2}
+                    date='November 16, 2022'
+                    title='Why having a business website is necessary ?'
                   />
                 </motion.div>
               </Link>
