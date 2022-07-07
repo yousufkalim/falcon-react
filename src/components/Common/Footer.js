@@ -215,7 +215,7 @@ export default function Footer(props) {
                 </Link>
               </li>
               <li>
-                <Link className='FooterMob_Link' to='/services/aap-development'>
+                <Link className='FooterMob_Link' to='/services/app-development'>
                   {t("App Development")}
                 </Link>
               </li>
