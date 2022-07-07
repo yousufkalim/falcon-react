@@ -123,11 +123,14 @@
     }
 }
 @media only screen and (max-width: 778px) {
+    .HistoryTypoDiv{
+        width: 80%;
+    }
     .HistoryTypoH{
         font-size: .8rem !important;
     }
     .HistoryTypoP{
-        font-size: .7rem !important;
+        font-size: .6rem !important;
     }
     .HistoryMain{
         width: 150px;
@@ -146,11 +149,14 @@
   
 }
 @media only screen and (max-width: 600px) {
+    .HistoryTypoDiv{
+        width: 100%;
+    }
     .HistoryTypoH{
-        font-size: .7rem !important;
+        font-size: 1.2rem !important;
     }
     .HistoryTypoP{
-        font-size: .5rem !important;
+        font-size: 1rem !important;
     }
     .HistorySumary{
         margin: 5%;

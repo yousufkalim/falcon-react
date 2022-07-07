@@ -31,24 +31,24 @@ import Footer from "../../components/Common/Footer";
 // Home Component
 export default function FacilityManagement() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
-        background="#282828"
-        bottomBG="#2F696D"
-        typoBG="#2F696D"
+        background='#282828'
+        bottomBG='#2F696D'
+        typoBG='#2F696D'
         HeaderImg={Facility_Header}
-        title="Facility Management"
-        subTitle="What is Facility Management"
+        title='Facility Management'
+        subTitle='What is Facility Management'
         // iconTheme="#9D3C64"
         desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       />
       <DetailOverview
-        titleTheme="#282828"
+        titleTheme='#282828'
         // desp=""
         AvatarSrc={QB_Avatar}
-        nameColor="#2F696D"
-        name="Ukhano"
+        nameColor='#2F696D'
+        name='Ukhano'
         // location="France"
         src={OV_Facility}
       />
@@ -56,9 +56,9 @@ export default function FacilityManagement() {
         // app
         web
         // both
-        titleTheme="#282828"
-        borderColor="#282828"
-        circleTheme="#2F696D"
+        titleTheme='#282828'
+        borderColor='#282828'
+        circleTheme='#2F696D'
       />
 
       <DetailDemo
@@ -66,27 +66,27 @@ export default function FacilityManagement() {
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
-        titleColor="#282828"
-        title="Facility Management"
-        btnTheme="#2F696D"
-        theme="#2F696D"
+        titleColor='#282828'
+        title='Facility Management'
+        btnTheme='#2F696D'
+        theme='#2F696D'
         src={Facility_Demo}
       />
       <DetailDesign
-        titleTheme="#2F696D"
-        title="UI DESIGN"
+        titleTheme='#2F696D'
+        title='UI DESIGN'
         // overlap
-        TopImg={Facility_Design1}
-        MidImg={Facility_Design2}
-        BottomImg={Facility_Design3}
-        // grids
-        // src1
-        // src2
-        // src3
-        // src4
-        // src5
-        // src6
-        overlap
+        // TopImg={Facility_Design1}
+        // MidImg={Facility_Design2}
+        // BottomImg={Facility_Design3}
+        grids
+        src1={Facility_Design2}
+        src2={Facility_Design1}
+        src3={Facility_Design2}
+        src4={Facility_Design1}
+        src5={Facility_Design3}
+        src6={Facility_Design1}
+        // overlap
       />
 
       <DetailTheme
@@ -98,13 +98,13 @@ export default function FacilityManagement() {
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
         // fullscreen
-        title="COLOR THEME AND DESIGN"
-        titleTheme="#282828"
+        title='COLOR THEME AND DESIGN'
+        titleTheme='#282828'
         // desp
-        Theme1="#2F696D"
-        Theme2="#FAFAFA"
-        Theme3="#191A1F"
-        Theme4="#575961"
+        Theme1='#2F696D'
+        Theme2='#FAFAFA'
+        Theme3='#191A1F'
+        Theme4='#575961'
         // Theme5="#00000040"
         // Theme6=""
         // Theme7=""
@@ -113,18 +113,18 @@ export default function FacilityManagement() {
       />
       {/* <DetailLogo theme="#0073BB" src={Yuwway_Logo} /> */}
       <DetailAppDev
-        title="WEB DEVELOPMENT"
+        title='WEB DEVELOPMENT'
         // desp
         fullImg={Facility_Theme}
-        titleTheme="#282828"
+        titleTheme='#282828'
         // halfImg={Yuwway_AppDesign}
       />
       <DetailFeedback
-        titleTheme="#2F696D"
-        despTheme="#282828"
+        titleTheme='#2F696D'
+        despTheme='#282828'
         // desp
         // location
-        ThemeBG="#ffffff"
+        ThemeBG='#ffffff'
         // AvatarSrc={Kidcab_Avatar}
         // name="Ukhano"
       />

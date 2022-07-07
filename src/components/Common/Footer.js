@@ -29,16 +29,16 @@ export default function Footer(props) {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className="FooterMain"
+        className='FooterMain'
       >
-        <img id="scrollToTopBtn" onClick={scrollToTop} src={TopBtn} alt="top" />
-        <div className="FooterDiv">
-          <div className="FooterLeft">
+        <img id='scrollToTopBtn' onClick={scrollToTop} src={TopBtn} alt='top' />
+        <div className='FooterDiv'>
+          <div className='FooterLeft'>
             <Link to={`/`}>
-              <img className="FooterLogo" src={Logo} alt="logo" />
+              <img className='FooterLogo' src={Logo} alt='logo' />
             </Link>
             <Typography
-              className="FooterTypo"
+              className='FooterTypo'
               sx={{ color: "#282828", opacity: "50%", marginBottom: "3%" }}
             >
               {t(
@@ -46,55 +46,52 @@ export default function Footer(props) {
               )}
             </Typography>
           </div>
-          <div className="FooterRight">
-            <div className="FooterList">
+          <div className='FooterRight'>
+            <div className='FooterList'>
               <Typography
-                className="FooterListHeading"
-                sx={{ fontWeight: "700", opacity: "40%", marginBottom: "40%" }}
+                className='FooterListHeading'
+                sx={{ fontWeight: "700", opacity: "40%", marginBottom: "15%" }}
               >
                 {t("Overview")}
               </Typography>
               <ul>
                 <li>
-                  <Link className="Footer_li" to="/about">
+                  <Link className='Footer_li' to='/about'>
                     {t("About")}
                   </Link>
                 </li>
                 <li>
-                  <Link className="Footer_li" to="/ourprojects">
+                  <Link className='Footer_li' to='/ourprojects'>
                     {t("Our projects")}
                   </Link>
                 </li>
                 <li>
-                  <Link className="Footer_li" to="/contactus">
+                  <Link className='Footer_li' to='/contactus'>
                     {t("Contact")}
                   </Link>
                 </li>
               </ul>
             </div>
-            <div className="FooterList">
+            <div className='FooterList'>
               <Typography
-                className="FooterListHeading"
-                sx={{ fontWeight: "700", opacity: "40%", marginBottom: "23%" }}
+                className='FooterListHeading'
+                sx={{ fontWeight: "700", opacity: "40%", marginBottom: "15%" }}
               >
                 {t("Solutions")}
               </Typography>
               <ul>
                 <li>
-                  <Link className="Footer_li" to="/services/web-development">
+                  <Link className='Footer_li' to='/services/web-development'>
                     {t("Web Development")}
                   </Link>
                 </li>
                 <li>
-                  <Link className="Footer_li" to="/services/app-development">
+                  <Link className='Footer_li' to='/services/app-development'>
                     {t("App Development")}
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    className="Footer_li"
-                    to="/services/software-development"
-                  >
+                  <Link className='Footer_li' to='/services/software-development'>
                     {t("Software Development")}
                   </Link>
                 </li>
@@ -107,7 +104,7 @@ export default function Footer(props) {
                   </Link>
                 </li> */}
                 <li>
-                  <Link className="Footer_li" to="/services/ui-development">
+                  <Link className='Footer_li' to='/services/ui-development'>
                     {t("UI/UX Developmemt")}
                   </Link>
                 </li>
@@ -135,20 +132,20 @@ export default function Footer(props) {
             alignItems: "center",
           }}
         >
-          <div className="IconsDiv">
-            <a href="https://www.facebook.com/FalconConsulting.fr">
-              <img className="FooterIcons" src={FB} />
+          <div className='IconsDiv'>
+            <a href='https://www.facebook.com/FalconConsulting.fr'>
+              <img className='FooterIcons' src={FB} />
             </a>
-            <a href="https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F">
-              <img className="FooterIcons" src={LinkedIn} />
+            <a href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'>
+              <img className='FooterIcons' src={LinkedIn} />
             </a>
-            <a href="https://wa.me/03135098197">
-              <img className="FooterIcons" src={WhatsApp} />
+            <a href='https://wa.me/03135098197'>
+              <img className='FooterIcons' src={WhatsApp} />
             </a>
           </div>
-          <div className="LegalMentionDiv">
+          <div className='LegalMentionDiv'>
             <Typography>
-              <a className="LegalMention_H" href="/legalmentions">
+              <a className='LegalMention_H' href='/legalmentions'>
                 {t("Legal Mentions")}
               </a>{" "}
             </Typography>
@@ -157,18 +154,14 @@ export default function Footer(props) {
       </motion.div>
 
       <Divider />
-      <div className="CopyRightDiv">
-        <Typography
-          ClassName="CopyRightTypo"
-          sx={{ fontSize: "70%", fontWeight: "700" }}
-        >
+      <div className='CopyRightDiv'>
+        <Typography ClassName='CopyRightTypo' sx={{ fontSize: "70%", fontWeight: "700" }}>
           © 2015-{new Date().getFullYear()}
-          <span style={{ color: "#003B7E" }}> Falcon Consulting</span>,{" "}
-          {t("All Rights Reserved")}.
+          <span style={{ color: "#003B7E" }}> Falcon Consulting</span>, {t("All Rights Reserved")}.
         </Typography>
 
         <Typography
-          className="Footer_ChangeLanguage"
+          className='Footer_ChangeLanguage'
           onClick={() => {
             if (language === "fr") {
               i18n.changeLanguage("en");
@@ -177,10 +170,7 @@ export default function Footer(props) {
             }
           }}
         >
-          <span style={{ color: "#000", opacity: ".6" }}>
-            {" "}
-            {t("Changer de langue en")}{" "}
-          </span>
+          <span style={{ color: "#000", opacity: ".6" }}> {t("Changer de langue en")} </span>
           {t("Français")}
         </Typography>
       </div>

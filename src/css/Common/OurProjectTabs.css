@@ -20,8 +20,8 @@
 }
 
 .ProjectListLabel:hover {
-    color: white !important;
-    background-color: #003B7E !important;
+    color: black !important;
+    background-color: #ced8e5 !important;
     opacity: 100% !important;
     border-radius: 10px !important;
 }

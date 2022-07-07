@@ -30,34 +30,34 @@ import Footer from "../../components/Common/Footer";
 // Home Component
 export default function DesignConfection() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
         // DividerBG
-        background="#CC8E9C"
-        bottomBG="#CC8E9C"
-        typoBG="#CC8E9C"
+        background='#CC8E9C'
+        bottomBG='#CC8E9C'
+        typoBG='#CC8E9C'
         HeaderImg={DesignConfectionHeader}
-        title="Design Confection."
-        subTitle="What is Design Confection"
+        title='Design Confection.'
+        subTitle='What is Design Confection'
         desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       />
       <DetailOverview
         // desp
         // location
-        titleTheme="#282828"
+        titleTheme='#282828'
         AvatarSrc={Kidcab_Avatar}
-        nameColor="#CC8E9C"
-        name="Designer JK"
+        nameColor='#CC8E9C'
+        name='Designer JK'
         src={OV_DesignConfection}
       />
       <DetailService
         // both
         web
         // app
-        titleTheme="#282828"
-        borderColor="#282828"
-        circleTheme="#CC8E9C"
+        titleTheme='#282828'
+        borderColor='#282828'
+        circleTheme='#CC8E9C'
         fitLogo
         liteLogo={BG_Logo}
       />
@@ -67,27 +67,27 @@ export default function DesignConfection() {
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
-        titleColor="#282828"
-        title="Design Confection"
-        btnTheme="#CC8E9C"
-        theme="#CC8E9C"
+        titleColor='#282828'
+        title='Design Confection'
+        btnTheme='#CC8E9C'
+        theme='#CC8E9C'
         src={DC_Demo}
       />
       <DetailDesign
-        titleTheme="#282828"
-        title="UI DESIGN"
+        titleTheme='#282828'
+        title='UI DESIGN'
         // overlap
-        TopImg={DC_Design1}
-        MidImg={DC_Design2}
-        BottomImg={DC_Design3}
-        // grids
-        // src1
-        // src2
-        // src3
-        // src4
-        // src5
-        // src6
-        overlap
+        // TopImg={DC_Design1}
+        // MidImg={DC_Design2}
+        // BottomImg={DC_Design3}
+        grids
+        src1={DC_Design2}
+        src2={DC_Design1}
+        src3={DC_Design2}
+        src4={DC_Design3}
+        src5={DC_Design1}
+        src6={DC_Design2}
+        // overlap
       />
 
       <DetailTheme
@@ -100,24 +100,24 @@ export default function DesignConfection() {
         src2={DC_Theme2}
         // src3
         // fullscreen
-        titleTheme="#282828"
+        titleTheme='#282828'
         // desp
-        Theme1="#000000"
-        Theme2="#CC8E9C"
-        Theme3="#F7C9D0"
-        Theme4="#FFFFFF"
-        Theme5="#A0A0A0"
-        Theme6="#DBDBDB"
-        Theme7="linear-gradient(180deg, #E9A454 32.81%, rgba(38, 50, 56, 0) 100%), #A0A0A0"
+        Theme1='#000000'
+        Theme2='#CC8E9C'
+        Theme3='#F7C9D0'
+        Theme4='#FFFFFF'
+        Theme5='#A0A0A0'
+        Theme6='#DBDBDB'
+        Theme7='linear-gradient(180deg, #E9A454 32.81%, rgba(38, 50, 56, 0) 100%), #A0A0A0'
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={KidCab_Theme}
       />
-      <DetailLogo theme="#282828" src={DC_Logo} />
+      <DetailLogo theme='#282828' src={DC_Logo} />
       <DetailAppDev
-        title="WEB DEVELOPMENT"
+        title='WEB DEVELOPMENT'
         // desp
         // halfImg (src Required)
-        titleTheme="#282828"
+        titleTheme='#282828'
         fullImg={DC_WebDesign}
       />
       <DetailFeedback
@@ -125,9 +125,9 @@ export default function DesignConfection() {
         // despTheme
         // desp
         // location
-        ThemeBG="#CC8E9C"
+        ThemeBG='#CC8E9C'
         AvatarSrc={Kidcab_Avatar}
-        name="Designer JK"
+        name='Designer JK'
       />
       <Footer />
     </div>

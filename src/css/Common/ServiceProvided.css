@@ -290,3 +290,11 @@
         font-size: 1rem;
     }
 }
+@media only screen and (max-width: 400px) {
+    .ServiceProvided_Card {
+        height: 180px;
+    }
+    .ServiceProvided_CardTitle {
+        font-size: 1.3rem !important;
+    }
+}

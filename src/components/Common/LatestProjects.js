@@ -4,7 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import KidCab from "../../assets/images/kidcab.svg";
 import KC_logo from "../../assets/images/kidcabLogo.png";
-import Permispop from "../../assets/images/Permispop.svg";
+import Permispop from "../../assets/images/permispop.png";
 import PP_logo from "../../assets/images/permisLogo.png";
 import QB from "../../assets/images/quadrabase.svg";
 import QB_logo from "../../assets/images/qudra_logo.svg";

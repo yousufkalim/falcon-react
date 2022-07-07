@@ -29,34 +29,34 @@ import Footer from "../../components/Common/Footer";
 // Home Component
 export default function RealEstate() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
         // DividerBG
-        background="#000000"
-        bottomBG="#837C6B"
-        typoBG="#837C6B"
+        background='#000000'
+        bottomBG='#837C6B'
+        typoBG='#837C6B'
         HeaderImg={RealEstate_Header}
-        title="Real Estate"
-        subTitle="What is Real Estate"
+        title='Real Estate'
+        subTitle='What is Real Estate'
         desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       />
       <DetailOverview
         // desp
         // location
-        titleTheme="#837C6B"
+        titleTheme='#837C6B'
         AvatarSrc={Kidcab_Avatar}
-        nameColor="#837C6B"
-        name="Steve jobs"
+        nameColor='#837C6B'
+        name='Steve jobs'
         src={OV_RealEstate}
       />
       <DetailService
         // both
         // web
         app
-        titleTheme="#837C6B"
-        borderColor="#18374E"
-        circleTheme="#837C6B"
+        titleTheme='#837C6B'
+        borderColor='#18374E'
+        circleTheme='#837C6B'
       />
 
       <DetailDemo
@@ -64,27 +64,27 @@ export default function RealEstate() {
         // btnText
         // DetailDemo_SquareDiv
         DetailDemo_RoundDiv
-        titleColor="#837C6B"
-        title="Real Estate"
-        btnTheme="#837C6B"
-        theme="#837C6B"
+        titleColor='#837C6B'
+        title='Real Estate'
+        btnTheme='#837C6B'
+        theme='#837C6B'
         src={RealEstate_Demo}
       />
       <DetailDesign
-        titleTheme="#837C6B"
-        title="APP UI DESIGN"
+        titleTheme='#837C6B'
+        title='APP UI DESIGN'
         // overlap
-        TopImg={RealEstate_Design1}
-        MidImg={RealEstate_Design2}
-        BottomImg={RealEstate_Design3}
-        // grids
+        // TopImg={RealEstate_Design1}
+        // MidImg={RealEstate_Design2}
+        // BottomImg={RealEstate_Design3}
+        grids
         // src1
         // src2
         // src3
         // src4
         // src5
         // src6
-        overlap
+        // overlap
       />
 
       <DetailTheme
@@ -97,24 +97,24 @@ export default function RealEstate() {
         // src2={EZbox_Theme2}
         // src3={EZbox_Theme3}
         // fullscreen
-        titleTheme="#837C6B"
+        titleTheme='#837C6B'
         // desp
-        Theme1="#837C6B"
-        Theme2="rgba(131, 124, 107, 0.5)"
-        Theme3="#FAFAFA"
-        Theme4="#191A1F"
-        Theme5="#575961"
+        Theme1='#837C6B'
+        Theme2='rgba(131, 124, 107, 0.5)'
+        Theme3='#FAFAFA'
+        Theme4='#191A1F'
+        Theme5='#575961'
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={KidCab_Theme}
       />
-      <DetailLogo theme="#191A1F" src={RealEstate_Logo} />
+      <DetailLogo theme='#191A1F' src={RealEstate_Logo} />
       <DetailAppDev
-        title="MOBILE APP DEVELOPMENT"
+        title='MOBILE APP DEVELOPMENT'
         // desp
         // fullImg={RealEstate_AppDesign}
-        titleTheme="#837C6B"
+        titleTheme='#837C6B'
         halfImg={RealEstate_AppDesign}
       />
       <DetailFeedback
@@ -122,9 +122,9 @@ export default function RealEstate() {
         // despTheme
         // desp
         // location
-        ThemeBG="#837C6B"
+        ThemeBG='#837C6B'
         AvatarSrc={Kidcab_Avatar}
-        name="Steve Jobs"
+        name='Steve Jobs'
       />
       <Footer />
     </div>

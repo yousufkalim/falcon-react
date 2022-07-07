@@ -29,34 +29,34 @@ import Footer from "../../components/Common/Footer";
 // Home Component
 export default function Excellence() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
         // DividerBG
-        background="#282828"
-        bottomBG="#0086EF"
-        typoBG="#0086EF"
+        background='#282828'
+        bottomBG='#0086EF'
+        typoBG='#0086EF'
         HeaderImg={Excellence_Header}
-        title="Excellence ERP"
-        subTitle="What is Excellence ERP"
+        title='Excellence ERP'
+        subTitle='What is Excellence ERP'
         desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       />
       <DetailOverview
         // desp
         // location
-        titleTheme="#282828"
+        titleTheme='#282828'
         AvatarSrc={Kidcab_Avatar}
-        nameColor="#0086EF"
-        name="Ukhano"
+        nameColor='#0086EF'
+        name='Ukhano'
         src={OV_Excellence}
       />
       <DetailService
         // both
         web
         // app
-        titleTheme="#282828"
-        borderColor="#282828"
-        circleTheme="#0086EF"
+        titleTheme='#282828'
+        borderColor='#282828'
+        circleTheme='#0086EF'
       />
 
       <DetailDemo
@@ -64,27 +64,27 @@ export default function Excellence() {
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
-        titleColor="#282828"
-        title="Excellence ERP"
-        btnTheme="#0086EF"
-        theme="#0086EF"
+        titleColor='#282828'
+        title='Excellence ERP'
+        btnTheme='#0086EF'
+        theme='#0086EF'
         src={Excellence_Demo}
       />
       <DetailDesign
-        titleTheme="#282828"
-        title="UI DESIGN"
+        titleTheme='#282828'
+        title='UI DESIGN'
         // overlap
-        TopImg={OrgaPlan_Design1}
-        MidImg={OrgaPlan_Design2}
-        BottomImg={OrgaPlan_Design3}
-        // grids
-        // src1
-        // src2
-        // src3
-        // src4
-        // src5
-        // src6
-        overlap
+        // TopImg={OrgaPlan_Design1}
+        // MidImg={OrgaPlan_Design2}
+        // BottomImg={OrgaPlan_Design3}
+        grids
+        src1={OrgaPlan_Design2}
+        src2={OrgaPlan_Design1}
+        src3={OrgaPlan_Design1}
+        src4={OrgaPlan_Design2}
+        src5={OrgaPlan_Design3}
+        src6={OrgaPlan_Design1}
+        // overlap
       />
 
       <DetailTheme
@@ -96,13 +96,13 @@ export default function Excellence() {
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
         fullscreen
-        title="COLOR THEME AND DESIGN"
-        titleTheme="#282828"
+        title='COLOR THEME AND DESIGN'
+        titleTheme='#282828'
         // desp
-        Theme1="#0086EF"
-        Theme2="#FAFAFA"
-        Theme3="#191A1F"
-        Theme4="#575961"
+        Theme1='#0086EF'
+        Theme2='#FAFAFA'
+        Theme3='#191A1F'
+        Theme4='#575961'
         // Theme5="#00000040"
         // Theme6=""
         // Theme7=""
@@ -118,13 +118,13 @@ export default function Excellence() {
         // halfImg=(src Required)
       /> */}
       <DetailFeedback
-        titleTheme="#0086EF"
-        despTheme="#282828"
+        titleTheme='#0086EF'
+        despTheme='#282828'
         // desp
         // location
-        ThemeBG="#ffffff"
+        ThemeBG='#ffffff'
         AvatarSrc={Kidcab_Avatar}
-        name="Ukhano"
+        name='Ukhano'
       />
       <Footer />
     </div>

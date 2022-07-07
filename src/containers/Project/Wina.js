@@ -33,24 +33,24 @@ import Footer from "../../components/Common/Footer";
 // Home Component
 export default function Wina() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
-        background="#282828"
-        bottomBG="#2A5AA6"
-        typoBG="#2A5AA6"
+        background='#282828'
+        bottomBG='#2A5AA6'
+        typoBG='#2A5AA6'
         HeaderImg={Wina_Header}
-        title="Wina"
-        subTitle="What is Wina"
+        title='Wina'
+        subTitle='What is Wina'
         // iconTheme="#9D3C64"
         desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       />
       <DetailOverview
-        titleTheme="#2A5AA6"
+        titleTheme='#2A5AA6'
         // desp=""
         AvatarSrc={QB_Avatar}
-        nameColor="#2A5AA6"
-        name="Shane Jhon"
+        nameColor='#2A5AA6'
+        name='Shane Jhon'
         // location="France"
         src={OV_Wina}
       />
@@ -58,9 +58,9 @@ export default function Wina() {
         // app
         // web
         both
-        titleTheme="#2A5AA6"
-        borderColor="#282828"
-        circleTheme="#2A5AA6"
+        titleTheme='#2A5AA6'
+        borderColor='#282828'
+        circleTheme='#2A5AA6'
       />
 
       <DetailDemo
@@ -68,27 +68,27 @@ export default function Wina() {
         // btnText
         // DetailDemo_SquareDiv
         DetailDemo_RoundDiv
-        titleColor="#2A5AA6"
-        title="Wina"
-        btnTheme="#2A5AA6"
-        theme="#2A5AA6"
+        titleColor='#2A5AA6'
+        title='Wina'
+        btnTheme='#2A5AA6'
+        theme='#2A5AA6'
         src={Wina_Demo}
       />
       <DetailDesign
-        titleTheme="#2A5AA6"
-        title="APP UI DESIGN"
+        titleTheme='#2A5AA6'
+        title='APP UI DESIGN'
         // overlap
-        TopImg={Yuwway_Design1}
-        MidImg={Yuwway_Design2}
-        BottomImg={Yuwway_Design3}
-        // grids
+        // TopImg={Yuwway_Design1}
+        // MidImg={Yuwway_Design2}
+        // BottomImg={Yuwway_Design3}
+        grids
         // src1
         // src2
         // src3
         // src4
         // src5
         // src6
-        overlap
+        // overlap
       />
 
       <DetailTheme
@@ -100,32 +100,32 @@ export default function Wina() {
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
         // fullscreen
-        title="COLOR THEME"
-        titleTheme="#2A5AA6"
+        title='COLOR THEME'
+        titleTheme='#2A5AA6'
         // desp
-        Theme1="#2A5AA6"
-        Theme2="#FAFAFA"
-        Theme3="#D1A38D"
-        Theme4="#191A1F"
+        Theme1='#2A5AA6'
+        Theme2='#FAFAFA'
+        Theme3='#D1A38D'
+        Theme4='#191A1F'
         // Theme5="#00000040"
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={Firemen_Theme}
       />
-      <DetailLogo theme="#2A5AA6" src={Wina_Logo} />
+      <DetailLogo theme='#2A5AA6' src={Wina_Logo} />
       <DetailAppDev
-        title="MOBILE APP DEVELOPMENT"
+        title='MOBILE APP DEVELOPMENT'
         // desp
         fullImg={Wina_AppDesign}
-        titleTheme="#2A5AA6"
+        titleTheme='#2A5AA6'
         // halfImg={Wina_AppDesign}
       />
       <DetailAppDev
-        title="WEB DEVELOPMENT"
+        title='WEB DEVELOPMENT'
         // desp
         fullImg={Wina_WebDesign}
-        titleTheme="#2A5AA6"
+        titleTheme='#2A5AA6'
         // halfImg={Wina_AppDesign}
       />
       <DetailFeedback
@@ -133,9 +133,9 @@ export default function Wina() {
         // despTheme="#282828"
         // desp
         // location
-        ThemeBG="#2A5AA6"
+        ThemeBG='#2A5AA6'
         // AvatarSrc={Kidcab_Avatar}
-        name="Shane jhon"
+        name='Shane jhon'
       />
       <Footer />
     </div>
