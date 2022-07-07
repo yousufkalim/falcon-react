@@ -116,6 +116,8 @@ i18n
           About: "About",
           Services: "Services",
           "Our projects": "Our projects",
+          "Our Projects": "Our Projects",
+
           Contact: "Contact",
           Privacy: "Privacy",
           "Terms of Service": "Terms of Service",
@@ -617,10 +619,10 @@ i18n
 
           "Changer de langue en": "Change the language to",
           Français: "English",
-          "WEB DEVELOPMENT": "Développement de site Web",
-          "APP DEVELOPMENT": "Développement d'app mobiles",
-          "SOFTWARE DEVELOPMENT": "Développement de logiciels",
-          "ON DEMAND DEVELOPERS": "Développeurs à la demande",
+          "WEB DEVELOPMENT": "Développement Web",
+          "APP DEVELOPMENT": "Développement App mobiles",
+          "SOFTWARE DEVELOPMENT": "Développement Logiciel",
+          "ON DEMAND DEVELOPERS": "Régie Informatique",
           "UI/UX DEVELOPMENT": "Développement UI/UX",
 
           //Home
@@ -733,7 +735,9 @@ i18n
           Pages: "Pages",
           About: "À propos de",
           Services: "Prestations de service",
+          "Our Projects": "Nos projets",
           "Our projects": "Nos projets",
+
           Contact: "Contact",
           Privacy: "Politique de Confidentialité",
           "Terms of Service": "Conditions d'utilisation",
