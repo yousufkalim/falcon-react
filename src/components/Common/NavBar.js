@@ -17,10 +17,10 @@ export default function NavBar(props) {
   return (
     <>
       {props.ContactUs ? (
-        <Box className="NavBarBox" sx={{ flexGrow: 1 }}>
+        <Box className='NavBarBox' sx={{ flexGrow: 1 }}>
           <AppBar
-            className="AppBarBox"
-            position="fixed"
+            className='AppBarBox'
+            position='fixed'
             sx={{
               backgroundColor: "#0000000D",
               color: "blue",
@@ -31,26 +31,28 @@ export default function NavBar(props) {
             {Menu ? (
               <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
             ) : (
-              <Toolbar className="NavToolbar ">
-                <Link to={`/`}>
-                  <LogoWhite
-                    // className="Falcon_logo"
-                    style={{
-                      width: "50%",
-                      transition: ".5s",
-                      color: position <= 970 ? "white" : "#003B7E",
-                      height: 30,
-                    }}
-                  />
-                  {/* <img
+              <Toolbar className='NavToolbar '>
+                <div style={{ width: "10%" }}>
+                  <Link to={`/`}>
+                    <LogoWhite
+                      // className="Falcon_logo"
+                      style={{
+                        width: "100%",
+                        transition: ".5s",
+                        color: position <= 970 ? "white" : "#003B7E",
+                        height: 40,
+                      }}
+                    />
+                    {/* <img
                     className="Falcon_logo"
                     alt="logo"
                     src={LogoWhite}
                     style={{ width: "10%", margin: "1% 0", cursor: "pointer" }}
                   /> */}
-                </Link>
+                  </Link>
+                </div>
                 <WhiteMenuIcon
-                  className="MenuIconMob"
+                  className='MenuIconMob'
                   onClick={(e) => SetMenu(!Menu)}
                   style={{
                     color: position <= 970 ? "white" : "#003B7E",
@@ -63,10 +65,10 @@ export default function NavBar(props) {
           </AppBar>
         </Box>
       ) : (
-        <Box className="NavBarBox" sx={{ flexGrow: 1 }}>
+        <Box className='NavBarBox' sx={{ flexGrow: 1 }}>
           <AppBar
-            className="AppBarBox"
-            position="fixed"
+            className='AppBarBox'
+            position='fixed'
             sx={{
               backgroundColor: position <= 3 ? "transparent" : "white",
               padding: "0px 20px",
@@ -76,23 +78,26 @@ export default function NavBar(props) {
             {Menu ? (
               <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
             ) : (
-              <Toolbar className="NavToolbar">
-                <Link to={`/`}>
+              <Toolbar className='NavToolbar'>
+                <div style={{ width: "10%" }}>
+                  <Link to={`/`}>
+                    <img
+                      className='Falcon_logo'
+                      alt='logo'
+                      src={Logo}
+                      style={{ width: "100%", margin: "1% 0", cursor: "pointer" }}
+                    />
+                  </Link>
+                </div>
+                <div style={{ width: "2%" }}>
                   <img
-                    className="Falcon_logo"
-                    alt="logo"
-                    src={Logo}
-                    style={{ width: "10%", margin: "1% 0", cursor: "pointer" }}
+                    className='MenuIconMob'
+                    alt='menu'
+                    src={NavMenu}
+                    style={{ width: "100%", cursor: "pointer" }}
+                    onClick={(e) => SetMenu(!Menu)}
                   />
-                </Link>
-
-                <img
-                  className="MenuIconMob"
-                  alt="menu"
-                  src={NavMenu}
-                  style={{ width: "2.5%", cursor: "pointer" }}
-                  onClick={(e) => SetMenu(!Menu)}
-                />
+                </div>
               </Toolbar>
             )}
           </AppBar>
