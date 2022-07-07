@@ -234,6 +234,13 @@ input:focus ,textarea:focus{
     .InputField{
         font-size: .5rem;
     }
+    .ContactUsDiv{
+        padding: 18% 5% 5% 5%;
+        
+    }
+    .ContactUsGrid{
+        margin-top: 8%;
+    }
     .textField{
         font-size: .5rem;
         height: 15vh;
@@ -251,10 +258,7 @@ input:focus ,textarea:focus{
         width: 15%;
     }
   
-    .ContactUsDiv{
-        padding: 15% 5%;
-        
-    }
+  
     .FormGrid{
         width: 100% !important;
         margin: 5% 0%;
