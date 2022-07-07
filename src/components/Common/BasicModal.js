@@ -27,7 +27,7 @@ export default function BasicModal(props) {
   return (
     <div>
       <Button
-        className="ModalOpenBtn"
+        className='ModalOpenBtn'
         sx={{
           backgroundColor: `${props.ModalBtnTheme || "#47B9B4"}`,
           color: `${props.ModalBtntextColor || "white"}`,
@@ -39,12 +39,12 @@ export default function BasicModal(props) {
       <Modal
         open={open}
         onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
+        aria-labelledby='modal-modal-title'
+        aria-describedby='modal-modal-description'
       >
-        <Box className="ModalBox" sx={style}>
-          <div className="Modal_Top">
-            <img className="Modal_Logo" src={props.LogoSrc} />
+        <Box className='ModalBox' sx={style}>
+          <div className='Modal_Top'>
+            <img className='Modal_Logo' src={props.LogoSrc} />
             <img
               style={{
                 position: "absolute",
@@ -57,13 +57,8 @@ export default function BasicModal(props) {
               src={CloseIcon}
             />
           </div>
-          <Typography
-            className="ModalHeading"
-            id="modal-modal-title"
-            variant="h4"
-            component="h2"
-          >
-            {props.Heading || "Kidcab"}
+          <Typography className='ModalHeading' id='modal-modal-title' variant='h4' component='h2'>
+            {props.Heading || "Coming Soon"}
           </Typography>
           <Divider
             width={props.Dividerwidth || "12%"}
@@ -74,28 +69,28 @@ export default function BasicModal(props) {
               margin: "1% 0",
             }}
           />
-          <Typography className="Modal_Para" id="modal-modal-description">
+          <Typography className='Modal_Para' id='modal-modal-description'>
             {t(props.para1)}
           </Typography>
-          <Typography className="Modal_Para" id="modal-modal-description">
+          <Typography className='Modal_Para' id='modal-modal-description'>
             {t(props.para2)}
           </Typography>
-          <Typography className="Modal_Para" id="modal-modal-description">
+          <Typography className='Modal_Para' id='modal-modal-description'>
             {t(props.para3)}
           </Typography>
-          <Typography className="Modal_Para" id="modal-modal-description">
+          <Typography className='Modal_Para' id='modal-modal-description'>
             {t(props.para4)}
           </Typography>
-          <Typography className="Modal_Para" id="modal-modal-description">
+          <Typography className='Modal_Para' id='modal-modal-description'>
             {t(props.para5)}
           </Typography>
-          <Typography className="Modal_Para" id="modal-modal-description">
+          <Typography className='Modal_Para' id='modal-modal-description'>
             {t(props.para6)}
           </Typography>
-          <Typography className="Modal_Para" id="modal-modal-description">
+          <Typography className='Modal_Para' id='modal-modal-description'>
             {t(props.para7)}
           </Typography>
-          <Typography className="Modal_Para" id="modal-modal-description">
+          <Typography className='Modal_Para' id='modal-modal-description'>
             {t(props.para8)}
           </Typography>
         </Box>
