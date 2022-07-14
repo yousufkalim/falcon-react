@@ -10,10 +10,7 @@ import Client_6 from "../../assets/images/client_6.jpg";
 import Client_7 from "../../assets/images/client_7.jpeg";
 import Client_8 from "../../assets/images/client_8.jpg";
 import Client_9 from "../../assets/images/client_9.jpg";
-import {
-  StackedCarousel,
-  ResponsiveContainer,
-} from "react-stacked-center-carousel";
+import { StackedCarousel, ResponsiveContainer } from "react-stacked-center-carousel";
 
 export default function ReviewSection() {
   const ref = React.useRef();
@@ -88,18 +85,18 @@ export default function ReviewSection() {
 
   return (
     <>
-      <div className="ReviewSectionMain">
+      <div className='ReviewSectionMain'>
         <SectionHeader
-          colorH2="#0F52BA"
-          h1="your feedback matters"
-          h2="Client Reviews"
-          width="30%"
+          colorH2='#0F52BA'
+          h1='your feedback matters'
+          h2='Client Reviews'
+          width='30%'
         />
-        <div className="ReviewCardSlider">
-          <div className="ReviewSliderContainer">
-            <div className="fade-left"></div>
+        <div className='ReviewCardSlider'>
+          <div className='ReviewSliderContainer'>
+            <div className='fade-left'></div>
             <ResponsiveContainer
-              className="ReviewSection_Carousel"
+              className='ReviewSection_Carousel'
               carouselRef={ref}
               render={(parentWidth, carouselRef) => {
                 let currentVisibleSlide = 5;
@@ -125,7 +122,7 @@ export default function ReviewSection() {
                 );
               }}
             />
-            <div className="fade-right"></div>
+            <div className='fade-right'></div>
           </div>
         </div>
       </div>

@@ -15,12 +15,7 @@ export default function ContactUsSection(props) {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "service_p9t3cg6",
-        "template_imi9dne",
-        e.target,
-        "user_Dh0YsMnLOPp5ckc48VOcP"
-      )
+      .sendForm("service_p9t3cg6", "template_imi9dne", e.target, "user_Dh0YsMnLOPp5ckc48VOcP")
       .then(
         (result) => {
           console.log(result.text);
@@ -37,69 +32,69 @@ export default function ContactUsSection(props) {
   return (
     <>
       {props.ContactUs ? (
-        <div className="ContactUsDiv">
+        <div className='ContactUsDiv'>
           <div>
             <SectionHeader
-              width="5%"
-              h1="Contact Us"
-              h2="Share Your Project/Idea with us!"
-              colorH2="#fff"
-              colorDesp="#F8F8F8"
-              decription="Our Team Member will get back to you within 24 hours. "
+              width='5%'
+              h1='Contact Us'
+              h2='Share Your Project/Idea with us!'
+              colorH2='#fff'
+              colorDesp='#F8F8F8'
+              decription='Our Team Member will get back to you within 24 hours. '
             />
           </div>
-          <div className="ContactUsGrid">
-            <Grid container spacing={1} className="ContactContainerGrid">
-              <Grid container sm={8} md={6} className="ContactFormGrid">
-                <form onSubmit={sendEmail} className="ContactForm">
-                  <div style={{ display: "flex", width: "100%" }}>
-                    <Grid className="InputGrid" xs={12} sm={6}>
+          <div className='ContactUsGrid'>
+            <Grid container spacing={1} className='ContactContainerGrid'>
+              <Grid container sm={8} md={6} className='ContactFormGrid'>
+                <form onSubmit={sendEmail} className='ContactForm'>
+                  <div className='ContactForm_InputDiv'>
+                    <Grid className='InputGrid' xs={12} sm={6}>
                       <input
                         required
-                        type="text"
-                        name="name"
+                        type='text'
+                        name='name'
                         placeholder={t("Your Name")}
-                        className="InputField"
+                        className='InputField'
                       />
                     </Grid>
-                    <Grid className="InputGrid" xs={12} sm={6}>
+                    <Grid className='InputGrid' xs={12} sm={6}>
                       <input
                         required
-                        type="email"
-                        name="email"
+                        type='email'
+                        name='email'
                         placeholder={t("Email")}
-                        className="InputField"
+                        className='InputField'
                       />
                     </Grid>
                   </div>
-                  <div style={{ display: "flex" }}>
-                    <Grid className="InputGrid" xs={12} sm={6}>
+                  <div className='ContactForm_InputDiv'>
+                    <Grid className='InputGrid' xs={12} sm={6}>
                       <input
                         required
-                        type="number"
-                        name="phone"
+                        type='number'
+                        name='phone'
                         placeholder={t("Phone")}
-                        className="InputField"
+                        className='InputField'
                       />
                     </Grid>
-                    <Grid className="InputGrid" xs={12} sm={6}>
+                    <Grid className='InputGrid' xs={12} sm={6}>
                       <input
                         required
-                        type="text"
-                        name="budget"
+                        type='text'
+                        name='budget'
                         placeholder={t("Budget")}
-                        className="InputField"
+                        className='InputField'
                       />
                     </Grid>
                   </div>
                   <div>
-                    <Grid className="InputGrid" xs={12}>
+                    <Grid className='InputGrid' xs={12}>
                       <textarea
                         required
-                        type="text"
-                        name="message"
+                        type='text'
+                        name='message'
                         placeholder={t("Type Your Message")}
-                        className="textField"
+                        className='textField'
                         // style={{ marginLeft: "1%" }}
                       />
                     </Grid>
@@ -110,37 +105,31 @@ export default function ContactUsSection(props) {
                       onChange={onChange}
                     />
                   </Grid> */}
-                  <Grid className="Contact_Send_Grid" xs={3}>
-                    <button type="submit" className="ContactUsBtn">
+                  <Grid className='Contact_Send_Grid' xs={3}>
+                    <button type='submit' className='ContactUsBtn'>
                       {t("Send")}
                     </button>
                   </Grid>
                 </form>
               </Grid>
-              <Grid xs={12} sm={10} md={10} className="ContactMedia">
-                <a href="mailto:contact@falconconsulting.fr">
-                  <div className="ContactMediaDiv">
-                    <img className="ContactMediaIcons" src={EmailIcon} />
-                    <div className="SocialMediaText">
-                      <Typography sx={{ fontSize: "1rem" }}>
-                        {t("Email")}
-                      </Typography>
+              <Grid xs={12} sm={10} md={10} className='ContactMedia'>
+                <a href='mailto:contact@falconconsulting.fr'>
+                  <div className='ContactMediaDiv'>
+                    <img className='ContactMediaIcons' src={EmailIcon} />
+                    <div className='SocialMediaText'>
+                      <Typography sx={{ fontSize: "1rem" }}>{t("Email")}</Typography>
                       <Typography sx={{ fontSize: ".7rem" }}>
                         contact@falconconsulting.fr
                       </Typography>
                     </div>
                   </div>
                 </a>
-                <a href="http://calendly.com/falconit">
-                  <div className="ContactMediaDiv">
-                    <img className="ContactMediaIcons" src={CalendlyIcon} />
-                    <div className="SocialMediaText">
-                      <Typography sx={{ fontSize: "1rem" }}>
-                        {t("Calendly")}
-                      </Typography>
-                      <Typography sx={{ fontSize: ".7rem" }}>
-                        {t("Click and join link")}
-                      </Typography>
+                <a href='http://calendly.com/falconit'>
+                  <div className='ContactMediaDiv'>
+                    <img className='ContactMediaIcons' src={CalendlyIcon} />
+                    <div className='SocialMediaText'>
+                      <Typography sx={{ fontSize: "1rem" }}>{t("Calendly")}</Typography>
+                      <Typography sx={{ fontSize: ".7rem" }}>{t("Click and join link")}</Typography>
                     </div>
                   </div>
                 </a>
@@ -149,47 +138,47 @@ export default function ContactUsSection(props) {
           </div>
         </div>
       ) : (
-        <div className="ContactsectionDiv">
-          <div className="ContactSection_Mob_Header">
+        <div className='ContactsectionDiv'>
+          <div className='ContactSection_Mob_Header'>
             <SectionHeader
               LeftSectionHeader
-              width="10%"
-              h1="Contact Us"
-              h2="Share Your Project/Idea with us!"
-              colorH2="#fff"
-              colorDesp="#F8F8F8"
-              decription="Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? 
-              Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours. "
+              width='10%'
+              h1='Contact Us'
+              h2='Share Your Project/Idea with us!'
+              colorH2='#fff'
+              colorDesp='#F8F8F8'
+              decription='Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? 
+              Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours. '
             />
           </div>
-          <div className="ContactSectionGrid">
-            <Grid container spacing={1} className="ContainerGrid">
-              <Grid sm={8} md={6} className="SocialMediaMain">
-                <div className="ContactSection_Web_Header">
+          <div className='ContactSectionGrid'>
+            <Grid container spacing={1} className='ContainerGrid'>
+              <Grid sm={8} md={6} className='SocialMediaMain'>
+                <div className='ContactSection_Web_Header'>
                   <SectionHeader
                     LeftSectionHeader
-                    width="10%"
-                    h1="Contact Us"
-                    h2="Share Your Project/Idea with us!"
-                    colorH2="#fff"
-                    colorDesp="#F8F8F8"
-                    decription="Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours."
+                    width='10%'
+                    h1='Contact Us'
+                    h2='Share Your Project/Idea with us!'
+                    colorH2='#fff'
+                    colorDesp='#F8F8F8'
+                    decription='Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.'
                   />
                 </div>
                 <div>
-                  <a href="http://calendly.com/falconit">
-                    <div className="SocialMediaDiv">
-                      <img className="SocialMediaIcons" src={CalendlyIcon} />
-                      <div className="SocialMediaText">
+                  <a href='http://calendly.com/falconit'>
+                    <div className='SocialMediaDiv'>
+                      <img className='SocialMediaIcons' src={CalendlyIcon} />
+                      <div className='SocialMediaText'>
                         <Typography>{t("Schedule Meeting")}</Typography>
                         <Typography>calendly.com/falconit</Typography>
                       </div>
                     </div>
                   </a>
-                  <a href="mailto:contact@falconconsulting.fr">
-                    <div className="SocialMediaDiv">
-                      <img className="SocialMediaIcons" src={EmailIcon} />
-                      <div className="SocialMediaText">
+                  <a href='mailto:contact@falconconsulting.fr'>
+                    <div className='SocialMediaDiv'>
+                      <img className='SocialMediaIcons' src={EmailIcon} />
+                      <div className='SocialMediaText'>
                         <Typography>{t("Email")}</Typography>
                         <Typography>contact@falconconsulting.fr</Typography>
                       </div>
@@ -197,45 +186,45 @@ export default function ContactUsSection(props) {
                   </a>
                 </div>
               </Grid>
-              <Grid container xs={12} sm={8} md={6} className="FormGrid">
-                <form onSubmit={sendEmail} className="ContactForm">
-                  <div style={{ display: "flex", width: "100%" }}>
+              <Grid container xs={12} sm={8} md={6} className='FormGrid'>
+                <form onSubmit={sendEmail} className='ContactForm'>
+                  <div className='ContactForm_InputDiv'>
                     <Grid xs={12} sm={6}>
                       <input
                         required
-                        type="text"
-                        name="name"
+                        type='text'
+                        name='name'
                         placeholder={t("Your Name")}
-                        className="InputField"
+                        className='InputField'
                       />
                     </Grid>
                     <Grid xs={12} sm={6}>
                       <input
                         required
-                        type="email"
-                        name="email"
+                        type='email'
+                        name='email'
                         placeholder={t("Email")}
-                        className="InputField"
+                        className='InputField'
                       />
                     </Grid>
                   </div>
-                  <div style={{ display: "flex" }}>
+                  <div className='ContactForm_InputDiv'>
                     <Grid xs={12} sm={6}>
                       <input
                         required
-                        type="number"
-                        name="phone"
+                        type='number'
+                        name='phone'
                         placeholder={t("Phone")}
-                        className="InputField"
+                        className='InputField'
                       />
                     </Grid>
                     <Grid xs={12} sm={6}>
                       <input
                         required
-                        type="text"
-                        name="budget"
+                        type='text'
+                        name='budget'
                         placeholder={t("Budget")}
-                        className="InputField"
+                        className='InputField'
                       />
                     </Grid>
                   </div>
@@ -243,10 +232,10 @@ export default function ContactUsSection(props) {
                     <Grid xs={12}>
                       <textarea
                         required
-                        type="text"
-                        name="message"
+                        type='text'
+                        name='message'
                         placeholder={t("Type Your Message")}
-                        className="textField"
+                        className='textField'
                       />
                     </Grid>
                   </div>
@@ -291,7 +280,7 @@ export default function ContactUsSection(props) {
                     </div>
                   </Grid> */}
                   <Grid xs={3}>
-                    <button type="submit" className="ContactUsBtn">
+                    <button type='submit' className='ContactUsBtn'>
                       {t("Send")}
                     </button>
                   </Grid>

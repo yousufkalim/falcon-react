@@ -4,7 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import KidCab from "../../assets/images/kidcab.svg";
 import KC_logo from "../../assets/images/kidcabLogo.png";
-import Permispop from "../../assets/images/Permispop.svg";
+import Permispop from "../../assets/images/permispop.png";
 import PP_logo from "../../assets/images/permisLogo.png";
 import QB from "../../assets/images/quadrabase.svg";
 import QB_logo from "../../assets/images/qudra_logo.svg";
@@ -78,7 +78,7 @@ export default function LatestProjects(props) {
             className='SliderDiv'
             autoPlay={true}
             responsive={responsive}
-            transitionDuration={2000}
+            transitionDuration={500}
             slidesToSlide={1}
             renderArrowNext={true}
             infinite={true}
@@ -120,9 +120,7 @@ export default function LatestProjects(props) {
               LogoSrc={Desine_Logo}
             />
             <LatestProjectsCard
-              hoverDesp='This website offers an online tailoring experience with free pick-up and delivery in Karachi. We provide
-            stitching services with customizable designs for salwar suits, blouses, kurtas, bottoms, western wear as per
-            customers measurement at the doorstep. Coming Soon for other cities also.'
+              hoverDesp='This website offers an online tailoring experience with free pick-up and delivery in Karachi. We provide stitching services with customizable designs for salwar suits, blouses, kurtas, bottoms, western wear as per customers measurement at the doorstep. Coming Soon for other cities also.'
               src={Real_Estate}
               to='/ourprojects/realestate'
               DividerTheme='#837C6B'

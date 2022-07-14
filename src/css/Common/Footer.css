@@ -47,6 +47,9 @@
     justify-content: space-between;
     width: 30%;
 }
+.FooterList{
+    width:50%
+}
 .FooterRight ul {
     list-style: none;
     font-weight: 600;
@@ -100,6 +103,62 @@
     font-weight: 700 !important; 
     cursor: pointer; 
 }
+.Footer_MobView{
+    display: none;
+}
+/* footer Mob View */
+.Footer_MobView_LogoDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+    margin: 5% 0;
+}
+.Footer_MobView_LogoLink{
+    width: 50%; 
+    display: flex; 
+        justify-content: center;
+
+
+}
+.Footer_MobView_ListContainer{
+    margin: 3% 0;
+}
+.Footer_MobView_ListDiv{
+    text-align: center;
+}
+.Footer_MobView_Title{
+    color: #282828;
+    margin: 10% 0 !important;
+    opacity: .5;
+    font-weight: 700 !important;
+
+}
+.Footer_MobView_List{
+        list-style: none;
+        color: #003B7E;
+        font-weight: 400;
+        font-family: Raleway;
+}
+.Footer_MobView_LegalMentionDiv{
+    margin: 10% 0;
+}
+.Footer_MobView_LegalMentionLink{
+     color: #282828;
+      font-weight: 700;
+     text-decoration: underline !important;
+
+}
+.Footer_MobView_IconDiv{
+    display: flex; 
+    margin: 5% 0;
+}
+.Footer_MobView_changeLang{
+    font-size: 1.2rem;
+     font-weight: 600; 
+     margin: 3% 0;
+
+}
+
 
 @media only screen and (max-width: 900px) {
     .FooterLogo {
@@ -135,6 +194,26 @@
     }
 }
 @media only screen and (max-width: 600px) {
+    .Footer_WebView{
+        display: none !important;
+    }
+    .Footer_MobView{
+        display: flex;
+        background: #F8F8F8;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 5%;
+    }
+    .FooterLogoMob{
+        width:70%;
+    }
+    .FooterMob_Link{
+        color: #4879b1 !important;
+        font-weight: 400 !important;
+    }
+    
     .FooterLogo {
         width: 50%;
     }
@@ -178,8 +257,14 @@
     width: 100%;
     margin-bottom: .5% !important;
     }
+ 
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 400px) {
+
+    .FooterListHeading{
+        font-size: .5rem !important;
+
+    }
   .LegalMentionDiv{
     text-align: center;
 }

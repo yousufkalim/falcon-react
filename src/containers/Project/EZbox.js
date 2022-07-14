@@ -32,34 +32,35 @@ import Footer from "../../components/Common/Footer";
 // Home Component
 export default function EZbox() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
         // DividerBG
-        background="#454238"
-        bottomBG="#3399FE"
-        typoBG="#3399FE"
+        background='#454238'
+        bottomBG='#3399FE'
+        typoBG='#3399FE'
         HeaderImg={EZbox_Header}
-        title="EZbox Media"
-        subTitle="What is EZbox Media"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        title='EZbox Media'
+        subTitle='What is EZbox Media'
+        description='EZBox media is a platform providing different services'
       />
       <DetailOverview
         // desp
+        desp='EZBox media is a platform providing different services. Advertising by understanding how a user can react to the advertisement shown to them. Target ads based on non-personal criteria. EZBox media helps Product development for the next generation products with the wide variety of technologies available today. EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions.'
         // location
-        titleTheme="#454238"
+        titleTheme='#454238'
         AvatarSrc={Kidcab_Avatar}
-        nameColor="#3399FE"
-        name="Eassa Awake"
+        nameColor='#3399FE'
+        name='Eassa Awake'
         src={OV_EZbox}
       />
       <DetailService
         // both
         web
         // app
-        titleTheme="#454238"
-        borderColor="#454238"
-        circleTheme="#3399FE"
+        titleTheme='#454238'
+        borderColor='#454238'
+        circleTheme='#3399FE'
         BGLogo
         liteLogo={BG_Logo}
       />
@@ -69,27 +70,27 @@ export default function EZbox() {
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
-        titleColor="#454238"
-        title="EZbox Media"
-        btnTheme="#3399FE"
-        theme="#3399FE"
+        titleColor='#454238'
+        title='EZbox Media'
+        btnTheme='#3399FE'
+        theme='#3399FE'
         src={EZbox_Demo}
       />
       <DetailDesign
-        titleTheme="#454238"
-        title="UI DESIGN"
+        titleTheme='#454238'
+        title='UI DESIGN'
         // overlap
-        TopImg={EZbox_Design1}
-        MidImg={EZbox_Design2}
-        BottomImg={EZbox_Design3}
-        // grids
-        // src1
-        // src2
-        // src3
-        // src4
-        // src5
-        // src6
-        overlap
+        // TopImg={EZbox_Design1}
+        // MidImg={EZbox_Design2}
+        // BottomImg={EZbox_Design3}
+        grids
+        src1={EZbox_Design2}
+        src2={EZbox_Design1}
+        src3={EZbox_Design2}
+        src4={EZbox_Design1}
+        src5={EZbox_Design3}
+        src6={EZbox_Design1}
+        // overlap
       />
 
       <DetailTheme
@@ -101,24 +102,24 @@ export default function EZbox() {
         src2={EZbox_Theme2}
         src3={EZbox_Theme3}
         // fullscreen
-        titleTheme="#454238"
+        titleTheme='#454238'
         // desp
-        Theme4="#454238"
-        Theme1="#3399FE"
-        Theme2="#FCFCFC"
-        Theme3="linear-gradient(180deg, #FE9433 0%, rgba(210, 202, 248, 0.12) 100%)"
+        Theme4='#454238'
+        Theme1='#3399FE'
+        Theme2='#FCFCFC'
+        Theme3='linear-gradient(180deg, #FE9433 0%, rgba(210, 202, 248, 0.12) 100%)'
         // Theme5=""
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={KidCab_Theme}
       />
-      <DetailLogo theme="#454238" src={EZbox_Logo} />
+      <DetailLogo theme='#454238' src={EZbox_Logo} />
       <DetailAppDev
-        title="WEB DESIGN"
+        title='WEB DESIGN'
         // desp
         halfImg={EZbox_WebDesign}
-        titleTheme="#454238"
+        titleTheme='#454238'
         // fullImg=(src Required)
       />
       <DetailFeedback
@@ -126,9 +127,9 @@ export default function EZbox() {
         // despTheme
         // desp
         // location
-        ThemeBG="#3399FE"
+        ThemeBG='#3399FE'
         AvatarSrc={Kidcab_Avatar}
-        name="Eassa Awake"
+        name='Eassa Awake'
       />
       <Footer />
     </div>

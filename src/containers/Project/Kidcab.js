@@ -27,34 +27,35 @@ import Footer from "../../components/Common/Footer";
 // Home Component
 export default function Kidcab() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
         // DividerBG
-        background="#18374E"
-        bottomBG="#18374E"
-        typoBG="#18374E"
+        background='#18374E'
+        bottomBG='#18374E'
+        typoBG='#18374E'
         HeaderImg={KidcabHeader}
-        title="KidCab."
-        subTitle="What is KidCab"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        title='KidCab.'
+        subTitle='What is KidCab'
+        description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
       />
       <DetailOverview
         // desp
+        desp='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. '
         // location
-        titleTheme="#4CB9B4"
+        titleTheme='#4CB9B4'
         AvatarSrc={Kidcab_Avatar}
-        nameColor="#4CB9B4"
-        name="Steve Jobs"
+        nameColor='#4CB9B4'
+        name='Steve Jobs'
         src={OV_Kidcab}
       />
       <DetailService
         // both
         // web
         app
-        titleTheme="#4CB9B4"
-        borderColor="#18374E"
-        circleTheme="#4CB9B4"
+        titleTheme='#4CB9B4'
+        borderColor='#18374E'
+        circleTheme='#4CB9B4'
         BGLogo
         liteLogo={BG_Logo}
       />
@@ -64,10 +65,10 @@ export default function Kidcab() {
         // btnText
         // DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
-        titleColor="#4CB9B4"
-        title="KidCab"
-        btnTheme="#18374E"
-        theme="#18374E"
+        titleColor='#4CB9B4'
+        title='KidCab'
+        btnTheme='#18374E'
+        theme='#18374E'
         src={KidCab_Demo}
       />
       <DetailDesign
@@ -77,14 +78,14 @@ export default function Kidcab() {
         // TopImg
         // MidImg
         // BottomImg
-        // grids
+        grids
         // src1
         // src2
         // src3
         // src4
         // src5
         // src6
-        overlap
+        // overlap
       />
 
       <DetailTheme
@@ -96,30 +97,30 @@ export default function Kidcab() {
         // src2
         // src3
         fullscreen
-        titleTheme="#4CB9B4"
+        titleTheme='#4CB9B4'
         // desp
-        Theme1="#18374E"
-        Theme2="#4CB9B4"
-        Theme3="#4D525B"
-        Theme4="#FDFFFE"
-        Theme5="#CCCCCC"
-        Theme6="#CCCCCC"
+        Theme1='#18374E'
+        Theme2='#4CB9B4'
+        Theme3='#4D525B'
+        Theme4='#FDFFFE'
+        Theme5='#CCCCCC'
+        Theme6='#CCCCCC'
         // Theme7
         src={KidCab_Theme}
       />
-      <DetailLogo theme="#ffffff" src={Kidcab_Logo} />
+      <DetailLogo theme='#ffffff' src={Kidcab_Logo} />
       <DetailAppDev
         // title
         // desp
         halfImg={KidCab_AppDesign}
-        titleTheme="#4CB9B4"
+        titleTheme='#4CB9B4'
         // fullImg={KidCab_AppDesign}
       />
       <DetailAppDev
-        title="WEB DEVELOPMENT"
+        title='WEB DEVELOPMENT'
         // desp
         // halfImg={KidCab_AppDesign}
-        titleTheme="#4CB9B4"
+        titleTheme='#4CB9B4'
         fullImg={KidCab_WebDesign}
       />
       <DetailFeedback
@@ -127,9 +128,9 @@ export default function Kidcab() {
         // despTheme
         // desp
         // location
-        ThemeBG="#18374E"
+        ThemeBG='#18374E'
         AvatarSrc={Kidcab_Avatar}
-        name="Steve Jobs"
+        name='Steve Jobs'
       />
       <Footer />
     </div>

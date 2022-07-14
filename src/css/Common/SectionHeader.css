@@ -44,7 +44,9 @@
         margin: 2% 0% 3% 0%;
     }
     .SectionHeaderH1{
-        width: 90% !important;
+        width: 100% !important;
+    /* font-size: .8rem !important; */
+
     }
     .SectionHeaderH2{
         width: 90% !important;
@@ -52,8 +54,12 @@
 
     }
     .SectionHeaderDesp{
-        width: 90%;
+        width: 95%;
+        font-size: .8rem !important;
 
+    }
+    .SectionHeaderTypo{
+        margin: 10% 0%;
     }
 
   }

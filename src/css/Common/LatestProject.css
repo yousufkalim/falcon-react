@@ -279,3 +279,39 @@ left: 15%;
 }
 
 } 
+@media only screen and (max-width: 400px) {
+
+    .ProjectsCompleted_H{
+            font-size: 8px !important;
+    }
+    
+    .ProjectsCompleted_Timer{
+        top: -90%;
+    }
+    .ProjectsCompleted_MedKit{
+        left:3%;
+    }
+    .ProjectsCompleted_Award{
+    top: -90%;
+    left: 4%;
+    }
+    
+    } 
+    @media only screen and (max-width: 330px) {
+
+        .ProjectsCompleted_H{
+                font-size: 8px !important;
+        }
+        
+        .ProjectsCompleted_Timer{
+            top: -75%;
+        }
+        .ProjectsCompleted_MedKit{
+            left:3%;
+        }
+        .ProjectsCompleted_Award{
+        top: -80%;
+        left: 10%;
+        }
+        
+        } 

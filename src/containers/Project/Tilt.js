@@ -31,23 +31,23 @@ import Footer from "../../components/Common/Footer";
 // Home Component
 export default function Tilt() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
-        background="#282828"
-        bottomBG="#D3014A"
-        typoBG="#D3014A"
+        background='#282828'
+        bottomBG='#D3014A'
+        typoBG='#D3014A'
         HeaderImg={Tilt_Header}
-        title="Tilt"
-        subTitle="What is Tilt"
+        title='Tilt'
+        subTitle='What is Tilt'
         // iconTheme="#9D3C64"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        description='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
       />
       <DetailOverview
-        titleTheme="#282828"
-        // desp=""
+        titleTheme='#282828'
+        desp='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order. The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience. On the restaurant side, it is possible to create and manage a customized menu, see all the incoming orders, and change their status. On the delivery side, the application the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications.'
         AvatarSrc={QB_Avatar}
-        nameColor="#D3014A"
+        nameColor='#D3014A'
         // name="Dylan Field"
         // location="France"
         src={OV_Tilt}
@@ -55,9 +55,9 @@ export default function Tilt() {
       <DetailService
         // web
         both
-        titleTheme="#282828"
-        borderColor="#282828"
-        circleTheme="#D3014A"
+        titleTheme='#282828'
+        borderColor='#282828'
+        circleTheme='#D3014A'
         fitLogo
         liteLogo={BG_Logo}
       />
@@ -67,27 +67,27 @@ export default function Tilt() {
         // btnText
         // DetailDemo_SquareDiv
         DetailDemo_RoundDiv
-        titleColor="#282828"
-        title="Tilt"
-        btnTheme="#D3014A"
-        theme="#D3014A"
+        titleColor='#282828'
+        title='Tilt'
+        btnTheme='#D3014A'
+        theme='#D3014A'
         src={Tilt_Demo}
       />
       <DetailDesign
-        titleTheme="#282828"
-        title="APP UI DESIGN"
+        titleTheme='#282828'
+        title='APP UI DESIGN'
         // overlap
-        TopImg={Tilt_Design1}
-        MidImg={Tilt_Design2}
-        BottomImg={Tilt_Design3}
-        // grids
+        // TopImg={Tilt_Design1}
+        // MidImg={Tilt_Design2}
+        // BottomImg={Tilt_Design3}
+        grids
         // src1
         // src2
         // src3
         // src4
         // src5
         // src6
-        overlap
+        // overlap
       />
 
       <DetailTheme
@@ -99,32 +99,32 @@ export default function Tilt() {
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
         // fullscreen
-        title="COLOR THEME"
-        titleTheme="#282828"
+        title='COLOR THEME'
+        titleTheme='#282828'
         // desp
-        Theme1="#D3014A"
-        Theme2="#ffffff"
-        Theme3="#282828"
-        Theme4="#575961"
+        Theme1='#D3014A'
+        Theme2='#ffffff'
+        Theme3='#282828'
+        Theme4='#575961'
         // Theme5="#00000040"
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={OrgaPlan_Theme}
       />
-      <DetailLogo theme="#D3014A" src={Tilt_Logo} />
+      <DetailLogo theme='#D3014A' src={Tilt_Logo} />
       <DetailAppDev
-        title="MOBILE APP DEVELOPMENT"
+        title='MOBILE APP DEVELOPMENT'
         // desp
         fullImg={Tilt_AppDesign}
-        titleTheme="#282828"
+        titleTheme='#282828'
         // halfImg=(src Required)
       />
       <DetailAppDev
-        title="WEB DEVELOPMENT"
+        title='WEB DEVELOPMENT'
         // desp
         fullImg={Tilt_WebDesign}
-        titleTheme="#282828"
+        titleTheme='#282828'
         // halfImg=(src Required)
       />
       <DetailFeedback
@@ -132,7 +132,7 @@ export default function Tilt() {
         // despTheme="#282828"
         // desp
         // location
-        ThemeBG="#D3014A"
+        ThemeBG='#D3014A'
         // AvatarSrc={Kidcab_Avatar}
         // name="Ukhano"
       />

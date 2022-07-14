@@ -2,6 +2,10 @@
         height: 85vh;
         overflow: hidden;
 }
+.DetailHeader_MainDiv{
+        position: relative;
+
+}
 .DetailHeader_Img{
         height: 85vh;
         width:100%;

@@ -16,19 +16,19 @@ export default function BlogHeader() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className="BlogHeaderMain"
+        className='BlogHeaderMain'
       >
         <Typography
-          className="BlogHeaderTypo"
+          className='BlogHeaderTypo'
           sx={{ color: "#263238", fontSize: "1.7rem", fontWeight: "800" }}
         >
           FALCON <span style={{ color: "#0F52BA" }}>BLOG</span>
         </Typography>
         <Typography
-          className="BlogHeaderTypo"
+          className='BlogHeaderTypo'
           sx={{
             color: "#263238",
-            fontSize: ".8rem",
+            fontSize: "1rem",
             fontWeight: "500",
             width: "35%",
             margin: ".5% 0%",
@@ -37,12 +37,12 @@ export default function BlogHeader() {
           {t("Always looking into improving ourselves.")}
         </Typography>
         <Typography
-          className="BlogHeaderTypo"
+          className='BlogHeaderTypo'
           sx={{
             color: "#263238",
-            fontSize: ".7rem",
+            fontSize: ".9rem",
             fontWeight: "400",
-            width: "20%",
+            width: "30%",
           }}
         >
           {t(
@@ -50,7 +50,7 @@ export default function BlogHeader() {
           )}
         </Typography>
         <div
-          className="BlogHeaderInput"
+          className='BlogHeaderInput'
           style={{
             width: "40%",
             border: "1px solid rgb(235, 233, 233)",
@@ -72,21 +72,7 @@ export default function BlogHeader() {
             }}
             placeholder={t("Your Email")}
           />
-          <button
-            style={{
-              backgroundColor: "#0F52BA",
-              border: "none",
-              width: "40%",
-              fontSize: "1rem",
-              fontWeight: "600",
-              borderRadius: "35px",
-              padding: "1%",
-              color: "white",
-              cursor: "pointer",
-            }}
-          >
-            {t("SUBSCRIBE")}
-          </button>
+          <button className='BlogHeader_Btn'>{t("SUBSCRIBE")}</button>
         </div>
       </motion.div>
     </>

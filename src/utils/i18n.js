@@ -43,8 +43,7 @@ i18n
           "Successfull Projects": "Successfull Projects",
           "Number of Offices": "Number of Offices",
           "External Tools Built": "External Tools Built",
-          "Improvement and Customer focused":
-            "Improvement and Customer focused",
+          "Improvement and Customer focused": "Improvement and Customer focused",
           "We believe that talent and skills do not have borders":
             "We believe that talent and skills do not have borders",
           "We are a human-oriented company, investing in providing  healthy work atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to implement a continuous improvement process for our partners.":
@@ -53,8 +52,7 @@ i18n
 
           //   partners section
           "SINCERELY YOURS": "SINCERELY YOURS",
-          "Some Amazing Partners We Worked With":
-            "Some Amazing Partners We Worked With",
+          "Some Amazing Partners We Worked With": "Some Amazing Partners We Worked With",
 
           // review section
           "your feedback matters": "your feedback matters",
@@ -69,7 +67,21 @@ i18n
             "We had a problem with our AWS configuration and suddenly all our apps and websites shut down. We were in a panic and Falcon IT Consulting came to our rescue. They did a terrific job and quickly got our apps and websites up and running again. Their team is clear in communications and very responsive. We really enjoyed working with them",
           "Falcon Consulting did a great job. I am happy to work with them. They have great skills in MERN stack. Being not so tech savvy I had my own challenges but their Business team helped me on each step along the journey. Hope we will work very soon near future. Thank you":
             "Falcon Consulting did a great job. I am happy to work with them. They have great skills in MERN stack. Being not so tech savvy I had my own challenges but their Business team helped me on each step along the journey. Hope we will work very soon near future. Thank you",
+          "Mobile application for EdTech": "Mobile application for EdTech",
+          "Amazon API Gateway Migration": "Amazon API Gateway Migration",
+          "Mobile application for Parental Control": "Mobile application for Parental Control",
+          "Amazon Web Services Server Configurations": "Amazon Web Services Server Configurations",
+          "Web application Development for Travel Agency":
+            "Web application Development for Travel Agency",
           //   blog section
+          "Managing a Remote Team": "Managing a Remote Team",
+          "Why having a business website is necessary ?":
+            "Why having a business website is necessary ?",
+          "Published on": "Published on",
+          "In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.":
+            "In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.",
+          "We live in a digital world where everyone has cell-phones with the internet. Most consumers will be using their electronic devices to search for online information that will help them in making a smarter purchase decision. Actually, according to a survey, 88% of the consumers will search online information about a product before they finally buy it. Hence if your business doesn’t have a website, you are probably losing a lot of customers and opportunities. Nowadays business website serves as the backbone of the business as it lures new customers and can be used to employ different marketing strategies to expand your business. Below we’ll discuss the role of an online website in boosting your sales and growing your business.":
+            "We live in a digital world where everyone has cell-phones with the internet. Most consumers will be using their electronic devices to search for online information that will help them in making a smarter purchase decision. Actually, according to a survey, 88% of the consumers will search online information about a product before they finally buy it. Hence if your business doesn’t have a website, you are probably losing a lot of customers and opportunities. Nowadays business website serves as the backbone of the business as it lures new customers and can be used to employ different marketing strategies to expand your business. Below we’ll discuss the role of an online website in boosting your sales and growing your business.",
           "With lots of unique blogs": "With lots of unique blogs",
           "Read our blog": "Read our blog",
           "A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021":
@@ -79,8 +91,7 @@ i18n
 
           // contact us
           "Contact Us": "Contact Us",
-          "Share Your Project/Idea with us!":
-            "Share Your Project/Idea with us!",
+          "Share Your Project/Idea with us!": "Share Your Project/Idea with us!",
           "Our Team Member will get back to you within 24 hours. ":
             "Our Team Member will get back to you within 24 hours. ",
           "Do you have any question on any concrete project? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours. ":
@@ -105,18 +116,22 @@ i18n
           About: "About",
           Services: "Services",
           "Our projects": "Our projects",
+          "Our Projects": "Our Projects",
+
           Contact: "Contact",
           Privacy: "Privacy",
           "Terms of Service": "Terms of Service",
           Cookies: "Cookies",
           "All Rights Reserved": "All Rights Reserved",
+          "Web Development": "Web Development",
+          "App Development": "App Development",
+          "Software Development": "Software Development",
+          "UI/UX Developmemt": "UI/UX Developmemt",
 
           //   About US
           //   About_Heaader
-          "Our Goal Is To Exceed Your Expectations ":
-            "Our Goal Is To Exceed Your Expectations ",
-          "Healthy, skilled and ambitious team":
-            "Healthy, skilled and ambitious team",
+          "Our Goal Is To Exceed Your Expectations ": "Our Goal Is To Exceed Your Expectations ",
+          "Healthy, skilled and ambitious team": "Healthy, skilled and ambitious team",
 
           //   About comapny Section
           "BEST company": "BEST company",
@@ -150,8 +165,7 @@ i18n
           //   Blogs
           // Blog_Header
           "FALCON BLOG": "FALCON BLOG",
-          "Always looking into improving ourselves.":
-            "Always looking into improving ourselves.",
+          "Always looking into improving ourselves.": "Always looking into improving ourselves.",
           "The articles written below by our team reflect our values and expertize when it comes to collaborating in mid-size and big projects.":
             "The articles written below by our team reflect our values and expertize when it comes to collaborating in mid-size and big projects.",
           "Your Email": "Your Email",
@@ -159,8 +173,8 @@ i18n
 
           //   Our Projects
           // Projects_Header
-          "ALL PROJECTS START BY A SIMPLE IDEA LET US TAKE CARE OF THE REST!":
-            "ALL PROJECTS START BY A SIMPLE IDEA LET US TAKE CARE OF THE REST!",
+          "ALL PROJECTS START BY A SIMPLE IDEA, LET US TAKE CARE OF THE REST!":
+            "ALL PROJECTS START BY A SIMPLE IDEA, LET US TAKE CARE OF THE REST!",
           "Falcon Consulting had the opportunity to work on  various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time. ":
             "Falcon Consulting had the opportunity to work on  various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time. ",
           "Software house with a team of experienced developers and project managers":
@@ -181,8 +195,7 @@ i18n
 
           //   Services
           // Services_Header
-          "Skilled Developers for your Projects":
-            "Skilled Developers for your Projects",
+          "Skilled Developers for your Projects": "Skilled Developers for your Projects",
           "We are ready to handle your ambitious projects!":
             "We are ready to handle your ambitious projects!",
           "Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !":
@@ -217,8 +230,7 @@ i18n
             "We do research and validate the specs before we start any projects",
           "Designed according to client's requirements":
             "Designed according to client's requirements",
-          "Developed by skilled team developers":
-            "Developed by skilled team developers",
+          "Developed by skilled team developers": "Developed by skilled team developers",
           "After completing the work, live test is done":
             "After completing the work, live test is done",
           UX: "UX",
@@ -232,8 +244,7 @@ i18n
 
           // Our Deveopers Section
           "OUR DEVELOPERS ARE": "OUR DEVELOPERS ARE",
-          "OUR DEVELOPERS FOR YOUR PROJECTS":
-            "OUR DEVELOPERS FOR YOUR PROJECTS",
+          "OUR DEVELOPERS FOR YOUR PROJECTS": "OUR DEVELOPERS FOR YOUR PROJECTS",
           Agile: "Agile",
           Experienced: "Experienced",
           Trained: "Trained",
@@ -270,6 +281,7 @@ i18n
 
           // Project Details Basic Modal
           // Tilt
+
           "Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.":
             "Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.",
           "The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience.":
@@ -313,12 +325,12 @@ i18n
           "Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. ":
             "Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. ",
           //    Orientator
-          "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire. ":
-            "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire. ",
-          "The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile. ":
-            "The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile. ",
-          "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.  ":
-            "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.  ",
+          "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.":
+            "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.",
+          "The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile.":
+            "The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile.",
+          "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.":
+            "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.",
 
           // Kidcab
           "Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.":
@@ -348,8 +360,7 @@ i18n
             "- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. ",
 
           // ZypZap
-          "ZypZap is a gaming platform by Falcon IT.":
-            "ZypZap is a gaming platform by Falcon IT.",
+          "ZypZap is a gaming platform by Falcon IT.": "ZypZap is a gaming platform by Falcon IT.",
           "It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.":
             "It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.",
           "•	For learners, ZypZap helps them to become Pro players.":
@@ -384,8 +395,7 @@ i18n
             "Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.",
           "•	User can signup and start learning Quran with Tajweed.":
             "•	User can signup and start learning Quran with Tajweed.",
-          "•	Practice lessons are available.":
-            "•	Practice lessons are available.",
+          "•	Practice lessons are available.": "•	Practice lessons are available.",
           "•	User can repeat the lesson at any time without an internet connection":
             "•	User can repeat the lesson at any time without an internet connection",
           "•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy.":
@@ -413,10 +423,30 @@ i18n
             "The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not. ",
           "The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.":
             "The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.",
+          //  Yuwway
+          "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs.":
+            "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs.",
 
+          // Register-RH
+          "This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.":
+            "This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.",
+          "This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.":
+            "Ce système offre des fonctionnalités complètes pour gérer le personnel, les documents qui s'y rapportent et leur statut. On peut également gérer les documents d'évaluation des risques de l'entreprise. Cette application est capable de gérer plusieurs entreprises, leurs succursales et leurs employés ainsi que le transfert d'employés d'une succursale à une autre.",
+          // Facility Management
+          "This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.":
+            "This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.",
+
+          // Sindoor
+          "Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.":
+            "Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.",
           // menu
           "Changer de langue en": "Changer de langue en",
           Français: "Français",
+          "WEB DEVELOPMENT": "WEB DEVELOPMENT",
+          "APP DEVELOPMENT": "APP DEVELOPMENT",
+          "SOFTWARE DEVELOPMENT": "SOFTWARE DEVELOPMENT",
+          "ON DEMAND DEVELOPERS": "ON DEMAND DEVELOPERS",
+          "UI/UX DEVELOPMENT": "UI/UX DEVELOPMENT",
 
           // Legal Mentions
           "Legal Mentions": "Legal Mentions",
@@ -424,12 +454,9 @@ i18n
           "Presentation of the website": "Presentation of the website",
           "General conditions of use of the site and the services offered":
             "General conditions of use of the site and the services offered",
-          "Description of the services provided":
-            "Description of the services provided",
-          "Contractual limitations on technical data":
-            "Contractual limitations on technical data",
-          "Intellectual property and counterfeits":
-            "Intellectual property and counterfeits",
+          "Description of the services provided": "Description of the services provided",
+          "Contractual limitations on technical data": "Contractual limitations on technical data",
+          "Intellectual property and counterfeits": "Intellectual property and counterfeits",
           "Limitations of liability": "Limitations of liability",
           "Personal data management": "Personal data management",
           "Incident notification": "Incident notification",
@@ -437,28 +464,385 @@ i18n
             "Hypertext links 'cookies' and internet tags",
           "Applicable law and attribution of jurisdiction":
             "Applicable law and attribution of jurisdiction",
+
+          // Blog Article
+          // business website
+          "We live in a digital world where everyone has cell-phones with the internet. Most consumers will be using their electronic devices to search for online information that will help them in making a smarter purchase decision. Actually, according to a survey, 88% of the consumers will search online information about a product before they finally buy it. Hence if your business doesn’t have a website, you are probably losing a lot of customers and opportunities. Nowadays business website serves as the backbone of the business as it lures new customers and can be used to employ different marketing strategies to expand your business. Below we’ll discuss the role of an online website in boosting your sales and growing your business.":
+            "We live in a digital world where everyone has cell-phones with the internet. Most consumers will be using their electronic devices to search for online information that will help them in making a smarter purchase decision. Actually, according to a survey, 88% of the consumers will search online information about a product before they finally buy it. Hence if your business doesn’t have a website, you are probably losing a lot of customers and opportunities. Nowadays business website serves as the backbone of the business as it lures new customers and can be used to employ different marketing strategies to expand your business. Below we’ll discuss the role of an online website in boosting your sales and growing your business.",
+          "Enables Online Marketing:": "Enables Online Marketing:",
+          "If you have a business website you can use any online strategy to market your business and attract potential customers. This will help you in expanding your business. There are a lot of marketing strategies, you can use any depending upon the type of your business but for that, you need to have a business website first. You can easily use your website to attract new customers through social media marketing. You can use third-party social media to promote your business but you need to have a place where you can direct your potential customer so that they can learn about your business. When the potential customer comes to your website he will look at your products and possibly buy them. Hence you need a website to utilize online marketing strategies.":
+            "If you have a business website you can use any online strategy to market your business and attract potential customers. This will help you in expanding your business. There are a lot of marketing strategies, you can use any depending upon the type of your business but for that, you need to have a business website first. You can easily use your website to attract new customers through social media marketing. You can use third-party social media to promote your business but you need to have a place where you can direct your potential customer so that they can learn about your business. When the potential customer comes to your website he will look at your products and possibly buy them. Hence you need a website to utilize online marketing strategies.",
+          "Increase in sales and revenue:": "Increase in sales and revenue:",
+          "Your website will give an introduction to your products and business. As said earlier people will most likely look up your company or business before even entertaining the idea of buying your product. If you have a business website then it will be easy for your customers to find all the information about the products you sell. Your business website will house all the content about your business to engage your audience and convince them to buy your products or services etc. This will lead to an increase in revenue.":
+            "Your website will give an introduction to your products and business. As said earlier people will most likely look up your company or business before even entertaining the idea of buying your product. If you have a business website then it will be easy for your customers to find all the information about the products you sell. Your business website will house all the content about your business to engage your audience and convince them to buy your products or services etc. This will lead to an increase in revenue.",
+          "You can allow your customers to shop online from your website. This can boost your sales dramatically. These days people prefer to roam the internet and buy products from their homes. Smart businessmen realize this and give people the option to buy their products directly from their business website. This will increase the possibility of sales.":
+            "You can allow your customers to shop online from your website. This can boost your sales dramatically. These days people prefer to roam the internet and buy products from their homes. Smart businessmen realize this and give people the option to buy their products directly from their business website. This will increase the possibility of sales.",
+          "As said earlier your website has wide access which means it can reach more customers. The more people visit your website, the more opportunities you have to make a sale. Plus your shop cannot remain open 24/7 but your website can be accessed 24/7 that again could lead to an increase in your sales as your product can be sold through your website during any time of the day.":
+            "As said earlier your website has wide access which means it can reach more customers. The more people visit your website, the more opportunities you have to make a sale. Plus your shop cannot remain open 24/7 but your website can be accessed 24/7 that again could lead to an increase in your sales as your product can be sold through your website during any time of the day.",
+          "Establishing Credibility": "Establishing Credibility",
+          "A business website also brings credibility to your business. People usually look at the business with no websites as sketchy and less trust-worthy. You might be wondering how can a website bring credibility to your business. Well, most websites have review sections where the customers write reviews about your products or services. A consumer is 40% more likely to buy your product if they read positive reviews about your business.":
+            "A business website also brings credibility to your business. People usually look at the business with no websites as sketchy and less trust-worthy. You might be wondering how can a website bring credibility to your business. Well, most websites have review sections where the customers write reviews about your products or services. A consumer is 40% more likely to buy your product if they read positive reviews about your business.",
+          "You can also bring credibility to your website by publishing educational and well-researched material. It will let your customers know that you know what you are talking about and what you are selling. This will increase the chances of purchase by a customer.":
+            "You can also bring credibility to your website by publishing educational and well-researched material. It will let your customers know that you know what you are talking about and what you are selling. This will increase the chances of purchase by a customer.",
+          "Distinguish yourself through your website:":
+            "Distinguish yourself through your website:",
+          "You can also use your website to be different from your competitors in the market. You can uniquely design your website and catch the attention of potential customers. In the crowded market, it is necessary to set yourself apart to get the attention of people. Use your website to establish yourself as different from others in the market and gain new customers every day.":
+            "You can also use your website to be different from your competitors in the market. You can uniquely design your website and catch the attention of potential customers. In the crowded market, it is necessary to set yourself apart to get the attention of people. Use your website to establish yourself as different from others in the market and gain new customers every day.",
+          "Around the clock availability:": "Around the clock availability:",
+          "We have discussed this briefly before but it’s worth mentioning again that a website ensures around the clock availability of your services. You might be sleeping in your home but a customer might be buying products from your website while you sleep. So your website keeps working 24/7 to attract new customers and sell them your products. It acts like a digital salesperson who is working all day. It attracts customers, provides them the information, shows them reviews, convinces them to buy and collects payment from them. This leads to an increase in sales and revenue.":
+            "We have discussed this briefly before but it’s worth mentioning again that a website ensures around the clock availability of your services. You might be sleeping in your home but a customer might be buying products from your website while you sleep. So your website keeps working 24/7 to attract new customers and sell them your products. It acts like a digital salesperson who is working all day. It attracts customers, provides them the information, shows them reviews, convinces them to buy and collects payment from them. This leads to an increase in sales and revenue.",
+          "Professional Image": "Professional Image",
+          "Your business website gives your brand or company a professional image. If your website is easy to navigate, has an attractive design, and helpful content, it will give the customer a very professional image of your business and they will seriously consider buying from you.":
+            "Your business website gives your brand or company a professional image. If your website is easy to navigate, has an attractive design, and helpful content, it will give the customer a very professional image of your business and they will seriously consider buying from you.",
+          "Extremely Economical:": "Extremely Economical:",
+          "The website has global access and the important thing is that setting it up will take next to nothing from your pocket. It’s very economical but it opens endless doors of possibilities for you to expand your business.":
+            "The website has global access and the important thing is that setting it up will take next to nothing from your pocket. It’s very economical but it opens endless doors of possibilities for you to expand your business.",
+          "Wrapping Up:": "Wrapping Up:",
+          "A business website provides you with endless possibilities to expand your business and increase your revenue. It does not matter if you run a restaurant or a brick and mortar business or sale makeup products, you need a website to engage the wider audience, provide them the information, show them reviews and convince them to buy your service or products. So what are you waiting for? Immediately set up your business website and explore the endless opportunities that come with it.":
+            "A business website provides you with endless possibilities to expand your business and increase your revenue. It does not matter if you run a restaurant or a brick and mortar business or sale makeup products, you need a website to engage the wider audience, provide them the information, show them reviews and convince them to buy your service or products. So what are you waiting for? Immediately set up your business website and explore the endless opportunities that come with it.",
+          // Remote Team
+
+          "What is a Remote Team?": "What is a Remote Team?",
+          "Many people fail to understand what a remote team really is. A remote team is a group of experienced workers who belong to different time zones, harbors different skills and different values, all working together for one purpose. Each of the workers works from a specific location and operates across time and space. There is a significant distinction between employees working inside the office and those who are not bound to a particular building.":
+            "Many people fail to understand what a remote team really is. A remote team is a group of experienced workers who belong to different time zones, harbors different skills and different values, all working together for one purpose. Each of the workers works from a specific location and operates across time and space. There is a significant distinction between employees working inside the office and those who are not bound to a particular building.",
+          "Obstacles in managing a Remote Team": "Obstacles in managing a Remote Team",
+          "There are a lot of difficulties in supervising a remote team which has been listed below:":
+            "There are a lot of difficulties in supervising a remote team which has been listed below:",
+          "Lack of Communication": "Lack of Communication",
+          "Adequate, if not excellent, communication is one of the vital ingredients in managing a remote team. It is crucial to gain input from all workers and to be aware of the progress of the tasks they have been working on. However, when workers are working remotely, it's hard to obtain such a quality of communication. Different time zones often lead to employees receiving messages, not on time which negatively affects their performance. Moreover, lack of compliance with the established working hours by the worker also affects timely communication. Lastly, due to the difference in time zones and schedules, making video meetings and phone calls often becomes a burdensome task.":
+            "Adequate, if not excellent, communication is one of the vital ingredients in managing a remote team. It is crucial to gain input from all workers and to be aware of the progress of the tasks they have been working on. However, when workers are working remotely, it's hard to obtain such a quality of communication. Different time zones often lead to employees receiving messages, not on time which negatively affects their performance. Moreover, lack of compliance with the established working hours by the worker also affects timely communication. Lastly, due to the difference in time zones and schedules, making video meetings and phone calls often becomes a burdensome task.",
+          "Solution:": "Solution:",
+          'Email alone is inadequate. Telecommuters profit by having a "more extravagant" innovation, for example, video conferencing, that gives members a significant number of the viewable signals that they would have on the off chance that they were vis-à-vis. Visual prompts take into account expanded "common information" about colleagues and furthermore help lessen the feeling of disconnection among groups. Video is likewise especially helpful for mind-boggling or touchy discussions, as it feels closer to home than composed or sound just correspondence.':
+            'Email alone is inadequate. Telecommuters profit by having a "more extravagant" innovation, for example, video conferencing, that gives members a significant number of the viewable signals that they would have on the off chance that they were vis-à-vis. Visual prompts take into account expanded "common information" about colleagues and furthermore help lessen the feeling of disconnection among groups. Video is likewise especially helpful for mind-boggling or touchy discussions, as it feels closer to home than composed or sound just correspondence.',
+          "Moreover, as long as you can adopt a two-way communication system, your remote workers would not feel isolated. In addition, regular one on one meetings should be held since it is troublesome to choose a time that would be suitable for all workers":
+            "Moreover, as long as you can adopt a two-way communication system, your remote workers would not feel isolated. In addition, regular one on one meetings should be held since it is troublesome to choose a time that would be suitable for all workers",
+          "Inability to monitor worker’s progress": "Inability to monitor worker’s progress",
+          "Since it is an arduous task to scrutinize how much and at what pace is your worker accomplishing his tasks, It is not that easy to track your employee’s progress especially when they are working thousands of miles away from you. You cannot possibly know when your employee is being underutilized without a comprehension of their capability and this lack of visibility and control can lead to poor management.":
+            "Since it is an arduous task to scrutinize how much and at what pace is your worker accomplishing his tasks, It is not that easy to track your employee’s progress especially when they are working thousands of miles away from you. You cannot possibly know when your employee is being underutilized without a comprehension of their capability and this lack of visibility and control can lead to poor management.",
+          "Various measures need to employ in order to monitor your employees’ productivity. Such actions may include creating merits that define how much work is to be completed per day. Moreover, clear roles and responsibilities should be detailed, along with the discussions with the workers about specific goals in a project to keep them accountable. Most importantly, the progress of remote workers should be monitored according to the same criteria that apply to office workers.":
+            "Various measures need to employ in order to monitor your employees’ productivity. Such actions may include creating merits that define how much work is to be completed per day. Moreover, clear roles and responsibilities should be detailed, along with the discussions with the workers about specific goals in a project to keep them accountable. Most importantly, the progress of remote workers should be monitored according to the same criteria that apply to office workers.",
+          "Cultivating Corporate Culture": "Cultivating Corporate Culture",
+          "Cultivating the right corporate culture is a demanding task. It involves hiring the right employees, adopting a good mode of communication, and diffusing this culture across the board. In an office, the company culture is already shaped which is not the case with remote teams where you have to develop a professional, working culture with concentrated effort. It should be kept in mind that such culture should reflect your team’s purpose and values.":
+            "Cultivating the right corporate culture is a demanding task. It involves hiring the right employees, adopting a good mode of communication, and diffusing this culture across the board. In an office, the company culture is already shaped which is not the case with remote teams where you have to develop a professional, working culture with concentrated effort. It should be kept in mind that such culture should reflect your team’s purpose and values.",
+          "Creating such a culture requires a carefully structured plan in which the manager will deliver his rules and regulations to the workers along with the expectations that they would be required to fulfill. In addition, the plan would also discuss the modes of interactions between the manager and the worker along with other policies of the company":
+            "Creating such a culture requires a carefully structured plan in which the manager will deliver his rules and regulations to the workers along with the expectations that they would be required to fulfill. In addition, the plan would also discuss the modes of interactions between the manager and the worker along with other policies of the company",
+          "Cultural Difference": "Cultural Difference",
+          "As this system of work is global, different employees have different values, boundaries, and attitude towards their work. Managing people of different ethnic groups and embracing cultural diversity is a complicated project since they have different work ethics, behaviors, and expectations. Managers often fail to understand or appreciate their worker’s cultural background which leads to conflicts that threaten the team’s unity.":
+            "As this system of work is global, different employees have different values, boundaries, and attitude towards their work. Managing people of different ethnic groups and embracing cultural diversity is a complicated project since they have different work ethics, behaviors, and expectations. Managers often fail to understand or appreciate their worker’s cultural background which leads to conflicts that threaten the team’s unity.",
+          "Managers should acquire adequate knowledge about their worker’s cultural background and associated values and should work with them accordingly. They should be open to feedback and constructive criticism as well as promote a mindset of accepting differences and respecting every cultural aspect.":
+            "Managers should acquire adequate knowledge about their worker’s cultural background and associated values and should work with them accordingly. They should be open to feedback and constructive criticism as well as promote a mindset of accepting differences and respecting every cultural aspect.",
+          "Obtaining Team’s Trust": "Obtaining Team’s Trust",
+          "There is sometimes a mutual distrust between the employee and the company. While the Managers stress that representatives won't fill in as hard or as productivity, the employee is anxious about whether he will be timely paid. Moreover. Many employees struggle with diminished access to administrative help and correspondence. Sometimes, the workers feel that remote directors are withdrawn from their necessities, and along these lines are neither steady nor accommodating in completing their work.":
+            "There is sometimes a mutual distrust between the employee and the company. While the Managers stress that representatives won't fill in as hard or as productivity, the employee is anxious about whether he will be timely paid. Moreover. Many employees struggle with diminished access to administrative help and correspondence. Sometimes, the workers feel that remote directors are withdrawn from their necessities, and along these lines are neither steady nor accommodating in completing their work.",
+          "Being transparent can develop trust between the employees and the manager. Transparency should be applied to:":
+            "Being transparent can develop trust between the employees and the manager. Transparency should be applied to:",
+          "Expectations regarding the task": "Expectations regarding the task",
+          "Pay rate and schedule": "Pay rate and schedule",
+          "Working Hours": "Working Hours",
+          "Status update regarding the task": "Status update regarding the task",
+          "Moreover, unexpected questions regarding the project should be answered promptly and workers should be provided with any kind of help.":
+            "Moreover, unexpected questions regarding the project should be answered promptly and workers should be provided with any kind of help.",
+          "As we can see, there are many challenges in managing a remote team. However, such issues can be easily resolved by taking appropriate, timely measures that would make the remote industry even more common across the globe.":
+            "As we can see, there are many challenges in managing a remote team. However, such issues can be easily resolved by taking appropriate, timely measures that would make the remote industry even more common across the globe.",
+          //
+          // Fireman
+          "Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:":
+            "Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:",
+          // Excellence
+          "Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.":
+            "Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.",
+          //  Barber Shop
+          "BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.":
+            "BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.",
+          // Real Estate
+          "This website offers an online tailoring experience with free pick-up and delivery in Karachi. We provide stitching services with customizable designs for salwar suits, blouses, kurtas, bottoms, western wear as per customers measurement at the doorstep. Coming Soon for other cities also.":
+            "This website offers an online tailoring experience with free pick-up and delivery in Karachi. We provide stitching services with customizable designs for salwar suits, blouses, kurtas, bottoms, western wear as per customers measurement at the doorstep. Coming Soon for other cities also.",
+
+          "The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.":
+            "The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.",
+          // Beauty Salon
+          "Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.":
+            "Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.",
+          // Accor Hotels
+          "Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.":
+            "Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.",
+          "OUR CONTRIBUTION": "OUR CONTRIBUTION",
+          "• Collection and consolidation of business requests":
+            "• Collection and consolidation of business requests",
+          "• Implementation of project developments and production quality control":
+            "• Implementation of project developments and production quality control",
+          "• Development in ASP.NET 3.5, Spring.NET and nHibernate to develop a tool for managing the invoicing of courses and trainings.":
+            "• Development in ASP.NET 3.5, Spring.NET and nHibernate to develop a tool for managing the invoicing of courses and trainings.",
+          "• T-SQL development (generation of extracts, counters and data consistency checks)":
+            "• T-SQL development (generation of extracts, counters and data consistency checks)",
+          "• rDevelopment to evolve invoices to the new SSRS format":
+            "• rDevelopment to evolve invoices to the new SSRS format",
+          "• Kettle-based batch development for import / export and data transformation":
+            "• Kettle-based batch development for import / export and data transformation",
+
+          // A-Table
+          "A-Table is a Mobile Application that allows restaurant to accept and manage orders placed by app users and clients in restaurant. Mobile app for customers to view the restaurant's dishes and place an online order and in the restaurant. A-Table user side: There are two ways to use the app: 1 Either the client is in a restaurant, and he seats down at a table. There will be QR codes available on the tables, and once the user does scan them, it opens automatically the app (if it is already installed), and the user has two options: he can go to the menu of the restaurant, see the dishes, and place the order through the app (in-app payment). He can also chat with his assigned waiter; and ask him anything needed : glass of water, clean the table, etc... , 2 Either the client is looking for a restaurant. In this case, he can search for a specific dish in the Home page. The app will show the popular dishes around him (geolocation). He has the possibility to filter his search: specific type of food, specific restaurant, etc...The filter is working with tags, that can be added or removed.":
+            "A-Table is a Mobile Application that allows restaurant to accept and manage orders placed by app users and clients in restaurant. Mobile app for customers to view the restaurant's dishes and place an online order and in the restaurant. A-Table user side: There are two ways to use the app: 1 Either the client is in a restaurant, and he seats down at a table. There will be QR codes available on the tables, and once the user does scan them, it opens automatically the app (if it is already installed), and the user has two options: he can go to the menu of the restaurant, see the dishes, and place the order through the app (in-app payment). He can also chat with his assigned waiter; and ask him anything needed : glass of water, clean the table, etc... , 2 Either the client is looking for a restaurant. In this case, he can search for a specific dish in the Home page. The app will show the popular dishes around him (geolocation). He has the possibility to filter his search: specific type of food, specific restaurant, etc...The filter is working with tags, that can be added or removed.",
+          //  Fnac
+          "Falcon Consulting has been asked by FNAC for its expertise in .NET and SQL to reinforce the project teams related to inventory, stocks, locations, label printing, customer orders.":
+            "Falcon Consulting has been asked by FNAC for its expertise in .NET and SQL to reinforce the project teams related to inventory, stocks, locations, label printing, customer orders.",
+          "• Development in ASP.NET MVC 4 and Entity Framework 5 to develop a tool for managing store inventories (inventory management, location management, in-store label printing), unsold product returns, shipping and customer order remittances, use of EXT.NET modules with JavaScript / JQuery development to modernize this tool.":
+            "• Development in ASP.NET MVC 4 and Entity Framework 5 to develop a tool for managing store inventories (inventory management, location management, in-store label printing), unsold product returns, shipping and customer order remittances, use of EXT.NET modules with JavaScript / JQuery development to modernize this tool.",
+          "• Development in C# Compact Framework 3.5 to upgrade the tool for managing store inventories, returns of unsold products, shipping and customer order remittances on PDAs used in the store by staff.":
+            "• Development in C# Compact Framework 3.5 to upgrade the tool for managing store inventories, returns of unsold products, shipping and customer order remittances on PDAs used in the store by staff.",
+          "• T-SQL development (generation of extracts, counters and data consistency checks, creation of stored procedures for the different projects, data archiving)":
+            "• T-SQL development (generation of extracts, counters and data consistency checks, creation of stored procedures for the different projects, data archiving)",
+          "• Development in ASP.NET 3.5 to upgrade a shipping management tool for live customer orders in Switzerland":
+            "• Development in ASP.NET 3.5 to upgrade a shipping management tool for live customer orders in Switzerland",
+          // MicroSoft
+          "Falcon Consulting has been asked by Microsoft for its expertise in .NET and reporting to implement product analysis tools for the media catalogs (music, video and ebooks) on the Windows Store using the latest Azure technologies.":
+            "Falcon Consulting has been asked by Microsoft for its expertise in .NET and reporting to implement product analysis tools for the media catalogs (music, video and ebooks) on the Windows Store using the latest Azure technologies.",
+          "• Development in U-SQL under Azure Data Lake Analytics of scripts for quality control of data from the ebook catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).":
+            "• Development in U-SQL under Azure Data Lake Analytics of scripts for quality control of data from the ebook catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).",
+          "• Migration of projects developed in Scope and SQL Server to Azure Data Lake Analytics and development in U-SQL under Azure of data quality control scripts from the video catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).":
+            "• Migration of projects developed in Scope and SQL Server to Azure Data Lake Analytics and development in U-SQL under Azure of data quality control scripts from the video catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).",
+          // Blsh
+          "We are building a marketplace for delivery supplies on the customer and small business demand.":
+            "We are building a marketplace for delivery supplies on the customer and small business demand.",
+          "The app will match the Customer delivery request with the Courier.":
+            "The app will match the Customer delivery request with the Courier.",
+          "The Individual shopper can use delivery regularly (weekly, monthly, etc). Or only when there is a need for the delivery.":
+            "The Individual shopper can use delivery regularly (weekly, monthly, etc). Or only when there is a need for the delivery.",
+          "The app will offer market-based pricing. When the Individual shopper requests, he will offer the price he is willing to pay for delivery. All drivers who match his request will see the price. They will be able to accept the request or negotiate the delivery price.":
+            "The app will offer market-based pricing. When the Individual shopper requests, he will offer the price he is willing to pay for delivery. All drivers who match his request will see the price. They will be able to accept the request or negotiate the delivery price.",
+          "The app will be free for Customers. The Courier will pay 20% of the delivery price.":
+            "The app will be free for Customers. The Courier will pay 20% of the delivery price.",
+          //Canon
+          "Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)":
+            "Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)",
+          "• Development in C# 4.6 of a component using the YouSign API for managing electronic signatures from workflows in Therefore":
+            "• Development in C# 4.6 of a component using the YouSign API for managing electronic signatures from workflows in Therefore",
+          "• Development in C#, C# Core, ASP.NET, ASP.NET Core of several applications dedicated to Canon customers using Therefore API.":
+            "• Development in C#, C# Core, ASP.NET, ASP.NET Core of several applications dedicated to Canon customers using Therefore API.",
+          "• Creation and implementation of reports in PowerBI (visualization of extracts, formatting of counters and graphs for data consistency checking)":
+            "• Creation and implementation of reports in PowerBI (visualization of extracts, formatting of counters and graphs for data consistency checking)",
+          "• raining of various Canon customers in the use, management and administration of Therefore":
+            "• raining of various Canon customers in the use, management and administration of Therefore",
+          "• Technical support around Therefore from different Canon customers":
+            "• Technical support around Therefore from different Canon customers",
+          //
+
+          // Detail Project Screens
+          // Detail Theme
+          "Colors Schemes – Making UI feel more natural. This is why the usage of the right color palettes is essential to make the app more attractive. Some colors look better with another. This is why color schemes were created. They help designers to find the right hue for the remaining ones.":
+            "Colors Schemes – Making UI feel more natural. This is why the usage of the right color palettes is essential to make the app more attractive. Some colors look better with another. This is why color schemes were created. They help designers to find the right hue for the remaining ones.",
+          // Detail Design
+          "App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app’s flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback. The end result is an app that looks nice and is easy to use. So, the best app design process comprises Research, Ideation, Problem Identification, Design, Feedback, Problem Evaluation. Designers handle all parts of the process in a continuous and simultaneous flow. And that’s both for UX and UI through the lifetime of the app.":
+            "App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app’s flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback. The end result is an app that looks nice and is easy to use. So, the best app design process comprises Research, Ideation, Problem Identification, Design, Feedback, Problem Evaluation. Designers handle all parts of the process in a continuous and simultaneous flow. And that’s both for UX and UI through the lifetime of the app.",
         },
       },
       fr: {
         translations: {
+          //
+          // Detail Project Screens
+          // Detail Theme
+
+          "Colors Schemes – Making UI feel more natural. This is why the usage of the right color palettes is essential to make the app more attractive. Some colors look better with another. This is why color schemes were created. They help designers to find the right hue for the remaining ones.":
+            "Schémas de couleurs - Rendre l'interface utilisateur plus naturelle. C'est pourquoi l'utilisation des bonnes palettes de couleurs est essentielle pour rendre l'application plus attrayante. Certaines couleurs vont mieux avec une autre. C'est pourquoi des schémas de couleurs ont été créés. Ils aident les concepteurs à trouver la bonne teinte pour les autres.",
+          // Detail Design
+          "App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app’s flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback. The end result is an app that looks nice and is easy to use. So, the best app design process comprises Research, Ideation, Problem Identification, Design, Feedback, Problem Evaluation. Designers handle all parts of the process in a continuous and simultaneous flow. And that’s both for UX and UI through the lifetime of the app.":
+            "La conception d'applications est un processus continu comprenant des éléments d'expérience utilisateur (UX) et d'interface utilisateur (UI). Les concepteurs imaginent, définissent des solutions, créent le flux et la structure de l'application et font des choix stylistiques, des couleurs aux polices. Les concepteurs fondent leurs choix sur la recherche et les commentaires des utilisateurs. Le résultat final est une application qui a l'air bien et qui est facile à utiliser. Ainsi, le meilleur processus de conception d'applications comprend la recherche, l'idéation, l'identification des problèmes, la conception, les commentaires et l'évaluation des problèmes. Les concepteurs gèrent toutes les parties du processus dans un flux continu et simultané. Et c'est à la fois pour l'UX et l'UI tout au long de la durée de vie de l'application.",
+
+          // Canon
+          "Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)":
+            "Falcon Consulting a été sollicité par Canon pour son expertise en .NET et sa capacité à s'adapter à tout métier pour monter plusieurs projets autour de la GED donc pour leurs clients (plusieurs secteurs d'activité : banque, assurance, BTP, aéronautique,...)",
+          "• Development in C# 4.6 of a component using the YouSign API for managing electronic signatures from workflows in Therefore":
+            "• Développement en C# 4.6 d'un composant utilisant l'API YouSign pour la gestion des signatures électroniques à partir des workflows dans Therefore",
+          "• Development in C#, C# Core, ASP.NET, ASP.NET Core of several applications dedicated to Canon customers using Therefore API.":
+            "• Développement en C#, C# Core, ASP.NET, ASP.NET Core de plusieurs applications dédiées aux clients Canon utilisant l'API Therefore.",
+          "• Creation and implementation of reports in PowerBI (visualization of extracts, formatting of counters and graphs for data consistency checking)":
+            "• Création et mise en place de rapports sous PowerBI (visualisation des extraits, mise en forme des compteurs et graphiques pour vérification de la cohérence des données)",
+          "• raining of various Canon customers in the use, management and administration of Therefore":
+            "• pluie de divers clients Canon dans l'utilisation, la gestion et l'administration de Therefore",
+          "• Technical support around Therefore from different Canon customers":
+            "• Support technique autour de Therefore de différents clients Canon",
+          // Blsh
+          "We are building a marketplace for delivery supplies on the customer and small business demand.":
+            "Nous construisons un marché pour les fournitures de livraison à la demande des clients et des petites entreprises.",
+          "The app will match the Customer delivery request with the Courier.":
+            "L'application fera correspondre la demande de livraison du client avec le coursier.",
+          "The Individual shopper can use delivery regularly (weekly, monthly, etc). Or only when there is a need for the delivery.":
+            "L'acheteur individuel peut utiliser la livraison régulièrement (hebdomadaire, mensuelle, etc.). Ou seulement lorsqu'il y a un besoin pour la livraison.",
+          "The app will offer market-based pricing. When the Individual shopper requests, he will offer the price he is willing to pay for delivery. All drivers who match his request will see the price. They will be able to accept the request or negotiate the delivery price.":
+            "L'application proposera une tarification basée sur le marché. Lorsque l'Acheteur individuel le demande, il propose le prix qu'il est prêt à payer pour la livraison. Tous les conducteurs qui correspondront à sa demande verront le prix. Ils pourront accepter la demande ou négocier le prix de la livraison.",
+          "The app will be free for Customers. The Courier will pay 20% of the delivery price.":
+            "L'application sera gratuite pour les clients. Le Courrier paiera 20% du prix de livraison.",
+          // Microsoft
+
+          "Falcon Consulting has been asked by Microsoft for its expertise in .NET and reporting to implement product analysis tools for the media catalogs (music, video and ebooks) on the Windows Store using the latest Azure technologies.":
+            "Falcon Consulting a été sollicité par Microsoft pour son expertise en .NET et reporting pour mettre en place des outils d'analyse produit pour les catalogues médias (musique, vidéo et ebooks) sur le Windows Store en utilisant les dernières technologies Azure.",
+          "• Development in U-SQL under Azure Data Lake Analytics of scripts for quality control of data from the ebook catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).":
+            "• Développement en U-SQL sous Azure Data Lake Analytics de scripts de contrôle qualité des données du catalogue ebook avec une bibliothèque de classes contenant le code derrière les scripts en C# (génération d'extraits, compteurs et contrôles de cohérence des données, création de procédures stockées , archivage des données).",
+          "• Migration of projects developed in Scope and SQL Server to Azure Data Lake Analytics and development in U-SQL under Azure of data quality control scripts from the video catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).":
+            "• Migration des projets développés en Scope et SQL Server vers Azure Data Lake Analytics et développement en U-SQL sous Azure des scripts de contrôle qualité des données du catalogue vidéo avec une bibliothèque de classes contenant le code derrière les scripts en C# (génération d'extraits, compteurs et contrôles de cohérence des données, création de procédures stockées, archivage des données).",
+          // Fnac
+          "Falcon Consulting has been asked by FNAC for its expertise in .NET and SQL to reinforce the project teams related to inventory, stocks, locations, label printing, customer orders.":
+            "Falcon Consulting a été sollicité par la FNAC pour son expertise en .NET et SQL pour renforcer les équipes projets liées à l'inventaire, les stocks, les implantations, l'impression d'étiquettes, les commandes clients.",
+          "• Development in ASP.NET MVC 4 and Entity Framework 5 to develop a tool for managing store inventories (inventory management, location management, in-store label printing), unsold product returns, shipping and customer order remittances, use of EXT.NET modules with JavaScript / JQuery development to modernize this tool.":
+            "• Développement en ASP.NET MVC 4 et Entity Framework 5 pour développer un outil de gestion des stocks en magasin (gestion des stocks, gestion des emplacements, impression d'étiquettes en magasin), des retours d'invendus, des expéditions et des remises des commandes clients, utilisation des modules EXT.NET avec le développement JavaScript/JQuery pour moderniser cet outil.",
+          "• Development in C# Compact Framework 3.5 to upgrade the tool for managing store inventories, returns of unsold products, shipping and customer order remittances on PDAs used in the store by staff.":
+            "• Développement en C# Compact Framework 3.5 pour faire évoluer l'outil de gestion des stocks magasin, des retours d'invendus, des expéditions et de la remise des commandes clients sur les PDA utilisés en magasin par le personnel.",
+          "• T-SQL development (generation of extracts, counters and data consistency checks, creation of stored procedures for the different projects, data archiving)":
+            "• Développement T-SQL (génération d'extraits, compteurs et contrôles de cohérence des données, création de procédures stockées pour les différents projets, archivage des données)",
+          "• Development in ASP.NET 3.5 to upgrade a shipping management tool for live customer orders in Switzerland":
+            "• Développement en ASP.NET 3.5 pour mettre à jour un outil de gestion des expéditions pour les commandes clients en direct en Suisse",
+          // A-Table
+          "A-Table is a Mobile Application that allows restaurant to accept and manage orders placed by app users and clients in restaurant. Mobile app for customers to view the restaurant's dishes and place an online order and in the restaurant. A-Table user side: There are two ways to use the app: 1 Either the client is in a restaurant, and he seats down at a table. There will be QR codes available on the tables, and once the user does scan them, it opens automatically the app (if it is already installed), and the user has two options: he can go to the menu of the restaurant, see the dishes, and place the order through the app (in-app payment). He can also chat with his assigned waiter; and ask him anything needed : glass of water, clean the table, etc... , 2 Either the client is looking for a restaurant. In this case, he can search for a specific dish in the Home page. The app will show the popular dishes around him (geolocation). He has the possibility to filter his search: specific type of food, specific restaurant, etc...The filter is working with tags, that can be added or removed.":
+            "A-Table est une application mobile qui permet au restaurant d'accepter et de gérer les commandes passées par les utilisateurs de l'application et les clients du restaurant. Application mobile permettant aux clients de visualiser les plats du restaurant et de passer une commande en ligne et au restaurant. Côté utilisateur A-Table : Il y a deux manières d'utiliser l'application : 1 Soit le client est dans un restaurant, et il s'assied à une table. Il y aura des codes QR disponibles sur les tables, et une fois que l'utilisateur les scanne, l'application s'ouvre automatiquement (si elle est déjà installée), et l'utilisateur a deux options : il peut aller au menu du restaurant, voir le plats, et passer la commande via l'application (paiement in-app). Il peut également discuter avec son serveur assigné ; et lui demander le nécessaire : verre d'eau, nettoyer la table, etc... , 2 Soit le client cherche un restaurant. Dans ce cas, il peut rechercher un plat spécifique dans la page d'accueil. L'application affichera les plats populaires autour de lui (géolocalisation). Il a la possibilité de filtrer sa recherche : type de nourriture spécifique, restaurant spécifique, etc... Le filtre fonctionne avec des balises, qui peuvent être ajoutées ou supprimées.",
+          // Accor Hotels
+          "Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.":
+            "Falcon Consulting a été sollicité par Accor pour son expertise en .NET et SQL pour maintenir les outils liés aux formations et formations.",
+          "OUR CONTRIBUTION": "NOTRE CONTRIBUTION",
+          "• Collection and consolidation of business requests":
+            "• Collecte et consolidation des demandes commerciales",
+          "• Implementation of project developments and production quality control":
+            "• Mise en place des développements projets et contrôle qualité de la production",
+          "• Development in ASP.NET 3.5, Spring.NET and nHibernate to develop a tool for managing the invoicing of courses and trainings.":
+            "• Développement en ASP.NET 3.5, Spring.NET et nHibernate pour développer un outil de gestion de la facturation des cours et formations.",
+          "• T-SQL development (generation of extracts, counters and data consistency checks)":
+            "• Développement T-SQL (génération d'extraits, compteurs et contrôles de cohérence des données)",
+          "• rDevelopment to evolve invoices to the new SSRS format":
+            "• rDéveloppement pour faire évoluer les factures au nouveau format SSRS",
+          "• Kettle-based batch development for import / export and data transformation":
+            "• Développement par lots basé sur Kettle pour l'import/export et la transformation de données",
+          // Beauty Salon
+          "Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.":
+            "Beauty Salon & Spa est comme un autre monde de FoodPanda où tous les salons de beauté sont au même endroit. Ainsi, les filles peuvent facilement prendre rendez-vous contre n'importe quel salon grâce à son application mobile. D'autre part, les salons peuvent obtenir des rendez-vous via son compte de salon de beauté. Grâce à cette application, nous pouvons trouver nos esthéticiennes préférées ainsi que des salons à proximité et prendre rendez-vous.",
+          // Real Estate
+          "This website offers an online tailoring experience with free pick-up and delivery in Karachi. We provide stitching services with customizable designs for salwar suits, blouses, kurtas, bottoms, western wear as per customers measurement at the doorstep. Coming Soon for other cities also.":
+            "Ce site Web offre une expérience de couture en ligne avec ramassage et livraison gratuits à Karachi. Nous fournissons des services de couture avec des conceptions personnalisables pour les costumes salwar, les chemisiers, les kurtas, les bas, les vêtements occidentaux selon les mesures des clients à la porte. Prochainement pour d'autres villes également.",
+          "The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.":
+            "L'objectif est de permettre aux investisseurs d'avoir de la transparence sur les investissements qu'ils feraient dans l'immobilier au Pakistan. Pour cela, il existe deux interfaces principales : une application mobile pour les investisseurs, et un panel d'administration, pour les responsables de l'entreprise.",
+          // Barber Shop
+          "BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.":
+            "BarberShop est conçu pour le salon de coiffure spécifique. Il s'agit de la plate-forme de connexion où le client peut réserver son rendez-vous via son mobile et le barbier permet aux clients de réserver sans intentions personnelles. Le client peut facilement réserver son rendez-vous sur la disponibilité du barbier. D'autre part, Barber peut facilement obtenir tous les horaires de réservation ou les détails des rendez-vous via son application mobile.",
+          // Excellence
+          "Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.":
+            "Excellence Mode est une chaîne de magasins de prêt-à-porter en France, avec plusieurs dizaines d'implantations dans toute la France. Afin de développer son image de marque et de développer son activité en ligne, l'entreprise souhaitait se doter d'un site e-commerce.",
+          // Fireman
+
+          "Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:":
+            "Fireman est le système de gestion et de génération de rapports pour les pompiers. Les commissions de sécurité visitent les établissements recevant du public et conseillent le maire pour la continuité de l'activité. Chaque visite ou étude donne lieu à un rapport. Les pompiers créent/modifient le dossier selon la visite ou la catégorie d'étude. Le directeur de groupe/directeur de service valide ce dossier. Pompier comprenant les modules suivants :",
+          // Sindoor
+          "Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.":
+            "Application de mariage reliant les utilisateurs et les fournisseurs Plate-forme permettant de connecter les utilisateurs aux fournisseurs de mariage. Les personnes qui souhaitaient se marier peuvent facilement trouver des fournisseurs pour leur mariage. L'utilisateur et les fournisseurs peuvent communiquer via App. L'utilisateur et le fournisseur doivent envoyer et recevoir des devis, puis valider les devis sur l'application.",
+          // Yuwway
+          "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs.":
+            "Yuwway est un moteur de recherche qui compare les tarifs pour tous les types de transport (Taxi/VTC/Moto-taxi, etc.) permettant, en une simple recherche, d'accéder à tous les tarifs disponibles et correspondant aux besoins du client.",
+          // Register-RH
+          "This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.":
+            "Ce système offre des fonctionnalités complètes pour gérer le personnel, les documents qui s'y rapportent et leur statut. On peut également gérer les documents d'évaluation des risques de l'entreprise. Cette application est capable de gérer plusieurs entreprises, leurs succursales et leurs employés ainsi que le transfert d'employés d'une succursale à une autre.",
+          //  Facility Management
+          "This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.":
+            "Il s'agit de la plate-forme de gestion des immeubles de bureaux. Il est similaire au tableau de bord de type Trello, affichant les tickets et leur statut.",
+          // Blog Article
+          // Remote Team
+
+          "What is a Remote Team?": "Le télétravail",
+          "Many people fail to understand what a remote team really is. A remote team is a group of experienced workers who belong to different time zones, harbors different skills and different values, all working together for one purpose. Each of the workers works from a specific location and operates across time and space. There is a significant distinction between employees working inside the office and those who are not bound to a particular building.":
+            "Une équipe à distance est un groupe de travailleurs plus ou moins expérimentés qui peuvent appartenir à des fuseaux horaires différents, qui ont des compétences et des valeurs différentes et qui travaillent tous ensemble dans un seul but. Chacun des travailleurs travaille à partir d'un endroit spécifique et opère dans le temps et l'espace. Il existe une distinction importante entre les employés qui travaillent à l'intérieur du bureau et ceux qui ne sont pas liés à un bâtiment particulier.",
+          "Obstacles in managing a Remote Team": "Obstacles à la gestion d'une équipe distante",
+          "There are a lot of difficulties in supervising a remote team which has been listed below:":
+            "La supervision d'une équipe à distance présente de nombreuses difficultés qui ont été énumérées ci-dessous :",
+          "Lack of Communication": "Manque de communication",
+          "Adequate, if not excellent, communication is one of the vital ingredients in managing a remote team. It is crucial to gain input from all workers and to be aware of the progress of the tasks they have been working on. However, when workers are working remotely, it's hard to obtain such a quality of communication. Different time zones often lead to employees receiving messages, not on time which negatively affects their performance. Moreover, lack of compliance with the established working hours by the worker also affects timely communication. Lastly, due to the difference in time zones and schedules, making video meetings and phone calls often becomes a burdensome task.":
+            "Une communication excellente, est l'un des ingrédients essentiels à la gestion d'une équipe à distance. Il est essentiel de bénéficier de la contribution de tous les travailleurs et d'être au courant de l'avancement des tâches sur lesquelles ils ont travaillé. Cependant, lorsque l’équipe est éparpillée dans le monde, cela représente un grand challenge. Les différents fuseaux horaires font que les employés reçoivent parfois des messages hors heure de travail, ce qui affecte négativement leurs performances. Aussi, il peut y avoir des incompréhensions par rapport aux tâches à effectuer, et le collaborateur peut parfois manquer de la vision globale du projet.",
+          "Solution:": "Solution:",
+          'Email alone is inadequate. Telecommuters profit by having a "more extravagant" innovation, for example, video conferencing, that gives members a significant number of the viewable signals that they would have on the off chance that they were vis-à-vis. Visual prompts take into account expanded "common information" about colleagues and furthermore help lessen the feeling of disconnection among groups. Video is likewise especially helpful for mind-boggling or touchy discussions, as it feels closer to home than composed or sound just correspondence.':
+            "Le courrier électronique seul est insuffisant. Les télé-travailleurs profitent maintenant de nouveaux outils, comme par exemple la vidéoconférence, qui donne aux membres un nombre important de signaux visibles qu'ils auraient au cas où ils seraient en collaboration avec un autre membre. Les discussion vidéos contribuent à réduire le sentiment de déconnexion entre les groupes. De même, la vidéo est particulièrement utile pour les discussions plus délicates, car elle donne l'impression d'être plus proche de l’équipe que les e-mails ou les appels téléphoniques.",
+          "Moreover, as long as you can adopt a two-way communication system, your remote workers would not feel isolated. In addition, regular one on one meetings should be held since it is troublesome to choose a time that would be suitable for all workers":
+            "Tant que vous pouvez adopter un système de communication varié (écrit, audio ou vidéo), vos travailleurs à distance ne se sentiront pas isolés. N’hésitez pas à faire des petits points réguliers avec vos collaborateurs par téléphone, afin de vous assurer que tout va bien et qu’ils ont bien compris les instructions.",
+          "Inability to monitor worker’s progress":
+            "Incapacité à suivre les progrès du collaborateur",
+          "Since it is an arduous task to scrutinize how much and at what pace is your worker accomplishing his tasks, It is not that easy to track your employee’s progress especially when they are working thousands of miles away from you. You cannot possibly know when your employee is being underutilized without a comprehension of their capability and this lack of visibility and control can lead to poor management.":
+            "Comme il est difficile d'examiner dans quelle mesure et à quel rythme votre employé accomplit ses tâches, il n'est pas si facile de suivre les progrès de votre employé, surtout lorsqu'il travaille à des milliers de kilomètres de chez vous. Vous ne pouvez pas savoir si votre employé est en sous-régime sans comprendre ses capacités et ce manque de visibilité et de contrôle peut conduire à une mauvaise gestion. Voir pire, à du micro-management !",
+          "Various measures need to employ in order to monitor your employees’ productivity. Such actions may include creating merits that define how much work is to be completed per day. Moreover, clear roles and responsibilities should be detailed, along with the discussions with the workers about specific goals in a project to keep them accountable. Most importantly, the progress of remote workers should be monitored according to the same criteria that apply to office workers.":
+            "Diverses mesures doivent être prises pour vous assurer de la productivité de vos employés. Ces mesures peuvent inclure la création de tâches qui définissent la quantité de travail à accomplir par jour. En outre, il convient de définir clairement les rôles et les responsabilités pour chaque tâche, et de discuter avec les travailleurs des objectifs spécifiques d'un projet afin de les responsabiliser. Plus important encore, les progrès des travailleurs à distance devraient être suivis selon les mêmes critères que ceux qui s'appliquent aux employés de bureau. Il existe de nos jours des outils de management de projet efficaces, afin de travailler de façon synchronisée. Chez Falcon Consulting, nous utilisons Freedcamp, qui correspond pleinement à nos attentes.",
+          "Cultivating Corporate Culture": "Cultiver la culture d'entreprise",
+          "Cultivating the right corporate culture is a demanding task. It involves hiring the right employees, adopting a good mode of communication, and diffusing this culture across the board. In an office, the company culture is already shaped which is not the case with remote teams where you have to develop a professional, working culture with concentrated effort. It should be kept in mind that such culture should reflect your team’s purpose and values.":
+            "Cultiver la bonne culture d'entreprise est une tâche exigeante.  Il s'agit d'embaucher les bons employés, d'adopter un bon mode de communication et de diffuser cette culture dans l'ensemble de l'entreprise. Dans un bureau, la culture d'entreprise est déjà façonnée, ce qui n'est pas le cas des équipes à distance où il faut développer une culture professionnelle et de travail en concentrant les efforts. Il faut garder à l'esprit que cette culture doit refléter l'objectif et les valeurs de votre équipe.",
+
+          "Creating such a culture requires a carefully structured plan in which the manager will deliver his rules and regulations to the workers along with the expectations that they would be required to fulfill. In addition, the plan would also discuss the modes of interactions between the manager and the worker along with other policies of the company":
+            "La création d'une telle culture nécessite un plan soigneusement structuré dans lequel le responsable fera connaître ses règles et règlements aux travailleurs, ainsi que les attentes qu'ils devront satisfaire. Aussi, le plan doit également aborder les modes d'interaction entre le directeur et le travailleur ainsi que d'autres politiques de l'entreprise",
+          "Cultural Difference": "Différence culturelle",
+          "As this system of work is global, different employees have different values, boundaries, and attitude towards their work. Managing people of different ethnic groups and embracing cultural diversity is a complicated project since they have different work ethics, behaviors, and expectations. Managers often fail to understand or appreciate their worker’s cultural background which leads to conflicts that threaten the team’s unity.":
+            "Comme ce système de travail est mondial, les différents employés ont des valeurs, des limites et une attitude différentes vis-à-vis de leur travail. Gérer des personnes de différents groupes ethniques et embrasser la diversité culturelle est un projet compliqué car elles ont des éthiques, des comportements et des attentes différentes en matière de travail. Parfois, les managers ne comprennent pas ou n'apprécient pas les origines culturelles de leurs employés, ce qui entraîne des conflits qui menacent l'unité de l'équipe.",
+          "Managers should acquire adequate knowledge about their worker’s cultural background and associated values and should work with them accordingly. They should be open to feedback and constructive criticism as well as promote a mindset of accepting differences and respecting every cultural aspect.":
+            "Les managers devraient acquérir une connaissance adéquate du contexte culturel de leur travailleur et des valeurs qui y sont associées et devraient travailler avec eux en conséquence. Ils devraient être ouverts aux retours d'information et aux critiques constructives et promouvoir un état d'esprit d'acceptation des différences et de respect de tous les aspects culturels.",
+          "Obtaining Team’s Trust": "Obtenir la confiance de l'équipe",
+          "There is sometimes a mutual distrust between the employee and the company. While the Managers stress that representatives won't fill in as hard or as productivity, the employee is anxious about whether he will be timely paid. Moreover. Many employees struggle with diminished access to administrative help and correspondence. Sometimes, the workers feel that remote directors are withdrawn from their necessities, and along these lines are neither steady nor accommodating in completing their work.":
+            "Il existe parfois une méfiance mutuelle entre le salarié et l'entreprise. Alors que les dirigeants soulignent que les managers ne rempliront pas leurs fonctions avec autant d'ardeur ou de productivité, l'employé s'inquiète de savoir s'il sera payé à temps. De plus, les nombreux employés se débattent avec un accès réduit à l'aide administrative et à la correspondance. Parfois, les travailleurs ont l'impression que les directeurs éloignés sont retirés de leurs besoins et, de ce fait, ne sont ni stables ni accommodants dans l'accomplissement de leur travail.",
+          "Being transparent can develop trust between the employees and the manager. Transparency should be applied to:":
+            "La transparence permet de développer une confiance entre les employés et le directeur. La transparence doit être appliquée en précisant :",
+          "Expectations regarding the task": "Les attentes par rapport aux tâches allouées;",
+          "Pay rate and schedule": "Calendrier des paies",
+          "Working Hours": "Heures de travail",
+          "Status update regarding the task":
+            "Transmission régulière d’informations stratégiques liés à l’entreprise",
+          "Moreover, unexpected questions regarding the project should be answered promptly and workers should be provided with any kind of help.":
+            "Aussi, les questions inattendues concernant le projet doivent recevoir une réponse rapide et les travailleurs doivent recevoir toute forme d'aide.",
+          "As we can see, there are many challenges in managing a remote team. However, such issues can be easily resolved by taking appropriate, timely measures that would make the remote industry even more common across the globe.":
+            "Comme nous pouvons le constater, la gestion d'une équipe à distance présente de nombreux défis. Cependant, ces problèmes peuvent être facilement résolus en prenant des mesures appropriées et opportunes. N’hésitez pas à les mettre en place, sachant que le travaille à distance deviendra probablement une pratique courante dans les années à venir.",
+          // business website
+          "We live in a digital world where everyone has cell-phones with the internet. Most consumers will be using their electronic devices to search for online information that will help them in making a smarter purchase decision. Actually, according to a survey, 88% of the consumers will search online information about a product before they finally buy it. Hence if your business doesn’t have a website, you are probably losing a lot of customers and opportunities. Nowadays business website serves as the backbone of the business as it lures new customers and can be used to employ different marketing strategies to expand your business. Below we’ll discuss the role of an online website in boosting your sales and growing your business.":
+            "Nous vivons dans un monde numérique où tout le monde dispose de téléphones portables avec Internet. La plupart des consommateurs utiliseront leurs appareils électroniques pour rechercher en ligne des informations qui les aideront à prendre une décision d'achat plus judicieuse. En fait, selon une enquête, 88 % des consommateurs recherchent des informations en ligne sur un produit avant de l'acheter. Par conséquent, si votre entreprise ne dispose pas d'un site web, vous perdez probablement beaucoup de clients et d'opportunités. De nos jours, le site web d'une entreprise sert de colonne vertébrale à l'entreprise car il attire de nouveaux clients et peut être utilisé pour employer différentes stratégies de marketing afin de développer votre entreprise. Nous examinerons ci-dessous le rôle d'un site web dans la stimulation de vos ventes et la croissance de votre entreprise.",
+          "Enables Online Marketing:": "Marketing en ligne :",
+          "If you have a business website you can use any online strategy to market your business and attract potential customers. This will help you in expanding your business. There are a lot of marketing strategies, you can use any depending upon the type of your business but for that, you need to have a business website first. You can easily use your website to attract new customers through social media marketing. You can use third-party social media to promote your business but you need to have a place where you can direct your potential customer so that they can learn about your business. When the potential customer comes to your website he will look at your products and possibly buy them. Hence you need a website to utilize online marketing strategies.":
+            "Si vous avez un site web, vous pouvez utiliser n'importe quelle stratégie en ligne pour commercialiser votre entreprise et attirer des clients potentiels et cela vous aidera à développer votre entreprise. Vous pouvez facilement utiliser votre site web pour attirer de nouveaux clients grâce au marketing via les réseaux sociaux, tels que Facebook ou Instagram. Vous pouvez utiliser des médias sociaux tiers pour promouvoir votre entreprise, mais vous devez disposer d'un endroit où vous pouvez diriger votre client potentiel afin qu'il puisse s'informer sur votre entreprise. Lorsque le client potentiel se rendra sur votre site web, il regardera vos produits et les achètera éventuellement. Le site web permet de montrer de façon exclusive les qualités et le savoir faire de votre entreprise",
+          "Increase in sales and revenue:": "Augmentation des ventes et des revenus :",
+          "Your website will give an introduction to your products and business. As said earlier people will most likely look up your company or business before even entertaining the idea of buying your product. If you have a business website then it will be easy for your customers to find all the information about the products you sell. Your business website will house all the content about your business to engage your audience and convince them to buy your products or services etc. This will lead to an increase in revenue.":
+            "Votre site web présentera vos produits et votre entreprise. Comme nous l'avons dit précédemment, les gens consulteront très probablement votre entreprise avant même d'envisager d'acheter votre produit. Si vous avez un site web d'entreprise, vos clients pourront facilement trouver toutes les informations sur les produits que vous vendez. Le site web de votre entreprise hébergera tout le contenu concernant votre entreprise afin d'attirer votre public et de le convaincre d'acheter vos produits ou services, etc. Cela entraînera une augmentation des recettes.",
+          "You can allow your customers to shop online from your website. This can boost your sales dramatically. These days people prefer to roam the internet and buy products from their homes. Smart businessmen realize this and give people the option to buy their products directly from their business website. This will increase the possibility of sales.":
+            "Vous pouvez permettre à vos clients de faire des achats en ligne à partir de votre site web. Cela peut augmenter considérablement vos ventes. De nos jours, les gens préfèrent naviguer sur l'internet et acheter des produits depuis leur domicile. Les hommes d'affaires intelligents en sont conscients et donnent aux gens la possibilité d'acheter leurs produits directement sur le site web de leur entreprise.",
+          "As said earlier your website has wide access which means it can reach more customers. The more people visit your website, the more opportunities you have to make a sale. Plus your shop cannot remain open 24/7 but your website can be accessed 24/7 that again could lead to an increase in your sales as your product can be sold through your website during any time of the day.":
+            "Un autre avantage est que votre site web est accessible à un large public, ce qui signifie qu'il peut toucher un plus grand nombre de clients. Plus les gens visitent votre site web, plus vous avez de possibilités de réaliser des ventes. De plus, votre magasin ne peut pas rester ouvert 24 heures sur 24, 7 jours sur 7, mais votre site web est accessible 24 heures sur 24, 7 jours sur 7, ce qui pourrait à nouveau entraîner une augmentation de vos ventes, puisque votre produit peut être vendu par l'intermédiaire de votre site web à tout moment de la journée.",
+          "Establishing Credibility": "Établir la crédibilité",
+          "A business website also brings credibility to your business. People usually look at the business with no websites as sketchy and less trust-worthy. You might be wondering how can a website bring credibility to your business. Well, most websites have review sections where the customers write reviews about your products or services. A consumer is 40% more likely to buy your product if they read positive reviews about your business.":
+            "Un site web d'entreprise apporte également de la crédibilité à votre entreprise. Les gens considèrent généralement que les entreprises qui n'ont pas de site web sont plus sommaires et moins dignes de confiance. Vous vous demandez peut-être comment un site web peut apporter de la crédibilité à votre entreprise. Un design soigné, avec des images de qualité permettent de montrer que vous consacrez du temps à votre image de marque. Aussi, la plupart des sites web ont des sections où les clients rédigent des commentaires sur vos produits ou services. Un consommateur a 40 % de chances supplémentaires d'acheter votre produit s'il lit des avis positifs sur votre entreprise.",
+          "You can also bring credibility to your website by publishing educational and well-researched material. It will let your customers know that you know what you are talking about and what you are selling. This will increase the chances of purchase by a customer.":
+            "Vous pouvez également apporter de la crédibilité à votre site web en publiant du matériel éducatif et bien documenté. Vos clients sauront ainsi que vous savez de quoi vous parlez et ce que vous vendez. Cela augmentera les chances d'achat d'un client.",
+          "Distinguish yourself through your website:": "Distinguez-vous grâce à votre site web :",
+          "You can also use your website to be different from your competitors in the market. You can uniquely design your website and catch the attention of potential customers. In the crowded market, it is necessary to set yourself apart to get the attention of people. Use your website to establish yourself as different from others in the market and gain new customers every day.":
+            "Vous pouvez également utiliser votre site web pour vous distinguer de vos concurrents sur le marché. Vous pouvez concevoir votre site de manière unique et attirer l'attention de clients potentiels. Sur un marché très fréquenté, il est nécessaire de se démarquer pour attirer l'attention des gens. Utilisez votre site web pour vous distinguer des autres sur le marché et gagner de nouveaux clients chaque jour.",
+          "Around the clock availability:": "Disponibilité 24 heures sur 24 :",
+          "We have discussed this briefly before but it’s worth mentioning again that a website ensures around the clock availability of your services. You might be sleeping in your home but a customer might be buying products from your website while you sleep. So your website keeps working 24/7 to attract new customers and sell them your products. It acts like a digital salesperson who is working all day. It attracts customers, provides them the information, shows them reviews, convinces them to buy and collects payment from them. This leads to an increase in sales and revenue.":
+            "Nous en avons déjà parlé brièvement, mais il convient de mentionner à nouveau qu'un site web assure la disponibilité de vos services 24 heures sur 24. Vous pouvez dormir chez vous, mais un client peut acheter des produits sur votre site web pendant que vous dormez. Votre site web fonctionne donc 24 heures sur 24, 7 jours sur 7, pour attirer de nouveaux clients et leur vendre vos produits. Il agit comme un vendeur numérique qui travaille toute la journée. Il attire les clients, leur fournit des informations, leur montre des critiques, les convainc d'acheter et encaisse leur paiement. Cela entraîne une augmentation des ventes et des revenus.",
+          "Professional Image": "Image professionnelle",
+          "Your business website gives your brand or company a professional image. If your website is easy to navigate, has an attractive design, and helpful content, it will give the customer a very professional image of your business and they will seriously consider buying from you.":
+            "Le site web de votre entreprise donne à votre marque ou à votre société une image professionnelle. Si votre site web est facile à parcourir, a un design attrayant et un contenu utile, il donnera aux clients une image très professionnelle de votre entreprise et ils envisageront sérieusement d'acheter chez vous.",
+          "Extremely Economical:": "Très rentable",
+          "The website has global access and the important thing is that setting it up will take next to nothing from your pocket. It’s very economical but it opens endless doors of possibilities for you to expand your business.":
+            "Le site web a un accès mondial et l'important est que sa mise en place ne vous coûtera presque rien. C'est très économique, mais cela vous ouvre des portes infinies de possibilités pour développer votre entreprise.",
+          "Wrapping Up:": "Pour conclure :",
+          "A business website provides you with endless possibilities to expand your business and increase your revenue. It does not matter if you run a restaurant or a brick and mortar business or sale makeup products, you need a website to engage the wider audience, provide them the information, show them reviews and convince them to buy your service or products. So what are you waiting for? Immediately set up your business website and explore the endless opportunities that come with it.":
+            "Un site web d'entreprise vous offre des possibilités infinies pour développer votre entreprise et augmenter vos revenus. Peu importe que vous dirigiez un restaurant, un commerce physique ou que vous vendiez des produits de maquillage, vous avez besoin d'un site web pour toucher un public plus large, lui fournir des informations, lui montrer des critiques et le convaincre d'acheter votre service ou vos produits. Alors qu'attendez-vous ? Mettez immédiatement en place le site web de votre entreprise et explorez les possibilités infinies qui s'y rattachent.",
+
           // menu
+
           "Changer de langue en": "Change the language to",
           Français: "English",
+          "WEB DEVELOPMENT": "Développement Web",
+          "APP DEVELOPMENT": "Développement App mobiles",
+          "SOFTWARE DEVELOPMENT": "Développement Logiciel",
+          "ON DEMAND DEVELOPERS": "Régie Informatique",
+          "UI/UX DEVELOPMENT": "Développement UI/UX",
 
           //Home
           // Home_Header
-          "WE PROVIDE GREAT SERVICES AT THE BEST PRICE.":
-            "L'EXCELLENCE À TOUT PRIX",
+          "WE PROVIDE GREAT SERVICES AT THE BEST PRICE.": "L'EXCELLENCE À TOUT PRIX",
           "Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners. ":
             "Agence informatique avec une équipe de développeurs et de chefs de projet expérimentés, priviligiant la qualité avant tout. ",
           "GET A FREE QUOTE": "OBTENIR UN DEVIS GRATUIT",
 
           //   service Provided section
-          "our aim provide better service":
-            "NOTRE OBJECTIF : LA SATISFACTION CLIENT",
+          "our aim provide better service": "NOTRE OBJECTIF : LA SATISFACTION CLIENT",
           "Services We Provide": "Services que nous fournissons",
-          "Mobile Application Development":
-            "Développement d'applications mobiles",
+          "Mobile Application Development": "Développement d'applications mobiles",
           "Website Development": "Développement de site Web",
           "Software Development": "Développement de logiciels",
           "On Demand Developers": "Développeurs à la demande",
@@ -475,15 +859,13 @@ i18n
 
           //   aboutus Section
           "your work is our priority": "Votre projet est notre priorité",
-          "Why choose Falcon Consulting?":
-            "Pourquoi choisir Falcon Consulting ?",
+          "Why choose Falcon Consulting?": "Pourquoi choisir Falcon Consulting ?",
           "Years of Experience": "Années d'Excellence",
           "Number of Employees": "Nombre d'employés",
           "Successfull Projects": "Projets réussis",
           "Number of Offices": "Nombre de bureaux",
           "External Tools Built": "Outils externes construits",
-          "Improvement and Customer focused":
-            "Amélioration continue et satisfaction client",
+          "Improvement and Customer focused": "Amélioration continue et satisfaction client",
           "We believe that talent and skills do not have borders":
             "Nous sommes convaincus que le talent et les compétences n'ont pas de frontières",
           "We are a human-oriented company, investing in training healthy atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to put in place a continuous improvement process internally":
@@ -495,8 +877,7 @@ i18n
           "Some Amazing Partners We Worked With": "Quelques partenaires",
 
           // review section
-          "your feedback matters":
-            "Vos retours d'expérience nous permettent de grandir",
+          "your feedback matters": "Vos retours d'expérience nous permettent de grandir",
           "Client Reviews": "Avis clients",
           "We were looking for a team who could take on our project and finish the job, Falcon IT Consulting Completed all work as asked. Gladly I found them":
             "Nous recherchions une équipe qui pourrait prendre en charge notre projet et terminer le travail, Falcon IT Consulting a terminé tous les travaux comme demandé. Avec plaisir je les ai trouvé",
@@ -509,7 +890,25 @@ i18n
           "Falcon Consulting did a great job. I am happy to work with them. They have great skills in MERN stack. Being not so tech savvy I had my own challenges but their Business team helped me on each step along the journey. Hope we will work very soon near future. Thank you":
             "Falcon Consulting a fait un excellent travail. Je suis heureux de travailler avec eux. Ils ont de grandes compétences dans la pile MERN. N'étant pas si féru de technologie, j'avais mes propres défis, mais leur équipe commerciale m'a aidé à chaque étape du voyage. J'espère que nous travaillerons très bientôt dans un avenir proche. Merci",
 
+          "Mobile application for EdTech": "Application mobile pour EdTech",
+          "Amazon API Gateway Migration": "Migration de passerelle d'API Amazon",
+          "Mobile application for Parental Control": "Application mobile pour le contrôle parental",
+          "Amazon Web Services Server Configurations":
+            "Configurations du serveur Amazon Web Services",
+          "Web application Development for Travel Agency":
+            "Développement d'applications Web pour agence de voyage",
+
           //   blog section
+          "Managing a Remote Team": "Manager une équipe en télétravail",
+          "Why having a business website is necessary ?":
+            "Site professionnel : votre identité digitale",
+          "Published on": "Ecrit le",
+
+          "In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.":
+            "Dans le passé, il était facile de gérer une équipe d'employés qui ne travaillaient pas à des milliers de kilomètres de chez soi. Aujourd'hui, les entreprises adoptent la tendance à l'éloignement en employant des travailleurs qualifiés aux quatre coins du monde. Naturellement, le manager est responsable non seulement de la gestion de l'équipe d'employés, mais aussi de la formation, de l'encouragement et du soutien de cette équipe. Cette responsabilité n'est pas toujours aussi simple. C'est pourquoi nous allons discuter ici des défis potentiels de la gestion d'une équipe à distance et de la manière de surmonter ces obstacles.",
+          "We live in a digital world where everyone has cell-phones with the internet. Most consumers will be using their electronic devices to search for online information that will help them in making a smarter purchase decision. Actually, according to a survey, 88% of the consumers will search online information about a product before they finally buy it. Hence if your business doesn’t have a website, you are probably losing a lot of customers and opportunities. Nowadays business website serves as the backbone of the business as it lures new customers and can be used to employ different marketing strategies to expand your business. Below we’ll discuss the role of an online website in boosting your sales and growing your business.":
+            "Nous vivons dans un monde numérique où tout le monde dispose de téléphones portables avec Internet. La plupart des consommateurs utiliseront leurs appareils électroniques pour rechercher en ligne des informations qui les aideront à prendre une décision d'achat plus judicieuse. En fait, selon une enquête, 88 % des consommateurs recherchent des informations en ligne sur un produit avant de l'acheter. Par conséquent, si votre entreprise ne dispose pas d'un site web, vous perdez probablement beaucoup de clients et d'opportunités. De nos jours, le site web d'une entreprise sert de colonne vertébrale à l'entreprise car il attire de nouveaux clients et peut être utilisé pour employer différentes stratégies de marketing afin de développer votre entreprise. Nous examinerons ci-dessous le rôle d'un site web dans la stimulation de vos ventes et la croissance de votre entreprise.",
+
           "With lots of unique blogs": "La soif de connaissance",
           "Read our blog": "Lire notre blog",
           "A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021":
@@ -519,8 +918,7 @@ i18n
 
           // contact us
           "Contact Us": "Nous contacter",
-          "Share Your Project/Idea with us!":
-            "Partagez votre projet avec nous !",
+          "Share Your Project/Idea with us!": "Partagez votre projet avec nous !",
           "Our Team Member will get back to you within 24 hours. ":
             "Un collaborateur vous répondra dans les 24 heures.",
           "Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.":
@@ -544,19 +942,23 @@ i18n
           Pages: "Pages",
           About: "À propos de",
           Services: "Prestations de service",
+          "Our Projects": "Nos projets",
           "Our projects": "Nos projets",
+
           Contact: "Contact",
           Privacy: "Politique de Confidentialité",
           "Terms of Service": "Conditions d'utilisation",
           Cookies: "Cookies",
           "All Rights Reserved": "Tous droits réservés",
+          "Web Development": "Développement de site Web",
+          "App Development": "Développement d'app mobiles",
+          "Software Development": "Développement de logiciels",
+          "UI/UX Developmemt": "Développement UI/UX",
 
           //   About US
           //   About_Heaader
-          "Our Goal Is To Exceed Your Expectations ":
-            "Notre objectif est de dépasser vos attentes",
-          "Healthy, skilled and ambitious team":
-            "Une équipe saine, compétente et ambitieuse",
+          "Our Goal Is To Exceed Your Expectations ": "Notre objectif est de dépasser vos attentes",
+          "Healthy, skilled and ambitious team": "Une équipe saine, compétente et ambitieuse",
 
           //   About comapny Section
           "BEST company": "Votre partenaire idéal",
@@ -598,7 +1000,7 @@ i18n
 
           //   Our Projects
           // Projects_Header
-          "ALL PROJECTS START BY A SIMPLE IDEA LET US TAKE CARE OF THE REST!":
+          "ALL PROJECTS START BY A SIMPLE IDEA, LET US TAKE CARE OF THE REST!":
             "TOUS LES PROJETS COMMENCENT PAR UNE SIMPLE IDÉE. LAISSEZ NOUS PRENDRE SOIN DU RESTE !",
           "Falcon Consulting had the opportunity to work on  various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time. ":
             "Falcon Consulting a eu l'opportunité de travailler sur différents types de projets pour ses clients. Nous avons mis en place un processus efficace afin de livrer un travail qualitatif dans les délais.",
@@ -621,8 +1023,7 @@ i18n
 
           //   Services
           // Services_Header
-          "Skilled Developers for your Projects":
-            "L'extension de votre équipe tech !",
+          "Skilled Developers for your Projects": "L'extension de votre équipe tech !",
           "We are ready to handle your ambitious projects!":
             "Nous sommes prêts à gérer vos projets ambitieux !",
           "Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !":
@@ -655,8 +1056,7 @@ i18n
           "Live Testing": "Tests",
           "We do research and validate the specs before we start any projects":
             "Nous analysons et validons les spécifications avant de commencer tout projet",
-          "Designed according to client's requirements":
-            "Conçu selon les exigences du client",
+          "Designed according to client's requirements": "Conçu selon les exigences du client",
           "Developed by skilled team developers":
             "Développé par une équipe de développeurs qualifiés",
           "After completing the work, live test is done":
@@ -665,15 +1065,13 @@ i18n
           Wireframing: "Maquetage",
           "UI Design": "Conception de l'interface utilisateur",
           "Design Review": "Revue de la conception",
-          "Then Wireframing according to requirements":
-            "Puis maquetage selon les besoins",
+          "Then Wireframing according to requirements": "Puis maquetage selon les besoins",
           "We do ux research before we start any projects":
             "Nous validons la meilleur expérience UX avant de commencer tout projet",
 
           // Our Deveopers Section
           "OUR DEVELOPERS ARE": "NOS DÉVELOPPEURS SONT",
-          "OUR DEVELOPERS FOR YOUR PROJECTS":
-            "NOS DÉVELOPPEURS POUR VOS PROJETS",
+          "OUR DEVELOPERS FOR YOUR PROJECTS": "NOS DÉVELOPPEURS POUR VOS PROJETS",
           Agile: "Agile",
           Experienced: "Expérimenté",
           Trained: "Qualifié",
@@ -754,11 +1152,11 @@ i18n
             "Falcon Consulting est spécialisé dans les projets de construction numérique, et nous avons aidé notre partenaire à finaliser son cahier des charges afin d'obtenir la meilleure expérience utilisateur.",
 
           //    Orientator
-          "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire. ":
+          "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.":
             "Orientator est une application web qui permet aux lycéens de faire leur meilleur choix de carrière, après avoir rempli un questionnaire en ligne personnalisé.",
-          "The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile. ":
+          "The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile.":
             "Le questionnaire se présente sous la forme d'un arbre décisionnel, avec des questions discriminantes et non discriminantes, aidant à comprendre le profil de l'utilisateur.",
-          "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.  ":
+          "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.":
             "À la fin du questionnaire, un algorithme complexe génère une liste de formations et d'écoles post-bac qui correspondent le mieux au profil de l'élève. Cet algorithme calcule un score selon plusieurs critères, comme la distance, la sélectivité ou encore la durée du cours, et un pourcentage de compatibilité en fonction des réponses de l'étudiant.",
 
           // Kidcab
@@ -825,8 +1223,7 @@ i18n
             "Tajweed Made Easy est une application développée par Falcon IT. Site Web et application basés sur l'apprentissage du Coran avec les règles appropriées de Tajweed et Makharij.",
           "•	User can signup and start learning Quran with Tajweed.":
             "L'utilisateur peut s'inscrire et commencer à apprendre le Coran avec Tajweed",
-          "•	Practice lessons are available.":
-            "Des cours pratiques sont disponibles.",
+          "•	Practice lessons are available.": "Des cours pratiques sont disponibles.",
           "•	User can repeat the lesson at any time without an internet connection":
             "L'utilisateur peut répéter la leçon à tout moment sans connexion Internet",
           "•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy.":
@@ -860,12 +1257,10 @@ i18n
           "Presentation of the website": "Présentation du site",
           "General conditions of use of the site and the services offered":
             "Conditions générales d'utilisation du site et des services proposés",
-          "Description of the services provided":
-            "Description des services fournis",
+          "Description of the services provided": "Description des services fournis",
           "Contractual limitations on technical data":
             "Limitations contractuelles sur les données techniques",
-          "Intellectual property and counterfeits":
-            "Propriété intellectuelle et contrefaçons",
+          "Intellectual property and counterfeits": "Propriété intellectuelle et contrefaçons",
           "Limitations of liability": "Limitations de responsabilité",
           "Personal data management": "Gestion des données personnelles",
           "Incident notification": "Notification d'incident",

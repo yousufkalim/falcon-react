@@ -159,8 +159,22 @@
         text-align: left;
     
     }
+    .AboutImg {
+        display: flex;
+        justify-content: center;
+    }
     .AboutImg img{
-        width: 100%;
-        margin-top: 5%;
+       
+        width: 80%;
     }
     }
+
+    @media only screen and (max-width: 400px) {
+        .InfoDiv{
+            height: 90px;
+             width: 90px;
+         }
+         .InfoImg{
+            height:30px;
+        }
+        }

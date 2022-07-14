@@ -29,46 +29,42 @@ import Footer from "../../components/Common/Footer";
 // Home Component
 export default function Quadrabase() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
-        background="#000000"
-        bottomBG="#FFF0E2"
-        typoBG="#9D3C64EB"
+        background='#000000'
+        bottomBG='#FFF0E2'
+        typoBG='#9D3C64EB'
         HeaderImg={QuadraHeader}
-        title="Quadrabase."
-        subTitle="What is Quadrabase"
-        iconTheme="#9D3C64"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        title='Quadrabase.'
+        subTitle='What is Quadrabase'
+        iconTheme='#9D3C64'
+        description='Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
       />
       <DetailOverview
-        titleTheme="#FF8616"
+        titleTheme='#FF8616'
+        desp='Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details. Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details. Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. This project is ambitious and aims to revolutionize the approach to design in the field of construction in France.'
         // desp=""
         AvatarSrc={QB_Avatar}
-        nameColor="#9D3C64"
-        name="Dylan Field"
+        nameColor='#9D3C64'
+        name='Dylan Field'
         // location="France"
         src={OV_Quadra}
       />
-      <DetailService
-        web
-        titleTheme="#FF8616"
-        borderColor="#FF8616"
-        circleTheme="#9D3C64"
-      />
+      <DetailService web titleTheme='#FF8616' borderColor='#FF8616' circleTheme='#9D3C64' />
 
       <DetailDemo
-        titleColor="#FF8616"
-        title="Quadrabase"
+        titleColor='#FF8616'
+        title='Quadrabase'
         // desp=""
-        btnTheme="#9D3C64"
-        theme="#9D3C64"
+        btnTheme='#9D3C64'
+        theme='#9D3C64'
         DetailDemo_SquareDiv
         src={QB_Demo}
       />
       <DetailDesign
-        title="UI DESIGN"
-        titleTheme="#FFA450"
+        title='UI DESIGN'
+        titleTheme='#FFA450'
         grids
         src1={QB_Design1}
         src2={QB_Design2}
@@ -80,30 +76,26 @@ export default function Quadrabase() {
       <DetailTheme
         fullscreen
         // centerImage
-        titleTheme="#FF8616"
+        titleTheme='#FF8616'
         // desp
-        Theme1="#FF8616"
-        Theme2="#202020"
-        Theme3="#D7D7D7"
-        Theme4="#575557"
-        Theme5="#8C1244"
-        Theme6="#F5F5F5"
+        Theme1='#FF8616'
+        Theme2='#202020'
+        Theme3='#D7D7D7'
+        Theme4='#575557'
+        Theme5='#8C1244'
+        Theme6='#F5F5F5'
         // Theme7
         src={QB_Theme}
       />
-      <DetailLogo theme="#9D3C64" src={QB_Logo} />
-      <DetailAppDev
-        title="WEB DESIGN"
-        titleTheme="#FF8616"
-        fullImg={QB_Design}
-      />
+      <DetailLogo theme='#9D3C64' src={QB_Logo} />
+      <DetailAppDev title='WEB DESIGN' titleTheme='#FF8616' fullImg={QB_Design} />
       <DetailFeedback
-        ThemeBG="#9D3C64"
+        ThemeBG='#9D3C64'
         // titleTheme=""
         // despTheme=""
         // desp=""
         AvatarSrc={QB_Avatar}
-        name="Dylan Field"
+        name='Dylan Field'
         // location=""
       />
       <Footer />

@@ -29,34 +29,43 @@ import Footer from "../../components/Common/Footer";
 // Home Component
 export default function Sindoor() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
         // DividerBG
-        background="#000000"
-        bottomBG="#E45A5A"
-        typoBG="#E45A5A"
+        background='#000000'
+        bottomBG='#E45A5A'
+        typoBG='#E45A5A'
         HeaderImg={Sindoor_Header}
-        title="Sindoor"
-        subTitle="What is Sindoor"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        title='Sindoor'
+        subTitle='What is Sindoor'
+        description='Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
       />
       <DetailOverview
         // desp
+        desp='Marriage app connecting user and vendors
+        Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding.
+        The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.
+        There are three type of users on APP
+        User Interface (the user who create the event, send virtually invites and schedule event timeline)
+        Vendor Interface (The one who is service provider)
+        Guest Interface ( the guest can see Event timeline, table Management, Sharing photos, and send messages on App)
+        The vendors will be caterers, photographers, videographers, Wedding venue. The user hire the vendors for their Events or look for the co-organizer who can manage all the event. The user can create event and send virtually invites to guest. Able to invite people through E-Mail.
+        '
         // location
-        titleTheme="#E45A5A"
+        titleTheme='#E45A5A'
         AvatarSrc={Kidcab_Avatar}
-        nameColor="#E45A5A"
-        name="Rahul Karan"
+        nameColor='#E45A5A'
+        name='Rahul Karan'
         src={OV_Sindoor}
       />
       <DetailService
         // both
         // web
         app
-        titleTheme="#E45A5A"
-        borderColor="#18374E"
-        circleTheme="#E45A5A"
+        titleTheme='#E45A5A'
+        borderColor='#18374E'
+        circleTheme='#E45A5A'
       />
 
       <DetailDemo
@@ -64,27 +73,27 @@ export default function Sindoor() {
         // btnText
         // DetailDemo_SquareDiv
         DetailDemo_RoundDiv
-        titleColor="#E45A5A"
-        title="Sindoor"
-        btnTheme="#E45A5A"
-        theme="#E45A5A"
+        titleColor='#E45A5A'
+        title='Sindoor'
+        btnTheme='#E45A5A'
+        theme='#E45A5A'
         src={Sindoor_Demo}
       />
       <DetailDesign
-        titleTheme="#E45A5A"
-        title="APP UI DESIGN"
-        // overlap
-        TopImg={Sindoor_Design1}
-        MidImg={Sindoor_Design2}
-        BottomImg={Sindoor_Design3}
-        // grids
+        titleTheme='#E45A5A'
+        title='APP UI DESIGN'
+        // // overlap
+        // TopImg={Sindoor_Design1}
+        // MidImg={Sindoor_Design2}
+        // BottomImg={Sindoor_Design3}
+        grids
         // src1
         // src2
         // src3
         // src4
         // src5
         // src6
-        overlap
+        // overlap
       />
 
       <DetailTheme
@@ -96,13 +105,13 @@ export default function Sindoor() {
         // src2={EZbox_Theme2}
         // src3={EZbox_Theme3}
         // fullscreen
-        title="COLOR THEME"
-        titleTheme="#E45A5A"
+        title='COLOR THEME'
+        titleTheme='#E45A5A'
         // desp
-        Theme1="#E45A5A"
-        Theme2="#FAFAFA"
-        Theme3="#191A1F"
-        Theme4="#575961"
+        Theme1='#E45A5A'
+        Theme2='#FAFAFA'
+        Theme3='#191A1F'
+        Theme4='#575961'
         // Theme5=""
         // Theme6=""
         // Theme7=""
@@ -111,10 +120,10 @@ export default function Sindoor() {
       />
       {/* <DetailLogo theme="rgba(255, 213, 77, 0.25)" src={Table_Logo} /> */}
       <DetailAppDev
-        title="MOBILE APP DEVELOPMENT"
+        title='MOBILE APP DEVELOPMENT'
         // desp
         // fullImg={Table_AppDesign}
-        titleTheme="#E45A5A"
+        titleTheme='#E45A5A'
         halfImg={Sindoor_AppDesign}
       />
       <DetailFeedback
@@ -122,9 +131,9 @@ export default function Sindoor() {
         // despTheme
         // desp
         // location
-        ThemeBG="#E45A5A"
+        ThemeBG='#E45A5A'
         AvatarSrc={Kidcab_Avatar}
-        name="Rahul Karan"
+        name='Rahul Karan'
       />
       <Footer />
     </div>

@@ -57,7 +57,7 @@
 @media only screen and (max-width: 600px) {
     .Awesome_Slider{
         height: 100% !important;
-        margin-top: 2% !important;
+        margin-top: 0 !important;
     }
     .LocationDiv{
         display: flex;
@@ -99,7 +99,7 @@
     
     }
     .LocationDiv_Img{
-        width: 80%;
+        width: 75% !important;
     }
     .LocationDiv_Typo{
         width: 85%;
@@ -107,8 +107,12 @@
         margin-bottom: 5%;
         /* margin-left: 2%; */
     }
+    .Location_Country{
+        font-size: 1.5rem !important;
+    }
     .Location_Address{
-        width: 100%;
+        font-size: .9rem !important;
+
         
     }
     .LocationDiv_Typo img{
