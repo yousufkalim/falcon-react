@@ -19,8 +19,8 @@
 .BlogCardTitle{
     color: #12141D; 
     font-weight: 700 !important; 
-    width: 70%;
-    font-size: 1.2rem;
+    width: 90%;
+    font-size: 1.5rem !important;
 }
 @media only screen and (max-width: 1366px) {
     .BlogCardTitle{
@@ -30,5 +30,10 @@
 @media only screen and (max-width: 900px) {
     .BlogCardTitle{
         width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .BlogCardTitle{
+        font-size: 1.2rem;
     }
 }

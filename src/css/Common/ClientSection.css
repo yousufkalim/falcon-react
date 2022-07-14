@@ -24,6 +24,7 @@
 .ClientLogoGrid{
     display: flex;
     justify-content: center;
+    margin: 2% 0;
 }
 .ClientLogo{
  
@@ -42,5 +43,8 @@
     .ClientsDiv{
         width: 80%;
         margin: 5% 0%;
+    }
+    .ClientLogoGrid{
+        margin: 5% 0;
     }
 }

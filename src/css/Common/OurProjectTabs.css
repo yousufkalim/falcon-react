@@ -3,6 +3,9 @@
     width: 50%;
     justify-content: center;
 }
+.ProjectListTabs{
+    width: 100%;
+}
 
 .ProjectListMain {
     /* margin: 2%; */
