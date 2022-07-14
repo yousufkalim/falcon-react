@@ -78,7 +78,7 @@ export default function LatestProjects(props) {
             className='SliderDiv'
             autoPlay={true}
             responsive={responsive}
-            transitionDuration={2000}
+            transitionDuration={500}
             slidesToSlide={1}
             renderArrowNext={true}
             infinite={true}
