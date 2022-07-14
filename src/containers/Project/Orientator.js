@@ -47,7 +47,12 @@ export default function Orientator() {
       />
       <DetailOverview
         titleTheme='#FF29AA'
-        desp='Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.'
+        desp="Orientator is a web application that allows high school students to make their 
+        best career choice, after filling out an online and customized questionnaire. 
+        The questionnaire is presented as a decision tree, with discriminating and non-
+        discriminating questions, helping to understand the user profile. 
+        At the end of the questionnaire, a complex algorithm generates a list of post-
+        baccalaureate programs and schools that best match the student's profile. This  algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers."
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='FF29AA'

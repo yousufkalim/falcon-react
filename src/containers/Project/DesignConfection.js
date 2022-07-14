@@ -45,7 +45,7 @@ export default function DesignConfection() {
       <DetailOverview
         // desp
         // location
-        desp='A web app designed to help customers with customized stitching to receive your creation at your home. '
+        desp='A web app designed to help customers with customized stitching to receive your creation at your home. User login to register and add information regarding customized dress like color combination, stuff design, etc. After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs. Choose your designer with 99% accuracy as design confection brings your ideas to life. '
         titleTheme='#282828'
         AvatarSrc={Kidcab_Avatar}
         nameColor='#CC8E9C'
