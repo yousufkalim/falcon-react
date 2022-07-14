@@ -44,7 +44,12 @@ export default function RegisterRH() {
         description='This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
       />
       <DetailOverview
-        desp='This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
+        desp='A complete HR Register application offering 3 mandatory social registers for companies:
+        Staff Register
+        Risk Assessment Documents
+        Security check logs
+        This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.
+        Risk Management records all the documents related to the risks that a company faces. Making it easier to manage. It helps keep check and balance over all the risks and provides information about the person in charge and who to talk with regarding that risk'
         titleTheme='#142E68'
         // desp=""
         AvatarSrc={QB_Avatar}

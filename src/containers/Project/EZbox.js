@@ -46,7 +46,7 @@ export default function EZbox() {
       />
       <DetailOverview
         // desp
-        desp='EZBox media is a platform providing different services'
+        desp='EZBox media is a platform providing different services. Advertising by understanding how a user can react to the advertisement shown to them. Target ads based on non-personal criteria. EZBox media helps Product development for the next generation products with the wide variety of technologies available today. EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions.'
         // location
         titleTheme='#454238'
         AvatarSrc={Kidcab_Avatar}

@@ -47,7 +47,7 @@ export default function Wina() {
       />
       <DetailOverview
         titleTheme='#2A5AA6'
-        desp='Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. '
+        desp='Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. A matching algorithm, based on several criteria, automatically calculates a percentage of compatibility between a student and a job offer.  The matching process is similarly done as with the Tinder application. Once the matching is done, a calendar allows the student to book an interview session with the company. The platform automatically retrieves (scrapes) all offers from reference websites in France, and add them to Winaa’s database. Companies have a full dashboard allowing them to manage their offers, see the potential matches and accept the interview sessions.'
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#2A5AA6'
