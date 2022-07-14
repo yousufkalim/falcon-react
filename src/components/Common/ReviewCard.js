@@ -14,15 +14,7 @@ export default function ReviewCard(props) {
   let text = t(review);
 
   return (
-    <div
-      style={{
-        userSelect: "none",
-        maxWidth: "400px",
-        minWidth: "200px",
-        height: "550px",
-        borderRadius: 15,
-      }}
-    >
+    <div className='ReviewCard_Container'>
       <div className='ReviewCard'>
         <Avatar alt='Remy Sharp' src={props.src} sx={{ width: 120, height: 120 }} />
         <Typography
