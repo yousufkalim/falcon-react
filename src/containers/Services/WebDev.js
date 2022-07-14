@@ -13,15 +13,15 @@ import KeyFeatureSection from "../../components/Common/KeyFeatureSection";
 // Home Component
 export default function WebDev() {
   return (
-    <div className="Services_WebContainer">
+    <div className='Services_WebContainer'>
       <NavBar />
       <Header
-        Title="WEB DEVELOPMENT "
-        Titlecolor="#003B7E"
-        Description="We are ready to handle your ambitious projects!"
-        DespColor="#003B7E"
+        Title='WEB DEVELOPMENT'
+        Titlecolor='#003B7E'
+        Description='We are ready to handle your ambitious projects!'
+        DespColor='#003B7E'
         btn
-        btnText="More information"
+        btnText='More information'
         ImgSrc={WebDevImg}
       />
       <KeyFeatureSection />
