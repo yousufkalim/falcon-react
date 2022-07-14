@@ -39,10 +39,11 @@ export default function Yuwway() {
         title='Yuwway'
         subTitle='What is Yuwway'
         // iconTheme="#9D3C64"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        description="Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs."
       />
       <DetailOverview
         titleTheme='#0073BB'
+        desp="Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs. Bringing together a large number of the most important carriers, Yuwway makes it possible to provide the keys to the market to the consumer who can choose, both qualitatively and in terms of price, the offer that best suits him."
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#0073BB'

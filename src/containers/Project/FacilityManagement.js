@@ -41,10 +41,11 @@ export default function FacilityManagement() {
         title='Facility Management'
         subTitle='What is Facility Management'
         // iconTheme="#9D3C64"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        description='This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user.'
       />
       <DetailOverview
         titleTheme='#282828'
+        desp='This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user. The employee user can create a ticket in the system, if he sees any issue in the office (example : the light is not working). The admin can then assign the ticket to a vendor'
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#2F696D'

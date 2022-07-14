@@ -40,11 +40,12 @@ export default function DesignConfection() {
         HeaderImg={DesignConfectionHeader}
         title='Design Confection.'
         subTitle='What is Design Confection'
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        description='A web app designed to help customers with customized stitching to receive your creation at your home. '
       />
       <DetailOverview
         // desp
         // location
+        desp='A web app designed to help customers with customized stitching to receive your creation at your home. '
         titleTheme='#282828'
         AvatarSrc={Kidcab_Avatar}
         nameColor='#CC8E9C'
