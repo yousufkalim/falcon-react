@@ -32,7 +32,7 @@ import Zypzap from "../containers/Project/Zypzap";
 
 import Yuwway from "../containers/Project/Yuwway";
 import FacilityManagement from "../containers/Project/FacilityManagement";
-import Firemen from "../containers/Project/Firemen";
+import Fireman from "../containers/Project/Fireman";
 import Wina from "../containers/Project/Wina";
 import Orientator from "../containers/Project/Orientator";
 import RegisterRH from "../containers/Project/RegisterRH";
@@ -71,7 +71,7 @@ const index = () => {
 
       <Route exact path='/ourprojects/yuwway' component={Yuwway} />
       <Route exact path='/ourprojects/facilitymanagement' component={FacilityManagement} />
-      <Route exact path='/ourprojects/firemen' component={Firemen} />
+      <Route exact path='/ourprojects/fireman' component={Fireman} />
       <Route exact path='/ourprojects/wina' component={Wina} />
       <Route exact path='/ourprojects/orientator' component={Orientator} />
       <Route exact path='/ourprojects/registerrh' component={RegisterRH} />
