@@ -10,9 +10,11 @@ import theme3 from "../../assets/images/ezbox_theme3.png";
 import Divider from "@mui/material/Divider";
 import { Avatar } from "@mui/material";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 // Component
 export default function DetailTheme(props) {
+  const { i18n, t } = useTranslation();
   return (
     <>
       <div className='DetailTheme_Container'>
@@ -25,8 +27,10 @@ export default function DetailTheme(props) {
           </div>
           <div className='DetailTheme_DespDiv'>
             <Typography className='DetailTheme_Desp'>
-              {props.desp ||
-                "Colors Schemes – Making UI feel more natural. This is why the usage of the right color palettes is essential to make the app more attractive. Some colors look better with another. This is why color schemes were created. They help designers to find the right hue for the remaining ones."}
+              {t(
+                props.desp ||
+                  "Colors Schemes – Making UI feel more natural. This is why the usage of the right color palettes is essential to make the app more attractive. Some colors look better with another. This is why color schemes were created. They help designers to find the right hue for the remaining ones."
+              )}
             </Typography>
           </div>
         </div>

@@ -281,6 +281,7 @@ i18n
 
           // Project Details Basic Modal
           // Tilt
+
           "Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.":
             "Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.",
           "The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience.":
@@ -627,6 +628,9 @@ i18n
           //
 
           // Detail Project Screens
+          // Detail Theme
+          "Colors Schemes – Making UI feel more natural. This is why the usage of the right color palettes is essential to make the app more attractive. Some colors look better with another. This is why color schemes were created. They help designers to find the right hue for the remaining ones.":
+            "Colors Schemes – Making UI feel more natural. This is why the usage of the right color palettes is essential to make the app more attractive. Some colors look better with another. This is why color schemes were created. They help designers to find the right hue for the remaining ones.",
           // Detail Design
           "App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app’s flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback. The end result is an app that looks nice and is easy to use. So, the best app design process comprises Research, Ideation, Problem Identification, Design, Feedback, Problem Evaluation. Designers handle all parts of the process in a continuous and simultaneous flow. And that’s both for UX and UI through the lifetime of the app.":
             "App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app’s flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback. The end result is an app that looks nice and is easy to use. So, the best app design process comprises Research, Ideation, Problem Identification, Design, Feedback, Problem Evaluation. Designers handle all parts of the process in a continuous and simultaneous flow. And that’s both for UX and UI through the lifetime of the app.",
@@ -636,6 +640,10 @@ i18n
         translations: {
           //
           // Detail Project Screens
+          // Detail Theme
+
+          "Colors Schemes – Making UI feel more natural. This is why the usage of the right color palettes is essential to make the app more attractive. Some colors look better with another. This is why color schemes were created. They help designers to find the right hue for the remaining ones.":
+            "Schémas de couleurs - Rendre l'interface utilisateur plus naturelle. C'est pourquoi l'utilisation des bonnes palettes de couleurs est essentielle pour rendre l'application plus attrayante. Certaines couleurs vont mieux avec une autre. C'est pourquoi des schémas de couleurs ont été créés. Ils aident les concepteurs à trouver la bonne teinte pour les autres.",
           // Detail Design
           "App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app’s flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback. The end result is an app that looks nice and is easy to use. So, the best app design process comprises Research, Ideation, Problem Identification, Design, Feedback, Problem Evaluation. Designers handle all parts of the process in a continuous and simultaneous flow. And that’s both for UX and UI through the lifetime of the app.":
             "La conception d'applications est un processus continu comprenant des éléments d'expérience utilisateur (UX) et d'interface utilisateur (UI). Les concepteurs imaginent, définissent des solutions, créent le flux et la structure de l'application et font des choix stylistiques, des couleurs aux polices. Les concepteurs fondent leurs choix sur la recherche et les commentaires des utilisateurs. Le résultat final est une application qui a l'air bien et qui est facile à utiliser. Ainsi, le meilleur processus de conception d'applications comprend la recherche, l'idéation, l'identification des problèmes, la conception, les commentaires et l'évaluation des problèmes. Les concepteurs gèrent toutes les parties du processus dans un flux continu et simultané. Et c'est à la fois pour l'UX et l'UI tout au long de la durée de vie de l'application.",
