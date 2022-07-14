@@ -32,24 +32,25 @@ import Footer from "../../components/Common/Footer";
 // Home Component
 export default function Telehealth() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
         // DividerBG
-        background="#136773"
-        bottomBG="#136773"
-        typoBG="#FBA622EB"
+        background='#136773'
+        bottomBG='#136773'
+        typoBG='#FBA622EB'
         HeaderImg={Telehealth_Header}
-        title="Telehealth Platform"
-        subTitle="What is Telehealth Platform"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        title='Telehealth Platform'
+        subTitle='What is Telehealth Platform'
+        description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
       />
       <DetailOverview
         // desp
+        desp='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
         // location
-        titleTheme="#FBA622"
+        titleTheme='#FBA622'
         // AvatarSrc={Kidcab_Avatar}
-        nameColor="#FBA622"
+        nameColor='#FBA622'
         // name="Eassa Awake"
         src={OV_Telehealth}
       />
@@ -57,9 +58,9 @@ export default function Telehealth() {
         both
         // web
         // app
-        titleTheme="#FBA622"
-        borderColor="#FBA622"
-        circleTheme="#136773"
+        titleTheme='#FBA622'
+        borderColor='#FBA622'
+        circleTheme='#136773'
         BGLogo
         liteLogo={BG_Logo}
       />
@@ -69,15 +70,15 @@ export default function Telehealth() {
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
-        titleColor="#FBA622"
-        title="Tele Health Platform"
-        btnTheme="#FBA622"
-        theme="#136773"
+        titleColor='#FBA622'
+        title='Tele Health Platform'
+        btnTheme='#FBA622'
+        theme='#136773'
         src={Tele_Demo}
       />
       <DetailDesign
-        titleTheme="#454238"
-        title="UI DESIGN"
+        titleTheme='#454238'
+        title='UI DESIGN'
         // overlap
         // TopImg={Tele_Design1}
         // MidImg={Tele_Design2}
@@ -101,12 +102,12 @@ export default function Telehealth() {
         // src2={EZbox_Theme2}
         // src3={EZbox_Theme3}
         // fullscreen
-        titleTheme="#454238"
+        titleTheme='#454238'
         // desp
-        Theme1="#136773"
-        Theme2="#FBA622"
-        Theme3="#FCFCFC"
-        Theme4="#454238"
+        Theme1='#136773'
+        Theme2='#FBA622'
+        Theme3='#FCFCFC'
+        Theme4='#454238'
         // Theme5=""
         // Theme6=""
         // Theme7=""
@@ -126,7 +127,7 @@ export default function Telehealth() {
         // despTheme
         // desp
         // location
-        ThemeBG="#FBA622"
+        ThemeBG='#FBA622'
         // AvatarSrc={Kidcab_Avatar}
         // name="Eassa Awake"
       />

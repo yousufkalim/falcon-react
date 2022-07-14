@@ -91,9 +91,16 @@
 } 
 .ReviewSection_Carousel{
     overflow-x: scroll;
+
 }
 /* ::-moz-selection { background: transparent; } */
-
+.ReviewCard_Container{
+        user-select: none;
+        max-width: 400px;
+        min-width: 200px;
+        height: 550px;
+        border-radius: 15;
+}
 @media only screen and (max-width: 1200px) {
     .ReviewCard{
         height: 80%;
@@ -119,4 +126,16 @@
         margin-top: 60px;
     }
 }
+/* @media only screen and (max-width: 520px) {
+    .ReviewCard_Container{
+        max-width: 400px;
+        min-width: 300px;
+        height: 550px;
+}
+.ReviewSection_Carousel{
+    overflow-x: scroll;
+    width: 100% !important;
+    
+}
+} */
   

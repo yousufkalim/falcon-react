@@ -47,7 +47,7 @@ export default function ContactUsSection(props) {
             <Grid container spacing={1} className='ContactContainerGrid'>
               <Grid container sm={8} md={6} className='ContactFormGrid'>
                 <form onSubmit={sendEmail} className='ContactForm'>
-                  <div style={{ display: "flex", width: "100%" }}>
+                  <div className='ContactForm_InputDiv'>
                     <Grid className='InputGrid' xs={12} sm={6}>
                       <input
                         required
@@ -67,7 +67,7 @@ export default function ContactUsSection(props) {
                       />
                     </Grid>
                   </div>
-                  <div style={{ display: "flex" }}>
+                  <div className='ContactForm_InputDiv'>
                     <Grid className='InputGrid' xs={12} sm={6}>
                       <input
                         required
@@ -188,7 +188,7 @@ export default function ContactUsSection(props) {
               </Grid>
               <Grid container xs={12} sm={8} md={6} className='FormGrid'>
                 <form onSubmit={sendEmail} className='ContactForm'>
-                  <div style={{ display: "flex", width: "100%" }}>
+                  <div className='ContactForm_InputDiv'>
                     <Grid xs={12} sm={6}>
                       <input
                         required
@@ -208,7 +208,7 @@ export default function ContactUsSection(props) {
                       />
                     </Grid>
                   </div>
-                  <div style={{ display: "flex" }}>
+                  <div className='ContactForm_InputDiv'>
                     <Grid xs={12} sm={6}>
                       <input
                         required

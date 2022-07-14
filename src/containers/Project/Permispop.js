@@ -25,18 +25,18 @@ import Footer from "../../components/Common/Footer";
 // Home Component
 export default function Permispop() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
-        background="#2FAD93"
-        bottomBG="#2FAD93"
-        typoBG="#FF9A20EB"
+        background='#2FAD93'
+        bottomBG='#2FAD93'
+        typoBG='#FF9A20EB'
         HeaderImg={PermispopHeader}
-        title="Permispop."
-        subTitle="What is Permispop"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        title='Permispop.'
+        subTitle='What is Permispop'
+        description='Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.'
       />
-      <DetailOverview />
+      <DetailOverview desp='Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.' />
       <DetailService both BGLogo liteLogo={BG_Logo} />
       <DetailDemo src={PP_Demo} />
       <DetailDesign
@@ -46,12 +46,12 @@ export default function Permispop() {
       <DetailTheme
         centerImage
         // fullscreen
-        Theme1="#FFA333"
-        Theme2="#11A283"
-        Theme3="#00654F"
-        Theme4="#454238"
-        Theme5="#F6FAFB"
-        Theme6="#C8CFD0"
+        Theme1='#FFA333'
+        Theme2='#11A283'
+        Theme3='#00654F'
+        Theme4='#454238'
+        Theme5='#F6FAFB'
+        Theme6='#C8CFD0'
         src={ThemeImage}
       />
       <DetailLogo />

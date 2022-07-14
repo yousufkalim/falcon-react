@@ -43,10 +43,11 @@ export default function Wina() {
         title='Wina'
         subTitle='What is Wina'
         // iconTheme="#9D3C64"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        description='Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. '
       />
       <DetailOverview
         titleTheme='#2A5AA6'
+        desp='Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. '
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#2A5AA6'

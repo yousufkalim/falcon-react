@@ -173,8 +173,8 @@ i18n
 
           //   Our Projects
           // Projects_Header
-          "ALL PROJECTS START BY A SIMPLE IDEA LET US TAKE CARE OF THE REST!":
-            "ALL PROJECTS START BY A SIMPLE IDEA LET US TAKE CARE OF THE REST!",
+          "ALL PROJECTS START BY A SIMPLE IDEA, LET US TAKE CARE OF THE REST!":
+            "ALL PROJECTS START BY A SIMPLE IDEA, LET US TAKE CARE OF THE REST!",
           "Falcon Consulting had the opportunity to work on  various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time. ":
             "Falcon Consulting had the opportunity to work on  various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time. ",
           "Software house with a team of experienced developers and project managers":
@@ -281,6 +281,7 @@ i18n
 
           // Project Details Basic Modal
           // Tilt
+
           "Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.":
             "Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.",
           "The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience.":
@@ -324,12 +325,12 @@ i18n
           "Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. ":
             "Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. ",
           //    Orientator
-          "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire. ":
-            "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire. ",
-          "The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile. ":
-            "The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile. ",
-          "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.  ":
-            "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.  ",
+          "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.":
+            "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.",
+          "The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile.":
+            "The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile.",
+          "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.":
+            "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.",
 
           // Kidcab
           "Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.":
@@ -422,7 +423,22 @@ i18n
             "The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not. ",
           "The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.":
             "The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.",
+          //  Yuwway
+          "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs.":
+            "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs.",
 
+          // Register-RH
+          "This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.":
+            "This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.",
+          "This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.":
+            "Ce système offre des fonctionnalités complètes pour gérer le personnel, les documents qui s'y rapportent et leur statut. On peut également gérer les documents d'évaluation des risques de l'entreprise. Cette application est capable de gérer plusieurs entreprises, leurs succursales et leurs employés ainsi que le transfert d'employés d'une succursale à une autre.",
+          // Facility Management
+          "This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.":
+            "This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.",
+
+          // Sindoor
+          "Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.":
+            "Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.",
           // menu
           "Changer de langue en": "Changer de langue en",
           Français: "Français",
@@ -529,10 +545,201 @@ i18n
           "As we can see, there are many challenges in managing a remote team. However, such issues can be easily resolved by taking appropriate, timely measures that would make the remote industry even more common across the globe.":
             "As we can see, there are many challenges in managing a remote team. However, such issues can be easily resolved by taking appropriate, timely measures that would make the remote industry even more common across the globe.",
           //
+          // Fireman
+          "Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:":
+            "Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:",
+          // Excellence
+          "Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.":
+            "Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.",
+          //  Barber Shop
+          "BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.":
+            "BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.",
+          // Real Estate
+          "This website offers an online tailoring experience with free pick-up and delivery in Karachi. We provide stitching services with customizable designs for salwar suits, blouses, kurtas, bottoms, western wear as per customers measurement at the doorstep. Coming Soon for other cities also.":
+            "This website offers an online tailoring experience with free pick-up and delivery in Karachi. We provide stitching services with customizable designs for salwar suits, blouses, kurtas, bottoms, western wear as per customers measurement at the doorstep. Coming Soon for other cities also.",
+
+          "The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.":
+            "The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.",
+          // Beauty Salon
+          "Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.":
+            "Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.",
+          // Accor Hotels
+          "Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.":
+            "Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.",
+          "OUR CONTRIBUTION": "OUR CONTRIBUTION",
+          "• Collection and consolidation of business requests":
+            "• Collection and consolidation of business requests",
+          "• Implementation of project developments and production quality control":
+            "• Implementation of project developments and production quality control",
+          "• Development in ASP.NET 3.5, Spring.NET and nHibernate to develop a tool for managing the invoicing of courses and trainings.":
+            "• Development in ASP.NET 3.5, Spring.NET and nHibernate to develop a tool for managing the invoicing of courses and trainings.",
+          "• T-SQL development (generation of extracts, counters and data consistency checks)":
+            "• T-SQL development (generation of extracts, counters and data consistency checks)",
+          "• rDevelopment to evolve invoices to the new SSRS format":
+            "• rDevelopment to evolve invoices to the new SSRS format",
+          "• Kettle-based batch development for import / export and data transformation":
+            "• Kettle-based batch development for import / export and data transformation",
+
+          // A-Table
+          "A-Table is a Mobile Application that allows restaurant to accept and manage orders placed by app users and clients in restaurant. Mobile app for customers to view the restaurant's dishes and place an online order and in the restaurant. A-Table user side: There are two ways to use the app: 1 Either the client is in a restaurant, and he seats down at a table. There will be QR codes available on the tables, and once the user does scan them, it opens automatically the app (if it is already installed), and the user has two options: he can go to the menu of the restaurant, see the dishes, and place the order through the app (in-app payment). He can also chat with his assigned waiter; and ask him anything needed : glass of water, clean the table, etc... , 2 Either the client is looking for a restaurant. In this case, he can search for a specific dish in the Home page. The app will show the popular dishes around him (geolocation). He has the possibility to filter his search: specific type of food, specific restaurant, etc...The filter is working with tags, that can be added or removed.":
+            "A-Table is a Mobile Application that allows restaurant to accept and manage orders placed by app users and clients in restaurant. Mobile app for customers to view the restaurant's dishes and place an online order and in the restaurant. A-Table user side: There are two ways to use the app: 1 Either the client is in a restaurant, and he seats down at a table. There will be QR codes available on the tables, and once the user does scan them, it opens automatically the app (if it is already installed), and the user has two options: he can go to the menu of the restaurant, see the dishes, and place the order through the app (in-app payment). He can also chat with his assigned waiter; and ask him anything needed : glass of water, clean the table, etc... , 2 Either the client is looking for a restaurant. In this case, he can search for a specific dish in the Home page. The app will show the popular dishes around him (geolocation). He has the possibility to filter his search: specific type of food, specific restaurant, etc...The filter is working with tags, that can be added or removed.",
+          //  Fnac
+          "Falcon Consulting has been asked by FNAC for its expertise in .NET and SQL to reinforce the project teams related to inventory, stocks, locations, label printing, customer orders.":
+            "Falcon Consulting has been asked by FNAC for its expertise in .NET and SQL to reinforce the project teams related to inventory, stocks, locations, label printing, customer orders.",
+          "• Development in ASP.NET MVC 4 and Entity Framework 5 to develop a tool for managing store inventories (inventory management, location management, in-store label printing), unsold product returns, shipping and customer order remittances, use of EXT.NET modules with JavaScript / JQuery development to modernize this tool.":
+            "• Development in ASP.NET MVC 4 and Entity Framework 5 to develop a tool for managing store inventories (inventory management, location management, in-store label printing), unsold product returns, shipping and customer order remittances, use of EXT.NET modules with JavaScript / JQuery development to modernize this tool.",
+          "• Development in C# Compact Framework 3.5 to upgrade the tool for managing store inventories, returns of unsold products, shipping and customer order remittances on PDAs used in the store by staff.":
+            "• Development in C# Compact Framework 3.5 to upgrade the tool for managing store inventories, returns of unsold products, shipping and customer order remittances on PDAs used in the store by staff.",
+          "• T-SQL development (generation of extracts, counters and data consistency checks, creation of stored procedures for the different projects, data archiving)":
+            "• T-SQL development (generation of extracts, counters and data consistency checks, creation of stored procedures for the different projects, data archiving)",
+          "• Development in ASP.NET 3.5 to upgrade a shipping management tool for live customer orders in Switzerland":
+            "• Development in ASP.NET 3.5 to upgrade a shipping management tool for live customer orders in Switzerland",
+          // MicroSoft
+          "Falcon Consulting has been asked by Microsoft for its expertise in .NET and reporting to implement product analysis tools for the media catalogs (music, video and ebooks) on the Windows Store using the latest Azure technologies.":
+            "Falcon Consulting has been asked by Microsoft for its expertise in .NET and reporting to implement product analysis tools for the media catalogs (music, video and ebooks) on the Windows Store using the latest Azure technologies.",
+          "• Development in U-SQL under Azure Data Lake Analytics of scripts for quality control of data from the ebook catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).":
+            "• Development in U-SQL under Azure Data Lake Analytics of scripts for quality control of data from the ebook catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).",
+          "• Migration of projects developed in Scope and SQL Server to Azure Data Lake Analytics and development in U-SQL under Azure of data quality control scripts from the video catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).":
+            "• Migration of projects developed in Scope and SQL Server to Azure Data Lake Analytics and development in U-SQL under Azure of data quality control scripts from the video catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).",
+          // Blsh
+          "We are building a marketplace for delivery supplies on the customer and small business demand.":
+            "We are building a marketplace for delivery supplies on the customer and small business demand.",
+          "The app will match the Customer delivery request with the Courier.":
+            "The app will match the Customer delivery request with the Courier.",
+          "The Individual shopper can use delivery regularly (weekly, monthly, etc). Or only when there is a need for the delivery.":
+            "The Individual shopper can use delivery regularly (weekly, monthly, etc). Or only when there is a need for the delivery.",
+          "The app will offer market-based pricing. When the Individual shopper requests, he will offer the price he is willing to pay for delivery. All drivers who match his request will see the price. They will be able to accept the request or negotiate the delivery price.":
+            "The app will offer market-based pricing. When the Individual shopper requests, he will offer the price he is willing to pay for delivery. All drivers who match his request will see the price. They will be able to accept the request or negotiate the delivery price.",
+          "The app will be free for Customers. The Courier will pay 20% of the delivery price.":
+            "The app will be free for Customers. The Courier will pay 20% of the delivery price.",
+          //Canon
+          "Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)":
+            "Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)",
+          "• Development in C# 4.6 of a component using the YouSign API for managing electronic signatures from workflows in Therefore":
+            "• Development in C# 4.6 of a component using the YouSign API for managing electronic signatures from workflows in Therefore",
+          "• Development in C#, C# Core, ASP.NET, ASP.NET Core of several applications dedicated to Canon customers using Therefore API.":
+            "• Development in C#, C# Core, ASP.NET, ASP.NET Core of several applications dedicated to Canon customers using Therefore API.",
+          "• Creation and implementation of reports in PowerBI (visualization of extracts, formatting of counters and graphs for data consistency checking)":
+            "• Creation and implementation of reports in PowerBI (visualization of extracts, formatting of counters and graphs for data consistency checking)",
+          "• raining of various Canon customers in the use, management and administration of Therefore":
+            "• raining of various Canon customers in the use, management and administration of Therefore",
+          "• Technical support around Therefore from different Canon customers":
+            "• Technical support around Therefore from different Canon customers",
+          //
+
+          // Detail Project Screens
+          // Detail Theme
+          "Colors Schemes – Making UI feel more natural. This is why the usage of the right color palettes is essential to make the app more attractive. Some colors look better with another. This is why color schemes were created. They help designers to find the right hue for the remaining ones.":
+            "Colors Schemes – Making UI feel more natural. This is why the usage of the right color palettes is essential to make the app more attractive. Some colors look better with another. This is why color schemes were created. They help designers to find the right hue for the remaining ones.",
+          // Detail Design
+          "App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app’s flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback. The end result is an app that looks nice and is easy to use. So, the best app design process comprises Research, Ideation, Problem Identification, Design, Feedback, Problem Evaluation. Designers handle all parts of the process in a continuous and simultaneous flow. And that’s both for UX and UI through the lifetime of the app.":
+            "App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app’s flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback. The end result is an app that looks nice and is easy to use. So, the best app design process comprises Research, Ideation, Problem Identification, Design, Feedback, Problem Evaluation. Designers handle all parts of the process in a continuous and simultaneous flow. And that’s both for UX and UI through the lifetime of the app.",
         },
       },
       fr: {
         translations: {
+          //
+          // Detail Project Screens
+          // Detail Theme
+
+          "Colors Schemes – Making UI feel more natural. This is why the usage of the right color palettes is essential to make the app more attractive. Some colors look better with another. This is why color schemes were created. They help designers to find the right hue for the remaining ones.":
+            "Schémas de couleurs - Rendre l'interface utilisateur plus naturelle. C'est pourquoi l'utilisation des bonnes palettes de couleurs est essentielle pour rendre l'application plus attrayante. Certaines couleurs vont mieux avec une autre. C'est pourquoi des schémas de couleurs ont été créés. Ils aident les concepteurs à trouver la bonne teinte pour les autres.",
+          // Detail Design
+          "App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app’s flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback. The end result is an app that looks nice and is easy to use. So, the best app design process comprises Research, Ideation, Problem Identification, Design, Feedback, Problem Evaluation. Designers handle all parts of the process in a continuous and simultaneous flow. And that’s both for UX and UI through the lifetime of the app.":
+            "La conception d'applications est un processus continu comprenant des éléments d'expérience utilisateur (UX) et d'interface utilisateur (UI). Les concepteurs imaginent, définissent des solutions, créent le flux et la structure de l'application et font des choix stylistiques, des couleurs aux polices. Les concepteurs fondent leurs choix sur la recherche et les commentaires des utilisateurs. Le résultat final est une application qui a l'air bien et qui est facile à utiliser. Ainsi, le meilleur processus de conception d'applications comprend la recherche, l'idéation, l'identification des problèmes, la conception, les commentaires et l'évaluation des problèmes. Les concepteurs gèrent toutes les parties du processus dans un flux continu et simultané. Et c'est à la fois pour l'UX et l'UI tout au long de la durée de vie de l'application.",
+
+          // Canon
+          "Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)":
+            "Falcon Consulting a été sollicité par Canon pour son expertise en .NET et sa capacité à s'adapter à tout métier pour monter plusieurs projets autour de la GED donc pour leurs clients (plusieurs secteurs d'activité : banque, assurance, BTP, aéronautique,...)",
+          "• Development in C# 4.6 of a component using the YouSign API for managing electronic signatures from workflows in Therefore":
+            "• Développement en C# 4.6 d'un composant utilisant l'API YouSign pour la gestion des signatures électroniques à partir des workflows dans Therefore",
+          "• Development in C#, C# Core, ASP.NET, ASP.NET Core of several applications dedicated to Canon customers using Therefore API.":
+            "• Développement en C#, C# Core, ASP.NET, ASP.NET Core de plusieurs applications dédiées aux clients Canon utilisant l'API Therefore.",
+          "• Creation and implementation of reports in PowerBI (visualization of extracts, formatting of counters and graphs for data consistency checking)":
+            "• Création et mise en place de rapports sous PowerBI (visualisation des extraits, mise en forme des compteurs et graphiques pour vérification de la cohérence des données)",
+          "• raining of various Canon customers in the use, management and administration of Therefore":
+            "• pluie de divers clients Canon dans l'utilisation, la gestion et l'administration de Therefore",
+          "• Technical support around Therefore from different Canon customers":
+            "• Support technique autour de Therefore de différents clients Canon",
+          // Blsh
+          "We are building a marketplace for delivery supplies on the customer and small business demand.":
+            "Nous construisons un marché pour les fournitures de livraison à la demande des clients et des petites entreprises.",
+          "The app will match the Customer delivery request with the Courier.":
+            "L'application fera correspondre la demande de livraison du client avec le coursier.",
+          "The Individual shopper can use delivery regularly (weekly, monthly, etc). Or only when there is a need for the delivery.":
+            "L'acheteur individuel peut utiliser la livraison régulièrement (hebdomadaire, mensuelle, etc.). Ou seulement lorsqu'il y a un besoin pour la livraison.",
+          "The app will offer market-based pricing. When the Individual shopper requests, he will offer the price he is willing to pay for delivery. All drivers who match his request will see the price. They will be able to accept the request or negotiate the delivery price.":
+            "L'application proposera une tarification basée sur le marché. Lorsque l'Acheteur individuel le demande, il propose le prix qu'il est prêt à payer pour la livraison. Tous les conducteurs qui correspondront à sa demande verront le prix. Ils pourront accepter la demande ou négocier le prix de la livraison.",
+          "The app will be free for Customers. The Courier will pay 20% of the delivery price.":
+            "L'application sera gratuite pour les clients. Le Courrier paiera 20% du prix de livraison.",
+          // Microsoft
+
+          "Falcon Consulting has been asked by Microsoft for its expertise in .NET and reporting to implement product analysis tools for the media catalogs (music, video and ebooks) on the Windows Store using the latest Azure technologies.":
+            "Falcon Consulting a été sollicité par Microsoft pour son expertise en .NET et reporting pour mettre en place des outils d'analyse produit pour les catalogues médias (musique, vidéo et ebooks) sur le Windows Store en utilisant les dernières technologies Azure.",
+          "• Development in U-SQL under Azure Data Lake Analytics of scripts for quality control of data from the ebook catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).":
+            "• Développement en U-SQL sous Azure Data Lake Analytics de scripts de contrôle qualité des données du catalogue ebook avec une bibliothèque de classes contenant le code derrière les scripts en C# (génération d'extraits, compteurs et contrôles de cohérence des données, création de procédures stockées , archivage des données).",
+          "• Migration of projects developed in Scope and SQL Server to Azure Data Lake Analytics and development in U-SQL under Azure of data quality control scripts from the video catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).":
+            "• Migration des projets développés en Scope et SQL Server vers Azure Data Lake Analytics et développement en U-SQL sous Azure des scripts de contrôle qualité des données du catalogue vidéo avec une bibliothèque de classes contenant le code derrière les scripts en C# (génération d'extraits, compteurs et contrôles de cohérence des données, création de procédures stockées, archivage des données).",
+          // Fnac
+          "Falcon Consulting has been asked by FNAC for its expertise in .NET and SQL to reinforce the project teams related to inventory, stocks, locations, label printing, customer orders.":
+            "Falcon Consulting a été sollicité par la FNAC pour son expertise en .NET et SQL pour renforcer les équipes projets liées à l'inventaire, les stocks, les implantations, l'impression d'étiquettes, les commandes clients.",
+          "• Development in ASP.NET MVC 4 and Entity Framework 5 to develop a tool for managing store inventories (inventory management, location management, in-store label printing), unsold product returns, shipping and customer order remittances, use of EXT.NET modules with JavaScript / JQuery development to modernize this tool.":
+            "• Développement en ASP.NET MVC 4 et Entity Framework 5 pour développer un outil de gestion des stocks en magasin (gestion des stocks, gestion des emplacements, impression d'étiquettes en magasin), des retours d'invendus, des expéditions et des remises des commandes clients, utilisation des modules EXT.NET avec le développement JavaScript/JQuery pour moderniser cet outil.",
+          "• Development in C# Compact Framework 3.5 to upgrade the tool for managing store inventories, returns of unsold products, shipping and customer order remittances on PDAs used in the store by staff.":
+            "• Développement en C# Compact Framework 3.5 pour faire évoluer l'outil de gestion des stocks magasin, des retours d'invendus, des expéditions et de la remise des commandes clients sur les PDA utilisés en magasin par le personnel.",
+          "• T-SQL development (generation of extracts, counters and data consistency checks, creation of stored procedures for the different projects, data archiving)":
+            "• Développement T-SQL (génération d'extraits, compteurs et contrôles de cohérence des données, création de procédures stockées pour les différents projets, archivage des données)",
+          "• Development in ASP.NET 3.5 to upgrade a shipping management tool for live customer orders in Switzerland":
+            "• Développement en ASP.NET 3.5 pour mettre à jour un outil de gestion des expéditions pour les commandes clients en direct en Suisse",
+          // A-Table
+          "A-Table is a Mobile Application that allows restaurant to accept and manage orders placed by app users and clients in restaurant. Mobile app for customers to view the restaurant's dishes and place an online order and in the restaurant. A-Table user side: There are two ways to use the app: 1 Either the client is in a restaurant, and he seats down at a table. There will be QR codes available on the tables, and once the user does scan them, it opens automatically the app (if it is already installed), and the user has two options: he can go to the menu of the restaurant, see the dishes, and place the order through the app (in-app payment). He can also chat with his assigned waiter; and ask him anything needed : glass of water, clean the table, etc... , 2 Either the client is looking for a restaurant. In this case, he can search for a specific dish in the Home page. The app will show the popular dishes around him (geolocation). He has the possibility to filter his search: specific type of food, specific restaurant, etc...The filter is working with tags, that can be added or removed.":
+            "A-Table est une application mobile qui permet au restaurant d'accepter et de gérer les commandes passées par les utilisateurs de l'application et les clients du restaurant. Application mobile permettant aux clients de visualiser les plats du restaurant et de passer une commande en ligne et au restaurant. Côté utilisateur A-Table : Il y a deux manières d'utiliser l'application : 1 Soit le client est dans un restaurant, et il s'assied à une table. Il y aura des codes QR disponibles sur les tables, et une fois que l'utilisateur les scanne, l'application s'ouvre automatiquement (si elle est déjà installée), et l'utilisateur a deux options : il peut aller au menu du restaurant, voir le plats, et passer la commande via l'application (paiement in-app). Il peut également discuter avec son serveur assigné ; et lui demander le nécessaire : verre d'eau, nettoyer la table, etc... , 2 Soit le client cherche un restaurant. Dans ce cas, il peut rechercher un plat spécifique dans la page d'accueil. L'application affichera les plats populaires autour de lui (géolocalisation). Il a la possibilité de filtrer sa recherche : type de nourriture spécifique, restaurant spécifique, etc... Le filtre fonctionne avec des balises, qui peuvent être ajoutées ou supprimées.",
+          // Accor Hotels
+          "Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.":
+            "Falcon Consulting a été sollicité par Accor pour son expertise en .NET et SQL pour maintenir les outils liés aux formations et formations.",
+          "OUR CONTRIBUTION": "NOTRE CONTRIBUTION",
+          "• Collection and consolidation of business requests":
+            "• Collecte et consolidation des demandes commerciales",
+          "• Implementation of project developments and production quality control":
+            "• Mise en place des développements projets et contrôle qualité de la production",
+          "• Development in ASP.NET 3.5, Spring.NET and nHibernate to develop a tool for managing the invoicing of courses and trainings.":
+            "• Développement en ASP.NET 3.5, Spring.NET et nHibernate pour développer un outil de gestion de la facturation des cours et formations.",
+          "• T-SQL development (generation of extracts, counters and data consistency checks)":
+            "• Développement T-SQL (génération d'extraits, compteurs et contrôles de cohérence des données)",
+          "• rDevelopment to evolve invoices to the new SSRS format":
+            "• rDéveloppement pour faire évoluer les factures au nouveau format SSRS",
+          "• Kettle-based batch development for import / export and data transformation":
+            "• Développement par lots basé sur Kettle pour l'import/export et la transformation de données",
+          // Beauty Salon
+          "Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.":
+            "Beauty Salon & Spa est comme un autre monde de FoodPanda où tous les salons de beauté sont au même endroit. Ainsi, les filles peuvent facilement prendre rendez-vous contre n'importe quel salon grâce à son application mobile. D'autre part, les salons peuvent obtenir des rendez-vous via son compte de salon de beauté. Grâce à cette application, nous pouvons trouver nos esthéticiennes préférées ainsi que des salons à proximité et prendre rendez-vous.",
+          // Real Estate
+          "This website offers an online tailoring experience with free pick-up and delivery in Karachi. We provide stitching services with customizable designs for salwar suits, blouses, kurtas, bottoms, western wear as per customers measurement at the doorstep. Coming Soon for other cities also.":
+            "Ce site Web offre une expérience de couture en ligne avec ramassage et livraison gratuits à Karachi. Nous fournissons des services de couture avec des conceptions personnalisables pour les costumes salwar, les chemisiers, les kurtas, les bas, les vêtements occidentaux selon les mesures des clients à la porte. Prochainement pour d'autres villes également.",
+          "The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.":
+            "L'objectif est de permettre aux investisseurs d'avoir de la transparence sur les investissements qu'ils feraient dans l'immobilier au Pakistan. Pour cela, il existe deux interfaces principales : une application mobile pour les investisseurs, et un panel d'administration, pour les responsables de l'entreprise.",
+          // Barber Shop
+          "BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.":
+            "BarberShop est conçu pour le salon de coiffure spécifique. Il s'agit de la plate-forme de connexion où le client peut réserver son rendez-vous via son mobile et le barbier permet aux clients de réserver sans intentions personnelles. Le client peut facilement réserver son rendez-vous sur la disponibilité du barbier. D'autre part, Barber peut facilement obtenir tous les horaires de réservation ou les détails des rendez-vous via son application mobile.",
+          // Excellence
+          "Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.":
+            "Excellence Mode est une chaîne de magasins de prêt-à-porter en France, avec plusieurs dizaines d'implantations dans toute la France. Afin de développer son image de marque et de développer son activité en ligne, l'entreprise souhaitait se doter d'un site e-commerce.",
+          // Fireman
+
+          "Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:":
+            "Fireman est le système de gestion et de génération de rapports pour les pompiers. Les commissions de sécurité visitent les établissements recevant du public et conseillent le maire pour la continuité de l'activité. Chaque visite ou étude donne lieu à un rapport. Les pompiers créent/modifient le dossier selon la visite ou la catégorie d'étude. Le directeur de groupe/directeur de service valide ce dossier. Pompier comprenant les modules suivants :",
+          // Sindoor
+          "Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.":
+            "Application de mariage reliant les utilisateurs et les fournisseurs Plate-forme permettant de connecter les utilisateurs aux fournisseurs de mariage. Les personnes qui souhaitaient se marier peuvent facilement trouver des fournisseurs pour leur mariage. L'utilisateur et les fournisseurs peuvent communiquer via App. L'utilisateur et le fournisseur doivent envoyer et recevoir des devis, puis valider les devis sur l'application.",
+          // Yuwway
+          "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs.":
+            "Yuwway est un moteur de recherche qui compare les tarifs pour tous les types de transport (Taxi/VTC/Moto-taxi, etc.) permettant, en une simple recherche, d'accéder à tous les tarifs disponibles et correspondant aux besoins du client.",
+          // Register-RH
+          "This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.":
+            "Ce système offre des fonctionnalités complètes pour gérer le personnel, les documents qui s'y rapportent et leur statut. On peut également gérer les documents d'évaluation des risques de l'entreprise. Cette application est capable de gérer plusieurs entreprises, leurs succursales et leurs employés ainsi que le transfert d'employés d'une succursale à une autre.",
+          //  Facility Management
+          "This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.":
+            "Il s'agit de la plate-forme de gestion des immeubles de bureaux. Il est similaire au tableau de bord de type Trello, affichant les tickets et leur statut.",
           // Blog Article
           // Remote Team
 
@@ -793,7 +1000,7 @@ i18n
 
           //   Our Projects
           // Projects_Header
-          "ALL PROJECTS START BY A SIMPLE IDEA LET US TAKE CARE OF THE REST!":
+          "ALL PROJECTS START BY A SIMPLE IDEA, LET US TAKE CARE OF THE REST!":
             "TOUS LES PROJETS COMMENCENT PAR UNE SIMPLE IDÉE. LAISSEZ NOUS PRENDRE SOIN DU RESTE !",
           "Falcon Consulting had the opportunity to work on  various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time. ":
             "Falcon Consulting a eu l'opportunité de travailler sur différents types de projets pour ses clients. Nous avons mis en place un processus efficace afin de livrer un travail qualitatif dans les délais.",
@@ -945,11 +1152,11 @@ i18n
             "Falcon Consulting est spécialisé dans les projets de construction numérique, et nous avons aidé notre partenaire à finaliser son cahier des charges afin d'obtenir la meilleure expérience utilisateur.",
 
           //    Orientator
-          "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire. ":
+          "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.":
             "Orientator est une application web qui permet aux lycéens de faire leur meilleur choix de carrière, après avoir rempli un questionnaire en ligne personnalisé.",
-          "The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile. ":
+          "The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile.":
             "Le questionnaire se présente sous la forme d'un arbre décisionnel, avec des questions discriminantes et non discriminantes, aidant à comprendre le profil de l'utilisateur.",
-          "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.  ":
+          "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.":
             "À la fin du questionnaire, un algorithme complexe génère une liste de formations et d'écoles post-bac qui correspondent le mieux au profil de l'élève. Cet algorithme calcule un score selon plusieurs critères, comme la distance, la sélectivité ou encore la durée du cours, et un pourcentage de compatibilité en fonction des réponses de l'étudiant.",
 
           // Kidcab
