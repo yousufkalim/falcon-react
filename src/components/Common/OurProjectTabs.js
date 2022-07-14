@@ -363,7 +363,7 @@ export default function BasicTabs() {
           LogoSrc={Tilt_Logo}
           DividerTheme='red'
           title='Tilt'
-          description='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order. '
+          description='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
           src={Tilt}
           // Modal Data
           para1='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
@@ -410,7 +410,7 @@ export default function BasicTabs() {
           to='/ourprojects/kidcab'
           DividerTheme='#0097A7'
           title='Kidcab'
-          description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
+          description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.'
           // Modal Data
           para1='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.'
           para2='The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. '
@@ -435,7 +435,7 @@ export default function BasicTabs() {
           DividerTheme='#0F52BA'
           src={Movement}
           title='Movement detection for health providers'
-          description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
+          description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.'
           // Modal Data
           para1='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
           para2='The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not.'
@@ -502,7 +502,7 @@ export default function BasicTabs() {
           LogoSrc={EZBox_Logo}
           DividerTheme='blue'
           title='EZbox'
-          description='EZBox media is a platform providing different services'
+          description='EZBox media is a platform providing different services including'
           src={EZbox}
           // Modal Data
           para1='EZBox media is a platform providing different services including'
@@ -573,7 +573,7 @@ export default function BasicTabs() {
           to='/ourprojects/table'
           src={PizzaBoli}
           title='Table'
-          description='MediaPipe offers cross-platform, customizable ML solutions for live and streaming media'
+          description='This project consists of two apps one is for the restaurant and other is for the end user.'
         />
         <OurProjectCard
           Reverse
@@ -589,7 +589,7 @@ export default function BasicTabs() {
           DividerTheme='#CC8E9C'
           src={DesignConf}
           title='Design Confection Ethiques'
-          description='A web app designed to help customers with customized stitching to receive your creation at your home. '
+          description='A web app designed to help customers with customized stitching to receive your creation at your home.'
           // Modal Data
           para1='A web app designed to help customers with customized stitching to receive your creation at your home. '
           para2='User login to register and add information regarding customized dress like color combination, stuff design, etc.'
