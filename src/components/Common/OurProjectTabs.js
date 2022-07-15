@@ -26,10 +26,15 @@ import Orgaplan_Logo from "../../assets/images/orgaplan_logo.svg";
 import Tilt from "../../assets/images/tilt_update.png";
 import Tilt_Logo from "../../assets/images/tilt_logo.svg";
 import Microsoft from "../../assets/images/microsoft_update.png";
+import Microsoft_Logo from "../../assets/images/microsoftlogo.png";
 import Fnac from "../../assets/images/fnac_update.png";
+import Fnac_Logo from "../../assets/images/fnaclogo.png";
 import Canon from "../../assets/images/canon_update.png";
+import Canon_Logo from "../../assets/images/canonlogo.png";
 import AccorHotel from "../../assets/images/accor_update.png";
+import AccorHotel_Logo from "../../assets/images/accorlogo.png";
 import Toyota from "../../assets/images/toyota_update.png";
+import Toyota_Logo from "../../assets/images/toyotalogo.png";
 import ERP from "../../assets/images/excellence_update.png";
 import PizzaBoli from "../../assets/images/table_update.png";
 import Sindoor from "../../assets/images/sindoor_update.png";
@@ -151,6 +156,7 @@ export default function BasicTabs() {
       <TabPanel value={value} index={0}>
         <OurProjectCard
           Reverse
+          LogoSrc={Microsoft_Logo}
           src={Microsoft}
           title='Microsoft'
           heading='Microsoft'
@@ -162,6 +168,7 @@ export default function BasicTabs() {
           para5='• Migration of projects developed in Scope and SQL Server to Azure Data Lake Analytics and development in U-SQL under Azure of data quality control scripts from the video catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).'
         />
         <OurProjectCard
+          LogoSrc={Canon_Logo}
           src={Canon}
           title='Canon'
           heading='Canon'
@@ -177,6 +184,7 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           Reverse
+          LogoSrc={Fnac_Logo}
           src={Fnac}
           title='Fnac'
           heading='Fnac'
@@ -575,11 +583,22 @@ export default function BasicTabs() {
           title='Table'
           description='This project consists of two apps one is for the restaurant and other is for the end user.'
         />
+
         <OurProjectCard
           Reverse
-          src={Toyota}
-          title='Toyota'
-          description='MediaPipe offers cross-platform, customizable ML solutions for live and streaming media'
+          LogoSrc={Canon_Logo}
+          src={Canon}
+          title='Canon'
+          heading='Canon'
+          description='Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)'
+          para1='Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)'
+          para2='OUR CONTRIBUTION'
+          para3='• Implementation of project developments and production quality control'
+          para4='• Development in C# 4.6 of a component using the YouSign API for managing electronic signatures from workflows in Therefore'
+          para5='• Development in C#, C# Core, ASP.NET, ASP.NET Core of several applications dedicated to Canon customers using Therefore API.'
+          para6='• Creation and implementation of reports in PowerBI (visualization of extracts, formatting of counters and graphs for data consistency checking)'
+          para7='• raining of various Canon customers in the use, management and administration of Therefore'
+          para8='• Technical support around Therefore from different Canon customers'
         />
 
         <OurProjectCard
@@ -626,6 +645,7 @@ export default function BasicTabs() {
         />
 
         <OurProjectCard
+          LogoSrc={AccorHotel_Logo}
           title='Accor Hotels'
           description='Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.'
           src={AccorHotel}
@@ -641,6 +661,7 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           Reverse
+          LogoSrc={Fnac_Logo}
           src={Fnac}
           title='Fnac'
           heading='Fnac'
@@ -655,6 +676,7 @@ export default function BasicTabs() {
           para8='• Development in ASP.NET 3.5 to upgrade a shipping management tool for live customer orders in Switzerland'
         />
         <OurProjectCard
+          LogoSrc={Microsoft_Logo}
           src={Microsoft}
           title='Microsoft'
           heading='Microsoft'
@@ -679,7 +701,15 @@ export default function BasicTabs() {
           para4='The app will offer market-based pricing. When the Individual shopper requests, he will offer the price he is willing to pay for delivery. All drivers who match his request will see the price. They will be able to accept the request or negotiate the delivery price.'
           para5='The app will be free for Customers. The Courier will pay 20% of the delivery price.'
         />
-        <OurProjectCard
+        {/* <OurProjectCard
+          Reverse
+          LogoSrc={Toyota_Logo}
+          src={Toyota}
+          title='Toyota'
+          description='MediaPipe offers cross-platform, customizable ML solutions for live and streaming media'
+        /> */}
+        {/* <OurProjectCard
+          LogoSrc={Canon_Logo}
           src={Canon}
           title='Canon'
           heading='Canon'
@@ -692,7 +722,7 @@ export default function BasicTabs() {
           para6='• Creation and implementation of reports in PowerBI (visualization of extracts, formatting of counters and graphs for data consistency checking)'
           para7='• raining of various Canon customers in the use, management and administration of Therefore'
           para8='• Technical support around Therefore from different Canon customers'
-        />
+        /> */}
 
         {/* </>
         )}
@@ -1009,15 +1039,18 @@ export default function BasicTabs() {
         </Grid> */}
       </TabPanel>
       <TabPanel value={value} index={5}>
-        <OurProjectCard
+        {/* <OurProjectCard
           Reverse
+          LogoSrc={Toyota_Logo}
           src={Toyota}
           title='Toyota'
           description='MediaPipe offers cross-platform, customizable ML solutions for live and streaming media'
-        />
+        /> */}
         <OurProjectCard
+          Reverse
           title='Accor Hotels'
           description='Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.'
+          LogoSrc={AccorHotel_Logo}
           src={AccorHotel}
           heading='Accor Hotels'
           para1='Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.'
