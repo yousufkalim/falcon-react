@@ -22,6 +22,7 @@ export default function NavBar(props) {
             className='AppBarBox'
             position='fixed'
             sx={{
+              transition: ".5s",
               backgroundColor: position <= 970 ? "#0000000D" : "white",
               color: "blue",
               padding: "0px 20px",
