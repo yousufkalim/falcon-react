@@ -79,6 +79,7 @@
 .InfoDiv p{
     font-size: 70%;
     color:#003B7E;
+    font-family: Montserrat !important;
     /* margin-top: 2%; */
 }
 .About_MobInfo{
@@ -143,6 +144,14 @@
      }
      .InfoImg{
         height:50px;
+    }
+    .InfoDiv h2{
+        font-size: 1.2rem;
+        margin: 3% 0;
+    }
+    .InfoDiv p{
+            font-size: .7rem;
+            font-weight: 500;
     }
     .AboutSectionDiv{
         display: flex !important;
