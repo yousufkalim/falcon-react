@@ -225,7 +225,7 @@
         width:15%;
     }
     .FooterIcons{
-        width: 100%;
+        width: 100% !important;
     }
     .FooterListHeading{
         font-size: .7rem !important;
