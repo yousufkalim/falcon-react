@@ -260,7 +260,10 @@ export default function Footer(props) {
               }
             }}
           >
-            <span style={{ color: "#000", opacity: ".5" }}> {t("Changer de langue en")} </span>
+            <span style={{ color: "#000", opacity: ".5", cursor: "default" }}>
+              {" "}
+              {t("Changer de langue en")}{" "}
+            </span>
             {t("Français")}
           </Typography>
         </div>
