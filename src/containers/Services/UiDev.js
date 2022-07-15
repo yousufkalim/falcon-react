@@ -15,15 +15,15 @@ import KeyFeatureSection from "../../components/Common/KeyFeatureSection";
 // Home Component
 export default function UiDev() {
   return (
-    <div className="Services_UiContainer">
+    <div className='Services_UiContainer'>
       <NavBar />
       <Header
-        Title="UI/UX DEVELOPMENT "
-        Titlecolor="#003B7E"
-        DespColor="#003B7E"
-        Description="We are ready to handle your ambitious projects!"
+        Title='UI/UX DEVELOPMENT'
+        Titlecolor='#003B7E'
+        DespColor='#003B7E'
+        Description='We are ready to handle your ambitious projects!'
         btn
-        btnText="Get This Service"
+        btnText='Get This Service'
         ImgSrc={UiDevImg}
       />
       <KeyFeatureSection UxKey />
