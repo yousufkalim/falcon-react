@@ -278,19 +278,19 @@ top: -80%;
     margin-bottom: 5%;
 }
 .ProjectsCompleted_Timer{
-    width: 25%;
+    width: 30%;
     top: -80%;
     left: 12%;
 }
 .ProjectsCompleted_MedKit{
 width: 35%;
 top: -60%;
-left: 0;
+left: 5%;
 }
 .ProjectsCompleted_Award{
-width: 35%;
+width: 30%;
 top: -90%;
-left: 0;
+left: 10%;
 }
 .HoverDivBtnDark{
     width: 70% !important;
