@@ -30,12 +30,12 @@ const responsive = {
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2,
+    items: 3,
     slidesToSlide: 1, // optional, default to 1.
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
-    items: 1,
+    items: 1.5,
     slidesToSlide: 1, // optional, default to 1.
   },
 };
@@ -146,21 +146,21 @@ export default function LatestProjects(props) {
             transition={{ duration: 1 }}
             className='ProjectsCompletedDiv'
           >
-            <div className='Left' style={{ position: "relative" }}>
+            <div className='About_InfoLeft' style={{ position: "relative" }}>
               <Timer className='ProjectsCompleted_Timer' />
               <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: "700" }}>
                 8+
               </Typography>
               <Typography className='ProjectsCompleted_H'>{t("Years of Excellence")}</Typography>
             </div>
-            <div className='center' style={{ position: "relative" }}>
+            <div className='About_InfoCenter' style={{ position: "relative" }}>
               <MedKit className='ProjectsCompleted_MedKit' />
               <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: "700" }}>
                 85+
               </Typography>
               <Typography className='ProjectsCompleted_H'>{t("Project Completed")}</Typography>
             </div>
-            <div className='Right' style={{ position: "relative" }}>
+            <div className='About_InfoRight' style={{ position: "relative" }}>
               <Award className='ProjectsCompleted_Award' />
               <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: "700" }}>
                 60+

@@ -59,7 +59,9 @@ export default function DetailHeader(props) {
         <Divider color={props.DividerBG || "#f8f8f8"} className='DetailHeader_Divider' />
         <Typography className='DetailHeader_SubTitle'>{props.subTitle}</Typography>
 
-        <Typography className='DetailHeader_Desp'>{props.desp}</Typography>
+        <Typography className='DetailHeader_Desp'>
+          {t(desp?.length > 550 ? desp.slice(0, 550) + "..." : desp)}
+        </Typography>
       </div>
       <div
         className='DetailHeader_BottomDiv'
