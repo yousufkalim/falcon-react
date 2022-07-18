@@ -130,11 +130,13 @@ export default function Tilt() {
       <DetailFeedback
         // titleTheme="#9D936D"
         // despTheme="#282828"
-        // desp
+        desp='The client was happy with the work done, and he specially liked that as a non expert in IT, he told us what he 
+        wanted to achieve, and we always found the most efficient solution. Not only developers by experts, advising 
+        him on the best ways to build this platform'
         // location
         ThemeBG='#D3014A'
         // AvatarSrc={Kidcab_Avatar}
-        // name="Ukhano"
+        name='Laurent Louis-Henry'
       />
       <Footer />
     </div>

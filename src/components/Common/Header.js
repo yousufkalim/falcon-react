@@ -16,25 +16,17 @@ export default function Header(props) {
 
   return (
     <>
-      <Grid
-        className={props.DetailHeader ? "DetailHeader" : "HeaderMain"}
-        container
-        spacing={1}
-      >
+      <Grid className={props.DetailHeader ? "DetailHeader" : "HeaderMain"} container spacing={1}>
         <Grid xs={12} sm={12} md={5}>
           <motion.div
-            className="HeaderTypo"
+            className='HeaderTypo'
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}
           >
             <Typography
-              className={
-                props.HeaderTitleClassName
-                  ? "HeaderTitleClassName"
-                  : "HeaderHeading"
-              }
+              className={props.HeaderTitleClassName ? "HeaderTitleClassName" : "HeaderHeading"}
               style={props.TitleStyle}
               color={props.Titlecolor || "#003B7E"}
             >
@@ -51,19 +43,15 @@ export default function Header(props) {
               }}
             />
             <Typography
-              className={
-                props.HeaderParaClassName ? "HeaderPara_Style" : "HeaderPara"
-              }
-              color={props.DespColor}
+              className={props.HeaderParaClassName ? "HeaderPara_Style" : "HeaderPara"}
+              color={props.DespColor || "#003B7E"}
               style={props.ParaStyle}
             >
               {t(props.Description)}
             </Typography>
             {props.btn && (
-              <Link className="BtnLink" to={`/contactus`}>
-                <Button
-                  className={props.btnClassName ? "btnClassName" : "HeaderBtn"}
-                >
+              <Link className='BtnLink' to={`/contactus`}>
+                <Button className={props.btnClassName ? "btnClassName" : "HeaderBtn"}>
                   {t(props.btnText)}
                 </Button>
               </Link>
@@ -87,20 +75,16 @@ export default function Header(props) {
             width={props.ImgWidth || "95%"}
           />
           {props.chatIcons ? (
-            <div className="ChatIconsDiv">
-              <a href="https://wa.me/03135098197">
-                <img
-                  className="ChatIconImg"
-                  alt="whatsapp"
-                  src={WhatsappIcon}
-                />
+            <div className='ChatIconsDiv'>
+              <a href='https://wa.me/+923135098197'>
+                <img className='ChatIconImg' alt='whatsapp' src={WhatsappIcon} />
               </a>
 
               <a href={`http://calendly.com/falconit`}>
-                <img className="ChatIconImg" alt="Calendly" src={Calendly} />
+                <img className='ChatIconImg' alt='Calendly' src={Calendly} />
               </a>
               <Link to={`/contactus`}>
-                <img className="ChatIconImg" alt="chat" src={ChatIcon} />
+                <img className='ChatIconImg' alt='chat' src={ChatIcon} />
               </Link>
             </div>
           ) : null}

@@ -67,12 +67,12 @@ const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
     items: 5,
-    slidesToSlide: 1, // optional, default to 1.
+    slidesToSlide: 5, // optional, default to 1.
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
     items: 3,
-    slidesToSlide: 1, // optional, default to 1.
+    slidesToSlide: 3, // optional, default to 1.
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -103,7 +103,7 @@ export default function LatestProjects(props) {
       <div className='LatestProjectDiv'>
         <SectionHeader
           width='30%'
-          h1='A Project offers a challenge'
+          h1='EACH PROJECT IS A NEW CHALLENGE'
           h2='Latest Projects'
           // decription="This sounds simple, but it is beneficial to your business success."
         />
@@ -119,7 +119,7 @@ export default function LatestProjects(props) {
             className='SliderDiv'
             autoPlay={true}
             responsive={responsive}
-            transitionDuration={500}
+            transitionDuration={1000}
             slidesToSlide={1}
             renderArrowNext={true}
             infinite={true}
@@ -421,7 +421,7 @@ export default function LatestProjects(props) {
               <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: "700" }}>
                 60+
               </Typography>
-              <Typography className='ProjectsCompleted_H'>{t("Customer Satisfaction")}</Typography>
+              <Typography className='ProjectsCompleted_H'>{t("Customer Satisfied")}</Typography>
             </div>
           </motion.div>
         )}

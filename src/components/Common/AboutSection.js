@@ -5,7 +5,7 @@ import InfoBox from "./InfoBox";
 import AboutImg from "../../assets/images/about_section.svg";
 import AboutInfo2 from "../../assets/images/aboutSec_2.svg";
 import AboutInfo3 from "../../assets/images/aboutSec_3.svg";
-import AboutInfo4 from "../../assets/images/aboutSec_4.svg";
+import AboutInfo4 from "../../assets/images/officeicon.svg";
 import AboutInfo5 from "../../assets/images/aboutSec_5.svg";
 import AboutInfo6 from "../../assets/images/aboutSec_6.svg";
 import { motion } from "framer-motion";
@@ -83,7 +83,9 @@ export default function AboutSection() {
                   viewport={{ once: true }}
                   className='AboutbottomGrid'
                 >
-                  <InfoBox src={AboutInfo4} number='4' title='Number of Offices' />
+                  <InfoBox src={AboutInfo4} number='4' title='Number of Offices'>
+                    {/* <AboutInfo4 opacity='.8' /> */}
+                  </InfoBox>
                   <InfoBox src={AboutInfo5} number='20' title='External Tools Built' />
                   <InfoBox
                     src={AboutInfo6}

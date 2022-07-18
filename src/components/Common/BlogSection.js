@@ -28,7 +28,7 @@ export default function BlogSection() {
                   <BlogCard
                     HomeBlogCArd
                     src={BlogImg1}
-                    date='November 25, 2022'
+                    date='June 13th 2022'
                     title='Managing a Remote Team'
                   />
                 </motion.div>
@@ -44,7 +44,7 @@ export default function BlogSection() {
                 >
                   <BlogCard
                     src={BlogImg2}
-                    date='November 16, 2022'
+                    date='June 13th 2022'
                     title='Why having a business website is necessary ?'
                   />
                 </motion.div>

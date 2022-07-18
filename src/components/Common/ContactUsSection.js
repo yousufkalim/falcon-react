@@ -24,7 +24,11 @@ export default function ContactUsSection(props) {
           console.log(error.text);
         }
       );
-    toast.success("Form Submitted");
+    toast.success(
+      t(
+        "Thank you, the information has been submitted successfully. We will come back to you shortly."
+      )
+    );
   };
   function onChange(value) {
     console.log("Captcha value:", value);
