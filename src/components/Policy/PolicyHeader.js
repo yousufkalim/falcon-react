@@ -15,12 +15,12 @@ const PolicyHeader = () => {
           </div>
           <div className="LegalMention_HeaderDespDiv">
             <Typography className="LegalMention_HeaderDesp_H">Privacy Policy</Typography>
-            <Typography className="LegalMention_HeaderDesp_P">
+            {/* <Typography className="LegalMention_HeaderDesp_P">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laboriosam dolore
               voluptate excepturi, illum, molestiae recusandae consequuntur iusto doloremque
               cupiditate molestias magni minima tenetur voluptatibus inventore omnis natus sed.
               Debitis?
-            </Typography>
+            </Typography> */}
           </div>
         </div>
       </div>
