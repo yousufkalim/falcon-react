@@ -110,7 +110,7 @@ opacity: 1;
 .HoverDivBtnDark{
     width: 45%;
     margin-bottom: 10%;
-    padding:5% 3%;
+    /* padding:5% 3%; */
     border-radius: 10px;
     border: none;
     background-color: #47B9B4;
@@ -120,7 +120,7 @@ opacity: 1;
         color: #003B7E;
         font-weight: 700;
         font-family: Raleway;
-        padding: 2% 3%;
+        /* padding: 2% 3%; */
 }
 .Awesome_Slider{
     height: 40vh;
@@ -252,6 +252,7 @@ top: -80%;
 }
 
 @media only screen and (max-width: 600px) {
+
     /* .ProjectsCompletedDiv{
         display: flex;
         align-items: center;

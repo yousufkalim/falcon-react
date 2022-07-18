@@ -19,7 +19,7 @@ i18n
           "GET A FREE QUOTE": "GET A FREE QUOTE",
 
           //   service Provided section
-          "our aim provide better service": "our aim provide better service",
+          "EXCEED YOUR EXPECTATION": "EXCEED YOUR EXPECTATION",
           "Services We Provide": "Services We Provide",
           "Mobile Application Development": "Mobile Application Development",
           "Website Development": "Website Development",
@@ -29,11 +29,11 @@ i18n
           "Get Details": "Get Details",
 
           //   latest projects section
-          "a project offers a challenge": "a project offers a challenge",
+          "EACH PROJECT IS A NEW CHALLENGE": "EACH PROJECT IS A NEW CHALLENGE",
           "Latest Projects": "Latest Projects",
           "Years of Excellence": "Years of Excellence",
           "Project Completed": "Project Completed",
-          "Customer Satisfaction": "Customer Satisfaction",
+          "Customer Satisfied": "Customer Satisfied",
 
           //   aboutus Section
           "your work is our priority": "your work is our priority",
@@ -46,8 +46,8 @@ i18n
           "Improvement and Customer focused": "Improvement and Customer focused",
           "We believe that talent and skills do not have borders":
             "We believe that talent and skills do not have borders",
-          "We are a human-oriented company, investing in providing  healthy work atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to implement a continuous improvement process for our partners.":
-            "We are a human-oriented company, investing in providing  healthy work atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to implement a continuous improvement process for our partners.",
+          "We are a human-oriented company, investing in training healthy atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to put in place a continuous improvement process internally":
+            "We are a human-oriented company, investing in training healthy atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to put in place a continuous improvement process internally",
           "READ MORE": "READ MORE",
 
           //   partners section
@@ -94,8 +94,8 @@ i18n
           "Share Your Project/Idea with us!": "Share Your Project/Idea with us!",
           "Our Team Member will get back to you within 24 hours. ":
             "Our Team Member will get back to you within 24 hours. ",
-          "Do you have any question on any concrete project? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours. ":
-            "Do you have any question on any concrete project? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours. ",
+          "Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.":
+            "Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.",
           "Schedule Meeting": "Schedule Meeting",
           Email: "Email",
           "Your Name": "Your Name",
@@ -104,6 +104,8 @@ i18n
           "Type Your Message": "Type Your Message",
           Send: "Send",
           "Click and join link": "Click and join link",
+          "Thank you, the information has been submitted successfully. We will come back to you shortly.":
+            "Thank you, the information has been submitted successfully. We will come back to you shortly.",
 
           //   footer
           Overview: "Overview",
@@ -132,6 +134,8 @@ i18n
           //   About_Heaader
           "Our Goal Is To Exceed Your Expectations ": "Our Goal Is To Exceed Your Expectations ",
           "Healthy, skilled and ambitious team": "Healthy, skilled and ambitious team",
+          "Trustful, skilled and ambitious team of developers, UI/UX designers, project managers and quality testers. Our aim is to build healthy partnerships with our clients, in which respect is the central value. Our main difference with other software houses is that we are committed to delivering the last mile, without any compromise.":
+            "Trustful, skilled and ambitious team of developers, UI/UX designers, project managers and quality testers. Our aim is to build healthy partnerships with our clients, in which respect is the central value. Our main difference with other software houses is that we are committed to delivering the last mile, without any compromise.",
 
           //   About comapny Section
           "BEST company": "BEST company",
@@ -840,7 +844,7 @@ i18n
           "GET A FREE QUOTE": "OBTENIR UN DEVIS GRATUIT",
 
           //   service Provided section
-          "our aim provide better service": "NOTRE OBJECTIF : LA SATISFACTION CLIENT",
+          "EXCEED YOUR EXPECTATION": "NOTRE OBJECTIF : LA SATISFACTION CLIENT",
           "Services We Provide": "Services que nous fournissons",
           "Mobile Application Development": "Développement d'applications mobiles",
           "Website Development": "Développement de site Web",
@@ -850,11 +854,11 @@ i18n
           "Get Details": "Plus de détails",
 
           //   latest projects section
-          "A Project offers a challenge": "CHAQUE PROJET EST UN NOUVEAU DÉFI",
+          "EACH PROJECT IS A NEW CHALLENGE": "CHAQUE PROJET EST UN NOUVEAU DÉFI",
           "Latest Projects": "Dernier projets",
           "Years of Excellence": "Années d'Excellence",
           "Project Completed": "Projets terminés",
-          "Customer Satisfaction": "Clients Satisfaits",
+          "Customer Satisfied": "Clients Satisfaits",
           "View More": "Voir plus",
 
           //   aboutus Section
@@ -931,6 +935,8 @@ i18n
           "Type Your Message": "Votre message",
           Send: "Envoyer",
           "Click and join link": "Cliquez",
+          "Thank you, the information has been submitted successfully. We will come back to you shortly.":
+            "Merci, les informations ont été soumises avec succès. Nous reviendrons vers vous sous peu.",
 
           //   footer
           Overview: "Aperçu",
@@ -961,6 +967,8 @@ i18n
           "Healthy, skilled and ambitious team": "Une équipe saine, compétente et ambitieuse",
 
           //   About comapny Section
+          "Trustful, skilled and ambitious team of developers, UI/UX designers, project managers and quality testers. Our aim is to build healthy partnerships with our clients, in which respect is the central value. Our main difference with other software houses is that we are committed to delivering the last mile, without any compromise.":
+            "Équipe de confiance, compétente et ambitieuse composée de développeurs, de concepteurs UI/UX, de chefs de projet et de testeurs de qualité. Notre objectif est de construire des partenariats sains avec nos clients, dans lesquels le respect est la valeur centrale. Notre principale différence avec les autres éditeurs de logiciels est que nous nous engageons à fournir le dernier kilomètre, sans aucun compromis.",
           "BEST company": "Votre partenaire idéal",
           "About Falcon Consulting": "À propos de Falcon Consulting",
           "Falcon Consulting is a development agency that specializes in web application development and consultancy in the field of new technologies. We combine rigor, quality of work and optimized production costs. Founded in 2015, Falcon Consulting started out as a consulting company which worked with large companies such as Microsoft, Canon and Accor. In 2017, Falcon Consulting took off and became a development agency, bringing together over 10 years of experience in application development and project management in its team. Established in France, United States and Pakistan, the company is providing development services worldwide.":

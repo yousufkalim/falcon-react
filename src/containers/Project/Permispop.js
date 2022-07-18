@@ -57,12 +57,12 @@ export default function Permispop() {
       <DetailLogo />
       <DetailAppDev halfImg={AppDev} />
       <DetailWebDev
-      // titleTheme
-      // desp
-      // AvatarSrc
-      // nameColor
-      // name
-      // location
+        // titleTheme
+        desp='Change feedback, client was especially happu that we never let him down, always put additional effort to make things happen. He sees us as more than vendor, but friends.'
+        // AvatarSrc
+        // nameColor
+        name='Salim S.'
+        // location
       />
       {/* <DetailFeedback /> */}
       <Footer />

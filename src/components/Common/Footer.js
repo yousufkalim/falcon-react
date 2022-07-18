@@ -140,7 +140,7 @@ export default function Footer(props) {
               <a href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'>
                 <img className='FooterIcons' src={LinkedIn} />
               </a>
-              <a href='https://wa.me/03135098197'>
+              <a href='https://wa.me/+923135098197'>
                 <img className='FooterIcons' src={WhatsApp} />
               </a>
             </div>
@@ -244,7 +244,7 @@ export default function Footer(props) {
           <a href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'>
             <img className='FooterIcons' src={LinkedIn} />
           </a>
-          <a href='https://wa.me/03135098197'>
+          <a href='https://wa.me/+923135098197'>
             <img className='FooterIcons' src={WhatsApp} />
           </a>
         </div>
