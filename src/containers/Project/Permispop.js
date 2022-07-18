@@ -1,26 +1,26 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import PermispopHeader from "../../assets/images/pp_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import BG_Logo from "../../assets/images/pp_lite_logo.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import PP_Demo from "../../assets/images/pp_demo_new.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import AppDev from "../../assets/images/detail_appdev_new.png";
-import ThemeImage from "../../assets/images/theme_image.png";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import PermispopHeader from '../../assets/images/pp_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import BG_Logo from '../../assets/images/pp_lite_logo.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import PP_Demo from '../../assets/images/pp_demo_new.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import AppDev from '../../assets/images/detail_appdev_new.png';
+import ThemeImage from '../../assets/images/theme_image.png';
 
-import DetailWebDev from "../../components/ProjectDetails/DetailWebDev";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
+import DetailWebDev from '../../components/ProjectDetails/DetailWebDev';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 
-import Footer from "../../components/Common/Footer";
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function Permispop() {
@@ -36,9 +36,12 @@ export default function Permispop() {
         subTitle='What is Permispop'
         description='Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.'
       />
-      <DetailOverview desp='Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. The possibility to search for an instructor with an interactive map, and book a session depending on his availability. The booking feature allows the driving schools and instructors to have an overview of all the activities and manage them efficiently; At the end of each session, the student can rate the instructor and provide feedback to the platform; An internal messaging system; A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made.' />
+      <DetailOverview
+        name='Salim S.'
+        desp='Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. The possibility to search for an instructor with an interactive map, and book a session depending on his availability. The booking feature allows the driving schools and instructors to have an overview of all the activities and manage them efficiently; At the end of each session, the student can rate the instructor and provide feedback to the platform; An internal messaging system; A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made.'
+      />
       <DetailService both BGLogo liteLogo={BG_Logo} />
-      <DetailDemo src={PP_Demo} />
+      <DetailDemo src={PP_Demo} to='https://permispop.fr/' />
       <DetailDesign
         grids
         // overlap

@@ -65,6 +65,7 @@ export default function Wina() {
       />
 
       <DetailDemo
+        to='https://winaa.fr/'
         // desp
         // btnText
         // DetailDemo_SquareDiv

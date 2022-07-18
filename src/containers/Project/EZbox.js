@@ -66,6 +66,7 @@ export default function EZbox() {
       />
 
       <DetailDemo
+        to='https://ezboxmedia.com/'
         // desp
         // btnText
         DetailDemo_SquareDiv

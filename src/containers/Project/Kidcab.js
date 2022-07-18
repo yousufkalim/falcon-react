@@ -1,28 +1,28 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import KidcabHeader from "../../assets/images/kidcabHeader.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_Kidcab from "../../assets/images/kidcab_overview.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
-import BG_Logo from "../../assets/images/kidcab_lite_logo.png";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import KidcabHeader from '../../assets/images/kidcabHeader.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_Kidcab from '../../assets/images/kidcab_overview.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
+import BG_Logo from '../../assets/images/kidcab_lite_logo.png';
 
-import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import KidCab_Demo from "../../assets/images/kidcab_demo_new.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import KidCab_Theme from "../../assets/images/kidcab_theme.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import Kidcab_Logo from "../../assets/images/detail_kidcab_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import KidCab_AppDesign from "../../assets/images/kidcab_appDesign_new.png";
-import KidCab_WebDesign from "../../assets/images/kidcab_webDesign_new.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Footer from "../../components/Common/Footer";
+import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import KidCab_Demo from '../../assets/images/kidcab_demo_new.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import KidCab_Theme from '../../assets/images/kidcab_theme.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import Kidcab_Logo from '../../assets/images/detail_kidcab_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import KidCab_AppDesign from '../../assets/images/kidcab_appDesign_new.png';
+import KidCab_WebDesign from '../../assets/images/kidcab_webDesign_new.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function Kidcab() {
@@ -46,7 +46,7 @@ export default function Kidcab() {
         titleTheme='#4CB9B4'
         AvatarSrc={Kidcab_Avatar}
         nameColor='#4CB9B4'
-        name='Steve Jobs'
+        name='Maxime Chevallier'
         src={OV_Kidcab}
       />
       <DetailService
@@ -130,7 +130,7 @@ export default function Kidcab() {
         // location
         ThemeBG='#18374E'
         AvatarSrc={Kidcab_Avatar}
-        name='Steve Jobs'
+        name='Maxime Chevallier'
       />
       <Footer />
     </div>

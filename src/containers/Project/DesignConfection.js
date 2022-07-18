@@ -64,6 +64,7 @@ export default function DesignConfection() {
       />
 
       <DetailDemo
+        to='https://design-confection.web.app/'
         // desp
         // btnText
         DetailDemo_SquareDiv

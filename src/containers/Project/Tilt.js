@@ -1,32 +1,32 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import Tilt_Header from "../../assets/images/tilt_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_Tilt from "../../assets/images/ov_tilt.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
-import BG_Logo from "../../assets/images/tilt_lite_logo.png";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import Tilt_Header from '../../assets/images/tilt_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_Tilt from '../../assets/images/ov_tilt.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
+import BG_Logo from '../../assets/images/tilt_lite_logo.png';
 
-import QB_Avatar from "../../assets/images/overview_quadraAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import Tilt_Demo from "../../assets/images/tilt_demo_new.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import Tilt_Design1 from "../../assets/images/tilt_design1.png";
-import Tilt_Design2 from "../../assets/images/tilt_design2.png";
-import Tilt_Design3 from "../../assets/images/tilt_design3.png";
+import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import Tilt_Demo from '../../assets/images/tilt_demo_new.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import Tilt_Design1 from '../../assets/images/tilt_design1.png';
+import Tilt_Design2 from '../../assets/images/tilt_design2.png';
+import Tilt_Design3 from '../../assets/images/tilt_design3.png';
 
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import QB_Theme from "../../assets/images/detail_qb_theme.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import Tilt_Logo from "../../assets/images/detail_tilt_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import Tilt_AppDesign from "../../assets/images/tilt_appdesign.png";
-import Tilt_WebDesign from "../../assets/images/tilt_webdesign.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Footer from "../../components/Common/Footer";
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import QB_Theme from '../../assets/images/detail_qb_theme.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import Tilt_Logo from '../../assets/images/detail_tilt_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import Tilt_AppDesign from '../../assets/images/tilt_appdesign.png';
+import Tilt_WebDesign from '../../assets/images/tilt_webdesign.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function Tilt() {
@@ -48,7 +48,7 @@ export default function Tilt() {
         desp='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order. The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience. On the restaurant side, it is possible to create and manage a customized menu, see all the incoming orders, and change their status. On the delivery side, the application the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications.'
         AvatarSrc={QB_Avatar}
         nameColor='#D3014A'
-        // name="Dylan Field"
+        name='Laurent Louis-Henry'
         // location="France"
         src={OV_Tilt}
       />
@@ -63,6 +63,7 @@ export default function Tilt() {
       />
 
       <DetailDemo
+        to='https://tilt-entreprise.com/'
         // desp
         // btnText
         // DetailDemo_SquareDiv

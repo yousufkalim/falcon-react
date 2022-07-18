@@ -1,32 +1,32 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import Register_Header from "../../assets/images/register_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_Register from "../../assets/images/ov_register.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import Register_Header from '../../assets/images/register_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_Register from '../../assets/images/ov_register.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
 
-import QB_Avatar from "../../assets/images/overview_quadraAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import Register_Demo from "../../assets/images/register_demo.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import Register_Design1 from "../../assets/images/register_design1.png";
-import Register_Design2 from "../../assets/images/register_design2.png";
-import Register_Design3 from "../../assets/images/register_design3.png";
+import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import Register_Demo from '../../assets/images/register_demo.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import Register_Design1 from '../../assets/images/register_design1.png';
+import Register_Design2 from '../../assets/images/register_design2.png';
+import Register_Design3 from '../../assets/images/register_design3.png';
 
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import Register_WebDev from "../../assets/images/register_webdev.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import Yuwway_Logo from "../../assets/images/detail_yuwway_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import Yuwway_AppDesign from "../../assets/images/yuwway_appdesign.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Facility_Theme from "../../assets/images/facility_theme.png";
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import Register_WebDev from '../../assets/images/register_webdev.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import Yuwway_Logo from '../../assets/images/detail_yuwway_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import Yuwway_AppDesign from '../../assets/images/yuwway_appdesign.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Facility_Theme from '../../assets/images/facility_theme.png';
 
-import Footer from "../../components/Common/Footer";
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function RegisterRH() {
@@ -54,7 +54,7 @@ export default function RegisterRH() {
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#142E68'
-        name='Ukhano'
+        name='Romain S.'
         // location="France"
         src={OV_Register}
       />
@@ -68,6 +68,7 @@ export default function RegisterRH() {
       />
 
       <DetailDemo
+        to='https://registre-rh.fr/'
         // desp
         // btnText
         DetailDemo_SquareDiv
@@ -132,7 +133,7 @@ export default function RegisterRH() {
         // location
         ThemeBG='#fffff'
         // AvatarSrc={Kidcab_Avatar}
-        name='Ukhano'
+        name='Romain S.'
       />
       <Footer />
     </div>
