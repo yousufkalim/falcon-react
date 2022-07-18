@@ -29,7 +29,7 @@ i18n
           "Get Details": "Get Details",
 
           //   latest projects section
-          "a project offers a challenge": "a project offers a challenge",
+          "A Project offers a challenge": "A Project offers a challenge",
           "Latest Projects": "Latest Projects",
           "Years of Excellence": "Years of Excellence",
           "Project Completed": "Project Completed",
@@ -94,8 +94,8 @@ i18n
           "Share Your Project/Idea with us!": "Share Your Project/Idea with us!",
           "Our Team Member will get back to you within 24 hours. ":
             "Our Team Member will get back to you within 24 hours. ",
-          "Do you have any question on any concrete project? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours. ":
-            "Do you have any question on any concrete project? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours. ",
+          "Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.":
+            "Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.",
           "Schedule Meeting": "Schedule Meeting",
           Email: "Email",
           "Your Name": "Your Name",
