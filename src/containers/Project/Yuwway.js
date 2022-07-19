@@ -1,30 +1,30 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import Yuwway_Header from "../../assets/images/yuwway_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_Yuwway from "../../assets/images/ov_yuwway.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import Yuwway_Header from '../../assets/images/yuwway_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_Yuwway from '../../assets/images/ov_yuwway.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
 
-import QB_Avatar from "../../assets/images/overview_quadraAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import Yuwway_Demo from "../../assets/images/yuwway_demo.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import Yuwway_Design1 from "../../assets/images/yuwway_design1.png";
-import Yuwway_Design2 from "../../assets/images/yuwway_design2.png";
-import Yuwway_Design3 from "../../assets/images/yuwway_design3.png";
+import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import Yuwway_Demo from '../../assets/images/yuwway_demo.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import Yuwway_Design1 from '../../assets/images/yuwway_design1.png';
+import Yuwway_Design2 from '../../assets/images/yuwway_design2.png';
+import Yuwway_Design3 from '../../assets/images/yuwway_design3.png';
 
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import QB_Theme from "../../assets/images/detail_qb_theme.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import Yuwway_Logo from "../../assets/images/detail_yuwway_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import Yuwway_AppDesign from "../../assets/images/yuwway_appdesign.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Footer from "../../components/Common/Footer";
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import QB_Theme from '../../assets/images/detail_qb_theme.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import Yuwway_Logo from '../../assets/images/detail_yuwway_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import Yuwway_AppDesign from '../../assets/images/yuwway_appdesign.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function Yuwway() {
@@ -37,7 +37,7 @@ export default function Yuwway() {
         typoBG='#0073BB'
         HeaderImg={Yuwway_Header}
         title='Yuwway'
-        subTitle='What is Yuwway'
+        subTitle='Yuwway'
         // iconTheme="#9D3C64"
         description="Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs."
       />

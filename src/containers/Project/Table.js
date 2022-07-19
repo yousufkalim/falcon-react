@@ -1,31 +1,31 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import Table_Header from "../../assets/images/table_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_Table from "../../assets/images/ov_table.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
-import BG_Logo from "../../assets/images/table_lite_logo.png";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import Table_Header from '../../assets/images/table_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_Table from '../../assets/images/ov_table.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
+import BG_Logo from '../../assets/images/table_lite_logo.png';
 
-import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import Table_Demo from "../../assets/images/table_demo.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import RealEstate_Design1 from "../../assets/images/realestate_design1.png";
-import RealEstate_Design2 from "../../assets/images/realestate_design2.png";
-import RealEstate_Design3 from "../../assets/images/realestate_design3.png";
+import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import Table_Demo from '../../assets/images/table_demo.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import RealEstate_Design1 from '../../assets/images/realestate_design1.png';
+import RealEstate_Design2 from '../../assets/images/realestate_design2.png';
+import RealEstate_Design3 from '../../assets/images/realestate_design3.png';
 
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import RealEstate_Theme1 from "../../assets/images/realestate_theme1.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import Table_Logo from "../../assets/images/detail_table_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import Table_AppDesign from "../../assets/images/table_appdesign.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Footer from "../../components/Common/Footer";
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import RealEstate_Theme1 from '../../assets/images/realestate_theme1.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import Table_Logo from '../../assets/images/detail_table_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import Table_AppDesign from '../../assets/images/table_appdesign.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function Table() {
@@ -39,7 +39,7 @@ export default function Table() {
         typoBG='#D60000'
         HeaderImg={Table_Header}
         title='@Table'
-        subTitle='What is @Table'
+        subTitle='@Table'
         description='MediaPipe offers cross-platform, customizable ML solutions for live and streaming media'
       />
       <DetailOverview

@@ -1,33 +1,33 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import Telehealth_Header from "../../assets/images/telehealth_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_Telehealth from "../../assets/images/ov_telehealth.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
-import BG_Logo from "../../assets/images/tele_lite_logo.png";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import Telehealth_Header from '../../assets/images/telehealth_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_Telehealth from '../../assets/images/ov_telehealth.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
+import BG_Logo from '../../assets/images/tele_lite_logo.png';
 
-import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import Tele_Demo from "../../assets/images/telehealth_demo.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import Tele_Design1 from "../../assets/images/telehealth_design1.png";
-import Tele_Design2 from "../../assets/images/telehealth_design2.png";
-import Tele_Design3 from "../../assets/images/telehealth_design3.png";
+import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import Tele_Demo from '../../assets/images/telehealth_demo.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import Tele_Design1 from '../../assets/images/telehealth_design1.png';
+import Tele_Design2 from '../../assets/images/telehealth_design2.png';
+import Tele_Design3 from '../../assets/images/telehealth_design3.png';
 
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import EZbox_Theme1 from "../../assets/images/ezbox_theme1.png";
-import EZbox_Theme2 from "../../assets/images/ezbox_theme2.png";
-import EZbox_Theme3 from "../../assets/images/ezbox_theme3.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import EZbox_Logo from "../../assets/images/detail_ezbox_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import EZbox_WebDesign from "../../assets/images/ezbox_webdesign.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Footer from "../../components/Common/Footer";
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import EZbox_Theme1 from '../../assets/images/ezbox_theme1.png';
+import EZbox_Theme2 from '../../assets/images/ezbox_theme2.png';
+import EZbox_Theme3 from '../../assets/images/ezbox_theme3.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import EZbox_Logo from '../../assets/images/detail_ezbox_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import EZbox_WebDesign from '../../assets/images/ezbox_webdesign.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function Telehealth() {
@@ -41,7 +41,7 @@ export default function Telehealth() {
         typoBG='#FBA622EB'
         HeaderImg={Telehealth_Header}
         title='Telehealth Platform'
-        subTitle='What is Telehealth Platform'
+        subTitle='Telehealth Platform'
         description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
       />
       <DetailOverview
