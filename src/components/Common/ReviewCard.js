@@ -58,7 +58,6 @@ export default function ReviewCard(props) {
             fontSize: '.8rem',
             opacity: '.9',
             fontWeight: '400',
-            marginTop: '7%',
           }}
         >
           {review?.length > 100 ? review?.slice(0, 100) + '...' : review}

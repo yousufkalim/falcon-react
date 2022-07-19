@@ -39,7 +39,7 @@ export default function RegisterRH() {
         typoBG='#142E68'
         HeaderImg={Register_Header}
         title='Register-RH'
-        subTitle='What is Register-RH'
+        subTitle='Register-RH'
         // iconTheme="#9D3C64"
         description='This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
       />

@@ -1,30 +1,30 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import RealEstate_Header from "../../assets/images/realestate_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_RealEstate from "../../assets/images/ov_realestate.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import RealEstate_Header from '../../assets/images/realestate_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_RealEstate from '../../assets/images/ov_realestate.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
 
-import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import RealEstate_Demo from "../../assets/images/realestate_demo_new.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import RealEstate_Design1 from "../../assets/images/realestate_design1.png";
-import RealEstate_Design2 from "../../assets/images/realestate_design2.png";
-import RealEstate_Design3 from "../../assets/images/realestate_design3.png";
+import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import RealEstate_Demo from '../../assets/images/realestate_demo_new.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import RealEstate_Design1 from '../../assets/images/realestate_design1.png';
+import RealEstate_Design2 from '../../assets/images/realestate_design2.png';
+import RealEstate_Design3 from '../../assets/images/realestate_design3.png';
 
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import RealEstate_Theme1 from "../../assets/images/realestate_theme1.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import RealEstate_Logo from "../../assets/images/detail_realestate_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import RealEstate_AppDesign from "../../assets/images/realestate_appdesign_new.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Footer from "../../components/Common/Footer";
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import RealEstate_Theme1 from '../../assets/images/realestate_theme1.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import RealEstate_Logo from '../../assets/images/detail_realestate_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import RealEstate_AppDesign from '../../assets/images/realestate_appdesign_new.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function RealEstate() {
@@ -38,7 +38,7 @@ export default function RealEstate() {
         typoBG='#837C6B'
         HeaderImg={RealEstate_Header}
         title='Real Estate'
-        subTitle='What is Real Estate'
+        subTitle='Real Estate'
         description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
       />
       <DetailOverview

@@ -41,7 +41,7 @@ export default function Telehealth() {
         typoBG='#FBA622EB'
         HeaderImg={Telehealth_Header}
         title='Telehealth Platform'
-        subTitle='What is Telehealth Platform'
+        subTitle='Telehealth Platform'
         description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
       />
       <DetailOverview

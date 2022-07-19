@@ -36,12 +36,12 @@ export default function Kidcab() {
         typoBG='#18374E'
         HeaderImg={KidcabHeader}
         title='KidCab.'
-        subTitle='What is KidCab'
-        description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
+        subTitle='KidCab'
+        description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.'
       />
       <DetailOverview
         // desp
-        desp='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. '
+        desp='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs.'
         // location
         titleTheme='#4CB9B4'
         AvatarSrc={Kidcab_Avatar}
@@ -61,7 +61,7 @@ export default function Kidcab() {
       />
 
       <DetailDemo
-        // desp
+        desp='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities and safely monitor their location. For our partner, we developed two mobile applications and a Ride Management web application.The Driver mobile application allows them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features to Uber.The Parent’s mobile application shows the live location of the driver and allows to monitor all the past and upcoming rides.Finally, the Ride Management website is intended for Kidcab administrators to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created.'
         // btnText
         // DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
@@ -126,7 +126,7 @@ export default function Kidcab() {
       <DetailFeedback
         // titleTheme
         // despTheme
-        // desp
+        desp='Expertise and systematic approach to fulfilling client needs. I love the energy and excitement the Falcon IT team exhibits towards the success of my APP.'
         // location
         ThemeBG='#18374E'
         AvatarSrc={Kidcab_Avatar}

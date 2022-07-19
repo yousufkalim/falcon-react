@@ -70,12 +70,12 @@ const index = () => {
       <Route exact path='/ourprojects/sindoor' component={Sindoor} />
       <Route exact path='/ourprojects/zypzap' component={Zypzap} />
 
-      <Route exact path='/ourprojects/yuwway' component={Yuwway} />
-      <Route exact path='/ourprojects/facilitymanagement' component={FacilityManagement} />
-      <Route exact path='/ourprojects/fireman' component={Fireman} />
-      <Route exact path='/ourprojects/wina' component={Wina} />
-      <Route exact path='/ourprojects/orientator' component={Orientator} />
-      <Route exact path='/ourprojects/registerrh' component={RegisterRH} />
+      <Route exact path="/ourprojects/yuwway" component={Yuwway} />
+      <Route exact path="/ourprojects/facilitymanagement" component={FacilityManagement} />
+      <Route exact path="/ourprojects/fireman" component={Fireman} />
+      <Route exact path="/ourprojects/wina" component={Wina} />
+      <Route exact path="/ourprojects/orientator" component={Orientator} />
+      <Route exact path="/ourprojects/registerrh" component={RegisterRH} />
     </Switch>
   );
 };

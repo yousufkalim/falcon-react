@@ -37,7 +37,7 @@ export default function Yuwway() {
         typoBG='#0073BB'
         HeaderImg={Yuwway_Header}
         title='Yuwway'
-        subTitle='What is Yuwway'
+        subTitle='Yuwway'
         // iconTheme="#9D3C64"
         description="Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs."
       />

@@ -39,7 +39,7 @@ export default function Zypzap() {
         typoBG='linear-gradient(269.14deg, #20BF55 0%, #25B058 0.01%, #522F6D 82.32%)'
         HeaderImg={Zypzap_Header}
         title='Zypzap'
-        subTitle='What is Zypzap'
+        subTitle='Zypzap'
         // iconTheme="#9D3C64"
         description='ZypZap is a gaming platform by Falcon IT. It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.'
       />

@@ -33,7 +33,7 @@ export default function Permispop() {
         typoBG='#FF9A20EB'
         HeaderImg={PermispopHeader}
         title='Permispop.'
-        subTitle='What is Permispop'
+        subTitle='Permispop'
         description='Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.'
       />
       <DetailOverview
@@ -41,7 +41,11 @@ export default function Permispop() {
         desp='Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. The possibility to search for an instructor with an interactive map, and book a session depending on his availability. The booking feature allows the driving schools and instructors to have an overview of all the activities and manage them efficiently; At the end of each session, the student can rate the instructor and provide feedback to the platform; An internal messaging system; A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made.'
       />
       <DetailService both BGLogo liteLogo={BG_Logo} />
-      <DetailDemo src={PP_Demo} to='https://permispop.fr/' />
+      <DetailDemo 
+      src={PP_Demo} 
+      to='https://permispop.fr/' 
+        desp='Permispop is a web platform and a mobile app connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. The possibility to search for an instructor with an interactive map, and book a session depending on his availability. The booking feature allows the driving schools and instructors to have an overview of all the activities and manage them efficiently; At the end  of each session, the student can rate the instructor and provide feedback to the platform; An internal messaging system; A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made.'
+      />
       <DetailDesign
         grids
         // overlap
@@ -61,11 +65,11 @@ export default function Permispop() {
       <DetailAppDev halfImg={AppDev} />
       <DetailWebDev
         // titleTheme
-        desp='Change feedback, client was especially happu that we never let him down, always put additional effort to make things happen. He sees us as more than vendor, but friends.'
         // AvatarSrc
         // nameColor
         name='Salim S.'
         // location
+        feedback='We at Permispop are very impressed with all aspects of our website and mobile app, as it is user-friendly and work efficiently. We would highly recommend Falcon IT to anyone looking to build a website, web app, or mobile application.'
       />
       {/* <DetailFeedback /> */}
       <Footer />

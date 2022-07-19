@@ -38,7 +38,7 @@ export default function Sindoor() {
         typoBG='#E45A5A'
         HeaderImg={Sindoor_Header}
         title='Sindoor'
-        subTitle='What is Sindoor'
+        subTitle='Sindoor'
         description='Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
       />
       <DetailOverview

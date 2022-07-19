@@ -122,7 +122,7 @@ export default function LatestProjects(props) {
         >
           <Carousel
             className='SliderDiv'
-            autoPlay={true}
+            // autoPlay={true}
             responsive={responsive}
             transitionDuration={1000}
             slidesToSlide={1}
@@ -132,14 +132,18 @@ export default function LatestProjects(props) {
           >
             <LatestProjectsCard
               // HoverDetailLite
-              hoverDesp='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.'
+              hoverDesp={t(
+                'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.'
+              )}
               src={KidCab}
               LogoSrc={KC_logo}
               // btnBackground="#47B9B4"
               to='/ourprojects/kidcab'
             />
             <LatestProjectsCard
-              hoverDesp='Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.'
+              hoverDesp={t(
+                'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.'
+              )}
               src={Permispop}
               DividerTheme='#11A283'
               // btnBackground="#11A283"
@@ -148,7 +152,9 @@ export default function LatestProjects(props) {
               to='/ourprojects/permispop'
             />
             <LatestProjectsCard
-              hoverDesp='Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
+              hoverDesp={t(
+                'Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
+              )}
               src={QB}
               to='/ourprojects/quadrabase'
               DividerTheme='#FF8616'
@@ -157,7 +163,9 @@ export default function LatestProjects(props) {
               LogoSrc={QB_logo}
             />
             <LatestProjectsCard
-              hoverDesp='A web app designed to help customers with customized stitching to receive your creation at your home.'
+              hoverDesp={t(
+                'A web app designed to help customers with customized stitching to receive your creation at your home.'
+              )}
               src={Desine}
               to='/ourprojects/designconfection'
               DividerTheme='#CC8E9C'
@@ -166,7 +174,9 @@ export default function LatestProjects(props) {
               LogoSrc={Desine_Logo}
             />
             <LatestProjectsCard
-              hoverDesp='This website offers an online tailoring experience with free pick-up and delivery in Karachi. We provide stitching services with customizable designs for salwar suits, blouses, kurtas, bottoms, western wear as per customers measurement at the doorstep. Coming Soon for other cities also.'
+              hoverDesp={t(
+                'The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
+              )}
               src={Real_Estate}
               to='/ourprojects/realestate'
               DividerTheme='#837C6B'
@@ -175,7 +185,7 @@ export default function LatestProjects(props) {
               LogoSrc={RealEstate_Logo}
             />
             <LatestProjectsCard
-              hoverDesp='EZBox media is a platform providing different services including'
+              hoverDesp={t('EZBox media is a platform providing different services including')}
               src={EzBox}
               to='/ourprojects/ezbox'
               DividerTheme='#3399FE'
@@ -184,7 +194,9 @@ export default function LatestProjects(props) {
               LogoSrc={EzBox_Logo}
             />
             <LatestProjectsCard
-              hoverDesp='This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.'
+              hoverDesp={t(
+                'This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.'
+              )}
               src={Facility}
               to='/ourprojects/facilitymanagement'
               DividerTheme='#3399FE'
@@ -193,7 +205,9 @@ export default function LatestProjects(props) {
               LogoSrc={FacilityLogo}
             />
             <LatestProjectsCard
-              hoverDesp="Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs."
+              hoverDesp={t(
+                "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs."
+              )}
               src={Yuwway}
               to='/ourprojects/yuwway'
               DividerTheme='#3399FE'
@@ -202,7 +216,9 @@ export default function LatestProjects(props) {
               LogoSrc={YuwwayLogo}
             />
             <LatestProjectsCard
-              hoverDesp='Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
+              hoverDesp={t(
+                'Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
+              )}
               src={Excellence}
               to='/ourprojects/excellence'
               DividerTheme='#3399FE'
@@ -217,7 +233,9 @@ export default function LatestProjects(props) {
               // btnBackground="#3399FE"
               heading='Fnac'
               LogoSrc={Fnac_Logo}
-              hoverDesp='Falcon Consulting has been asked by FNAC for its expertise in .NET and SQL to reinforce the project teams related to inventory, stocks, locations, label printing, customer orders.'
+              hoverDesp={t(
+                'Falcon Consulting has been asked by FNAC for its expertise in .NET and SQL to reinforce the project teams related to inventory, stocks, locations, label printing, customer orders.'
+              )}
               para1='Falcon Consulting has been asked by FNAC for its expertise in .NET and SQL to reinforce the project teams related to inventory, stocks, locations, label printing, customer orders.'
               para2='OUR CONTRIBUTION'
               para3='• Collection and consolidation of business requests'
@@ -227,7 +245,9 @@ export default function LatestProjects(props) {
               para7='• T-SQL development (generation of extracts, counters and data consistency checks, creation of stored procedures for the different projects, data archiving)'
             />
             <LatestProjectsCard
-              hoverDesp='Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:'
+              hoverDesp={t(
+                'Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:'
+              )}
               src={Fireman}
               to='/ourprojects/fireman'
               DividerTheme='#3399FE'
@@ -251,7 +271,9 @@ export default function LatestProjects(props) {
               // btnBackground="#3399FE"
               heading='Canon'
               LogoSrc={Canon_Logo}
-              hoverDesp='Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)'
+              hoverDesp={t(
+                'Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)'
+              )}
               para1='Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)'
               para2='OUR CONTRIBUTION'
               para3='• Implementation of project developments and production quality control'
@@ -262,7 +284,9 @@ export default function LatestProjects(props) {
               para8='• Technical support around Therefore from different Canon customers'
             />
             <LatestProjectsCard
-              hoverDesp='This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
+              hoverDesp={t(
+                'This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
+              )}
               src={Register}
               to='/ourprojects/registerrh'
               DividerTheme='#3399FE'
@@ -276,7 +300,9 @@ export default function LatestProjects(props) {
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               LogoSrc={AccorHotel_Logo}
-              hoverDesp='Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.'
+              hoverDesp={t(
+                'Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.'
+              )}
               heading='Accor Hotels'
               para1='Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.'
               para2='OUR CONTRIBUTION'
@@ -288,7 +314,9 @@ export default function LatestProjects(props) {
               para8='• Kettle-based batch development for import / export and data transformation'
             />
             <LatestProjectsCard
-              hoverDesp='Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. '
+              hoverDesp={t(
+                'Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. '
+              )}
               src={Wina}
               to='/ourprojects/wina'
               DividerTheme='#3399FE'
@@ -297,7 +325,7 @@ export default function LatestProjects(props) {
               LogoSrc={Wina_Logo}
             />
             <LatestProjectsCard
-              hoverDesp='ZypZap is a gaming platform by Falcon IT.'
+              hoverDesp={t('ZypZap is a gaming platform by Falcon IT.')}
               src={Zypzap}
               to='/ourprojects/zypzap'
               DividerTheme='#3399FE'
@@ -306,7 +334,9 @@ export default function LatestProjects(props) {
               LogoSrc={Zypzap_Logo}
             />
             <LatestProjectsCard
-              hoverDesp='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
+              hoverDesp={t(
+                'Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
+              )}
               src={Tilt}
               to='/ourprojects/tilt'
               DividerTheme='#3399FE'
@@ -320,7 +350,7 @@ export default function LatestProjects(props) {
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               LogoSrc={BlshLogo}
-              hoverDesp='We are building a marketplace for delivery supplies on the customer and small business demand.'
+              hoverDesp={t('We are building a marketplace for delivery supplies on the customer and small business demand.')}
               heading='Blsh Delivery'
               // Modal Data
               para1='We are building a marketplace for delivery supplies on the customer and small business demand.'
@@ -330,7 +360,9 @@ export default function LatestProjects(props) {
               para5='The app will be free for Customers. The Courier will pay 20% of the delivery price.'
             />
             <LatestProjectsCard
-              hoverDesp='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
+              hoverDesp={t(
+                'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
+              )}
               src={Orgaplan}
               to='/ourprojects/orgaplan'
               DividerTheme='#3399FE'
@@ -348,7 +380,9 @@ export default function LatestProjects(props) {
               // DividerTheme='#007536'
               heading='Tajweed'
               title='Tajweed'
-              hoverDesp='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
+              hoverDesp={t(
+                'Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
+              )}
               // Modal Data
               para1='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
               para2='•	User can signup and start learning Quran with Tajweed.'
@@ -362,7 +396,9 @@ export default function LatestProjects(props) {
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               LogoSrc={BeautyLogo}
-              hoverDesp='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
+              hoverDesp={t(
+                'Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
+              )}
               heading='Beauty Salon'
               para1='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
             />
@@ -373,7 +409,9 @@ export default function LatestProjects(props) {
               // btnBackground="#3399FE"
               LogoSrc={MicrosoftLogo}
               heading='Microsoft'
-              hoverDesp='Falcon Consulting has been asked by Microsoft for its expertise in .NET and reporting to implement product analysis tools for the media catalogs (music, video and ebooks) on the Windows Store using the latest Azure technologies.'
+              hoverDesp={t(
+                'Falcon Consulting has been asked by Microsoft for its expertise in .NET and reporting to implement product analysis tools for the media catalogs (music, video and ebooks) on the Windows Store using the latest Azure technologies.'
+              )}
               para1='Falcon Consulting has been asked by Microsoft for its expertise in .NET and reporting to implement product analysis tools for the media catalogs (music, video and ebooks) on the Windows Store using the latest Azure technologies.'
               para2='OUR CONTRIBUTION'
               para3='• Implementation of project developments and production quality control'
@@ -381,7 +419,9 @@ export default function LatestProjects(props) {
               para5='• Migration of projects developed in Scope and SQL Server to Azure Data Lake Analytics and development in U-SQL under Azure of data quality control scripts from the video catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).'
             />
             <LatestProjectsCard
-              hoverDesp='Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
+              hoverDesp={t(
+                'Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
+              )}
               src={Sindoor}
               to='/ourprojects/sindoor'
               DividerTheme='#3399FE'
@@ -390,7 +430,9 @@ export default function LatestProjects(props) {
               LogoSrc={SindoorLogo}
             />
             <LatestProjectsCard
-              hoverDesp='Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.'
+              hoverDesp={t(
+                'Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.'
+              )}
               src={Orientator}
               to='/ourprojects/orientator'
               DividerTheme='#3399FE'
@@ -455,6 +497,7 @@ export default function LatestProjects(props) {
                 60+
               </Typography>
               <Typography className='ProjectsCompleted_H'>{t('Clients Satisfied')}</Typography>
+
             </div>
           </motion.div>
         )}
