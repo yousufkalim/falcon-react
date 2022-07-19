@@ -30,10 +30,12 @@ function App() {
 
   useEffect(() => {
     // Scroll to top logic
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
+    setTimeout(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    }, 800);
   }, [pathname]);
   return (
     <div className='App'>
