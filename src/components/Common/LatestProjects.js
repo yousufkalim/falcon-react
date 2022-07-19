@@ -1,72 +1,72 @@
-import React, { useEffect, useState } from "react";
-import SectionHeader from "./SectionHeader";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import KidCab from "../../assets/images/kidcab.svg";
-import KC_logo from "../../assets/images/kidcabLogo.png";
-import Permispop from "../../assets/images/permispop.png";
-import PP_logo from "../../assets/images/permisLogo.png";
-import QB from "../../assets/images/quadrabase.svg";
-import QB_logo from "../../assets/images/qudra_logo.svg";
-import Desine from "../../assets/images/desine.png";
-import Desine_Logo from "../../assets/images/desineLogo.png";
-import Real_Estate from "../../assets/images/realEstate.png";
-import RealEstate_Logo from "../../assets/images/realestateLogo.png";
-import EzBox from "../../assets/images/ezBox.png";
-import EzBox_Logo from "../../assets/images/ezBoxLogo.png";
-import Facility from "../../assets/images/facility_lp.png";
-import FacilityLogo from "../../assets/images/facility_logo_lp.svg";
-import Yuwway from "../../assets/images/yuwway_lp.png";
-import YuwwayLogo from "../../assets/images/yuwway_logo_lp.png";
-import TeleHealth from "../../assets/images/tele_lp.png";
-import Tele_logo from "../../assets/images/tele_logo.svg";
-import Table from "../../assets/images/table_lp.png";
-import TableLogo from "../../assets/images/table_logo_lp.png";
-import Barber from "../../assets/images/barber_lp.png";
-import BarberLogo from "../../assets/images/barbershop_logo_lp.png";
-import Excellence from "../../assets/images/excellence_lp.png";
-import ExcellenceLogo from "../../assets/images/excellence_logo_lp.svg";
-import Fnac from "../../assets/images/fnac_lp.png";
-import Fnac_Logo from "../../assets/images/fnaclogo.png";
-import Fireman from "../../assets/images/fireman_lp.png";
-import FiremanLogo from "../../assets/images/fireman_logo_lp.png";
-import Toyota from "../../assets/images/toyota_lp.png";
-import Toyota_Logo from "../../assets/images/toyotalogo.png";
-import Canon from "../../assets/images/canon_lp.png";
-import Canon_Logo from "../../assets/images/canonlogo.png";
-import Register from "../../assets/images/register_lp.png";
-import RegisterLogo from "../../assets/images/register_logo_lp.png";
-import Accor from "../../assets/images/accor_lp.png";
-import AccorHotel_Logo from "../../assets/images/accorlogo.png";
-import Wina from "../../assets/images/wina_lp.png";
-import Wina_Logo from "../../assets/images/wina_logo.svg";
-import Zypzap from "../../assets/images/zypzap_lp.png";
-import Zypzap_Logo from "../../assets/images/zypzap_Logo.svg";
-import Tilt from "../../assets/images/tilt_lp.png";
-import Tilt_Logo from "../../assets/images/tilt_logo.svg";
-import Blsh from "../../assets/images/blsh_lp.png";
-import BlshLogo from "../../assets/images/blsh_logo_lp.png";
-import Orgaplan from "../../assets/images/orgaplan_lp.png";
-import Orgaplan_Logo from "../../assets/images/orgaplan_logo.svg";
-import Tajweed from "../../assets/images/tajweed_lp.png";
-import Tajweed_logo from "../../assets/images/tajweed_logo.svg";
+import React, { useEffect, useState } from 'react';
+import SectionHeader from './SectionHeader';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import KidCab from '../../assets/images/kidcab.svg';
+import KC_logo from '../../assets/images/kidcabLogo.png';
+import Permispop from '../../assets/images/permispop.png';
+import PP_logo from '../../assets/images/permisLogo.png';
+import QB from '../../assets/images/quadrabase.svg';
+import QB_logo from '../../assets/images/qudra_logo.svg';
+import Desine from '../../assets/images/desine.png';
+import Desine_Logo from '../../assets/images/desineLogo.png';
+import Real_Estate from '../../assets/images/realEstate.png';
+import RealEstate_Logo from '../../assets/images/realestateLogo.png';
+import EzBox from '../../assets/images/ezBox.png';
+import EzBox_Logo from '../../assets/images/ezBoxLogo.png';
+import Facility from '../../assets/images/facility_lp.png';
+import FacilityLogo from '../../assets/images/facility_logo_lp.svg';
+import Yuwway from '../../assets/images/yuwway_lp.png';
+import YuwwayLogo from '../../assets/images/yuwway_logo_lp.png';
+import TeleHealth from '../../assets/images/tele_lp.png';
+import Tele_logo from '../../assets/images/tele_logo.svg';
+import Table from '../../assets/images/table_lp.png';
+import TableLogo from '../../assets/images/table_logo_lp.png';
+import Barber from '../../assets/images/barber_lp.png';
+import BarberLogo from '../../assets/images/barbershop_logo_lp.png';
+import Excellence from '../../assets/images/excellence_lp.png';
+import ExcellenceLogo from '../../assets/images/excellence_logo_lp.svg';
+import Fnac from '../../assets/images/fnac_lp.png';
+import Fnac_Logo from '../../assets/images/fnaclogo.png';
+import Fireman from '../../assets/images/fireman_lp.png';
+import FiremanLogo from '../../assets/images/fireman_logo_lp.png';
+import Toyota from '../../assets/images/toyota_lp.png';
+import Toyota_Logo from '../../assets/images/toyotalogo.png';
+import Canon from '../../assets/images/canon_lp.png';
+import Canon_Logo from '../../assets/images/canonlogo.png';
+import Register from '../../assets/images/register_lp.png';
+import RegisterLogo from '../../assets/images/register_logo_lp.png';
+import Accor from '../../assets/images/accor_lp.png';
+import AccorHotel_Logo from '../../assets/images/accorlogo.png';
+import Wina from '../../assets/images/wina_lp.png';
+import Wina_Logo from '../../assets/images/wina_logo.svg';
+import Zypzap from '../../assets/images/zypzap_lp.png';
+import Zypzap_Logo from '../../assets/images/zypzap_Logo.svg';
+import Tilt from '../../assets/images/tilt_lp.png';
+import Tilt_Logo from '../../assets/images/tilt_logo.svg';
+import Blsh from '../../assets/images/blsh_lp.png';
+import BlshLogo from '../../assets/images/blsh_logo_lp.png';
+import Orgaplan from '../../assets/images/orgaplan_lp.png';
+import Orgaplan_Logo from '../../assets/images/orgaplan_logo.svg';
+import Tajweed from '../../assets/images/tajweed_lp.png';
+import Tajweed_logo from '../../assets/images/tajweed_logo.svg';
 
-import Beauty from "../../assets/images/beauty_lp.png";
-import BeautyLogo from "../../assets/images/beauty_logo_lp.png";
-import Microsoft from "../../assets/images/microsoft_lp.png";
-import MicrosoftLogo from "../../assets/images/microsoft_logo_lp.png";
-import Sindoor from "../../assets/images/sindoor_lp.png";
-import SindoorLogo from "../../assets/images/sindoor_logo_lp.png";
-import Orientator from "../../assets/images/orientator_lp.png";
-import OrientatorLogo from "../../assets/images/orientator_logo_lp.png";
+import Beauty from '../../assets/images/beauty_lp.png';
+import BeautyLogo from '../../assets/images/beauty_logo_lp.png';
+import Microsoft from '../../assets/images/microsoft_lp.png';
+import MicrosoftLogo from '../../assets/images/microsoft_logo_lp.png';
+import Sindoor from '../../assets/images/sindoor_lp.png';
+import SindoorLogo from '../../assets/images/sindoor_logo_lp.png';
+import Orientator from '../../assets/images/orientator_lp.png';
+import OrientatorLogo from '../../assets/images/orientator_logo_lp.png';
 
-import { Typography } from "@mui/material";
-import { motion } from "framer-motion";
-import LatestProjectsCard from "./LatestProjectCard";
-import { ReactComponent as Timer } from "../../assets/images/timer.svg";
-import { ReactComponent as MedKit } from "../../assets/images/medkit.svg";
-import { ReactComponent as Award } from "../../assets/images/award.svg";
-import { useTranslation } from "react-i18next";
+import { Typography } from '@mui/material';
+import { motion } from 'framer-motion';
+import LatestProjectsCard from './LatestProjectCard';
+import { ReactComponent as Timer } from '../../assets/images/timer.svg';
+import { ReactComponent as MedKit } from '../../assets/images/medkit.svg';
+import { ReactComponent as Award } from '../../assets/images/award.svg';
+import { useTranslation } from 'react-i18next';
 
 const responsive = {
   desktop: {
@@ -435,26 +435,26 @@ export default function LatestProjects(props) {
             transition={{ duration: 1 }}
             className='ProjectsCompletedDiv'
           >
-            <div className='About_InfoLeft' style={{ position: "relative" }}>
+            <div className='About_InfoLeft' style={{ position: 'relative' }}>
               <Timer className='ProjectsCompleted_Timer' />
-              <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: "700" }}>
+              <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: '700' }}>
                 8+
               </Typography>
-              <Typography className='ProjectsCompleted_H'>{t("Years of Excellence")}</Typography>
+              <Typography className='ProjectsCompleted_H'>{t('Years of Excellence')}</Typography>
             </div>
-            <div className='About_InfoCenter' style={{ position: "relative" }}>
+            <div className='About_InfoCenter' style={{ position: 'relative' }}>
               <MedKit className='ProjectsCompleted_MedKit' />
-              <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: "700" }}>
+              <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: '700' }}>
                 85+
               </Typography>
-              <Typography className='ProjectsCompleted_H'>{t("Project Completed")}</Typography>
+              <Typography className='ProjectsCompleted_H'>{t('Project Completed')}</Typography>
             </div>
-            <div className='About_InfoRight' style={{ position: "relative" }}>
+            <div className='About_InfoRight' style={{ position: 'relative' }}>
               <Award className='ProjectsCompleted_Award' />
-              <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: "700" }}>
+              <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: '700' }}>
                 60+
               </Typography>
-              <Typography className='ProjectsCompleted_H'>{t("Customer Satisfied")}</Typography>
+              <Typography className='ProjectsCompleted_H'>{t('Customer Satisfied')}</Typography>
             </div>
           </motion.div>
         )}

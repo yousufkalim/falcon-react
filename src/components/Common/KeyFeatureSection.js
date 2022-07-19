@@ -1,15 +1,15 @@
 // Init
-import { Grid, Typography } from "@mui/material";
-import React from "react";
-import SectionHeader from "./SectionHeader";
-import KeyFeatures from "./KeyFeatures";
-import keyIcon5 from "../../assets/images/keyIcon5.svg";
-import keyIcon1 from "../../assets/images/keyIcon1.svg";
-import keyIcon2 from "../../assets/images/keyIcon2.svg";
-import keyIcon3 from "../../assets/images/keyIcon3.svg";
-import keyIcon4 from "../../assets/images/keyIcon4.svg";
-import keyIcon6 from "../../assets/images/keyIcon6.svg";
-import { motion } from "framer-motion";
+import { Grid, Typography } from '@mui/material';
+import React from 'react';
+import SectionHeader from './SectionHeader';
+import KeyFeatures from './KeyFeatures';
+import keyIcon5 from '../../assets/images/keyIcon5.svg';
+import keyIcon1 from '../../assets/images/keyIcon1.svg';
+import keyIcon2 from '../../assets/images/keyIcon2.svg';
+import keyIcon3 from '../../assets/images/keyIcon3.svg';
+import keyIcon4 from '../../assets/images/keyIcon4.svg';
+import keyIcon6 from '../../assets/images/keyIcon6.svg';
+import { motion } from 'framer-motion';
 // Importing Components
 
 // Home Component
@@ -17,16 +17,16 @@ export default function KeyFeatureSection(props) {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "column",
+        display: 'flex',
+        flexDirection: 'column',
         // alignItems: "center",
-        justifyContent: "center",
-        backgroundColor: "#F8F8F8",
+        justifyContent: 'center',
+        backgroundColor: '#F8F8F8',
       }}
     >
       <SectionHeader
-        h2="Key features"
-        decription="This sounds simple, but it is beneficial to your business success."
+        h2='Key features'
+        decription='This sounds simple, but it is beneficial to your business success.'
         colorDesp
       />
       <motion.div
@@ -35,62 +35,62 @@ export default function KeyFeatureSection(props) {
         transition={{ duration: 1 }}
         viewport={{ once: true }}
         style={{
-          width: "100%",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          margin: "4% 0%",
+          width: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          margin: '4% 0%',
         }}
       >
-        <Grid container spacing={1} sx={{ width: "85%" }}>
+        <Grid container spacing={1} sx={{ width: '85%' }}>
           <Grid xs={12} sm={6} md={4}>
             <KeyFeatures
               src={keyIcon5}
-              title="SMOOTH COMMUNICATION"
-              desp="Many of these business ideas are home-based. While they may not make you a billionaire."
+              title='SMOOTH COMMUNICATION'
+              desp='Many of these business ideas are home-based. While they may not make you a billionaire.'
             />
           </Grid>
           <Grid xs={12} sm={6} md={4}>
             <KeyFeatures
               src={keyIcon1}
-              title="TECHNOLOGIES"
-              desp="Many of these business ideas are home-based. While they may not make you a billionaire."
+              title='TECHNOLOGIES'
+              desp='Many of these business ideas are home-based. While they may not make you a billionaire.'
             />
           </Grid>
           <Grid xs={12} sm={6} md={4}>
             <KeyFeatures
               src={keyIcon2}
-              title="In-House Team"
-              desp="Many of these business ideas are home-based. While they may not make you a billionaire."
+              title='IN-HOUSE TEAM'
+              desp='Many of these business ideas are home-based. While they may not make you a billionaire.'
             />
           </Grid>
           <Grid xs={12} sm={6} md={4}>
             {props.UxKey ? (
               <KeyFeatures
                 src={keyIcon3}
-                title="UX RESEARCH"
-                desp="Many of these business ideas are home-based. While they may not make you a billionaire."
+                title='UX RESEARCH'
+                desp='Many of these business ideas are home-based. While they may not make you a billionaire.'
               />
             ) : (
               <KeyFeatures
                 src={keyIcon3}
-                title="Product Development"
-                desp="Many of these business ideas are home-based. While they may not make you a billionaire."
+                title='PRODUCT DEVELOPMENT'
+                desp='Many of these business ideas are home-based. While they may not make you a billionaire.'
               />
             )}
           </Grid>
           <Grid xs={12} sm={6} md={4}>
             <KeyFeatures
               src={keyIcon4}
-              title="FULL FLEXIBILITY"
-              desp="Many of these business ideas are home-based. While they may not make you a billionaire."
+              title='FULL FLEXIBILITY'
+              desp='Many of these business ideas are home-based. While they may not make you a billionaire.'
             />
           </Grid>
           <Grid xs={12} sm={6} md={4}>
             <KeyFeatures
               src={keyIcon6}
-              title="USER-FOCUSED PROCESS"
-              desp="Many of these business ideas are home-based. While they may not make you a billionaire."
+              title='USER-FOCUSED PROCESS'
+              desp='Many of these business ideas are home-based. While they may not make you a billionaire.'
             />
           </Grid>
         </Grid>
