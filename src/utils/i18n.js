@@ -39,6 +39,11 @@ i18n
           'Years of Excellence': 'Years of Excellence',
           'Project Completed': 'Project Completed',
           'Customer Satisfied': 'Customer Satisfied',
+          'We Use our own and third-party cookies to personalize content and to analyze web traffic.':
+            'We Use our own and third-party cookies to personalize content and to analyze web traffic.',
+          'Read more about cookies': 'Read more about cookies',
+          Agree: 'Agree',
+          Decline: 'Decline',
 
           //   aboutus Section
           'your work is our priority': 'your work is our priority',
@@ -854,6 +859,11 @@ i18n
           'MOBILE APP DEVELOPMENT': "DÉVELOPPEMENT D'APPLICATIONS MOBILES",
           'APP UI DESIGN': "CONCEPTION DE L'UI DE L'APPLICATION",
           'COLOR THEME': 'THÈME DE COULEUR',
+          'We Use our own and third-party cookies to personalize content and to analyze web traffic.':
+            'Nous utilisons nos propres cookies et ceux de tiers pour personnaliser le contenu et analyser le trafic Web.',
+          'Read more about cookies': 'En savoir plus sur les cookies',
+          Agree: 'Accepter',
+          Decline: 'Déclin',
 
           //Home
           // Home_Header
