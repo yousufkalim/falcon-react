@@ -43,15 +43,7 @@ export default function Sindoor() {
       />
       <DetailOverview
         // desp
-        desp='Marriage app connecting user and vendors
-        Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding.
-        The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.
-        There are three type of users on APP
-        User Interface (the user who create the event, send virtually invites and schedule event timeline)
-        Vendor Interface (The one who is service provider)
-        Guest Interface ( the guest can see Event timeline, table Management, Sharing photos, and send messages on App)
-        The vendors will be caterers, photographers, videographers, Wedding venue. The user hire the vendors for their Events or look for the co-organizer who can manage all the event. The user can create event and send virtually invites to guest. Able to invite people through E-Mail.
-        '
+        desp='Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
         // location
         titleTheme='#E45A5A'
         AvatarSrc={Kidcab_Avatar}
