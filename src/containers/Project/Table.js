@@ -1,31 +1,31 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import Table_Header from "../../assets/images/table_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_Table from "../../assets/images/ov_table.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
-import BG_Logo from "../../assets/images/table_lite_logo.png";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import Table_Header from '../../assets/images/table_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_Table from '../../assets/images/ov_table.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
+import BG_Logo from '../../assets/images/table_lite_logo.png';
 
-import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import Table_Demo from "../../assets/images/table_demo.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import RealEstate_Design1 from "../../assets/images/realestate_design1.png";
-import RealEstate_Design2 from "../../assets/images/realestate_design2.png";
-import RealEstate_Design3 from "../../assets/images/realestate_design3.png";
+import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import Table_Demo from '../../assets/images/table_demo.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import RealEstate_Design1 from '../../assets/images/realestate_design1.png';
+import RealEstate_Design2 from '../../assets/images/realestate_design2.png';
+import RealEstate_Design3 from '../../assets/images/realestate_design3.png';
 
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import RealEstate_Theme1 from "../../assets/images/realestate_theme1.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import Table_Logo from "../../assets/images/detail_table_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import Table_AppDesign from "../../assets/images/table_appdesign.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Footer from "../../components/Common/Footer";
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import RealEstate_Theme1 from '../../assets/images/realestate_theme1.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import Table_Logo from '../../assets/images/detail_table_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import Table_AppDesign from '../../assets/images/table_appdesign.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function Table() {
@@ -39,11 +39,18 @@ export default function Table() {
         typoBG='#D60000'
         HeaderImg={Table_Header}
         title='@Table'
-        subTitle='What is @Table'
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        subTitle='@Table'
+        description='MediaPipe offers cross-platform, customizable ML solutions for live and streaming media'
       />
       <DetailOverview
         // desp
+        desp="This project consists of two apps one is for the restaurant and other is for the end user.
+        A-Table:
+        A-Table is a Mobile Application that allows restaurant to accept and manage orders placed by app users and clients in restaurant. Mobile app for customers to view the restaurant's dishes and place an online order and in the restaurant.
+        A-Table user side:
+        There are two ways to use the app:
+        - Either the client is in a restaurant, and he seats down at a table. There will be QR codes available on the tables, and once the user does scan them, it opens automatically the app (if it is already installed), and the user has two options: he can go to the menu of the restaurant, see the dishes, and place the order through the app (in-app payment). He can also chat with his assigned waiter; and ask him anything needed : glass of water, clean the table, etc...
+        - Either the client is looking for a restaurant. In this case, he can search for a specific dish in the Home page. The app will show the popular dishes around him (geolocation). He has the possibility to filter his search: specific type of food, specific restaurant, etc...The filter is working with tags, that can be added or removed."
         // location
         titleTheme='#D60000'
         AvatarSrc={Kidcab_Avatar}

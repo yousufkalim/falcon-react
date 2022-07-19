@@ -15,15 +15,15 @@ import KeyFeatureSection from "../../components/Common/KeyFeatureSection";
 // Home Component
 export default function SoftwareDev() {
   return (
-    <div className="Services_SoftwareContainer">
+    <div className='Services_SoftwareContainer'>
       <NavBar />
       <Header
-        Title="SOFTWARE DEVELOPMENT "
-        Titlecolor="#003B7E"
-        DespColor="#003B7E"
-        Description="We are ready to handle your ambitious projects!"
+        Title='SOFTWARE DEVELOPMENT'
+        Titlecolor='#003B7E'
+        DespColor='#003B7E'
+        Description='We are ready to handle your ambitious projects!'
         btn
-        btnText="Get This Service"
+        btnText='Get This Service'
         ImgSrc={SoftwareDevImg}
       />
       <KeyFeatureSection />

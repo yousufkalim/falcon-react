@@ -28,7 +28,7 @@ export default function BlogHeader() {
           className='BlogHeaderTypo'
           sx={{
             color: "#263238",
-            fontSize: ".8rem",
+            fontSize: "1rem",
             fontWeight: "500",
             width: "35%",
             margin: ".5% 0%",
@@ -40,9 +40,9 @@ export default function BlogHeader() {
           className='BlogHeaderTypo'
           sx={{
             color: "#263238",
-            fontSize: ".7rem",
+            fontSize: ".9rem",
             fontWeight: "400",
-            width: "20%",
+            width: "30%",
           }}
         >
           {t(

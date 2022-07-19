@@ -73,13 +73,17 @@
 }
 .InfoDiv h2{
     color:#003B7E;
-    
     font-family: Montserrat !important;
 }
 .InfoDiv p{
-    font-size: 70%;
+    width: 160px;
+    font-size: .9rem;
     color:#003B7E;
+    font-family: Montserrat !important;
     /* margin-top: 2%; */
+}
+.About_MobInfo{
+    display: none;
 }
 @media only screen and (max-width: 1366px) {
     .InfoDiv{
@@ -92,6 +96,10 @@
     .InfoDiv img{
         width: 70%;
     
+    }
+    .InfoDiv p{
+        width: 130px;
+        font-size: .8rem;
     }
 }
 @media only screen and (max-width: 992px) {
@@ -108,9 +116,12 @@
     }
     .InfoDiv h2{
     font-size: 1rem;
+    margin: 3% 0;
     }
+  
     .InfoDiv p{
-        font-size: .6rem;
+        width: 100px;
+        font-size: .7rem;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -125,14 +136,33 @@
         width: 60%;
 
     }
+    .InfoDiv p{
+        width: 90px;
+        font-size: .6rem;
+    }
 }
 @media only screen and (max-width: 600px) {
+    .About_MobInfo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
     .InfoDiv{
-        height: 120px;
-         width: 120px;
+        height: 150px;
+         width: 150px;
      }
      .InfoImg{
         height:50px;
+    }
+    .InfoDiv h2{
+        font-size: 1.2rem;
+        margin: 3% 0;
+    }
+    .InfoDiv p{
+        width: 130px;
+            font-size: .7rem;
+            font-weight: 500;
     }
     .AboutSectionDiv{
         display: flex !important;
@@ -143,6 +173,7 @@
     }
 
     .AboutTopGrid{
+        display: none;
         margin-left: 0%;
         justify-content: center;
     }
@@ -153,24 +184,36 @@
     }
     .AboutbottomGrid{
 
+        display: none;
         justify-content: center;
     }
     .AboutTypo{
         text-align: left;
     
     }
+    .AboutImg {
+        display: flex;
+        justify-content: center;
+    }
     .AboutImg img{
-        width: 100%;
-        margin-top: 5%;
+       
+        width: 80%;
     }
     }
 
     @media only screen and (max-width: 400px) {
         .InfoDiv{
-            height: 90px;
-             width: 90px;
+            height: 120px;
+             width: 120px;
          }
          .InfoImg{
             height:30px;
         }
+        .InfoDiv h2{
+            margin: 5% 0;
+            }
+            .InfoDiv p{
+                width: 100px;
+                font-size: .6rem;
+            }
         }

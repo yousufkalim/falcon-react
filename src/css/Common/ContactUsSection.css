@@ -197,6 +197,10 @@ input:focus ,textarea:focus{
 .ReCAPTCHA_DIV{
     margin: 2.5%;
 }
+.ContactForm_InputDiv{
+    display: flex;
+     width: 100%;
+ }
 @media only screen and (max-width: 1366px) {
 
 .RobotDiv{
@@ -254,6 +258,12 @@ input:focus ,textarea:focus{
 }
 }
 @media only screen and (max-width: 600px) {
+    .ContactForm{
+        margin:3% 0;
+        }
+    .ContactForm_InputDiv{
+        flex-direction: column;
+    }
     .SocialMediaIcons{
         width: 15%;
     }
@@ -264,17 +274,18 @@ input:focus ,textarea:focus{
         margin: 5% 0%;
     }
     .InputField{
-        font-size: .7rem;
-        margin: 2%;
+        font-size: 1rem;
+        margin: 1%;
     }
     .textField{
-        font-size: .7rem;
-        height: 17vh;
+        font-size: 1rem;
+        height: 30vh;
         margin: 2%;
-        width: 95%;
+        padding: 4%;
+        width: 90%;
     }
     .ContactUsBtn{
-        margin-left: 15%;
+        margin-left: 18%;
         border: none;
     font-size: 1em;
     border-radius: 5px;

@@ -15,16 +15,15 @@ import DeveloperWorkProcess from "../../components/Common/DeveloperWorkProcess";
 // Home Component
 export default function OnDemandDev() {
   return (
-    <div className="Services_DemandContainer">
+    <div className='Services_DemandContainer'>
       <NavBar />
       <Header
-        Titlecolor="#003B7E"
-        DespColor="#003B7E"
-        Title="Skilled Developers for your Projects"
-        Description="Are you in need of developers for short of long term tasks ? 
-        Our all-inclusive approach will allow you to get the best match !"
+        Titlecolor='#003B7E'
+        DespColor='#003B7E'
+        Title='Skilled Developers for your Projects'
+        Description='Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !'
         btn
-        btnText="More information"
+        btnText='More information'
         ImgSrc={DemandDevImg}
       />
       <OurDevelopers />

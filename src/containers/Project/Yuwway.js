@@ -1,30 +1,30 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import Yuwway_Header from "../../assets/images/yuwway_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_Yuwway from "../../assets/images/ov_yuwway.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import Yuwway_Header from '../../assets/images/yuwway_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_Yuwway from '../../assets/images/ov_yuwway.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
 
-import QB_Avatar from "../../assets/images/overview_quadraAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import Yuwway_Demo from "../../assets/images/yuwway_demo.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import Yuwway_Design1 from "../../assets/images/yuwway_design1.png";
-import Yuwway_Design2 from "../../assets/images/yuwway_design2.png";
-import Yuwway_Design3 from "../../assets/images/yuwway_design3.png";
+import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import Yuwway_Demo from '../../assets/images/yuwway_demo.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import Yuwway_Design1 from '../../assets/images/yuwway_design1.png';
+import Yuwway_Design2 from '../../assets/images/yuwway_design2.png';
+import Yuwway_Design3 from '../../assets/images/yuwway_design3.png';
 
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import QB_Theme from "../../assets/images/detail_qb_theme.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import Yuwway_Logo from "../../assets/images/detail_yuwway_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import Yuwway_AppDesign from "../../assets/images/yuwway_appdesign.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Footer from "../../components/Common/Footer";
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import QB_Theme from '../../assets/images/detail_qb_theme.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import Yuwway_Logo from '../../assets/images/detail_yuwway_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import Yuwway_AppDesign from '../../assets/images/yuwway_appdesign.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function Yuwway() {
@@ -37,12 +37,13 @@ export default function Yuwway() {
         typoBG='#0073BB'
         HeaderImg={Yuwway_Header}
         title='Yuwway'
-        subTitle='What is Yuwway'
+        subTitle='Yuwway'
         // iconTheme="#9D3C64"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        description="Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs."
       />
       <DetailOverview
         titleTheme='#0073BB'
+        desp="Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs. Bringing together a large number of the most important carriers, Yuwway makes it possible to provide the keys to the market to the consumer who can choose, both qualitatively and in terms of price, the offer that best suits him."
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#0073BB'

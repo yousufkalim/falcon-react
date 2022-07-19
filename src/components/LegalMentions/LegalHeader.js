@@ -6,17 +6,15 @@ export default function LegalHeader(props) {
   const { i18n, t } = useTranslation();
   return (
     <>
-      <div className="LegalMention_HeaderContainer">
-        <div className="LegalMention_HeaderDiv">
-          <div className="LegalMention_HeaderTitleDiv">
+      <div className='LegalMention_HeaderContainer'>
+        <div className='LegalMention_HeaderDiv'>
+          <div className='LegalMention_HeaderTitleDiv'>
             <div>
               <img src={Legal_Icon} />
             </div>
-            <Typography className="LegalMention_HeaderTitle">
-              {t("Legal Mentions")}
-            </Typography>
+            <Typography className='LegalMention_HeaderTitle'>{t("Legal Mentions")}</Typography>
           </div>
-          <div className="LegalMention_HeaderDespDiv">
+          {/* <div className="LegalMention_HeaderDespDiv">
             <Typography className="LegalMention_HeaderDesp_H">
               {t("Definitions")}
             </Typography>
@@ -47,7 +45,7 @@ export default function LegalHeader(props) {
               data have the meaning defined by the General Regulations on Data
               Protection RGPD: n ° 2016-679
             </Typography>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

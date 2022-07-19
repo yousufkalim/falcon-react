@@ -78,7 +78,7 @@
     border-radius: 5%;
     background: #FCFCFC;
     box-shadow: 0px 7px 20px rgba(124, 167, 250, 0.4);
-    height: 85%;
+    height: 47%;
     width: 100%;
     margin-top: 20px;
     transition: .5s ease-in-out;
@@ -91,9 +91,19 @@
 } 
 .ReviewSection_Carousel{
     overflow-x: scroll;
+
+}
+.react-stacked-center-carousel {
+    height: 350px !important;
 }
 /* ::-moz-selection { background: transparent; } */
-
+.ReviewCard_Container{
+        user-select: none;
+        max-width: 400px;
+        min-width: 200px;
+        height: 550px;
+        border-radius: 15;
+}
 @media only screen and (max-width: 1200px) {
     .ReviewCard{
         height: 80%;
@@ -119,4 +129,16 @@
         margin-top: 60px;
     }
 }
+/* @media only screen and (max-width: 520px) {
+    .ReviewCard_Container{
+        max-width: 400px;
+        min-width: 300px;
+        height: 550px;
+}
+.ReviewSection_Carousel{
+    overflow-x: scroll;
+    width: 100% !important;
+    
+}
+} */
   

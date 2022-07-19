@@ -1,54 +1,60 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import Register_Header from "../../assets/images/register_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_Register from "../../assets/images/ov_register.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import Register_Header from '../../assets/images/register_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_Register from '../../assets/images/ov_register.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
 
-import QB_Avatar from "../../assets/images/overview_quadraAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import Register_Demo from "../../assets/images/register_demo.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import Register_Design1 from "../../assets/images/register_design1.png";
-import Register_Design2 from "../../assets/images/register_design2.png";
-import Register_Design3 from "../../assets/images/register_design3.png";
+import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import Register_Demo from '../../assets/images/register_demo.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import Register_Design1 from '../../assets/images/register_design1.png';
+import Register_Design2 from '../../assets/images/register_design2.png';
+import Register_Design3 from '../../assets/images/register_design3.png';
 
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import Register_WebDev from "../../assets/images/register_webdev.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import Yuwway_Logo from "../../assets/images/detail_yuwway_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import Yuwway_AppDesign from "../../assets/images/yuwway_appdesign.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Facility_Theme from "../../assets/images/facility_theme.png";
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import Register_WebDev from '../../assets/images/register_webdev.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import Yuwway_Logo from '../../assets/images/detail_yuwway_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import Yuwway_AppDesign from '../../assets/images/yuwway_appdesign.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Facility_Theme from '../../assets/images/facility_theme.png';
 
-import Footer from "../../components/Common/Footer";
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function RegisterRH() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
-        background="#000000B8"
-        bottomBG="#142E68"
-        typoBG="#142E68"
+        background='#000000B8'
+        bottomBG='#142E68'
+        typoBG='#142E68'
         HeaderImg={Register_Header}
-        title="Register-RH"
-        subTitle="What is Register-RH"
+        title='Register-RH'
+        subTitle='Register-RH'
         // iconTheme="#9D3C64"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        description='This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
       />
       <DetailOverview
-        titleTheme="#142E68"
+        desp='A complete HR Register application offering 3 mandatory social registers for companies:
+        Staff Register
+        Risk Assessment Documents
+        Security check logs
+        This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.
+        Risk Management records all the documents related to the risks that a company faces. Making it easier to manage. It helps keep check and balance over all the risks and provides information about the person in charge and who to talk with regarding that risk'
+        titleTheme='#142E68'
         // desp=""
         AvatarSrc={QB_Avatar}
-        nameColor="#142E68"
-        name="Ukhano"
+        nameColor='#142E68'
+        name='Ukhano'
         // location="France"
         src={OV_Register}
       />
@@ -56,9 +62,9 @@ export default function RegisterRH() {
         // app
         web
         // both
-        titleTheme="#142E68"
-        borderColor="#42C2FF"
-        circleTheme="#142E68"
+        titleTheme='#142E68'
+        borderColor='#42C2FF'
+        circleTheme='#142E68'
       />
 
       <DetailDemo
@@ -66,15 +72,15 @@ export default function RegisterRH() {
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
-        titleColor="#142E68"
-        title="Register-RH"
-        btnTheme="#142E68"
-        theme="#142E68"
+        titleColor='#142E68'
+        title='Register-RH'
+        btnTheme='#142E68'
+        theme='#142E68'
         src={Register_Demo}
       />
       <DetailDesign
-        titleTheme="#142E68"
-        title="UI DESIGN"
+        titleTheme='#142E68'
+        title='UI DESIGN'
         // overlap
         // TopImg={Register_Design1}
         // MidImg={Register_Design2}
@@ -98,14 +104,14 @@ export default function RegisterRH() {
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
         fullscreen
-        title="COLOR THEME AND DESIGN"
-        titleTheme="#142E68"
+        title='COLOR THEME AND DESIGN'
+        titleTheme='#142E68'
         // desp
-        Theme1="#142E68"
-        Theme2="#42C2FF"
-        Theme3="#FFFFFF"
-        Theme4="#191A1F"
-        Theme5="linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #7A7A7A"
+        Theme1='#142E68'
+        Theme2='#42C2FF'
+        Theme3='#FFFFFF'
+        Theme4='#191A1F'
+        Theme5='linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #7A7A7A'
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
@@ -113,20 +119,20 @@ export default function RegisterRH() {
       />
       {/* <DetailLogo theme="#0073BB" src={Yuwway_Logo} /> */}
       <DetailAppDev
-        title="WEB DEVELOPMENT"
+        title='WEB DEVELOPMENT'
         // desp
         fullImg={Register_WebDev}
-        titleTheme="#142E68"
+        titleTheme='#142E68'
         // halfImg={Yuwway_AppDesign}
       />
       <DetailFeedback
-        titleTheme="#0086EF"
-        despTheme="#282828"
+        titleTheme='#0086EF'
+        despTheme='#282828'
         // desp
         // location
-        ThemeBG="#fffff"
+        ThemeBG='#fffff'
         // AvatarSrc={Kidcab_Avatar}
-        name="Ukhano"
+        name='Ukhano'
       />
       <Footer />
     </div>

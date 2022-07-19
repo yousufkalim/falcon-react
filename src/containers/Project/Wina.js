@@ -1,34 +1,34 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import Wina_Header from "../../assets/images/wina_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_Wina from "../../assets/images/ov_wina.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import Wina_Header from '../../assets/images/wina_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_Wina from '../../assets/images/ov_wina.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
 
-import QB_Avatar from "../../assets/images/overview_quadraAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import Wina_Demo from "../../assets/images/wina_demo.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import Yuwway_Design1 from "../../assets/images/yuwway_design1.png";
-import Yuwway_Design2 from "../../assets/images/yuwway_design2.png";
-import Yuwway_Design3 from "../../assets/images/yuwway_design3.png";
+import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import Wina_Demo from '../../assets/images/wina_demo.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import Yuwway_Design1 from '../../assets/images/yuwway_design1.png';
+import Yuwway_Design2 from '../../assets/images/yuwway_design2.png';
+import Yuwway_Design3 from '../../assets/images/yuwway_design3.png';
 
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import Firemen_Theme from "../../assets/images/firemen_theme.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import Wina_Logo from "../../assets/images/detail_wina_logo_new.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import Wina_AppDesign from "../../assets/images/wina_appdesign.png";
-import Wina_WebDesign from "../../assets/images/wina_webdesign.png";
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import Firemen_Theme from '../../assets/images/firemen_theme.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import Wina_Logo from '../../assets/images/detail_wina_logo_new.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import Wina_AppDesign from '../../assets/images/wina_appdesign.png';
+import Wina_WebDesign from '../../assets/images/wina_webdesign.png';
 
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Facility_Theme from "../../assets/images/facility_theme.png";
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Facility_Theme from '../../assets/images/facility_theme.png';
 
-import Footer from "../../components/Common/Footer";
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function Wina() {
@@ -41,12 +41,13 @@ export default function Wina() {
         typoBG='#2A5AA6'
         HeaderImg={Wina_Header}
         title='Wina'
-        subTitle='What is Wina'
+        subTitle='Wina'
         // iconTheme="#9D3C64"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        description='Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. '
       />
       <DetailOverview
         titleTheme='#2A5AA6'
+        desp='Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. A matching algorithm, based on several criteria, automatically calculates a percentage of compatibility between a student and a job offer.  The matching process is similarly done as with the Tinder application. Once the matching is done, a calendar allows the student to book an interview session with the company. The platform automatically retrieves (scrapes) all offers from reference websites in France, and add them to Winaa’s database. Companies have a full dashboard allowing them to manage their offers, see the potential matches and accept the interview sessions.'
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#2A5AA6'

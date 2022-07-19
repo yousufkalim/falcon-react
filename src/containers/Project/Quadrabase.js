@@ -37,12 +37,13 @@ export default function Quadrabase() {
         typoBG="#9D3C64EB"
         HeaderImg={QuadraHeader}
         title="Quadrabase."
-        subTitle="What is Quadrabase"
+        subTitle="Quadrabase"
         iconTheme="#9D3C64"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        description="Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details."
       />
       <DetailOverview
         titleTheme="#FF8616"
+        desp="Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details. Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details. Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. This project is ambitious and aims to revolutionize the approach to design in the field of construction in France."
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor="#9D3C64"
@@ -50,12 +51,7 @@ export default function Quadrabase() {
         // location="France"
         src={OV_Quadra}
       />
-      <DetailService
-        web
-        titleTheme="#FF8616"
-        borderColor="#FF8616"
-        circleTheme="#9D3C64"
-      />
+      <DetailService web titleTheme="#FF8616" borderColor="#FF8616" circleTheme="#9D3C64" />
 
       <DetailDemo
         titleColor="#FF8616"
@@ -92,11 +88,7 @@ export default function Quadrabase() {
         src={QB_Theme}
       />
       <DetailLogo theme="#9D3C64" src={QB_Logo} />
-      <DetailAppDev
-        title="WEB DESIGN"
-        titleTheme="#FF8616"
-        fullImg={QB_Design}
-      />
+      <DetailAppDev title="WEB DESIGN" titleTheme="#FF8616" fullImg={QB_Design} />
       <DetailFeedback
         ThemeBG="#9D3C64"
         // titleTheme=""
