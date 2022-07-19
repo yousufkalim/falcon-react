@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "falconconsulting-demo"
+  },
+  "targets": {
+    "falconconsulting-demo": {
+      "hosting": {
+        "dev": [
+          "falconconsulting-demo"
+        ],
+        "prod": [
+          "falconconsulting-prod"
+        ]
+      }
+    }
   }
 }

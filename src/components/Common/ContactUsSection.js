@@ -24,7 +24,11 @@ export default function ContactUsSection(props) {
           console.log(error.text);
         }
       );
-    toast.success("Form Submitted");
+    toast.success(
+      t(
+        "Thank you, the information has been submitted successfully. We will come back to you shortly."
+      )
+    );
   };
   function onChange(value) {
     console.log("Captcha value:", value);
@@ -47,7 +51,7 @@ export default function ContactUsSection(props) {
             <Grid container spacing={1} className='ContactContainerGrid'>
               <Grid container sm={8} md={6} className='ContactFormGrid'>
                 <form onSubmit={sendEmail} className='ContactForm'>
-                  <div style={{ display: "flex", width: "100%" }}>
+                  <div className='ContactForm_InputDiv'>
                     <Grid className='InputGrid' xs={12} sm={6}>
                       <input
                         required
@@ -67,7 +71,7 @@ export default function ContactUsSection(props) {
                       />
                     </Grid>
                   </div>
-                  <div style={{ display: "flex" }}>
+                  <div className='ContactForm_InputDiv'>
                     <Grid className='InputGrid' xs={12} sm={6}>
                       <input
                         required
@@ -147,8 +151,7 @@ export default function ContactUsSection(props) {
               h2='Share Your Project/Idea with us!'
               colorH2='#fff'
               colorDesp='#F8F8F8'
-              decription='Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? 
-              Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours. '
+              decription='Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.'
             />
           </div>
           <div className='ContactSectionGrid'>
@@ -188,7 +191,7 @@ export default function ContactUsSection(props) {
               </Grid>
               <Grid container xs={12} sm={8} md={6} className='FormGrid'>
                 <form onSubmit={sendEmail} className='ContactForm'>
-                  <div style={{ display: "flex", width: "100%" }}>
+                  <div className='ContactForm_InputDiv'>
                     <Grid xs={12} sm={6}>
                       <input
                         required
@@ -208,7 +211,7 @@ export default function ContactUsSection(props) {
                       />
                     </Grid>
                   </div>
-                  <div style={{ display: "flex" }}>
+                  <div className='ContactForm_InputDiv'>
                     <Grid xs={12} sm={6}>
                       <input
                         required

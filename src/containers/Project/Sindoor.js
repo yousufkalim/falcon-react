@@ -39,10 +39,19 @@ export default function Sindoor() {
         HeaderImg={Sindoor_Header}
         title='Sindoor'
         subTitle='What is Sindoor'
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        description='Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
       />
       <DetailOverview
         // desp
+        desp='Marriage app connecting user and vendors
+        Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding.
+        The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.
+        There are three type of users on APP
+        User Interface (the user who create the event, send virtually invites and schedule event timeline)
+        Vendor Interface (The one who is service provider)
+        Guest Interface ( the guest can see Event timeline, table Management, Sharing photos, and send messages on App)
+        The vendors will be caterers, photographers, videographers, Wedding venue. The user hire the vendors for their Events or look for the co-organizer who can manage all the event. The user can create event and send virtually invites to guest. Able to invite people through E-Mail.
+        '
         // location
         titleTheme='#E45A5A'
         AvatarSrc={Kidcab_Avatar}

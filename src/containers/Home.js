@@ -37,36 +37,25 @@ export default function Home() {
           whileInView={{ y: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="CookieBanner_Container"
+          className='CookieBanner_Container'
         >
-          <div className="CookieBanner_Div">
-            <div className="CookieBanner_TypoDiv">
-              <Typography
-                sx={{ fontWeight: "500" }}
-                className="CookieBanner_desp"
-              >
-                We Use our own and third-party cookies to personalize content
-                and to analyze web traffic.
+          <div className='CookieBanner_Div'>
+            <div className='CookieBanner_TypoDiv'>
+              <Typography sx={{ fontWeight: "500" }} className='CookieBanner_desp'>
+                We Use our own and third-party cookies to personalize content and to analyze web
+                traffic.
               </Typography>
-              <Typography className="CookieBanner_Link">
-                <Link style={{ color: "#003B7E" }} to="/legalmentions">
+              <Typography className='CookieBanner_Link'>
+                <Link style={{ color: "#003B7E" }} to='/legalmentions'>
                   Read more about cookies
                 </Link>
               </Typography>
             </div>
-            <div className="CookieBanner_BtnDiv">
-              <Button
-                onClick={handleClose}
-                className="CookieBanner_AgreeBtn"
-                variant="contained"
-              >
+            <div className='CookieBanner_BtnDiv'>
+              <Button onClick={handleClose} className='CookieBanner_AgreeBtn' variant='contained'>
                 Agree
               </Button>
-              <Button
-                onClick={handleClose}
-                className="CookieBanner_DeclineBtn"
-                variant="outlined"
-              >
+              <Button onClick={handleClose} className='CookieBanner_DeclineBtn' variant='outlined'>
                 Decline
               </Button>
             </div>
@@ -75,13 +64,13 @@ export default function Home() {
       )}
 
       <div className={open === "true" && "CookieBanner_DullScreen"}>
-        <div className="HomeContainer">
+        <div className='HomeContainer'>
           <NavBar />
           <Header
-            Title="WE PROVIDE GREAT SERVICES AT THE BEST PRICE."
-            Description="Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners. "
+            Title='WE PROVIDE GREAT SERVICES AT THE BEST PRICE.'
+            Description='Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners. '
             btn
-            btnText="GET A FREE QUOTE"
+            btnText='GET A FREE QUOTE'
             chatIcons
           />
           <ServiceProvided />

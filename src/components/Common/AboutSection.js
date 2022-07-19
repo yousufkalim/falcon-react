@@ -5,7 +5,7 @@ import InfoBox from "./InfoBox";
 import AboutImg from "../../assets/images/about_section.svg";
 import AboutInfo2 from "../../assets/images/aboutSec_2.svg";
 import AboutInfo3 from "../../assets/images/aboutSec_3.svg";
-import AboutInfo4 from "../../assets/images/aboutSec_4.svg";
+import AboutInfo4 from "../../assets/images/officeicon.svg";
 import AboutInfo5 from "../../assets/images/aboutSec_5.svg";
 import AboutInfo6 from "../../assets/images/aboutSec_6.svg";
 import { motion } from "framer-motion";
@@ -15,16 +15,16 @@ export default function AboutSection() {
   const { i18n, t } = useTranslation();
   return (
     <>
-      <div className="AboutSectionDiv">
+      <div className='AboutSectionDiv'>
         <SectionHeader
           LeftSectionHeader={true}
-          colorH2="#0F52BA"
-          width="7%"
-          h1="your work is our priority"
-          h2="Why choose Falcon Consulting?"
+          colorH2='#0F52BA'
+          width='7%'
+          h1='your work is our priority'
+          h2='Why choose Falcon Consulting?'
           // decription="This sounds simple, but it is beneficial to your business success."
         />
-        <div className="AboutSectionLower">
+        <div className='AboutSectionLower'>
           <Grid container spacing={1}>
             <Grid xs={12}>
               <motion.div
@@ -32,29 +32,45 @@ export default function AboutSection() {
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
                 viewport={{ once: true }}
-                className="AboutTopGrid"
+                className='About_MobInfo'
               >
-                <InfoBox number="8" title="Years of Excellence" />
-                <InfoBox
-                  src={AboutInfo2}
-                  number="65"
-                  title="Number of Employees"
-                />
-                <InfoBox
-                  src={AboutInfo3}
-                  number="85"
-                  title="Successfull Projects"
-                />
+                <div style={{ display: "flex" }}>
+                  <InfoBox number='8' title='Years of Excellence' />
+                  <InfoBox src={AboutInfo2} number='65' title='Number of Employees' />
+                </div>
+                <div style={{ display: "flex" }}>
+                  <InfoBox src={AboutInfo3} number='85' title='Successfull Projects' />
+                  <InfoBox src={AboutInfo4} number='4' title='Number of Offices' />
+                </div>
+                <div style={{ display: "flex" }}>
+                  <InfoBox src={AboutInfo5} number='20' title='External Tools Built' />
+                  <InfoBox
+                    src={AboutInfo6}
+                    number='100%'
+                    title='Improvement and Customer focused'
+                  />
+                </div>
+              </motion.div>
+              <motion.div
+                initial={{ y: 100, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1 }}
+                viewport={{ once: true }}
+                className='AboutTopGrid'
+              >
+                <InfoBox number='8' title='Years of Excellence' />
+                <InfoBox src={AboutInfo2} number='65' title='Number of Employees' />
+                <InfoBox src={AboutInfo3} number='85' title='Successfull Projects' />
               </motion.div>
             </Grid>
-            <Grid container sm={12} className="AboutBottomMain">
+            <Grid container sm={12} className='AboutBottomMain'>
               <Grid sm={6}>
                 <motion.div
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   transition={{ duration: 2 }}
                   viewport={{ once: true }}
-                  className="AboutImg"
+                  className='AboutImg'
                 >
                   <img src={AboutImg} />
                 </motion.div>
@@ -65,25 +81,19 @@ export default function AboutSection() {
                   whileInView={{ y: 0, opacity: 1 }}
                   transition={{ duration: 1 }}
                   viewport={{ once: true }}
-                  className="AboutbottomGrid"
+                  className='AboutbottomGrid'
                 >
-                  <InfoBox
-                    src={AboutInfo4}
-                    number="4"
-                    title="Number of Offices"
-                  />
-                  <InfoBox
-                    src={AboutInfo5}
-                    number="20"
-                    title="External Tools Built"
-                  />
+                  <InfoBox src={AboutInfo4} number='4' title='Number of Offices'>
+                    {/* <AboutInfo4 opacity='.8' /> */}
+                  </InfoBox>
+                  <InfoBox src={AboutInfo5} number='20' title='External Tools Built' />
                   <InfoBox
                     src={AboutInfo6}
-                    number="100%"
-                    title="Improvement and Customer focused"
+                    number='100%'
+                    title='Improvement and Customer focused'
                   />
                 </motion.div>
-                <div className="AboutTypo">
+                <div className='AboutTypo'>
                   <motion.div
                     initial={{ y: 100, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
@@ -97,9 +107,7 @@ export default function AboutSection() {
                         color: "#003B7E",
                       }}
                     >
-                      {t(
-                        "We believe that talent and skills do not have borders"
-                      )}
+                      {t("We believe that talent and skills do not have borders")}
                     </Typography>
                     <Typography
                       sx={{
@@ -113,9 +121,7 @@ export default function AboutSection() {
                       )}
                     </Typography>
                     <a href={`/about`}>
-                      <button className="AboutSectionBtn">
-                        {t("READ MORE")}
-                      </button>
+                      <button className='AboutSectionBtn'>{t("READ MORE")}</button>
                     </a>
                   </motion.div>
                 </div>

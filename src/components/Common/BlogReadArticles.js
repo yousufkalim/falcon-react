@@ -35,7 +35,7 @@ export default function BlogReadArticles(props) {
                   {t(props.title || "Manager une équipe en télétravail")}
                 </Typography>
                 <Typography className='BlogReadDate'>
-                  {t("Published on")} {t(props.PublishDate || "Wed Oct 06 2021")}
+                  {t("Published on")} {t(props.PublishDate || "June 13th 2022")}
                 </Typography>
                 <Typography className='BlogReadPara'>
                   {/* {t(props.text)} */}
@@ -71,7 +71,7 @@ export default function BlogReadArticles(props) {
                   {t(props.title || "Manager une équipe en télétravail")}
                 </Typography>
                 <Typography className='BlogReadDate'>
-                  {t("Published on")} {t(props.PublishDate || "Wed Oct 06 2021")}
+                  {t("Published on")} {t(props.PublishDate || "June 13th 2022")}
                 </Typography>
                 <Typography className='BlogReadPara'>
                   {t(desp?.length > 250 ? desp.slice(0, 250) + "..." : desp)}

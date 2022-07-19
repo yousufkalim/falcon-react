@@ -29,7 +29,6 @@ import Excellence from '../containers/Project/Excellence';
 import Table from '../containers/Project/Table';
 import Sindoor from '../containers/Project/Sindoor';
 import Zypzap from '../containers/Project/Zypzap';
-
 import Yuwway from '../containers/Project/Yuwway';
 import FacilityManagement from '../containers/Project/FacilityManagement';
 import Firemen from '../containers/Project/Firemen';
@@ -37,6 +36,7 @@ import Wina from '../containers/Project/Wina';
 import Orientator from '../containers/Project/Orientator';
 import RegisterRH from '../containers/Project/RegisterRH';
 import Policy from '../containers/Policy/Policy.js';
+
 
 const index = () => {
   return (
@@ -71,12 +71,12 @@ const index = () => {
       <Route exact path="/ourprojects/sindoor" component={Sindoor} />
       <Route exact path="/ourprojects/zypzap" component={Zypzap} />
 
-      <Route exact path="/ourprojects/yuwway" component={Yuwway} />
-      <Route exact path="/ourprojects/facilitymanagement" component={FacilityManagement} />
-      <Route exact path="/ourprojects/firemen" component={Firemen} />
-      <Route exact path="/ourprojects/wina" component={Wina} />
-      <Route exact path="/ourprojects/orientator" component={Orientator} />
-      <Route exact path="/ourprojects/registerrh" component={RegisterRH} />
+      <Route exact path='/ourprojects/yuwway' component={Yuwway} />
+      <Route exact path='/ourprojects/facilitymanagement' component={FacilityManagement} />
+      <Route exact path='/ourprojects/fireman' component={Fireman} />
+      <Route exact path='/ourprojects/wina' component={Wina} />
+      <Route exact path='/ourprojects/orientator' component={Orientator} />
+      <Route exact path='/ourprojects/registerrh' component={RegisterRH} />
     </Switch>
   );
 };

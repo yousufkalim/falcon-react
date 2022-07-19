@@ -22,7 +22,7 @@ export default function BlogReadMore(props) {
                 {t(props.title || "Managing a Remote Team")}
               </Typography>
               <Typography className='BlogReadMore_Date'>
-                {t("Published on")} {t(props.PublishDate || "Wed Oct 06 2021")}
+                {t("Published on")} {t(props.PublishDate || "June 13th 2022")}
               </Typography>
             </div>
             <div className='BlogReadMore_DespDiv'>
@@ -35,7 +35,7 @@ export default function BlogReadMore(props) {
                 <Link to='/businesswebsite'>
                   <BlogCard
                     src={props.sideBlog1 || BlogImg2}
-                    date='November 25, 2022'
+                    date='June 13th 2022'
                     title='Why having a business website is necessary ?'
                   />
                 </Link>
@@ -44,17 +44,10 @@ export default function BlogReadMore(props) {
                 <Link to='/remoteteam'>
                   <BlogCard
                     src={props.sideBlog2 || BlogImg1}
-                    date='November 25, 2022'
+                    date='June 13th 2022'
                     title='Managing a Remote Team'
                   />
                 </Link>
-              </div>
-              <div className='BlogReadMore_CardsDiv'>
-                <BlogCard
-                  src={props.sideBlog1 || BlogRead}
-                  date='November 25, 2022'
-                  title='A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021'
-                />
               </div>
             </div>
           </Grid>

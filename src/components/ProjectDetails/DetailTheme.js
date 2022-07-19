@@ -10,37 +10,35 @@ import theme3 from "../../assets/images/ezbox_theme3.png";
 import Divider from "@mui/material/Divider";
 import { Avatar } from "@mui/material";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 // Component
 export default function DetailTheme(props) {
+  const { i18n, t } = useTranslation();
   return (
     <>
-      <div className="DetailTheme_Container">
+      <div className='DetailTheme_Container'>
         <div>
-          <div className="DetailTheme_TitleDiv">
-            <Divider
-              className="DetailTheme_TitleDivider"
-              color={props.titleTheme || "#11A283"}
-            />
-            <Typography
-              className="DetailTheme_Title"
-              color={props.titleTheme || "#11A283"}
-            >
+          <div className='DetailTheme_TitleDiv'>
+            <Divider className='DetailTheme_TitleDivider' color={props.titleTheme || "#11A283"} />
+            <Typography className='DetailTheme_Title' color={props.titleTheme || "#11A283"}>
               {props.title || "COLOR THEME & ILLUSTRATION"}
             </Typography>
           </div>
-          <div className="DetailTheme_DespDiv">
-            <Typography className="DetailTheme_Desp">
-              {props.desp ||
-                "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but becaus"}
+          <div className='DetailTheme_DespDiv'>
+            <Typography className='DetailTheme_Desp'>
+              {t(
+                props.desp ||
+                  "Colors Schemes – Making UI feel more natural. This is why the usage of the right color palettes is essential to make the app more attractive. Some colors look better with another. This is why color schemes were created. They help designers to find the right hue for the remaining ones."
+              )}
             </Typography>
           </div>
         </div>
-        <div className="DetailTheme_BoxContainer">
-          <div className="DetailTheme_BoxDiv">
+        <div className='DetailTheme_BoxContainer'>
+          <div className='DetailTheme_BoxDiv'>
             {props.Theme1 && (
               <div
-                className="DetailTheme_Box"
+                className='DetailTheme_Box'
                 style={{
                   background: props.Theme1 ? props.Theme1 : "#FFA333",
                 }}
@@ -48,7 +46,7 @@ export default function DetailTheme(props) {
             )}
             {props.Theme2 && (
               <div
-                className="DetailTheme_Box"
+                className='DetailTheme_Box'
                 style={{
                   background: props.Theme1 ? props.Theme2 : "#11A283",
                 }}
@@ -56,7 +54,7 @@ export default function DetailTheme(props) {
             )}
             {props.Theme3 && (
               <div
-                className="DetailTheme_Box"
+                className='DetailTheme_Box'
                 style={{
                   background: props.Theme1 ? props.Theme3 : "#00654F",
                 }}
@@ -64,7 +62,7 @@ export default function DetailTheme(props) {
             )}
             {props.Theme4 && (
               <div
-                className="DetailTheme_Box"
+                className='DetailTheme_Box'
                 style={{
                   background: props.Theme1 ? props.Theme4 : "#454238",
                 }}
@@ -72,7 +70,7 @@ export default function DetailTheme(props) {
             )}
             {props.Theme5 && (
               <div
-                className="DetailTheme_Box"
+                className='DetailTheme_Box'
                 style={{
                   background: props.Theme1 ? props.Theme5 : "#F6FAFB",
                 }}
@@ -80,7 +78,7 @@ export default function DetailTheme(props) {
             )}
             {props.Theme6 && (
               <div
-                className="DetailTheme_Box"
+                className='DetailTheme_Box'
                 style={{
                   background: props.Theme1 ? props.Theme6 : "#C8CFD0",
                 }}
@@ -88,7 +86,7 @@ export default function DetailTheme(props) {
             )}
             {props.Theme7 && (
               <div
-                className="DetailTheme_Box"
+                className='DetailTheme_Box'
                 style={{
                   background: props.Theme1 ? props.Theme7 : "#C8CFD0",
                 }}
@@ -122,18 +120,14 @@ export default function DetailTheme(props) {
         </div>
       )}
       {props.overlap && (
-        <div
-          style={{ width: "100%", display: "flex", justifyContent: "flex-end" }}
-        >
+        <div style={{ width: "100%", display: "flex", justifyContent: "flex-end" }}>
           <div style={{ width: "50%", margin: "0 5% -3% 0" }}>
             <img style={{ width: "100%" }} src={props.src} />
           </div>
         </div>
       )}
       {props.inline && (
-        <div
-          style={{ width: "100%", display: "flex", justifyContent: "flex-end" }}
-        >
+        <div style={{ width: "100%", display: "flex", justifyContent: "flex-end" }}>
           <div style={{ width: "30%", margin: "-15% 5% 0 0" }}>
             <img style={{ width: "100%" }} src={props.src} />
           </div>

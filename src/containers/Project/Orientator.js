@@ -43,10 +43,16 @@ export default function Orientator() {
         title='Orientator'
         subTitle='What is Orientator'
         // iconTheme="#9D3C64"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        description='Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.'
       />
       <DetailOverview
         titleTheme='#FF29AA'
+        desp="Orientator is a web application that allows high school students to make their 
+        best career choice, after filling out an online and customized questionnaire. 
+        The questionnaire is presented as a decision tree, with discriminating and non-
+        discriminating questions, helping to understand the user profile. 
+        At the end of the questionnaire, a complex algorithm generates a list of post-
+        baccalaureate programs and schools that best match the student's profile. This  algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers."
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='FF29AA'

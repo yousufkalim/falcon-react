@@ -110,7 +110,7 @@ opacity: 1;
 .HoverDivBtnDark{
     width: 45%;
     margin-bottom: 10%;
-    padding:5% 3%;
+    /* padding:5% 3%; */
     border-radius: 10px;
     border: none;
     background-color: #47B9B4;
@@ -120,7 +120,7 @@ opacity: 1;
         color: #003B7E;
         font-weight: 700;
         font-family: Raleway;
-        padding: 2% 3%;
+        /* padding: 2% 3%; */
 }
 .Awesome_Slider{
     height: 40vh;
@@ -253,65 +253,72 @@ top: -80%;
 
 @media only screen and (max-width: 600px) {
 
+    /* .ProjectsCompletedDiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #003B7E;
+        width: 90%;
+        padding: 4% 15%;
+        border-radius: 15px;
+        margin: 5%;
+    } */
 .ProjectsCompletedDiv{
-    padding: 5% 10%;
+    flex-direction: column;
+    width: 30%;
+    padding: 7% 0;
+    /* height: 40vh; */
+}
+.About_InfoLeft{
+    margin-top: 5%;
+}
+.About_InfoCenter{
+    margin: 15% 0;
+}
+.About_InfoRight{
+    margin-bottom: 5%;
+}
+.ProjectsCompleted_Timer{
+    width: 30%;
+    top: -80%;
+    left: 12%;
+}
+.ProjectsCompleted_MedKit{
+width: 35%;
+top: -60%;
+left: 5%;
+}
+.ProjectsCompleted_Award{
+width: 30%;
+top: -90%;
+left: 10%;
 }
 .HoverDivBtnDark{
     width: 70% !important;
 }
+/* .ProjectsCompleted_Num{
+    font-size: 1.5rem !important;
+}
+.ProjectsCompleted_H{
+    font-size: .7rem !important;
+    width: 100%;
+} */
 
 }
 @media only screen and (max-width: 480px) {
-
-.ProjectsCompleted_H{
-        font-size: .5rem !important;
-}
-
-.ProjectsCompleted_Timer{
-    top: -90%;
-}
-.ProjectsCompleted_MedKit{
-    left:3%;
-}
-.ProjectsCompleted_Award{
-top: -90%;
-left: 15%;
-}
-
+    .ProjectsCompletedDiv{
+        width: 50%;
+    }
 } 
 @media only screen and (max-width: 400px) {
-
-    .ProjectsCompleted_H{
-            font-size: 8px !important;
+    .ProjectsCompletedDiv{
+        width: 60%;
     }
-    
-    .ProjectsCompleted_Timer{
-        top: -90%;
-    }
-    .ProjectsCompleted_MedKit{
-        left:3%;
-    }
-    .ProjectsCompleted_Award{
-    top: -90%;
-    left: 4%;
-    }
-    
     } 
     @media only screen and (max-width: 330px) {
-
-        .ProjectsCompleted_H{
-                font-size: 8px !important;
-        }
-        
-        .ProjectsCompleted_Timer{
-            top: -75%;
-        }
-        .ProjectsCompleted_MedKit{
-            left:3%;
-        }
-        .ProjectsCompleted_Award{
-        top: -80%;
-        left: 10%;
+        .ProjectsCompletedDiv{
+            width: 60%;
+            height: 45vh;
         }
         
         } 

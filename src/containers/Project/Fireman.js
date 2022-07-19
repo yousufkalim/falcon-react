@@ -29,7 +29,7 @@ import Facility_Theme from "../../assets/images/facility_theme.png";
 import Footer from "../../components/Common/Footer";
 
 // Home Component
-export default function Firemen() {
+export default function Fireman() {
   return (
     <div className='Permispop_Container'>
       <NavBar ContactUs />
@@ -39,12 +39,19 @@ export default function Firemen() {
         typoBG='#3675B7'
         HeaderImg={Firemen_Header}
         title='Firemen'
-        subTitle='What is Firemen'
+        subTitle='What is Fireman'
         // iconTheme="#9D3C64"
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        description='Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:'
       />
       <DetailOverview
         titleTheme='#282828'
+        desp='Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:
+        [Establishment Creation,
+        File Creation,
+         Checklist,
+       Team Management,
+       Phone Book,
+       Admin Panel]'
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#3675B7'

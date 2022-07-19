@@ -42,10 +42,11 @@ export default function EZbox() {
         HeaderImg={EZbox_Header}
         title='EZbox Media'
         subTitle='What is EZbox Media'
-        desp="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        description='EZBox media is a platform providing different services'
       />
       <DetailOverview
         // desp
+        desp='EZBox media is a platform providing different services. Advertising by understanding how a user can react to the advertisement shown to them. Target ads based on non-personal criteria. EZBox media helps Product development for the next generation products with the wide variety of technologies available today. EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions.'
         // location
         titleTheme='#454238'
         AvatarSrc={Kidcab_Avatar}

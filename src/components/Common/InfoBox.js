@@ -5,8 +5,8 @@ export default function InfoBox(props) {
   const { i18n, t } = useTranslation();
   return (
     <>
-      <div className="InfoDiv">
-        <div className="InfoImg">
+      <div className='InfoDiv'>
+        <div className='InfoImg'>
           <img src={props.src || Info1} />
         </div>
         <h2>{props.number}</h2>
