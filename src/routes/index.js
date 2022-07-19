@@ -31,7 +31,7 @@ import Sindoor from '../containers/Project/Sindoor';
 import Zypzap from '../containers/Project/Zypzap';
 import Yuwway from '../containers/Project/Yuwway';
 import FacilityManagement from '../containers/Project/FacilityManagement';
-import Fireman from '../containers/Project/Firemen';
+import Fireman from '../containers/Project/Fireman';
 import Wina from '../containers/Project/Wina';
 import Orientator from '../containers/Project/Orientator';
 import RegisterRH from '../containers/Project/RegisterRH';
