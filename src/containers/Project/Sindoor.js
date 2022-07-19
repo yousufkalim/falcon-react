@@ -56,7 +56,7 @@ export default function Sindoor() {
         titleTheme='#E45A5A'
         AvatarSrc={Kidcab_Avatar}
         nameColor='#E45A5A'
-        name='Rahul Karan'
+        name='Muzammal Chaudhry'
         src={OV_Sindoor}
       />
       <DetailService
@@ -133,7 +133,7 @@ export default function Sindoor() {
         // location
         ThemeBG='#E45A5A'
         AvatarSrc={Kidcab_Avatar}
-        name='Rahul Karan'
+        name='Muzammal Chaudhry'
       />
       <Footer />
     </div>

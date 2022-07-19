@@ -51,7 +51,7 @@ export default function Telehealth() {
         titleTheme='#FBA622'
         // AvatarSrc={Kidcab_Avatar}
         nameColor='#FBA622'
-        // name="Eassa Awake"
+        name='Confidential'
         src={OV_Telehealth}
       />
       <DetailService
@@ -66,6 +66,7 @@ export default function Telehealth() {
       />
 
       <DetailDemo
+        to='https://screnr-ui.web.app/'
         // desp
         // btnText
         DetailDemo_SquareDiv
@@ -129,7 +130,7 @@ export default function Telehealth() {
         // location
         ThemeBG='#FBA622'
         // AvatarSrc={Kidcab_Avatar}
-        // name="Eassa Awake"
+        name='Confidential'
       />
       <Footer />
     </div>

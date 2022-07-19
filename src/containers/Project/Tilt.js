@@ -48,7 +48,7 @@ export default function Tilt() {
         desp='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order. The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience. On the restaurant side, it is possible to create and manage a customized menu, see all the incoming orders, and change their status. On the delivery side, the application the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications.'
         AvatarSrc={QB_Avatar}
         nameColor='#D3014A'
-        // name="Dylan Field"
+        name='Laurent Louis-Henry'
         // location="France"
         src={OV_Tilt}
       />
@@ -63,6 +63,7 @@ export default function Tilt() {
       />
 
       <DetailDemo
+        to='https://tilt-entreprise.com/'
         // desp
         // btnText
         // DetailDemo_SquareDiv

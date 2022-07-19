@@ -1,31 +1,31 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import OrgaPlan_Header from "../../assets/images/orgaplan_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_OrgaPlan from "../../assets/images/ov_orgaplan.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
-import BG_Logo from "../../assets/images/orgaplan_lite_logo.png";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import OrgaPlan_Header from '../../assets/images/orgaplan_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_OrgaPlan from '../../assets/images/ov_orgaplan.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
+import BG_Logo from '../../assets/images/orgaplan_lite_logo.png';
 
-import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import OrgaPlan_Demo from "../../assets/images/orgaplan_demo_new.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import OrgaPlan_Design1 from "../../assets/images/orgaplan_design1.png";
-import OrgaPlan_Design2 from "../../assets/images/orgaplan_design2.png";
-import OrgaPlan_Design3 from "../../assets/images/orgaplan_design3.png";
+import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import OrgaPlan_Demo from '../../assets/images/orgaplan_demo_new.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import OrgaPlan_Design1 from '../../assets/images/orgaplan_design1.png';
+import OrgaPlan_Design2 from '../../assets/images/orgaplan_design2.png';
+import OrgaPlan_Design3 from '../../assets/images/orgaplan_design3.png';
 
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import OrgaPlan_Theme from "../../assets/images/orgaplan_theme.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import OrgaPlan_Logo from "../../assets/images/detail_orgaplan_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import OrgaPlan_WebDesign from "../../assets/images/orgaplan_webdesign.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Footer from "../../components/Common/Footer";
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import OrgaPlan_Theme from '../../assets/images/orgaplan_theme.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import OrgaPlan_Logo from '../../assets/images/detail_orgaplan_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import OrgaPlan_WebDesign from '../../assets/images/orgaplan_webdesign.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function Orgaplan() {
@@ -48,8 +48,9 @@ export default function Orgaplan() {
         // location
         titleTheme="#282828"
         AvatarSrc={Kidcab_Avatar}
-        nameColor="#9D936D"
-        name="Ukhano"
+        nameColor='#9D936D'
+        name='Zaara Aziz'
+
         src={OV_OrgaPlan}
       />
       <DetailService
@@ -64,6 +65,7 @@ export default function Orgaplan() {
       />
 
       <DetailDemo
+        to='http://orgaplansa.com'
         // desp
         // btnText
         DetailDemo_SquareDiv
@@ -128,7 +130,8 @@ export default function Orgaplan() {
         // location
         ThemeBG="#ffffff"
         AvatarSrc={Kidcab_Avatar}
-        name="Ukhano"
+        name='Zaara Aziz'
+
       />
       <Footer />
     </div>

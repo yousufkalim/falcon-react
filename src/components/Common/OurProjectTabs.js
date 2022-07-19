@@ -851,9 +851,10 @@ export default function BasicTabs() {
         />
 
         <OurProjectCard
+          to='/ourprojects/table'
           src={PizzaBoli}
-          title='Pizza Boli'
-          description='MediaPipe offers cross-platform, customizable ML solutions for live and streaming media'
+          title='Table'
+          description='This project consists of two apps one is for the restaurant and other is for the end user.'
         />
 
         <OurProjectCard

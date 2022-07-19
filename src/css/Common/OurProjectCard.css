@@ -95,6 +95,9 @@
     .ProjectCardMain{
         margin:15% 0;
     }
+    .ProjectCardDesp{
+        font-size: 1rem !important;
+    }
 }
 /*  
 @media only screen and (max-width: 600px) {

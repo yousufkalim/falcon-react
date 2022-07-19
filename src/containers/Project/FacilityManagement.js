@@ -1,32 +1,32 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import Facility_Header from "../../assets/images/facility_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_Facility from "../../assets/images/ov_facility.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import Facility_Header from '../../assets/images/facility_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_Facility from '../../assets/images/ov_facility.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
 
-import QB_Avatar from "../../assets/images/overview_quadraAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import Facility_Demo from "../../assets/images/facility_demo_new.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import Facility_Design1 from "../../assets/images/facility_design1.png";
-import Facility_Design2 from "../../assets/images/facility_design2.png";
-import Facility_Design3 from "../../assets/images/facility_design3.png";
+import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import Facility_Demo from '../../assets/images/facility_demo_new.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import Facility_Design1 from '../../assets/images/facility_design1.png';
+import Facility_Design2 from '../../assets/images/facility_design2.png';
+import Facility_Design3 from '../../assets/images/facility_design3.png';
 
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import QB_Theme from "../../assets/images/detail_qb_theme.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import Yuwway_Logo from "../../assets/images/detail_yuwway_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import Yuwway_AppDesign from "../../assets/images/yuwway_appdesign.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Facility_Theme from "../../assets/images/facility_theme.png";
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import QB_Theme from '../../assets/images/detail_qb_theme.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import Yuwway_Logo from '../../assets/images/detail_yuwway_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import Yuwway_AppDesign from '../../assets/images/yuwway_appdesign.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Facility_Theme from '../../assets/images/facility_theme.png';
 
-import Footer from "../../components/Common/Footer";
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function FacilityManagement() {
@@ -48,8 +48,9 @@ export default function FacilityManagement() {
         desp="This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user. The employee user can create a ticket in the system, if he sees any issue in the office (example : the light is not working). The admin can then assign the ticket to a vendor"
         // desp=""
         AvatarSrc={QB_Avatar}
-        nameColor="#2F696D"
-        name="Ukhano"
+        nameColor='#2F696D'
+        name='Damien Dehoul'
+   
         // location="France"
         src={OV_Facility}
       />
@@ -127,7 +128,7 @@ export default function FacilityManagement() {
         // location
         ThemeBG="#ffffff"
         // AvatarSrc={Kidcab_Avatar}
-        // name="Ukhano"
+        name='Damien Dehoul'
       />
       <Footer />
     </div>

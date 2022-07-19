@@ -18,7 +18,12 @@ import Facility from '../../assets/images/facility_lp.png';
 import FacilityLogo from '../../assets/images/facility_logo_lp.svg';
 import Yuwway from '../../assets/images/yuwway_lp.png';
 import YuwwayLogo from '../../assets/images/yuwway_logo_lp.png';
-
+import TeleHealth from '../../assets/images/tele_lp.png';
+import Tele_logo from '../../assets/images/tele_logo.svg';
+import Table from '../../assets/images/table_lp.png';
+import TableLogo from '../../assets/images/table_logo_lp.png';
+import Barber from '../../assets/images/barber_lp.png';
+import BarberLogo from '../../assets/images/barbershop_logo_lp.png';
 import Excellence from '../../assets/images/excellence_lp.png';
 import ExcellenceLogo from '../../assets/images/excellence_logo_lp.svg';
 import Fnac from '../../assets/images/fnac_lp.png';
@@ -435,6 +440,34 @@ export default function LatestProjects(props) {
               Heading='Orientator'
               LogoSrc={OrientatorLogo}
             />
+            <LatestProjectsCard
+              hoverDesp='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
+              src={TeleHealth}
+              to='/ourprojects/telehealthplatform'
+              DividerTheme='#3399FE'
+              // btnBackground="#3399FE"
+              Heading='Tele Health'
+              LogoSrc={Tele_logo}
+            />
+            <LatestProjectsCard
+              hoverDesp='This project consists of two apps one is for the restaurant and other is for the end user.'
+              src={Table}
+              to='/ourprojects/table'
+              DividerTheme='#3399FE'
+              // btnBackground="#3399FE"
+              Heading='Table'
+              LogoSrc={TableLogo}
+            />
+            <LatestProjectsCard
+              hoverDesp='BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.'
+              para1='BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.'
+              src={Barber}
+              // to='/ourprojects/table'
+              DividerTheme='#3399FE'
+              // btnBackground="#3399FE"
+              Heading='Barber Shop'
+              LogoSrc={BarberLogo}
+            />
           </Carousel>
         </motion.div>
         {props.ProjectsSummary && (
@@ -463,7 +496,8 @@ export default function LatestProjects(props) {
               <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: '700' }}>
                 60+
               </Typography>
-              <Typography className='ProjectsCompleted_H'>{t('Customer Satisfied')}</Typography>
+              <Typography className='ProjectsCompleted_H'>{t('Clients Satisfied')}</Typography>
+
             </div>
           </motion.div>
         )}
