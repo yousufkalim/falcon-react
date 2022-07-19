@@ -11,6 +11,10 @@ import Client_7 from '../../assets/images/client_7.jpeg';
 import Client_8 from '../../assets/images/client_8.jpg';
 import Client_9 from '../../assets/images/client_9.jpg';
 import { StackedCarousel, ResponsiveContainer } from 'react-stacked-center-carousel';
+import Fab from '@mui/material/Fab';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+// import AcUnitIcon from '@mui/icons-material/AcUnit';
 
 export default function ReviewSection() {
   const ref = React.useRef();
@@ -122,6 +126,28 @@ export default function ReviewSection() {
                 );
               }}
             />
+            <>
+              <Fab
+                style={{ position: 'absolute', top: '40%', left: 10, zIndex: 10 }}
+                size='small'
+                color='primary'
+                onClick={() => {
+                  ref.current?.goBack();
+                }}
+              >
+                <ArrowBackIcon />
+              </Fab>
+              <Fab
+                style={{ position: 'absolute', top: '40%', right: 10, zIndex: 10 }}
+                size='small'
+                color='primary'
+                onClick={() => {
+                  ref.current?.goNext(6);
+                }}
+              >
+                <ArrowForwardIcon />
+              </Fab>
+            </>
             {/* <button style={{ border: "none", background: "none", fontSize: "40px", color: "#0F52BA", fontWeight: "600" }}>
               {">"}
             </button> */}
