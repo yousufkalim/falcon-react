@@ -1,28 +1,28 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import KidcabHeader from "../../assets/images/kidcabHeader.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_Kidcab from "../../assets/images/kidcab_overview.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
-import BG_Logo from "../../assets/images/kidcab_lite_logo.png";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import KidcabHeader from '../../assets/images/kidcabHeader.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_Kidcab from '../../assets/images/kidcab_overview.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
+import BG_Logo from '../../assets/images/kidcab_lite_logo.png';
 
-import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import KidCab_Demo from "../../assets/images/kidcab_demo_new.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import KidCab_Theme from "../../assets/images/kidcab_theme.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import Kidcab_Logo from "../../assets/images/detail_kidcab_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import KidCab_AppDesign from "../../assets/images/kidcab_appDesign_new.png";
-import KidCab_WebDesign from "../../assets/images/kidcab_webDesign_new.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Footer from "../../components/Common/Footer";
+import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import KidCab_Demo from '../../assets/images/kidcab_demo_new.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import KidCab_Theme from '../../assets/images/kidcab_theme.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import Kidcab_Logo from '../../assets/images/detail_kidcab_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import KidCab_AppDesign from '../../assets/images/kidcab_appDesign_new.png';
+import KidCab_WebDesign from '../../assets/images/kidcab_webDesign_new.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function Kidcab() {
@@ -36,12 +36,12 @@ export default function Kidcab() {
         typoBG='#18374E'
         HeaderImg={KidcabHeader}
         title='KidCab.'
-        subTitle='What is KidCab'
-        description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
+        subTitle='KidCab'
+        description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.'
       />
       <DetailOverview
         // desp
-        desp='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. '
+        desp='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs.'
         // location
         titleTheme='#4CB9B4'
         AvatarSrc={Kidcab_Avatar}
@@ -61,7 +61,7 @@ export default function Kidcab() {
       />
 
       <DetailDemo
-        // desp
+        desp='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities and safely monitor their location. For our partner, we developed two mobile applications and a Ride Management web application.The Driver mobile application allows them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features to Uber.The Parent’s mobile application shows the live location of the driver and allows to monitor all the past and upcoming rides.Finally, the Ride Management website is intended for Kidcab administrators to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created.'
         // btnText
         // DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
@@ -126,7 +126,7 @@ export default function Kidcab() {
       <DetailFeedback
         // titleTheme
         // despTheme
-        // desp
+        desp='Expertise and systematic approach to fulfilling client needs. I love the energy and excitement the Falcon IT team exhibits towards the success of my APP.'
         // location
         ThemeBG='#18374E'
         AvatarSrc={Kidcab_Avatar}

@@ -31,25 +31,25 @@ import Footer from "../../components/Common/Footer";
 // Home Component
 export default function FacilityManagement() {
   return (
-    <div className='Permispop_Container'>
+    <div className="Permispop_Container">
       <NavBar ContactUs />
       <DetailHeader
-        background='#282828'
-        bottomBG='#2F696D'
-        typoBG='#2F696D'
+        background="#282828"
+        bottomBG="#2F696D"
+        typoBG="#2F696D"
         HeaderImg={Facility_Header}
-        title='Facility Management'
-        subTitle='What is Facility Management'
+        title="Facility Management"
+        subTitle="Facility Management"
         // iconTheme="#9D3C64"
-        description='This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user.'
+        description="This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user."
       />
       <DetailOverview
-        titleTheme='#282828'
-        desp='This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user. The employee user can create a ticket in the system, if he sees any issue in the office (example : the light is not working). The admin can then assign the ticket to a vendor'
+        titleTheme="#282828"
+        desp="This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user. The employee user can create a ticket in the system, if he sees any issue in the office (example : the light is not working). The admin can then assign the ticket to a vendor"
         // desp=""
         AvatarSrc={QB_Avatar}
-        nameColor='#2F696D'
-        name='Ukhano'
+        nameColor="#2F696D"
+        name="Ukhano"
         // location="France"
         src={OV_Facility}
       />
@@ -57,9 +57,9 @@ export default function FacilityManagement() {
         // app
         web
         // both
-        titleTheme='#282828'
-        borderColor='#282828'
-        circleTheme='#2F696D'
+        titleTheme="#282828"
+        borderColor="#282828"
+        circleTheme="#2F696D"
       />
 
       <DetailDemo
@@ -67,15 +67,15 @@ export default function FacilityManagement() {
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
-        titleColor='#282828'
-        title='Facility Management'
-        btnTheme='#2F696D'
-        theme='#2F696D'
+        titleColor="#282828"
+        title="Facility Management"
+        btnTheme="#2F696D"
+        theme="#2F696D"
         src={Facility_Demo}
       />
       <DetailDesign
-        titleTheme='#2F696D'
-        title='UI DESIGN'
+        titleTheme="#2F696D"
+        title="UI DESIGN"
         // overlap
         // TopImg={Facility_Design1}
         // MidImg={Facility_Design2}
@@ -99,13 +99,13 @@ export default function FacilityManagement() {
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
         // fullscreen
-        title='COLOR THEME AND DESIGN'
-        titleTheme='#282828'
+        title="COLOR THEME AND DESIGN"
+        titleTheme="#282828"
         // desp
-        Theme1='#2F696D'
-        Theme2='#FAFAFA'
-        Theme3='#191A1F'
-        Theme4='#575961'
+        Theme1="#2F696D"
+        Theme2="#FAFAFA"
+        Theme3="#191A1F"
+        Theme4="#575961"
         // Theme5="#00000040"
         // Theme6=""
         // Theme7=""
@@ -114,18 +114,18 @@ export default function FacilityManagement() {
       />
       {/* <DetailLogo theme="#0073BB" src={Yuwway_Logo} /> */}
       <DetailAppDev
-        title='WEB DEVELOPMENT'
+        title="WEB DEVELOPMENT"
         // desp
         fullImg={Facility_Theme}
-        titleTheme='#282828'
+        titleTheme="#282828"
         // halfImg={Yuwway_AppDesign}
       />
       <DetailFeedback
-        titleTheme='#2F696D'
-        despTheme='#282828'
+        titleTheme="#2F696D"
+        despTheme="#282828"
         // desp
         // location
-        ThemeBG='#ffffff'
+        ThemeBG="#ffffff"
         // AvatarSrc={Kidcab_Avatar}
         // name="Ukhano"
       />

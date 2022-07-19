@@ -1,33 +1,33 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import EZbox_Header from "../../assets/images/ezbox_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_EZbox from "../../assets/images/ov_ezbox.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
-import BG_Logo from "../../assets/images/ezbox_lite_logo.png";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import EZbox_Header from '../../assets/images/ezbox_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_EZbox from '../../assets/images/ov_ezbox.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
+import BG_Logo from '../../assets/images/ezbox_lite_logo.png';
 
-import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import EZbox_Demo from "../../assets/images/ezbox_demo_new.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import EZbox_Design1 from "../../assets/images/ezbox_design1.png";
-import EZbox_Design2 from "../../assets/images/ezbox_design2.png";
-import EZbox_Design3 from "../../assets/images/ezbox_design3.png";
+import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import EZbox_Demo from '../../assets/images/ezbox_demo_new.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import EZbox_Design1 from '../../assets/images/ezbox_design1.png';
+import EZbox_Design2 from '../../assets/images/ezbox_design2.png';
+import EZbox_Design3 from '../../assets/images/ezbox_design3.png';
 
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import EZbox_Theme1 from "../../assets/images/ezbox_theme1.png";
-import EZbox_Theme2 from "../../assets/images/ezbox_theme2.png";
-import EZbox_Theme3 from "../../assets/images/ezbox_theme3.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import EZbox_Logo from "../../assets/images/detail_ezbox_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import EZbox_WebDesign from "../../assets/images/ezbox_webdesign.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Footer from "../../components/Common/Footer";
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import EZbox_Theme1 from '../../assets/images/ezbox_theme1.png';
+import EZbox_Theme2 from '../../assets/images/ezbox_theme2.png';
+import EZbox_Theme3 from '../../assets/images/ezbox_theme3.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import EZbox_Logo from '../../assets/images/detail_ezbox_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import EZbox_WebDesign from '../../assets/images/ezbox_webdesign.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function EZbox() {
@@ -41,7 +41,7 @@ export default function EZbox() {
         typoBG='#3399FE'
         HeaderImg={EZbox_Header}
         title='EZbox Media'
-        subTitle='What is EZbox Media'
+        subTitle='EZbox Media'
         description='EZBox media is a platform providing different services'
       />
       <DetailOverview
@@ -66,7 +66,7 @@ export default function EZbox() {
       />
 
       <DetailDemo
-        // desp
+        desp='EZBox media is a platform providing different services including Advertising Advertising by understanding how a user can react to the advertisement shown to them.Target ads based on non-personal criteria.EZBox media helps Product development for the next generation products with the wide variety of technologies available today.EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions.'
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
@@ -125,7 +125,7 @@ export default function EZbox() {
       <DetailFeedback
         // titleTheme
         // despTheme
-        // desp
+        desp='Falcon IT is a great company to work with as they are always responsive and willing to do what it takes to get the job done right and in a timely manner. They are very reliable and it was very clear during working that they are the right choice. Thank you, Falcon IT!'
         // location
         ThemeBG='#3399FE'
         AvatarSrc={Kidcab_Avatar}
