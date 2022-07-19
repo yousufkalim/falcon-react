@@ -252,6 +252,12 @@ top: -80%;
 }
 
 @media only screen and (max-width: 600px) {
+    .ProjectsCompleted_Num{
+        font-size: 1.3rem !important;
+}
+.ProjectsCompleted_H{
+        font-size: .9rem !important;
+}
 
     /* .ProjectsCompletedDiv{
         display: flex;
@@ -265,18 +271,18 @@ top: -80%;
     } */
 .ProjectsCompletedDiv{
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     padding: 7% 0;
     /* height: 40vh; */
 }
 .About_InfoLeft{
-    margin-top: 5%;
+    margin-top: 8%;
 }
 .About_InfoCenter{
-    margin: 15% 0;
+    margin: 16% 0;
 }
 .About_InfoRight{
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 .ProjectsCompleted_Timer{
     width: 30%;
@@ -306,19 +312,33 @@ left: 10%;
 
 }
 @media only screen and (max-width: 480px) {
+    .About_InfoLeft{
+        margin-top: 10%;
+    }
+    .About_InfoCenter{
+        margin: 20% 0;
+    }
+    .About_InfoRight{
+        margin-bottom: 10%;
+    }
+    .ProjectsCompleted_Num{
+        font-size: 1.3rem !important;
+}
+.ProjectsCompleted_H{
+        font-size: .8rem !important;
+}
     .ProjectsCompletedDiv{
-        width: 50%;
+        width: 60%;
     }
 } 
 @media only screen and (max-width: 400px) {
     .ProjectsCompletedDiv{
-        width: 60%;
+        width: 70%;
     }
     } 
     @media only screen and (max-width: 330px) {
         .ProjectsCompletedDiv{
-            width: 60%;
-            height: 45vh;
+            height: 55vh;
         }
         
         } 

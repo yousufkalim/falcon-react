@@ -11,7 +11,7 @@ export default function ReviewCard(props) {
 
   const [value, setValue] = React.useState(4);
 
-  let text = t(review);
+  // let text = review;
 
   return (
     <div className='ReviewCard_Container'>
@@ -61,7 +61,7 @@ export default function ReviewCard(props) {
             marginTop: '7%',
           }}
         >
-          {text?.length > 100 ? text?.slice(0, 100) + '...' : text}
+          {review?.length > 100 ? review?.slice(0, 100) + '...' : review}
           {/* {review} */}
         </Typography>
         {/* <Typography

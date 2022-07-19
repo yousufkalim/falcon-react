@@ -454,7 +454,7 @@ export default function LatestProjects(props) {
               <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: '700' }}>
                 60+
               </Typography>
-              <Typography className='ProjectsCompleted_H'>{t('Customer Satisfied')}</Typography>
+              <Typography className='ProjectsCompleted_H'>{t('Clients Satisfied')}</Typography>
             </div>
           </motion.div>
         )}

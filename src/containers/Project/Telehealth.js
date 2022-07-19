@@ -66,6 +66,7 @@ export default function Telehealth() {
       />
 
       <DetailDemo
+        to='https://screnr-ui.web.app/'
         // desp
         // btnText
         DetailDemo_SquareDiv
