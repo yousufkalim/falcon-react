@@ -1,5 +1,5 @@
 import { Grid, Typography } from '@mui/material';
-import React from 'react';
+import React, { useState } from 'react';
 import SectionHeader from './SectionHeader';
 import EmailIcon from '../../assets/images/emailIcon.svg';
 import CalendlyIcon from '../../assets/images/calendlyIcon.svg';
@@ -8,6 +8,8 @@ import { toast } from 'react-toastify';
 import { useTranslation } from 'react-i18next';
 export default function ContactUsSection(props) {
   const { t } = useTranslation();
+  const [number, setNumber] = useState();
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -17,7 +19,7 @@ export default function ContactUsSection(props) {
     const name = data.get('name');
     const email = data.get('email');
     const message = data.get('message');
-    const phone = data.get('phone');
+    const phone = number;
     const budget = data.get('budget');
     if (name === '') {
       toast.error(`${t("Name can't be blank")}`);
@@ -94,10 +96,20 @@ export default function ContactUsSection(props) {
                   <div className='ContactForm_InputDiv'>
                     <Grid className='InputGrid' xs={12} sm={6}>
                       <input
-                        type='number'
+                        type='text'
                         name='phone'
                         placeholder={t('Phone')}
                         className='InputField'
+                        value={number}
+                        onChange={(e) => {
+                          // check input using regex
+                          var regex = RegExp(/[0-9]+/g);
+                          const test_result = regex.test(e.target.value);
+
+                          if (test_result || e.target.value == '') {
+                            setNumber(e.target.value);
+                          }
+                        }}
                       />
                     </Grid>
                     <Grid className='InputGrid' xs={12} sm={6}>
