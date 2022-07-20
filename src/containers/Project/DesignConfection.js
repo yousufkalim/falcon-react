@@ -40,12 +40,12 @@ export default function DesignConfection() {
         HeaderImg={DesignConfectionHeader}
         title='Design Confection.'
         subTitle='Design Confection'
-        description='A web app designed to help customers with customized stitching to receive your creation at your home. '
+        description='A web app designed to help customers with customized stitching to receive your creation at your home.'
       />
       <DetailOverview
         // desp
         // location
-        desp='A web app designed to help customers with customized stitching to receive your creation at your home. User login to register and add information regarding customized dress like color combination, stuff design, etc. After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs. Choose your designer with 99% accuracy as design confection brings your ideas to life. '
+        desp='Design confection is a French-based project. It’s a platform for the tailors and clients for sewing services. Website developed on MERN and was completed from April 2022 to June 2022'
         titleTheme='#282828'
         AvatarSrc={Kidcab_Avatar}
         nameColor='#CC8E9C'

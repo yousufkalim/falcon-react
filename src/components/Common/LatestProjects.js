@@ -122,7 +122,7 @@ export default function LatestProjects(props) {
         >
           <Carousel
             className='SliderDiv'
-            // autoPlay={true}
+            autoPlay={true}
             responsive={responsive}
             transitionDuration={1000}
             slidesToSlide={1}

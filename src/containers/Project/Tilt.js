@@ -45,7 +45,7 @@ export default function Tilt() {
       />
       <DetailOverview
         titleTheme='#282828'
-        desp='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order. The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience. On the restaurant side, it is possible to create and manage a customized menu, see all the incoming orders, and change their status. On the delivery side, the application the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications.'
+        desp='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
         AvatarSrc={QB_Avatar}
         nameColor='#D3014A'
         name='Laurent Louis-Henry'
@@ -131,9 +131,7 @@ export default function Tilt() {
       <DetailFeedback
         // titleTheme="#9D936D"
         // despTheme="#282828"
-        desp='The client was happy with the work done, and he specially liked that as a non expert in IT, he told us what he 
-        wanted to achieve, and we always found the most efficient solution. Not only developers by experts, advising 
-        him on the best ways to build this platform'
+        desp='The client was happy with the work done, and he specially liked that as a non expert in IT, he told us what he wanted to achieve, and we always found the most efficient solution. Not only developers by experts, advising him on the best ways to build this platform'
         // location
         ThemeBG='#D3014A'
         // AvatarSrc={Kidcab_Avatar}
