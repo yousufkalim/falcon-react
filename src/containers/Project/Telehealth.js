@@ -46,7 +46,7 @@ export default function Telehealth() {
       />
       <DetailOverview
         // desp
-        desp='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not. The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results. '
+        desp='French based mobile application to analyze patient’s movement developed, project was completed in 4 months.'
         // location
         titleTheme='#FBA622'
         // AvatarSrc={Kidcab_Avatar}
@@ -67,7 +67,7 @@ export default function Telehealth() {
 
       <DetailDemo
         to='https://screnr-ui.web.app/'
-        // desp
+        desp='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc...). The program then analyzes the data based on internal rules and deduces whether the movements are abnormal or not.The detection of the movements is done with the help of a Media pipe and requires advanced knowledge in terms of image processing to ensure fluidity and accuracy of the final results.'
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
@@ -126,7 +126,7 @@ export default function Telehealth() {
       <DetailFeedback
         // titleTheme
         // despTheme
-        // desp
+        desp='Our dream has come true with the efforts of the Falcon team. Great app and they do it in a great manner.'
         // location
         ThemeBG='#FBA622'
         // AvatarSrc={Kidcab_Avatar}

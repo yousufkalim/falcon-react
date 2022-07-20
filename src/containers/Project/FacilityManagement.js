@@ -49,9 +49,7 @@ export default function FacilityManagement() {
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#2F696D'
-
         name='Damien Dehoul'
-   
         // location="France"
         src={OV_Facility}
       />
@@ -116,6 +114,7 @@ export default function FacilityManagement() {
       />
       {/* <DetailLogo theme="#0073BB" src={Yuwway_Logo} /> */}
       <DetailAppDev
+        website
         title='WEB DEVELOPMENT'
         // desp
         fullImg={Facility_Theme}

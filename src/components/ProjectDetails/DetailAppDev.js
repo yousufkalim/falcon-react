@@ -25,12 +25,22 @@ export default function DetailAppDev(props) {
             </Typography>
           </div>
           <div className='DetailAppDev_DespDiv'>
-            <Typography className='DetailAppDev_Desp'>
-              {t(
-                props.desp ||
-                  'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself actual teachings of the great explorer of the truth, the master-builder of human happiness.'
-              )}
-            </Typography>
+            {props.website && (
+              <Typography className='DetailAppDev_Desp'>
+                {t(
+                  props.desp ||
+                    'There are countless variations when it comes to different websites that can be incorporated into the design of a website. In general, the Falcon IT workflow define below. Web designers at Falcon IT often work with design software like Figma or AdobeXD etc. to create visually appealing user experiences. The team makes wireframes, mockups, design systems, color palettes, templates, and more to help developers build the product, and after UI /UX finalizing, the back-end developers focus on the infrastructure of a site or web application (hosting, security, etc), and our front-end developers focus on the functionality of the site/app. While the team of full-stack developers is working on both the front-end and back-end. The SQA team monitors all activities side by side to deliver the best to our clients.'
+                )}
+              </Typography>
+            )}
+            {props.application && (
+              <Typography className='DetailAppDev_Desp'>
+                {t(
+                  props.desp ||
+                    'Falcon’s app development process is divided into different servers to assure the quality of the App.After UI/ UX phase, different servers collaborate to complete the process. Development Server will be used by developers only for development purposes. QA Server Only used by the SQA team. Nothing will be updated on the QA server without QA approval. All the testing will be performed on this server. The Staging Server is also known as the Client’s server. So, this server will be accessible to the client the client will perform User Acceptance Testing on this server. Nothing will be updated on the Staging server without QA/CEO approval. When your project passed the QA server then the project will deploy on the staging server. Finally, the project is going live. Nothing should be uploaded on a live server without QA/Client/CEO approval. The project which is going live must be on the staging server previously.'
+                )}
+              </Typography>
+            )}
           </div>
         </div>
         {props.halfImg && (

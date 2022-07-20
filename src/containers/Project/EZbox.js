@@ -117,6 +117,7 @@ export default function EZbox() {
       />
       <DetailLogo theme='#454238' src={EZbox_Logo} />
       <DetailAppDev
+        website
         title='WEB DESIGN'
         // desp
         halfImg={EZbox_WebDesign}

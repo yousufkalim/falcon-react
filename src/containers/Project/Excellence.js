@@ -44,7 +44,8 @@ export default function Excellence() {
       <DetailOverview
         // desp
         // location
-        desp='Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
+        desp='In order to develop A French-based ready-to-wear store chain, its brand image, and its online activity, the company wanted to have an e-commerce site. The website was developed on .NET and was complete in 4 months from April 2022 to July 2022'
+
         titleTheme='#282828'
         AvatarSrc={Kidcab_Avatar}
         nameColor='#0086EF'
@@ -122,7 +123,8 @@ export default function Excellence() {
       <DetailFeedback
         titleTheme='#0086EF'
         despTheme='#282828'
-        // desp
+        desp='It is a distinct pleasure for me to recommend falcon IT to all interested parties.They have been professional, comprehensive, and competent throughout the process of working together. We have established a relationship with them for years to come.'
+
         // location
         ThemeBG='#ffffff'
         AvatarSrc={Kidcab_Avatar}

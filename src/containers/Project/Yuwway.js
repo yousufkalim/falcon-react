@@ -112,6 +112,7 @@ export default function Yuwway() {
       />
       <DetailLogo theme='#0073BB' src={Yuwway_Logo} />
       <DetailAppDev
+        application
         title='MOBILE APP DEVELOPMENT'
         // desp
         // fullImg={Yuwway_AppDesign}

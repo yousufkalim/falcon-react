@@ -49,9 +49,7 @@ export default function Fireman() {
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#3675B7'
-
         name='Ludovic Crepy'
-
         // location="France"
         src={OV_Firemen}
       />
@@ -117,6 +115,7 @@ export default function Fireman() {
       />
       {/* <DetailLogo theme="#0073BB" src={Yuwway_Logo} /> */}
       <DetailAppDev
+        website
         title='WEB DEVELOPMENT'
         // desp
         fullImg={Firemen_Theme}
@@ -132,7 +131,6 @@ export default function Fireman() {
         // AvatarSrc={Kidcab_Avatar}
 
         name='Ludovic Crepy'
-
       />
       <Footer />
     </div>

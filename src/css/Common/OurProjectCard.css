@@ -5,6 +5,9 @@
     /* width: 90%; */
     margin:3% 0;
 }
+.projectCardMob{
+    display: none;
+}
 .ProjectCardContainer1{
     display: flex;
     align-items: center;
@@ -97,6 +100,15 @@
     }
     .ProjectCardDesp{
         font-size: 1rem !important;
+    }
+    .projectCardWeb{
+        display: none;
+    }
+    .projectCardMob{
+        display: block;
+    }
+    .ProjectCardImg{
+        width: 350%;
     }
 }
 /*  
