@@ -45,7 +45,7 @@ export default function Zypzap() {
       />
       <DetailOverview
         titleTheme='#282828'
-        desp='ZypZap is a gaming platform by Falcon IT. It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.'
+        desp='A French-based gaming platform, developed with the front end on React and the backend on Node JS, and the whole project was completed in 10 months'
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='linear-gradient(269.14deg, #20BF55 0%, #25B058 0.01%, #522F6D 82.32%)'
@@ -64,6 +64,7 @@ export default function Zypzap() {
 
       <DetailDemo
         to='https://zypzap.com'
+        desp='ZypZap is a gaming platform by Falcon IT. It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.For learners, ZypZap helps them to become Pro players.Full gameplay courses are available on this site. For creators, gamers teach, what they are good at. Specifically, for the gamers who want to teach how to play and make familiar with the game content quickly.'
         // desp
         // btnText
         DetailDemo_SquareDiv
@@ -115,6 +116,7 @@ export default function Zypzap() {
       />
       {/* <DetailLogo theme="#0073BB" src={Yuwway_Logo} /> */}
       <DetailAppDev
+        website
         title='WEB DESIGN'
         // desp
         fullImg={Zypzap_WebDesign}
@@ -124,7 +126,7 @@ export default function Zypzap() {
       <DetailFeedback
         // titleTheme="#3675B7"
         // despTheme="#282828"
-        // desp
+        desp='Quick response to ideas and changes. Falcon always answers the right ways and ideas'
         // location
         ThemeBG='linear-gradient(261.67deg, #20BF55 -0.52%, #522F6D 65.51%)'
         // AvatarSrc={Kidcab_Avatar}

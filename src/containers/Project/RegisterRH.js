@@ -115,6 +115,7 @@ export default function RegisterRH() {
       />
       {/* <DetailLogo theme="#0073BB" src={Yuwway_Logo} /> */}
       <DetailAppDev
+        website
         title='WEB DEVELOPMENT'
         // desp
         fullImg={Register_WebDev}

@@ -1,63 +1,63 @@
 // Init
-import React from "react";
+import React from 'react';
 
 // Importing Components
-import NavBar from "../../components/Common/NavBar";
-import DetailHeader from "../../components/ProjectDetails/DetailHeader";
-import Excellence_Header from "../../assets/images/excellence_header.png";
-import DetailOverview from "../../components/ProjectDetails/DetailOverview";
-import OV_Excellence from "../../assets/images/ov_excellence.png";
-import DetailService from "../../components/ProjectDetails/DetailService";
+import NavBar from '../../components/Common/NavBar';
+import DetailHeader from '../../components/ProjectDetails/DetailHeader';
+import Excellence_Header from '../../assets/images/excellence_header.png';
+import DetailOverview from '../../components/ProjectDetails/DetailOverview';
+import OV_Excellence from '../../assets/images/ov_excellence.png';
+import DetailService from '../../components/ProjectDetails/DetailService';
 
-import Kidcab_Avatar from "../../assets/images/kidcabAvatar.png";
-import DetailDemo from "../../components/ProjectDetails/DetailDemo";
-import Excellence_Demo from "../../assets/images/excellence_demo.png";
-import DetailDesign from "../../components/ProjectDetails/DetailDesign";
-import OrgaPlan_Design1 from "../../assets/images/orgaplan_design1.png";
-import OrgaPlan_Design2 from "../../assets/images/orgaplan_design2.png";
-import OrgaPlan_Design3 from "../../assets/images/orgaplan_design3.png";
+import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
+import DetailDemo from '../../components/ProjectDetails/DetailDemo';
+import Excellence_Demo from '../../assets/images/excellence_demo.png';
+import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+import OrgaPlan_Design1 from '../../assets/images/orgaplan_design1.png';
+import OrgaPlan_Design2 from '../../assets/images/orgaplan_design2.png';
+import OrgaPlan_Design3 from '../../assets/images/orgaplan_design3.png';
 
-import DetailTheme from "../../components/ProjectDetails/DetailTheme";
-import Excellence_Theme from "../../assets/images/excellence_theme.png";
-import DetailLogo from "../../components/ProjectDetails/DetailLogo";
-import RealEstate_Logo from "../../assets/images/detail_realestate_logo.png";
-import DetailAppDev from "../../components/ProjectDetails/DetailAppDev";
-import OrgaPlan_WebDesign from "../../assets/images/orgaplan_webdesign.png";
-import DetailFeedback from "../../components/ProjectDetails/DetailFeedback";
-import Footer from "../../components/Common/Footer";
+import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import Excellence_Theme from '../../assets/images/excellence_theme.png';
+import DetailLogo from '../../components/ProjectDetails/DetailLogo';
+import RealEstate_Logo from '../../assets/images/detail_realestate_logo.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
+import OrgaPlan_WebDesign from '../../assets/images/orgaplan_webdesign.png';
+import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+import Footer from '../../components/Common/Footer';
 
 // Home Component
 export default function Excellence() {
   return (
-    <div className="Permispop_Container">
+    <div className='Permispop_Container'>
       <NavBar ContactUs />
       <DetailHeader
         // DividerBG
-        background="#282828"
-        bottomBG="#0086EF"
-        typoBG="#0086EF"
+        background='#282828'
+        bottomBG='#0086EF'
+        typoBG='#0086EF'
         HeaderImg={Excellence_Header}
-        title="Excellence ERP"
-        subTitle="Excellence ERP"
-        description="Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site."
+        title='Excellence ERP'
+        subTitle='Excellence ERP'
+        description='Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
       />
       <DetailOverview
         // desp
         // location
-        desp="Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site."
-        titleTheme="#282828"
+        desp='In order to develop A French-based ready-to-wear store chain, its brand image, and its online activity, the company wanted to have an e-commerce site. The website was developed on .NET and was complete in 4 months from April 2022 to July 2022'
+        titleTheme='#282828'
         AvatarSrc={Kidcab_Avatar}
-        nameColor="#0086EF"
-        name="Ukhano"
+        nameColor='#0086EF'
+        name='Ukhano'
         src={OV_Excellence}
       />
       <DetailService
         // both
         web
         // app
-        titleTheme="#282828"
-        borderColor="#282828"
-        circleTheme="#0086EF"
+        titleTheme='#282828'
+        borderColor='#282828'
+        circleTheme='#0086EF'
       />
 
       <DetailDemo
@@ -65,15 +65,15 @@ export default function Excellence() {
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
-        titleColor="#282828"
-        title="Excellence ERP"
-        btnTheme="#0086EF"
-        theme="#0086EF"
+        titleColor='#282828'
+        title='Excellence ERP'
+        btnTheme='#0086EF'
+        theme='#0086EF'
         src={Excellence_Demo}
       />
       <DetailDesign
-        titleTheme="#282828"
-        title="UI DESIGN"
+        titleTheme='#282828'
+        title='UI DESIGN'
         // overlap
         // TopImg={OrgaPlan_Design1}
         // MidImg={OrgaPlan_Design2}
@@ -97,13 +97,13 @@ export default function Excellence() {
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
         fullscreen
-        title="COLOR THEME AND DESIGN"
-        titleTheme="#282828"
+        title='COLOR THEME AND DESIGN'
+        titleTheme='#282828'
         // desp
-        Theme1="#0086EF"
-        Theme2="#FAFAFA"
-        Theme3="#191A1F"
-        Theme4="#575961"
+        Theme1='#0086EF'
+        Theme2='#FAFAFA'
+        Theme3='#191A1F'
+        Theme4='#575961'
         // Theme5="#00000040"
         // Theme6=""
         // Theme7=""
@@ -119,13 +119,13 @@ export default function Excellence() {
         // halfImg=(src Required)
       /> */}
       <DetailFeedback
-        titleTheme="#0086EF"
-        despTheme="#282828"
-        // desp
+        titleTheme='#0086EF'
+        despTheme='#282828'
+        desp='It is a distinct pleasure for me to recommend falcon IT to all interested parties.They have been professional, comprehensive, and competent throughout the process of working together. We have established a relationship with them for years to come.'
         // location
-        ThemeBG="#ffffff"
+        ThemeBG='#ffffff'
         AvatarSrc={Kidcab_Avatar}
-        name="Ukhano"
+        name='Ukhano'
       />
       <Footer />
     </div>

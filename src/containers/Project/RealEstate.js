@@ -43,7 +43,7 @@ export default function RealEstate() {
       />
       <DetailOverview
         // desp
-        desp='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
+        desp='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces: a mobile application for the investors, and an admin panel, for the responsible of the company. A Pakistan-based project developed on React Native, completed in 1 months of duration from May 2022 to june 2022.'
         // location
         titleTheme='#837C6B'
         AvatarSrc={Kidcab_Avatar}
@@ -112,6 +112,7 @@ export default function RealEstate() {
       />
       <DetailLogo theme='#191A1F' src={RealEstate_Logo} />
       <DetailAppDev
+        application
         title='MOBILE APP DEVELOPMENT'
         // desp
         // fullImg={RealEstate_AppDesign}
@@ -121,7 +122,7 @@ export default function RealEstate() {
       <DetailFeedback
         // titleTheme
         // despTheme
-        // desp
+        desp='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
         // location
         ThemeBG='#837C6B'
         AvatarSrc={Kidcab_Avatar}

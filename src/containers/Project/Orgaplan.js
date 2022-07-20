@@ -43,15 +43,13 @@ export default function Orgaplan() {
         description='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
       />
       <DetailOverview
-        desp='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
+        desp='Orgaplan is a Logistics management in France on a large scale and its site is developed on React front end and Node JS backend. This project was delivered in just 7 months'
         // desp
         // location
         titleTheme='#282828'
         AvatarSrc={Kidcab_Avatar}
         nameColor='#9D936D'
-
         name='Zaara Aziz'
-
         src={OV_OrgaPlan}
       />
       <DetailService
@@ -67,7 +65,7 @@ export default function Orgaplan() {
 
       <DetailDemo
         to='http://orgaplansa.com'
-        // desp
+        desp='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, to facilitate very challenging logistic activities. Available in web and mobile versions, with 5 types of users: Super admin / Admin / Company / Traffic agent / Buffer traffic agent. Each user has his rights and functionalities, allowing an infinity of scenarios, as per the real situations on site. Possibility to create and draw the Site Installation Plan, as well as the buildings and storage areas. Possibility to create deliveries and monitor the general state of the site. Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification to get the best User experience'
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
@@ -118,6 +116,7 @@ export default function Orgaplan() {
       />
       <DetailLogo theme='#EDCF99' src={OrgaPlan_Logo} />
       <DetailAppDev
+        website
         title='WEB DEVELOPMENT'
         // desp
         fullImg={OrgaPlan_WebDesign}
@@ -127,13 +126,11 @@ export default function Orgaplan() {
       <DetailFeedback
         titleTheme='#9D936D'
         despTheme='#282828'
-        // desp
+        desp='Falcon’s website design team far exceeded my expectations on every front as I had very high expectations of them. The end product is a responsive website that embodies who we are as a company.'
         // location
         ThemeBG='#ffffff'
         AvatarSrc={Kidcab_Avatar}
-
         name='Zaara Aziz'
-
       />
       <Footer />
     </div>

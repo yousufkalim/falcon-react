@@ -110,6 +110,7 @@ export default function Kidcab() {
       />
       <DetailLogo theme='#ffffff' src={Kidcab_Logo} />
       <DetailAppDev
+        application
         // title
         // desp
         halfImg={KidCab_AppDesign}
@@ -117,6 +118,7 @@ export default function Kidcab() {
         // fullImg={KidCab_AppDesign}
       />
       <DetailAppDev
+        website
         title='WEB DEVELOPMENT'
         // desp
         // halfImg={KidCab_AppDesign}

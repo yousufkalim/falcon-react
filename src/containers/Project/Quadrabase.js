@@ -27,7 +27,6 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { useTranslation } from 'react-i18next';
 
-
 // Home Component
 export default function Quadrabase() {
   const { i18n, t } = useTranslation();
@@ -53,20 +52,16 @@ export default function Quadrabase() {
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#9D3C64'
-
         name='Jean-Claude Imbert'
-
         // location="France"
         src={OV_Quadra}
       />
       <DetailService web titleTheme='#FF8616' borderColor='#FF8616' circleTheme='#9D3C64' />
 
       <DetailDemo
-
         to='https://quadrabase-demo.web.app/auth/home'
         titleColor='#FF8616'
         title='Quadrabase'
-
         // desp=""
         btnTheme='#9D3C64'
         theme='#9D3C64'
@@ -99,14 +94,13 @@ export default function Quadrabase() {
         src={QB_Theme}
       />
       <DetailLogo theme='#9D3C64' src={QB_Logo} />
-      <DetailAppDev title='WEB DESIGN' titleTheme='#FF8616' fullImg={QB_Design} />
+      <DetailAppDev title='WEB DESIGN' titleTheme='#FF8616' fullImg={QB_Design} website />
       <DetailFeedback
         ThemeBG='#9D3C64'
         // titleTheme=""
         // despTheme=""
         desp='There is no comparison between the first developers and Falcon IT. Professional, Creative, Attentive to detail, and excellent communication with the team. If I had contracted with Falcon IT for the first time I would not have had to do it twice.'
         AvatarSrc={QB_Avatar}
-
         name='Jean-Claude Imbert'
 
         // location=""

@@ -112,6 +112,7 @@ export default function Sindoor() {
       />
       {/* <DetailLogo theme="rgba(255, 213, 77, 0.25)" src={Table_Logo} /> */}
       <DetailAppDev
+        application
         title='MOBILE APP DEVELOPMENT'
         // desp
         // fullImg={Table_AppDesign}

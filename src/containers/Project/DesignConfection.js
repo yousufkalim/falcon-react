@@ -116,6 +116,7 @@ export default function DesignConfection() {
       />
       <DetailLogo theme='#282828' src={DC_Logo} />
       <DetailAppDev
+        website
         title='WEB DEVELOPMENT'
         // desp
         // halfImg (src Required)

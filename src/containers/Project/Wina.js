@@ -47,7 +47,7 @@ export default function Wina() {
       />
       <DetailOverview
         titleTheme='#2A5AA6'
-        desp='Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. A matching algorithm, based on several criteria, automatically calculates a percentage of compatibility between a student and a job offer.  The matching process is similarly done as with the Tinder application. Once the matching is done, a calendar allows the student to book an interview session with the company. The platform automatically retrieves (scrapes) all offers from reference websites in France, and add them to Winaa’s database. Companies have a full dashboard allowing them to manage their offers, see the potential matches and accept the interview sessions.'
+        desp='A French job platform connecting employers and employees for hiring apprenticeship with its website’s front end on React and backend on Node JS.This project was completed in 6 months from January 2021 to June 2021.'
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#2A5AA6'
@@ -66,7 +66,7 @@ export default function Wina() {
 
       <DetailDemo
         to='https://winaa.fr/'
-        // desp
+        desp='Winaa is a job board, in the shape of a mobile and web application, for connecting companies and apprentices. A matching algorithm, based on several criteria, automatically calculates a percentage of compatibility between a student and a job offer. The matching process is similarly done as with the Tinder application.Once the matching is done, a calendar allows the student to book an interview session with the company. The platform automatically retrieves (scrapes) all offers from reference websites in France, and adds them to Winaa’s database.Companies have a full dashboard allowing them to manage their offers, see the potential matches and accept the interview sessions.'
         // btnText
         // DetailDemo_SquareDiv
         DetailDemo_RoundDiv
@@ -117,6 +117,7 @@ export default function Wina() {
       />
       <DetailLogo theme='#2A5AA6' src={Wina_Logo} />
       <DetailAppDev
+        application
         title='MOBILE APP DEVELOPMENT'
         // desp
         fullImg={Wina_AppDesign}
@@ -124,6 +125,7 @@ export default function Wina() {
         // halfImg={Wina_AppDesign}
       />
       <DetailAppDev
+        website
         title='WEB DEVELOPMENT'
         // desp
         fullImg={Wina_WebDesign}
@@ -133,7 +135,7 @@ export default function Wina() {
       <DetailFeedback
         // titleTheme="#3675B7"
         // despTheme="#282828"
-        // desp
+        desp='Falcon IT has done a great job and we are impressed with the overall services.'
         // location
         ThemeBG='#2A5AA6'
         // AvatarSrc={Kidcab_Avatar}

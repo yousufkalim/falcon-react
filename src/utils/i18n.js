@@ -12,8 +12,7 @@ i18n
         translations: {
           //Home
           // Home_Header
-          'WE PROVIDE GREAT SERVICES AT THE BEST PRICE.':
-            'WE PROVIDE GREAT SERVICES AT THE BEST PRICE.',
+          'WE PROVIDE GREAT SERVICES AT THE BEST PRICE.': 'WE PROVIDE GREAT SERVICES AT THE BEST PRICE.',
 
           'Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners. ':
             'Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners. ',
@@ -47,8 +46,11 @@ i18n
           Agree: 'Agree',
           Decline: 'Decline',
           'View More': 'View More',
-
-
+          //web and app detail sction
+          'There are countless variations when it comes to different websites that can be incorporated into the design of a website. In general, the Falcon IT workflow define below. Web designers at Falcon IT often work with design software like Figma or AdobeXD etc. to create visually appealing user experiences. The team makes wireframes, mockups, design systems, color palettes, templates, and more to help developers build the product, and after UI /UX finalizing, the back-end developers focus on the infrastructure of a site or web application (hosting, security, etc), and our front-end developers focus on the functionality of the site/app. While the team of full-stack developers is working on both the front-end and back-end. The SQA team monitors all activities side by side to deliver the best to our clients.':
+            'There are countless variations when it comes to different websites that can be incorporated into the design of a website. In general, the Falcon IT workflow define below. Web designers at Falcon IT often work with design software like Figma or AdobeXD etc. to create visually appealing user experiences. The team makes wireframes, mockups, design systems, color palettes, templates, and more to help developers build the product, and after UI /UX finalizing, the back-end developers focus on the infrastructure of a site or web application (hosting, security, etc), and our front-end developers focus on the functionality of the site/app. While the team of full-stack developers is working on both the front-end and back-end. The SQA team monitors all activities side by side to deliver the best to our clients.',
+          'Falcon’s app development process is divided into different servers to assure the quality of the App.After UI/ UX phase, different servers collaborate to complete the process. Development Server will be used by developers only for development purposes. QA Server Only used by the SQA team. Nothing will be updated on the QA server without QA approval. All the testing will be performed on this server. The Staging Server is also known as the Client’s server. So, this server will be accessible to the client the client will perform User Acceptance Testing on this server. Nothing will be updated on the Staging server without QA/CEO approval. When your project passed the QA server then the project will deploy on the staging server. Finally, the project is going live. Nothing should be uploaded on a live server without QA/Client/CEO approval. The project which is going live must be on the staging server previously.':
+            'Falcon’s app development process is divided into different servers to assure the quality of the App.After UI/ UX phase, different servers collaborate to complete the process. Development Server will be used by developers only for development purposes. QA Server Only used by the SQA team. Nothing will be updated on the QA server without QA approval. All the testing will be performed on this server. The Staging Server is also known as the Client’s server. So, this server will be accessible to the client the client will perform User Acceptance Testing on this server. Nothing will be updated on the Staging server without QA/CEO approval. When your project passed the QA server then the project will deploy on the staging server. Finally, the project is going live. Nothing should be uploaded on a live server without QA/Client/CEO approval. The project which is going live must be on the staging server previously.',
           //   aboutus Section
           'your work is our priority': 'your work is our priority',
           'Why choose Falcon Consulting?': 'Why choose Falcon Consulting?',
@@ -58,8 +60,7 @@ i18n
           'Number of Offices': 'Number of Offices',
           'External Tools Built': 'External Tools Built',
           'Improvement and Customer focused': 'Improvement and Customer focused',
-          'We believe that talent and skills do not have borders':
-            'We believe that talent and skills do not have borders',
+          'We believe that talent and skills do not have borders': 'We believe that talent and skills do not have borders',
 
           'We are a human-oriented company, investing in training healthy atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to put in place a continuous improvement process internally':
             'We are a human-oriented company, investing in training healthy atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to put in place a continuous improvement process internally',
@@ -86,12 +87,10 @@ i18n
           'Amazon API Gateway Migration': 'Amazon API Gateway Migration',
           'Mobile application for Parental Control': 'Mobile application for Parental Control',
           'Amazon Web Services Server Configurations': 'Amazon Web Services Server Configurations',
-          'Web application Development for Travel Agency':
-            'Web application Development for Travel Agency',
+          'Web application Development for Travel Agency': 'Web application Development for Travel Agency',
           //   blog section
           'Managing a Remote Team': 'Managing a Remote Team',
-          'Why having a business website is necessary ?':
-            'Why having a business website is necessary ?',
+          'Why having a business website is necessary ?': 'Why having a business website is necessary ?',
 
           'Published on': 'Published on',
           'In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.':
@@ -109,8 +108,7 @@ i18n
           // contact us
           'Contact Us': 'Contact Us',
           'Share Your Project/Idea with us!': 'Share Your Project/Idea with us!',
-          'Our Team Member will get back to you within 24 hours. ':
-            'Our Team Member will get back to you within 24 hours. ',
+          'Our Team Member will get back to you within 24 hours. ': 'Our Team Member will get back to you within 24 hours. ',
 
           'Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.':
             'Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.',
@@ -164,8 +162,7 @@ i18n
 
           // Modern Agency Section
           'We Are A Modern IT Agency': 'We Are A Modern IT Agency',
-          'Accessible price, with no compromise on the Quality!':
-            'Accessible price, with no compromise on the Quality!',
+          'Accessible price, with no compromise on the Quality!': 'Accessible price, with no compromise on the Quality!',
           'Office Locations': 'Office Locations',
 
           'Years of Excellence': 'Years of Excellence',
@@ -222,8 +219,7 @@ i18n
           //   Services
           // Services_Header
           'Skilled Developers for your Projects': 'Skilled Developers for your Projects',
-          'We are ready to handle your ambitious projects!':
-            'We are ready to handle your ambitious projects!',
+          'We are ready to handle your ambitious projects!': 'We are ready to handle your ambitious projects!',
 
           'Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !':
             'Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !',
@@ -247,10 +243,8 @@ i18n
             'Many of these business ideas are home-based. While they may not make you a billionaire.',
 
           // work Process Section
-          "We solve clients' projects in a simple & efficient way":
-            "We solve clients' projects in a simple & efficient way",
-          'We always follow the standard work process':
-            'We always follow the standard work process',
+          "We solve clients' projects in a simple & efficient way": "We solve clients' projects in a simple & efficient way",
+          'We always follow the standard work process': 'We always follow the standard work process',
 
           'Project Requirement': 'Project Requirement',
           Designing: 'Designing',
@@ -258,21 +252,16 @@ i18n
           'Live Testing': 'Live Testing',
           'We do research and validate the specs before we start any projects':
             'We do research and validate the specs before we start any projects',
-          "Designed according to client's requirements":
-            "Designed according to client's requirements",
+          "Designed according to client's requirements": "Designed according to client's requirements",
           'Developed by skilled team developers': 'Developed by skilled team developers',
-          'After completing the work, live test is done':
-            'After completing the work, live test is done',
+          'After completing the work, live test is done': 'After completing the work, live test is done',
 
           UX: 'UX',
           Wireframing: 'Wireframing',
           'UI Design': 'UI Design',
           'Design Review': 'Design Review',
-          'Then Wireframing according to requirements':
-            'Then Wireframing according to requirements',
-          'We do ux research before we start any projects':
-            'We do ux research before we start any projects',
-
+          'Then Wireframing according to requirements': 'Then Wireframing according to requirements',
+          'We do ux research before we start any projects': 'We do ux research before we start any projects',
 
           // Our Deveopers Section
           'OUR DEVELOPERS ARE': 'OUR DEVELOPERS ARE',
@@ -291,10 +280,8 @@ i18n
             'Our developers work full-time on your projects and our collaborative tools guarantee Transparency regarding the progress of task',
 
           // developer work process
-          "We solve clients' projects in a simple & efficient way":
-            "We solve clients' projects in a simple & efficient way",
-          'We always follow the standard work process':
-            'We always follow the standard work process',
+          "We solve clients' projects in a simple & efficient way": "We solve clients' projects in a simple & efficient way",
+          'We always follow the standard work process': 'We always follow the standard work process',
 
           'You need developer': 'You need developer',
           "We organize a meeting in order to better understand your needs, as well as the ideal profile sought for your project. If your needs change during this process, don't panic: we take into account any last minute changes!":
@@ -325,13 +312,18 @@ i18n
             'On the delivery side, the application the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications. ',
           'The client was happy with the work done, and he specially liked that as a non expert in IT, he told us what he wanted to achieve, and we always found the most efficient solution. Not only developers by experts, advising him on the best ways to build this platform':
             'The client was happy with the work done, and he specially liked that as a non expert in IT, he told us what he wanted to achieve, and we always found the most efficient solution. Not only developers by experts, advising him on the best ways to build this platform',
+          'Web and mobile platform connecting restaurants, corporate customers, and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order. The customers can order food with an ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience.On the restaurant side, it is possible to create and manage a customized menu,see all the incoming orders, and change their status.On the delivery side, the application of the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications.':
+            'Web and mobile platform connecting restaurants, corporate customers, and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order. The customers can order food with an ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience.On the restaurant side, it is possible to create and manage a customized menu,see all the incoming orders, and change their status.On the delivery side, the application of the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications.',
+          'Tilt is a French-based platform connecting restaurants with corporate customers. Its front end is developed on React and its back end is on Node JS and the project was completed in 6 months from January 2020 to May 2021':
+            'Tilt is a French-based platform connecting restaurants with corporate customers. Its front end is developed on React and its back end is on Node JS and the project was completed in 6 months from January 2020 to May 2021',
+          'Falcon IT excels at turning your website dreams into reality. We are so proud of the work they have done for us that we have already recommended them to many of Our partners and we are very thankful to them.':
+            'Falcon IT excels at turning your website dreams into reality. We are so proud of the work they have done for us that we have already recommended them to many of Our partners and we are very thankful to them.',
           // Issyne
           'Mobile platform for connecting students and teachers. It is an application that stands out for its ability to get in touch with teachers instantly., based on the availabilities. This application has an internal messaging system, with all the features such as sending multimedia files, sending voice messages, etc...':
             'Mobile platform for connecting students and teachers. It is an application that stands out for its ability to get in touch with teachers instantly., based on the availabilities. This application has an internal messaging system, with all the features such as sending multimedia files, sending voice messages, etc...',
           'Students can rate their teacher, and see the history of past classes (via a PDF file generated at the end of the course). ':
             'Students can rate their teacher, and see the history of past classes (via a PDF file generated at the end of the course). ',
-          'A system of remuneration via tokens has been created.':
-            'A system of remuneration via tokens has been created.',
+          'A system of remuneration via tokens has been created.': 'A system of remuneration via tokens has been created.',
 
           'The project owner is Salah Didouche, who made a name for himself in the world of startups with the TDP platform (Transporteurs du Pauvre).':
             'The project owner is Salah Didouche, who made a name for himself in the world of startups with the TDP platform (Transporteurs du Pauvre).',
@@ -351,6 +343,12 @@ i18n
             'Companies have a full dashboard allowing them to manage their offers, see the potential matches and accept the interview sessions. ',
           'Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. A matching algorithm, based on several criteria, automatically calculates a percentage of compatibility between a student and a job offer.  The matching process is similarly done as with the Tinder application. Once the matching is done, a calendar allows the student to book an interview session with the company. The platform automatically retrieves (scrapes) all offers from reference websites in France, and add them to Winaa’s database. Companies have a full dashboard allowing them to manage their offers, see the potential matches and accept the interview sessions.':
             'Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. A matching algorithm, based on several criteria, automatically calculates a percentage of compatibility between a student and a job offer.  The matching process is similarly done as with the Tinder application. Once the matching is done, a calendar allows the student to book an interview session with the company. The platform automatically retrieves (scrapes) all offers from reference websites in France, and add them to Winaa’s database. Companies have a full dashboard allowing them to manage their offers, see the potential matches and accept the interview sessions.',
+          'Winaa is a job board, in the shape of a mobile and web application, for connecting companies and apprentices. A matching algorithm, based on several criteria, automatically calculates a percentage of compatibility between a student and a job offer. The matching process is similarly done as with the Tinder application.Once the matching is done, a calendar allows the student to book an interview session with the company. The platform automatically retrieves (scrapes) all offers from reference websites in France, and adds them to Winaa’s database.Companies have a full dashboard allowing them to manage their offers, see the potential matches and accept the interview sessions.':
+            'Winaa is a job board, in the shape of a mobile and web application, for connecting companies and apprentices. A matching algorithm, based on several criteria, automatically calculates a percentage of compatibility between a student and a job offer. The matching process is similarly done as with the Tinder application.Once the matching is done, a calendar allows the student to book an interview session with the company. The platform automatically retrieves (scrapes) all offers from reference websites in France, and adds them to Winaa’s database.Companies have a full dashboard allowing them to manage their offers, see the potential matches and accept the interview sessions.',
+          'A French job platform connecting employers and employees for hiring apprenticeship with its website’s front end on React and backend on Node JS.This project was completed in 6 months from January 2021 to June 2021.':
+            'A French job platform connecting employers and employees for hiring apprenticeship with its website’s front end on React and backend on Node JS.This project was completed in 6 months from January 2021 to June 2021.',
+          'Falcon IT has done a great job and we are impressed with the overall services.':
+            'Falcon IT has done a great job and we are impressed with the overall services.',
           // Orgaplan
           'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.':
             'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.',
@@ -360,6 +358,16 @@ i18n
             'Possibility to create and draw the Site Installation Plan, as well as the buildings and storage areas. Possibility to create deliveries and monitor the general state of the site.',
           'Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. ':
             'Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. ',
+          'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, to facilitate very challenging logistic activities. Available in web and mobile versions, with 5 types of users: Super admin / Admin / Company / Traffic agent / Buffer traffic agent. Each user has his rights and functionalities, allowing an infinity of scenarios, as per the real situations on site. Possibility to create and draw the Site Installation Plan, as well as the buildings and storage areas. Possibility to create deliveries and monitor the general state of the site. Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification to get the best User experience':
+            'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, to facilitate very challenging logistic activities. Available in web and mobile versions, with 5 types of users: Super admin / Admin / Company / Traffic agent / Buffer traffic agent. Each user has his rights and functionalities, allowing an infinity of scenarios, as per the real situations on site. Possibility to create and draw the Site Installation Plan, as well as the buildings and storage areas. Possibility to create deliveries and monitor the general state of the site. Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification to get the best User experience',
+          'Orgaplan is a Logistics management in France on a large scale and its site is developed on React front end and Node JS backend. This project was delivered in just 7 months':
+            'Orgaplan is a Logistics management in France on a large scale and its site is developed on React front end and Node JS backend. This project was delivered in just 7 months',
+          'Falcon’s website design team far exceeded my expectations on every front as I had very high expectations of them. The end product is a responsive website that embodies who we are as a company.':
+            'Falcon’s website design team far exceeded my expectations on every front as I had very high expectations of them. The end product is a responsive website that embodies who we are as a company.',
+          "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile. At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.":
+            "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile. At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.",
+          'Falcon IT has done a great job of creating exactly what I wanted. Easy to work with and very responsive. They met all of my expectations. Thank you!':
+            'Falcon IT has done a great job of creating exactly what I wanted. Easy to work with and very responsive. They met all of my expectations. Thank you!',
           //    Orientator
           'Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.':
             'Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.',
@@ -367,7 +375,8 @@ i18n
             'The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile.',
           "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.":
             "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.",
-
+          'Orientator is a French-based platform for students to decide on their university.This site is developed with the front end on React and the backend on Node JS and the whole project was completed in 5 months':
+            'Orientator is a French-based platform for students to decide on their university.This site is developed with the front end on React and the backend on Node JS and the whole project was completed in 5 months',
           // Kidcab
           'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.':
             'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.',
@@ -383,8 +392,7 @@ i18n
           // PERMISPOP
           'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.':
             'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.',
-          'The platform offers several features such as :':
-            'The platform offers several features such as :',
+          'The platform offers several features such as :': 'The platform offers several features such as :',
           'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs.':
             'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs.',
           'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities and safely monitor their location. For our partner, we developed two mobile applications and a Ride Management web application.The Driver mobile application allows them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features to Uber.The Parent’s mobile application shows the live location of the driver and allows to monitor all the past and upcoming rides.Finally, the Ride Management website is intended for Kidcab administrators to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created.':
@@ -417,22 +425,26 @@ i18n
             'We at Permispop are very impressed with all aspects of our website and mobile app, as it is user-friendly and work efficiently. We would highly recommend Falcon IT to anyone looking to build a website, web app, or mobile application.',
           'A web platform and a mobile app to connect students, independent driving teachers, and driving schools in France. Web’s front end is developed on React and the back end is developed on .Net and the Verson 1 of this website was completed in the duration of 2019 to 2022 and Version 2 was completed in the duration of 2021 to 2022':
             'A web platform and a mobile app to connect students, independent driving teachers, and driving schools in France. Web’s front end is developed on React and the back end is developed on .Net and the Verson 1 of this website was completed in the duration of 2019 to 2022 and Version 2 was completed in the duration of 2021 to 2022',
+          'Client was especially happy that we never let him down, always put additional effort to make things happen. He sees us as more than vendor, but friends.​':
+            'Client was especially happy that we never let him down, always put additional effort to make things happen. He sees us as more than vendor, but friends.​',
           // ZypZap
           'ZypZap is a gaming platform by Falcon IT.': 'ZypZap is a gaming platform by Falcon IT.',
           'It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.':
             'It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.',
-          '•	For learners, ZypZap helps them to become Pro players.':
-            '•	For learners, ZypZap helps them to become Pro players.',
-          '•	Full gameplay courses are available on this site.':
-            '•	Full gameplay courses are available on this site.',
-          '•	For creators, gamers teach, what they are good at':
-            '•	For creators, gamers teach, what they are good at',
+          '•	For learners, ZypZap helps them to become Pro players.': '•	For learners, ZypZap helps them to become Pro players.',
+          '•	Full gameplay courses are available on this site.': '•	Full gameplay courses are available on this site.',
+          '•	For creators, gamers teach, what they are good at': '•	For creators, gamers teach, what they are good at',
 
           '•	Specifically, for the gamers who want to teach how to play and make familiar with the game content quickly.':
             '•	Specifically, for the gamers who want to teach how to play and make familiar with the game content quickly.',
           'ZypZap is a gaming platform by Falcon IT. It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.':
             'ZypZap is a gaming platform by Falcon IT. It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.',
-
+          'ZypZap is a gaming platform by Falcon IT. It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.For learners, ZypZap helps them to become Pro players.Full gameplay courses are available on this site. For creators, gamers teach, what they are good at. Specifically, for the gamers who want to teach how to play and make familiar with the game content quickly.':
+            'ZypZap is a gaming platform by Falcon IT. It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.For learners, ZypZap helps them to become Pro players.Full gameplay courses are available on this site. For creators, gamers teach, what they are good at. Specifically, for the gamers who want to teach how to play and make familiar with the game content quickly.',
+          'A French-based gaming platform, developed with the front end on React and the backend on Node JS, and the whole project was completed in 10 months':
+            'A French-based gaming platform, developed with the front end on React and the backend on Node JS, and the whole project was completed in 10 months',
+          'Quick response to ideas and changes. Falcon always answers the right ways and ideas':
+            'Quick response to ideas and changes. Falcon always answers the right ways and ideas',
           // Quadra Base
           'Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.':
             'Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.',
@@ -466,8 +478,7 @@ i18n
           // Tajweed Made Easy
           'Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.':
             'Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.',
-          '•	User can signup and start learning Quran with Tajweed.':
-            '•	User can signup and start learning Quran with Tajweed.',
+          '•	User can signup and start learning Quran with Tajweed.': '•	User can signup and start learning Quran with Tajweed.',
 
           '•	Practice lessons are available.': '•	Practice lessons are available.',
           '•	User can repeat the lesson at any time without an internet connection':
@@ -481,8 +492,7 @@ i18n
           Advertising: 'Advertising',
           '•	Advertising by understanding how a user can react to the advertisement shown to them.':
             '•	Advertising by understanding how a user can react to the advertisement shown to them.',
-          '•	Target ads based on non-personal criteria.':
-            '•	Target ads based on non-personal criteria.',
+          '•	Target ads based on non-personal criteria.': '•	Target ads based on non-personal criteria.',
 
           'Product development': 'Product development ',
           '•	EZBox media helps Product development for the next generation products with the wide variety of technologies available today.':
@@ -504,6 +514,12 @@ i18n
             'The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not. ',
           'The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.':
             'The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.',
+          'Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc...). The program then analyzes the data based on internal rules and deduces whether the movements are abnormal or not.The detection of the movements is done with the help of a Media pipe and requires advanced knowledge in terms of image processing to ensure fluidity and accuracy of the final results.':
+            'Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc...). The program then analyzes the data based on internal rules and deduces whether the movements are abnormal or not.The detection of the movements is done with the help of a Media pipe and requires advanced knowledge in terms of image processing to ensure fluidity and accuracy of the final results.',
+          'French based mobile application to analyze patient’s movement developed, project was completed in 4 months.':
+            'French based mobile application to analyze patient’s movement developed, project was completed in 4 months.',
+          'Our dream has come true with the efforts of the Falcon team. Great app and they do it in a great manner.':
+            'Our dream has come true with the efforts of the Falcon team. Great app and they do it in a great manner.',
           //  Yuwway
           "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs.":
             "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs.",
@@ -545,11 +561,8 @@ i18n
           'Limitations of liability': 'Limitations of liability',
           'Personal data management': 'Personal data management',
           'Incident notification': 'Incident notification',
-          "Hypertext links 'cookies' and internet tags":
-            "Hypertext links 'cookies' and internet tags",
-          'Applicable law and attribution of jurisdiction':
-            'Applicable law and attribution of jurisdiction',
-
+          "Hypertext links 'cookies' and internet tags": "Hypertext links 'cookies' and internet tags",
+          'Applicable law and attribution of jurisdiction': 'Applicable law and attribution of jurisdiction',
 
           // Blog Article
           // business website
@@ -570,8 +583,7 @@ i18n
             'A business website also brings credibility to your business. People usually look at the business with no websites as sketchy and less trust-worthy. You might be wondering how can a website bring credibility to your business. Well, most websites have review sections where the customers write reviews about your products or services. A consumer is 40% more likely to buy your product if they read positive reviews about your business.',
           'You can also bring credibility to your website by publishing educational and well-researched material. It will let your customers know that you know what you are talking about and what you are selling. This will increase the chances of purchase by a customer.':
             'You can also bring credibility to your website by publishing educational and well-researched material. It will let your customers know that you know what you are talking about and what you are selling. This will increase the chances of purchase by a customer.',
-          'Distinguish yourself through your website:':
-            'Distinguish yourself through your website:',
+          'Distinguish yourself through your website:': 'Distinguish yourself through your website:',
 
           'You can also use your website to be different from your competitors in the market. You can uniquely design your website and catch the attention of potential customers. In the crowded market, it is necessary to set yourself apart to get the attention of people. Use your website to establish yourself as different from others in the market and gain new customers every day.':
             'You can also use your website to be different from your competitors in the market. You can uniquely design your website and catch the attention of potential customers. In the crowded market, it is necessary to set yourself apart to get the attention of people. Use your website to establish yourself as different from others in the market and gain new customers every day.',
@@ -638,13 +650,20 @@ i18n
           // Excellence
           'Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.':
             'Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.',
+          'The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces: a mobile application for the investors, and an admin panel, for the responsible of the company. A Pakistan-based project developed on React Native, completed in 1 months of duration from May 2022 to june 2022.':
+            'The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces: a mobile application for the investors, and an admin panel, for the responsible of the company. A Pakistan-based project developed on React Native, completed in 1 months of duration from May 2022 to june 2022.',
+          'In order to develop A French-based ready-to-wear store chain, its brand image, and its online activity, the company wanted to have an e-commerce site. The website was developed on .NET and was complete in 4 months from April 2022 to July 2022':
+            'In order to develop A French-based ready-to-wear store chain, its brand image, and its online activity, the company wanted to have an e-commerce site. The website was developed on .NET and was complete in 4 months from April 2022 to July 2022',
+          'It is a distinct pleasure for me to recommend falcon IT to all interested parties.They have been professional, comprehensive, and competent throughout the process of working together. We have established a relationship with them for years to come.':
+            'It is a distinct pleasure for me to recommend falcon IT to all interested parties.They have been professional, comprehensive, and competent throughout the process of working together. We have established a relationship with them for years to come.',
           //  Barber Shop
           'BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.':
             'BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.',
           // Real Estate
           'This website offers an online tailoring experience with free pick-up and delivery in Karachi. We provide stitching services with customizable designs for salwar suits, blouses, kurtas, bottoms, western wear as per customers measurement at the doorstep. Coming Soon for other cities also.':
             'This website offers an online tailoring experience with free pick-up and delivery in Karachi. We provide stitching services with customizable designs for salwar suits, blouses, kurtas, bottoms, western wear as per customers measurement at the doorstep. Coming Soon for other cities also.',
-
+          'We were pleased with Falcon IT and the overall development process of our website. Our website has transformed the image of our firm and is the key introductory point for new and potential clients. Thanks for a job well done!':
+            'We were pleased with Falcon IT and the overall development process of our website. Our website has transformed the image of our firm and is the key introductory point for new and potential clients. Thanks for a job well done!',
           'The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.':
             'The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.',
           // Beauty Salon
@@ -654,8 +673,7 @@ i18n
           'Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.':
             'Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.',
           'OUR CONTRIBUTION': 'OUR CONTRIBUTION',
-          '• Collection and consolidation of business requests':
-            '• Collection and consolidation of business requests',
+          '• Collection and consolidation of business requests': '• Collection and consolidation of business requests',
 
           '• Implementation of project developments and production quality control':
             '• Implementation of project developments and production quality control',
@@ -663,8 +681,7 @@ i18n
             '• Development in ASP.NET 3.5, Spring.NET and nHibernate to develop a tool for managing the invoicing of courses and trainings.',
           '• T-SQL development (generation of extracts, counters and data consistency checks)':
             '• T-SQL development (generation of extracts, counters and data consistency checks)',
-          '• rDevelopment to evolve invoices to the new SSRS format':
-            '• rDevelopment to evolve invoices to the new SSRS format',
+          '• rDevelopment to evolve invoices to the new SSRS format': '• rDevelopment to evolve invoices to the new SSRS format',
 
           '• Kettle-based batch development for import / export and data transformation':
             '• Kettle-based batch development for import / export and data transformation',
@@ -736,7 +753,11 @@ i18n
           // Detail Design
           'App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app’s flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback. The end result is an app that looks nice and is easy to use. So, the best app design process comprises Research, Ideation, Problem Identification, Design, Feedback, Problem Evaluation. Designers handle all parts of the process in a continuous and simultaneous flow. And that’s both for UX and UI through the lifetime of the app.':
             "La conception d'applications est un processus continu comprenant des éléments d'expérience utilisateur (UX) et d'interface utilisateur (UI). Les concepteurs imaginent, définissent des solutions, créent le flux et la structure de l'application et font des choix stylistiques, des couleurs aux polices. Les concepteurs fondent leurs choix sur la recherche et les commentaires des utilisateurs. Le résultat final est une application qui a l'air bien et qui est facile à utiliser. Ainsi, le meilleur processus de conception d'applications comprend la recherche, l'idéation, l'identification des problèmes, la conception, les commentaires et l'évaluation des problèmes. Les concepteurs gèrent toutes les parties du processus dans un flux continu et simultané. Et c'est à la fois pour l'UX et l'UI tout au long de la durée de vie de l'application.",
-
+          //web and app detail section
+          'There are countless variations when it comes to different websites that can be incorporated into the design of a website. In general, the Falcon IT workflow define below. Web designers at Falcon IT often work with design software like Figma or AdobeXD etc. to create visually appealing user experiences. The team makes wireframes, mockups, design systems, color palettes, templates, and more to help developers build the product, and after UI /UX finalizing, the back-end developers focus on the infrastructure of a site or web application (hosting, security, etc), and our front-end developers focus on the functionality of the site/app. While the team of full-stack developers is working on both the front-end and back-end. The SQA team monitors all activities side by side to deliver the best to our clients.':
+            "Il existe d'innombrables variations en ce qui concerne les différents sites Web qui peuvent être intégrés à la conception d'un site Web. En général, le flux de travail Falcon IT est défini ci-dessous. Les concepteurs Web de Falcon IT travaillent souvent avec des logiciels de conception tels que Figma ou AdobeXD, etc. pour créer des expériences utilisateur visuellement attrayantes. L'équipe crée des wireframes, des maquettes, des systèmes de conception, des palettes de couleurs, des modèles, etc. pour aider les développeurs à créer le produit, et après la finalisation de l'interface utilisateur/UX, les développeurs back-end se concentrent sur l'infrastructure d'un site ou d'une application Web (hébergement, sécurité , etc.), et nos développeurs front-end se concentrent sur les fonctionnalités du site/de l'application. Alors que l'équipe de développeurs full-stack travaille à la fois sur le front-end et le back-end. L'équipe SQA surveille toutes les activités côte à côte pour offrir le meilleur à nos clients.",
+          'Falcon’s app development process is divided into different servers to assure the quality of the App.After UI/ UX phase, different servers collaborate to complete the process. Development Server will be used by developers only for development purposes. QA Server Only used by the SQA team. Nothing will be updated on the QA server without QA approval. All the testing will be performed on this server. The Staging Server is also known as the Client’s server. So, this server will be accessible to the client the client will perform User Acceptance Testing on this server. Nothing will be updated on the Staging server without QA/CEO approval. When your project passed the QA server then the project will deploy on the staging server. Finally, the project is going live. Nothing should be uploaded on a live server without QA/Client/CEO approval. The project which is going live must be on the staging server previously.':
+            "Le processus de développement d'applications de Falcon est divisé en différents serveurs pour assurer la qualité de l'application. Après la phase UI/UX, différents serveurs collaborent pour terminer le processus. Le serveur de développement sera utilisé par les développeurs uniquement à des fins de développement. QA Server Utilisé uniquement par l'équipe SQA. Rien ne sera mis à jour sur le serveur QA sans l'approbation du QA. Tous les tests seront effectués sur ce serveur. Le serveur de transfert est également appelé serveur du client. Ainsi, ce serveur sera accessible au client, le client effectuera des tests d'acceptation des utilisateurs sur ce serveur. Rien ne sera mis à jour sur le serveur Staging sans l'approbation du QA/CEO. Lorsque votre projet a passé le serveur QA, le projet se déploiera sur le serveur intermédiaire. Enfin, le projet est lancé. Rien ne doit être téléchargé sur un serveur en direct sans l'approbation de QA/Client/CEO. Le projet qui est mis en ligne doit se trouver auparavant sur le serveur intermédiaire.",
           // Canon
           'Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)':
             "Falcon Consulting a été sollicité par Canon pour son expertise en .NET et sa capacité à s'adapter à tout métier pour monter plusieurs projets autour de la GED donc pour leurs clients (plusieurs secteurs d'activité : banque, assurance, BTP, aéronautique,...)",
@@ -787,8 +808,7 @@ i18n
           'Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.':
             'Falcon Consulting a été sollicité par Accor pour son expertise en .NET et SQL pour maintenir les outils liés aux formations et formations.',
           'OUR CONTRIBUTION': 'NOTRE CONTRIBUTION',
-          '• Collection and consolidation of business requests':
-            '• Collecte et consolidation des demandes commerciales',
+          '• Collection and consolidation of business requests': '• Collecte et consolidation des demandes commerciales',
 
           '• Implementation of project developments and production quality control':
             '• Mise en place des développements projets et contrôle qualité de la production',
@@ -808,12 +828,20 @@ i18n
             "Ce site Web offre une expérience de couture en ligne avec ramassage et livraison gratuits à Karachi. Nous fournissons des services de couture avec des conceptions personnalisables pour les costumes salwar, les chemisiers, les kurtas, les bas, les vêtements occidentaux selon les mesures des clients à la porte. Prochainement pour d'autres villes également.",
           'The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.':
             "L'objectif est de permettre aux investisseurs d'avoir de la transparence sur les investissements qu'ils feraient dans l'immobilier au Pakistan. Pour cela, il existe deux interfaces principales : une application mobile pour les investisseurs, et un panel d'administration, pour les responsables de l'entreprise.",
+          'We were pleased with Falcon IT and the overall development process of our website. Our website has transformed the image of our firm and is the key introductory point for new and potential clients. Thanks for a job well done!':
+            "Nous avons été satisfaits de Falcon IT et du processus de développement global de notre site Web. Notre site Web a transformé l'image de notre entreprise et est le point d'introduction clé pour les nouveaux clients et les clients potentiels. Merci pour un travail bien fait!",
           // Barber Shop
           'BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.':
             "BarberShop est conçu pour le salon de coiffure spécifique. Il s'agit de la plate-forme de connexion où le client peut réserver son rendez-vous via son mobile et le barbier permet aux clients de réserver sans intentions personnelles. Le client peut facilement réserver son rendez-vous sur la disponibilité du barbier. D'autre part, Barber peut facilement obtenir tous les horaires de réservation ou les détails des rendez-vous via son application mobile.",
           // Excellence
           'Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.':
             "Excellence Mode est une chaîne de magasins de prêt-à-porter en France, avec plusieurs dizaines d'implantations dans toute la France. Afin de développer son image de marque et de développer son activité en ligne, l'entreprise souhaitait se doter d'un site e-commerce.",
+          'The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces: a mobile application for the investors, and an admin panel, for the responsible of the company. A Pakistan-based project developed on React Native, completed in 1 months of duration from May 2022 to june 2022.':
+            "L'objectif est de permettre aux investisseurs d'avoir de la transparence sur les investissements qu'ils feraient dans l'immobilier au Pakistan. Pour cela, il existe deux interfaces principales : une application mobile pour les investisseurs, et un panel d'administration, pour les responsables de l'entreprise. Un projet basé au Pakistan développé sur React Native, achevé en 1 mois de mai 2022 à juin 2022.",
+          'In order to develop A French-based ready-to-wear store chain, its brand image, and its online activity, the company wanted to have an e-commerce site. The website was developed on .NET and was complete in 4 months from April 2022 to July 2022':
+            "Afin de développer une chaîne de magasins de prêt-à-porter basée en France, son image de marque et son activité en ligne, l'entreprise souhaitait se doter d'un site e-commerce. Le site Web a été développé sur .NET et a été achevé en 4 mois d'avril 2022 à juillet 2022",
+          'It is a distinct pleasure for me to recommend falcon IT to all interested parties.They have been professional, comprehensive, and competent throughout the process of working together. We have established a relationship with them for years to come.':
+            "C'est un réel plaisir pour moi de recommander falcon IT à toutes les parties intéressées. Ils ont été professionnels, compréhensifs et compétents tout au long du processus de collaboration. Nous avons établi une relation avec eux pour les années à venir.",
           // Fireman
 
           'Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:':
@@ -847,8 +875,7 @@ i18n
             "Le courrier électronique seul est insuffisant. Les télé-travailleurs profitent maintenant de nouveaux outils, comme par exemple la vidéoconférence, qui donne aux membres un nombre important de signaux visibles qu'ils auraient au cas où ils seraient en collaboration avec un autre membre. Les discussion vidéos contribuent à réduire le sentiment de déconnexion entre les groupes. De même, la vidéo est particulièrement utile pour les discussions plus délicates, car elle donne l'impression d'être plus proche de l’équipe que les e-mails ou les appels téléphoniques.",
           'Moreover, as long as you can adopt a two-way communication system, your remote workers would not feel isolated. In addition, regular one on one meetings should be held since it is troublesome to choose a time that would be suitable for all workers':
             'Tant que vous pouvez adopter un système de communication varié (écrit, audio ou vidéo), vos travailleurs à distance ne se sentiront pas isolés. N’hésitez pas à faire des petits points réguliers avec vos collaborateurs par téléphone, afin de vous assurer que tout va bien et qu’ils ont bien compris les instructions.',
-          'Inability to monitor worker’s progress':
-            'Incapacité à suivre les progrès du collaborateur',
+          'Inability to monitor worker’s progress': 'Incapacité à suivre les progrès du collaborateur',
 
           'Since it is an arduous task to scrutinize how much and at what pace is your worker accomplishing his tasks, It is not that easy to track your employee’s progress especially when they are working thousands of miles away from you. You cannot possibly know when your employee is being underutilized without a comprehension of their capability and this lack of visibility and control can lead to poor management.':
             "Comme il est difficile d'examiner dans quelle mesure et à quel rythme votre employé accomplit ses tâches, il n'est pas si facile de suivre les progrès de votre employé, surtout lorsqu'il travaille à des milliers de kilomètres de chez vous. Vous ne pouvez pas savoir si votre employé est en sous-régime sans comprendre ses capacités et ce manque de visibilité et de contrôle peut conduire à une mauvaise gestion. Voir pire, à du micro-management !",
@@ -873,8 +900,7 @@ i18n
           'Expectations regarding the task': 'Les attentes par rapport aux tâches allouées;',
           'Pay rate and schedule': 'Calendrier des paies',
           'Working Hours': 'Heures de travail',
-          'Status update regarding the task':
-            'Transmission régulière d’informations stratégiques liés à l’entreprise',
+          'Status update regarding the task': 'Transmission régulière d’informations stratégiques liés à l’entreprise',
 
           'Moreover, unexpected questions regarding the project should be answered promptly and workers should be provided with any kind of help.':
             "Aussi, les questions inattendues concernant le projet doivent recevoir une réponse rapide et les travailleurs doivent recevoir toute forme d'aide.",
@@ -994,15 +1020,12 @@ i18n
           'Mobile application for EdTech': 'Application mobile pour EdTech',
           'Amazon API Gateway Migration': "Migration de passerelle d'API Amazon",
           'Mobile application for Parental Control': 'Application mobile pour le contrôle parental',
-          'Amazon Web Services Server Configurations':
-            'Configurations du serveur Amazon Web Services',
-          'Web application Development for Travel Agency':
-            "Développement d'applications Web pour agence de voyage",
+          'Amazon Web Services Server Configurations': 'Configurations du serveur Amazon Web Services',
+          'Web application Development for Travel Agency': "Développement d'applications Web pour agence de voyage",
 
           //   blog section
           'Managing a Remote Team': 'Manager une équipe en télétravail',
-          'Why having a business website is necessary ?':
-            'Site professionnel : votre identité digitale',
+          'Why having a business website is necessary ?': 'Site professionnel : votre identité digitale',
 
           'Published on': 'Ecrit le',
 
@@ -1022,8 +1045,7 @@ i18n
           // contact us
           'Contact Us': 'Nous contacter',
           'Share Your Project/Idea with us!': 'Partagez votre projet avec nous !',
-          'Our Team Member will get back to you within 24 hours. ':
-            'Un collaborateur vous répondra dans les 24 heures.',
+          'Our Team Member will get back to you within 24 hours. ': 'Un collaborateur vous répondra dans les 24 heures.',
 
           'Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.':
             "Vous avez des questions sur un projet concret ? Ou voulez-vous simplement vous renseigner sur le développement offshore et voir s'il peut répondre à vos besoins ? Veuillez remplir le formulaire de contact et nous partagerons gratuitement notre expertise. Un collaborateur vous répondra dans les 24 heures.",
@@ -1082,7 +1104,6 @@ i18n
           'We Are A Modern IT Agency': 'Agence informatique moderne',
           'Accessible price, with no compromise on the Quality!': 'Prix ​​accessible, sans compromis sur la Qualité !',
           'Office Locations': 'Pays',
-          
 
           'Years of Excellence': "Années d'excellence",
           'Successfull Projects': 'Projets réussis',
@@ -1105,8 +1126,7 @@ i18n
           //   Blogs
           // Blog_Header
           'FALCON BLOG': 'BLOG FALCON',
-          'Always looking into improving ourselves.':
-            "La recherche de l'amélioration en permanence",
+          'Always looking into improving ourselves.': "La recherche de l'amélioration en permanence",
 
           'The articles written below by our team reflect our values and expertize when it comes to collaborating in mid-size and big projects.':
             'Les articles rédigés ci-dessous par notre équipe reflètent nos valeurs et notre expertise en matière de collaboration dans des projets de moyenne et grande envergure',
@@ -1140,9 +1160,8 @@ i18n
 
           //   Services
           // Services_Header
-          'Skilled Developers for your Projects': "L'extension de votre équipe tech !",
-          'We are ready to handle your ambitious projects!':
-            'Nous sommes prêts à gérer vos projets ambitieux !',
+          'Skilled Developers for your Projects': "L'extension de votre équipe tech!",
+          'We are ready to handle your ambitious projects!': 'Nous sommes prêts à gérer vos projets ambitieux !',
 
           'Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !':
             "Avez-vous besoin de développeurs pour des tâches à court ou à long terme ? Notre approche tout compris vous permettra d'obtenir le meilleur match !",
@@ -1161,15 +1180,12 @@ i18n
           'FULL FLEXIBILITY': 'FLEXIBILITÉ TOTALE',
           'USER-FOCUSED PROCESS': "PROCESSUS AXÉ SUR L'UTILISATEUR",
           'Ux research': 'Meilleure expérience UX',
-          'Many of these business ideas are home-based. While they may not make you a billionaire.':
-            'Concrétisons vos projets.',
-
+          'Many of these business ideas are home-based. While they may not make you a billionaire.': 'Concrétisons vos projets.',
 
           // work Process Section
           "We solve clients' projects in a simple & efficient way":
             'Nous résolvons les projets de nos clients de manière simple et efficace',
-          'We always follow the standard work process':
-            'Nous suivons toujours les meilleurs pratiques.',
+          'We always follow the standard work process': 'Nous suivons toujours les meilleurs pratiques.',
 
           'Project Requirement': 'Exigence du projet',
           Designing: 'Conception',
@@ -1178,10 +1194,8 @@ i18n
           'We do research and validate the specs before we start any projects':
             'Nous analysons et validons les spécifications avant de commencer tout projet',
           "Designed according to client's requirements": 'Conçu selon les exigences du client',
-          'Developed by skilled team developers':
-            'Développé par une équipe de développeurs qualifiés',
-          'After completing the work, live test is done':
-            'Une fois le travail terminé, des tests sont effectués',
+          'Developed by skilled team developers': 'Développé par une équipe de développeurs qualifiés',
+          'After completing the work, live test is done': 'Une fois le travail terminé, des tests sont effectués',
 
           UX: 'UX',
           Wireframing: 'Maquetage',
@@ -1210,8 +1224,7 @@ i18n
           // developer work process
           "We solve clients' projects in a simple & efficient way":
             'Nous résolvons les projets de nos clients de manière simple et efficace',
-          'We always follow the standard work process':
-            'Nous suivons toujours les meilleurs pratiques.',
+          'We always follow the standard work process': 'Nous suivons toujours les meilleurs pratiques.',
 
           'You need developer': "Vous avez besoin d'un développeur",
           "We organize a meeting in order to better understand your needs, as well as the ideal profile sought for your project. If your needs change during this process, don't panic: we take into account any last minute changes!":
@@ -1241,13 +1254,18 @@ i18n
             "Côté chauffeurs-livreurs, l'application indique les plats à emporter et à livrer, avec toutes les informations de localisation. Le livreur informe automatiquement les utilisateurs de l'avancement de la commande, avec des notifications-push.",
           'The client was happy with the work done, and he specially liked that as a non expert in IT, he told us what he wanted to achieve, and we always found the most efficient solution. Not only developers by experts, advising him on the best ways to build this platform':
             "Le client était content du travail effectué, et il aimait particulièrement qu'en tant que non expert en informatique, il nous dise ce qu'il voulait réaliser, et nous trouvions toujours la solution la plus efficace. Pas seulement des développeurs par des experts, le conseillant sur les meilleurs moyens de construire cette plateforme",
+          'Web and mobile platform connecting restaurants, corporate customers, and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order. The customers can order food with an ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience.On the restaurant side, it is possible to create and manage a customized menu,see all the incoming orders, and change their status.On the delivery side, the application of the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications.':
+            "Plateforme web et mobile mettant en relation restaurants, entreprises et chauffeurs-livreurs pour des livraisons de repas en vrac en Martinique. Ce concept intelligent permet à chaque client d'économiser sur les frais de livraison, car ils sont partagés entre tous ceux qui passent une commande. Les clients peuvent commander de la nourriture grâce à un système ingénieux permettant des plats mixtes entre plusieurs restaurants d'un même quartier. Ensuite, ils sont notifiés du statut de la commande, et ils peuvent noter l'expérience globale. Côté restaurant, il est possible de créer et de gérer un menu personnalisé, de voir toutes les commandes entrantes, et de modifier leur statut. Côté livraison , l'application des plats à emporter et à livrer,avec toutes les informations de localisation. Le livreur informe automatiquement les utilisateurs de l'avancement de la commande, avec des notifications push.",
+          'Tilt is a French-based platform connecting restaurants with corporate customers. Its front end is developed on React and its back end is on Node JS and the project was completed in 6 months from January 2020 to May 2021':
+            'Tilt est une plateforme basée en France qui met en relation des restaurants avec des entreprises clientes. Son front-end est développé sur React et son back-end est sur Node JS et le projet a été réalisé en 6 mois de janvier 2020 à mai 2021',
+          'Falcon IT excels at turning your website dreams into reality. We are so proud of the work they have done for us that we have already recommended them to many of Our partners and we are very thankful to them.':
+            "Falcon IT excelle à transformer vos rêves de site Web en réalité. Nous sommes tellement fiers du travail qu'ils ont accompli pour nous que nous les avons déjà recommandés à plusieurs de nos partenaires et nous leur en sommes très reconnaissants.",
           // Issyne
           'Mobile platform for connecting students and teachers. It is an application that stands out for its ability to get in touch with teachers instantly., based on the availabilities. This application has an internal messaging system, with all the features such as sending multimedia files, sending voice messages, etc...':
             "Plate-forme mobile pour connecter les étudiants et les enseignants. Il s'agit d'une application qui se distingue par sa capacité à entrer en contact avec les enseignants instantanément, en fonction de leurs disponibilités. Cette application dispose d'un système de messagerie interne, avec toutes les fonctionnalités telles que l'envoi de fichiers multimédias, l'envoi de messages vocaux, etc.",
           'Students can rate their teacher, and see the history of past classes (via a PDF file generated at the end of the course). ':
             "Les étudiants peuvent noter leur professeur, et voir l'historique des cours passés (via un fichier PDF généré à la fin du cours).",
-          'A system of remuneration via tokens has been created.':
-            'Un système de rémunération via des tokens a été créé.',
+          'A system of remuneration via tokens has been created.': 'Un système de rémunération via des tokens a été créé.',
 
           'The project owner is Salah Didouche, who made a name for himself in the world of startups with the TDP platform (Transporteurs du Pauvre).':
             "Le porteur de projet est Salah Didouche, qui s'est fait un nom dans le monde des startups avec la plateforme TDP (Transporteurs du Pauvre).",
@@ -1267,6 +1285,12 @@ i18n
             "Les entreprises disposent d'un tableau de bord complet leur permettant de gérer leurs offres, de voir les matchs potentiels et d'accepter les créneaux d'entretien.",
           'Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. A matching algorithm, based on several criteria, automatically calculates a percentage of compatibility between a student and a job offer.  The matching process is similarly done as with the Tinder application. Once the matching is done, a calendar allows the student to book an interview session with the company. The platform automatically retrieves (scrapes) all offers from reference websites in France, and add them to Winaa’s database. Companies have a full dashboard allowing them to manage their offers, see the potential matches and accept the interview sessions.':
             "Winaa est un job board, sous la forme d'une application mobile et web, de mise en relation entre entreprises et apprentis. Un algorithme d'appariement, basé sur plusieurs critères, calcule automatiquement un pourcentage de compatibilité entre un étudiant et une offre d'emploi. Le processus de mise en correspondance se fait de la même manière qu'avec l'application Tinder. Une fois le jumelage effectué, un calendrier permet à l'étudiant de réserver une séance d'entretien avec l'entreprise. La plateforme récupère (scrape) automatiquement toutes les offres des sites de référence en France, et les ajoute à la base de données de Winaa. Les entreprises disposent d'un tableau de bord complet leur permettant de gérer leurs offres, de voir les correspondances potentielles et d'accepter les séances d'entretien.",
+          'Winaa is a job board, in the shape of a mobile and web application, for connecting companies and apprentices. A matching algorithm, based on several criteria, automatically calculates a percentage of compatibility between a student and a job offer. The matching process is similarly done as with the Tinder application.Once the matching is done, a calendar allows the student to book an interview session with the company. The platform automatically retrieves (scrapes) all offers from reference websites in France, and adds them to Winaa’s database.Companies have a full dashboard allowing them to manage their offers, see the potential matches and accept the interview sessions.':
+            "Winaa est un job board, sous la forme d'une application mobile et web, de mise en relation entre entreprises et apprentis. Un algorithme d'appariement, basé sur plusieurs critères, calcule automatiquement un pourcentage de compatibilité entre un étudiant et une offre d'emploi. Le processus d'appariement se fait de la même manière qu'avec l'application Tinder. Une fois l'appariement effectué, un calendrier permet à l'étudiant de réserver une séance d'entretien avec l'entreprise. La plateforme récupère (scrape) automatiquement toutes les offres des sites de référence en France, et les ajoute à la base de données de Winaa. Les entreprises disposent d'un tableau de bord complet leur permettant de gérer leurs offres, de voir les correspondances potentielles et d'accepter les séances d'entretien.",
+          'A French job platform connecting employers and employees for hiring apprenticeship with its website’s front end on React and backend on Node JS.This project was completed in 6 months from January 2021 to June 2021.':
+            "Une plateforme d'emploi française connectant employeurs et employés pour l'embauche d'apprentis avec le front-end de son site Web sur React et le backend sur Node JS. Ce projet a été réalisé en 6 mois de janvier 2021 à juin 2021.",
+          'Falcon IT has done a great job and we are impressed with the overall services.':
+            "Falcon IT a fait un excellent travail et nous sommes impressionnés par l'ensemble des services.",
           // Orgaplan
           'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.':
             'Orgaplan est une plateforme complexe et complète permettant la gestion logistique de grands chantiers, en zones très denses (comme Paris - La Défense, etc...). La plate-forme est actuellement utilisée sur les chantiers de construction de Vinci, afin de faciliter leurs activités logistiques.',
@@ -1276,7 +1300,12 @@ i18n
             "Possibilité de créer et de dessiner le Plan d'Installation de Chantier, ainsi que les bâtiments et les aires de stockage. Possibilité de créer des livraisons et de suivre l'état général du chantier.",
           'Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. ':
             "Falcon Consulting est spécialisé dans les projets de construction numérique, et nous avons aidé notre partenaire à finaliser son cahier des charges afin d'obtenir la meilleure expérience utilisateur.",
-
+          'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, to facilitate very challenging logistic activities. Available in web and mobile versions, with 5 types of users: Super admin / Admin / Company / Traffic agent / Buffer traffic agent. Each user has his rights and functionalities, allowing an infinity of scenarios, as per the real situations on site. Possibility to create and draw the Site Installation Plan, as well as the buildings and storage areas. Possibility to create deliveries and monitor the general state of the site. Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification to get the best User experience':
+            "Orgaplan est une plateforme complexe et complète permettant la gestion logistique de grands chantiers, en zones très denses (comme Paris - La Défense, etc...). La plate-forme est actuellement utilisée sur les chantiers de construction de Vinci, pour faciliter les activités logistiques très exigeantes. Disponible en version web et mobile, avec 5 types d'utilisateurs : Super admin / Admin / Entreprise / Traffic agent / Buffer traffic agent. Chaque utilisateur a ses droits et ses fonctionnalités, permettant une infinité de scénarios, selon les situations réelles sur site. Possibilité de créer et de dessiner le Plan d'Installation du Site, ainsi que les bâtiments et les aires de stockage. Possibilité de créer des livraisons et de suivre l'état général du site. Falcon Consulting est spécialisé dans les projets de construction numériques, et nous avons aidé notre partenaire à finaliser son cahier des charges pour obtenir la meilleure expérience utilisateur",
+          'Orgaplan is a Logistics management in France on a large scale and its site is developed on React front end and Node JS backend. This project was delivered in just 7 months':
+            'Orgaplan est une gestion logistique en France à grande échelle et son site est développé sur le front end React et le backend Node JS. Ce projet a été livré en seulement 7 mois',
+          'Falcon’s website design team far exceeded my expectations on every front as I had very high expectations of them. The end product is a responsive website that embodies who we are as a company.':
+            "L'équipe de conception du site Web de Falcon a largement dépassé mes attentes sur tous les fronts, car j'avais des attentes très élevées à leur égard. Le produit final est un site Web réactif qui incarne qui nous sommes en tant qu'entreprise.",
           //    Orientator
           'Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.':
             'Orientator est une application web qui permet aux lycéens de faire leur meilleur choix de carrière, après avoir rempli un questionnaire en ligne personnalisé.',
@@ -1284,7 +1313,12 @@ i18n
             "Le questionnaire se présente sous la forme d'un arbre décisionnel, avec des questions discriminantes et non discriminantes, aidant à comprendre le profil de l'utilisateur.",
           "At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.":
             "À la fin du questionnaire, un algorithme complexe génère une liste de formations et d'écoles post-bac qui correspondent le mieux au profil de l'élève. Cet algorithme calcule un score selon plusieurs critères, comme la distance, la sélectivité ou encore la durée du cours, et un pourcentage de compatibilité en fonction des réponses de l'étudiant.",
-
+          "Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile. At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers.":
+            "Orientator est une application web qui permet aux lycéens de faire leur meilleur choix de carrière, après avoir rempli un questionnaire en ligne et personnalisé. Le questionnaire se présente sous la forme d'un arbre décisionnel, avec des questions discriminantes et non discriminantes, aidant à comprendre le profil de l'utilisateur. A la fin du questionnaire, un algorithme complexe génère une liste de programmes et d'écoles post-bac qui correspondent le mieux au profil de l'élève. Cet algorithme calcule un score selon plusieurs critères, comme la distance, la sélectivité ou encore la durée du cours, et un pourcentage de compatibilité en fonction des réponses de l'étudiant.",
+          'Orientator is a French-based platform for students to decide on their university.This site is developed with the front end on React and the backend on Node JS and the whole project was completed in 5 months':
+            "Orientator est une plateforme française permettant aux étudiants de choisir leur université. Ce site est développé avec le front-end sur React et le back-end sur Node JS et l'ensemble du projet a été réalisé en 5 mois",
+          'Falcon IT has done a great job of creating exactly what I wanted. Easy to work with and very responsive. They met all of my expectations. Thank you!':
+            'Falcon IT a fait un excellent travail en créant exactement ce que je voulais. Travail facile et très réactif. Ils ont répondu à toutes mes attentes. Merci!',
           // Kidcab
           'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.':
             'Kidcab est une application mobile visant à aider les parents à trouver des chauffeurs pour les activités de leurs enfants et à suivre leur emplacement en toute sécurité. Pour notre partenaire, nous avons développé deux applications mobiles et une application web de Gestion des courses',
@@ -1307,8 +1341,7 @@ i18n
           // PERMISPOP
           'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.':
             "Permispop est une plateforme web mettant en relation des étudiants, des moniteurs indépendants et des auto-écoles. Chaque type d'utilisateur dispose d'une interface dédiée, lui permettant de gérer efficacement ses activités.",
-          'The platform offers several features such as :':
-            'La plateforme offre plusieurs fonctionnalités telles que :',
+          'The platform offers several features such as :': 'La plateforme offre plusieurs fonctionnalités telles que :',
 
           '- the possibility to search for an instructor with an interactive map, and book a session depending on his availability.':
             '- la possibilité de rechercher un moniteur avec une carte intéractive, et de réserver une séance selon sa disponibilité.',
@@ -1329,16 +1362,16 @@ i18n
             'Chez Permispop, nous sommes très impressionnés par tous les aspects de notre site Web et de notre application mobile, car ils sont conviviaux et fonctionnent efficacement. Nous recommandons vivement Falcon IT à tous ceux qui souhaitent créer un site Web, une application Web ou une application mobile.',
           'A web platform and a mobile app to connect students, independent driving teachers, and driving schools in France. Web’s front end is developed on React and the back end is developed on .Net and the Verson 1 of this website was completed in the duration of 2019 to 2022 and Version 2 was completed in the duration of 2021 to 2022':
             'Une plateforme web et une application mobile pour mettre en relation étudiants, professeurs de conduite indépendants et auto-écoles en France. Le front-end du Web est développé sur React et le back-end est développé sur .Net et la version 1 de ce site Web a été achevée entre 2019 et 2022 et la version 2 a été achevée entre 2021 et 2022',
+          'Client was especially happy that we never let him down, always put additional effort to make things happen. He sees us as more than vendor, but friends.​':
+            "Le client était particulièrement heureux que nous ne le laissions jamais tomber, que nous déployions toujours des efforts supplémentaires pour faire bouger les choses. Il nous considère comme plus qu'un vendeur, mais comme des amis.​",
           // ZypZap
-          'ZypZap is a gaming platform by Falcon IT.':
-            'ZypZap est une plateforme éducative dans le domaine du gaming.',
+          'ZypZap is a gaming platform by Falcon IT.': 'ZypZap est une plateforme éducative dans le domaine du gaming.',
 
           'It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.':
             "Elle est destinée à la fois aux apprenants et aux créateurs, l'objectif étant de permettre d'heberger simplement des contenus éducatifs.",
           '•	For learners, ZypZap helps them to become Pro players.':
             'Pour les apprenants, ZypZap les aide à devenir des joueurs Pro.',
-          '•	Full gameplay courses are available on this site.':
-            'Des cours de gameplay complets sont disponibles sur ce site.',
+          '•	Full gameplay courses are available on this site.': 'Des cours de gameplay complets sont disponibles sur ce site.',
 
           '•	For creators, gamers teach, what they are good at':
             'Pour les créateurs, les joueurs enseignent leur expertise et sont rémunérés en conséquence.',
@@ -1346,6 +1379,12 @@ i18n
             'Un éditeur de vidéo complet permet aux créateurs de contenu de concevoir des cours de qualité.',
           'ZypZap is a gaming platform by Falcon IT. It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.':
             'ZypZap est une plateforme de jeu de Falcon IT. Cela fonctionne à la fois pour les apprenants et les créateurs. Comme le contenu lisible crée un désordre pour les utilisateurs ou les apprenants, ce ZypZap sera utile pour que les apprenants apprennent de manière simple et rapide.',
+          'ZypZap is a gaming platform by Falcon IT. It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.For learners, ZypZap helps them to become Pro players.Full gameplay courses are available on this site. For creators, gamers teach, what they are good at. Specifically, for the gamers who want to teach how to play and make familiar with the game content quickly.':
+            'ZypZap est une plateforme de jeu de Falcon IT. Cela fonctionne à la fois pour les apprenants et les créateurs. Comme le contenu lisible crée un gâchis pour les utilisateurs ou les apprenants, ce ZypZap sera utile pour que les apprenants apprennent de manière simple et rapide. Pour les apprenants, ZypZap les aide à devenir des joueurs Pro. Des cours de gameplay complets sont disponibles sur ce site. Pour les créateurs, les joueurs enseignent ce dans quoi ils sont bons. Plus précisément, pour les joueurs qui souhaitent apprendre à jouer et se familiariser rapidement avec le contenu du jeu.',
+          'A French-based gaming platform, developed with the front end on React and the backend on Node JS, and the whole project was completed in 10 months':
+            "Une plate-forme de jeu basée en France, développée avec le front-end sur React et le back-end sur Node JS, et l'ensemble du projet a été achevé en 10 mois",
+          'Quick response to ideas and changes. Falcon always answers the right ways and ideas':
+            'Réponse rapide aux idées et aux changements. Falcon répond toujours aux bonnes manières et aux bonnes idées',
           // Quadra Base
           'Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.':
             "Quadrabase est une plateforme web permettant aux bureaux d'études de générer automatiquement des documents d'appel d'offres dans le domaine de la construction : Spécification de projet, Estimation des coûts de projet, Modèle d'appel d'offres de projet. La plate-forme dispose d'une base de données bien structurée et à plusieurs niveaux, permettant d'inclure des données adaptés, en fonction des détails du projet.",
@@ -1390,8 +1429,7 @@ i18n
           Advertising: 'Publicité:',
           '•	Advertising by understanding how a user can react to the advertisement shown to them.':
             'Publicité en analysant le comportement des utilisateurs face au contenu présenté.',
-          '•	Target ads based on non-personal criteria.':
-            'Annonces ciblées en fonction de critères non personnels.',
+          '•	Target ads based on non-personal criteria.': 'Annonces ciblées en fonction de critères non personnels.',
 
           'Product development': 'Développement de produits',
           '•	EZBox media helps Product development for the next generation products with the wide variety of technologies available today.':
@@ -1412,6 +1450,12 @@ i18n
             "Le patient est filmé en train d'effectuer différents types d'exercices, et l'outil détecte et calcule les angles du corps de celui-ci (tels que ses jambes, ses bras, ses chevilles, sa taille, etc.). Le programme analyse ensuite les données en fonction de règles créées en internes, et en déduit si les mouvements sont correctement réalisés ou non.",
           'The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.':
             "La détection des mouvements se fait à l'aide de la technologie Mediapipe, et nécessite une connaissance pointue en matière de traitement d'images afin d'assurer une fluidité et une précision des résultats finaux.",
+          'Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc...). The program then analyzes the data based on internal rules and deduces whether the movements are abnormal or not.The detection of the movements is done with the help of a Media pipe and requires advanced knowledge in terms of image processing to ensure fluidity and accuracy of the final results.':
+            "La plateforme de télésanté (nom du projet est confidentiel) est une application web et mobile américaine qui permet aux kinésithérapeutes d'analyser à distance les mouvements de leurs patients. Le patient est filmé en train d'effectuer différents types d'exercices, et l'outil détecte et calcule les angles du corps du patient (comme ses jambes, ses bras, son pied, sa taille, etc...). Le programme analyse ensuite les données en fonction de règles internes et en déduit si les mouvements sont anormaux ou non. La détection des mouvements se fait à l'aide d'un Media pipe et nécessite des connaissances avancées en terme de traitement d'image pour assurer la fluidité et la précision de la résultats finaux.",
+          'French based mobile application to analyze patient’s movement developed, project was completed in 4 months.':
+            "Développement d'une application mobile basée en France pour analyser les mouvements du patient, le projet a été achevé en 4 mois.",
+          'Our dream has come true with the efforts of the Falcon team. Great app and they do it in a great manner.':
+            "Notre rêve est devenu réalité grâce aux efforts de l'équipe Falcon. Excellente application et ils le font d'une manière formidable.",
           //Facility management
           'This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user.':
             "Il s'agit de la plate-forme de gestion des immeubles de bureaux. Il est similaire au tableau de bord de type Trello, affichant les tickets et leur statut. Voici un module de ce projet est le système de gestion des tickets qui doit être créé et gérer les tickets. Un système de gestion de tickets est un module où il existe deux types d'utilisateurs : utilisateur admin / utilisateur employé.",
@@ -1422,18 +1466,14 @@ i18n
           'General conditions of use of the site and the services offered':
             "Conditions générales d'utilisation du site et des services proposés",
           'Description of the services provided': 'Description des services fournis',
-          'Contractual limitations on technical data':
-            'Limitations contractuelles sur les données techniques',
+          'Contractual limitations on technical data': 'Limitations contractuelles sur les données techniques',
 
           'Intellectual property and counterfeits': 'Propriété intellectuelle et contrefaçons',
           'Limitations of liability': 'Limitations de responsabilité',
           'Personal data management': 'Gestion des données personnelles',
           'Incident notification': "Notification d'incident",
-          "Hypertext links 'cookies' and internet tags":
-            "Liens hypertextes 'cookies' et balises internet",
-          'Applicable law and attribution of jurisdiction':
-            'Droit applicable et attribution de juridiction',
-
+          "Hypertext links 'cookies' and internet tags": "Liens hypertextes 'cookies' et balises internet",
+          'Applicable law and attribution of jurisdiction': 'Droit applicable et attribution de juridiction',
         },
       },
     },

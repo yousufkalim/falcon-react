@@ -47,13 +47,11 @@ export default function Orientator() {
       />
       <DetailOverview
         titleTheme='#FF29AA'
-        desp='Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.'
+        desp='Orientator is a French-based platform for students to decide on their university.This site is developed with the front end on React and the backend on Node JS and the whole project was completed in 5 months'
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='FF29AA'
-
         name='Bilel S.'
-
         // location="France"
         src={OV_Orientator}
       />
@@ -68,7 +66,7 @@ export default function Orientator() {
 
       <DetailDemo
         to='https://orientator-demo.web.app/'
-        // desp
+        desp="Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile. At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers."
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
@@ -119,6 +117,7 @@ export default function Orientator() {
       />
       {/* <DetailLogo theme="#0073BB" src={Yuwway_Logo} /> */}
       <DetailAppDev
+        website
         title='WEB DEVELOPMENT'
         // desp
         fullImg={Orientator_WebFull}
@@ -128,13 +127,12 @@ export default function Orientator() {
       <DetailFeedback
         // titleTheme="#FF29AA"
         // despTheme="#282828"
-        // desp
+        desp='Falcon IT has done a great job of creating exactly what I wanted. Easy to work with and very responsive. They met all of my expectations. Thank you!'
         // location
         ThemeBG='linear-gradient(269.14deg, #BE9400 0%, #CB4B03 48.96%, #8B0054 100%)'
         // AvatarSrc={Kidcab_Avatar}
 
         name='Bilel S.'
-
       />
       <Footer />
     </div>
