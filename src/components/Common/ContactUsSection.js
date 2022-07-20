@@ -1,40 +1,62 @@
 import { Grid, Typography } from '@mui/material';
-import React, { useRef } from 'react';
+import React from 'react';
 import SectionHeader from './SectionHeader';
 import EmailIcon from '../../assets/images/emailIcon.svg';
-import Robot from '../../assets/images/notRobort.svg';
 import CalendlyIcon from '../../assets/images/calendlyIcon.svg';
 import emailjs from 'emailjs-com';
 import { toast } from 'react-toastify';
-import ReCAPTCHA from 'react-google-recaptcha';
 import { useTranslation } from 'react-i18next';
 export default function ContactUsSection(props) {
-  const { i18n, t } = useTranslation();
-
+  const { t } = useTranslation();
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm('service_p9t3cg6', 'template_imi9dne', e.target, 'user_Dh0YsMnLOPp5ckc48VOcP')
-      .then(
+    const data = new FormData(e.currentTarget);
+    let regex = /[^\s@]+@[^\s@]+\.[^\s@]+/;
+
+    const name = data.get('name');
+    const email = data.get('email');
+    const message = data.get('message');
+    const phone = data.get('phone');
+    const budget = data.get('budget');
+    if (name === '') {
+      toast.error(`${t("Name can't be blank")}`);
+    } else if (name.length < 2 && name.length > 0) {
+      toast.error(`${t('The name must be at least 2 characters')}`);
+    } else if (email === '') {
+      toast.error(`${t("Email can't be blank")}`);
+    } else if (regex.test(email) === false) {
+      toast.error(`${t('Not a Valid Email')}`);
+    } else if (phone.length === 0) {
+      toast.error(`${t("Phone can't be blank")}`);
+    } else if (phone[0] !== '0') {
+      toast.error(`${t('Phone number should start with 0')}`);
+    } else if (phone.length < 10 && phone.length > 0) {
+      toast.error(`${t('The phone must be at least 10 characters')}`);
+    } else if (budget === '') {
+      toast.error(`${t("Budget can't be blank")}`);
+    } else if (message === '') {
+      toast.error(`${t("Message can't be blank")}`);
+    } else {
+      emailjs.sendForm('service_9tq9fqk', 'template_yc206p5', e.target, 'tMMbs5Pn0amH90Aml').then(
         (result) => {
-          console.log(result.text);
+          return result;
         },
         (error) => {
-          console.log(error.text);
+          return error;
         }
       );
-    toast.success(
-      t(
-        'Thank you, the information has been submitted successfully. We will come back to you shortly.'
-      )
-    );
+      e.target.reset();
+
+      toast.success(
+        t(
+          'Thank you, the information has been submitted successfully. We will come back to you shortly.'
+        )
+      );
+    }
   };
-  function onChange(value) {
-    console.log('Captcha value:', value);
-  }
   return (
-    <>
+    <div>
       {props.ContactUs ? (
         <div className='ContactUsDiv'>
           <div>
@@ -54,7 +76,6 @@ export default function ContactUsSection(props) {
                   <div className='ContactForm_InputDiv'>
                     <Grid className='InputGrid' xs={12} sm={6}>
                       <input
-                        required
                         type='text'
                         name='name'
                         placeholder={t('Your Name')}
@@ -63,8 +84,7 @@ export default function ContactUsSection(props) {
                     </Grid>
                     <Grid className='InputGrid' xs={12} sm={6}>
                       <input
-                        required
-                        type='email'
+                        // type='email'
                         name='email'
                         placeholder={t('Email')}
                         className='InputField'
@@ -74,7 +94,6 @@ export default function ContactUsSection(props) {
                   <div className='ContactForm_InputDiv'>
                     <Grid className='InputGrid' xs={12} sm={6}>
                       <input
-                        required
                         type='number'
                         name='phone'
                         placeholder={t('Phone')}
@@ -83,7 +102,6 @@ export default function ContactUsSection(props) {
                     </Grid>
                     <Grid className='InputGrid' xs={12} sm={6}>
                       <input
-                        required
                         type='text'
                         name='budget'
                         placeholder={t('Budget')}
@@ -94,7 +112,6 @@ export default function ContactUsSection(props) {
                   <div>
                     <Grid className='InputGrid' xs={12}>
                       <textarea
-                        required
                         type='text'
                         name='message'
                         placeholder={t('Type Your Message')}
@@ -194,7 +211,6 @@ export default function ContactUsSection(props) {
                   <div className='ContactForm_InputDiv'>
                     <Grid xs={12} sm={6}>
                       <input
-                        required
                         type='text'
                         name='name'
                         placeholder={t('Your Name')}
@@ -203,8 +219,7 @@ export default function ContactUsSection(props) {
                     </Grid>
                     <Grid xs={12} sm={6}>
                       <input
-                        required
-                        type='email'
+                        // type='email'
                         name='email'
                         placeholder={t('Email')}
                         className='InputField'
@@ -214,8 +229,7 @@ export default function ContactUsSection(props) {
                   <div className='ContactForm_InputDiv'>
                     <Grid xs={12} sm={6}>
                       <input
-                        required
-                        type='number'
+                        // type='number'
                         name='phone'
                         placeholder={t('Phone')}
                         className='InputField'
@@ -223,7 +237,6 @@ export default function ContactUsSection(props) {
                     </Grid>
                     <Grid xs={12} sm={6}>
                       <input
-                        required
                         type='text'
                         name='budget'
                         placeholder={t('Budget')}
@@ -234,7 +247,6 @@ export default function ContactUsSection(props) {
                   <div>
                     <Grid xs={12}>
                       <textarea
-                        required
                         type='text'
                         name='message'
                         placeholder={t('Type Your Message')}
@@ -293,6 +305,6 @@ export default function ContactUsSection(props) {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }

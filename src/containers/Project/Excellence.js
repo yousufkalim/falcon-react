@@ -45,6 +45,7 @@ export default function Excellence() {
         // desp
         // location
         desp='In order to develop A French-based ready-to-wear store chain, its brand image, and its online activity, the company wanted to have an e-commerce site. The website was developed on .NET and was complete in 4 months from April 2022 to July 2022'
+
         titleTheme='#282828'
         AvatarSrc={Kidcab_Avatar}
         nameColor='#0086EF'
@@ -61,6 +62,7 @@ export default function Excellence() {
       />
 
       <DetailDemo
+        to='http://160.153.249.64:4455/'
         // desp
         // btnText
         DetailDemo_SquareDiv
@@ -122,6 +124,7 @@ export default function Excellence() {
         titleTheme='#0086EF'
         despTheme='#282828'
         desp='It is a distinct pleasure for me to recommend falcon IT to all interested parties.They have been professional, comprehensive, and competent throughout the process of working together. We have established a relationship with them for years to come.'
+
         // location
         ThemeBG='#ffffff'
         AvatarSrc={Kidcab_Avatar}
