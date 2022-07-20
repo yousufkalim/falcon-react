@@ -48,7 +48,7 @@ export default function Tilt() {
         desp='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
         AvatarSrc={QB_Avatar}
         nameColor='#D3014A'
-        // name="Dylan Field"
+        name='Laurent Louis-Henry'
         // location="France"
         src={OV_Tilt}
       />
@@ -63,6 +63,7 @@ export default function Tilt() {
       />
 
       <DetailDemo
+        to='https://tilt-entreprise.com/'
         // desp
         // btnText
         // DetailDemo_SquareDiv

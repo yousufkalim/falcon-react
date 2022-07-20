@@ -49,7 +49,9 @@ export default function FacilityManagement() {
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#2F696D'
-        name='Ukhano'
+
+        name='Damien Dehoul'
+   
         // location="France"
         src={OV_Facility}
       />
@@ -127,7 +129,7 @@ export default function FacilityManagement() {
         // location
         ThemeBG='#ffffff'
         // AvatarSrc={Kidcab_Avatar}
-        // name="Ukhano"
+        name='Damien Dehoul'
       />
       <Footer />
     </div>

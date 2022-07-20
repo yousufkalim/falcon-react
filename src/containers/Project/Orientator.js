@@ -51,7 +51,9 @@ export default function Orientator() {
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='FF29AA'
-        name='Ukhano'
+
+        name='Bilel S.'
+
         // location="France"
         src={OV_Orientator}
       />
@@ -65,6 +67,7 @@ export default function Orientator() {
       />
 
       <DetailDemo
+        to='https://orientator-demo.web.app/'
         // desp
         // btnText
         DetailDemo_SquareDiv
@@ -129,7 +132,9 @@ export default function Orientator() {
         // location
         ThemeBG='linear-gradient(269.14deg, #BE9400 0%, #CB4B03 48.96%, #8B0054 100%)'
         // AvatarSrc={Kidcab_Avatar}
-        name='Ukhano'
+
+        name='Bilel S.'
+
       />
       <Footer />
     </div>

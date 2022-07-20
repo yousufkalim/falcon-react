@@ -12,7 +12,9 @@ i18n
         translations: {
           //Home
           // Home_Header
-          'WE PROVIDE GREAT SERVICES AT THE BEST PRICE.': 'WE PROVIDE GREAT SERVICES AT THE BEST PRICE.',
+          'WE PROVIDE GREAT SERVICES AT THE BEST PRICE.':
+            'WE PROVIDE GREAT SERVICES AT THE BEST PRICE.',
+
           'Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners. ':
             'Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners. ',
           'GET A FREE QUOTE': 'GET A FREE QUOTE',
@@ -44,6 +46,8 @@ i18n
           'Read more about cookies': 'Read more about cookies',
           Agree: 'Agree',
           Decline: 'Decline',
+          'View More': 'View More',
+
 
           //   aboutus Section
           'your work is our priority': 'your work is our priority',
@@ -54,7 +58,9 @@ i18n
           'Number of Offices': 'Number of Offices',
           'External Tools Built': 'External Tools Built',
           'Improvement and Customer focused': 'Improvement and Customer focused',
-          'We believe that talent and skills do not have borders': 'We believe that talent and skills do not have borders',
+          'We believe that talent and skills do not have borders':
+            'We believe that talent and skills do not have borders',
+
           'We are a human-oriented company, investing in training healthy atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to put in place a continuous improvement process internally':
             'We are a human-oriented company, investing in training healthy atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to put in place a continuous improvement process internally',
           'READ MORE': 'READ MORE',
@@ -80,10 +86,13 @@ i18n
           'Amazon API Gateway Migration': 'Amazon API Gateway Migration',
           'Mobile application for Parental Control': 'Mobile application for Parental Control',
           'Amazon Web Services Server Configurations': 'Amazon Web Services Server Configurations',
-          'Web application Development for Travel Agency': 'Web application Development for Travel Agency',
+          'Web application Development for Travel Agency':
+            'Web application Development for Travel Agency',
           //   blog section
           'Managing a Remote Team': 'Managing a Remote Team',
-          'Why having a business website is necessary ?': 'Why having a business website is necessary ?',
+          'Why having a business website is necessary ?':
+            'Why having a business website is necessary ?',
+
           'Published on': 'Published on',
           'In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.':
             'In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.',
@@ -100,7 +109,9 @@ i18n
           // contact us
           'Contact Us': 'Contact Us',
           'Share Your Project/Idea with us!': 'Share Your Project/Idea with us!',
-          'Our Team Member will get back to you within 24 hours. ': 'Our Team Member will get back to you within 24 hours. ',
+          'Our Team Member will get back to you within 24 hours. ':
+            'Our Team Member will get back to you within 24 hours. ',
+
           'Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.':
             'Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.',
           'Schedule Meeting': 'Schedule Meeting',
@@ -153,8 +164,10 @@ i18n
 
           // Modern Agency Section
           'We Are A Modern IT Agency': 'We Are A Modern IT Agency',
-          'Accessible price, with no compromise on the Quality!': 'Accessible price, with no compromise on the Quality!',
-          'Office Loocations': 'Office Loocations',
+          'Accessible price, with no compromise on the Quality!':
+            'Accessible price, with no compromise on the Quality!',
+          'Office Locations': 'Office Locations',
+
           'Years of Excellence': 'Years of Excellence',
           'Successfull Projects': 'Successfull Projects',
           'Client satisfication': 'Client satisfication',
@@ -202,13 +215,16 @@ i18n
           'Data & Cloud': 'Data & Cloud',
           View: 'View',
           VIEW: 'VIEW',
+
           'What is ': 'What is ',
           'See more': 'See more',
 
           //   Services
           // Services_Header
           'Skilled Developers for your Projects': 'Skilled Developers for your Projects',
-          'We are ready to handle your ambitious projects!': 'We are ready to handle your ambitious projects!',
+          'We are ready to handle your ambitious projects!':
+            'We are ready to handle your ambitious projects!',
+
           'Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !':
             'Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !',
           'More information': 'More information',
@@ -222,6 +238,8 @@ i18n
           TECHNOLOGIES: 'TECHNOLOGIES',
           'In-House Team': 'In-House Team',
           'Product Development': 'Product Development',
+          'PRODUCT DEVELOPMENT': 'PRODUCT DEVELOPMENT',
+
           'FULL FLEXIBILITY': 'FULL FLEXIBILITY',
           'USER-FOCUSED PROCESS': 'USER-FOCUSED PROCESS',
           'Ux research': 'Ux research',
@@ -229,23 +247,32 @@ i18n
             'Many of these business ideas are home-based. While they may not make you a billionaire.',
 
           // work Process Section
-          "We solve clients' projects in a simple & efficient way": "We solve clients' projects in a simple & efficient way",
-          'We always follow the standard work process': 'We always follow the standard work process',
+          "We solve clients' projects in a simple & efficient way":
+            "We solve clients' projects in a simple & efficient way",
+          'We always follow the standard work process':
+            'We always follow the standard work process',
+
           'Project Requirement': 'Project Requirement',
           Designing: 'Designing',
           Development: 'Development',
           'Live Testing': 'Live Testing',
           'We do research and validate the specs before we start any projects':
             'We do research and validate the specs before we start any projects',
-          "Designed according to client's requirements": "Designed according to client's requirements",
+          "Designed according to client's requirements":
+            "Designed according to client's requirements",
           'Developed by skilled team developers': 'Developed by skilled team developers',
-          'After completing the work, live test is done': 'After completing the work, live test is done',
+          'After completing the work, live test is done':
+            'After completing the work, live test is done',
+
           UX: 'UX',
           Wireframing: 'Wireframing',
           'UI Design': 'UI Design',
           'Design Review': 'Design Review',
-          'Then Wireframing according to requirements': 'Then Wireframing according to requirements',
-          'We do ux research before we start any projects': 'We do ux research before we start any projects',
+          'Then Wireframing according to requirements':
+            'Then Wireframing according to requirements',
+          'We do ux research before we start any projects':
+            'We do ux research before we start any projects',
+
 
           // Our Deveopers Section
           'OUR DEVELOPERS ARE': 'OUR DEVELOPERS ARE',
@@ -264,8 +291,11 @@ i18n
             'Our developers work full-time on your projects and our collaborative tools guarantee Transparency regarding the progress of task',
 
           // developer work process
-          "We solve clients' projects in a simple & efficient way": "We solve clients' projects in a simple & efficient way",
-          'We always follow the standard work process': 'We always follow the standard work process',
+          "We solve clients' projects in a simple & efficient way":
+            "We solve clients' projects in a simple & efficient way",
+          'We always follow the standard work process':
+            'We always follow the standard work process',
+
           'You need developer': 'You need developer',
           "We organize a meeting in order to better understand your needs, as well as the ideal profile sought for your project. If your needs change during this process, don't panic: we take into account any last minute changes!":
             "We organize a meeting in order to better understand your needs, as well as the ideal profile sought for your project. If your needs change during this process, don't panic: we take into account any last minute changes!",
@@ -300,7 +330,9 @@ i18n
             'Mobile platform for connecting students and teachers. It is an application that stands out for its ability to get in touch with teachers instantly., based on the availabilities. This application has an internal messaging system, with all the features such as sending multimedia files, sending voice messages, etc...',
           'Students can rate their teacher, and see the history of past classes (via a PDF file generated at the end of the course). ':
             'Students can rate their teacher, and see the history of past classes (via a PDF file generated at the end of the course). ',
-          'A system of remuneration via tokens has been created.': 'A system of remuneration via tokens has been created.',
+          'A system of remuneration via tokens has been created.':
+            'A system of remuneration via tokens has been created.',
+
           'The project owner is Salah Didouche, who made a name for himself in the world of startups with the TDP platform (Transporteurs du Pauvre).':
             'The project owner is Salah Didouche, who made a name for himself in the world of startups with the TDP platform (Transporteurs du Pauvre).',
           'Application completed and tested, launch pending owner availability. ':
@@ -347,6 +379,12 @@ i18n
             'Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created.',
           'This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. ':
             'This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. ',
+
+          // PERMISPOP
+          'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.':
+            'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.',
+          'The platform offers several features such as :':
+            'The platform offers several features such as :',
           'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs.':
             'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs.',
           'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities and safely monitor their location. For our partner, we developed two mobile applications and a Ride Management web application.The Driver mobile application allows them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features to Uber.The Parent’s mobile application shows the live location of the driver and allows to monitor all the past and upcoming rides.Finally, the Ride Management website is intended for Kidcab administrators to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created.':
@@ -368,6 +406,7 @@ i18n
           '- An internal messaging system;': '- An internal messaging system;',
           '- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. ':
             '- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. ',
+
           'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. The possibility to search for an instructor with an interactive map, and book a session depending on his availability. The booking feature allows the driving schools and instructors to have an overview of all the activities and manage them efficiently; At the end of each session, the student can rate the instructor and provide feedback to the platform; An internal messaging system; A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made.':
             'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. The possibility to search for an instructor with an interactive map, and book a session depending on his availability. The booking feature allows the driving schools and instructors to have an overview of all the activities and manage them efficiently; At the end of each session, the student can rate the instructor and provide feedback to the platform; An internal messaging system; A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made.',
           'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself actual teachings of the great explorer of the truth, the master-builder of human happiness.':
@@ -382,9 +421,13 @@ i18n
           'ZypZap is a gaming platform by Falcon IT.': 'ZypZap is a gaming platform by Falcon IT.',
           'It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.':
             'It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.',
-          '•	For learners, ZypZap helps them to become Pro players.': '•	For learners, ZypZap helps them to become Pro players.',
-          '•	Full gameplay courses are available on this site.': '•	Full gameplay courses are available on this site.',
-          '•	For creators, gamers teach, what they are good at': '•	For creators, gamers teach, what they are good at',
+          '•	For learners, ZypZap helps them to become Pro players.':
+            '•	For learners, ZypZap helps them to become Pro players.',
+          '•	Full gameplay courses are available on this site.':
+            '•	Full gameplay courses are available on this site.',
+          '•	For creators, gamers teach, what they are good at':
+            '•	For creators, gamers teach, what they are good at',
+
           '•	Specifically, for the gamers who want to teach how to play and make familiar with the game content quickly.':
             '•	Specifically, for the gamers who want to teach how to play and make familiar with the game content quickly.',
           'ZypZap is a gaming platform by Falcon IT. It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.':
@@ -397,6 +440,7 @@ i18n
             'Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. ',
           'This project is ambitious and aims to revolutionize the approach to design in the field of construction in France. ':
             'This project is ambitious and aims to revolutionize the approach to design in the field of construction in France. ',
+
           'Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details. Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details. Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. This project is ambitious and aims to revolutionize the approach to design in the field of construction in France.':
             'Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details. Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details. Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. This project is ambitious and aims to revolutionize the approach to design in the field of construction in France.',
           'Project is ambitious and aims to revolutionize the approach to design in the field of construction in France. The project is developed on MERN and the timeline was November 2021 to July 2022':
@@ -412,6 +456,7 @@ i18n
             'After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs.',
           'Choose your designer with 99% accuracy as design confection brings your ideas to life.':
             'Choose your designer with 99% accuracy as design confection brings your ideas to life.',
+
           'A web app designed to help customers with customized stitching to receive your creation at your home. User login to register and add information regarding customized dress like color combination, stuff design, etc. After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs, where you can choose your designer with 99% accuracy as design confection brings your ideas to life':
             'A web app designed to help customers with customized stitching to receive your creation at your home. User login to register and add information regarding customized dress like color combination, stuff design, etc. After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs, where you can choose your designer with 99% accuracy as design confection brings your ideas to life',
           'I contacted Falcon IT with a basic feel I wanted in a website. They developed the best of Design Confection, the overall website visual layout, and the content too. Falcon’s services are a bargain when you weigh the cost versus the product you received. I will be using them again in future endeavors. Thanks again!':
@@ -421,7 +466,9 @@ i18n
           // Tajweed Made Easy
           'Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.':
             'Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.',
-          '•	User can signup and start learning Quran with Tajweed.': '•	User can signup and start learning Quran with Tajweed.',
+          '•	User can signup and start learning Quran with Tajweed.':
+            '•	User can signup and start learning Quran with Tajweed.',
+
           '•	Practice lessons are available.': '•	Practice lessons are available.',
           '•	User can repeat the lesson at any time without an internet connection':
             '•	User can repeat the lesson at any time without an internet connection',
@@ -434,13 +481,16 @@ i18n
           Advertising: 'Advertising',
           '•	Advertising by understanding how a user can react to the advertisement shown to them.':
             '•	Advertising by understanding how a user can react to the advertisement shown to them.',
-          '•	Target ads based on non-personal criteria.': '•	Target ads based on non-personal criteria.',
+          '•	Target ads based on non-personal criteria.':
+            '•	Target ads based on non-personal criteria.',
+
           'Product development': 'Product development ',
           '•	EZBox media helps Product development for the next generation products with the wide variety of technologies available today.':
             '•	EZBox media helps Product development for the next generation products with the wide variety of technologies available to',
           'Chromium Browser': 'Chromium Browser',
           '•	EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions. ':
             '•	EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions. ',
+
           'EZBox media is a platform providing different services including Advertising Advertising by understanding how a user can react to the advertisement shown to them.Target ads based on non-personal criteria.EZBox media helps Product development for the next generation products with the wide variety of technologies available today.EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions.':
             'EZBox media is a platform providing different services including Advertising Advertising by understanding how a user can react to the advertisement shown to them.Target ads based on non-personal criteria.EZBox media helps Product development for the next generation products with the wide variety of technologies available today.EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions.',
           'Falcon IT is a great company to work with as they are always responsive and willing to do what it takes to get the job done right and in a timely manner. They are very reliable and it was very clear during working that they are the right choice. Thank you, Falcon IT!':
@@ -461,6 +511,8 @@ i18n
           // Register-RH
           'This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.':
             'This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.',
+          'This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.':
+            "Ce système offre des fonctionnalités complètes pour gérer le personnel, les documents qui s'y rapportent et leur statut. On peut également gérer les documents d'évaluation des risques de l'entreprise. Cette application est capable de gérer plusieurs entreprises, leurs succursales et leurs employés ainsi que le transfert d'employés d'une succursale à une autre.",
 
           // Facility Management
           'This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.':
@@ -493,8 +545,11 @@ i18n
           'Limitations of liability': 'Limitations of liability',
           'Personal data management': 'Personal data management',
           'Incident notification': 'Incident notification',
-          "Hypertext links 'cookies' and internet tags": "Hypertext links 'cookies' and internet tags",
-          'Applicable law and attribution of jurisdiction': 'Applicable law and attribution of jurisdiction',
+          "Hypertext links 'cookies' and internet tags":
+            "Hypertext links 'cookies' and internet tags",
+          'Applicable law and attribution of jurisdiction':
+            'Applicable law and attribution of jurisdiction',
+
 
           // Blog Article
           // business website
@@ -515,7 +570,9 @@ i18n
             'A business website also brings credibility to your business. People usually look at the business with no websites as sketchy and less trust-worthy. You might be wondering how can a website bring credibility to your business. Well, most websites have review sections where the customers write reviews about your products or services. A consumer is 40% more likely to buy your product if they read positive reviews about your business.',
           'You can also bring credibility to your website by publishing educational and well-researched material. It will let your customers know that you know what you are talking about and what you are selling. This will increase the chances of purchase by a customer.':
             'You can also bring credibility to your website by publishing educational and well-researched material. It will let your customers know that you know what you are talking about and what you are selling. This will increase the chances of purchase by a customer.',
-          'Distinguish yourself through your website:': 'Distinguish yourself through your website:',
+          'Distinguish yourself through your website:':
+            'Distinguish yourself through your website:',
+
           'You can also use your website to be different from your competitors in the market. You can uniquely design your website and catch the attention of potential customers. In the crowded market, it is necessary to set yourself apart to get the attention of people. Use your website to establish yourself as different from others in the market and gain new customers every day.':
             'You can also use your website to be different from your competitors in the market. You can uniquely design your website and catch the attention of potential customers. In the crowded market, it is necessary to set yourself apart to get the attention of people. Use your website to establish yourself as different from others in the market and gain new customers every day.',
           'Around the clock availability:': 'Around the clock availability:',
@@ -597,14 +654,18 @@ i18n
           'Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.':
             'Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.',
           'OUR CONTRIBUTION': 'OUR CONTRIBUTION',
-          '• Collection and consolidation of business requests': '• Collection and consolidation of business requests',
+          '• Collection and consolidation of business requests':
+            '• Collection and consolidation of business requests',
+
           '• Implementation of project developments and production quality control':
             '• Implementation of project developments and production quality control',
           '• Development in ASP.NET 3.5, Spring.NET and nHibernate to develop a tool for managing the invoicing of courses and trainings.':
             '• Development in ASP.NET 3.5, Spring.NET and nHibernate to develop a tool for managing the invoicing of courses and trainings.',
           '• T-SQL development (generation of extracts, counters and data consistency checks)':
             '• T-SQL development (generation of extracts, counters and data consistency checks)',
-          '• rDevelopment to evolve invoices to the new SSRS format': '• rDevelopment to evolve invoices to the new SSRS format',
+          '• rDevelopment to evolve invoices to the new SSRS format':
+            '• rDevelopment to evolve invoices to the new SSRS format',
+
           '• Kettle-based batch development for import / export and data transformation':
             '• Kettle-based batch development for import / export and data transformation',
 
@@ -726,7 +787,9 @@ i18n
           'Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.':
             'Falcon Consulting a été sollicité par Accor pour son expertise en .NET et SQL pour maintenir les outils liés aux formations et formations.',
           'OUR CONTRIBUTION': 'NOTRE CONTRIBUTION',
-          '• Collection and consolidation of business requests': '• Collecte et consolidation des demandes commerciales',
+          '• Collection and consolidation of business requests':
+            '• Collecte et consolidation des demandes commerciales',
+
           '• Implementation of project developments and production quality control':
             '• Mise en place des développements projets et contrôle qualité de la production',
           '• Development in ASP.NET 3.5, Spring.NET and nHibernate to develop a tool for managing the invoicing of courses and trainings.':
@@ -784,7 +847,9 @@ i18n
             "Le courrier électronique seul est insuffisant. Les télé-travailleurs profitent maintenant de nouveaux outils, comme par exemple la vidéoconférence, qui donne aux membres un nombre important de signaux visibles qu'ils auraient au cas où ils seraient en collaboration avec un autre membre. Les discussion vidéos contribuent à réduire le sentiment de déconnexion entre les groupes. De même, la vidéo est particulièrement utile pour les discussions plus délicates, car elle donne l'impression d'être plus proche de l’équipe que les e-mails ou les appels téléphoniques.",
           'Moreover, as long as you can adopt a two-way communication system, your remote workers would not feel isolated. In addition, regular one on one meetings should be held since it is troublesome to choose a time that would be suitable for all workers':
             'Tant que vous pouvez adopter un système de communication varié (écrit, audio ou vidéo), vos travailleurs à distance ne se sentiront pas isolés. N’hésitez pas à faire des petits points réguliers avec vos collaborateurs par téléphone, afin de vous assurer que tout va bien et qu’ils ont bien compris les instructions.',
-          'Inability to monitor worker’s progress': 'Incapacité à suivre les progrès du collaborateur',
+          'Inability to monitor worker’s progress':
+            'Incapacité à suivre les progrès du collaborateur',
+
           'Since it is an arduous task to scrutinize how much and at what pace is your worker accomplishing his tasks, It is not that easy to track your employee’s progress especially when they are working thousands of miles away from you. You cannot possibly know when your employee is being underutilized without a comprehension of their capability and this lack of visibility and control can lead to poor management.':
             "Comme il est difficile d'examiner dans quelle mesure et à quel rythme votre employé accomplit ses tâches, il n'est pas si facile de suivre les progrès de votre employé, surtout lorsqu'il travaille à des milliers de kilomètres de chez vous. Vous ne pouvez pas savoir si votre employé est en sous-régime sans comprendre ses capacités et ce manque de visibilité et de contrôle peut conduire à une mauvaise gestion. Voir pire, à du micro-management !",
           'Various measures need to employ in order to monitor your employees’ productivity. Such actions may include creating merits that define how much work is to be completed per day. Moreover, clear roles and responsibilities should be detailed, along with the discussions with the workers about specific goals in a project to keep them accountable. Most importantly, the progress of remote workers should be monitored according to the same criteria that apply to office workers.':
@@ -808,7 +873,9 @@ i18n
           'Expectations regarding the task': 'Les attentes par rapport aux tâches allouées;',
           'Pay rate and schedule': 'Calendrier des paies',
           'Working Hours': 'Heures de travail',
-          'Status update regarding the task': 'Transmission régulière d’informations stratégiques liés à l’entreprise',
+          'Status update regarding the task':
+            'Transmission régulière d’informations stratégiques liés à l’entreprise',
+
           'Moreover, unexpected questions regarding the project should be answered promptly and workers should be provided with any kind of help.':
             "Aussi, les questions inattendues concernant le projet doivent recevoir une réponse rapide et les travailleurs doivent recevoir toute forme d'aide.",
           'As we can see, there are many challenges in managing a remote team. However, such issues can be easily resolved by taking appropriate, timely measures that would make the remote industry even more common across the globe.':
@@ -927,12 +994,16 @@ i18n
           'Mobile application for EdTech': 'Application mobile pour EdTech',
           'Amazon API Gateway Migration': "Migration de passerelle d'API Amazon",
           'Mobile application for Parental Control': 'Application mobile pour le contrôle parental',
-          'Amazon Web Services Server Configurations': 'Configurations du serveur Amazon Web Services',
-          'Web application Development for Travel Agency': "Développement d'applications Web pour agence de voyage",
+          'Amazon Web Services Server Configurations':
+            'Configurations du serveur Amazon Web Services',
+          'Web application Development for Travel Agency':
+            "Développement d'applications Web pour agence de voyage",
 
           //   blog section
           'Managing a Remote Team': 'Manager une équipe en télétravail',
-          'Why having a business website is necessary ?': 'Site professionnel : votre identité digitale',
+          'Why having a business website is necessary ?':
+            'Site professionnel : votre identité digitale',
+
           'Published on': 'Ecrit le',
 
           'In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.':
@@ -951,7 +1022,9 @@ i18n
           // contact us
           'Contact Us': 'Nous contacter',
           'Share Your Project/Idea with us!': 'Partagez votre projet avec nous !',
-          'Our Team Member will get back to you within 24 hours. ': 'Un collaborateur vous répondra dans les 24 heures.',
+          'Our Team Member will get back to you within 24 hours. ':
+            'Un collaborateur vous répondra dans les 24 heures.',
+
           'Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.':
             "Vous avez des questions sur un projet concret ? Ou voulez-vous simplement vous renseigner sur le développement offshore et voir s'il peut répondre à vos besoins ? Veuillez remplir le formulaire de contact et nous partagerons gratuitement notre expertise. Un collaborateur vous répondra dans les 24 heures.",
           'Schedule Meeting': 'Planifier une réunion',
@@ -1008,7 +1081,9 @@ i18n
           // Modern Agency Section
           'We Are A Modern IT Agency': 'Agence informatique moderne',
           'Accessible price, with no compromise on the Quality!': 'Prix ​​accessible, sans compromis sur la Qualité !',
-          'Office Loocations': 'Pays',
+          'Office Locations': 'Pays',
+          
+
           'Years of Excellence': "Années d'excellence",
           'Successfull Projects': 'Projets réussis',
           'Client satisfication': 'Satisfaction client',
@@ -1030,7 +1105,9 @@ i18n
           //   Blogs
           // Blog_Header
           'FALCON BLOG': 'BLOG FALCON',
-          'Always looking into improving ourselves.': "La recherche de l'amélioration en permanence",
+          'Always looking into improving ourselves.':
+            "La recherche de l'amélioration en permanence",
+
           'The articles written below by our team reflect our values and expertize when it comes to collaborating in mid-size and big projects.':
             'Les articles rédigés ci-dessous par notre équipe reflètent nos valeurs et notre expertise en matière de collaboration dans des projets de moyenne et grande envergure',
           'Your Email': 'Votre e-mail',
@@ -1056,6 +1133,7 @@ i18n
           'Data & Cloud': 'Data & Cloud',
           View: 'Voir',
           VIEW: 'VOIR',
+
           'What is ': "Qu'est-ce que",
 
           'See more': 'Voir plus',
@@ -1063,7 +1141,9 @@ i18n
           //   Services
           // Services_Header
           'Skilled Developers for your Projects': "L'extension de votre équipe tech !",
-          'We are ready to handle your ambitious projects!': 'Nous sommes prêts à gérer vos projets ambitieux !',
+          'We are ready to handle your ambitious projects!':
+            'Nous sommes prêts à gérer vos projets ambitieux !',
+
           'Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !':
             "Avez-vous besoin de développeurs pour des tâches à court ou à long terme ? Notre approche tout compris vous permettra d'obtenir le meilleur match !",
           'More information': 'More information',
@@ -1077,15 +1157,20 @@ i18n
           TECHNOLOGIES: 'TECHNOLOGIES',
           'In-House Team': 'Équipe interne',
           'Product Development': 'Développement produits',
+          'PRODUCT DEVELOPMENT': 'Développement produits',
           'FULL FLEXIBILITY': 'FLEXIBILITÉ TOTALE',
           'USER-FOCUSED PROCESS': "PROCESSUS AXÉ SUR L'UTILISATEUR",
           'Ux research': 'Meilleure expérience UX',
-          'Many of these business ideas are home-based. While they may not make you a billionaire.': 'Concrétisons vos projets.',
+          'Many of these business ideas are home-based. While they may not make you a billionaire.':
+            'Concrétisons vos projets.',
+
 
           // work Process Section
           "We solve clients' projects in a simple & efficient way":
             'Nous résolvons les projets de nos clients de manière simple et efficace',
-          'We always follow the standard work process': 'Nous suivons toujours les meilleurs pratiques.',
+          'We always follow the standard work process':
+            'Nous suivons toujours les meilleurs pratiques.',
+
           'Project Requirement': 'Exigence du projet',
           Designing: 'Conception',
           Development: 'Développement',
@@ -1093,8 +1178,11 @@ i18n
           'We do research and validate the specs before we start any projects':
             'Nous analysons et validons les spécifications avant de commencer tout projet',
           "Designed according to client's requirements": 'Conçu selon les exigences du client',
-          'Developed by skilled team developers': 'Développé par une équipe de développeurs qualifiés',
-          'After completing the work, live test is done': 'Une fois le travail terminé, des tests sont effectués',
+          'Developed by skilled team developers':
+            'Développé par une équipe de développeurs qualifiés',
+          'After completing the work, live test is done':
+            'Une fois le travail terminé, des tests sont effectués',
+
           UX: 'UX',
           Wireframing: 'Maquetage',
           'UI Design': "Conception de l'interface utilisateur",
@@ -1122,7 +1210,9 @@ i18n
           // developer work process
           "We solve clients' projects in a simple & efficient way":
             'Nous résolvons les projets de nos clients de manière simple et efficace',
-          'We always follow the standard work process': 'Nous suivons toujours les meilleurs pratiques.',
+          'We always follow the standard work process':
+            'Nous suivons toujours les meilleurs pratiques.',
+
           'You need developer': "Vous avez besoin d'un développeur",
           "We organize a meeting in order to better understand your needs, as well as the ideal profile sought for your project. If your needs change during this process, don't panic: we take into account any last minute changes!":
             'Nous organisons une rencontre afin de mieux comprendre vos besoins, ainsi que le profil idéal recherché pour votre projet. Si vos besoins évoluent au cours de ce processus, pas de panique : nous prenons en compte tout changement de dernière minute !',
@@ -1156,7 +1246,9 @@ i18n
             "Plate-forme mobile pour connecter les étudiants et les enseignants. Il s'agit d'une application qui se distingue par sa capacité à entrer en contact avec les enseignants instantanément, en fonction de leurs disponibilités. Cette application dispose d'un système de messagerie interne, avec toutes les fonctionnalités telles que l'envoi de fichiers multimédias, l'envoi de messages vocaux, etc.",
           'Students can rate their teacher, and see the history of past classes (via a PDF file generated at the end of the course). ':
             "Les étudiants peuvent noter leur professeur, et voir l'historique des cours passés (via un fichier PDF généré à la fin du cours).",
-          'A system of remuneration via tokens has been created.': 'Un système de rémunération via des tokens a été créé.',
+          'A system of remuneration via tokens has been created.':
+            'Un système de rémunération via des tokens a été créé.',
+
           'The project owner is Salah Didouche, who made a name for himself in the world of startups with the TDP platform (Transporteurs du Pauvre).':
             "Le porteur de projet est Salah Didouche, qui s'est fait un nom dans le monde des startups avec la plateforme TDP (Transporteurs du Pauvre).",
           'Application completed and tested, launch pending owner availability. ':
@@ -1215,7 +1307,9 @@ i18n
           // PERMISPOP
           'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.':
             "Permispop est une plateforme web mettant en relation des étudiants, des moniteurs indépendants et des auto-écoles. Chaque type d'utilisateur dispose d'une interface dédiée, lui permettant de gérer efficacement ses activités.",
-          'The platform offers several features such as :': 'La plateforme offre plusieurs fonctionnalités telles que :',
+          'The platform offers several features such as :':
+            'La plateforme offre plusieurs fonctionnalités telles que :',
+
           '- the possibility to search for an instructor with an interactive map, and book a session depending on his availability.':
             '- la possibilité de rechercher un moniteur avec une carte intéractive, et de réserver une séance selon sa disponibilité.',
           '- The booking feature allows the driving schools and instructors to have an overview of all the activities and manage them efficiently;':
@@ -1236,12 +1330,16 @@ i18n
           'A web platform and a mobile app to connect students, independent driving teachers, and driving schools in France. Web’s front end is developed on React and the back end is developed on .Net and the Verson 1 of this website was completed in the duration of 2019 to 2022 and Version 2 was completed in the duration of 2021 to 2022':
             'Une plateforme web et une application mobile pour mettre en relation étudiants, professeurs de conduite indépendants et auto-écoles en France. Le front-end du Web est développé sur React et le back-end est développé sur .Net et la version 1 de ce site Web a été achevée entre 2019 et 2022 et la version 2 a été achevée entre 2021 et 2022',
           // ZypZap
-          'ZypZap is a gaming platform by Falcon IT.': 'ZypZap est une plateforme éducative dans le domaine du gaming.',
+          'ZypZap is a gaming platform by Falcon IT.':
+            'ZypZap est une plateforme éducative dans le domaine du gaming.',
+
           'It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.':
             "Elle est destinée à la fois aux apprenants et aux créateurs, l'objectif étant de permettre d'heberger simplement des contenus éducatifs.",
           '•	For learners, ZypZap helps them to become Pro players.':
             'Pour les apprenants, ZypZap les aide à devenir des joueurs Pro.',
-          '•	Full gameplay courses are available on this site.': 'Des cours de gameplay complets sont disponibles sur ce site.',
+          '•	Full gameplay courses are available on this site.':
+            'Des cours de gameplay complets sont disponibles sur ce site.',
+
           '•	For creators, gamers teach, what they are good at':
             'Pour les créateurs, les joueurs enseignent leur expertise et sont rémunérés en conséquence.',
           '•	Specifically, for the gamers who want to teach how to play and make familiar with the game content quickly.':
@@ -1292,7 +1390,9 @@ i18n
           Advertising: 'Publicité:',
           '•	Advertising by understanding how a user can react to the advertisement shown to them.':
             'Publicité en analysant le comportement des utilisateurs face au contenu présenté.',
-          '•	Target ads based on non-personal criteria.': 'Annonces ciblées en fonction de critères non personnels.',
+          '•	Target ads based on non-personal criteria.':
+            'Annonces ciblées en fonction de critères non personnels.',
+
           'Product development': 'Développement de produits',
           '•	EZBox media helps Product development for the next generation products with the wide variety of technologies available today.':
             'Le support EZBox aide au développement de produits pour les produits de nouvelle génération.',
@@ -1322,13 +1422,18 @@ i18n
           'General conditions of use of the site and the services offered':
             "Conditions générales d'utilisation du site et des services proposés",
           'Description of the services provided': 'Description des services fournis',
-          'Contractual limitations on technical data': 'Limitations contractuelles sur les données techniques',
+          'Contractual limitations on technical data':
+            'Limitations contractuelles sur les données techniques',
+
           'Intellectual property and counterfeits': 'Propriété intellectuelle et contrefaçons',
           'Limitations of liability': 'Limitations de responsabilité',
           'Personal data management': 'Gestion des données personnelles',
           'Incident notification': "Notification d'incident",
-          "Hypertext links 'cookies' and internet tags": "Liens hypertextes 'cookies' et balises internet",
-          'Applicable law and attribution of jurisdiction': 'Droit applicable et attribution de juridiction',
+          "Hypertext links 'cookies' and internet tags":
+            "Liens hypertextes 'cookies' et balises internet",
+          'Applicable law and attribution of jurisdiction':
+            'Droit applicable et attribution de juridiction',
+
         },
       },
     },

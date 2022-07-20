@@ -1,14 +1,14 @@
 // Init
-import { Grid, Typography } from "@mui/material";
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+import { Grid, Typography } from '@mui/material';
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 // Importing Components
-import PP_logo from "../../assets/images/permisLogo.png";
-import Button from "@mui/material/Button";
-import { Divider } from "@mui/material";
-import BasicModal from "./BasicModal";
-import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import PP_logo from '../../assets/images/permisLogo.png';
+import Button from '@mui/material/Button';
+import { Divider } from '@mui/material';
+import BasicModal from './BasicModal';
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 // Home Component
 
 export default function OurProjectCard(props) {
@@ -23,7 +23,7 @@ export default function OurProjectCard(props) {
     <>
       {props.Reverse ? (
         <motion.div
-          initial={{ x: 300 }}
+          initial={{ x: -300 }}
           whileInView={{ x: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
@@ -31,40 +31,40 @@ export default function OurProjectCard(props) {
         >
           <Grid container spacing={1} className='ProjectCardContainer2'>
             <Grid xs={12} sm={10} md={9}>
-              <img className='ProjectCardImg' width={props.width || "100%"} src={props.src} />
+              <img className='ProjectCardImg' width={props.width || '100%'} src={props.src} />
             </Grid>
             <Grid xs={12} sm={10} md={3}>
               <div className='ProjectCardTypo'>
                 <Typography className='ProjectCardTitle'>
                   {props?.title?.length > 15
-                    ? props?.title?.slice(0, 15) + "..."
-                    : props?.title || "Permispop."}
+                    ? props?.title?.slice(0, 15) + '...'
+                    : props?.title || 'Permispop.'}
                   {/* {props.title || "Permispop."} */}
                 </Typography>
                 <Divider
                   className='ProjectCardDivider'
-                  width={props.width || "20%"}
+                  width={props.width || '20%'}
                   sx={{
-                    height: "3px",
-                    backgroundColor: "#0F52BA",
-                    borderRadius: "4px",
-                    margin: ".7% 0",
+                    height: '3px',
+                    backgroundColor: '#0F52BA',
+                    borderRadius: '4px',
+                    margin: '.7% 0',
                   }}
                 />
 
                 <Typography className='ProjectCardDesp'>
                   {/* {props.description} */}
-                  {t(desp?.length > 90 ? desp.slice(0, 90) + "..." : desp)}
+                  {t(desp?.length > 90 ? desp.slice(0, 90) + '...' : desp)}
                 </Typography>
                 <Link to={props.to}>
                   <Button className='ProjectCardBtn' variant='outlined'>
                     <BasicModal
                       ModalBtntextColor='#003B7E'
-                      ModalBtnTheme={props.ModalBtnTheme || "transparent"}
-                      ModalBtnText={t("View")}
+                      ModalBtnTheme={props.ModalBtnTheme || 'transparent'}
+                      ModalBtnText={t('View')}
                       LogoSrc={props.LogoSrc}
                       Heading={props.heading}
-                      Dividerwidth={props.Dividerwidth || "12%"}
+                      Dividerwidth={props.Dividerwidth || '12%'}
                       DividerTheme={props.DividerTheme}
                       para1={props.para1}
                       para2={props.para2}
@@ -94,34 +94,34 @@ export default function OurProjectCard(props) {
               <div className='ProjectCardTypo'>
                 <Typography className='ProjectCardTitle'>
                   {props?.title?.length > 15
-                    ? props?.title?.slice(0, 15) + "..."
-                    : props?.title || "Permispop."}
+                    ? props?.title?.slice(0, 15) + '...'
+                    : props?.title || 'Permispop.'}
                   {/* {props.title || "Permispop."} */}
                 </Typography>
                 <Divider
                   className='ProjectCardDivider'
-                  width={props.width || "20%"}
+                  width={props.width || '20%'}
                   sx={{
-                    height: "3px",
-                    backgroundColor: "#0F52BA",
-                    borderRadius: "4px",
-                    margin: ".7% 0",
+                    height: '3px',
+                    backgroundColor: '#0F52BA',
+                    borderRadius: '4px',
+                    margin: '.7% 0',
                   }}
                 />
 
                 <Typography className='ProjectCardDesp'>
-                  {desp?.length > 90 ? desp.slice(0, 90) + "..." : desp}
+                  {desp?.length > 90 ? desp.slice(0, 90) + '...' : desp}
                   {/* {t(props.description)} */}
                 </Typography>
                 <Link to={props.to}>
                   <Button className='ProjectCardBtn' variant='outlined'>
                     <BasicModal
                       ModalBtntextColor='#003B7E'
-                      ModalBtnTheme={props.ModalBtnTheme || "transparent"}
-                      ModalBtnText={t("View")}
+                      ModalBtnTheme={props.ModalBtnTheme || 'transparent'}
+                      ModalBtnText={t('View')}
                       LogoSrc={props.LogoSrc}
                       Heading={props.heading}
-                      Dividerwidth={props.Dividerwidth || "12%"}
+                      Dividerwidth={props.Dividerwidth || '12%'}
                       DividerTheme={props.DividerTheme}
                       para1={props.para1}
                       para2={props.para2}
@@ -137,7 +137,7 @@ export default function OurProjectCard(props) {
               </div>
             </Grid>
             <Grid xs={12} sm={10} md={9}>
-              <img className='ProjectCardImg' width={props.width || "100%"} src={props.src} />
+              <img className='ProjectCardImg' width={props.width || '100%'} src={props.src} />
             </Grid>
           </Grid>
         </motion.div>

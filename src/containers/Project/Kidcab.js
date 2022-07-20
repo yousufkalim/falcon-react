@@ -46,7 +46,7 @@ export default function Kidcab() {
         titleTheme='#4CB9B4'
         AvatarSrc={Kidcab_Avatar}
         nameColor='#4CB9B4'
-        name='Steve Jobs'
+        name='Maxime Chevallier'
         src={OV_Kidcab}
       />
       <DetailService
@@ -130,7 +130,7 @@ export default function Kidcab() {
         // location
         ThemeBG='#18374E'
         AvatarSrc={Kidcab_Avatar}
-        name='Steve Jobs'
+        name='Maxime Chevallier'
       />
       <Footer />
     </div>

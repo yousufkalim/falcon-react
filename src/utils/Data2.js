@@ -1,4 +1,5 @@
 import { Typography } from '@mui/material';
+import { NavLink } from 'react-router-dom';
 
 export const data = [
   {
@@ -19,9 +20,9 @@ export const data = [
           <li>System backup policy and program</li>
         </Typography>
         <br />
-        <a href="#" style={{ textAlign: 'center', display: 'block' }}>
+        <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
           Information Security Policy
-        </a>
+        </NavLink>
         <Typography className="LegalMentions_Data_P">
           Falcon Consulting maintains and communicates an Information Security Program consisting of
           topic-specific policies, standards, procedures and guidelines that:
@@ -45,13 +46,13 @@ export const data = [
             security environment.
           </li>
         </Typography>
-        <a
-          href="#"
+        <NavLink
+          to="#"
           className="LegalMentions_Data_P"
           style={{ textAlign: 'center', display: 'block' }}
         >
           Privacy Policy
-        </a>
+        </NavLink>
         <Typography className="LegalMentions_Data_P">
           At Falcon consulting, one of our main priorities is the privacy of our visitors. This
           Privacy Policy document contains types of information that is collected and recorded by
@@ -217,9 +218,9 @@ export const data = [
           </p>
         </Typography>
         <Typography className="LegalMentions_Data_P">
-          <a href="#" style={{ textAlign: 'center', display: 'block' }}>
+          <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
             Acceptable Use Policy
-          </a>
+          </NavLink>
           <p className="pera">
             This policy applies to the use of information, electronic and computing devices, and
             network resources to conduct Falcon Consulting business or interact with internal
@@ -292,9 +293,9 @@ export const data = [
           </li>
         </Typography>
         <Typography className="LegalMentions_Data_P">
-          <a href="#" style={{ textAlign: 'center', display: 'block' }}>
+          <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
             Business Continuity and Disaster Recovery Policy
-          </a>
+          </NavLink>
           <h3 className="head">Business Continuity Plan</h3>
           <p className="pera">
             Business Continuity focuses on sustaining The Falcon Consulting’s critical business
@@ -401,9 +402,9 @@ export const data = [
           </p>
         </Typography>
         <Typography className="LegalMentions_Data_P">
-          <a href="#" style={{ textAlign: 'center', display: 'block' }}>
+          <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
             Hiring and Termination Policy with Background Checks
-          </a>
+          </NavLink>
           <h4 className="head4" style={{ textAlign: 'center', display: 'block' }}>
             Hiring policy
           </h4>
@@ -632,9 +633,9 @@ export const data = [
             employee's estate or as otherwise required under state law.
           </p>
         </Typography>
-        <a href="#" style={{ textAlign: 'center', display: 'block' }}>
+        <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
           Hiring and Termination Policy with Background Checks
-        </a>
+        </NavLink>
         <Typography className="LegalMentions_Data_P">
           <h3 className="head">Purpose</h3>
           <p className="pera">
@@ -650,11 +651,11 @@ export const data = [
           <h3 className="head">Algorithm Requirements</h3>
           <li>
             Ciphers in use must meet or exceed the set defined as "AES-compatible" or "partially
-            AES-compatible" according to the <a href="#">IETF/IRTF Cipher Catalog,</a> or the set
-            defined for use in the United States
-            <a href="#">
+            AES-compatible" according to the <NavLink to="#">IETF/IRTF Cipher Catalog,</NavLink> or
+            the set defined for use in the United States
+            <NavLink to="#">
               National Institute of Standards and Technology (NIST) publication FIPS 140-2,
-            </a>
+            </NavLink>
             or any superseding documents according to the date of implementation. The use of the
             Advanced Encryption Standard (AES) is strongly recommended for symmetric encryption.
           </li>
@@ -820,9 +821,9 @@ export const data = [
           </li>
           <li>Complying with the security policies and procedures of Falcon Consulting.</li>
         </Typography>
-        <a href="#" style={{ textAlign: 'center', display: 'block' }}>
+        <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
           Security Awareness Training Program
-        </a>
+        </NavLink>
         <Typography className="LegalMentions_Data_P">
           <h3 className="head">Overview</h3>
           <p className="pera">
@@ -1008,9 +1009,9 @@ export const data = [
             years.
           </p>
         </Typography>
-        <a href="#" style={{ textAlign: 'center', display: 'block' }}>
+        <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
           Third party/Vendor management
-        </a>
+        </NavLink>
         <Typography className="LegalMentions_Data_P">
           <h3 className="head">Identify Risk:</h3>
           <p className="pera">
@@ -1055,9 +1056,9 @@ export const data = [
             outsourced managed service.
           </p>
         </Typography>
-        <a href="#" style={{ textAlign: 'center', display: 'block' }}>
+        <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
           System backup policy and program
-        </a>
+        </NavLink>
         <Typography className="LegalMentions_Data_P">
           <h3 className="head">Purpose</h3>
           <p className="pera">
@@ -1212,9 +1213,9 @@ export const data = [
     index: 2,
     body: (
       <>
-        <a href="#" style={{ textAlign: 'left', display: 'block' }}>
+        <NavLink to="#" style={{ textAlign: 'left', display: 'block' }}>
           Business Continuity and Disaster Recovery Policy
-        </a>
+        </NavLink>
         <Typography className="LegalMentions_Data_P">
           <h3 className="head">Business Continuity Plan</h3>
           <p className="pera">
@@ -1362,9 +1363,9 @@ export const data = [
     index: 3,
     body: (
       <>
-        <a href="#" style={{ textAlign: 'left', display: 'block' }}>
+        <NavLink to="#" style={{ textAlign: 'left', display: 'block' }}>
           Information Security Policy
-        </a>
+        </NavLink>
         <Typography className="LegalMentions_Data_P">
           <h3 className="head" style={{ color: 'blue' }}>
             Introduction
@@ -1422,9 +1423,9 @@ export const data = [
           <h3 className="head" style={{ color: 'blue' }}>
             Responsibilities
           </h3>
-          <a href="#" style={{ textAlign: 'left', display: 'block' }}>
+          <NavLink to="#" style={{ textAlign: 'left', display: 'block' }}>
             Executive Management 
-          </a>
+          </NavLink>
           <li>
             Ensure that an appropriate risk-based Information Security Program is implemented to
             protect the confidentiality, integrity, and availability of all Information Resources
@@ -1455,9 +1456,9 @@ export const data = [
         </Typography>
         <br />
         <Typography className="LegalMentions_Data_P">
-          <a href="#" style={{ textAlign: 'left', display: 'block' }}>
+          <NavLink to="#" style={{ textAlign: 'left', display: 'block' }}>
             Information Security Team
-          </a>
+          </NavLink>
           <li>Ensure compliance with applicable information security requirements.</li>
           <li>Formulate, review and recommend information security policies.</li>
           <li>
@@ -1487,9 +1488,9 @@ export const data = [
         </Typography>
         <br />
         <Typography className="LegalMentions_Data_P">
-          <a href="#" style={{ textAlign: 'left', display: 'block' }}>
+          <NavLink to="#" style={{ textAlign: 'left', display: 'block' }}>
             All Employees, Contractors, and Other Third-Party Personnel
-          </a>
+          </NavLink>
           <li>
             Understand their responsibilities for complying with the Falcon Consulting Information
             Security Program.
@@ -1555,9 +1556,9 @@ export const data = [
     index: 4,
     body: (
       <>
-        <a href="#" style={{ textAlign: 'left', display: 'block' }}>
+        <NavLink to="#" style={{ textAlign: 'left', display: 'block' }}>
           Acceptable Use Policy
-        </a>
+        </NavLink>
         <Typography className="LegalMentions_Data_P">
           <p className="pera">
             This policy applies to the use of information, electronic and computing devices, and

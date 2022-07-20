@@ -49,7 +49,7 @@ export default function RegisterRH() {
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#142E68'
-        name='Ukhano'
+        name='Romain S.'
         // location="France"
         src={OV_Register}
       />
@@ -63,6 +63,7 @@ export default function RegisterRH() {
       />
 
       <DetailDemo
+        to='https://registre-rh.fr/'
         // desp
         // btnText
         DetailDemo_SquareDiv
@@ -127,7 +128,7 @@ export default function RegisterRH() {
         // location
         ThemeBG='#fffff'
         // AvatarSrc={Kidcab_Avatar}
-        name='Ukhano'
+        name='Romain S.'
       />
       <Footer />
     </div>

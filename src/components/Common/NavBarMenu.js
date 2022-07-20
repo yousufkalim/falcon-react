@@ -1,18 +1,18 @@
-import * as React from "react";
-import Toolbar from "@mui/material/Toolbar";
-import { ReactComponent as LogoWhite } from "../../assets/images/logo_white.svg";
-import CloseIcon from "../../assets/images/close_White.png";
-import FalconIcon from "../../assets/images/falcon_Icon.svg";
-import { Divider, Typography } from "@mui/material";
-import { motion } from "framer-motion";
-import List from "@mui/material/List";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
-import Collapse from "@mui/material/Collapse";
-import ExpandLess from "@mui/icons-material/ExpandLess";
-import ExpandMore from "@mui/icons-material/ExpandMore";
-import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import * as React from 'react';
+import Toolbar from '@mui/material/Toolbar';
+import { ReactComponent as LogoWhite } from '../../assets/images/logo_white.svg';
+import CloseIcon from '../../assets/images/close_White.png';
+import FalconIcon from '../../assets/images/falcon_Icon.svg';
+import { Divider, Typography } from '@mui/material';
+import { motion } from 'framer-motion';
+import List from '@mui/material/List';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemText from '@mui/material/ListItemText';
+import Collapse from '@mui/material/Collapse';
+import ExpandLess from '@mui/icons-material/ExpandLess';
+import ExpandMore from '@mui/icons-material/ExpandMore';
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 export default function NavBarMenu({ Menu, SetMenu }) {
   const { i18n, t } = useTranslation();
   const { language } = i18n;
@@ -28,21 +28,21 @@ export default function NavBarMenu({ Menu, SetMenu }) {
       <motion.div
         className='MenuDiv'
         animate={{ opacity: [0, 1] }}
-        transition={{ ease: "easeOut", duration: 0.5 }}
+        transition={{ ease: 'easeOut', duration: 0.5 }}
       >
         <Toolbar
           className='NavToolbar '
           sx={{
-            margin: "0 5%",
-            display: "flex",
-            justifyContent: "space-between",
+            margin: '0 5%',
+            display: 'flex',
+            justifyContent: 'space-between',
           }}
         >
           <Link className='NavLogo_Link' to={`/`}>
             <LogoWhite
               style={{
-                width: "100%",
-                color: "white",
+                width: '100%',
+                color: 'white',
                 height: 35,
               }}
             />
@@ -52,8 +52,8 @@ export default function NavBarMenu({ Menu, SetMenu }) {
             alt='NavMenu'
             src={CloseIcon}
             style={{
-              color: "white",
-              cursor: "pointer",
+              color: 'white',
+              cursor: 'pointer',
             }}
             onClick={(e) => SetMenu(!Menu)}
           />
@@ -61,7 +61,7 @@ export default function NavBarMenu({ Menu, SetMenu }) {
         <div className='MenuSectionMain'>
           <div className='MenuSection'>
             <div className='MenuImgDiv'>
-              <img className='MenuImg' style={{ opacity: ".5" }} src={FalconIcon} />
+              <img className='MenuImg' style={{ opacity: '.5' }} src={FalconIcon} />
             </div>
             <div className='MenuTypoDiv'>
               <div className='ServiceOptionDiv'>
@@ -75,34 +75,34 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                     >
                       <ul className='ServicesFields'>
                         <li>
-                          <Link to={`/services/web-development`}>{t("WEB DEVELOPMENT")}</Link>
+                          <Link to={`/services/web-development`}>{t('WEB DEVELOPMENT')}</Link>
                         </li>
                         <li>
-                          <Link to={`/services/app-development`}>{t("APP DEVELOPMENT")}</Link>
+                          <Link to={`/services/app-development`}>{t('APP DEVELOPMENT')}</Link>
                         </li>
                         <li>
                           <Link to={`/services/software-development`}>
-                            {t("SOFTWARE DEVELOPMENT")}
+                            {t('SOFTWARE DEVELOPMENT')}
                           </Link>
                         </li>
                         <li>
                           <Link to={`/services/ondemand-developers`}>
-                            {t("ON DEMAND DEVELOPERS")}
+                            {t('ON DEMAND DEVELOPERS')}
                           </Link>
                         </li>
                         <li>
-                          <Link to={`/services/ui-development`}>{t("UI/UX DEVELOPMENT")}</Link>
+                          <Link to={`/services/ui-development`}>{t('UI/UX DEVELOPMENT')}</Link>
                         </li>
                       </ul>
                     </motion.div>
                     <Divider
                       orientation='vertical'
                       sx={{
-                        width: ".5%",
-                        height: "35%",
-                        backgroundColor: "#fff",
-                        borderRadius: "4px",
-                        marginLeft: "5%",
+                        width: '.5%',
+                        height: '35%',
+                        backgroundColor: '#fff',
+                        borderRadius: '4px',
+                        marginLeft: '5%',
                       }}
                     />
                   </>
@@ -118,7 +118,7 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                 <div className='text-dot-container'>
                   <span class='dot'></span>
                   {/* <a style={{color:"white"}} href={`/about`}>About</a> */}
-                  <Link to='/about'>{t("About")}</Link>
+                  <Link to='/about'>{t('About')}</Link>
                 </div>
                 <div className='text-dot-container'>
                   <span class='dot'></span>
@@ -126,20 +126,20 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                     className='services'
                     // onClick={(e) => SetServiceDropDown(!ServiceDropDown)}
                   >
-                    {t("Services")}
+                    {t('Services')}
                   </span>
                 </div>
                 <div className='text-dot-container'>
                   <span class='dot'></span>
-                  <Link to='/blog'>{t("Blog")}</Link>
+                  <Link to='/blog'>{t('Blog')}</Link>
                 </div>
                 <div className='text-dot-container'>
                   <span class='dot'></span>
-                  <Link to='/ourprojects'>{t("Our Projects")}</Link>
+                  <Link to='/ourprojects'>{t('Our Projects')}</Link>
                 </div>
                 <div className='text-dot-container'>
                   <span class='dot'></span>
-                  <Link to='/contactus'>{t("Contact Us")}</Link>
+                  <Link to='/contactus'>{t('Contact Us')}</Link>
                 </div>
                 <ul className='MainMenuList'>
                   {/* <li onClick={(e) => SetServiceDropDown(!ServiceDropDown)}>
@@ -151,9 +151,9 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                     <div className='Service_MobileDiv'>
                       <List
                         sx={{
-                          width: "100%",
+                          width: '100%',
                           maxWidth: 360,
-                          bgcolor: "background.paper",
+                          bgcolor: 'background.paper',
                         }}
                         component='nav'
                         className='NavMenu_box'
@@ -161,14 +161,14 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                       >
                         <ListItemButton id='Mob_nav'>
                           <Link className='Nav_links' to={`/about`}>
-                            <ListItemText id='Mob_items' primary={t("About")} />
+                            <ListItemText id='Mob_items' primary={t('About')} />
                           </Link>
                         </ListItemButton>
                         <ListItemButton id='Mob_nav' onClick={handleClick}>
                           <ListItemText
                             id='Mob_items'
                             className='dropDown_list'
-                            primary={t("Services")}
+                            primary={t('Services')}
                           />
                           {open ? <ExpandLess /> : <ExpandMore />}
                         </ListItemButton>
@@ -181,43 +181,43 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                                 pl: 6,
                               }}
                             >
-                              <Link style={{ width: "100%" }} to={`/services/web-development`}>
+                              <Link style={{ width: '100%' }} to={`/services/web-development`}>
                                 <ListItemText>
-                                  <div className='Servive_DropDown'> {t("WEB DEVELOPMENT")}</div>
+                                  <div className='Servive_DropDown'> {t('WEB DEVELOPMENT')}</div>
                                 </ListItemText>
                               </Link>
                             </ListItemButton>
                             <ListItemButton id='Mob_nav' sx={{ pl: 6 }}>
-                              <Link style={{ width: "100%" }} to={`/services/app-development`}>
+                              <Link style={{ width: '100%' }} to={`/services/app-development`}>
                                 <ListItemText>
-                                  <div className='Servive_DropDown'> {t("APP DEVELOPMENT")}</div>
+                                  <div className='Servive_DropDown'> {t('APP DEVELOPMENT')}</div>
                                 </ListItemText>
                               </Link>
                             </ListItemButton>
                             <ListItemButton id='Mob_nav' sx={{ pl: 6 }}>
-                              <Link style={{ width: "100%" }} to={`/services/software-development`}>
+                              <Link style={{ width: '100%' }} to={`/services/software-development`}>
                                 <ListItemText>
                                   <div className='Servive_DropDown'>
-                                    {" "}
-                                    {t("SOFTWARE DEVELOPMENT")}
+                                    {' '}
+                                    {t('SOFTWARE DEVELOPMENT')}
                                   </div>
                                 </ListItemText>
                               </Link>
                             </ListItemButton>
                             <ListItemButton id='Mob_nav' sx={{ pl: 6 }}>
-                              <Link style={{ width: "100%" }} to={`/services/ondemand-developers`}>
+                              <Link style={{ width: '100%' }} to={`/services/ondemand-developers`}>
                                 <ListItemText>
                                   <div className='Servive_DropDown'>
-                                    {" "}
-                                    {t("ON DEMAND DEVELOPERS")}
+                                    {' '}
+                                    {t('ON DEMAND DEVELOPERS')}
                                   </div>
                                 </ListItemText>
                               </Link>
                             </ListItemButton>
                             <ListItemButton id='Mob_nav' sx={{ pl: 6 }}>
-                              <Link style={{ width: "100%" }} to={`/services/ui-development`}>
+                              <Link style={{ width: '100%' }} to={`/services/ui-development`}>
                                 <ListItemText>
-                                  <div className='Servive_DropDown'> {t("UI/UX DEVELOPMENT")}</div>
+                                  <div className='Servive_DropDown'> {t('UI/UX DEVELOPMENT')}</div>
                                 </ListItemText>
                               </Link>
                             </ListItemButton>
@@ -225,17 +225,17 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                         </Collapse>
                         <ListItemButton id='Mob_nav'>
                           <Link className='Nav_links' to={`/blog`}>
-                            <ListItemText primary={t("Blog")} />
+                            <ListItemText primary={t('Blog')} />
                           </Link>
                         </ListItemButton>
                         <ListItemButton id='Mob_nav'>
                           <Link className='Nav_links' to={`/ourprojects`}>
-                            <ListItemText primary={t("Our Projects")} />
+                            <ListItemText primary={t('Our Projects')} />
                           </Link>
                         </ListItemButton>
                         <ListItemButton id='Mob_nav'>
                           <Link className='Nav_links' to={`/contactus`}>
-                            <ListItemText primary={t("Contact Us")} />
+                            <ListItemText primary={t('Contact Us')} />
                           </Link>
                         </ListItemButton>
                       </List>
@@ -243,20 +243,20 @@ export default function NavBarMenu({ Menu, SetMenu }) {
                         <div className='Menu_languageMobDiv'>
                           <Typography
                             className='Menu_languageTypo'
-                            sx={{ color: "#f8f8f8", fontWeight: "600" }}
+                            sx={{ color: '#f8f8f8', fontWeight: '600' }}
                             onClick={() => {
-                              if (language === "fr") {
-                                i18n.changeLanguage("en");
+                              if (language === 'fr') {
+                                i18n.changeLanguage('en');
                               } else {
-                                i18n.changeLanguage("fr");
+                                i18n.changeLanguage('fr');
                               }
                             }}
                           >
-                            <span style={{ color: "#fff", opacity: ".6" }}>
-                              {" "}
-                              {t("Changer de langue en")}{" "}
+                            <span style={{ color: '#fff', opacity: '.6' }}>
+                              {' '}
+                              {t('Changer de langue en')}{' '}
                             </span>
-                            {t("Français")}
+                            {t('Français')}
                           </Typography>
                         </div>
                       </div>
@@ -280,19 +280,20 @@ export default function NavBarMenu({ Menu, SetMenu }) {
         </div>
         <div className='Menu_languageContainer'>
           <div className='Menu_languageDiv'>
-            <Typography
-              className='Menu_languageTypo'
-              sx={{ color: "#f8f8f8", fontWeight: "600" }}
-              onClick={() => {
-                if (language === "fr") {
-                  i18n.changeLanguage("en");
-                } else {
-                  i18n.changeLanguage("fr");
-                }
-              }}
-            >
-              <span style={{ color: "#fff", opacity: ".6" }}> {t("Changer de langue en")} </span>
-              {t("Français")}
+            <Typography className='Menu_languageTypo' sx={{ color: '#f8f8f8', fontWeight: '600' }}>
+              <span style={{ color: '#fff', opacity: '.6' }}> {t('Changer de langue en')} </span>
+              <span
+                style={{ cursor: 'pointer' }}
+                onClick={() => {
+                  if (language === 'fr') {
+                    i18n.changeLanguage('en');
+                  } else {
+                    i18n.changeLanguage('fr');
+                  }
+                }}
+              >
+                {t('Français')}{' '}
+              </span>
             </Typography>
           </div>
         </div>

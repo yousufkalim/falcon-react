@@ -49,7 +49,7 @@ export default function Zypzap() {
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='linear-gradient(269.14deg, #20BF55 0%, #25B058 0.01%, #522F6D 82.32%)'
-        name='Ukhano'
+        name='Valentin L.'
         // location="France"
         src={OV_Zypzap}
       />
@@ -63,6 +63,7 @@ export default function Zypzap() {
       />
 
       <DetailDemo
+        to='https://zypzap.com'
         // desp
         // btnText
         DetailDemo_SquareDiv
@@ -127,7 +128,7 @@ export default function Zypzap() {
         // location
         ThemeBG='linear-gradient(261.67deg, #20BF55 -0.52%, #522F6D 65.51%)'
         // AvatarSrc={Kidcab_Avatar}
-        name='Ukhano'
+        name='Valentin L.'
       />
       <Footer />
     </div>

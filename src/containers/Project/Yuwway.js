@@ -47,7 +47,7 @@ export default function Yuwway() {
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#0073BB'
-        name='Shane Jhon'
+        name='Jamel L.'
         // location="France"
         src={OV_Yuwway}
       />
@@ -125,7 +125,7 @@ export default function Yuwway() {
         // location
         ThemeBG='#0073BB'
         // AvatarSrc={Kidcab_Avatar}
-        // name="Ukhano"
+        name='Jamel L.'
       />
       <Footer />
     </div>

@@ -49,7 +49,9 @@ export default function Orgaplan() {
         titleTheme='#282828'
         AvatarSrc={Kidcab_Avatar}
         nameColor='#9D936D'
-        name='Ukhano'
+
+        name='Zaara Aziz'
+
         src={OV_OrgaPlan}
       />
       <DetailService
@@ -64,6 +66,7 @@ export default function Orgaplan() {
       />
 
       <DetailDemo
+        to='http://orgaplansa.com'
         // desp
         // btnText
         DetailDemo_SquareDiv
@@ -128,7 +131,9 @@ export default function Orgaplan() {
         // location
         ThemeBG='#ffffff'
         AvatarSrc={Kidcab_Avatar}
-        name='Ukhano'
+
+        name='Zaara Aziz'
+
       />
       <Footer />
     </div>

@@ -51,6 +51,7 @@ export default function Home() {
               <Typography className='CookieBanner_Link'>
                 <Link style={{ color: '#003B7E' }} to='/legalmentions'>
                   {t('Read more about cookies')}
+
                 </Link>
               </Typography>
             </div>

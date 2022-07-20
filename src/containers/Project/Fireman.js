@@ -49,7 +49,9 @@ export default function Fireman() {
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#3675B7'
-        name='Ukhano'
+
+        name='Ludovic Crepy'
+
         // location="France"
         src={OV_Firemen}
       />
@@ -63,6 +65,7 @@ export default function Fireman() {
       />
 
       <DetailDemo
+        to='https://fireman-dev3.web.app/login'
         // desp
         // btnText
         DetailDemo_SquareDiv
@@ -127,7 +130,9 @@ export default function Fireman() {
         // location
         ThemeBG='#ffffff'
         // AvatarSrc={Kidcab_Avatar}
-        name='Ukhano'
+
+        name='Ludovic Crepy'
+
       />
       <Footer />
     </div>
