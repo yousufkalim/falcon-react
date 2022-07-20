@@ -1,12 +1,10 @@
 import { Grid, Typography } from '@mui/material';
-import React, { useRef } from 'react';
+import React from 'react';
 import SectionHeader from './SectionHeader';
 import EmailIcon from '../../assets/images/emailIcon.svg';
-import Robot from '../../assets/images/notRobort.svg';
 import CalendlyIcon from '../../assets/images/calendlyIcon.svg';
 import emailjs from 'emailjs-com';
 import { toast } from 'react-toastify';
-import ReCAPTCHA from 'react-google-recaptcha';
 import { useTranslation } from 'react-i18next';
 export default function ContactUsSection(props) {
   const { t } = useTranslation();
@@ -27,11 +25,11 @@ export default function ContactUsSection(props) {
       toast.error(`${t('The name must be at least 2 characters')}`);
     } else if (email === '') {
       toast.error(`${t("Email can't be blank")}`);
-    } else if (regex.test(email) == null || regex.test(email) == '') {
+    } else if (regex.test(email) === false) {
       toast.error(`${t('Not a Valid Email')}`);
     } else if (phone.length === 0) {
       toast.error(`${t("Phone can't be blank")}`);
-    } else if (phone[0] != '0') {
+    } else if (phone[0] !== '0') {
       toast.error(`${t('Phone number should start with 0')}`);
     } else if (phone.length < 10 && phone.length > 0) {
       toast.error(`${t('The phone must be at least 10 characters')}`);
@@ -42,10 +40,10 @@ export default function ContactUsSection(props) {
     } else {
       emailjs.sendForm('service_9tq9fqk', 'template_yc206p5', e.target, 'tMMbs5Pn0amH90Aml').then(
         (result) => {
-          console.log(result.text);
+          return result;
         },
         (error) => {
-          console.log(error.text);
+          return error;
         }
       );
       e.target.reset();
@@ -57,11 +55,8 @@ export default function ContactUsSection(props) {
       );
     }
   };
-  function onChange(value) {
-    console.log('Captcha value:', value);
-  }
   return (
-    <>
+    <div>
       {props.ContactUs ? (
         <div className='ContactUsDiv'>
           <div>
@@ -310,6 +305,6 @@ export default function ContactUsSection(props) {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }

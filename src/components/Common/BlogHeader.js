@@ -9,7 +9,7 @@ import emailjs from 'emailjs-com';
 
 // Home Component
 export default function BlogHeader() {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,15 +19,15 @@ export default function BlogHeader() {
     const email = data.get('email');
     if (email === '') {
       toast.error(`${t("Email can't be blank")}`);
-    } else if (regex.test(email) == null || regex.test(email) == '') {
+    } else if (regex.test(email) === false) {
       toast.error(`${t('Not a Valid Email')}`);
     } else {
       emailjs.sendForm('service_9tq9fqk', 'template_lmpx1v8', e.target, 'tMMbs5Pn0amH90Aml').then(
         (result) => {
-          console.log(result.text);
+          return result;
         },
         (error) => {
-          console.log(error.text);
+          return error;
         }
       );
       e.target.reset();
@@ -35,7 +35,7 @@ export default function BlogHeader() {
     }
   };
   return (
-    <>
+    <div>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -114,6 +114,6 @@ export default function BlogHeader() {
           </form>
         </div>
       </motion.div>
-    </>
+    </div>
   );
 }
