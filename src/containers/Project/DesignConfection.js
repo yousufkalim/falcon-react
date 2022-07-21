@@ -45,7 +45,7 @@ export default function DesignConfection() {
       <DetailOverview
         // desp
         // location
-        desp='Design confection is a French-based project. It’s a platform for the tailors and clients for sewing services. Website developed on MERN and was completed from April 2022 to June 2022'
+        desp='Design confection is a French-based project. It is a platform for tailors and clients for sewing services. The website is developed using MERN stacks, and it was completed in 4 months.'
         titleTheme='#282828'
         AvatarSrc={Kidcab_Avatar}
         nameColor='#CC8E9C'

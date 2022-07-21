@@ -43,7 +43,7 @@ export default function RealEstate() {
       />
       <DetailOverview
         // desp
-        desp='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces: a mobile application for the investors, and an admin panel, for the responsible of the company. A Pakistan-based project developed on React Native, completed in 1 months of duration from May 2022 to june 2022.'
+        desp='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces: a mobile application for the investors, and an admin panel, for the responsible of the company. A Pakistan-based project developed on React Native, completed in 2 months.'
         // location
         titleTheme='#837C6B'
         AvatarSrc={Kidcab_Avatar}
@@ -122,7 +122,7 @@ export default function RealEstate() {
       <DetailFeedback
         // titleTheme
         // despTheme
-        desp='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
+        desp='We were pleased with Falcon IT and the overall development process of our website. Our website has transformed the image of our firm and is the key introductory point for new and potential clients. Thanks for a job well done!'
         // location
         ThemeBG='#837C6B'
         AvatarSrc={Kidcab_Avatar}

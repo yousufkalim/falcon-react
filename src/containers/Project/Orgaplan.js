@@ -43,7 +43,7 @@ export default function Orgaplan() {
         description='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
       />
       <DetailOverview
-        desp='Orgaplan is a Logistics management in France on a large scale and its site is developed on React front end and Node JS backend. This project was delivered in just 7 months'
+        desp='Orgaplan is a Logistics management in France on a large scale and its site is developed on React front end and Node JS backend. This project was delivered in just 6 months, which was possible by scalling the team from 2 developers to up to 8 developers.'
         // desp
         // location
         titleTheme='#282828'

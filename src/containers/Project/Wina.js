@@ -47,7 +47,7 @@ export default function Wina() {
       />
       <DetailOverview
         titleTheme='#2A5AA6'
-        desp='A French job platform connecting employers and employees for hiring apprenticeship with its website’s front end on React and backend on Node JS.This project was completed in 6 months from January 2021 to June 2021.'
+        desp='A French job platform connecting employers and employees for hiring apprenticeship with its website’s front end on React and backend on Node JS. This project was completed is still ongoing, in order to be the most adapted to the market'
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#2A5AA6'

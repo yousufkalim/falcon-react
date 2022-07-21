@@ -45,7 +45,7 @@ export default function Zypzap() {
       />
       <DetailOverview
         titleTheme='#282828'
-        desp='A French-based gaming platform, developed with the front end on React and the backend on Node JS, and the whole project was completed in 10 months'
+        desp='A French-based gaming platform, developed with the front end on React and the backend on Node JS, and the whole project was completed in 5 months, due to frequent changes in the design to meet the gaming world’s expectation.'
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='linear-gradient(269.14deg, #20BF55 0%, #25B058 0.01%, #522F6D 82.32%)'
