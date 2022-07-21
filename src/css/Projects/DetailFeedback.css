@@ -39,13 +39,12 @@
 }
 .DetailFeedback_AvatarDiv{
         display: flex;
-        width: 60%;
+        width: 100%;
         padding: 2% 0;
-        margin-top: 2%;
         align-items: center;
 }
 .DetailFeedback_Avatar{
-    width: 40% !important;
+    width: 30% !important;
     height: 100% !important;
 
 }
@@ -66,6 +65,9 @@
     .DetailFeedback_Div{
         width: 50%;
     }
+    .DetailFeedback_ClientDiv{
+        width: 50%;
+   }
 }
 @media only screen and (max-width: 900px) {
     .DetailFeedback_Div{
@@ -74,9 +76,7 @@
     .DetailFeedback_Desp{
         font-size: .9rem !important;
     }
-    .DetailFeedback_ClientDiv{
-        width: 50%;
-   }
+  
 }
 @media only screen and (max-width: 600px) {
     .DetailFeedback_Div{
@@ -86,6 +86,27 @@
         font-size: .9rem !important;
     }
     .DetailFeedback_ClientDiv{
-        width: 50%;
+        width: 60%;
    }
+   .DetailFeedback_Avatar{
+       width:30% !important;
+   }
+}
+@media only screen and (max-width: 480px) {
+    .DetailFeedback_ClientDiv{
+        width: 70%;
+   }
+
+}
+@media only screen and (max-width: 480px) {
+    .DetailFeedback_ClientDiv{
+        width: 70%;
+   }
+
+}
+@media only screen and (max-width: 320px) {
+    .DetailFeedback_ClientDiv{
+        width: 80%;
+   }
+
 }
