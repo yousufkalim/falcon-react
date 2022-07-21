@@ -4,7 +4,7 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin: 2% 0% 3% 0%;
+    margin: 2% 0;
 }
 .SectionHeaderH1{
     text-transform: uppercase;
@@ -59,7 +59,7 @@
 
     }
     .SectionHeaderTypo{
-        margin: 10% 0%;
+        margin: 5% 0%;
     }
 
   }

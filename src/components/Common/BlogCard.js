@@ -1,27 +1,27 @@
-import { Typography } from "@mui/material";
-import React from "react";
-import Blog1 from "../../assets/images/Blog1.svg";
-import { useTranslation } from "react-i18next";
+import { Typography } from '@mui/material';
+import React from 'react';
+import Blog1 from '../../assets/images/Blog1.svg';
+import { useTranslation } from 'react-i18next';
 export default function BlogCard(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   return (
     <>
       <div className='BlogCardMain'>
         <div>
           <img
-            style={{ objectFit: "cover", height: "100%", width: "100%" }}
+            style={{ objectFit: 'cover', height: '100%', width: '100%' }}
             src={props.src || Blog1}
           />
         </div>
 
         <Typography
           sx={{
-            color: "#52525B",
-            fontWeight: "400",
-            margin: "2% 0%",
+            color: '#52525B',
+            fontWeight: '400',
+            margin: '2% 0%',
           }}
         >
-          {props.date}
+          {t(props.date)}
         </Typography>
         <Typography className='BlogCardTitle'>{t(props.title)}</Typography>
       </div>

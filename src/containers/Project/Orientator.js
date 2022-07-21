@@ -11,7 +11,7 @@ import DetailService from '../../components/ProjectDetails/DetailService';
 
 import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Firemen_Demo from '../../assets/images/firemen_demo.png';
+import Orientator_Demo from '../../assets/images/orientator_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
 import Facility_Design1 from '../../assets/images/facility_design1.png';
 import Facility_Design2 from '../../assets/images/facility_design2.png';
@@ -74,7 +74,7 @@ export default function Orientator() {
         title='ORIENTATOR'
         btnTheme='linear-gradient(267.62deg, #FF3A87 1.18%, #FF6924 47.48%, #FFA220 100%)'
         theme='linear-gradient(229.11deg, #FECE24 1.54%, #FF6D1A 100%)'
-        src={Firemen_Demo}
+        src={Orientator_Demo}
       />
       <DetailDesign
         titleTheme='#FF29AA'
