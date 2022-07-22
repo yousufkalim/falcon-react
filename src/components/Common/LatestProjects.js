@@ -128,7 +128,7 @@ export default function LatestProjects(props) {
             slidesToSlide={1}
             renderArrowNext={true}
             infinite={true}
-            arrows={false}
+            arrows={true}
           >
             <LatestProjectsCard
               // HoverDetailLite
@@ -350,7 +350,9 @@ export default function LatestProjects(props) {
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               LogoSrc={BlshLogo}
-              hoverDesp={t('We are building a marketplace for delivery supplies on the customer and small business demand.')}
+              hoverDesp={t(
+                'We are building a marketplace for delivery supplies on the customer and small business demand.'
+              )}
               heading='Blsh Delivery'
               // Modal Data
               para1='We are building a marketplace for delivery supplies on the customer and small business demand.'
@@ -497,7 +499,6 @@ export default function LatestProjects(props) {
                 60+
               </Typography>
               <Typography className='ProjectsCompleted_H'>{t('Clients Satisfied')}</Typography>
-
             </div>
           </motion.div>
         )}
