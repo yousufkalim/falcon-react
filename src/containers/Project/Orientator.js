@@ -20,7 +20,7 @@ import Facility_Design3 from '../../assets/images/facility_design3.png';
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import Orientator_Theme from '../../assets/images/orientator_theme.png';
 import Orientator_WebHalf from '../../assets/images/orientator_webhalf.png';
-import Orientator_WebFull from '../../assets/images/orientator_webfull.png';
+import Orientator_WebFull from '../../assets/images/orientator_ss.png';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
 import Yuwway_Logo from '../../assets/images/detail_yuwway_logo.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
