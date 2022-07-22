@@ -59,7 +59,7 @@ export default function ContactUsSection(props) {
     }
   };
   const onChange = (value) => {
-    console.log('value', value);
+    console.log('value');
   };
   return (
     <div>
@@ -138,7 +138,7 @@ export default function ContactUsSection(props) {
                   </div>
                   <Grid xs={12} className='ReCAPTCHA_DIV'>
                     <ReCAPTCHA
-                      sitekey='6Ldx_T0gAAAAAEUJmHBAIEaOLc2sTPgb00PcbhnA'
+                      sitekey={process.env.REACT_APP_GOOGLE_CAPTCHA_SITE_KEY}
                       onChange={onChange}
                     />
                   </Grid>
@@ -272,7 +272,8 @@ export default function ContactUsSection(props) {
                   </div>
                   <Grid xs={12} className='ReCAPTCHA_DIV'>
                     <ReCAPTCHA
-                      sitekey='6Ldx_T0gAAAAAEUJmHBAIEaOLc2sTPgb00PcbhnA'
+                      className='Recaptcha_Box'
+                      sitekey={process.env.REACT_APP_GOOGLE_CAPTCHA_SITE_KEY}
                       onChange={onChange}
                     />
                   </Grid>
