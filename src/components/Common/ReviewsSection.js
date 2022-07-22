@@ -14,6 +14,9 @@ import { StackedCarousel, ResponsiveContainer } from 'react-stacked-center-carou
 import Fab from '@mui/material/Fab';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { ReactComponent as LeftArrow } from '../../assets/images/left_arrow_btn.svg';
+import { ReactComponent as RightArrow } from '../../assets/images/right_arrow_btn.svg';
+
 // import AcUnitIcon from '@mui/icons-material/AcUnit';
 
 export default function ReviewSection() {
@@ -90,7 +93,12 @@ export default function ReviewSection() {
   return (
     <>
       <div className='ReviewSectionMain'>
-        <SectionHeader colorH2='#0F52BA' h1='your feedback matters' h2='Client Reviews' width='30%' />
+        <SectionHeader
+          colorH2='#0F52BA'
+          h1='your feedback matters'
+          h2='Client Reviews'
+          width='30%'
+        />
         <div className='ReviewCardSlider'>
           <div className='ReviewSliderContainer'>
             <div className='fade-left'></div>
@@ -128,24 +136,20 @@ export default function ReviewSection() {
             />
             <>
               <Fab
-                style={{ position: 'absolute', top: '40%', left: 10, zIndex: 10 }}
-                size='small'
-                color='primary'
+                className='CarouselLeftArrow'
                 onClick={() => {
                   ref.current?.goBack();
                 }}
               >
-                <ArrowBackIcon />
+                <LeftArrow />
               </Fab>
               <Fab
-                style={{ position: 'absolute', top: '40%', right: 10, zIndex: 10 }}
-                size='small'
-                color='primary'
+                className='CarouselRightArrow'
                 onClick={() => {
                   ref.current?.goNext(6);
                 }}
               >
-                <ArrowForwardIcon />
+                <RightArrow />
               </Fab>
             </>
             {/* <button style={{ border: "none", background: "none", fontSize: "40px", color: "#0F52BA", fontWeight: "600" }}>

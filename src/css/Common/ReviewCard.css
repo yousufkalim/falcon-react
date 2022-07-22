@@ -103,6 +103,33 @@
         height: 550px;
         border-radius: 15;
 }
+.CarouselLeftArrow {
+    position: absolute !important;
+    top: 40% !important;
+    left: 5% !important;
+    z-index: 1000 !important;
+    color: #003B7E;
+    background: #F8F8F8 !important;
+    box-shadow: 0px 3px 12px rgba(140, 138, 138, 0.15);
+    transition: .5s;
+}
+.CarouselLeftArrow:hover{
+    background: #003B7E !important;
+    color: #F8F8F8 !important;
+}
+.CarouselRightArrow{
+        position: absolute !important;
+        top: 40% !important;
+        right: 5% !important;
+        color: #003B7E;
+        background: #F8F8F8 !important;
+        box-shadow: 0px 3px 12px rgba(140, 138, 138, 0.15);
+        transition: .5s;
+}
+.CarouselRightArrow:hover{
+    background: #003B7E !important;
+    color: #F8F8F8 !important;
+}
 @media only screen and (max-width: 1200px) {
     .ReviewCard{
         margin-top: 40px;
