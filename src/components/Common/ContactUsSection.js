@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 import ReCAPTCHA from 'react-google-recaptcha';
 export default function ContactUsSection(props) {
   const { t } = useTranslation();
-  const [number, setNumber] = useState();
+  const [number, setNumber] = useState('');
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -50,6 +50,7 @@ export default function ContactUsSection(props) {
         }
       );
       e.target.reset();
+      setNumber('');
 
       toast.success(
         t(
@@ -109,7 +110,6 @@ export default function ContactUsSection(props) {
                           // check input using regex
                           var regex = RegExp(/[0-9]+/g);
                           const test_result = regex.test(e.target.value);
-
                           if (test_result || e.target.value == '') {
                             setNumber(e.target.value);
                           }
@@ -245,10 +245,20 @@ export default function ContactUsSection(props) {
                   <div className='ContactForm_InputDiv'>
                     <Grid xs={12} sm={6}>
                       <input
-                        // type='number'
+                        type='text'
                         name='phone'
                         placeholder={t('Phone')}
                         className='InputField'
+                        value={number}
+                        onChange={(e) => {
+                          // check input using regex
+                          var regex = RegExp(/[0-9]+/g);
+                          const test_result = regex.test(e.target.value);
+
+                          if (test_result || e.target.value == '') {
+                            setNumber(e.target.value);
+                          }
+                        }}
                       />
                     </Grid>
                     <Grid xs={12} sm={6}>
