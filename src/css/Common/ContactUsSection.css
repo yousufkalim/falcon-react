@@ -307,6 +307,8 @@ input:focus ,textarea:focus{
     .RobotDiv{
         width: 60% !important;
     }
-   
+.ReCAPTCHA_DIV{
+    margin-left: 5%;
+}
   
   }

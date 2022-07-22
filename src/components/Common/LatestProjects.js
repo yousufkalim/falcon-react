@@ -67,6 +67,11 @@ import { ReactComponent as Timer } from '../../assets/images/timer.svg';
 import { ReactComponent as MedKit } from '../../assets/images/medkit.svg';
 import { ReactComponent as Award } from '../../assets/images/award.svg';
 import { useTranslation } from 'react-i18next';
+import Fab from '@mui/material/Fab';
+// import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+// import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { ReactComponent as LeftArrow } from '../../assets/images/left_arrow_btn.svg';
+import { ReactComponent as RightArrow } from '../../assets/images/right_arrow_btn.svg';
 
 const responsive = {
   desktop: {
@@ -87,21 +92,29 @@ const responsive = {
 };
 
 export default function LatestProjects(props) {
+  const ref = React.useRef();
   const { i18n, t } = useTranslation();
 
-  // let [slideShow, setSlideShow] = useState(window.innerWidth <= 600 ? 2 : 4.5);
-
-  // useEffect(() => {
-  //   function handleResize() {
-  //     if (window.innerWidth <= 600) {
-  //       setSlideShow(2);
-  //     } else {
-  //       setSlideShow(4.5);
-  //     }
-  //   }
-
-  //   window.addEventListener("resize", handleResize);
-  // }, []);
+  const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
+    const {
+      carouselState: { currentSlide },
+    } = rest;
+    return (
+      <div className='carousel-button-group'>
+        <Fab
+          className='CarouselLeftArrow'
+          onClick={() => {
+            goToSlide(currentSlide - 1);
+          }}
+        >
+          <LeftArrow />
+        </Fab>
+        <Fab className='CarouselRightArrow' onClick={() => goToSlide(currentSlide + 1)}>
+          <RightArrow />
+        </Fab>
+      </div>
+    );
+  };
 
   return (
     <>
@@ -128,7 +141,8 @@ export default function LatestProjects(props) {
             slidesToSlide={1}
             renderArrowNext={true}
             infinite={true}
-            arrows={true}
+            arrows={false}
+            customButtonGroup={<ButtonGroup />}
           >
             <LatestProjectsCard
               // HoverDetailLite

@@ -8,6 +8,7 @@
     /* height: 100vh; */
 }
 .LatestProjectsSlider{
+    position: relative;
     margin: 2% 0;
     width: 100%;
     /* overflow: hidden !important; */
@@ -15,7 +16,7 @@
 }
 .SliderDiv{
     width: 100% !important;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
 }
 .SliderDiv::-webkit-scrollbar {
     display: none;
