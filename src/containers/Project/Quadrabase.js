@@ -48,7 +48,7 @@ export default function Quadrabase() {
       />
       <DetailOverview
         titleTheme='#FF8616'
-        desp='Project is ambitious and aims to revolutionize the approach to design in the field of construction in France. The project is developed on MERN and the timeline was November 2021 to July 2022'
+        desp='The project was realized in several modules, so that the client could see the progress on the go. We started by completing and validating the admin panel,then we worked on the Architect interface, and finally on the Manufacturer features. The project took overall 6 months, including all the edits in order to make it very functional.'
         // desp=""
         AvatarSrc={QB_Avatar}
         nameColor='#9D3C64'
@@ -62,7 +62,7 @@ export default function Quadrabase() {
         to='https://quadrabase-demo.web.app/auth/home'
         titleColor='#FF8616'
         title='Quadrabase'
-        // desp=""
+        desp='Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. This project is ambitious and aims to revolutionize the approach to design in the field of construction in France.'
         btnTheme='#9D3C64'
         theme='#9D3C64'
         DetailDemo_SquareDiv
@@ -99,7 +99,7 @@ export default function Quadrabase() {
         ThemeBG='#9D3C64'
         // titleTheme=""
         // despTheme=""
-        desp='There is no comparison between the first developers and Falcon IT. Professional, Creative, Attentive to detail, and excellent communication with the team. If I had contracted with Falcon IT for the first time I would not have had to do it twice.'
+        desp='The first development team did not complete 100% the website, which was frustrating. Falcon Consulting took over and redeveloped the website from A to Z. They went the extra mile to make sure all the details were taken into consideration.Professional, Creative, and excellent communication with the team. If I had contracted with Falcon IT for the first time I would not have had to do it twice.'
         AvatarSrc={QB_Avatar}
         name='Jean-Claude Imbert'
 

@@ -45,7 +45,7 @@ export default function Tilt() {
       />
       <DetailOverview
         titleTheme='#282828'
-        desp='Tilt is a French-based platform connecting restaurants with corporate customers. Its front end is developed on React and its back end is on Node JS and the project was completed in 6 months from January 2020 to May 2021'
+        desp='Tilt is a French-based platform connecting restaurants with corporate customers. Its front end is developed on React and its back end is on Node JS and the project was completed in 5 months.'
         AvatarSrc={QB_Avatar}
         nameColor='#D3014A'
         name='Laurent Louis-Henry'

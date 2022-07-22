@@ -39,7 +39,7 @@ export default function Permispop() {
 
       <DetailOverview
         name='Salim S.'
-        desp='A web platform and a mobile app to connect students, independent driving teachers, and driving schools in France. Web’s front end is developed on React and the back end is developed on .Net and the Verson 1 of this website was completed in the duration of 2019 to 2022 and Version 2 was completed in the duration of 2021 to 2022'
+        desp='The idea was to develop a first version of the website, in order to test the market fit. This version was completed within a couple of months, using ReactJS for the frontend, and ASP.NET Core for the backend. We are still continuing the development, which is currently at the V4.'
       />
 
       <DetailService both BGLogo liteLogo={BG_Logo} />
@@ -71,7 +71,7 @@ export default function Permispop() {
         // nameColor
         name='Salim S.'
         // location
-        feedback='Client was especially happy that we never let him down, always put additional effort to make things happen. He sees us as more than vendor, but friends.​'
+        feedback='We at Permispop are very impressed with all aspects of our website and mobile app, as it is user-friendly and work efficiently. We would highly recommend Falcon IT to anyone looking to build a website, web app, or mobile application.'
       />
       {/* <DetailFeedback /> */}
       <Footer />

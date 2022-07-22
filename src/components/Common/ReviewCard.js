@@ -63,18 +63,18 @@ export default function ReviewCard(props) {
           {review?.length > 100 ? review?.slice(0, 100) + '...' : review}
           {/* {review} */}
         </Typography>
-        {/* <Typography
-          className="Selection"
+        <Typography
+          className='Selection'
           sx={{
-            marginTop: "10%",
-            fontWeight: "400",
-            fontSize: ".7rem",
-            fontStyle: "italic",
-            opacity: ".8",
+            marginTop: '10%',
+            fontWeight: '400',
+            fontSize: '.7rem',
+            fontStyle: 'italic',
+            opacity: '.8',
           }}
         >
-          {t(work)}
-        </Typography> */}
+          {work}
+        </Typography>
       </div>
     </div>
   );
