@@ -122,6 +122,15 @@ i18n
           'Click and join link': 'Click and join link',
           'Thank you, the information has been submitted successfully. We will come back to you shortly.':
             'Thank you, the information has been submitted successfully. We will come back to you shortly.',
+          "Name can't be blank": "Name can't be blank",
+          'The name must be at least 2 characters': 'The name must be at least 2 characters',
+          "Email can't be blank": "Email can't be blank",
+          'Not a Valid Email': 'Not a Valid Email',
+          "Phone can't be blank": "Phone can't be blank",
+          'Phone number should start with 0': 'Phone number should start with 0',
+          'The phone must be at least 10 characters': 'The phone must be at least 10 characters',
+          "Budget can't be blank": "Budget can't be blank",
+          "Message can't be blank": "Message can't be blank",
 
           //   footer
           Overview: 'Overview',
@@ -1082,6 +1091,15 @@ i18n
           'Thank you, the information has been submitted successfully. We will come back to you shortly.':
             'Merci, les informations ont été soumises avec succès. Nous reviendrons vers vous sous peu.',
           'CLIENT FEEDBACK': 'RÉTROACTION DES CLIENTS',
+          "Name can't be blank": 'Le nom ne peut pas être vide',
+          'The name must be at least 2 characters': 'Le nom doit comporter au moins 2 caractères',
+          "Email can't be blank": "L'e-mail ne peut pas être vide",
+          'Not a Valid Email': 'Pas un e-mail valide',
+          "Phone can't be blank": 'Le téléphone ne peut pas être vide',
+          'Phone number should start with 0': 'Le numéro de téléphone doit commencer par 0',
+          'The phone must be at least 10 characters': 'Le téléphone doit comporter au moins 10 caractères',
+          "Budget can't be blank": 'Le budget ne peut pas être vide',
+          "Message can't be blank": 'Le message ne peut pas être vide',
 
           //   footer
           Overview: 'Aperçu',
