@@ -104,12 +104,12 @@ export default function LatestProjects(props) {
         <Fab
           className='CarouselLeftArrow'
           onClick={() => {
-            goToSlide(currentSlide - 5);
+            goToSlide(currentSlide - 1);
           }}
         >
           <LeftArrow />
         </Fab>
-        <Fab className='CarouselRightArrow' onClick={() => goToSlide(currentSlide + 5)}>
+        <Fab className='CarouselRightArrow' onClick={() => goToSlide(currentSlide + 1)}>
           <RightArrow />
         </Fab>
       </div>
