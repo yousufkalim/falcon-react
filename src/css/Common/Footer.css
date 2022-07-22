@@ -141,6 +141,9 @@
 }
 .Footer_MobView_LegalMentionDiv{
     margin: 10% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Footer_MobView_LegalMentionLink{
      color: #282828;
