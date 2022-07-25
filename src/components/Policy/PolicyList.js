@@ -15,48 +15,48 @@ const PolicyList = () => {
   };
   return (
     <>
-      <div className="LegalMention_ListContainer">
+      <div className='LegalMention_ListContainer'>
         {data.map((item) => {
           return (
             <>
-              <div className="LegalMention_ListDiv">
+              <div className='LegalMention_ListDiv'>
                 <div
-                  className="LegalMention_ListBar"
+                  className='LegalMention_ListBar'
                   onClick={() => {
-                    if (!open) {
+                    if (open !== item.title) {
                       handleClick(item.title);
                     } else {
                       handleClick('');
                     }
                   }}
                 >
-                  <div className="LegalMention_ListBar_Left">
-                    <div className="LegalMention_ListBar_IndexDiv">
-                      <div className="LegalMention_ListBar_Index">{item.index}</div>
+                  <div className='LegalMention_ListBar_Left'>
+                    <div className='LegalMention_ListBar_IndexDiv'>
+                      <div className='LegalMention_ListBar_Index'>{item.index}</div>
                     </div>
 
-                    <div className="LegalMention_ListBar_TitleDiv">
-                      <Typography className="LegalMention_ListBar_Title">
+                    <div className='LegalMention_ListBar_TitleDiv'>
+                      <Typography className='LegalMention_ListBar_Title'>
                         {t(item.title)}
                       </Typography>
                     </div>
                   </div>
-                  <div className="LegalMention_Collapse_Btn">
+                  <div className='LegalMention_Collapse_Btn'>
                     {open === item.title ? (
-                      <ExpandLess fontSize="large" />
+                      <ExpandLess fontSize='large' />
                     ) : (
-                      <ExpandMore fontSize="large" />
+                      <ExpandMore fontSize='large' />
                     )}
                   </div>
                 </div>
 
                 <Collapse
-                  className="Service_list"
+                  className='Service_list'
                   in={open === item.title}
-                  timeout="auto"
+                  timeout='auto'
                   unmountOnExit
                 >
-                  <div className="LegalMention_Collapse_Body">
+                  <div className='LegalMention_Collapse_Body'>
                     <Typography>{item.body}</Typography>
                   </div>
                 </Collapse>

@@ -7,7 +7,7 @@ export const data = [
     index: 1,
     body: (
       <>
-        <Typography className="LegalMentions_Data_P">
+        <Typography className='LegalMentions_Data_P'>
           <li>Information Security policy</li>
           <li>Privacy Policy</li>
           <li>Acceptable Use policy</li>
@@ -20,10 +20,8 @@ export const data = [
           <li>System backup policy and program</li>
         </Typography>
         <br />
-        <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
-          Information Security Policy
-        </NavLink>
-        <Typography className="LegalMentions_Data_P">
+        <h3 style={{ opacity: '0.7', textAlign: 'center' }}>Information Security Policy</h3>
+        <Typography className='LegalMentions_Data_P'>
           Falcon Consulting maintains and communicates an Information Security Program consisting of
           topic-specific policies, standards, procedures and guidelines that:
           <br />
@@ -34,7 +32,7 @@ export const data = [
           Provide value to the way we conduct business and support institutional objectives. Comply
           with all regulatory and legal requirements, including:
         </Typography>
-        <Typography className="LegalMentions_Data_P">
+        <Typography className='LegalMentions_Data_P'>
           <li>HIPAA Security Rule</li>
           <li>State breach notification laws,</li>
           <li>PCI Data Security Standard,</li>
@@ -46,14 +44,8 @@ export const data = [
             security environment.
           </li>
         </Typography>
-        <NavLink
-          to="#"
-          className="LegalMentions_Data_P"
-          style={{ textAlign: 'center', display: 'block' }}
-        >
-          Privacy Policy
-        </NavLink>
-        <Typography className="LegalMentions_Data_P">
+        <h3 style={{ opacity: '0.7', textAlign: 'center' }}>Privacy Policy</h3>
+        <Typography className='LegalMentions_Data_P'>
           At Falcon consulting, one of our main priorities is the privacy of our visitors. This
           Privacy Policy document contains types of information that is collected and recorded by
           falconconsulting and how we use it.
@@ -66,15 +58,15 @@ export const data = [
           falconconsulting. This policy is not applicable to any information collected offline or
           via channels other than this website.
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Consent</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3>Consent</h3>
+          <p className='pera'>
             By using our website, you hereby consent to our Privacy Policy and agree to its terms.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Information we collect</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Information we collect</h3>
+          <p className='pera'>
             The personal information that you are asked to provide, and the reasons why you are
             asked to provide it, will be made clear to you at the point we ask you to provide your
             personal information.
@@ -86,9 +78,9 @@ export const data = [
             items such as name, company name, address, email address, and telephone number.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">How we use your information</h3>
-          <p className="pera">We use the information we collect in various ways, including to:</p>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>How we use your information</h3>
+          <p className='pera'>We use the information we collect in various ways, including to:</p>
           <li>Provide, operate, and maintain our website</li>
           <li>Improve, personalize, and expand our website</li>
           <li>Understand and analyze how you use our website</li>
@@ -101,9 +93,9 @@ export const data = [
           <li>Send you emails</li>
           <li>Find and prevent fraud</li>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Log Files</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Log Files</h3>
+          <p className='pera'>
             Falcon Consulting follows a standard procedure of using log files. These files log
             visitors when they visit websites. All hosting companies do this and are a part of
             hosting services' analytics. The information collected by log files includes internet
@@ -114,9 +106,9 @@ export const data = [
             gathering demographic information.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Cookies and Web Beacons</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Cookies and Web Beacons</h3>
+          <p className='pera'>
             Like any other website, falconconsulting uses 'cookies'. These cookies are used to store
             information including visitors' preferences, and the pages on the website that the
             visitor accessed or visited. The information is used to optimize the users' experience
@@ -124,9 +116,9 @@ export const data = [
             information.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Advertising Partners Privacy Policies</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Advertising Partners Privacy Policies</h3>
+          <p className='pera'>
             You may consult this list to find the Privacy Policy for each of the advertising
             partners of falconconsulting.
             <br />
@@ -141,9 +133,9 @@ export const data = [
             by third-party advertisers.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Third Party Privacy Policies</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Third Party Privacy Policies</h3>
+          <p className='pera'>
             falconconsulting's Privacy Policy does not apply to other advertisers or websites. Thus,
             we are advising you to consult the respective Privacy Policies of these third-party ad
             servers for more detailed information. It may include their practices and instructions
@@ -156,11 +148,11 @@ export const data = [
             CCPA Privacy Rights (Do Not Sell My Personal Information)
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>
             Under the CCPA, among other rights, California consumers have the right to:
           </h3>
-          <p className="pera">
+          <p className='pera'>
             Request that a business that collects a consumer's personal data disclose the categories
             and specific pieces of personal data that a business has collected about consumers.
             <br />
@@ -174,9 +166,9 @@ export const data = [
             exercise any of these rights, please contact us.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">GDPR Data Protection Rights</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>GDPR Data Protection Rights</h3>
+          <p className='pera'>
             We would like to make sure you are fully aware of all of your data protection rights.
             Every user is entitled to the following:
             <br />
@@ -204,9 +196,9 @@ export const data = [
             exercise any of these rights, please contact us.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Children's Information</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Children's Information</h3>
+          <p className='pera'>
             Another part of our priority is adding protection for children while using the internet.
             We encourage parents and guardians to observe, participate in, and/or monitor and guide
             their online activity.
@@ -217,11 +209,10 @@ export const data = [
             will do our best efforts to promptly remove such information from our records.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
-            Acceptable Use Policy
-          </NavLink>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 style={{ textAlign: 'center' }}>Acceptable Use Policy</h3>
+
+          <p className='pera'>
             This policy applies to the use of information, electronic and computing devices, and
             network resources to conduct Falcon Consulting business or interact with internal
             networks and business systems, whether owned or leased by Falcon Consulting, the
@@ -231,8 +222,8 @@ export const data = [
             resources in accordance with Falcon Consulting.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">General Use and Ownership</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>General Use and Ownership</h3>
           <li>
             Falcon Consulting proprietary information stored on electronic and computing devices
             whether owned or leased by Falcon Consulting, the employee or a third party, remains the
@@ -265,8 +256,8 @@ export const data = [
             to ensure compliance with this policy.
           </li>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Security and Proprietary Information</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Security and Proprietary Information</h3>
           <li>
             All mobile and computing devices that connect to the internal network must comply with
             the Minimum Access Policy.
@@ -292,12 +283,11 @@ export const data = [
             senders, which may contain malware.
           </li>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
-            Business Continuity and Disaster Recovery Policy
-          </NavLink>
-          <h3 className="head">Business Continuity Plan</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 style={{ textAlign: 'center' }}>Business Continuity and Disaster Recovery Policy</h3>
+
+          <h3 className='head'>Business Continuity Plan</h3>
+          <p className='pera'>
             Business Continuity focuses on sustaining The Falcon Consulting’s critical business
             processes during and after a disruption.
           </p>
@@ -348,9 +338,9 @@ export const data = [
             <li>Procedures for plan tests, review, and updates.</li>
           </li>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Disaster recovery Policy</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Disaster recovery Policy</h3>
+          <p className='pera'>
             Disaster Recovery focuses on restoring the technology systems that support both critical
             and day-to-day business operations.
           </p>
@@ -383,16 +373,16 @@ export const data = [
             <li>Procedures for plan tests, review, and updates.</li>
           </li>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Waivers</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Waivers</h3>
+          <p className='pera'>
             Waivers from certain policy provisions may be sought following the Falcon Consulting
             Waiver Process.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Enforcement</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Enforcement</h3>
+          <p className='pera'>
             Personnel found to have violated this policy may be subject to disciplinary action, up
             to and including termination of employment, and related civil or criminal penalties.
             <br />
@@ -401,32 +391,33 @@ export const data = [
             and related civil or criminal penalties.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 style={{ textAlign: 'center' }}>
             Hiring and Termination Policy with Background Checks
-          </NavLink>
-          <h4 className="head4" style={{ textAlign: 'center', display: 'block' }}>
+          </h3>
+
+          <h4 className='head4' style={{ textAlign: 'center', display: 'block' }}>
             Hiring policy
           </h4>
-          <ol className="ollist">1. OVERVIEW</ol>
-          <p className="pera">
+          <ol className='ollist'>1. OVERVIEW</ol>
+          <p className='pera'>
             Falcon Consulting believes that hiring qualified personnel to fill positions in the
             different departments contributes to the company's overall success. Each employee is
             therefore hired with the objective of making a significant contribution to Falcon
             Consulting.
           </p>
-          <ol className="ollist">2. PURPOSE</ol>
-          <p className="pera">
+          <ol className='ollist'>2. PURPOSE</ol>
+          <p className='pera'>
             The hiring policy has been established to ensure Falcon Consulting has the opportunity
             to attract the best available staff for all vacant positions.
           </p>
-          <ol className="ollist">3. SCOPE</ol>
-          <p className="pera">
+          <ol className='ollist'>3. SCOPE</ol>
+          <p className='pera'>
             This hiring policy applies to all employees of Falcon Consulting who are involved in the
             hiring process.
           </p>
-          <ol className="ollist">4. RESPONSIBILITY</ol>
-          <p className="pera">
+          <ol className='ollist'>4. RESPONSIBILITY</ol>
+          <p className='pera'>
             It shall be the responsibility of the Human Resources (HR) department to implement this
             policy and to monitor its performance.
             <br />
@@ -446,15 +437,15 @@ export const data = [
             Managers are given continuous support and guidance in regard to recruitment and
             selection issues.
           </li>
-          <ol className="ollist">5. POLICY AND PROCEDURES</ol>
-          <p className="pera">
+          <ol className='ollist'>5. POLICY AND PROCEDURES</ol>
+          <p className='pera'>
             In hiring the most qualified candidates for positions, the following process should be
             followed.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">a) Staff request</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>a) Staff request</h3>
+          <p className='pera'>
             When a position (newly created or replacement, continuing or term position) needs to be
             filled or extended, a staff request form must be completed and authorized.
             <br />
@@ -471,9 +462,9 @@ export const data = [
           </li>
           <li>Any special instructions relating to advertising on recruitment.</li>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">b) Job description</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>b) Job description</h3>
+          <p className='pera'>
             A job description describes the areas of responsibility and accountability within a
             department. When a position is vacant, it is appropriate to review and, if necessary,
             update the job description and task description to ensure that it is up to date.
@@ -484,18 +475,18 @@ export const data = [
             salary range corresponding to the underlying responsibilities.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">c) Meetings</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>c) Meetings</h3>
+          <p className='pera'>
             HR will arrange a meeting with the hiring manager before posting a job offer. The
             objective of this meeting is to learn more about the position, requirements and profile
             of the ideal candidate. The recruitment strategy will be defined during this meeting and
             expectations will be established with all stakeholders.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">d) Job postings</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>d) Job postings</h3>
+          <p className='pera'>
             Once the position is approved and the job description is finalized (if applicable), the
             HR department will prepare the job posting. HR will create job postings that briefly
             describe the job opening and communicate Falcon Consulting's brand.
@@ -519,20 +510,20 @@ export const data = [
             applications and resumes as required.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h4 className="head4" style={{ textAlign: 'center', display: 'block' }}>
+        <Typography className='LegalMentions_Data_P'>
+          <h4 className='head4' style={{ textAlign: 'center', display: 'block' }}>
             Termination Policy
           </h4>
-          <h3 className="head">Purpose</h3>
-          <p className="pera">
+          <h3 className='head'>Purpose</h3>
+          <p className='pera'>
             Falcon Consulting ensures that employee terminations, including voluntary and
             involuntary terminations and terminations due to the death of an employee, are handled
             in a professional manner with minimal disruption to the workplace.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">At-Will Employment</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>At-Will Employment</h3>
+          <p className='pera'>
             Employment with Falcon Consulting is voluntary and subject to termination by the
             employee or Falcon Consulting at will, with or without cause, and with or without
             notice, at any time. Nothing in these policies shall be interpreted to be in conflict
@@ -540,15 +531,15 @@ export const data = [
             Consulting employees.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Voluntary Terminations</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Voluntary Terminations</h3>
+          <p className='pera'>
             A voluntary termination of employment occurs when an employee submits a written or
             verbal notice of resignation to his or her supervisor.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Procedures</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Procedures</h3>
           <li>
             Employees are requested to provide a minimum of three weeks' notice of their intention
             to separate from the company to allow a reasonable amount of time to transfer ongoing
@@ -576,9 +567,9 @@ export const data = [
             day of employment.
           </li>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Involuntary Terminations</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Involuntary Terminations</h3>
+          <p className='pera'>
             An involuntary termination of employment, including layoffs of over 30 days, is a
             management-initiated dismissal with or without cause. The inability of an employee to
             perform the essential functions of his or her job with or without a reasonable
@@ -587,8 +578,8 @@ export const data = [
             absenteeism, unsatisfactory performance or inability to perform.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Procedures</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Procedures</h3>
           <li>
             Before any action is taken to involuntarily discharge an employee, the employee's
             manager must request a review by HR and the employee's immediate supervisor.
@@ -601,15 +592,15 @@ export const data = [
             employee.
           </li>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Death of an Employee</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Death of an Employee</h3>
+          <p className='pera'>
             A termination due to the death of an employee will be made effective as of the date of
             death.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Procedures</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Procedures</h3>
           <li>
             Upon receiving notification of the death of an employee, the employee's manager should
             immediately notify HR.
@@ -623,9 +614,9 @@ export const data = [
             employee's timecard.
           </li>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Final Pay</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Final Pay</h3>
+          <p className='pera'>
             An employee who resigns or is discharged will be paid through the last day of work, plus
             any unused paid time off (PTO), less outstanding loans, advances or other agreements the
             employee may have with the company, in compliance with state laws. In cases of an
@@ -633,12 +624,13 @@ export const data = [
             employee's estate or as otherwise required under state law.
           </p>
         </Typography>
-        <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
+
+        <h3 style={{ opacity: '0.7', textAlign: 'center' }}>
           Hiring and Termination Policy with Background Checks
-        </NavLink>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Purpose</h3>
-          <p className="pera">
+        </h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Purpose</h3>
+          <p className='pera'>
             The purpose of this policy is to provide guidance that limits the use of encryption to
             those algorithms that have received substantial public review and have been proven to
             work effectively. Additionally, this policy provides direction to ensure that Federal
@@ -646,14 +638,14 @@ export const data = [
             of encryption technologies outside of the United States.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Policy</h3>
-          <h3 className="head">Algorithm Requirements</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Policy</h3>
+          <h3 className='head'>Algorithm Requirements</h3>
           <li>
             Ciphers in use must meet or exceed the set defined as "AES-compatible" or "partially
-            AES-compatible" according to the <NavLink to="#">IETF/IRTF Cipher Catalog,</NavLink> or
-            the set defined for use in the United States
-            <NavLink to="#">
+            AES-compatible" according to the <NavLink to='#'>IETF/IRTF Cipher Catalog,</NavLink> or
+            the set defined for use in the United States{' '}
+            <NavLink to='#'>
               National Institute of Standards and Technology (NIST) publication FIPS 140-2,
             </NavLink>
             or any superseding documents according to the date of implementation. The use of the
@@ -699,9 +691,9 @@ export const data = [
             </td>
           </tr>
         </table>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Summary</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Summary</h3>
+          <p className='pera'>
             To maintain the trust of our employees, customers, and partners and meet regulatory
             requirements, it is essential that we do everything we can to protect confidential
             information and systems in the face of a cyberattack. The better prepared we are to
@@ -724,9 +716,9 @@ export const data = [
             incident response.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Roles, Responsibilities & Contact Information</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Roles, Responsibilities & Contact Information</h3>
+          <p className='pera'>
             This Security Incident Response Plan must be followed by all personnel, including all
             employees, temporary staff, consultants, contractors, suppliers, and third parties
             operating on behalf of Falcon Consulting. All personnel are referred to as ‘staff’
@@ -738,8 +730,8 @@ export const data = [
             roles of other employees in incident response and prevention.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">The Incident Response Lead is responsible for:</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>The Incident Response Lead is responsible for:</h3>
           <li>
             Making sure that the Security Incident Response Plan and associated response and
             escalation procedures are defined and documented. This is to ensure that the handling of
@@ -767,8 +759,8 @@ export const data = [
             This includes authorizing access to/removal of evidence from the site.
           </li>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>
             Security Incident Response Team (SIRT) members are responsible for:
           </h3>
           <li>
@@ -805,8 +797,8 @@ export const data = [
             additional safeguards are required in the environment where the incident occurred.
           </li>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">All staff members are responsible for:</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>All staff members are responsible for:</h3>
           <li>
             Making sure they understand how to identify and report a suspected or actual security
             incident.
@@ -821,21 +813,20 @@ export const data = [
           </li>
           <li>Complying with the security policies and procedures of Falcon Consulting.</li>
         </Typography>
-        <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
-          Security Awareness Training Program
-        </NavLink>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Overview</h3>
-          <p className="pera">
+
+        <h3 style={{ opacity: '0.7', textAlign: 'center' }}>Security Awareness Training Program</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Overview</h3>
+          <p className='pera'>
             Security and privacy awareness and training is an important aspect in protecting the
             Confidentiality, Integrity, and Availability (CIA) of sensitive information. Employees
             are the first line of defense and must be made aware of the security risks associated
             with the work performed at Falcon Consulting.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Purpose</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Purpose</h3>
+          <p className='pera'>
             Falcon Consulting understands that people are often the biggest threat (intentionally or
             inadvertently) to the security of sensitive information. As such, all users of
             information systems must be made aware of the security risks associated with their
@@ -846,9 +837,9 @@ export const data = [
             responsibilities.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Policy</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Policy</h3>
+          <p className='pera'>
             All employees, contractors, and anyone accessing Falcon Consulting information systems
             must understand how to protect the CIA of information and information systems.
             <br />
@@ -880,18 +871,18 @@ export const data = [
             changes to the environment.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Management Commitment</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Management Commitment</h3>
+          <p className='pera'>
             Falcon Consulting Senior Management will commit to the development of a security and
             privacy awareness program allocating staff and resources. The Information Security
             Manager will have access to both the compliance and training departments for completion
             and update of training materials and tracking results.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Roles and Responsibilities</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Roles and Responsibilities</h3>
+          <p className='pera'>
             All employees and contractors are responsible for understanding and following all
             security related policies and procedures, and asking their manager or Security Officer
             for clarification if needed.
@@ -911,9 +902,9 @@ export const data = [
             </ol>
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Coordination Among Organizational Entities</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Coordination Among Organizational Entities</h3>
+          <p className='pera'>
             Security is everybody’s business. As security tends to cross departmental and
             organizational boundaries, Falcon Consulting employees and contractors will work
             together to ensure that required security controls are in place, are maintained, and
@@ -924,9 +915,9 @@ export const data = [
             other systems or processes can be addressed.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Compliance</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Compliance</h3>
+          <p className='pera'>
             Compliance with the policy defined in this document is mandatory. Failure to comply with
             Falcon Consulting Information Security Policies may result in disciplinary actions up to
             and including termination of employment. Employees may also be held personally liable
@@ -938,9 +929,9 @@ export const data = [
             as a production system.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">References</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>References</h3>
+          <p className='pera'>
             This policy establishes mandatory requirements and assigns roles and responsibilities to
             facilitate the implementation of the Falcon Consulting Security Awareness and Training
             Policy. The policy contains formal, documented policy statements and language designed
@@ -964,9 +955,9 @@ export const data = [
           </ol>
           <ol> NIST SP 800-100 Information Security Handbook: A Guide for Managers</ol>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Security Awareness (AT-2)</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Security Awareness (AT-2)</h3>
+          <p className='pera'>
             Falcon Consulting requires that all users complete a security awareness and training
             course (or courses as applicable) prior to being granted access to Falcon Consulting
             corporate or client systems. Users are provided basic security awareness training as
@@ -981,9 +972,9 @@ export const data = [
             Steward upon request.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Security Training (AT-3)</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Security Training (AT-3)</h3>
+          <p className='pera'>
             Falcon Consulting must provide role-based, security-related training before authorizing
             access to the system or performing assigned duties, as well as when required by a system
             change or changes in personnel roles.
@@ -998,9 +989,9 @@ export const data = [
             as part of the training course completion.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Security Training Records (AT-4)</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Security Training Records (AT-4)</h3>
+          <p className='pera'>
             Falcon Consulting must create and disseminate to users the security training documents.
             The Falcon Consulting CISO must ensure activities for monitoring and documenting basic
             security awareness training, as well as role-based training, are conducted. Employees
@@ -1009,59 +1000,59 @@ export const data = [
             years.
           </p>
         </Typography>
-        <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
-          Third party/Vendor management
-        </NavLink>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Identify Risk:</h3>
-          <p className="pera">
+
+        <h3 style={{ opacity: '0.7', textAlign: 'center' }}>Third party/Vendor management</h3>
+
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Identify Risk:</h3>
+          <p className='pera'>
             Falcon Consulting helps deliver access to the latest public, proprietary and
             self-reported information. This enables clients to identify and classify a variety of
             risk factors, including cyber, privacy, information security, bribery, corruption,
             financial crime and reputational and operational concerns.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Evaluate Third party risk management</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Evaluate Third party risk management</h3>
+          <p className='pera'>
             Falcon Consulting provide due diligence and investigation services in more than 240
             countries and 100 languages. We offer off-the-shelf and customized services for clients
             to evaluate, segment and understand both the risk landscape and quality controls in
             place at the local, country, regional and global level.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Monitor Risk</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Monitor Risk</h3>
+          <p className='pera'>
             Falcon Consulting help clients understand and implement tactical and strategic methods
             of managing and mitigating third-party risks. These methods include continuous or
             periodic monitoring, threat monitoring, and alert management processes to make the job
             of staying on top of risk easier to implement at a lower overall cost.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Innovate third-party risk management</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Innovate third-party risk management</h3>
+          <p className='pera'>
             Falcon Consulting leverage advanced analytics, robotic process automation, advanced
             workflow, and machine learning to simplify and streamline everyday tasks when
             implementing and managing effective third-party risk management programs.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Enable third-party risk management</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Enable third-party risk management</h3>
+          <p className='pera'>
             Falcon Consulting help deliver a range of services that help clients improve their
             operational risk management. These services include helping clients design risk
             frameworks, manage governance and model data. We can also provide clients with an
             outsourced managed service.
           </p>
         </Typography>
-        <NavLink to="#" style={{ textAlign: 'center', display: 'block' }}>
-          System backup policy and program
-        </NavLink>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Purpose</h3>
-          <p className="pera">
+
+        <h3 style={{ opacity: '0.7', textAlign: 'center' }}>System backup policy and program</h3>
+
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Purpose</h3>
+          <p className='pera'>
             The purpose of this policy is to provide means to:
             <br />
             i. restore the integrity of the computer systems in the event of a hardware/software
@@ -1071,70 +1062,70 @@ export const data = [
             important files.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Scope</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Scope</h3>
           <br />
-          <h3 className="head">Employees</h3>
-          <p className="pera">
+          <h3 className='head'>Employees</h3>
+          <p className='pera'>
             This policy applies to all Employees, Contractors, and Third Party Employees, who have
             access to IT assets of FALCON CONSULTING and may be bound by contractual agreements.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">IT Assets</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>IT Assets</h3>
+          <p className='pera'>
             This policy applies to the entire IT infrastructure of FALCON CONSULTING.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Documentation</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Documentation</h3>
           <br />
-          <h3 className="head">
+          <h3 className='head'>
             The Policy documentation shall consist of Backup Policy and related procedures and
             guidelines.
           </h3>
           <br />
-          <h3 className="head">Document Control</h3>
-          <p className="pera">
+          <h3 className='head'>Document Control</h3>
+          <p className='pera'>
             The Backup Policy document and all other referenced documents shall be controlled.
             Version control shall be used to preserve the latest release and the previous version of
             any document. However, the previous version of the documents shall be retained only for
             a period of two years for legal and knowledge preservation purposes.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Records</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Records</h3>
+          <p className='pera'>
             Records being generated as part of the Backup Policy shall be retained for a period of
             two years. Records shall be in hard copy or electronic media. The records shall be owned
             by the respective system administrators and shall be audited once a year.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Distribution and Maintenance</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Distribution and Maintenance</h3>
+          <p className='pera'>
             The Backup Policy document shall be made available to all the employees covered in the
             scope. All the changes and new releases of this document shall be made available to the
             persons concerned. The maintenance responsibility of the document shall be with the CISO
             and system administrators
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Privacy</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Privacy</h3>
+          <p className='pera'>
             The Backup Policy document shall be considered as “confidential” and shall be made
             available to the concerned persons with proper access control. Subsequent changes and
             versions of this document shall be controlled.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Responsibility</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Responsibility</h3>
+          <p className='pera'>
             The CISO / designated personnel are responsible for proper implementation of the Policy.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Policy</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Policy</h3>
           <li>
             All user-level and system-level information maintained by FALCON CONSULTING shall be
             backed up periodically. The backup media shall be stored with sufficient protection and
@@ -1198,9 +1189,9 @@ export const data = [
             d. Contact Information
           </li>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Enforcement</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Enforcement</h3>
+          <p className='pera'>
             Any employee found to have violated this policy may be subjected to disciplinary action
             in line with the HR Policy.
           </p>
@@ -1213,12 +1204,13 @@ export const data = [
     index: 2,
     body: (
       <>
-        <NavLink to="#" style={{ textAlign: 'left', display: 'block' }}>
+        <h3 style={{ opacity: '0.7', textAlign: 'center' }}>
           Business Continuity and Disaster Recovery Policy
-        </NavLink>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Business Continuity Plan</h3>
-          <p className="pera">
+        </h3>
+
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Business Continuity Plan</h3>
+          <p className='pera'>
             Business Continuity focuses on sustaining The Falcon Consulting’s critical business
             processes during and after a disruption.
           </p>
@@ -1274,9 +1266,9 @@ export const data = [
           </li>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Disaster recovery Policy</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Disaster recovery Policy</h3>
+          <p className='pera'>
             Disaster Recovery focuses on restoring the technology systems that support both critical
             and day-to-day business operations.
           </p>
@@ -1336,17 +1328,17 @@ export const data = [
           </li>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Waivers</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Waivers</h3>
+          <p className='pera'>
             Waivers from certain policy provisions may be sought following the Falcon Consulting
             Waiver Process.
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Enforcement</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Enforcement</h3>
+          <p className='pera'>
             Personnel found to have violated this policy may be subject to disciplinary action, up
             to and including termination of employment, and related civil or criminal penalties.
             <br />
@@ -1363,14 +1355,11 @@ export const data = [
     index: 3,
     body: (
       <>
-        <NavLink to="#" style={{ textAlign: 'left', display: 'block' }}>
-          Information Security Policy
-        </NavLink>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head" style={{ color: 'blue' }}>
-            Introduction
-          </h3>
-          <p className="pera">
+        <h3 style={{ opacity: '0.7' }}>Information Security Policy</h3>
+
+        <Typography className='LegalMentions_Data_P'>
+          <h3>Introduction</h3>
+          <p className='pera'>
             Information security is a holistic discipline, meaning that its application, or lack
             thereof, affects all facets of an organization or enterprise. The goal of the Falcon
             Consulting Information Security Program is to protect the Confidentiality, Integrity,
@@ -1391,41 +1380,35 @@ export const data = [
             Availability – Ensuring that information assets (information, systems, facilities,
             networks, and computers) are accessible and usable when needed by an authorized entity.
           </li>
-          <p className="pera">
+          <p className='pera'>
             Falcon Consulting has recognized that our business information is a critical asset and
             as such our ability to manage, control, and protect this asset will have a direct and
             significant impact on our future success. 
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head" style={{ color: 'blue' }}>
-            Purpose
-          </h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3>Purpose</h3>
+          <p className='pera'>
             The purpose of the Falcon Consulting Information Security Policy is to describe the
             actions and behaviors required to ensure that due care is taken to avoid inappropriate
             risks to Falcon Consulting, its business partners, and its stakeholders.
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head" style={{ color: 'blue' }}>
-            Audience
-          </h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3>Audience</h3>
+          <p className='pera'>
             The Falcon Consulting Information Security Policy applies equally to any individual,
             entity, or process that interacts with any Falcon Consulting Information Resource.
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head" style={{ color: 'blue' }}>
-            Responsibilities
-          </h3>
-          <NavLink to="#" style={{ textAlign: 'left', display: 'block' }}>
-            Executive Management 
-          </NavLink>
+        <Typography className='LegalMentions_Data_P'>
+          <h3>Responsibilities</h3>
+
+          <h3>Executive Management </h3>
+
           <li>
             Ensure that an appropriate risk-based Information Security Program is implemented to
             protect the confidentiality, integrity, and availability of all Information Resources
@@ -1455,10 +1438,9 @@ export const data = [
           </li>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <NavLink to="#" style={{ textAlign: 'left', display: 'block' }}>
-            Information Security Team
-          </NavLink>
+        <Typography className='LegalMentions_Data_P'>
+          <h3>Information Security Team </h3>
+
           <li>Ensure compliance with applicable information security requirements.</li>
           <li>Formulate, review and recommend information security policies.</li>
           <li>
@@ -1487,10 +1469,9 @@ export const data = [
           </li>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <NavLink to="#" style={{ textAlign: 'left', display: 'block' }}>
-            All Employees, Contractors, and Other Third-Party Personnel
-          </NavLink>
+        <Typography className='LegalMentions_Data_P'>
+          <h3>All Employees, Contractors, and Other Third-Party Personnel</h3>
+
           <li>
             Understand their responsibilities for complying with the Falcon Consulting Information
             Security Program.
@@ -1505,10 +1486,8 @@ export const data = [
           </li>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head" style={{ color: 'blue' }}>
-            Policy
-          </h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3>Policy</h3>
           <li>
             Falcon Consulting maintains and communicates an Information Security Program consisting
             of topic-specific policies, standards, procedures and guidelines that:
@@ -1535,11 +1514,9 @@ export const data = [
           </li>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head" style={{ color: 'blue' }}>
-            Enforcement
-          </h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3>Enforcement</h3>
+          <p className='pera'>
             Personnel found to have violated this policy may be subject to disciplinary action, up
             to and including termination of employment, and related civil or criminal penalties. 
             <br />
@@ -1556,11 +1533,10 @@ export const data = [
     index: 4,
     body: (
       <>
-        <NavLink to="#" style={{ textAlign: 'left', display: 'block' }}>
-          Acceptable Use Policy
-        </NavLink>
-        <Typography className="LegalMentions_Data_P">
-          <p className="pera">
+        <h3 style={{ opacity: '0.7' }}> Acceptable Use Policy</h3>
+
+        <Typography className='LegalMentions_Data_P'>
+          <p className='pera'>
             This policy applies to the use of information, electronic and computing devices, and
             network resources to conduct Falcon Consulting business or interact with internal
             networks and business systems, whether owned or leased by Falcon Consulting, the
@@ -1571,8 +1547,8 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">General Use and Ownership</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>General Use and Ownership</h3>
           <li>
             Falcon Consulting proprietary information stored on electronic and computing devices
             whether owned or leased by Falcon Consulting, the employee or a third party, remains the
@@ -1606,8 +1582,8 @@ export const data = [
           </li>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Security and Proprietary Information</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Security and Proprietary Information</h3>
           <li>
             All mobile and computing devices that connect to the internal network must comply with
             the Minimum Access Policy.
@@ -1634,9 +1610,9 @@ export const data = [
           </li>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Unacceptable Use</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Unacceptable Use</h3>
+          <p className='pera'>
             The following activities are, in general, prohibited. Employees may be exempted from
             these restrictions during the course of their legitimate job responsibilities (e.g.,
             systems administration staff may have a need to disable the network access of a host if
@@ -1815,10 +1791,10 @@ export const data = [
     index: 5,
     body: (
       <>
-        <Typography className="LegalMentions_Data_P">
-          <h1 className="headH1">Government Data Request Policy</h1>
-          <h3 className="head">1. Introduction</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h1 className='headH1'>Government Data Request Policy</h1>
+          <h3 className='head'>1. Introduction</h3>
+          <p className='pera'>
             1.1 This Government Data Request Policy sets out Falcon Consulting’s procedure for
             responding to a request received from a law enforcement or other government authority
             (together the “Requesting Authority“) to disclose personal information processed by
@@ -1836,9 +1812,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">2. General principle on Data Disclosure Requests</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>2. General principle on Data Disclosure Requests</h3>
+          <p className='pera'>
             2.1 As a general principle, Falcon Consulting does not disclose personal information in
             response to a Data Disclosure Request unless either:
             <li>it is under a compelling legal obligation to make such disclosure; or</li>
@@ -1855,9 +1831,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">3. Handling of a Data Disclosure Request</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>3. Handling of a Data Disclosure Request</h3>
+          <p className='pera'>
             3.1 If a Falcon Consulting Group Member receives a Data Disclosure Request, the
             recipient of the request must pass it to Falcon Consulting’s Chief Privacy Officer and
             Privacy Team (collectively, the “Privacy Team”) immediately upon receipt, indicating the
@@ -1878,10 +1854,10 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">4. Notice of a Data Disclosure Request</h3>
-          <h3 className="head">4.1 Notice to the Customer</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>4. Notice of a Data Disclosure Request</h3>
+          <h3 className='head'>4.1 Notice to the Customer</h3>
+          <p className='pera'>
             4.1.1 If a request concerns personal information for which a Customer is the controller,
             Falcon Consulting will ordinarily ask the Requesting Authority to make the Data
             Disclosure Request directly to the relevant Customer. If the Requesting Authority
@@ -1898,9 +1874,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">4.2 Notice to the competent data protection authorities</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>4.2 Notice to the competent data protection authorities</h3>
+          <p className='pera'>
             4.2.1 If the Requesting Authority is in a country that does not provide an adequate
             level of protection for the personal information in accordance with applicable data
             protection laws, then Falcon Consulting will also put the request on hold to notify and
@@ -1920,9 +1896,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">5. Transparency reports</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>5. Transparency reports</h3>
+          <p className='pera'>
             5.1 Falcon Consulting commits to preparing a semi-annual report (a “Transparency
             Report”), which reflects the number and type of Data Disclosure Requests it has received
             for the preceding six months, as may be limited by applicable law or court order. Falcon
@@ -1931,9 +1907,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">6. Bulk transfers</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>6. Bulk transfers</h3>
+          <p className='pera'>
             6.1 In no event will any Group Member transfer Personal Information to a Requesting
             Authority in a massive, disproportionate, and indiscriminate manner that goes beyond
             what is necessary in a democratic society.
@@ -1947,9 +1923,9 @@ export const data = [
     index: 6,
     body: (
       <>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">PRIVACY NOTICE</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>PRIVACY NOTICE</h3>
+          <p className='pera'>
             Last updated June 04, 2022
             <br />
             This privacy notice for Falcon Consulting ("Company," "we," "us," or "our"), describes
@@ -1968,9 +1944,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">SUMMARY OF KEY POINTS</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>SUMMARY OF KEY POINTS</h3>
+          <p className='pera'>
             <em>
               This summary provides key points from our privacy notice, but you can find out more
               details about any of these topics by clicking the link following each key point or by
@@ -1995,11 +1971,11 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>
             SIn what situations and with which parties do we share personal information?
           </h3>
-          <p className="pera">
+          <p className='pera'>
             We may share information in specific situations and with specific third parties.
             <br />
             How do we keep your information safe? We have organizational and technical processes and
@@ -2018,8 +1994,8 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">TABLE OF CONTENTS</h3>
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>TABLE OF CONTENTS</h3>
           <br />
           <ol>
             1. WHAT INFORMATION DO WE COLLECT? <br />
@@ -2039,9 +2015,9 @@ export const data = [
           <br />
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">1. WHAT INFORMATION DO WE COLLECT?</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>1. WHAT INFORMATION DO WE COLLECT?</h3>
+          <p className='pera'>
             Personal information you disclose to us
             <br />
             <em>In Short: We collect personal information that you provide to us.</em>
@@ -2076,9 +2052,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">2. HOW DO WE PROCESS YOUR INFORMATION?</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>2. HOW DO WE PROCESS YOUR INFORMATION?</h3>
+          <p className='pera'>
             In Short: We process your information to provide, improve, and administer our Services,
             communicate with you, for security and fraud prevention, and to comply with law. We may
             also process your information for other purposes with your consent.
@@ -2091,9 +2067,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?</h3>
+          <p className='pera'>
             In Short: We only process your personal information when we believe it is necessary and
             we have a valid legal reason (i.e., legal basis) to do so under applicable law, like
             with your consent, to comply with laws, to provide you with services to enter into or
@@ -2173,9 +2149,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</h3>
+          <p className='pera'>
             <em>
               In Short: We may share information in specific situations described in this section
               and/or with the following third parties.
@@ -2189,9 +2165,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h3>
+          <p className='pera'>
             <em>
               In Short: We may use cookies and other tracking technologies to collect and store your
               information.
@@ -2203,9 +2179,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">6. HOW DO WE HANDLE YOUR SOCIAL LOGINS?</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>6. HOW DO WE HANDLE YOUR SOCIAL LOGINS?</h3>
+          <p className='pera'>
             <em>
               In Short: If you choose to register or log in to our services using a social media
               account, we may have access to certain information about you.
@@ -2228,9 +2204,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">7. HOW LONG DO WE KEEP YOUR INFORMATION?</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>7. HOW LONG DO WE KEEP YOUR INFORMATION?</h3>
+          <p className='pera'>
             <em>
               In Short: We keep your information for as long as necessary to fulfill the purposes
               outlined in this privacy notice unless otherwise required by law.
@@ -2249,9 +2225,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">8. HOW DO WE KEEP YOUR INFORMATION SAFE?</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>8. HOW DO WE KEEP YOUR INFORMATION SAFE?</h3>
+          <p className='pera'>
             <em>
               In Short: We aim to protect your personal information through a system of
               organizational and technical security measures.
@@ -2270,9 +2246,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">9. WHAT ARE YOUR PRIVACY RIGHTS?</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>9. WHAT ARE YOUR PRIVACY RIGHTS?</h3>
+          <p className='pera'>
             <em>
               In Short: In some regions, such as the European Economic Area (EEA), United Kingdom
               (UK), and Canada, you have rights that allow you greater access to and control over
@@ -2329,9 +2305,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">10. CONTROLS FOR DO-NOT-TRACK FEATURES</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>10. CONTROLS FOR DO-NOT-TRACK FEATURES</h3>
+          <p className='pera'>
             Most web browsers and some mobile operating systems and mobile applications include a
             Do-Not-Track ("DNT") feature or setting you can activate to signal your privacy
             preference not to have data about your online browsing activities monitored and
@@ -2344,9 +2320,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h3>
+          <p className='pera'>
             <em>
               In Short: Yes, if you are a resident of California, you are granted specific rights
               regarding access to your personal information.
@@ -2371,9 +2347,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">CCPA Privacy Notice</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>CCPA Privacy Notice</h3>
+          <p className='pera'>
             <em>The California Code of Regulations defines a "resident" as:</em>
             <br />
             (1) every individual who is in the State of California for other than a temporary or
@@ -2387,9 +2363,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">What categories of personal information do we collect?</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>What categories of personal information do we collect?</h3>
+          <p className='pera'>
             We have collected the following categories of personal information in the past twelve
             (12) months:
             <li>
@@ -2408,9 +2384,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">How do we use and share your personal information?</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>How do we use and share your personal information?</h3>
+          <p className='pera'>
             More information about our data collection and sharing practices can be found in this
             privacy notice.
             <br />
@@ -2423,9 +2399,9 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Will your information be shared with anyone else?</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Will your information be shared with anyone else?</h3>
+          <p className='pera'>
             We may disclose your personal information with our service providers pursuant to a
             written contract between us and each service provider. Each service provider is a for-
             profit entity that processes the information on our behalf.
@@ -2440,9 +2416,9 @@ export const data = [
             visitors, users, and other consumers.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">Your rights with respect to your personal data</h3>
-          <p className="pera">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>Your rights with respect to your personal data</h3>
+          <p className='pera'>
             Right to request deletion of the data — Request to delete
             <br />
             You can ask for the deletion of your personal information. If you ask us to delete your
@@ -2546,11 +2522,11 @@ export const data = [
     index: 7,
     body: (
       <>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>
             <li>Overview</li>
           </h3>
-          <p className="pera">
+          <p className='pera'>
             Data breaches are increasingly common occurrences whether caused through human error or
             malicious intent. Falcon Consulting operations rely on the proper use of Confidential
             Information and Personally Identifiable Information (PII) on a daily basis. Managing
@@ -2558,11 +2534,11 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>
             <li>Purpose</li>
           </h3>
-          <p className="pera">
+          <p className='pera'>
             Falcon Consulting must have a robust and systematic process for responding to reported
             data security Incidents and Breaches. This policy is designed to standardize the Falcon
             Consulting-wide response to any reported Breach or Incident, and ensure that they are
@@ -2573,19 +2549,19 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>
             <li>Scope</li>
           </h3>
-          <p className="pera">This policy applies to all Falcon Consulting staff.</p>
+          <p className='pera'>This policy applies to all Falcon Consulting staff.</p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>
             <li>Policy</li>
           </h3>
           <li>GENERAL INFORMATION</li>
-          <p className="pera">
+          <p className='pera'>
             A “Data Security Incident” or “Incident’ shall mean an accidental or deliberate event
             that results in or constitutes an imminent threat of the unauthorized access, loss,
             disclosure, modification, disruption, or destruction of communication or information
@@ -2646,11 +2622,11 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>
             <li>DATA CLASSIFICATIONS</li>
           </h3>
-          <p className="pera">
+          <p className='pera'>
             Incidents vary in impact and risk depending on a number of mitigating factors including
             the content and quantity of the data involved. It is critically important that Falcon
             Consulting management respond quickly and identify the data classification of the
@@ -2680,11 +2656,11 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>
             <li>INCIDENT REPORTING</li>
           </h3>
-          <p className="pera">
+          <p className='pera'>
             The following process shall be followed when responding to a suspected Incident:
             <li>
               Confirmed or suspected Incidents shall be reported promptly to the Security manager. A
@@ -2705,11 +2681,11 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>
             <li>CLASSIFICATION</li>
           </h3>
-          <p className="pera">
+          <p className='pera'>
             Data Breaches or Incidents shall be classified as follows:
             <br />
             Critical/Major Breach or Incident – Incidents or Breaches in this category deal with
@@ -2756,11 +2732,11 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>
             <li>INCIDENT RESPONSE</li>
           </h3>
-          <p className="pera">
+          <p className='pera'>
             Management response to any reported Incident shall involve the following activities:
             <br />
             Assess, Contain and Recover Data - All security Incidents shall have immediate analysis
@@ -2855,7 +2831,7 @@ export const data = [
               <td>Complete Incident Report and file with Security manager.</td>
             </tr>
           </table>
-          <p className="pera">
+          <p className='pera'>
             Assess Risk and Incident Scope – All Incidents or Breaches shall have a risk and scope
             analysis completed by the Security manager or their designee. This analysis shall be
             documented and shared with the Security manager, the affected parties, and any other
@@ -2973,7 +2949,7 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
+        <Typography className='LegalMentions_Data_P'>
           <table>
             <tr>
               <th>C</th>
@@ -3056,7 +3032,7 @@ export const data = [
             </tr>
           </table>
           <br />
-          <p className="pera">
+          <p className='pera'>
             Post Mortem Evaluation and Response – Each Incident or Breach determined to be
             “moderately critical” or “critical” shall have a post mortem analysis completed by the
             Security manager and their designees to appropriately document, analyze, and make
@@ -3066,7 +3042,7 @@ export const data = [
           <br />
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
+        <Typography className='LegalMentions_Data_P'>
           <table>
             <tr>
               <th>D</th>
@@ -3121,7 +3097,7 @@ export const data = [
               </td>
             </tr>
           </table>
-          <p className="pera">
+          <p className='pera'>
             Each of these four elements shall be conducted as appropriate for all qualifying
             Incidents or Breaches. An activity log recording the timeline of Incident management
             shall also be completed. Reporting and documentation shall be filed and managed through
@@ -3129,11 +3105,11 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>
             <li>Audit Controls and Management</li>
           </h3>
-          <p className="pera">
+          <p className='pera'>
             On-demand documented procedures and evidence of practice should be in place for this
             operational policy. Appropriate audit controls and management practice examples are as
             follows:
@@ -3149,20 +3125,20 @@ export const data = [
           </p>
         </Typography>
         <br />
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>
             <li>Enforcement </li>
           </h3>
-          <p className="pera">
+          <p className='pera'>
             Staff members found in policy violation may be subject to disciplinary action, up to and
             including termination.
           </p>
         </Typography>
-        <Typography className="LegalMentions_Data_P">
-          <h3 className="head">
+        <Typography className='LegalMentions_Data_P'>
+          <h3 className='head'>
             <li>Distribution </li>
           </h3>
-          <p className="pera">This policy is to be distributed to all Falcon Consulting staff.</p>
+          <p className='pera'>This policy is to be distributed to all Falcon Consulting staff.</p>
         </Typography>
       </>
     ),

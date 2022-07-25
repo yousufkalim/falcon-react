@@ -25,11 +25,23 @@ import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
 import OrgaPlan_WebDesign from '../../assets/images/orgaplan_webdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
+import { Helmet } from 'react-helmet';
 
 // Home Component
 export default function Excellence() {
   return (
     <div className='Permispop_Container'>
+      <Helmet>
+        <title>Falcon IT Consulting</title>
+        <meta
+          name='description'
+          content='In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.'
+        />
+        <meta
+          name='keywords'
+          content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
+        />
+      </Helmet>
       <NavBar ContactUs />
       <DetailHeader
         // DividerBG
@@ -45,7 +57,6 @@ export default function Excellence() {
         // desp
         // location
         desp='In order to develop A French-based ready-to-wear store chain, its brand image, and its online activity, the company wanted to have an e-commerce site. The website was developed on .NET and was complete in 4 months from April 2022 to July 2022'
-
         titleTheme='#282828'
         AvatarSrc={Kidcab_Avatar}
         nameColor='#0086EF'
@@ -124,7 +135,6 @@ export default function Excellence() {
         titleTheme='#0086EF'
         despTheme='#282828'
         desp='It is a distinct pleasure for me to recommend falcon IT to all interested parties.They have been professional, comprehensive, and competent throughout the process of working together. We have established a relationship with them for years to come.'
-
         // location
         ThemeBG='#ffffff'
         AvatarSrc={Kidcab_Avatar}

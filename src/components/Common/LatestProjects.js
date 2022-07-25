@@ -109,7 +109,18 @@ export default function LatestProjects(props) {
         >
           <LeftArrow />
         </Fab>
-        <Fab className='CarouselRightArrow' onClick={() => goToSlide(currentSlide + 1)}>
+        <Fab
+          className='CarouselRightArrow'
+          onClick={() => {
+            if (window.innerWidth > 1024) {
+              goToSlide(currentSlide + 3);
+            } else if (window.innerWidth > 464) {
+              goToSlide(currentSlide + 2);
+            } else {
+              goToSlide(currentSlide + 1);
+            }
+          }}
+        >
           <RightArrow />
         </Fab>
       </div>
