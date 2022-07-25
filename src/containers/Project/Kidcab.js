@@ -41,7 +41,7 @@ export default function Kidcab() {
       />
       <DetailOverview
         // desp
-        desp='KidCab, a mobile app project was designed for the French client very efficiently as this project required work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. App is developed on React Native and the whole project took 7 months from November 2021 to May 2022.'
+        desp='Kidcab, a mobile app project was designed for the French market very efficiently as this project required work carefully on the code optimization, and especially all the API calls to minimize the operation costs. The mobile application is developed on React Native and the whole project took 3 months.'
         // location
         titleTheme='#4CB9B4'
         AvatarSrc={Kidcab_Avatar}

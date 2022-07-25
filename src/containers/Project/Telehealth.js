@@ -46,7 +46,7 @@ export default function Telehealth() {
       />
       <DetailOverview
         // desp
-        desp='French based mobile application to analyze patient’s movement developed, project was completed in 4 months.'
+        desp='French based mobile application to analyze patient’s movement developed on ReactJS/NodeJS and Mediapipe technology. The MVP was successfully completed within 3 months.'
         // location
         titleTheme='#FBA622'
         // AvatarSrc={Kidcab_Avatar}
@@ -126,7 +126,7 @@ export default function Telehealth() {
       <DetailFeedback
         // titleTheme
         // despTheme
-        desp='Our dream has come true with the efforts of the Falcon team. Great app and they do it in a great manner.'
+        desp='This was a very challenging project, and to be honest, we were uncertain whether it was even technically possible. In the past, we reached out to another offshore company for a first version, which did cost us more than $100k, even though the final result was not user friendly. When we met with Falcon, they were confident to be able to do a better and more efficient project, as an MVP as a start. It was not an easy project, but they did show a lot of commitment and they finally made it successfully. Great job guys !'
         // location
         ThemeBG='#FBA622'
         // AvatarSrc={Kidcab_Avatar}
