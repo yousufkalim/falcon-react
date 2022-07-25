@@ -12,6 +12,7 @@ import BlogList from '../components/Common/BlogList';
 import BlogReadMore from '../components/Blog/BlogReadMore';
 import Footer from '../components/Common/Footer';
 import { useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet';
 
 // Home Component
 export default function Blog() {
@@ -19,6 +20,17 @@ export default function Blog() {
 
   return (
     <div className='BlogContainer'>
+      <Helmet>
+        <title>Falcon IT Consulting</title>
+        <meta
+          name='description'
+          content='The articles written below by our team reflect our values and expertize when it comes to collaborating in mid-size and big projects.'
+        />
+        <meta
+          name='keywords'
+          content='falcon, falconit, falcon consulting,blogs, projects, blogs, articles, blog articles,collaborating,expertize'
+        />
+      </Helmet>
       <NavBar />
       <BlogHeader />
       <BlogReadArticles

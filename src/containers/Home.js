@@ -15,6 +15,7 @@ import LocationSection from '../components/Common/LocationSection';
 import Footer from '../components/Common/Footer';
 
 import { useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet';
 
 // import
 // Home Component
@@ -24,6 +25,14 @@ export default function Home() {
   return (
     <>
       <div>
+        <Helmet>
+          <title>Falcon IT Consulting</title>
+          <meta
+            name='description'
+            content='Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners.'
+          />
+          <meta name='keywords' content='falcon, falconit, falcon consulting,blogs, projects' />
+        </Helmet>
         <div className='HomeContainer'>
           <NavBar />
           <Header
