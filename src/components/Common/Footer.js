@@ -136,13 +136,13 @@ export default function Footer(props) {
           >
             <div className='IconsDiv'>
               <a href='https://www.facebook.com/FalconConsulting.fr'>
-                <img className='FooterIcons' src={FB} />
+                <img className='FooterIcons' src={FB} alt='facebook' />
               </a>
               <a href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'>
-                <img className='FooterIcons' src={LinkedIn} />
+                <img className='FooterIcons' src={LinkedIn} alt='linkedin' />
               </a>
               <a href='https://wa.me/+923135098197'>
-                <img className='FooterIcons' src={WhatsApp} />
+                <img className='FooterIcons' src={WhatsApp} alt='whatsapp' />
               </a>
             </div>
             <div className='LegalMentionDiv'>
@@ -249,13 +249,13 @@ export default function Footer(props) {
         </div>
         <div className='Footer_MobView_IconDiv'>
           <a href='https://www.facebook.com/FalconConsulting.fr'>
-            <img className='FooterIcons' src={FB} />
+            <img className='FooterIcons' src={FB} alt='facebook' />
           </a>
           <a href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'>
-            <img className='FooterIcons' src={LinkedIn} />
+            <img className='FooterIcons' src={LinkedIn} alt='libkedin' />
           </a>
           <a href='https://wa.me/+923135098197'>
-            <img className='FooterIcons' src={WhatsApp} />
+            <img className='FooterIcons' src={WhatsApp} alt='whatsapp' />
           </a>
         </div>
         <div>

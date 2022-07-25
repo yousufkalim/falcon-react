@@ -5,13 +5,13 @@ import Legal_Icon from '../../assets/images/legal_icon.svg';
 const PolicyHeader = () => {
   return (
     <>
-      <div className="LegalMention_HeaderContainer">
-        <div className="LegalMention_HeaderDiv">
-          <div className="LegalMention_HeaderTitleDiv">
+      <div className='LegalMention_HeaderContainer'>
+        <div className='LegalMention_HeaderDiv'>
+          <div className='LegalMention_HeaderTitleDiv'>
             <div>
-              <img src={Legal_Icon} />
+              <img src={Legal_Icon} alt='Policy' />
             </div>
-            <Typography className="LegalMention_HeaderTitle">Privacy Policy</Typography>
+            <Typography className='LegalMention_HeaderTitle'>Privacy Policy</Typography>
           </div>
           {/* <div className="LegalMention_HeaderDespDiv"> */}
           {/* <Typography className="LegalMention_HeaderDesp_H">Privacy Policy</Typography> */}

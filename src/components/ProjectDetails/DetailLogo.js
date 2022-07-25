@@ -1,19 +1,19 @@
 // Init
-import React from "react";
-import Logo from "../../assets/images/detaillogo.png";
+import React from 'react';
+import Logo from '../../assets/images/detaillogo.png';
 
 // Component
 export default function DetailLogo(props) {
   return (
     <>
       <div
-        className="DetailLogo_Container"
+        className='DetailLogo_Container'
         style={{
-          backgroundColor: props.theme ? props.theme : "#00654F",
+          backgroundColor: props.theme ? props.theme : '#00654F',
         }}
       >
-        <div className="DetailLogo_Div">
-          <img className="DetailLogo_Img" src={props.src || Logo} />
+        <div className='DetailLogo_Div'>
+          <img className='DetailLogo_Img' src={props.src || Logo} alt='Detail Logo' />
         </div>
       </div>
     </>

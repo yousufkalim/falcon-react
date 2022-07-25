@@ -1,16 +1,16 @@
-import { Typography } from "@mui/material";
-import React from "react";
-import SectionHeader from "../Common/SectionHeader";
-import Pak from "../../assets/images/location_pak.svg";
-import Pak_Icon from "../../assets/images/pak_icon.svg";
-import London from "../../assets/images/location_london.svg";
-import Paris_Icon from "../../assets/images/paris_icon.svg";
-import US from "../../assets/images/location_us.svg";
-import US_Icon from "../../assets/images/us_icon.svg";
-import UAE from "../../assets/images/UAE.svg";
-import UAE_Icon from "../../assets/images/UAE_Icon.svg";
-import AwesomeSlider from "react-awesome-slider";
-import "react-awesome-slider/dist/styles.css";
+import { Typography } from '@mui/material';
+import React from 'react';
+import SectionHeader from '../Common/SectionHeader';
+import Pak from '../../assets/images/location_pak.svg';
+import Pak_Icon from '../../assets/images/pak_icon.svg';
+import London from '../../assets/images/location_london.svg';
+import Paris_Icon from '../../assets/images/paris_icon.svg';
+import US from '../../assets/images/location_us.svg';
+import US_Icon from '../../assets/images/us_icon.svg';
+import UAE from '../../assets/images/UAE.svg';
+import UAE_Icon from '../../assets/images/UAE_Icon.svg';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 export default function LocationSection(props) {
   return (
     <>
@@ -25,7 +25,7 @@ export default function LocationSection(props) {
           >
             <div className='LocationDiv'>
               <div className='LocationDiv_Typo'>
-                <img src={Paris_Icon} />
+                <img src={Paris_Icon} alt='Paris' />
 
                 <Typography className='Location_Country'>France</Typography>
                 <Typography className='Location_Address'>
@@ -33,12 +33,12 @@ export default function LocationSection(props) {
                 </Typography>
               </div>
               <div className='LocationDiv_Img'>
-                <img className='Location_Img' src={London} />
+                <img className='Location_Img' src={London} alt='London' />
               </div>
             </div>
             <div className='LocationDiv'>
               <div className='LocationDiv_Typo'>
-                <img src={US_Icon} />
+                <img src={US_Icon} alt='US' />
 
                 <Typography className='Location_Country'>United States</Typography>
                 <Typography className='Location_Address'>
@@ -46,12 +46,12 @@ export default function LocationSection(props) {
                 </Typography>
               </div>
               <div className='LocationDiv_Img'>
-                <img className='Location_Img' src={US} />
+                <img className='Location_Img' src={US} alt='US' />
               </div>
             </div>
             <div className='LocationDiv'>
               <div className='LocationDiv_Typo'>
-                <img src={Pak_Icon} />
+                <img src={Pak_Icon} alt='Pakistan' />
 
                 <Typography className='Location_Country'>Pakistan</Typography>
                 <Typography className='Location_Address'>
@@ -59,12 +59,12 @@ export default function LocationSection(props) {
                 </Typography>
               </div>
               <div className='LocationDiv_Img'>
-                <img className='Location_Img' src={Pak} />
+                <img className='Location_Img' src={Pak} alt='pakistan' />
               </div>
             </div>
             <div className='LocationDiv'>
               <div className='LocationDiv_Typo'>
-                <img src={UAE_Icon} />
+                <img src={UAE_Icon} alt='UAE' />
 
                 <Typography className='Location_Country'>UAE</Typography>
                 <Typography className='Location_Address'>
@@ -72,7 +72,7 @@ export default function LocationSection(props) {
                 </Typography>
               </div>
               <div className='LocationDiv_Img'>
-                <img className='Location_Img' src={UAE} />
+                <img className='Location_Img' src={UAE} alt='UAE' />
               </div>
             </div>
           </AwesomeSlider>

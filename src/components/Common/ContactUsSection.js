@@ -163,7 +163,7 @@ export default function ContactUsSection(props) {
                 </a>
                 <a href='http://calendly.com/falconit'>
                   <div className='ContactMediaDiv'>
-                    <img className='ContactMediaIcons' src={CalendlyIcon} />
+                    <img className='ContactMediaIcons' src={CalendlyIcon} alt='Calendly' />
                     <div className='SocialMediaText'>
                       <Typography sx={{ fontSize: '1rem' }}>{t('Calendly')}</Typography>
                       <Typography sx={{ fontSize: '.7rem' }}>{t('Click and join link')}</Typography>
@@ -213,7 +213,7 @@ export default function ContactUsSection(props) {
                   </a>
                   <a href='mailto:contact@falconconsulting.fr'>
                     <div className='SocialMediaDiv'>
-                      <img className='SocialMediaIcons' src={EmailIcon} />
+                      <img className='SocialMediaIcons' src={EmailIcon} alt='email' />
                       <div className='SocialMediaText'>
                         <Typography>{t('Email')}</Typography>
                         <Typography>contact@falconconsulting.fr</Typography>
@@ -318,7 +318,7 @@ export default function ContactUsSection(props) {
                           I'm not a robot
                         </Typography>
                       </div>
-                      <img src={Robot} />
+                      <img src={Robot} alt='robot' />
                     </div>
                   </Grid> */}
                   <Grid xs={3}>
