@@ -59,8 +59,8 @@ export default function ContactUsSection(props) {
       );
     }
   };
-  const onChange = (value) => {
-    console.log('value');
+  const onChange = () => {
+    // console.log('value');
   };
   return (
     <div>
@@ -109,8 +109,8 @@ export default function ContactUsSection(props) {
                         onChange={(e) => {
                           // check input using regex
                           var regex = RegExp(/[0-9]+/g);
-                          const test_result = regex.test(e.target.value);
-                          if (test_result || e.target.value == '') {
+                          const test_Result = regex.test(e.target.value);
+                          if (test_Result || e.target.value == '') {
                             setNumber(e.target.value);
                           }
                         }}
@@ -152,7 +152,7 @@ export default function ContactUsSection(props) {
               <Grid xs={12} sm={10} md={10} className='ContactMedia'>
                 <a href='mailto:contact@falconconsulting.fr'>
                   <div className='ContactMediaDiv'>
-                    <img className='ContactMediaIcons' src={EmailIcon} />
+                    <img className='ContactMediaIcons' src={EmailIcon} alt='Email' />
                     <div className='SocialMediaText'>
                       <Typography sx={{ fontSize: '1rem' }}>{t('Email')}</Typography>
                       <Typography sx={{ fontSize: '.7rem' }}>
@@ -204,7 +204,7 @@ export default function ContactUsSection(props) {
                 <div>
                   <a href='http://calendly.com/falconit'>
                     <div className='SocialMediaDiv'>
-                      <img className='SocialMediaIcons' src={CalendlyIcon} />
+                      <img className='SocialMediaIcons' src={CalendlyIcon} alt='calendly' />
                       <div className='SocialMediaText'>
                         <Typography>{t('Schedule Meeting')}</Typography>
                         <Typography>calendly.com/falconit</Typography>
@@ -253,9 +253,9 @@ export default function ContactUsSection(props) {
                         onChange={(e) => {
                           // check input using regex
                           var regex = RegExp(/[0-9]+/g);
-                          const test_result = regex.test(e.target.value);
+                          const test_Result = regex.test(e.target.value);
 
-                          if (test_result || e.target.value == '') {
+                          if (test_Result || e.target.value == '') {
                             setNumber(e.target.value);
                           }
                         }}
