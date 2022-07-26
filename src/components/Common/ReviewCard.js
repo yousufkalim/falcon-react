@@ -1,8 +1,5 @@
 import React from 'react';
-import Avatar from '@mui/material/Avatar';
 import { Typography } from '@mui/material';
-import Rating from '@mui/material/Rating';
-import img from '../../assets/images/muh_ali.webp';
 import { useTranslation } from 'react-i18next';
 export default function ReviewCard(props) {
   const { i18n, t } = useTranslation();

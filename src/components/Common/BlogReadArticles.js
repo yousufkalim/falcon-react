@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 
 // Home Component
 export default function BlogReadArticles(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   const [desp, setDesp] = useState();
 
   useEffect(() => {

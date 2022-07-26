@@ -19,7 +19,7 @@ const style = {
 };
 
 export default function BasicModal(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);

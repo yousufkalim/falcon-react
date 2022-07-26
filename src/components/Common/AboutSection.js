@@ -12,7 +12,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 export default function AboutSection() {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   return (
     <>
       <div className='AboutSectionDiv'>

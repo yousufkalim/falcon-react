@@ -18,11 +18,7 @@ import Facility_Design2 from '../../assets/images/facility_design2.png';
 import Facility_Design3 from '../../assets/images/facility_design3.png';
 
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-import QB_Theme from '../../assets/images/detail_qb_theme.png';
-import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import Yuwway_Logo from '../../assets/images/detail_yuwway_logo.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import Yuwway_AppDesign from '../../assets/images/yuwway_appdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Facility_Theme from '../../assets/images/facility_theme.png';
 

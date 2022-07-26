@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import SectionHeader from './SectionHeader';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -30,8 +30,8 @@ import Fnac from '../../assets/images/fnac_lp.png';
 import Fnac_Logo from '../../assets/images/fnaclogo.png';
 import Fireman from '../../assets/images/fireman_lp.png';
 import FiremanLogo from '../../assets/images/fireman_logo_lp.png';
-import Toyota from '../../assets/images/toyota_lp.png';
-import Toyota_Logo from '../../assets/images/toyotalogo.png';
+// import Toyota from '../../assets/images/toyota_lp.png';
+// import Toyota_Logo from '../../assets/images/toyotalogo.png';
 import Canon from '../../assets/images/canon_lp.png';
 import Canon_Logo from '../../assets/images/canonlogo.png';
 import Register from '../../assets/images/register_lp.png';
@@ -92,8 +92,7 @@ const responsive = {
 };
 
 export default function LatestProjects(props) {
-  const ref = React.useRef();
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
     const {

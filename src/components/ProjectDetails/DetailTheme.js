@@ -1,15 +1,7 @@
 // Init
 import React from 'react';
 import { Grid, Typography } from '@mui/material';
-import ThemeImage from '../../assets/images/theme_image.png';
-import Image2 from '../../assets/images/detail_design_2.png';
-import Image3 from '../../assets/images/detail_design_3.png';
-import theme1 from '../../assets/images/ezbox_theme1.png';
-import theme2 from '../../assets/images/ezbox_theme2.png';
-import theme3 from '../../assets/images/ezbox_theme3.png';
 import Divider from '@mui/material/Divider';
-import { Avatar } from '@mui/material';
-import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 // Component

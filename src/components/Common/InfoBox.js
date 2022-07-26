@@ -2,7 +2,7 @@ import React from 'react';
 import Info1 from '../../assets/images/Info1.svg';
 import { useTranslation } from 'react-i18next';
 export default function InfoBox(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   return (
     <>
       <div className='InfoDiv'>

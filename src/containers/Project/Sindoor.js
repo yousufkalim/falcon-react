@@ -13,14 +13,8 @@ import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
 import Sindoor_Demo from '../../assets/images/sindoor_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import Sindoor_Design1 from '../../assets/images/sindoor_design1.png';
-import Sindoor_Design2 from '../../assets/images/sindoor_design2.png';
-import Sindoor_Design3 from '../../assets/images/sindoor_design3.png';
 
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-import RealEstate_Theme1 from '../../assets/images/realestate_theme1.png';
-import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import Table_Logo from '../../assets/images/detail_table_logo.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
 import Sindoor_AppDesign from '../../assets/images/sindoor_appdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';

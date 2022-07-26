@@ -1,84 +1,84 @@
-import React, { useState } from "react";
-import PropTypes from "prop-types";
-import Tabs from "@mui/material/Tabs";
-import OurProjectCard from "../Common/OurProjectCard";
-import PermispopImg from "../../assets/images/permispop_update.png";
-import PP_logo from "../../assets/images/permisLogo.png";
-import DesignConf from "../../assets/images/designconf_update.png";
-import Desine_Logo from "../../assets/images/desineLogo.png";
-import RealEstate_Logo from "../../assets/images/realestateLogo.png";
-import Movement from "../../assets/images/tele_update.png";
-import Tele_logo from "../../assets/images/tele_logo.svg";
-import Quadra from "../../assets/images/quadra_update.png";
-import Quadra_Logo from "../../assets/images/qudra_logo.svg";
-import BarberShop from "../../assets/images/barber_update.png";
-import Blsh from "../../assets/images/blish_update.png";
-import Kidcap from "../../assets/images/kidcab_update.png";
-import Kidcab_Logo from "../../assets/images/kidcabLogo.png";
-import Tajweed from "../../assets/images/tajweed_update.png";
-import Tajweed_logo from "../../assets/images/tajweed_logo.svg";
-import EZbox from "../../assets/images/ezbox_update.png";
-import EZBox_Logo from "../../assets/images/ezbox_logo.svg";
-import BeautySalon from "../../assets/images/salon_update.png";
-import RealEstate from "../../assets/images/realestate_update.png";
-import Orgaplan from "../../assets/images/orgaplan_update.png";
-import Orgaplan_Logo from "../../assets/images/orgaplan_logo.svg";
-import Tilt from "../../assets/images/tilt_update.png";
-import Tilt_Logo from "../../assets/images/tilt_logo.svg";
-import Microsoft from "../../assets/images/microsoft_update.png";
-import Microsoft_Logo from "../../assets/images/microsoftlogo.png";
-import Fnac from "../../assets/images/fnac_update.png";
-import Fnac_Logo from "../../assets/images/fnaclogo.png";
-import Canon from "../../assets/images/canon_update.png";
-import Canon_Logo from "../../assets/images/canonlogo.png";
-import AccorHotel from "../../assets/images/accor_update.png";
-import AccorHotel_Logo from "../../assets/images/accorlogo.png";
-import Toyota from "../../assets/images/toyota_update.png";
-import Toyota_Logo from "../../assets/images/toyotalogo.png";
-import ERP from "../../assets/images/excellence_update.png";
-import PizzaBoli from "../../assets/images/table_update.png";
-import Sindoor from "../../assets/images/sindoor_update.png";
-import Yuwway from "../../assets/images/yuwway_update.png";
-import Zypzap from "../../assets/images/zypzap_update.png";
-import Zypzap_Logo from "../../assets/images/zypzap_Logo.svg";
-import Wina from "../../assets/images/wina_update.png";
-import Wina_Logo from "../../assets/images/wina_logo.svg";
-import Ficility from "../../assets/images/facility_update.png";
-import Fireman from "../../assets/images/fireman_update.png";
-import Orientator from "../../assets/images/orientator_update.png";
-import Register_RH from "../../assets/images/register_update.png";
-import { Grid } from "@mui/material";
-import { Button } from "@mui/material";
-import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
-import { useTranslation } from "react-i18next";
+import React, { useState } from 'react';
+import PropTypes from 'prop-types';
+import Tabs from '@mui/material/Tabs';
+import OurProjectCard from '../Common/OurProjectCard';
+import PermispopImg from '../../assets/images/permispop_update.png';
+import PP_logo from '../../assets/images/permisLogo.png';
+import DesignConf from '../../assets/images/designconf_update.png';
+import Desine_Logo from '../../assets/images/desineLogo.png';
+import RealEstate_Logo from '../../assets/images/realestateLogo.png';
+import Movement from '../../assets/images/tele_update.png';
+import Tele_logo from '../../assets/images/tele_logo.svg';
+import Quadra from '../../assets/images/quadra_update.png';
+import Quadra_Logo from '../../assets/images/qudra_logo.svg';
+import BarberShop from '../../assets/images/barber_update.png';
+import Blsh from '../../assets/images/blish_update.png';
+import Kidcap from '../../assets/images/kidcab_update.png';
+import Kidcab_Logo from '../../assets/images/kidcabLogo.png';
+import Tajweed from '../../assets/images/tajweed_update.png';
+import Tajweed_logo from '../../assets/images/tajweed_logo.svg';
+import EZbox from '../../assets/images/ezbox_update.png';
+import EZBox_Logo from '../../assets/images/ezbox_logo.svg';
+import BeautySalon from '../../assets/images/salon_update.png';
+import RealEstate from '../../assets/images/realestate_update.png';
+import Orgaplan from '../../assets/images/orgaplan_update.png';
+import Orgaplan_Logo from '../../assets/images/orgaplan_logo.svg';
+import Tilt from '../../assets/images/tilt_update.png';
+import Tilt_Logo from '../../assets/images/tilt_logo.svg';
+import Microsoft from '../../assets/images/microsoft_update.png';
+import Microsoft_Logo from '../../assets/images/microsoftlogo.png';
+import Fnac from '../../assets/images/fnac_update.png';
+import Fnac_Logo from '../../assets/images/fnaclogo.png';
+import Canon from '../../assets/images/canon_update.png';
+import Canon_Logo from '../../assets/images/canonlogo.png';
+import AccorHotel from '../../assets/images/accor_update.png';
+import AccorHotel_Logo from '../../assets/images/accorlogo.png';
+// import Toyota from "../../assets/images/toyota_update.png";
+// import Toyota_Logo from "../../assets/images/toyotalogo.png";
+import ERP from '../../assets/images/excellence_update.png';
+import PizzaBoli from '../../assets/images/table_update.png';
+import Sindoor from '../../assets/images/sindoor_update.png';
+import Yuwway from '../../assets/images/yuwway_update.png';
+import Zypzap from '../../assets/images/zypzap_update.png';
+import Zypzap_Logo from '../../assets/images/zypzap_Logo.svg';
+import Wina from '../../assets/images/wina_update.png';
+import Wina_Logo from '../../assets/images/wina_logo.svg';
+import Ficility from '../../assets/images/facility_update.png';
+import Fireman from '../../assets/images/fireman_update.png';
+import Orientator from '../../assets/images/orientator_update.png';
+import Register_RH from '../../assets/images/register_update.png';
+import { Grid } from '@mui/material';
+import { Button } from '@mui/material';
+import Tab from '@mui/material/Tab';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import { useTranslation } from 'react-i18next';
 // import Website from "./WebsiteList";
 
 const items = [
   {
-    text: "SOFTWARE",
-    id: "0",
+    text: 'SOFTWARE',
+    id: '0',
   },
   {
-    text: "WEBSITE",
-    id: "1",
+    text: 'WEBSITE',
+    id: '1',
   },
   {
-    text: "ALL",
-    id: "2",
+    text: 'ALL',
+    id: '2',
   },
   {
-    text: "MOBILE APPLICATION",
-    id: "3",
+    text: 'MOBILE APPLICATION',
+    id: '3',
   },
   {
-    text: "UI/UX",
-    id: "4",
+    text: 'UI/UX',
+    id: '4',
   },
   {
-    text: "DATA & CLOUD",
-    id: "5",
+    text: 'DATA & CLOUD',
+    id: '5',
   },
 ];
 function TabPanel(props) {
@@ -110,7 +110,7 @@ TabPanel.propTypes = {
 function a11yProps(index) {
   return {
     id: `simple-tab-${index}`,
-    "aria-controls": `simple-tabpanel-${index}`,
+    'aria-controls': `simple-tabpanel-${index}`,
   };
 }
 
@@ -126,8 +126,8 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box className='ProjectListMain' sx={{ width: "100%" }}>
-      {" "}
+    <Box className='ProjectListMain' sx={{ width: '100%' }}>
+      {' '}
       <></>
       <Box className='ProjectListTabsBox'>
         <Tabs
@@ -144,8 +144,8 @@ export default function BasicTabs() {
               onClick={(event) => setactiveId(event.target.id)}
               className={`${
                 `simple-tab-${val?.id}` == activeId || val?.id == activeId
-                  ? "pjlabs"
-                  : "ProjectListLabel "
+                  ? 'pjlabs'
+                  : 'ProjectListLabel '
               }`}
               label={t(val?.text)}
               {...a11yProps(index)}
@@ -387,7 +387,7 @@ export default function BasicTabs() {
           src={PermispopImg}
           title='Permispop'
           description={t(
-            "Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently."
+            'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.'
           )}
           // Modal Data
           para1='Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.'

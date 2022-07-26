@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Button, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 import BasicModal from './BasicModal';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 export default function LatestProjectsCard(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   const [desp, setDesp] = useState();
 
   useEffect(() => {
