@@ -129,6 +129,7 @@ input::-webkit-inner-spin-button {
 .InputField{
     color: white;
     font-size: .7rem;
+    font-family: Montserrat !important;
     padding: 4%;
     margin: 4% 2%;
     background: transparent;

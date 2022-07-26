@@ -108,7 +108,7 @@ export default function ContactUsSection(props) {
                         value={number}
                         onChange={(e) => {
                           // check input using regex
-                          var regex = RegExp(/[0-9]+/g);
+                          var regex = RegExp(/^\d+$/);
                           const test_Result = regex.test(e.target.value);
                           if (test_Result || e.target.value == '') {
                             setNumber(e.target.value);
@@ -252,7 +252,7 @@ export default function ContactUsSection(props) {
                         value={number}
                         onChange={(e) => {
                           // check input using regex
-                          var regex = RegExp(/[0-9]+/g);
+                          var regex = RegExp(/^\d+$/);
                           const test_Result = regex.test(e.target.value);
 
                           if (test_Result || e.target.value == '') {
