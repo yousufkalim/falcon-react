@@ -88,6 +88,7 @@ export default function DetailHeader(props) {
           onClick={scrollToTop}
           style={{
             color: props.iconTheme ? props.iconTheme : 'white',
+            cursor: 'pointer',
           }}
         />
         {/* <IoIosArrowDown /> */}
