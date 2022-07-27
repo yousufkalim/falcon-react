@@ -201,25 +201,29 @@ export default function ContactUsSection(props) {
                     decription='Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.'
                   />
                 </div>
-                <div>
-                  <a href='http://calendly.com/falconit'>
-                    <div className='SocialMediaDiv'>
-                      <img className='SocialMediaIcons' src={CalendlyIcon} alt='calendly' />
-                      <div className='SocialMediaText'>
-                        <Typography>{t('Schedule Meeting')}</Typography>
-                        <Typography>calendly.com/falconit</Typography>
+                <div style={{ width: '100%' }}>
+                  <div style={{ width: '50%' }}>
+                    <a href='http://calendly.com/falconit'>
+                      <div className='SocialMediaDiv'>
+                        <img className='SocialMediaIcons' src={CalendlyIcon} alt='calendly' />
+                        <div className='SocialMediaText'>
+                          <Typography>{t('Schedule Meeting')}</Typography>
+                          <Typography>calendly.com/falconit</Typography>
+                        </div>
                       </div>
-                    </div>
-                  </a>
-                  <a href='mailto:contact@falconconsulting.fr'>
-                    <div className='SocialMediaDiv'>
-                      <img className='SocialMediaIcons' src={EmailIcon} alt='email' />
-                      <div className='SocialMediaText'>
-                        <Typography>{t('Email')}</Typography>
-                        <Typography>contact@falconconsulting.fr</Typography>
+                    </a>
+                  </div>
+                  <div style={{ width: '50%' }}>
+                    <a href='mailto:contact@falconconsulting.fr'>
+                      <div className='SocialMediaDiv'>
+                        <img className='SocialMediaIcons' src={EmailIcon} alt='email' />
+                        <div className='SocialMediaText'>
+                          <Typography>{t('Email')}</Typography>
+                          <Typography>contact@falconconsulting.fr</Typography>
+                        </div>
                       </div>
-                    </div>
-                  </a>
+                    </a>
+                  </div>
                 </div>
               </Grid>
               <Grid container xs={12} sm={8} md={6} className='FormGrid'>
