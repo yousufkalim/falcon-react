@@ -82,7 +82,7 @@ function App() {
               </Typography>
               <Typography className='CookieBanner_Link'>
                 <Link style={{ color: '#003B7E' }} to='/legalmentions'>
-                  {t('Read more about cookies')}
+                  <h4>{t('Read more about cookies')}</h4>
                 </Link>
               </Typography>
             </div>
