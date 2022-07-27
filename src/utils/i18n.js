@@ -28,7 +28,7 @@ i18n
           'On Demand Developers': 'On Demand Developers',
           'UI/UX Development': 'UI/UX Development',
           'Get Details': 'Get Details',
-          'REQUEST A FREE DEMO NOW': 'REQUEST A FREE DEMO NOW',
+          'GO TO THE PROJECT': 'GO TO THE PROJECT',
           'COLOR THEME & ILLUSTRATION': 'COLOR THEME & ILLUSTRATION',
           'MOBILE APP DEVELOPMENT': 'MOBILE APP DEVELOPMENT',
           'APP UI DESIGN': 'APP UI DESIGN',
@@ -160,6 +160,7 @@ i18n
           'Software Development': 'Software Development',
           'UI/UX Developmemt': 'UI/UX Developmemt',
           'CLIENT FEEDBACK': 'CLIENT FEEDBACK',
+          'Privacy Policy': 'Privacy Policy',
 
           //   About US
           //   About_Heaader
@@ -536,8 +537,10 @@ i18n
             '•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy.',
 
           // EZBoxmedia
-          'EZBox media is a platform providing different services including':
-            'EZBox media is a platform providing different services including',
+          'EZBox media is a platform providing different services':
+            'EZBox media is a platform providing different services',
+          // 'EZBox media is a platform providing different services including':
+          //   'EZBox media is a platform providing different services including',
           Advertising: 'Advertising',
           '•	Advertising by understanding how a user can react to the advertisement shown to them.':
             '•	Advertising by understanding how a user can react to the advertisement shown to them.',
@@ -809,7 +812,7 @@ i18n
           // Detail Theme
 
           'Colors Schemes – Making UI feel more natural. This is why the usage of the right color palettes is essential to make the app more attractive. Some colors look better with another. This is why color schemes were created. They help designers to find the right hue for the remaining ones.':
-            "Schémas de couleurs - Rendre l'interface utilisateur plus naturelle. C'est pourquoi l'utilisation des bonnes palettes de couleurs est essentielle pour rendre l'application plus attrayante. Certaines couleurs vont mieux avec une autre. C'est pourquoi des schémas de couleurs ont été créés. Ils aident les concepteurs à trouver la bonne teinte pour les autres.",
+            'Le choix des couleurs est essentiel, afin d’avoir une identité visuelle forte. La palette suivante a été convenue, donnant une allure dynamique au projet.',
           // Detail Design
           'App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app’s flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback. The end result is an app that looks nice and is easy to use. So, the best app design process comprises Research, Ideation, Problem Identification, Design, Feedback, Problem Evaluation. Designers handle all parts of the process in a continuous and simultaneous flow. And that’s both for UX and UI through the lifetime of the app.':
             "La conception d'applications est un processus continu comprenant des éléments d'expérience utilisateur (UX) et d'interface utilisateur (UI). Les concepteurs imaginent, définissent des solutions, créent le flux et la structure de l'application et font des choix stylistiques, des couleurs aux polices. Les concepteurs fondent leurs choix sur la recherche et les commentaires des utilisateurs. Le résultat final est une application qui a l'air bien et qui est facile à utiliser. Ainsi, le meilleur processus de conception d'applications comprend la recherche, l'idéation, l'identification des problèmes, la conception, les commentaires et l'évaluation des problèmes. Les concepteurs gèrent toutes les parties du processus dans un flux continu et simultané. Et c'est à la fois pour l'UX et l'UI tout au long de la durée de vie de l'application.",
@@ -1021,7 +1024,7 @@ i18n
             'Nous utilisons nos propres cookies et ceux de tiers pour personnaliser le contenu et analyser le trafic Web.',
           'Read more about cookies': 'En savoir plus sur les cookies',
           Agree: 'Accepter',
-          Decline: 'Déclin',
+          Decline: 'Refuser',
 
           //Home
           // Home_Header
@@ -1152,7 +1155,7 @@ i18n
           Services: 'Services',
           'Our Projects': 'Nos projets',
           'Our projects': 'Nos projets',
-          'REQUEST A FREE DEMO NOW': 'DEMANDEZ MAINTENANT UNE DÉMO GRATUITE',
+          'GO TO THE PROJECT': 'VOIR LE PROJET',
           'COLOR THEME & ILLUSTRATION': 'THÈME DE COULEUR ET ILLUSTRATION',
           'UI DESIGN': "CONCEPTION D'UI",
           'COLOR THEME AND DESIGN': 'THÈME DE COULEUR ET DESIGN',
@@ -1166,6 +1169,7 @@ i18n
           'App Development': "Développement d'app mobiles",
           'Software Development': 'Développement de logiciels',
           'UI/UX Developmemt': 'Développement UI/UX',
+          'Privacy Policy': 'Politique de confidentialité',
 
           //   About US
           //   About_Heaader
