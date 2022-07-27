@@ -23,23 +23,23 @@ export default function ContactUsSection(props) {
     const phone = number;
     const budget = data.get('budget');
     if (name === '') {
-      toast.error(`${t("Name can't be blank")}`);
+      toast.error(`${t('Please Enter Your Name')}`);
     } else if (name.length < 2 && name.length > 0) {
       toast.error(`${t('The name must be at least 2 characters')}`);
     } else if (email === '') {
-      toast.error(`${t("Email can't be blank")}`);
+      toast.error(`${t('Please Enter Your Email')}`);
     } else if (regex.test(email) === false) {
-      toast.error(`${t('Not a Valid Email')}`);
+      toast.error(`${t('Please Enter a Valid Email')}`);
     } else if (phone.length === 0) {
-      toast.error(`${t("Phone can't be blank")}`);
+      toast.error(`${t('Please Enter Your Phone Number')}`);
     } else if (phone[0] !== '0') {
       toast.error(`${t('Phone number should start with 0')}`);
     } else if (phone.length < 10 && phone.length > 0) {
       toast.error(`${t('The phone must be at least 10 characters')}`);
     } else if (budget === '') {
-      toast.error(`${t("Budget can't be blank")}`);
+      toast.error(`${t('Please Enter Your Budget')}`);
     } else if (message === '') {
-      toast.error(`${t("Message can't be blank")}`);
+      toast.error(`${t('Please Enter A Message')}`);
     } else {
       emailjs.sendForm('service_9tq9fqk', 'template_yc206p5', e.target, 'tMMbs5Pn0amH90Aml').then(
         (result) => {
@@ -103,6 +103,7 @@ export default function ContactUsSection(props) {
                       <input
                         type='text'
                         name='phone'
+                        maxLength='10'
                         placeholder={t('Phone')}
                         className='InputField'
                         value={number}
