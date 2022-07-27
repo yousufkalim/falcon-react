@@ -136,7 +136,13 @@ i18n
           'The phone must be at least 10 characters': 'The phone must be at least 10 characters',
           "Budget can't be blank": "Budget can't be blank",
           "Message can't be blank": "Message can't be blank",
-
+          // validation changed
+          'Please Enter Your Name': 'Please Enter Your Name',
+          'Please Enter Your Email': 'Please Enter Your Email',
+          'Please Enter Your Phone Number': 'Please Enter Your Phone Number',
+          'Please Enter Your Budget': 'Please Enter Your Budget',
+          'Please Enter A Message': 'Please Enter A Message',
+          'Please Enter a Valid Email': 'Please Enter a Valid Email',
           //   footer
           Overview: 'Overview',
           Solutions: 'Solutions',
@@ -1142,6 +1148,13 @@ i18n
             'Le téléphone doit comporter au moins 10 caractères',
           "Budget can't be blank": 'Le budget ne peut pas être vide',
           "Message can't be blank": 'Le message ne peut pas être vide',
+          // validation changed
+          'Please Enter Your Name': "S'il vous plaît entrez votre nom",
+          'Please Enter Your Email': 'Veuillez saisir votre e-mail',
+          'Please Enter Your Phone Number': 'Veuillez entrer votre numéro de téléphone',
+          'Please Enter Your Budget': 'Veuillez entrer votre budget',
+          'Please Enter A Message': 'Veuillez entrer un message',
+          'Please Enter a Valid Email': 'Veuillez saisir un e-mail valide',
 
           //   footer
           Overview: 'Aperçu',
