@@ -6,7 +6,7 @@ import CalendlyIcon from '../../assets/images/calendlyIcon.svg';
 import emailjs from 'emailjs-com';
 import { toast } from 'react-toastify';
 import { useTranslation } from 'react-i18next';
-// import ReCAPTCHA from 'react-google-recaptcha';
+import ReCAPTCHA from 'react-google-recaptcha';
 export default function ContactUsSection(props) {
   const { t } = useTranslation();
   const [number, setNumber] = useState('');
@@ -136,12 +136,12 @@ export default function ContactUsSection(props) {
                       />
                     </Grid>
                   </div>
-                  {/* <Grid xs={12} className='ReCAPTCHA_DIV'>
+                  <Grid xs={12} className='ReCAPTCHA_DIV'>
                     <ReCAPTCHA
                       sitekey={process.env.REACT_APP_GOOGLE_CAPTCHA_SITE_KEY}
                       onChange={onChange}
                     />
-                  </Grid> */}
+                  </Grid>
                   <Grid className='Contact_Send_Grid' xs={3}>
                     <button type='submit' className='ContactUsBtn'>
                       {t('Send')}
@@ -280,13 +280,13 @@ export default function ContactUsSection(props) {
                       />
                     </Grid>
                   </div>
-                  {/* <Grid xs={12} className='ReCAPTCHA_DIV'>
+                  <Grid xs={12} className='ReCAPTCHA_DIV'>
                     <ReCAPTCHA
                       className='Recaptcha_Box'
                       sitekey={process.env.REACT_APP_GOOGLE_CAPTCHA_SITE_KEY}
                       onChange={onChange}
                     />
-                  </Grid> */}
+                  </Grid>
                   {/* <Grid xs={12}>
                     <div
                       style={{
