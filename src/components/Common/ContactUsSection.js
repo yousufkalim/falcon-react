@@ -252,6 +252,7 @@ export default function ContactUsSection(props) {
                       <input
                         type='text'
                         name='phone'
+                        maxLength='10'
                         placeholder={t('Phone')}
                         className='InputField'
                         value={number}
