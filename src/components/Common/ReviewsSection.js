@@ -58,7 +58,7 @@ export default function ReviewSection() {
     {
       // avatar: Client_5,
       name: 'Laurent Louis-Henry',
-      country: 'United States',
+      country: 'France',
 
       review:
         'Falcon Consulting a permis à mon application de prendre forme ! En partant d’une simple idée, ils ont su faire preuve d’initiative et me conseiller sur les décisions à prendre.',
@@ -67,7 +67,7 @@ export default function ReviewSection() {
     {
       // avatar: Client_5,
       name: 'RD',
-      country: 'United States',
+      country: 'France',
 
       review: 'Equipe très motivée, et allant au bout des choses ! Ce n’est pas le cas de tous !',
       work: 'Registre-RH',
