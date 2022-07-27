@@ -15,7 +15,9 @@ export default function LatestProjectsCard(props) {
   return (
     <div className='SliderProject'>
       <div className={props.HoverDetailLite ? 'HoverDetailLite' : 'HoverDetail'}>
-        <img className='hoverDivLogo' src={props.LogoSrc} alt='hoverImg' />
+        <div style={{ height: '25%' }}>
+          <img className='hoverDivLogo' src={props.LogoSrc} alt='hoverImg' />
+        </div>
 
         <Typography className='HoverDivTypo'>
           {/* {t(props.hoverDesp)} */}
