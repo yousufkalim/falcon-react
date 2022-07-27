@@ -67,6 +67,7 @@ export default function Sindoor() {
       />
 
       <DetailDemo
+        to='https://sindoor-demo.web.app/'
         // desp
         // btnText
         // DetailDemo_SquareDiv

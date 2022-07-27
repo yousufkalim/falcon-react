@@ -19,10 +19,10 @@ export default function LatestProjectsCard(props) {
           <img className='hoverDivLogo' src={props.LogoSrc} alt='hoverImg' />
         </div>
 
-        <h1 className='HoverDivTypo'>
+        <h2 className='HoverDivTypo'>
           {/* {t(props.hoverDesp)} */}
           {t(desp?.length > 150 ? desp.slice(0, 150) + '...' : desp)}
-        </h1>
+        </h2>
         <button
           className='HoverDivBtnDark'
           style={{

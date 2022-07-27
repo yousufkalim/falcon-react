@@ -25,13 +25,17 @@ export default function SectionHeader(props) {
               margin: '.7% 0',
             }}
           />
-          <h1
+          <h2
             className='SectionHeaderH1'
-            style={{ color: props.colorH1 ? props.colorH1 : '#fff' }}
-            sx={{ width: '30%', fontWeight: '600', fontSize: '1.5rem' }}
+            style={{
+              color: props.colorH1 ? props.colorH1 : '#fff',
+              width: '30%',
+              fontWeight: '600',
+              fontSize: '1.5rem',
+            }}
           >
             {t(props.h1)}
-          </h1>
+          </h2>
 
           <h2
             className='SectionHeaderH2'

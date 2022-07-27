@@ -78,6 +78,7 @@ export default function Table() {
       />
 
       <DetailDemo
+        to='https://a-table.app/'
         // desp
         // btnText
         // DetailDemo_SquareDiv

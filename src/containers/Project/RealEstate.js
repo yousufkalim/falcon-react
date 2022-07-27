@@ -70,6 +70,7 @@ export default function RealEstate() {
       />
 
       <DetailDemo
+        to='https://realestate-landing.web.app/'
         // desp
         // btnText
         // DetailDemo_SquareDiv

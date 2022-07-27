@@ -71,6 +71,7 @@ export default function FacilityManagement() {
       />
 
       <DetailDemo
+        to='https://facilitymanagement-demo.web.app/'
         // desp
         // btnText
         DetailDemo_SquareDiv
