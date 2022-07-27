@@ -1,14 +1,14 @@
-import { Grid, Typography } from "@mui/material";
-import React from "react";
-import Blog1 from "../../assets/images/Blog1.svg";
-import BlogImg2 from "../../assets/images/blogarticle2.svg";
-import { Link } from "react-router-dom";
-import BlogImg1 from "../../assets/images/blogarticle1.svg";
-import BlogRead from "../../assets/images/blogread.png";
-import BlogCard from "../Common/BlogCard";
-import { useTranslation } from "react-i18next";
+import { Grid, Typography } from '@mui/material';
+import React from 'react';
+// import Blog1 from "../../assets/images/Blog1.svg";
+import BlogImg2 from '../../assets/images/blogarticle2.svg';
+import { Link } from 'react-router-dom';
+import BlogImg1 from '../../assets/images/blogarticle1.svg';
+// import BlogRead from "../../assets/images/blogread.png";
+import BlogCard from '../Common/BlogCard';
+import { useTranslation } from 'react-i18next';
 export default function BlogReadMore(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   return (
     <>
       <div className='BlogReadMore_Container'>
@@ -19,10 +19,10 @@ export default function BlogReadMore(props) {
           <Grid xs={12} md={7}>
             <div className='BlogReadMore_TitleDiv'>
               <Typography className='BlogReadMore_Title'>
-                {t(props.title || "Managing a Remote Team")}
+                {t(props.title || 'Managing a Remote Team')}
               </Typography>
               <Typography className='BlogReadMore_Date'>
-                {t("Published on")} {t(props.PublishDate || "June 13th 2022")}
+                {t('Published on')} {t(props.PublishDate || 'June 13th 2022')}
               </Typography>
             </div>
             <div className='BlogReadMore_DespDiv'>

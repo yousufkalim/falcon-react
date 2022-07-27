@@ -45,13 +45,21 @@ export default function DetailAppDev(props) {
         </div>
         {props.halfImg && (
           <div className='DetailAppDev_ImgDiv HalfImg'>
-            <img className='DetailAppDev_Img' src={props.halfImg || AppDev} />
+            <img
+              className='DetailAppDev_Img'
+              src={props.halfImg || AppDev}
+              alt='Detail Development'
+            />
           </div>
         )}
       </div>
       {props.fullImg && (
         <div className='DetailAppDev_ImgDiv'>
-          <img className='DetailAppDev_Img' src={props.fullImg || AppDev} />
+          <img
+            className='DetailAppDev_Img'
+            src={props.fullImg || AppDev}
+            alt='Detail Development'
+          />
         </div>
       )}
     </>

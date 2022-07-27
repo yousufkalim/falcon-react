@@ -14,9 +14,6 @@ import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
 import Tilt_Demo from '../../assets/images/tilt_demo_new.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import Tilt_Design1 from '../../assets/images/tilt_design1.png';
-import Tilt_Design2 from '../../assets/images/tilt_design2.png';
-import Tilt_Design3 from '../../assets/images/tilt_design3.png';
 
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import QB_Theme from '../../assets/images/detail_qb_theme.png';

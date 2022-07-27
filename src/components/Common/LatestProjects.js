@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import SectionHeader from './SectionHeader';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -30,8 +30,8 @@ import Fnac from '../../assets/images/fnac_lp.png';
 import Fnac_Logo from '../../assets/images/fnaclogo.png';
 import Fireman from '../../assets/images/fireman_lp.png';
 import FiremanLogo from '../../assets/images/fireman_logo_lp.png';
-import Toyota from '../../assets/images/toyota_lp.png';
-import Toyota_Logo from '../../assets/images/toyotalogo.png';
+// import Toyota from '../../assets/images/toyota_lp.png';
+// import Toyota_Logo from '../../assets/images/toyotalogo.png';
 import Canon from '../../assets/images/canon_lp.png';
 import Canon_Logo from '../../assets/images/canonlogo.png';
 import Register from '../../assets/images/register_lp.png';
@@ -92,8 +92,7 @@ const responsive = {
 };
 
 export default function LatestProjects(props) {
-  const ref = React.useRef();
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
     const {
@@ -148,7 +147,7 @@ export default function LatestProjects(props) {
             className='SliderDiv'
             autoPlay={true}
             responsive={responsive}
-            transitionDuration={1000}
+            transitionDuration={10}
             slidesToSlide={1}
             renderArrowNext={true}
             infinite={true}
@@ -210,7 +209,7 @@ export default function LatestProjects(props) {
               LogoSrc={RealEstate_Logo}
             />
             <LatestProjectsCard
-              hoverDesp={t('EZBox media is a platform providing different services including')}
+              hoverDesp={t('EZBox media is a platform providing different services')}
               src={EzBox}
               to='/ourprojects/ezbox'
               DividerTheme='#3399FE'
@@ -468,7 +467,9 @@ export default function LatestProjects(props) {
               LogoSrc={OrientatorLogo}
             />
             <LatestProjectsCard
-              hoverDesp='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
+              hoverDesp={t(
+                'Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.'
+              )}
               src={TeleHealth}
               to='/ourprojects/telehealthplatform'
               DividerTheme='#3399FE'
@@ -477,7 +478,9 @@ export default function LatestProjects(props) {
               LogoSrc={Tele_logo}
             />
             <LatestProjectsCard
-              hoverDesp='This project consists of two apps one is for the restaurant and other is for the end user.'
+              hoverDesp={t(
+                'This project consists of two apps one is for the restaurant and other is for the end user.'
+              )}
               src={Table}
               to='/ourprojects/table'
               DividerTheme='#3399FE'
@@ -486,7 +489,9 @@ export default function LatestProjects(props) {
               LogoSrc={TableLogo}
             />
             <LatestProjectsCard
-              hoverDesp='BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.'
+              hoverDesp={t(
+                'BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.'
+              )}
               para1='BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.'
               src={Barber}
               // to='/ourprojects/table'

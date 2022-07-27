@@ -1,14 +1,12 @@
-import React from "react";
-import SectionHeader from "./SectionHeader";
-import BlogCard from "./BlogCard";
-import { Grid } from "@mui/material";
-import Blog2 from "../../assets/images/Blog2.svg";
-import Blog1 from "../../assets/images/blog1.png";
-import BlogImg2 from "../../assets/images/blogarticle2.svg";
-import BlogImg1 from "../../assets/images/blogarticle1.svg";
+import React from 'react';
+import SectionHeader from './SectionHeader';
+import BlogCard from './BlogCard';
+import { Grid } from '@mui/material';
+import BlogImg2 from '../../assets/images/blogarticle2.svg';
+import BlogImg1 from '../../assets/images/blogarticle1.svg';
 
-import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 export default function BlogSection() {
   return (

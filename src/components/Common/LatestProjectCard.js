@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import { Button, Typography } from "@mui/material";
-import BasicModal from "./BasicModal";
-import { Link } from "react-router-dom";
-import { useTranslation } from "react-i18next";
+import React, { useState, useEffect } from 'react';
+import { Typography } from '@mui/material';
+import BasicModal from './BasicModal';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export default function LatestProjectsCard(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   const [desp, setDesp] = useState();
 
   useEffect(() => {
@@ -14,17 +14,17 @@ export default function LatestProjectsCard(props) {
 
   return (
     <div className='SliderProject'>
-      <div className={props.HoverDetailLite ? "HoverDetailLite" : "HoverDetail"}>
-        <img className='hoverDivLogo' src={props.LogoSrc} />
+      <div className={props.HoverDetailLite ? 'HoverDetailLite' : 'HoverDetail'}>
+        <img className='hoverDivLogo' src={props.LogoSrc} alt='hoverImg' />
 
         <Typography className='HoverDivTypo'>
           {/* {t(props.hoverDesp)} */}
-          {t(desp?.length > 150 ? desp.slice(0, 150) + "..." : desp)}
+          {t(desp?.length > 150 ? desp.slice(0, 150) + '...' : desp)}
         </Typography>
         <button
           className='HoverDivBtnDark'
           style={{
-            background: props.btnBackground ? props.btnBackground : "#F8F8F8",
+            background: props.btnBackground ? props.btnBackground : '#F8F8F8',
           }}
         >
           {/* <Link className="HoverDivBtnLink" to={props.to}>
@@ -34,11 +34,11 @@ export default function LatestProjectsCard(props) {
             {/* <Button className='HoverDivBtnLink'> */}
             <BasicModal
               ModalBtntextColor='#003B7E'
-              ModalBtnTheme={props.ModalBtnTheme || "transparent"}
-              ModalBtnText={t("View More")}
+              ModalBtnTheme={props.ModalBtnTheme || 'transparent'}
+              ModalBtnText={t('View More')}
               LogoSrc={props.LogoSrc}
               Heading={props.heading}
-              Dividerwidth={props.Dividerwidth || "12%"}
+              Dividerwidth={props.Dividerwidth || '12%'}
               DividerTheme={props.DividerTheme}
               para1={props.para1}
               para2={props.para2}

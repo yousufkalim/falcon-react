@@ -13,10 +13,6 @@ import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
 import Yuwway_Demo from '../../assets/images/yuwway_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import Yuwway_Design1 from '../../assets/images/yuwway_design1.png';
-import Yuwway_Design2 from '../../assets/images/yuwway_design2.png';
-import Yuwway_Design3 from '../../assets/images/yuwway_design3.png';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import QB_Theme from '../../assets/images/detail_qb_theme.png';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';

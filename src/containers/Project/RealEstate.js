@@ -13,9 +13,6 @@ import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
 import RealEstate_Demo from '../../assets/images/realestate_demo_new.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import RealEstate_Design1 from '../../assets/images/realestate_design1.png';
-import RealEstate_Design2 from '../../assets/images/realestate_design2.png';
-import RealEstate_Design3 from '../../assets/images/realestate_design3.png';
 
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import RealEstate_Theme1 from '../../assets/images/realestate_theme1.png';

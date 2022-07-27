@@ -8,30 +8,21 @@ import Wina_Header from '../../assets/images/wina_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
 import OV_Wina from '../../assets/images/ov_wina.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-
 import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
 import Wina_Demo from '../../assets/images/wina_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import Yuwway_Design1 from '../../assets/images/yuwway_design1.png';
-import Yuwway_Design2 from '../../assets/images/yuwway_design2.png';
-import Yuwway_Design3 from '../../assets/images/yuwway_design3.png';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-import Firemen_Theme from '../../assets/images/firemen_theme.png';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
 import Wina_Logo from '../../assets/images/detail_wina_logo_new.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
 import Wina_AppDesign from '../../assets/images/wina_appdesign.png';
 import Wina_WebDesign from '../../assets/images/wina_webdesign.png';
-
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
-import Facility_Theme from '../../assets/images/facility_theme.png';
-
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 
-// Home Component
+// Project Detail (Wina)
 export default function Wina() {
   return (
     <div className='Permispop_Container'>

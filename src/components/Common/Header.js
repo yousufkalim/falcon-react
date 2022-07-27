@@ -1,22 +1,22 @@
 // Init
-import React from "react";
-import { Grid, Typography } from "@mui/material";
-import HeaderImg from "../../assets/images/HeaderImg.svg";
-import ChatIcon from "../../assets/images/whatsappIcon.svg";
-import WhatsappIcon from "../../assets/images/ChatIcon.svg";
-import Calendly from "../../assets/images/calendly.svg";
-import Divider from "@mui/material/Divider";
-import Button from "@mui/material/Button";
-import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-import { useTranslation } from "react-i18next";
+import React from 'react';
+import { Grid, Typography } from '@mui/material';
+import HeaderImg from '../../assets/images/HeaderImg.svg';
+import ChatIcon from '../../assets/images/whatsappIcon.svg';
+import WhatsappIcon from '../../assets/images/ChatIcon.svg';
+import Calendly from '../../assets/images/calendly.svg';
+import Divider from '@mui/material/Divider';
+import Button from '@mui/material/Button';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 // Component
 export default function Header(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>
-      <Grid className={props.DetailHeader ? "DetailHeader" : "HeaderMain"} container spacing={1}>
+      <Grid className={props.DetailHeader ? 'DetailHeader' : 'HeaderMain'} container spacing={1}>
         <Grid xs={12} sm={12} md={5}>
           <motion.div
             className='HeaderTypo'
@@ -25,41 +25,43 @@ export default function Header(props) {
             transition={{ duration: 1 }}
             viewport={{ once: true }}
           >
-            <Typography
-              className={props.HeaderTitleClassName ? "HeaderTitleClassName" : "HeaderHeading"}
-              style={props.TitleStyle}
-              color={props.Titlecolor || "#003B7E"}
-            >
-              {/* <span style={{ color: "#003B7E" }}>{props.ColorTitle}</span> */}
-              {t(props.Title)}
-            </Typography>
-            <Divider
-              width={props.Dividerwidth || "17%"}
-              color={props.DividerBG || "#003B7E"}
-              sx={{
-                height: "5px",
-                borderRadius: "4px",
-                margin: "4% 0",
-              }}
-            />
-            <Typography
-              className={props.HeaderParaClassName ? "HeaderPara_Style" : "HeaderPara"}
-              color={props.DespColor || "#003B7E"}
-              style={props.ParaStyle}
-            >
-              {t(props.Description)}
-            </Typography>
-            {props.btn && (
-              <Link className='BtnLink' to={`/contactus`}>
-                <Button className={props.btnClassName ? "btnClassName" : "HeaderBtn"}>
-                  {t(props.btnText)}
-                </Button>
-              </Link>
-            )}
+            <header>
+              <h1
+                className={props.HeaderTitleClassName ? 'HeaderTitleClassName' : 'HeaderHeading'}
+                style={props.TitleStyle}
+                color={props.Titlecolor || '#003B7E'}
+              >
+                {/* <span style={{ color: "#003B7E" }}>{props.ColorTitle}</span> */}
+                {t(props.Title)}
+              </h1>
+              <Divider
+                width={props.Dividerwidth || '17%'}
+                color={props.DividerBG || '#003B7E'}
+                sx={{
+                  height: '5px',
+                  borderRadius: '4px',
+                  margin: '4% 0',
+                }}
+              />
+              <p
+                className={props.HeaderParaClassName ? 'HeaderPara_Style' : 'HeaderPara'}
+                color={props.DespColor || '#003B7E'}
+                style={props.ParaStyle}
+              >
+                {t(props.Description)}
+              </p>
+              {props.btn && (
+                <Link className='BtnLink' to={`/contactus`}>
+                  <Button className={props.btnClassName ? 'btnClassName' : 'HeaderBtn'}>
+                    {t(props.btnText)}
+                  </Button>
+                </Link>
+              )}
+            </header>
           </motion.div>
         </Grid>
         <Grid
-          className={props.DetailHeaderImg ? "DetailHeaderImg" : "HeaderImg"}
+          className={props.DetailHeaderImg ? 'DetailHeaderImg' : 'HeaderImg'}
           xs={12}
           sm={12}
           md={7}
@@ -69,10 +71,10 @@ export default function Header(props) {
             whileInView={{ x: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            alt={props.ImgAlt || "Header"}
+            alt={props.ImgAlt || 'Header'}
             src={props.ImgSrc || HeaderImg}
             style={props.ImgStyle}
-            width={props.ImgWidth || "95%"}
+            width={props.ImgWidth || '95%'}
           />
           {props.chatIcons ? (
             <div className='ChatIconsDiv'>

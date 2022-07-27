@@ -19,10 +19,6 @@ import OrgaPlan_Design3 from '../../assets/images/orgaplan_design3.png';
 
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import Excellence_Theme from '../../assets/images/excellence_theme.png';
-import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import RealEstate_Logo from '../../assets/images/detail_realestate_logo.png';
-import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import OrgaPlan_WebDesign from '../../assets/images/orgaplan_webdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';

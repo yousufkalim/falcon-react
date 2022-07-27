@@ -38,13 +38,25 @@ export default function DetailDesign(props) {
         {props.overlap && (
           <div className='DetailDesign_ImageContainer_Overlap'>
             <div className='DetailDesign_ImgDiv_Top'>
-              <img style={{ width: '-webkit-fill-available' }} src={props.TopImg || Image6} />
+              <img
+                style={{ width: '-webkit-fill-available' }}
+                src={props.TopImg || Image6}
+                alt='Design Images'
+              />
             </div>
             <div className='DetailDesign_ImgDiv_Middle'>
-              <img style={{ margin: '0 3%', width: '70%' }} src={props.MidImg || Image5} />
+              <img
+                style={{ margin: '0 3%', width: '70%' }}
+                src={props.MidImg || Image5}
+                alt='Design Images'
+              />
             </div>
             <div className='DetailDesign_ImgDiv_Bottom'>
-              <img style={{ width: '-webkit-fill-available' }} src={props.BottomImg || Image4} />
+              <img
+                style={{ width: '-webkit-fill-available' }}
+                src={props.BottomImg || Image4}
+                alt='Design Images'
+              />
             </div>
           </div>
         )}
@@ -55,12 +67,13 @@ export default function DetailDesign(props) {
           //       <img
           //         style={{ objectFit: "cover", width: "100%", height: "100%" }}
           //         src={Image1}
+          // alt='Design Images'
           //       />
           //     </div>
           //     <div style={{ width: "66%" }}>
           //       <img
           //         style={{ objectFit: "cover", width: "100%", height: "100%" }}
-          //         src={Image2}
+          //         src={Image2} alt='Design Images'
           //       />
           //     </div>
           //   </div>
@@ -88,7 +101,7 @@ export default function DetailDesign(props) {
           //               width: "100%",
           //               height: "100%",
           //             }}
-          //             src={Image7}
+          //             src={Image7} alt='Design Images'
           //           />
           //         </div>
           //         <div style={{ width: "49.2%" }}>
@@ -98,7 +111,7 @@ export default function DetailDesign(props) {
           //               width: "100%",
           //               height: "100%",
           //             }}
-          //             src={Image1}
+          //             src={Image1} alt='Design Images'
           //           />
           //         </div>
           //       </div>
@@ -115,7 +128,7 @@ export default function DetailDesign(props) {
           //             width: "100%",
           //             height: "100%",
           //           }}
-          //           src={Image2}
+          //           src={Image2} alt='Design Images'
           //         />
           //       </div>
           //     </div>
@@ -134,7 +147,7 @@ export default function DetailDesign(props) {
           //             width: "100%",
           //             height: "100%",
           //           }}
-          //           src={Image3}
+          //           src={Image3} alt='Design Images'
           //         />
           //       </div>
           //     </div>
@@ -149,7 +162,11 @@ export default function DetailDesign(props) {
                   padding: '0.5%',
                 }}
               >
-                <img className='DetailDesign_Image' src={props.src1 || Image1} />
+                <img
+                  className='DetailDesign_Image'
+                  src={props.src1 || Image1}
+                  alt='Design Images'
+                />
               </Grid>
               <Grid
                 xs={12}
@@ -158,7 +175,11 @@ export default function DetailDesign(props) {
                   padding: '0.5%',
                 }}
               >
-                <img className='DetailDesign_Image' src={props.src2 || Image2} />
+                <img
+                  className='DetailDesign_Image'
+                  src={props.src2 || Image2}
+                  alt='Design Images'
+                />
               </Grid>
             </Grid>
             <div className='DetailDesign_Image_SubDiv'>
@@ -170,7 +191,11 @@ export default function DetailDesign(props) {
                     padding: '0.8%',
                   }}
                 >
-                  <img className='DetailDesign_Image' src={props.src3 || Image7} />
+                  <img
+                    className='DetailDesign_Image'
+                    src={props.src3 || Image7}
+                    alt='Design Images'
+                  />
                 </Grid>
                 <Grid
                   xs={12}
@@ -179,7 +204,11 @@ export default function DetailDesign(props) {
                     padding: '0.8%',
                   }}
                 >
-                  <img className='DetailDesign_Image' src={props.src4 || Image1} />
+                  <img
+                    className='DetailDesign_Image'
+                    src={props.src4 || Image1}
+                    alt='Design Images'
+                  />
                 </Grid>
                 <Grid
                   xs={12}
@@ -187,7 +216,11 @@ export default function DetailDesign(props) {
                     padding: '.8%',
                   }}
                 >
-                  <img className='DetailDesign_Image' src={props.src5 || Image2} />
+                  <img
+                    className='DetailDesign_Image'
+                    src={props.src5 || Image2}
+                    alt='Design Images'
+                  />
                 </Grid>
               </Grid>
               <Grid container spacing={1} xs={12} md={4}>
@@ -197,7 +230,11 @@ export default function DetailDesign(props) {
                     padding: '1.5%',
                   }}
                 >
-                  <img className='DetailDesign_Image' src={props.src6 || Image3} />
+                  <img
+                    className='DetailDesign_Image'
+                    src={props.src6 || Image3}
+                    alt='Design Images'
+                  />
                 </Grid>
               </Grid>
             </div>

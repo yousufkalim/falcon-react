@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 // Files
 import Index from './routes/index';
 import './css/index.css';
+import { Helmet } from 'react-helmet';
 
 // Component
 function App() {
@@ -53,6 +54,17 @@ function App() {
   };
   return (
     <div>
+      <Helmet>
+        <title>Falcon IT Consulting</title>
+        <meta
+          name='description'
+          content='In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.'
+        />
+        <meta
+          name='keywords'
+          content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
+        />
+      </Helmet>
       {open === 'true' && (
         <motion.div
           initial={{ y: 100 }}
@@ -64,7 +76,9 @@ function App() {
           <div className='CookieBanner_Div'>
             <div className='CookieBanner_TypoDiv'>
               <Typography sx={{ fontWeight: '500' }} className='CookieBanner_desp'>
-                {t('We Use our own and third-party cookies to personalize content and to analyze web traffic.')}
+                {t(
+                  'We Use our own and third-party cookies to personalize content and to analyze web traffic.'
+                )}
               </Typography>
               <Typography className='CookieBanner_Link'>
                 <Link style={{ color: '#003B7E' }} to='/legalmentions'>
@@ -86,7 +100,12 @@ function App() {
       <div className={open === 'true' && 'CookieBanner_DullScreen'}>
         <div className='App'>
           {/* toastify Container for Notification */}
-          <ToastContainer position='bottom-right' autoClose={3000} hideProgressBar={true} transition={Flip} />
+          <ToastContainer
+            position='bottom-right'
+            autoClose={3000}
+            hideProgressBar={true}
+            transition={Flip}
+          />
 
           {/* Routes */}
           <Index />

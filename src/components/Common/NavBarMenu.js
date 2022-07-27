@@ -61,7 +61,7 @@ export default function NavBarMenu({ Menu, SetMenu }) {
         <div className='MenuSectionMain'>
           <div className='MenuSection'>
             <div className='MenuImgDiv'>
-              <img className='MenuImg' style={{ opacity: '.5' }} src={FalconIcon} />
+              <img className='MenuImg' style={{ opacity: '.5' }} src={FalconIcon} alt='Falcon' />
             </div>
             <div className='MenuTypoDiv'>
               <div className='ServiceOptionDiv'>

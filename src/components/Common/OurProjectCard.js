@@ -32,18 +32,37 @@ export default function OurProjectCard(props) {
           <Grid container spacing={1} className='ProjectCardContainer2'>
             <Grid xs={12} sm={10} md={9}>
               <div className='projectCardWeb'>
-                <img className='ProjectCardImg' width={props.width || '100%'} src={props.src} />
+                <img
+                  className='ProjectCardImg'
+                  width={props.width || '100%'}
+                  src={props.src}
+                  alt='Project Card'
+                />
               </div>
               <div className='projectCardMob'>
-                <marquee direction='right' behavior='scroll' loop='' scrolldelay='25' truespeed='25' hspace='0px'>
-                  <img className='ProjectCardImg' width={props.width || '100%'} src={props.src} />
+                <marquee
+                  direction='right'
+                  behavior='scroll'
+                  loop=''
+                  scrolldelay='25'
+                  truespeed='25'
+                  hspace='0px'
+                >
+                  <img
+                    className='ProjectCardImg'
+                    width={props.width || '100%'}
+                    src={props.src}
+                    alt='Project Card'
+                  />
                 </marquee>
               </div>
             </Grid>
             <Grid xs={12} sm={10} md={3}>
               <div className='ProjectCardTypo'>
                 <Typography className='ProjectCardTitle'>
-                  {props?.title?.length > 15 ? props?.title?.slice(0, 15) + '...' : props?.title || 'Permispop.'}
+                  {props?.title?.length > 15
+                    ? props?.title?.slice(0, 15) + '...'
+                    : props?.title || 'Permispop.'}
                   {/* {props.title || "Permispop."} */}
                 </Typography>
                 <Divider
@@ -98,7 +117,9 @@ export default function OurProjectCard(props) {
             <Grid xs={12} sm={10} md={3}>
               <div className='ProjectCardTypo'>
                 <Typography className='ProjectCardTitle'>
-                  {props?.title?.length > 15 ? props?.title?.slice(0, 15) + '...' : props?.title || 'Permispop.'}
+                  {props?.title?.length > 15
+                    ? props?.title?.slice(0, 15) + '...'
+                    : props?.title || 'Permispop.'}
                   {/* {props.title || "Permispop."} */}
                 </Typography>
                 <Divider
@@ -141,11 +162,27 @@ export default function OurProjectCard(props) {
             </Grid>
             <Grid xs={12} sm={10} md={9}>
               <div className='projectCardWeb'>
-                <img className='ProjectCardImg' width={props.width || '100%'} src={props.src} />
+                <img
+                  className='ProjectCardImg'
+                  width={props.width || '100%'}
+                  src={props.src}
+                  alt='Project Card'
+                />
               </div>
               <div className='projectCardMob'>
-                <marquee direction='right' behavior='smooth' loop='' scrolldelay='25' truespeed='25'>
-                  <img className='ProjectCardImg' width={props.width || '100%'} src={props.src} />
+                <marquee
+                  direction='right'
+                  behavior='smooth'
+                  loop=''
+                  scrolldelay='25'
+                  truespeed='25'
+                >
+                  <img
+                    className='ProjectCardImg'
+                    width={props.width || '100%'}
+                    src={props.src}
+                    alt='Project Card'
+                  />
                 </marquee>
               </div>
             </Grid>

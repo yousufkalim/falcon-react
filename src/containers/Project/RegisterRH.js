@@ -19,12 +19,8 @@ import Register_Design3 from '../../assets/images/register_design3.png';
 
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import Register_WebDev from '../../assets/images/register_webdev.png';
-import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import Yuwway_Logo from '../../assets/images/detail_yuwway_logo.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import Yuwway_AppDesign from '../../assets/images/yuwway_appdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
-import Facility_Theme from '../../assets/images/facility_theme.png';
 
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';

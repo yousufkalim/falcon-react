@@ -6,7 +6,7 @@ import CalendlyIcon from '../../assets/images/calendlyIcon.svg';
 import emailjs from 'emailjs-com';
 import { toast } from 'react-toastify';
 import { useTranslation } from 'react-i18next';
-import ReCAPTCHA from 'react-google-recaptcha';
+// import ReCAPTCHA from 'react-google-recaptcha';
 export default function ContactUsSection(props) {
   const { t } = useTranslation();
   const [number, setNumber] = useState('');
@@ -108,7 +108,7 @@ export default function ContactUsSection(props) {
                         value={number}
                         onChange={(e) => {
                           // check input using regex
-                          var regex = RegExp(/[0-9]+/g);
+                          var regex = RegExp(/^\d+$/);
                           const test_Result = regex.test(e.target.value);
                           if (test_Result || e.target.value == '') {
                             setNumber(e.target.value);
@@ -136,12 +136,12 @@ export default function ContactUsSection(props) {
                       />
                     </Grid>
                   </div>
-                  <Grid xs={12} className='ReCAPTCHA_DIV'>
+                  {/* <Grid xs={12} className='ReCAPTCHA_DIV'>
                     <ReCAPTCHA
                       sitekey={process.env.REACT_APP_GOOGLE_CAPTCHA_SITE_KEY}
                       onChange={onChange}
                     />
-                  </Grid>
+                  </Grid> */}
                   <Grid className='Contact_Send_Grid' xs={3}>
                     <button type='submit' className='ContactUsBtn'>
                       {t('Send')}
@@ -163,7 +163,7 @@ export default function ContactUsSection(props) {
                 </a>
                 <a href='http://calendly.com/falconit'>
                   <div className='ContactMediaDiv'>
-                    <img className='ContactMediaIcons' src={CalendlyIcon} />
+                    <img className='ContactMediaIcons' src={CalendlyIcon} alt='Calendly' />
                     <div className='SocialMediaText'>
                       <Typography sx={{ fontSize: '1rem' }}>{t('Calendly')}</Typography>
                       <Typography sx={{ fontSize: '.7rem' }}>{t('Click and join link')}</Typography>
@@ -213,7 +213,7 @@ export default function ContactUsSection(props) {
                   </a>
                   <a href='mailto:contact@falconconsulting.fr'>
                     <div className='SocialMediaDiv'>
-                      <img className='SocialMediaIcons' src={EmailIcon} />
+                      <img className='SocialMediaIcons' src={EmailIcon} alt='email' />
                       <div className='SocialMediaText'>
                         <Typography>{t('Email')}</Typography>
                         <Typography>contact@falconconsulting.fr</Typography>
@@ -252,7 +252,7 @@ export default function ContactUsSection(props) {
                         value={number}
                         onChange={(e) => {
                           // check input using regex
-                          var regex = RegExp(/[0-9]+/g);
+                          var regex = RegExp(/^\d+$/);
                           const test_Result = regex.test(e.target.value);
 
                           if (test_Result || e.target.value == '') {
@@ -280,13 +280,13 @@ export default function ContactUsSection(props) {
                       />
                     </Grid>
                   </div>
-                  <Grid xs={12} className='ReCAPTCHA_DIV'>
+                  {/* <Grid xs={12} className='ReCAPTCHA_DIV'>
                     <ReCAPTCHA
                       className='Recaptcha_Box'
                       sitekey={process.env.REACT_APP_GOOGLE_CAPTCHA_SITE_KEY}
                       onChange={onChange}
                     />
-                  </Grid>
+                  </Grid> */}
                   {/* <Grid xs={12}>
                     <div
                       style={{
@@ -318,7 +318,7 @@ export default function ContactUsSection(props) {
                           I'm not a robot
                         </Typography>
                       </div>
-                      <img src={Robot} />
+                      <img src={Robot} alt='robot' />
                     </div>
                   </Grid> */}
                   <Grid xs={3}>

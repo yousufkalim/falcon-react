@@ -1,15 +1,7 @@
 // Init
 import React from 'react';
 import { Grid, Typography } from '@mui/material';
-import ThemeImage from '../../assets/images/theme_image.png';
-import Image2 from '../../assets/images/detail_design_2.png';
-import Image3 from '../../assets/images/detail_design_3.png';
-import theme1 from '../../assets/images/ezbox_theme1.png';
-import theme2 from '../../assets/images/ezbox_theme2.png';
-import theme3 from '../../assets/images/ezbox_theme3.png';
 import Divider from '@mui/material/Divider';
-import { Avatar } from '@mui/material';
-import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 // Component
@@ -96,7 +88,7 @@ export default function DetailTheme(props) {
         </div>
         {props.centerImage && (
           <div>
-            <img style={{ width: '100%' }} src={props.src} />
+            <img style={{ width: '100%' }} src={props.src} alt='Detail Theme' />
           </div>
         )}
         {props.Images && (
@@ -108,28 +100,28 @@ export default function DetailTheme(props) {
               justifyContent: 'space-between',
             }}
           >
-            <img style={{ width: '30%', marginRight: '1%' }} src={props.src1} />
-            <img style={{ width: '30%', marginRight: '1%' }} src={props.src2} />
-            <img style={{ width: '30%', marginRight: '1%' }} src={props.src3} />
+            <img style={{ width: '30%', marginRight: '1%' }} src={props.src1} alt='Detail Theme' />
+            <img style={{ width: '30%', marginRight: '1%' }} src={props.src2} alt='Detail Theme' />
+            <img style={{ width: '30%', marginRight: '1%' }} src={props.src3} alt='Detail Theme' />
           </div>
         )}
       </div>
       {props.fullscreen && (
         <div>
-          <img style={{ width: '100%' }} src={props.src} />
+          <img style={{ width: '100%' }} src={props.src} alt='Detail Theme' />
         </div>
       )}
       {props.overlap && (
         <div style={{ width: '100%', display: 'flex', justifyContent: 'flex-end' }}>
           <div style={{ width: '50%', margin: '0 5% -3% 0' }}>
-            <img style={{ width: '100%' }} src={props.src} />
+            <img style={{ width: '100%' }} src={props.src} alt='Detail Theme' />
           </div>
         </div>
       )}
       {props.inline && (
         <div style={{ width: '100%', display: 'flex', justifyContent: 'flex-end' }}>
           <div style={{ width: '30%', margin: '-15% 5% 0 0' }}>
-            <img style={{ width: '100%' }} src={props.src} />
+            <img style={{ width: '100%' }} src={props.src} alt='Detail Theme' />
           </div>
         </div>
       )}
@@ -150,10 +142,10 @@ export default function DetailTheme(props) {
             }}
           >
             <div style={{ width: '40%' }}>
-              <img style={{ width: '100%' }} src={props.src1} />
+              <img style={{ width: '100%' }} src={props.src1} alt='Detail Theme' />
             </div>
             <div style={{ width: '40%' }}>
-              <img style={{ width: '100%' }} src={props.src2} />
+              <img style={{ width: '100%' }} src={props.src2} alt='Detail Theme' />
             </div>
           </div>
         </div>

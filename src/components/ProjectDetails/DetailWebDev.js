@@ -33,16 +33,19 @@ export default function DetailWebDev(props) {
             </Typography>
           </div>
           <div className='DetailWebDev_Left_ImgDiv'>
-            <img style={{ width: '100%' }} src={WebDev_1} />
+            <img style={{ width: '100%' }} src={WebDev_1} alt='Detail Development' />
           </div>
         </div>
         <div className='DetailWebDev_RightContainer'>
           <div className='DetailWebDev_Right_ImgDiv'>
-            <img style={{ width: '100%' }} src={WebDev_2} />
+            <img style={{ width: '100%' }} src={WebDev_2} alt='Detail Development' />
           </div>
           <div className='DetailWebDev_TypoDiv'>
             <div className='DetailWebDev_TitleDiv'>
-              <Divider className='DetailWebDev_TitleDivider' color={props.titleTheme || '#11A283'} />
+              <Divider
+                className='DetailWebDev_TitleDivider'
+                color={props.titleTheme || '#11A283'}
+              />
               <Typography className='DetailWebDev_Title' color={props.titleTheme || '#11A283'}>
                 CLIENT FEEDBACK
               </Typography>
@@ -58,12 +61,18 @@ export default function DetailWebDev(props) {
             <div className='DetailWebDev_ClientContainer'>
               <div style={{ width: '40%' }}>
                 <div className='DetailWebDev_AvatarDiv'>
-                  <Avatar className='DetailWebDev_Avatar' sx={{ width: 70, height: 70 }} src={props.AvatarSrc || AvatarImg} />
+                  <Avatar
+                    className='DetailWebDev_Avatar'
+                    sx={{ width: 70, height: 70 }}
+                    src={props.AvatarSrc || AvatarImg}
+                  />
                   <div className='DetailWebDev_NameDiv'>
                     <Typography className='DetailWebDev_Name' color={props.nameColor || '#2FAD93'}>
                       {props.name || 'DDS Formation'}
                     </Typography>
-                    <Typography className='DetailWebDev_Location'>{props.location || 'France'}</Typography>
+                    <Typography className='DetailWebDev_Location'>
+                      {props.location || 'France'}
+                    </Typography>
                   </div>
                 </div>
               </div>

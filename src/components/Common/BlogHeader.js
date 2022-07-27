@@ -87,6 +87,7 @@ export default function BlogHeader() {
           }}
         >
           <form
+            autocomplete='off'
             style={{
               width: '100%',
               display: 'flex',
@@ -96,6 +97,7 @@ export default function BlogHeader() {
             onSubmit={sendEmail}
           >
             <input
+              // autocomplete='false'
               // type='email'
               name='email'
               style={{

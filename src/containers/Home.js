@@ -31,7 +31,10 @@ export default function Home() {
             name='description'
             content='Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners.'
           />
-          <meta name='keywords' content='falcon, falconit, falcon consulting,blogs, projects' />
+          <meta
+            name='keywords'
+            content='falcon, falconit, falcon consulting, blogs, projects, Software house, '
+          />
         </Helmet>
         <div className='HomeContainer'>
           <NavBar />

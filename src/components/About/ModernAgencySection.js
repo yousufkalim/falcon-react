@@ -31,10 +31,10 @@ export default function ModernAgencySection() {
           <div className='HistoryMain'>
             <div className='HistoryDiv'>
               <div className='HistoryImgDiv'>
-                <img className='HistoryImg' src={Tick1} />
+                <img className='HistoryImg' src={Tick1} alt='modern Agency' />
               </div>
               <div className='ArrowMain'>
-                <img className='ArrowImg' src={AgencyArrow} />
+                <img className='ArrowImg' src={AgencyArrow} alt='modern Agency' />
               </div>
             </div>
             <div className='HistoryTypoDiv'>
@@ -45,10 +45,10 @@ export default function ModernAgencySection() {
           <div className='HistoryMain'>
             <div className='HistoryDiv'>
               <div className='HistoryImgDiv'>
-                <img className='HistoryImg' src={Tick2} />
+                <img className='HistoryImg' src={Tick2} alt='modern Agency' />
               </div>
               <div className='ArrowMain'>
-                <img className='ArrowImg' src={AgencyArrow} />
+                <img className='ArrowImg' src={AgencyArrow} alt='modern Agency' />
               </div>
             </div>
             <div className='HistoryTypoDiv'>
@@ -59,10 +59,10 @@ export default function ModernAgencySection() {
           <div className='HistoryMain'>
             <div className='HistoryDiv'>
               <div className='HistoryImgDiv'>
-                <img className='HistoryImg' src={Tick3} />
+                <img className='HistoryImg' src={Tick3} alt='modern Agency' />
               </div>
               <div className='ArrowMain'>
-                <img className='ArrowImg' src={AgencyArrow} />
+                <img className='ArrowImg' src={AgencyArrow} alt='modern Agency' />
               </div>
             </div>
             <div className='HistoryTypoDiv'>
@@ -74,7 +74,7 @@ export default function ModernAgencySection() {
             <div className='HistoryDiv'>
               <div className='HistoryImgDiv Last_icon'>
                 <AboutInfo4 color='#f8f8f8' opacity='.8' />
-                {/* <img className='HistoryImg ' src={AboutInfo4} /> */}
+                {/* <img className='HistoryImg ' src={AboutInfo4} alt='modern Agency'/> */}
               </div>
             </div>
             <div className='HistoryTypoDiv_Last'>
