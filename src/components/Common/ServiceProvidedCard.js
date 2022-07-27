@@ -31,7 +31,7 @@ export default function ServiceProvidedCard(props) {
               to={props.to}
             >
               <div className='ServiceProvided_SubCardTypo'>
-                <Typography className='ServiceProvided_CardTitle'>{t(props.CardTitle)}</Typography>
+                <h2 className='ServiceProvided_CardTitle'>{t(props.CardTitle)}</h2>
                 <div
                   style={{
                     display: 'flex',
@@ -83,7 +83,7 @@ export default function ServiceProvidedCard(props) {
               to={props.to}
             >
               <div className='ServiceProvided_SubCardTypo'>
-                <Typography className='ServiceProvided_CardTitle'>{t(props.CardTitle)}</Typography>
+                <h2 className='ServiceProvided_CardTitle'>{t(props.CardTitle)}</h2>
                 <div
                   style={{
                     display: 'flex',

@@ -27,10 +27,8 @@ export default function LocationSection(props) {
               <div className='LocationDiv_Typo'>
                 <img src={Paris_Icon} alt='Paris' />
 
-                <Typography className='Location_Country'>France</Typography>
-                <Typography className='Location_Address'>
-                  53 Avenue Victor Hugo 94290 Villeneuve-Le-Roi
-                </Typography>
+                <h2 className='Location_Country'>France</h2>
+                <h3 className='Location_Address'>53 Avenue Victor Hugo 94290 Villeneuve-Le-Roi</h3>
               </div>
               <div className='LocationDiv_Img'>
                 <img className='Location_Img' src={London} alt='London' />
@@ -40,10 +38,8 @@ export default function LocationSection(props) {
               <div className='LocationDiv_Typo'>
                 <img src={US_Icon} alt='US' />
 
-                <Typography className='Location_Country'>United States</Typography>
-                <Typography className='Location_Address'>
-                  4201 31st St S, Arlington, VA 22206
-                </Typography>
+                <h2 className='Location_Country'>United States</h2>
+                <h3 className='Location_Address'>4201 31st St S, Arlington, VA 22206</h3>
               </div>
               <div className='LocationDiv_Img'>
                 <img className='Location_Img' src={US} alt='US' />
@@ -53,10 +49,10 @@ export default function LocationSection(props) {
               <div className='LocationDiv_Typo'>
                 <img src={Pak_Icon} alt='Pakistan' />
 
-                <Typography className='Location_Country'>Pakistan</Typography>
-                <Typography className='Location_Address'>
+                <h2 className='Location_Country'>Pakistan</h2>
+                <h3 className='Location_Address'>
                   8-A, Iqbal Avenue Cooperative Housing Society - Phase I Lahore, Punjab
-                </Typography>
+                </h3>
               </div>
               <div className='LocationDiv_Img'>
                 <img className='Location_Img' src={Pak} alt='pakistan' />
@@ -66,10 +62,10 @@ export default function LocationSection(props) {
               <div className='LocationDiv_Typo'>
                 <img src={UAE_Icon} alt='UAE' />
 
-                <Typography className='Location_Country'>UAE</Typography>
-                <Typography className='Location_Address'>
+                <h2 className='Location_Country'>UAE</h2>
+                <h3 className='Location_Address'>
                   Mazyad Mall, Tower 2 - 4th Floor, Office 425, Abu Dhabi, UAE
-                </Typography>
+                </h3>
               </div>
               <div className='LocationDiv_Img'>
                 <img className='Location_Img' src={UAE} alt='UAE' />

@@ -39,7 +39,7 @@ export default function DetailServiceDetailDemo(props) {
                     background: props.btnTheme ? props.btnTheme : '#FFA333',
                   }}
                 >
-                  {t(props.btnText || 'REQUEST A FREE DEMO NOW')}
+                  {t(props.btnText || 'GO TO THE PROJECT')}
                 </button>
               </a>
             </div>

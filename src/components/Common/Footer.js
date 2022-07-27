@@ -39,23 +39,23 @@ export default function Footer(props) {
               <Link to={`/`}>
                 <img className='FooterLogo' src={Logo} alt='logo' />
               </Link>
-              <Typography
+              <h4
                 className='FooterTypo'
-                sx={{ color: '#282828', opacity: '50%', marginBottom: '3%' }}
+                style={{ color: '#282828', opacity: '50%', marginBottom: '3%', fontWeight: '500' }}
               >
                 {t(
                   'The services are provided at a flat rate, or according to a determined daily rate, based on your preference. In both cases, we guarantee you a quality service at a very competitive price.'
                 )}
-              </Typography>
+              </h4>
             </div>
             <div className='FooterRight'>
               <div className='FooterList'>
-                <Typography
+                <h4
                   className='FooterListHeading'
-                  sx={{ fontWeight: '700', opacity: '40%', marginBottom: '15%' }}
+                  style={{ fontWeight: '700', opacity: '40%', marginBottom: '15%' }}
                 >
                   {t('Overview')}
-                </Typography>
+                </h4>
                 <ul>
                   <li>
                     <Link className='Footer_li' to='/about'>
@@ -75,12 +75,12 @@ export default function Footer(props) {
                 </ul>
               </div>
               <div className='FooterList'>
-                <Typography
+                <h4
                   className='FooterListHeading'
-                  sx={{ fontWeight: '700', opacity: '40%', marginBottom: '15%' }}
+                  style={{ fontWeight: '700', opacity: '40%', marginBottom: '15%' }}
                 >
                   {t('Solutions')}
-                </Typography>
+                </h4>
                 <ul>
                   <li>
                     <Link className='Footer_li' to='/services/web-development'>
@@ -163,13 +163,13 @@ export default function Footer(props) {
 
         <Divider />
         <div className='CopyRightDiv'>
-          <Typography ClassName='CopyRightTypo' sx={{ fontSize: '70%', fontWeight: '700' }}>
+          <h5 ClassName='CopyRightTypo' style={{ fontSize: '70%', fontWeight: '700' }}>
             © 2015-{new Date().getFullYear()}
             <span style={{ color: '#003B7E' }}> Falcon Consulting</span>, {t('All Rights Reserved')}
             .
-          </Typography>
+          </h5>
 
-          <Typography
+          <h4
             className='Footer_ChangeLanguage'
             onClick={() => {
               if (language === 'fr') {
@@ -181,7 +181,7 @@ export default function Footer(props) {
           >
             <span style={{ color: '#000', opacity: '.6' }}> {t('Changer de langue en')} </span>
             {t('Français')}
-          </Typography>
+          </h4>
         </div>
       </div>
       <div className='Footer_MobView'>
@@ -192,7 +192,7 @@ export default function Footer(props) {
         </div>
         <div className='Footer_MobView_ListContainer'>
           <div className='Footer_MobView_ListDiv'>
-            <Typography className='Footer_MobView_Title'>{t('Overview')}</Typography>
+            <h4 className='Footer_MobView_Title'>{t('Overview')}</h4>
             <ul className='Footer_MobView_List'>
               <li>
                 <Link className='FooterMob_Link' to='/about'>
@@ -214,7 +214,7 @@ export default function Footer(props) {
         </div>
         <div className='Footer_MobView_ListContainer'>
           <div className='Footer_MobView_ListDiv'>
-            <Typography className='Footer_MobView_Title'>{t('Solutions')}</Typography>
+            <h4 className='Footer_MobView_Title'>{t('Solutions')}</h4>
             <ul className='Footer_MobView_List'>
               <li>
                 <Link className='FooterMob_Link' to='/services/ui-development'>
@@ -259,7 +259,7 @@ export default function Footer(props) {
           </a>
         </div>
         <div>
-          <Typography
+          <h5
             className='Footer_MobView_changeLang'
             // className='Footer_ChangeLanguage'
             onClick={() => {
@@ -275,7 +275,7 @@ export default function Footer(props) {
               {t('Changer de langue en')}{' '}
             </span>
             {t('Français')}
-          </Typography>
+          </h5>
         </div>
         <Divider
           sx={{
@@ -287,11 +287,11 @@ export default function Footer(props) {
           }}
         />
         <div>
-          <Typography ClassName='CopyRightTypo' sx={{ fontSize: '70%', fontWeight: '700' }}>
+          <h6 ClassName='CopyRightTypo' style={{ fontSize: '70%', fontWeight: '700' }}>
             © 2015-{new Date().getFullYear()}
             <span style={{ color: '#003B7E' }}> Falcon Consulting</span>, {t('All Rights Reserved')}
             .
-          </Typography>
+          </h6>
         </div>
       </div>
     </>

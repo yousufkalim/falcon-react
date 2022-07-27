@@ -109,16 +109,16 @@
 .CookieBanner_desp{
     color: #000000;
     font-weight: 500 !important;
-    font-family: Inter !important;
-    font-size: 1.4rem !important;
+    font-family: Montserrat !important;
+    font-size: 1.3rem !important;
     line-height: 1 !important;
 }
 .CookieBanner_Link{
     color: #003B7E;
-    font-weight: 400 !important;
-    font-family: Inter !important;
+    font-weight: 500 !important;
+    /* font-family: inter !important; */
     text-decoration-line: underline;
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
 }
 .CookieBanner_BtnDiv{
     width: 25%;
@@ -177,6 +177,12 @@
   }
 } */
 @media only screen and (max-width: 900px) {
+  .HeaderTitle{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
   .HeaderMain{
     flex-direction: column-reverse !important;
     padding: 8% 3%;

@@ -22,7 +22,7 @@ export default function About() {
         />
         <meta
           name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, projects, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships'
+          content='falcon, falconit, falcon consulting, Trustful, partnerships , best company, Modern IT Agency, Healthy Relationships '
         />
       </Helmet>
       <NavBar />

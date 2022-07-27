@@ -100,18 +100,18 @@ export default function AboutSection() {
                     transition={{ duration: 1 }}
                     viewport={{ once: true }}
                   >
-                    <Typography
-                      sx={{
+                    <h2
+                      style={{
                         fontSize: '1.4rem',
                         fontWeight: '600',
                         color: '#003B7E',
                       }}
                     >
                       {t('We believe that talent and skills do not have borders')}
-                    </Typography>
-                    <Typography
-                      sx={{
-                        fontSize: '.9rem',
+                    </h2>
+                    <h3
+                      style={{
+                        fontSize: '.95rem',
                         fontWeight: '400',
                         color: '#003B7E',
                       }}
@@ -119,7 +119,7 @@ export default function AboutSection() {
                       {t(
                         'We are a human-oriented company, investing in training healthy atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to put in place a continuous improvement process internally'
                       )}
-                    </Typography>
+                    </h3>
                     <a href={`/about`}>
                       <button className='AboutSectionBtn'>{t('READ MORE')}</button>
                     </a>

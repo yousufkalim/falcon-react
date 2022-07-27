@@ -93,14 +93,15 @@ opacity: 1;
     
 }
 .hoverDivLogo{
-    margin: 10% 0% 5% 0%;
-    width: 60%;
-    height: 18%;
+    padding: 10% 0 5% 0;
+    width: 90%;
+    /* height: 18%; */
 }
 .HoverDivTypo{
         /* color: white; */
         width: 80%;
         font-size: 1.1rem !important;
+        font-weight: 500;
 }
 .HoverDivBtn{
     width: 45%;

@@ -15,16 +15,16 @@ export default function BlogCard(props) {
           />
         </div>
 
-        <Typography
-          sx={{
+        <h3
+          style={{
             color: '#52525B',
             fontWeight: '400',
             margin: '2% 0%',
           }}
         >
           {t(props.date)}
-        </Typography>
-        <Typography className='BlogCardTitle'>{t(props.title)}</Typography>
+        </h3>
+        <h1 className='BlogCardTitle'>{t(props.title)}</h1>
       </div>
     </>
   );
