@@ -25,7 +25,7 @@ export default function Header(props) {
             transition={{ duration: 1 }}
             viewport={{ once: true }}
           >
-            <header>
+            <header className='HeaderTitle'>
               <h1
                 className={props.HeaderTitleClassName ? 'HeaderTitleClassName' : 'HeaderHeading'}
                 style={props.TitleStyle}

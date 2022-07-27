@@ -101,6 +101,7 @@ opacity: 1;
         /* color: white; */
         width: 80%;
         font-size: 1.1rem !important;
+        font-weight: 500;
 }
 .HoverDivBtn{
     width: 45%;

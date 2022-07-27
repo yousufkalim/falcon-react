@@ -55,6 +55,23 @@ export default function ReviewSection() {
         'Falcon Consulting did a great job. I am happy to work with them. They have great skills in MERN stack. Being not so tech savvy I had my own challenges but their Business team helped me on each step along the journey. Hope we will work very soon near future. Thank you',
       work: 'SybilSoft-Web application Development for Travel Agency',
     },
+    {
+      // avatar: Client_5,
+      name: 'Laurent Louis-Henry',
+      country: 'United States',
+
+      review:
+        'Falcon Consulting a permis à mon application de prendre forme ! En partant d’une simple idée, ils ont su faire preuve d’initiative et me conseiller sur les décisions à prendre.',
+      work: 'Tilt Entreprise',
+    },
+    {
+      // avatar: Client_5,
+      name: 'RD',
+      country: 'United States',
+
+      review: 'Equipe très motivée, et allant au bout des choses ! Ce n’est pas le cas de tous !',
+      work: 'Registre-RH',
+    },
     // {
     //   avatar: Client_6,
     //   name: "Maham Zahid",

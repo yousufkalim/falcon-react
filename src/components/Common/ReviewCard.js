@@ -14,9 +14,9 @@ export default function ReviewCard(props) {
     <div className='ReviewCard_Container'>
       <div className='ReviewCard'>
         {/* <Avatar alt='Remy Sharp' src={props.src} sx={{ width: 120, height: 120 }} /> */}
-        <Typography
+        <h2
           className='Selection'
-          sx={{
+          style={{
             marginTop: '4%',
             fontWeight: 600,
             fontSize: '1.4rem',
@@ -25,19 +25,19 @@ export default function ReviewCard(props) {
           }}
         >
           {name}
-        </Typography>
-        <Typography
+        </h2>
+        <h3
           className='Selection'
-          sx={{
+          style={{
             margin: '0',
-            // fontWeight: 400,
+            fontWeight: 400,
             fontSize: '.9rem',
             opacity: '.8',
-            margin: '0 0 5% 0',
+            margin: '2% 0 5% 0',
           }}
         >
           {country}
-        </Typography>
+        </h3>
         {/* <Rating
           name='simple-controlled'
           // name="size-medium"
@@ -48,9 +48,9 @@ export default function ReviewCard(props) {
             setValue(newValue);
           }}
         /> */}
-        <Typography
+        <p
           className='Selection'
-          sx={{
+          style={{
             width: '80%',
             fontSize: '.8rem',
             opacity: '.9',
@@ -59,10 +59,10 @@ export default function ReviewCard(props) {
         >
           {review?.length > 100 ? review?.slice(0, 100) + '...' : review}
           {/* {review} */}
-        </Typography>
-        <Typography
+        </p>
+        <h4
           className='Selection'
-          sx={{
+          style={{
             marginTop: '10%',
             fontWeight: '400',
             fontSize: '.7rem',
@@ -71,7 +71,7 @@ export default function ReviewCard(props) {
           }}
         >
           {work}
-        </Typography>
+        </h4>
       </div>
     </div>
   );

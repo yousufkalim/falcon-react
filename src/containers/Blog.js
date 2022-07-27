@@ -27,7 +27,7 @@ export default function Blog() {
         />
         <meta
           name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, projects, blogs, articles, blog articles,collaborating,expertize'
+          content='falcon, falconit, falcon consulting,blogs, Remote Team, business website is necessary, business website'
         />
       </Helmet>
       <NavBar />

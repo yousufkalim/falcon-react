@@ -21,7 +21,7 @@ export default function OurProjects() {
         />
         <meta
           name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, '
+          content='falcon, falconit, falcon consulting, SIMPLE IDEA, opportunity, efficient process'
         />
       </Helmet>
       <NavBar />

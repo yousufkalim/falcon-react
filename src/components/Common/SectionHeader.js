@@ -33,12 +33,12 @@ export default function SectionHeader(props) {
             {t(props.h1)}
           </h1>
 
-          <h1
+          <h2
             className='SectionHeaderH2'
             style={{ color: props.colorH2 ? props.colorH2 : '#003B7E' }}
           >
             {t(props.h2)}
-          </h1>
+          </h2>
         </motion.div>
       ) : (
         <motion.div
@@ -52,12 +52,12 @@ export default function SectionHeader(props) {
             {t(props.h1)}
           </h2>
           <Divider className='SectionHeaderDivider' width={props.width || '10%'} />
-          <h1
+          <h2
             className='SectionHeaderH2'
             style={{ color: props.colorH2 ? props.colorH2 : '#003B7E' }}
           >
             {t(props.h2)}
-          </h1>
+          </h2>
           <h3
             className='SectionHeaderDesp'
             style={{ color: props.colorDesp ? props.colorDesp : '#404040B2' }}

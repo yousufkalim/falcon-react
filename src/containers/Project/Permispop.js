@@ -76,7 +76,7 @@ export default function Permispop() {
         src={ThemeImage}
       />
       <DetailLogo />
-      <DetailAppDev halfImg={AppDev} />
+      <DetailAppDev application halfImg={AppDev} />
       <DetailWebDev
         // titleTheme
         // AvatarSrc

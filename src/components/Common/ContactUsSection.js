@@ -155,10 +155,8 @@ export default function ContactUsSection(props) {
                   <div className='ContactMediaDiv'>
                     <img className='ContactMediaIcons' src={EmailIcon} alt='Email' />
                     <div className='SocialMediaText'>
-                      <Typography sx={{ fontSize: '1rem' }}>{t('Email')}</Typography>
-                      <Typography sx={{ fontSize: '.7rem' }}>
-                        contact@falconconsulting.fr
-                      </Typography>
+                      <h3 sx={{ fontSize: '1rem' }}>{t('Email')}</h3>
+                      <h5 sx={{ fontSize: '.7rem' }}>contact@falconconsulting.fr</h5>
                     </div>
                   </div>
                 </a>
@@ -166,8 +164,8 @@ export default function ContactUsSection(props) {
                   <div className='ContactMediaDiv'>
                     <img className='ContactMediaIcons' src={CalendlyIcon} alt='Calendly' />
                     <div className='SocialMediaText'>
-                      <Typography sx={{ fontSize: '1rem' }}>{t('Calendly')}</Typography>
-                      <Typography sx={{ fontSize: '.7rem' }}>{t('Click and join link')}</Typography>
+                      <h3 sx={{ fontSize: '1rem' }}>{t('Calendly')}</h3>
+                      <h5 sx={{ fontSize: '.7rem' }}>{t('Click and join link')}</h5>
                     </div>
                   </div>
                 </a>
@@ -208,8 +206,8 @@ export default function ContactUsSection(props) {
                       <div className='SocialMediaDiv'>
                         <img className='SocialMediaIcons' src={CalendlyIcon} alt='calendly' />
                         <div className='SocialMediaText'>
-                          <Typography>{t('Schedule Meeting')}</Typography>
-                          <Typography>calendly.com/falconit</Typography>
+                          <h4>{t('Schedule Meeting')}</h4>
+                          <h4>calendly.com/falconit</h4>
                         </div>
                       </div>
                     </a>
@@ -219,8 +217,8 @@ export default function ContactUsSection(props) {
                       <div className='SocialMediaDiv'>
                         <img className='SocialMediaIcons' src={EmailIcon} alt='email' />
                         <div className='SocialMediaText'>
-                          <Typography>{t('Email')}</Typography>
-                          <Typography>contact@falconconsulting.fr</Typography>
+                          <h4>{t('Email')}</h4>
+                          <h4>contact@falconconsulting.fr</h4>
                         </div>
                       </div>
                     </a>

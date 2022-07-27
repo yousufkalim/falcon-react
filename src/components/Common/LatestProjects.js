@@ -511,24 +511,24 @@ export default function LatestProjects(props) {
           >
             <div className='About_InfoLeft' style={{ position: 'relative' }}>
               <Timer className='ProjectsCompleted_Timer' />
-              <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: '700' }}>
+              <h2 className='ProjectsCompleted_Num' sx={{ fontWeight: '700' }}>
                 8+
-              </Typography>
-              <Typography className='ProjectsCompleted_H'>{t('Years of Excellence')}</Typography>
+              </h2>
+              <h2 className='ProjectsCompleted_H'>{t('Years of Excellence')}</h2>
             </div>
             <div className='About_InfoCenter' style={{ position: 'relative' }}>
               <MedKit className='ProjectsCompleted_MedKit' />
-              <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: '700' }}>
+              <h2 className='ProjectsCompleted_Num' sx={{ fontWeight: '700' }}>
                 85+
-              </Typography>
-              <Typography className='ProjectsCompleted_H'>{t('Project Completed')}</Typography>
+              </h2>
+              <h2 className='ProjectsCompleted_H'>{t('Project Completed')}</h2>
             </div>
             <div className='About_InfoRight' style={{ position: 'relative' }}>
               <Award className='ProjectsCompleted_Award' />
-              <Typography className='ProjectsCompleted_Num' sx={{ fontWeight: '700' }}>
+              <h2 className='ProjectsCompleted_Num' sx={{ fontWeight: '700' }}>
                 60+
-              </Typography>
-              <Typography className='ProjectsCompleted_H'>{t('Clients Satisfied')}</Typography>
+              </h2>
+              <h2 className='ProjectsCompleted_H'>{t('Clients Satisfied')}</h2>
             </div>
           </motion.div>
         )}
