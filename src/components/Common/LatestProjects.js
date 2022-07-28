@@ -5,9 +5,9 @@ import 'react-multi-carousel/lib/styles.css';
 import KidCab from '../../assets/images/kidcab.svg';
 import KC_logo from '../../assets/images/kidcabLogo.png';
 import Permispop from '../../assets/images/permispop.png';
-import PP_logo from '../../assets/images/permisLogo.png';
+import PP_logo from '../../assets/images/pp_logo_lp.svg';
 import QB from '../../assets/images/quadrabase.svg';
-import QB_logo from '../../assets/images/qudra_logo.svg';
+import QB_logo from '../../assets/images/qb_lp_logo.svg';
 import Desine from '../../assets/images/desine.png';
 import Desine_Logo from '../../assets/images/desineLogo.png';
 import Real_Estate from '../../assets/images/realEstate.png';
@@ -35,21 +35,22 @@ import FiremanLogo from '../../assets/images/fireman_logo_lp.png';
 import Canon from '../../assets/images/canon_lp.png';
 import Canon_Logo from '../../assets/images/canonlogo.png';
 import Register from '../../assets/images/register_lp.png';
-import RegisterLogo from '../../assets/images/register_logo_lp.png';
+import RegisterLogo from '../../assets/images/rr_logo_lp.svg';
 import Accor from '../../assets/images/accor_lp.png';
 import AccorHotel_Logo from '../../assets/images/accorlogo.png';
 import Wina from '../../assets/images/wina_lp.png';
-import Wina_Logo from '../../assets/images/wina_logo.svg';
+import Wina_Logo_modal from '../../assets/images/wina_logo_lp.svg';
 import Zypzap from '../../assets/images/zypzap_lp.png';
 import Zypzap_Logo from '../../assets/images/zypzap_Logo.svg';
 import Tilt from '../../assets/images/tilt_lp.png';
-import Tilt_Logo from '../../assets/images/tilt_logo.svg';
+import Tilt_Logo from '../../assets/images/tilt_logo.png';
 import Blsh from '../../assets/images/blsh_lp.png';
 import BlshLogo from '../../assets/images/blsh_logo_lp.png';
 import Orgaplan from '../../assets/images/orgaplan_lp.png';
 import Orgaplan_Logo from '../../assets/images/orgaplan_logo.svg';
 import Tajweed from '../../assets/images/tajweed_lp.png';
 import Tajweed_logo from '../../assets/images/tajweed_logo.svg';
+import Tajweed_ModalLogo from '../../assets/images/tajweed_logo_lp.svg';
 
 import Beauty from '../../assets/images/beauty_lp.png';
 import BeautyLogo from '../../assets/images/beauty_logo_lp.png';
@@ -145,7 +146,7 @@ export default function LatestProjects(props) {
         >
           <Carousel
             className='SliderDiv'
-            autoPlay={true}
+            autoPlay={false}
             responsive={responsive}
             transitionDuration={10}
             slidesToSlide={1}
@@ -346,7 +347,7 @@ export default function LatestProjects(props) {
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               heading='Wina'
-              LogoSrc={Wina_Logo}
+              LogoSrc={Wina_Logo_modal}
             />
             <LatestProjectsCard
               hoverDesp={t('ZypZap is a gaming platform by Falcon IT.')}
@@ -402,7 +403,8 @@ export default function LatestProjects(props) {
               // to='/ourprojects/ezbox'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              LogoSrc={Tajweed_logo}
+              LogoSrc={Tajweed_ModalLogo}
+              ModalLogo={Tajweed_logo}
               // DividerTheme='#007536'
               heading='Tajweed'
               title='Tajweed'
