@@ -33,12 +33,12 @@
     margin-top: 5%;
 }
 .AboutSectionBtn{
-    color: #42C2FF;
+    color: #42C2FF !important;
     border: none;
     background-color: transparent;
     font-size: 100%;
     font-weight: 600;
-    margin-top: 5%;
+    margin-top: 5% !important;
     text-transform: uppercase;
     cursor: pointer;
 }
