@@ -3,16 +3,18 @@ import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import OurProjectCard from '../Common/OurProjectCard';
 import PermispopImg from '../../assets/images/permispop_update.png';
-import PP_logo from '../../assets/images/permisLogo.png';
+// import PP_logo from '../../assets/images/permisLogo.png';
 import DesignConf from '../../assets/images/designconf_update.png';
 import Desine_Logo from '../../assets/images/desineLogo.png';
 import RealEstate_Logo from '../../assets/images/realestateLogo.png';
 import Movement from '../../assets/images/tele_update.png';
 import Tele_logo from '../../assets/images/tele_logo.svg';
 import Quadra from '../../assets/images/quadra_update.png';
-import Quadra_Logo from '../../assets/images/qudra_logo.svg';
+// import Quadra_Logo from '../../assets/images/qudra_logo.svg';
 import BarberShop from '../../assets/images/barber_update.png';
+import BarberLogo from '../../assets/images/barbershop_logo_lp.png';
 import Blsh from '../../assets/images/blish_update.png';
+import BlshLogo from '../../assets/images/blsh_logo_lp.png';
 import Kidcap from '../../assets/images/kidcab_update.png';
 import Kidcab_Logo from '../../assets/images/kidcabLogo.png';
 import Tajweed from '../../assets/images/tajweed_update.png';
@@ -20,11 +22,11 @@ import Tajweed_logo from '../../assets/images/tajweed_logo.svg';
 import EZbox from '../../assets/images/ezbox_update.png';
 import EZBox_Logo from '../../assets/images/ezbox_logo.svg';
 import BeautySalon from '../../assets/images/salon_update.png';
+import BeautyLogo from '../../assets/images/beauty_logo_lp.png';
 import RealEstate from '../../assets/images/realestate_update.png';
 import Orgaplan from '../../assets/images/orgaplan_update.png';
 import Orgaplan_Logo from '../../assets/images/orgaplan_logo.svg';
 import Tilt from '../../assets/images/tilt_update.png';
-import Tilt_Logo from '../../assets/images/tilt_logo.svg';
 import Microsoft from '../../assets/images/microsoft_update.png';
 import Microsoft_Logo from '../../assets/images/microsoftlogo.png';
 import Fnac from '../../assets/images/fnac_update.png';
@@ -42,7 +44,6 @@ import Yuwway from '../../assets/images/yuwway_update.png';
 import Zypzap from '../../assets/images/zypzap_update.png';
 import Zypzap_Logo from '../../assets/images/zypzap_Logo.svg';
 import Wina from '../../assets/images/wina_update.png';
-import Wina_Logo from '../../assets/images/wina_logo.svg';
 import Ficility from '../../assets/images/facility_update.png';
 import Fireman from '../../assets/images/fireman_update.png';
 import Orientator from '../../assets/images/orientator_update.png';
@@ -228,7 +229,7 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           Reverse
-          LogoSrc={Quadra_Logo}
+          // LogoSrc={Quadra_Logo}
           DividerTheme='#7A7A7A'
           src={Quadra}
           to='/ourprojects/quadrabase'
@@ -240,7 +241,7 @@ export default function BasicTabs() {
           para3='This project is ambitious and aims to revolutionize the approach to design in the field of construction in France. '
         />
         <OurProjectCard
-          LogoSrc={PP_logo}
+          // LogoSrc={PP_logo}
           DividerTheme='#11A283'
           src={PermispopImg}
           title='Permispop'
@@ -287,7 +288,7 @@ export default function BasicTabs() {
 
         <OurProjectCard
           Reverse
-          LogoSrc={Tilt_Logo}
+          // LogoSrc={Tilt_Logo}
           DividerTheme='red'
           to='/ourprojects/tilt'
           title='Tilt'
@@ -326,6 +327,7 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           src={Blsh}
+          LogoSrc={BlshLogo}
           title='Blsh Delivery'
           description='We are building a marketplace for delivery supplies on the customer and small business demand.'
           heading='Blsh Delivery'
@@ -368,7 +370,7 @@ export default function BasicTabs() {
         <OurProjectCard
           Reverse
           to='/ourprojects/tilt'
-          LogoSrc={Tilt_Logo}
+          // LogoSrc={Tilt_Logo}
           DividerTheme='red'
           title='Tilt'
           description='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
@@ -381,7 +383,7 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           to='/ourprojects/permispop'
-          LogoSrc={PP_logo}
+          // LogoSrc={PP_logo}
           // ModalHeading="Permispop"
           DividerTheme='#11A283'
           src={PermispopImg}
@@ -401,7 +403,7 @@ export default function BasicTabs() {
 
         <OurProjectCard
           Reverse
-          LogoSrc={Quadra_Logo}
+          // LogoSrc={Quadra_Logo}
           to='/ourprojects/quadrabase'
           DividerTheme='#7A7A7A'
           src={Quadra}
@@ -549,7 +551,6 @@ export default function BasicTabs() {
 
         <OurProjectCard
           to='/ourprojects/wina'
-          LogoSrc={Wina_Logo}
           DividerTheme='#C39B7E'
           src={Wina}
           title='Wina'
@@ -617,6 +618,7 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           Reverse
+          LogoSrc={BarberLogo}
           title='Barber Shop'
           description='BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.'
           src={BarberShop}
@@ -637,6 +639,7 @@ export default function BasicTabs() {
 
         <OurProjectCard
           Reverse
+          LogoSrc={BeautyLogo}
           src={BeautySalon}
           title='Beauty Salon'
           description='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
@@ -690,6 +693,7 @@ export default function BasicTabs() {
 
         <OurProjectCard
           Reverse
+          LogoSrc={BlshLogo}
           src={Blsh}
           title='Blsh Delivery'
           description='We are building a marketplace for delivery supplies on the customer and small business demand.'
@@ -752,7 +756,7 @@ export default function BasicTabs() {
           para4='Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. '
         />
         <OurProjectCard
-          LogoSrc={PP_logo}
+          // LogoSrc={PP_logo}
           src={PermispopImg}
           title='Permispop'
           to='/ourprojects/permispop'
@@ -793,7 +797,7 @@ export default function BasicTabs() {
         <OurProjectCard
           Reverse
           to='/ourprojects/tilt'
-          LogoSrc={Tilt_Logo}
+          // LogoSrc={Tilt_Logo}
           DividerTheme='red'
           title='Tilt'
           description='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order. '
@@ -859,12 +863,14 @@ export default function BasicTabs() {
 
         <OurProjectCard
           Reverse
+          LogoSrc={BarberLogo}
           title='Barber Shop'
           description='BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.'
           src={BarberShop}
         />
         <OurProjectCard
           src={Blsh}
+          LogoSrc={BlshLogo}
           title='Blsh Delivery'
           description='We are building a marketplace for delivery supplies on the customer and small business demand.'
           heading='Blsh Delivery'
@@ -903,7 +909,7 @@ export default function BasicTabs() {
           para3='The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.'
         />
         <OurProjectCard
-          LogoSrc={PP_logo}
+          // LogoSrc={PP_logo}
           src={PermispopImg}
           to='/ourprojects/permispop'
           title='Permispop'
@@ -938,7 +944,7 @@ export default function BasicTabs() {
         />
 
         <OurProjectCard
-          LogoSrc={Quadra_Logo}
+          // LogoSrc={Quadra_Logo}
           DividerTheme='#7A7A7A'
           src={Quadra}
           to='/ourprojects/quadrabase'
@@ -976,6 +982,7 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           Reverse
+          LogoSrc={BarberLogo}
           title='Barber Shop'
           description='BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.'
           src={BarberShop}
@@ -989,6 +996,7 @@ export default function BasicTabs() {
         <OurProjectCard
           Reverse
           src={Blsh}
+          LogoSrc={BlshLogo}
           title='Blsh Delivery'
           description='We are building a marketplace for delivery supplies on the customer and small business demand.'
           heading='Blsh Delivery'

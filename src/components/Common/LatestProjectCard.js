@@ -38,7 +38,7 @@ export default function LatestProjectsCard(props) {
               ModalBtntextColor='#003B7E'
               ModalBtnTheme={props.ModalBtnTheme || 'transparent'}
               ModalBtnText={t('View More')}
-              LogoSrc={props.LogoSrc}
+              LogoSrc={props.ModalLogo ? props.ModalLogo : props.LogoSrc}
               Heading={props.heading}
               Dividerwidth={props.Dividerwidth || '12%'}
               DividerTheme={props.DividerTheme}
