@@ -38,14 +38,14 @@ export default function ReviewSection() {
         'They have a very good development team. Responsive and dependable. We are working with them on other projects. Highly recommended!',
       work: 'Kidgystic-Mobile application for Parental Control',
     },
-    {
-      // avatar: Client_4,
-      name: 'Jacob B.',
-      country: 'United States',
-      review:
-        'We had a problem with our AWS configuration and suddenly all our apps and websites shut down. We were in a panic and Falcon IT Consulting came to our rescue. They did a terrific job and quickly got our apps and websites up and running again. Their team is clear in communications and very responsive. We really enjoyed working with them',
-      work: 'Deloitte-Amazon Web Services Server Configurations',
-    },
+    // {
+    //   // avatar: Client_4,
+    //   name: 'Jacob B.',
+    //   country: 'United States',
+    //   review:
+    //     'We had a problem with our AWS configuration and suddenly all our apps and websites shut down. We were in a panic and Falcon IT Consulting came to our rescue. They did a terrific job and quickly got our apps and websites up and running again. Their team is clear in communications and very responsive. We really enjoyed working with them',
+    //   work: 'Deloitte-Amazon Web Services Server Configurations',
+    // },
     {
       // avatar: Client_5,
       name: 'Sonya L.',
