@@ -67,7 +67,7 @@ i18n
           'We are a human-oriented company, investing in training healthy atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to put in place a continuous improvement process internally':
             'We are a human-oriented company, investing in training healthy atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to put in place a continuous improvement process internally',
           'READ MORE': 'READ MORE',
-
+          'More About Our Company': 'More About Our Company',
           //   partners section
           'SINCERELY YOURS': 'SINCERELY YOURS',
           'Some Amazing Partners We Work With': 'Some Amazing Partners We Work With',
@@ -1072,6 +1072,7 @@ i18n
           'We are a human-oriented company, investing in training healthy atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to put in place a continuous improvement process internally':
             "Falcon Consulting est axée sur l'humain, permettant à ses collaborateurs de travailler dans un environnement sain, afin qu'ils atteignent leur plein potentiel et se développent personnellement grâce à leur travail. Notre équipe est sensibilisée chaque jour à l'importance de la gestion de la qualité, et nous nous efforçons de mettre en place une démarche d'amélioration continue pour nos partenaires.",
           'READ MORE': 'LIRE LA SUITE',
+          'More About Our Company': 'En savoir plus sur notre entreprise',
 
           //   partners section
           'SINCERELY YOURS': 'À VOTRE SERVICE',

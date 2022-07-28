@@ -10,6 +10,7 @@ import AboutInfo5 from '../../assets/images/aboutSec_5.svg';
 import AboutInfo6 from '../../assets/images/aboutSec_6.svg';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 export default function AboutSection() {
   const { t } = useTranslation();
@@ -120,9 +121,11 @@ export default function AboutSection() {
                         'We are a human-oriented company, investing in training healthy atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to put in place a continuous improvement process internally'
                       )}
                     </h3>
-                    <a href={`/about`}>
-                      <button className='AboutSectionBtn'>{t('READ MORE')}</button>
-                    </a>
+                    <button className='AboutSectionBtn'>
+                      <Link style={{ color: '#42C2FF' }} to='/about'>
+                        {t('More About Our Company')}
+                      </Link>
+                    </button>
                   </motion.div>
                 </div>
               </Grid>
