@@ -11,7 +11,7 @@ const PolicyHeader = () => {
             <div>
               <img src={Legal_Icon} alt='Policy' />
             </div>
-            <Typography className='LegalMention_HeaderTitle'>Privacy Policy</Typography>
+            <h1 className='LegalMention_HeaderTitle'>Privacy Policy</h1>
           </div>
           {/* <div className="LegalMention_HeaderDespDiv"> */}
           {/* <Typography className="LegalMention_HeaderDesp_H">Privacy Policy</Typography> */}

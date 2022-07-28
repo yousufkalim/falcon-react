@@ -24,7 +24,7 @@ export default function BlogCard(props) {
         >
           {t(props.date)}
         </h3>
-        <h1 className='BlogCardTitle'>{t(props.title)}</h1>
+        <h2 className='BlogCardTitle'>{t(props.title)}</h2>
       </div>
     </>
   );

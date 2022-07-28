@@ -72,6 +72,7 @@ export default function Yuwway() {
         // desp
         // btnText
         // DetailDemo_SquareDiv
+        to='https://play.google.com/store/apps/details?id=com.yuwway.yuwway&referrer=utm_source%3Daarki%26utm_medium%3Dclic%26anid%3Daarki%26aclid%3D{click_id}%26cp1%3D{app_id}'
         DetailDemo_RoundDiv
         titleColor='#0073BB'
         title='Yuwway'

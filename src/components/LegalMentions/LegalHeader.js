@@ -12,7 +12,7 @@ export default function LegalHeader(props) {
             <div>
               <img src={Legal_Icon} alt='Legal Mentions' />
             </div>
-            <Typography className='LegalMention_HeaderTitle'>{t('Legal Mentions')}</Typography>
+            <h1 className='LegalMention_HeaderTitle'>{t('Legal Mentions')}</h1>
           </div>
           {/* <div className="LegalMention_HeaderDespDiv">
             <Typography className="LegalMention_HeaderDesp_H">

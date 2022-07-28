@@ -19,10 +19,10 @@ export default function LatestProjectsCard(props) {
           <img className='hoverDivLogo' src={props.LogoSrc} alt='hoverImg' />
         </div>
 
-        <h1 className='HoverDivTypo'>
+        <h2 className='HoverDivTypo'>
           {/* {t(props.hoverDesp)} */}
           {t(desp?.length > 150 ? desp.slice(0, 150) + '...' : desp)}
-        </h1>
+        </h2>
         <button
           className='HoverDivBtnDark'
           style={{
@@ -38,7 +38,7 @@ export default function LatestProjectsCard(props) {
               ModalBtntextColor='#003B7E'
               ModalBtnTheme={props.ModalBtnTheme || 'transparent'}
               ModalBtnText={t('View More')}
-              LogoSrc={props.LogoSrc}
+              LogoSrc={props.ModalLogo ? props.ModalLogo : props.LogoSrc}
               Heading={props.heading}
               Dividerwidth={props.Dividerwidth || '12%'}
               DividerTheme={props.DividerTheme}

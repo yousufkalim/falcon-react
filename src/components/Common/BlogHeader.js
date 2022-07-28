@@ -43,12 +43,12 @@ export default function BlogHeader() {
         viewport={{ once: true }}
         className='BlogHeaderMain'
       >
-        <Typography
+        <h1
           className='BlogHeaderTypo'
-          sx={{ color: '#263238', fontSize: '1.7rem', fontWeight: '800' }}
+          style={{ color: '#263238', fontSize: '1.7rem', fontWeight: '800' }}
         >
           FALCON <span style={{ color: '#0F52BA' }}>BLOG</span>
-        </Typography>
+        </h1>
         <Typography
           className='BlogHeaderTypo'
           sx={{

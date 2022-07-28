@@ -157,7 +157,7 @@ opacity: 1;
   left: 18%;
 }
 .ProjectsCompleted_Num{
-        font-family: 'Rubik', sans-serif !important;
+        font-family: Montserrat!important;
         color: #F8F8F8 !important;
         font-size: 3rem !important;
         /* font-weight: 800 !important; */
@@ -165,7 +165,7 @@ opacity: 1;
 }
 .ProjectsCompleted_H{
         color: #F8F8F8;
-        font-family: 'Rubik', sans-serif !important;
+        font-family: Montserrat!important;
         font-size: 1.7rem !important;
         font-weight: 400 !important;
         text-align: center;

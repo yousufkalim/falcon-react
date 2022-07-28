@@ -128,6 +128,7 @@
 }
 .Footer_MobView_Title{
     color: #282828;
+    font-size: 1.4rem;
     margin: 10% 0 !important;
     opacity: .5;
     font-weight: 700 !important;
@@ -146,6 +147,8 @@
     align-items: center;
 }
 .Footer_MobView_LegalMentionLink{
+    padding: 2% 0;
+    font-size: 1.1rem;
      color: #282828;
       font-weight: 700;
      text-decoration: underline !important;
@@ -211,9 +214,11 @@
         padding: 5%;
     }
     .FooterLogoMob{
-        width:70%;
+        width:100%;
     }
     .FooterMob_Link{
+        font-size: 1.2rem;
+        width: 100%;
         color: #4879b1 !important;
         font-weight: 400 !important;
     }

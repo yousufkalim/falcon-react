@@ -1792,7 +1792,7 @@ export const data = [
     body: (
       <>
         <Typography className='LegalMentions_Data_P'>
-          <h1 className='headH1'>Government Data Request Policy</h1>
+          <h2 className='headH1'>Government Data Request Policy</h2>
           <h3 className='head'>1. Introduction</h3>
           <p className='pera'>
             1.1 This Government Data Request Policy sets out Falcon Consulting’s procedure for
