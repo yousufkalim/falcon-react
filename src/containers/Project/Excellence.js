@@ -16,6 +16,7 @@ import DetailDesign from '../../components/ProjectDetails/DetailDesign';
 import OrgaPlan_Design1 from '../../assets/images/orgaplan_design1.png';
 import OrgaPlan_Design2 from '../../assets/images/orgaplan_design2.png';
 import OrgaPlan_Design3 from '../../assets/images/orgaplan_design3.png';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
 
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import Excellence_Theme from '../../assets/images/excellence_theme.png';
@@ -105,7 +106,7 @@ export default function Excellence() {
         // src1={OrgaPlan_Theme}
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
-        fullscreen
+        // fullscreen
         title='COLOR THEME AND DESIGN'
         titleTheme='#282828'
         // desp
@@ -117,16 +118,17 @@ export default function Excellence() {
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
-        src={Excellence_Theme}
+        // src={Excellence_Theme}
       />
       {/* <DetailLogo theme="#EDCF99" src={RealEstate_Logo} /> */}
-      {/* <DetailAppDev
-        title="Web Design"
+      <DetailAppDev
+        website
+        title='WEB DEVELOPMENT'
         // desp
-        fullImg={OrgaPlan_WebDesign}
-        titleTheme="#282828"
+        fullImg={Excellence_Theme}
+        titleTheme='#282828'
         // halfImg=(src Required)
-      /> */}
+      />
       <DetailFeedback
         titleTheme='#0086EF'
         despTheme='#282828'
