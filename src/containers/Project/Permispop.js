@@ -83,7 +83,7 @@ export default function Permispop() {
         // nameColor
         name='Salim S.'
         // location
-        feedback='We at Permispop are very impressed with all aspects of our website and mobile app, as it is user-friendly and work efficiently. We would highly recommend Falcon IT Consulting to anyone looking to build a website, web app or mobile application.'
+        feedback='We at Permispop are very impressed with all aspects of our website and mobile app, as it is user-friendly and work efficiently. We would highly recommend Falcon IT to anyone looking to build a website, web app or mobile application.'
       />
       {/* <DetailFeedback /> */}
       <Footer />
