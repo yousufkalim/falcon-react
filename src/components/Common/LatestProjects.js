@@ -22,16 +22,12 @@ import TeleHealth from '../../assets/images/tele_lp.png';
 import Tele_logo from '../../assets/images/tele_logo.svg';
 import Table from '../../assets/images/table_lp.png';
 import TableLogo from '../../assets/images/table_logo_lp.png';
-import Barber from '../../assets/images/barber_lp.png';
-import BarberLogo from '../../assets/images/barbershop_logo_lp.png';
 import Excellence from '../../assets/images/excellence_lp.png';
 import ExcellenceLogo from '../../assets/images/excellence_logo_lp.svg';
 import Fnac from '../../assets/images/fnac_lp.png';
 import Fnac_Logo from '../../assets/images/fnaclogo.png';
 import Fireman from '../../assets/images/fireman_lp.png';
 import FiremanLogo from '../../assets/images/fireman_logo_lp.png';
-// import Toyota from '../../assets/images/toyota_lp.png';
-// import Toyota_Logo from '../../assets/images/toyotalogo.png';
 import Canon from '../../assets/images/canon_lp.png';
 import Canon_Logo from '../../assets/images/canonlogo.png';
 import Register from '../../assets/images/register_lp.png';
@@ -44,24 +40,17 @@ import Zypzap from '../../assets/images/zypzap_lp.png';
 import Zypzap_Logo from '../../assets/images/zypzap_Logo.svg';
 import Tilt from '../../assets/images/tilt_lp.png';
 import Tilt_Logo from '../../assets/images/tilt_logo.png';
-import Blsh from '../../assets/images/blsh_lp.png';
-import BlshLogo from '../../assets/images/blsh_logo_lp.png';
 import Orgaplan from '../../assets/images/orgaplan_lp.png';
 import Orgaplan_Logo from '../../assets/images/orgaplan_logo.svg';
 import Tajweed from '../../assets/images/tajweed_lp.png';
 import Tajweed_logo from '../../assets/images/tajweed_logo.svg';
 import Tajweed_ModalLogo from '../../assets/images/tajweed_logo_lp.svg';
-
-import Beauty from '../../assets/images/beauty_lp.png';
-import BeautyLogo from '../../assets/images/beauty_logo_lp.png';
 import Microsoft from '../../assets/images/microsoft_lp.png';
 import MicrosoftLogo from '../../assets/images/microsoft_logo_lp.png';
 import Sindoor from '../../assets/images/sindoor_lp.png';
 import SindoorLogo from '../../assets/images/sindoor_logo_lp.png';
 import Orientator from '../../assets/images/orientator_lp.png';
 import OrientatorLogo from '../../assets/images/orientator_logo_lp.png';
-
-import { Typography } from '@mui/material';
 import { motion } from 'framer-motion';
 import LatestProjectsCard from './LatestProjectCard';
 import { ReactComponent as Timer } from '../../assets/images/timer.svg';
@@ -69,8 +58,6 @@ import { ReactComponent as MedKit } from '../../assets/images/medkit.svg';
 import { ReactComponent as Award } from '../../assets/images/award.svg';
 import { useTranslation } from 'react-i18next';
 import Fab from '@mui/material/Fab';
-// import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-// import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { ReactComponent as LeftArrow } from '../../assets/images/left_arrow_btn.svg';
 import { ReactComponent as RightArrow } from '../../assets/images/right_arrow_btn.svg';
 
@@ -146,7 +133,7 @@ export default function LatestProjects(props) {
         >
           <Carousel
             className='SliderDiv'
-            autoPlay={false}
+            autoPlay={true}
             responsive={responsive}
             transitionDuration={10}
             slidesToSlide={1}
@@ -369,7 +356,7 @@ export default function LatestProjects(props) {
               Heading='Tilt'
               LogoSrc={Tilt_Logo}
             />
-            <LatestProjectsCard
+            {/* <LatestProjectsCard
               src={Blsh}
               // to='/ourprojects/ezbox'
               DividerTheme='#3399FE'
@@ -385,7 +372,7 @@ export default function LatestProjects(props) {
               para3='The Individual shopper can use delivery regularly (weekly, monthly, etc). Or only when there is a need for the delivery.'
               para4='The app will offer market-based pricing. When the Individual shopper requests, he will offer the price he is willing to pay for delivery. All drivers who match his request will see the price. They will be able to accept the request or negotiate the delivery price.'
               para5='The app will be free for Customers. The Courier will pay 20% of the delivery price.'
-            />
+            /> */}
             <LatestProjectsCard
               hoverDesp={t(
                 'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
@@ -418,7 +405,7 @@ export default function LatestProjects(props) {
               para4='•	User can repeat the lesson at any time without an internet connection'
               para5='•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy.'
             />
-            <LatestProjectsCard
+            {/* <LatestProjectsCard
               src={Beauty}
               // to='/ourprojects/ezbox'
               DividerTheme='#3399FE'
@@ -429,7 +416,7 @@ export default function LatestProjects(props) {
               )}
               heading='Beauty Salon'
               para1='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
-            />
+            /> */}
             <LatestProjectsCard
               src={Microsoft}
               // to='/ourprojects/ezbox'
@@ -490,7 +477,7 @@ export default function LatestProjects(props) {
               Heading='Table'
               LogoSrc={TableLogo}
             />
-            <LatestProjectsCard
+            {/* <LatestProjectsCard
               hoverDesp={t(
                 'BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.'
               )}
@@ -501,7 +488,7 @@ export default function LatestProjects(props) {
               // btnBackground="#3399FE"
               Heading='Barber Shop'
               LogoSrc={BarberLogo}
-            />
+            /> */}
           </Carousel>
         </motion.div>
         {props.ProjectsSummary && (

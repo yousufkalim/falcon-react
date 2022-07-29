@@ -3,29 +3,15 @@ import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import OurProjectCard from '../Common/OurProjectCard';
 import PermispopImg from '../../assets/images/permispop_update.png';
-// import PP_logo from '../../assets/images/permisLogo.png';
 import DesignConf from '../../assets/images/designconf_update.png';
-import Desine_Logo from '../../assets/images/desineLogo.png';
-import RealEstate_Logo from '../../assets/images/realestateLogo.png';
 import Movement from '../../assets/images/tele_update.png';
-import Tele_logo from '../../assets/images/tele_logo.svg';
 import Quadra from '../../assets/images/quadra_update.png';
-// import Quadra_Logo from '../../assets/images/qudra_logo.svg';
-import BarberShop from '../../assets/images/barber_update.png';
-import BarberLogo from '../../assets/images/barbershop_logo_lp.png';
-import Blsh from '../../assets/images/blish_update.png';
-import BlshLogo from '../../assets/images/blsh_logo_lp.png';
 import Kidcap from '../../assets/images/kidcab_update.png';
-import Kidcab_Logo from '../../assets/images/kidcabLogo.png';
 import Tajweed from '../../assets/images/tajweed_update.png';
 import Tajweed_logo from '../../assets/images/tajweed_logo.svg';
 import EZbox from '../../assets/images/ezbox_update.png';
-import EZBox_Logo from '../../assets/images/ezbox_logo.svg';
-import BeautySalon from '../../assets/images/salon_update.png';
-import BeautyLogo from '../../assets/images/beauty_logo_lp.png';
 import RealEstate from '../../assets/images/realestate_update.png';
 import Orgaplan from '../../assets/images/orgaplan_update.png';
-import Orgaplan_Logo from '../../assets/images/orgaplan_logo.svg';
 import Tilt from '../../assets/images/tilt_update.png';
 import Microsoft from '../../assets/images/microsoft_update.png';
 import Microsoft_Logo from '../../assets/images/microsoftlogo.png';
@@ -35,21 +21,16 @@ import Canon from '../../assets/images/canon_update.png';
 import Canon_Logo from '../../assets/images/canonlogo.png';
 import AccorHotel from '../../assets/images/accor_update.png';
 import AccorHotel_Logo from '../../assets/images/accorlogo.png';
-// import Toyota from "../../assets/images/toyota_update.png";
-// import Toyota_Logo from "../../assets/images/toyotalogo.png";
 import ERP from '../../assets/images/excellence_update.png';
 import PizzaBoli from '../../assets/images/table_update.png';
 import Sindoor from '../../assets/images/sindoor_update.png';
 import Yuwway from '../../assets/images/yuwway_update.png';
 import Zypzap from '../../assets/images/zypzap_update.png';
-import Zypzap_Logo from '../../assets/images/zypzap_Logo.svg';
 import Wina from '../../assets/images/wina_update.png';
 import Ficility from '../../assets/images/facility_update.png';
 import Fireman from '../../assets/images/fireman_update.png';
 import Orientator from '../../assets/images/orientator_update.png';
 import Register_RH from '../../assets/images/register_update.png';
-import { Grid } from '@mui/material';
-import { Button } from '@mui/material';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
@@ -118,7 +99,6 @@ function a11yProps(index) {
 export default function BasicTabs() {
   const { i18n, t } = useTranslation();
 
-  const [MoreProjects, SetMoreProjects] = React.useState(false);
   const [activeId, setactiveId] = useState(2);
   const [value, setValue] = React.useState(2);
 
@@ -204,7 +184,7 @@ export default function BasicTabs() {
         <OurProjectCard
           to='/ourprojects/orgaplan'
           Reverse
-          LogoSrc={Orgaplan_Logo}
+          // LogoSrc={Orgaplan_Logo}
           DividerTheme='#DBB208'
           src={Orgaplan}
           title='OrgaPlan'
@@ -217,7 +197,7 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           to='/ourprojects/telehealthplatform'
-          LogoSrc={Tele_logo}
+          // LogoSrc={Tele_logo}
           DividerTheme='#0F52BA'
           src={Movement}
           title='Movement detection for health providers'
@@ -259,32 +239,6 @@ export default function BasicTabs() {
 
         {/* {MoreProjects && (
           <> */}
-        <OurProjectCard
-          Reverse
-          to='/ourprojects/designconfection'
-          src={DesignConf}
-          title='Design Confection Ethiques'
-          description='A web app designed to help customers with customized stitching to receive your creation at your home. '
-          // Modal Data
-          para1='A web app designed to help customers with customized stitching to receive your creation at your home. '
-          para2='User login to register and add information regarding customized dress like color combination, stuff design, etc.'
-          para3='After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs.'
-          para4='Choose your designer with 99% accuracy as design confection brings your ideas to life.'
-        />
-        <OurProjectCard
-          LogoSrc={Kidcab_Logo}
-          DividerTheme='#0097A7'
-          src={Kidcap}
-          to='/ourprojects/kidcab'
-          title='Kidcab'
-          description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
-          // Modal Data
-          para1='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
-          para2='The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. '
-          para3='The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. '
-          para4='Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. '
-          para5='This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. '
-        />
 
         <OurProjectCard
           Reverse
@@ -300,9 +254,31 @@ export default function BasicTabs() {
           para3='On the restaurant side, it is possible to create and manage a customized menu, see all the incoming orders, and change their status.'
           para4='On the delivery side, the application the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications. '
         />
+        <OurProjectCard
+          // LogoSrc={Kidcab_Logo}
+          DividerTheme='#0097A7'
+          src={Kidcap}
+          to='/ourprojects/kidcab'
+          title='Kidcab'
+          description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
+          // Modal Data
+          para1='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
+          para2='The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. '
+          para3='The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. '
+          para4='Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. '
+          para5='This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. '
+        />
 
         <OurProjectCard
-          LogoSrc={EZBox_Logo}
+          Reverse
+          to='/ourprojects/excellence'
+          title='ERP Excellence'
+          description='Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
+          src={ERP}
+        />
+
+        <OurProjectCard
+          // LogoSrc={EZBox_Logo}
           DividerTheme='blue'
           to='/ourprojects/ezbox'
           title='EZbox'
@@ -317,26 +293,6 @@ export default function BasicTabs() {
           para6='•	EZBox media helps Product development for the next generation products with the wide variety of technologies available today.'
           para7='Chromium Browser:'
           para8='•	EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions. '
-        />
-        <OurProjectCard
-          Reverse
-          to='/ourprojects/excellence'
-          title='ERP Excellence'
-          description='Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
-          src={ERP}
-        />
-        <OurProjectCard
-          src={Blsh}
-          LogoSrc={BlshLogo}
-          title='Blsh Delivery'
-          description='We are building a marketplace for delivery supplies on the customer and small business demand.'
-          heading='Blsh Delivery'
-          // Modal Data
-          para1='We are building a marketplace for delivery supplies on the customer and small business demand.'
-          para2='The app will match the Customer delivery request with the Courier.'
-          para3='The Individual shopper can use delivery regularly (weekly, monthly, etc). Or only when there is a need for the delivery.'
-          para4='The app will offer market-based pricing. When the Individual shopper requests, he will offer the price he is willing to pay for delivery. All drivers who match his request will see the price. They will be able to accept the request or negotiate the delivery price.'
-          para5='The app will be free for Customers. The Courier will pay 20% of the delivery price.'
         />
 
         <OurProjectCard
@@ -353,6 +309,31 @@ export default function BasicTabs() {
           para3='•	Practice lessons are available.'
           para4='•	User can repeat the lesson at any time without an internet connection'
           para5='•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy.'
+        />
+        {/* <OurProjectCard
+          src={Blsh}
+          LogoSrc={BlshLogo}
+          title='Blsh Delivery'
+          description='We are building a marketplace for delivery supplies on the customer and small business demand.'
+          heading='Blsh Delivery'
+          // Modal Data
+          para1='We are building a marketplace for delivery supplies on the customer and small business demand.'
+          para2='The app will match the Customer delivery request with the Courier.'
+          para3='The Individual shopper can use delivery regularly (weekly, monthly, etc). Or only when there is a need for the delivery.'
+          para4='The app will offer market-based pricing. When the Individual shopper requests, he will offer the price he is willing to pay for delivery. All drivers who match his request will see the price. They will be able to accept the request or negotiate the delivery price.'
+          para5='The app will be free for Customers. The Courier will pay 20% of the delivery price.'
+        /> */}
+
+        <OurProjectCard
+          to='/ourprojects/designconfection'
+          src={DesignConf}
+          title='Design Confection Ethiques'
+          description='A web app designed to help customers with customized stitching to receive your creation at your home. '
+          // Modal Data
+          para1='A web app designed to help customers with customized stitching to receive your creation at your home. '
+          para2='User login to register and add information regarding customized dress like color combination, stuff design, etc.'
+          para3='After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs.'
+          para4='Choose your designer with 99% accuracy as design confection brings your ideas to life.'
         />
         {/* </>
         )} */}
@@ -416,7 +397,7 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           src={Kidcap}
-          LogoSrc={Kidcab_Logo}
+          // LogoSrc={Kidcab_Logo}
           to='/ourprojects/kidcab'
           DividerTheme='#0097A7'
           title='Kidcab'
@@ -441,7 +422,7 @@ export default function BasicTabs() {
 
         <OurProjectCard
           to='/ourprojects/telehealthplatform'
-          LogoSrc={Tele_logo}
+          // LogoSrc={Tele_logo}
           DividerTheme='#0F52BA'
           src={Movement}
           title='Movement detection for health providers'
@@ -479,7 +460,7 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           to='/ourprojects/orgaplan'
-          LogoSrc={Orgaplan_Logo}
+          // LogoSrc={Orgaplan_Logo}
           DividerTheme='#DBB208'
           src={Orgaplan}
           title='OrgaPlan'
@@ -494,7 +475,7 @@ export default function BasicTabs() {
         <OurProjectCard
           to='/ourprojects/zypzap'
           Reverse
-          LogoSrc={Zypzap_Logo}
+          // LogoSrc={Zypzap_Logo}
           DividerTheme='#522F6D'
           src={Zypzap}
           title='Zypzap'
@@ -509,7 +490,7 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           to='/ourprojects/ezbox'
-          LogoSrc={EZBox_Logo}
+          // LogoSrc={EZBox_Logo}
           DividerTheme='blue'
           title='EZbox'
           description='EZBox media is a platform providing different services including'
@@ -564,7 +545,7 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           Reverse
-          LogoSrc={Tajweed_logo}
+          // LogoSrc={Tajweed_logo}
           DividerTheme='#007536'
           src={Tajweed}
           title='Tajweed'
@@ -603,7 +584,7 @@ export default function BasicTabs() {
         />
 
         <OurProjectCard
-          LogoSrc={Desine_Logo}
+          // LogoSrc={Desine_Logo}
           to='/ourprojects/designconfection'
           // ModalHeading="Design Confection Ethiques"
           DividerTheme='#CC8E9C'
@@ -616,7 +597,7 @@ export default function BasicTabs() {
           para3='After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs.'
           para4='Choose your designer with 99% accuracy as design confection brings your ideas to life.'
         />
-        <OurProjectCard
+        {/* <OurProjectCard
           Reverse
           LogoSrc={BarberLogo}
           title='Barber Shop'
@@ -625,29 +606,9 @@ export default function BasicTabs() {
           heading='Barber Shop'
           // Modal Data
           para1='BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.'
-        />
-        <OurProjectCard
-          to='/ourprojects/realestate'
-          LogoSrc={RealEstate_Logo}
-          // ModalHeading="Real Estate"
-          DividerTheme='#837C6B'
-          RealEstate_Logo
-          src={RealEstate}
-          title='Real Estate'
-          description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
-        />
-
+        /> */}
         <OurProjectCard
           Reverse
-          LogoSrc={BeautyLogo}
-          src={BeautySalon}
-          title='Beauty Salon'
-          description='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
-          heading='Beauty Salon'
-          para1='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
-        />
-
-        <OurProjectCard
           LogoSrc={AccorHotel_Logo}
           title='Accor Hotels'
           description='Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.'
@@ -662,6 +623,26 @@ export default function BasicTabs() {
           para7='• rDevelopment to evolve invoices to the new SSRS format'
           para8='• Kettle-based batch development for import / export and data transformation'
         />
+        <OurProjectCard
+          to='/ourprojects/realestate'
+          // LogoSrc={RealEstate_Logo}
+          // ModalHeading="Real Estate"
+          DividerTheme='#837C6B'
+          RealEstate_Logo
+          src={RealEstate}
+          title='Real Estate'
+          description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
+        />
+
+        {/* <OurProjectCard
+          Reverse
+          LogoSrc={BeautyLogo}
+          src={BeautySalon}
+          title='Beauty Salon'
+          description='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
+          heading='Beauty Salon'
+          para1='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
+        /> */}
         <OurProjectCard
           Reverse
           LogoSrc={Fnac_Logo}
@@ -690,7 +671,7 @@ export default function BasicTabs() {
           para4='• Development in U-SQL under Azure Data Lake Analytics of scripts for quality control of data from the ebook catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).'
           para5='• Migration of projects developed in Scope and SQL Server to Azure Data Lake Analytics and development in U-SQL under Azure of data quality control scripts from the video catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).'
         />
-
+        {/* 
         <OurProjectCard
           Reverse
           LogoSrc={BlshLogo}
@@ -704,7 +685,7 @@ export default function BasicTabs() {
           para3='The Individual shopper can use delivery regularly (weekly, monthly, etc). Or only when there is a need for the delivery.'
           para4='The app will offer market-based pricing. When the Individual shopper requests, he will offer the price he is willing to pay for delivery. All drivers who match his request will see the price. They will be able to accept the request or negotiate the delivery price.'
           para5='The app will be free for Customers. The Courier will pay 20% of the delivery price.'
-        />
+        /> */}
         {/* <OurProjectCard
           Reverse
           LogoSrc={Toyota_Logo}
@@ -744,7 +725,7 @@ export default function BasicTabs() {
         <OurProjectCard
           to='/ourprojects/orgaplan'
           Reverse
-          LogoSrc={Orgaplan_Logo}
+          // LogoSrc={Orgaplan_Logo}
           DividerTheme='#DBB208'
           src={Orgaplan}
           title='OrgaPlan'
@@ -773,29 +754,6 @@ export default function BasicTabs() {
 
         <OurProjectCard
           Reverse
-          to='/ourprojects/excellence'
-          title='ERP Excellence'
-          description='Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
-          src={ERP}
-        />
-
-        {/* {MoreProjects && (
-          <> */}
-        <OurProjectCard
-          to='/ourprojects/telehealthplatform'
-          LogoSrc={Tele_logo}
-          DividerTheme='#0F52BA'
-          src={Movement}
-          title='Movement detection for health providers'
-          description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
-          // Modal Data
-          para1='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
-          para2='The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not.'
-          para3='The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.'
-        />
-
-        <OurProjectCard
-          Reverse
           to='/ourprojects/tilt'
           // LogoSrc={Tilt_Logo}
           DividerTheme='red'
@@ -809,8 +767,11 @@ export default function BasicTabs() {
           para4='On the delivery side, the application the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications. '
         />
 
+        {/* {MoreProjects && (
+          <> */}
+
         <OurProjectCard
-          LogoSrc={Kidcab_Logo}
+          // LogoSrc={Kidcab_Logo}
           DividerTheme='#0097A7'
           src={Kidcap}
           to='/ourprojects/kidcab'
@@ -822,6 +783,21 @@ export default function BasicTabs() {
           para3='The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. '
           para4='Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. '
           para5='This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. '
+        />
+
+        <OurProjectCard
+          Reverse
+          to='/ourprojects/excellence'
+          title='ERP Excellence'
+          description='Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
+          src={ERP}
+        />
+
+        <OurProjectCard
+          to='/ourprojects/table'
+          src={PizzaBoli}
+          title='Table'
+          description='This project consists of two apps one is for the restaurant and other is for the end user.'
         />
         <OurProjectCard
           Reverse
@@ -845,23 +821,30 @@ export default function BasicTabs() {
           description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
         />
 
-        <OurProjectCard
+        {/* <OurProjectCard
           Reverse
           src={BeautySalon}
           title='Beauty Salon'
           description='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
           heading='Beauty Salon'
           para1='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
-        />
+        /> */}
 
         <OurProjectCard
-          to='/ourprojects/table'
-          src={PizzaBoli}
-          title='Table'
-          description='This project consists of two apps one is for the restaurant and other is for the end user.'
+          Reverse
+          to='/ourprojects/telehealthplatform'
+          // LogoSrc={Tele_logo}
+          DividerTheme='#0F52BA'
+          src={Movement}
+          title='Movement detection for health providers'
+          description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
+          // Modal Data
+          para1='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
+          para2='The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not.'
+          para3='The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.'
         />
 
-        <OurProjectCard
+        {/* <OurProjectCard
           Reverse
           LogoSrc={BarberLogo}
           title='Barber Shop'
@@ -880,7 +863,7 @@ export default function BasicTabs() {
           para3='The Individual shopper can use delivery regularly (weekly, monthly, etc). Or only when there is a need for the delivery.'
           para4='The app will offer market-based pricing. When the Individual shopper requests, he will offer the price he is willing to pay for delivery. All drivers who match his request will see the price. They will be able to accept the request or negotiate the delivery price.'
           para5='The app will be free for Customers. The Courier will pay 20% of the delivery price.'
-        />
+        /> */}
 
         {/* </>
         )}
@@ -898,7 +881,7 @@ export default function BasicTabs() {
         <OurProjectCard
           Reverse
           to='/ourprojects/telehealthplatform'
-          LogoSrc={Tele_logo}
+          // LogoSrc={Tele_logo}
           DividerTheme='#0F52BA'
           src={Movement}
           title='Movement detection for health providers'
@@ -926,21 +909,18 @@ export default function BasicTabs() {
 
         <OurProjectCard
           Reverse
-          to='/ourprojects/ezbox'
-          LogoSrc={EZBox_Logo}
-          DividerTheme='blue'
-          title='EZbox'
-          description='EZBox media is a platform providing different services '
-          src={EZbox}
+          LogoSrc={Tajweed_logo}
+          DividerTheme='#007536'
+          src={Tajweed}
+          heading='Tajweed'
+          title='Tajweed'
+          description='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
           // Modal Data
-          para1='EZBox media is a platform providing different services including'
-          para2='Advertising: '
-          para3='•	Advertising by understanding how a user can react to the advertisement shown to them.'
-          para4='•	Target ads based on non-personal criteria.'
-          para5='Product development: '
-          para6='•	EZBox media helps Product development for the next generation products with the wide variety of technologies available today.'
-          para7='Chromium Browser: '
-          para8='•	EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions. '
+          para1='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
+          para2='•	User can signup and start learning Quran with Tajweed.'
+          para3='•	Practice lessons are available.'
+          para4='•	User can repeat the lesson at any time without an internet connection'
+          para5='•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy.'
         />
 
         <OurProjectCard
@@ -955,19 +935,32 @@ export default function BasicTabs() {
           para2='Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. '
           para3='This project is ambitious and aims to revolutionize the approach to design in the field of construction in France. '
         />
+
+        <OurProjectCard
+          Reverse
+          to='/ourprojects/designconfection'
+          src={DesignConf}
+          title='Design Confection Ethiques'
+          description='A web app designed to help customers with customized stitching to receive your creation at your home. '
+          // Modal Data
+          para1='A web app designed to help customers with customized stitching to receive your creation at your home. '
+          para2='User login to register and add information regarding customized dress like color combination, stuff design, etc.'
+          para3='After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs.'
+          para4='Choose your designer with 99% accuracy as design confection brings your ideas to life.'
+        />
         {/* {MoreProjects && (
           <> */}
-        <OurProjectCard
+        {/* <OurProjectCard
           Reverse
           src={BeautySalon}
           title='Beauty Salon'
           description='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
           heading='Beauty Salon'
           para1='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
-        />
+        /> */}
 
         <OurProjectCard
-          LogoSrc={Kidcab_Logo}
+          // LogoSrc={Kidcab_Logo}
           DividerTheme='#0097A7'
           src={Kidcap}
           to='/ourprojects/kidcab'
@@ -980,12 +973,30 @@ export default function BasicTabs() {
           para4='Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. '
           para5='This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. '
         />
-        <OurProjectCard
+        {/* <OurProjectCard
           Reverse
           LogoSrc={BarberLogo}
           title='Barber Shop'
           description='BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.'
           src={BarberShop}
+        /> */}
+        <OurProjectCard
+          Reverse
+          to='/ourprojects/ezbox'
+          // LogoSrc={EZBox_Logo}
+          DividerTheme='blue'
+          title='EZbox'
+          description='EZBox media is a platform providing different services '
+          src={EZbox}
+          // Modal Data
+          para1='EZBox media is a platform providing different services including'
+          para2='Advertising: '
+          para3='•	Advertising by understanding how a user can react to the advertisement shown to them.'
+          para4='•	Target ads based on non-personal criteria.'
+          para5='Product development: '
+          para6='•	EZBox media helps Product development for the next generation products with the wide variety of technologies available today.'
+          para7='Chromium Browser: '
+          para8='•	EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions. '
         />
         <OurProjectCard
           src={RealEstate}
@@ -993,7 +1004,7 @@ export default function BasicTabs() {
           title='Real Estate'
           description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
         />
-        <OurProjectCard
+        {/* <OurProjectCard
           Reverse
           src={Blsh}
           LogoSrc={BlshLogo}
@@ -1006,35 +1017,8 @@ export default function BasicTabs() {
           para3='The Individual shopper can use delivery regularly (weekly, monthly, etc). Or only when there is a need for the delivery.'
           para4='The app will offer market-based pricing. When the Individual shopper requests, he will offer the price he is willing to pay for delivery. All drivers who match his request will see the price. They will be able to accept the request or negotiate the delivery price.'
           para5='The app will be free for Customers. The Courier will pay 20% of the delivery price.'
-        />
+        /> */}
 
-        <OurProjectCard
-          to='/ourprojects/designconfection'
-          src={DesignConf}
-          title='Design Confection Ethiques'
-          description='A web app designed to help customers with customized stitching to receive your creation at your home. '
-          // Modal Data
-          para1='A web app designed to help customers with customized stitching to receive your creation at your home. '
-          para2='User login to register and add information regarding customized dress like color combination, stuff design, etc.'
-          para3='After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs.'
-          para4='Choose your designer with 99% accuracy as design confection brings your ideas to life.'
-        />
-
-        <OurProjectCard
-          Reverse
-          LogoSrc={Tajweed_logo}
-          DividerTheme='#007536'
-          src={Tajweed}
-          heading='Tajweed'
-          title='Tajweed'
-          description='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
-          // Modal Data
-          para1='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
-          para2='•	User can signup and start learning Quran with Tajweed.'
-          para3='•	Practice lessons are available.'
-          para4='•	User can repeat the lesson at any time without an internet connection'
-          para5='•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy.'
-        />
         {/* </>
         )}
         <Grid xs={12} className="BlogBtnGrid">
