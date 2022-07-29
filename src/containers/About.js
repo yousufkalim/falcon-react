@@ -30,7 +30,7 @@ export default function About() {
         Title='Our Goal Is To Exceed Your Expectations '
         // Description='Healthy, skilled and ambitious team'
         Description='Trustful, skilled and ambitious team of developers, UI/UX designers, project managers and quality testers. Our aim is to build healthy partnerships with our clients, in which respect is the central value. Our main difference with other software houses is that we are committed to delivering the last mile, without any compromise.'
-        ImgSrc={Header_Img}
+        ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/AboutUs_Header_Img.png`}
       />
       <AboutCompany />
       <ModernAgencySection />

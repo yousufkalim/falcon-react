@@ -72,21 +72,33 @@ export default function Header(props) {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
             alt={props.ImgAlt || 'Header'}
-            src={props.ImgSrc || HeaderImg}
+            src={props.ImgSrc}
             style={props.ImgStyle}
             width={props.ImgWidth || '95%'}
           />
           {props.chatIcons ? (
             <div className='ChatIconsDiv'>
               <a href='https://wa.me/+923135098197'>
-                <img className='ChatIconImg' alt='whatsapp' src={WhatsappIcon} />
+                <img
+                  className='ChatIconImg'
+                  alt='whatsapp'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ChatIcon.svg`}
+                />
               </a>
 
               <a href={`http://calendly.com/falconit`}>
-                <img className='ChatIconImg' alt='Calendly' src={Calendly} />
+                <img
+                  className='ChatIconImg'
+                  alt='Calendly'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendly.svg`}
+                />
               </a>
               <Link to={`/contactus`}>
-                <img className='ChatIconImg' alt='chat' src={ChatIcon} />
+                <img
+                  className='ChatIconImg'
+                  alt='chat'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/whatsappIcon.svg`}
+                />
               </Link>
             </div>
           ) : null}

@@ -45,7 +45,7 @@ export default function RealEstate() {
         background='#000000'
         bottomBG='#837C6B'
         typoBG='#837C6B'
-        HeaderImg={RealEstate_Header}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_header.png`}
         title='Real Estate'
         subTitle='Real Estate'
         description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
@@ -55,10 +55,10 @@ export default function RealEstate() {
         desp='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces: a mobile application for the investors, and an admin panel, for the responsible of the company. A Pakistan-based project developed on React Native, completed in 2 months.'
         // location
         titleTheme='#837C6B'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor='#837C6B'
         name='Steve jobs'
-        src={OV_RealEstate}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_realestate.png`}
       />
       <DetailService
         // both
@@ -79,7 +79,7 @@ export default function RealEstate() {
         title='Real Estate'
         btnTheme='#837C6B'
         theme='#837C6B'
-        src={RealEstate_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_demo_new.png`}
       />
       <DetailDesign
         titleTheme='#837C6B'
@@ -89,6 +89,12 @@ export default function RealEstate() {
         // MidImg={RealEstate_Design2}
         // BottomImg={RealEstate_Design3}
         grids
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_4.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_3.png`}
         // src1
         // src2
         // src3
@@ -104,7 +110,7 @@ export default function RealEstate() {
         // src
         inline
         // Images
-        src={RealEstate_Theme1}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_theme1.png`}
         // src2={EZbox_Theme2}
         // src3={EZbox_Theme3}
         // fullscreen
@@ -120,14 +126,17 @@ export default function RealEstate() {
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={KidCab_Theme}
       />
-      <DetailLogo theme='#191A1F' src={RealEstate_Logo} />
+      <DetailLogo
+        theme='#191A1F'
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_realestate_logo.png`}
+      />
       <DetailAppDev
         application
         title='MOBILE APP DEVELOPMENT'
         // desp
         // fullImg={RealEstate_AppDesign}
         titleTheme='#837C6B'
-        halfImg={RealEstate_AppDesign}
+        halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_appdesign_new.png`}
       />
       <DetailFeedback
         // titleTheme
@@ -135,7 +144,7 @@ export default function RealEstate() {
         desp='We were pleased with Falcon IT and the overall development process of our website. Our website has transformed the image of our firm and is the key introductory point for new and potential clients. Thanks for a job well done!'
         // location
         ThemeBG='#837C6B'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Steve Jobs'
       />
       <Footer />

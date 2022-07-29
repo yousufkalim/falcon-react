@@ -3,8 +3,6 @@ import SectionHeader from './SectionHeader';
 import ReviewCard from './ReviewCard';
 import { StackedCarousel, ResponsiveContainer } from 'react-stacked-center-carousel';
 import Fab from '@mui/material/Fab';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { ReactComponent as LeftArrow } from '../../assets/images/left_arrow_btn.svg';
 import { ReactComponent as RightArrow } from '../../assets/images/right_arrow_btn.svg';
 
@@ -149,6 +147,7 @@ export default function ReviewSection() {
                   ref.current?.goBack();
                 }}
               >
+                {/* <img src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/left_arrow_btn.svg`} /> */}
                 <LeftArrow />
               </Fab>
               <Fab

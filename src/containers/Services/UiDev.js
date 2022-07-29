@@ -33,11 +33,11 @@ export default function UiDev() {
         Description='We are ready to handle your ambitious projects!'
         btn
         btnText='Get This Service'
-        ImgSrc={UiDevImg}
+        ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/uidevImg.svg`}
       />
       <KeyFeatureSection UxKey />
       <WorkProcessSection UxWorkProcess />
-      <ServiceFrame src={UiDevFrame} />
+      <ServiceFrame src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/uidevframe.svg`} />
       <LatestProjects />
       <Footer />
     </div>

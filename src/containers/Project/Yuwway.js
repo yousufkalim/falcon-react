@@ -43,7 +43,7 @@ export default function Yuwway() {
         background='#282828'
         bottomBG='#0073BB'
         typoBG='#0073BB'
-        HeaderImg={Yuwway_Header}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_header.png`}
         title='Yuwway'
         subTitle='Yuwway'
         // iconTheme="#9D3C64"
@@ -53,11 +53,11 @@ export default function Yuwway() {
         titleTheme='#0073BB'
         desp="Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs. Bringing together a large number of the most important carriers, Yuwway makes it possible to provide the keys to the market to the consumer who can choose, both qualitatively and in terms of price, the offer that best suits him."
         // desp=""
-        AvatarSrc={QB_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/overview_quadraAvatar.png`}
         nameColor='#0073BB'
         name='Jamel L.'
         // location="France"
-        src={OV_Yuwway}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_yuwway.png`}
       />
       <DetailService
         app
@@ -78,7 +78,7 @@ export default function Yuwway() {
         title='Yuwway'
         btnTheme='#0073BB'
         theme='#0073BB'
-        src={Yuwway_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_demo.png`}
       />
       <DetailDesign
         titleTheme='#0073BB'
@@ -88,6 +88,12 @@ export default function Yuwway() {
         // MidImg={Yuwway_Design2}
         // BottomImg={Yuwway_Design3}
         grids
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_4.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_3.png`}
         // src1
         // src2
         // src3
@@ -99,7 +105,7 @@ export default function Yuwway() {
 
       <DetailTheme
         // desp
-        centerImage
+        // centerImage
         // src
         // Images
         // src1={OrgaPlan_Theme}
@@ -119,14 +125,17 @@ export default function Yuwway() {
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={OrgaPlan_Theme}
       />
-      <DetailLogo theme='#0073BB' src={Yuwway_Logo} />
+      <DetailLogo
+        theme='#0073BB'
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_yuwway_logo.png`}
+      />
       <DetailAppDev
         application
         title='MOBILE APP DEVELOPMENT'
         // desp
         // fullImg={Yuwway_AppDesign}
         titleTheme='#0073BB'
-        halfImg={Yuwway_AppDesign}
+        halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_appdesign.png`}
       />
       <DetailFeedback
         // titleTheme="#9D936D"
@@ -134,6 +143,7 @@ export default function Yuwway() {
         // desp
         // location
         ThemeBG='#0073BB'
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         // AvatarSrc={Kidcab_Avatar}
         name='Jamel L.'
       />

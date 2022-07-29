@@ -49,7 +49,7 @@ export default function Orgaplan() {
         background='#282828'
         bottomBG='#9D936D'
         typoBG='#9D936D'
-        HeaderImg={OrgaPlan_Header}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_header.png`}
         title='OrgaPlan'
         subTitle='OrgaPlan'
         description='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
@@ -59,10 +59,10 @@ export default function Orgaplan() {
         // desp
         // location
         titleTheme='#282828'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor='#9D936D'
         name='Zaara Aziz'
-        src={OV_OrgaPlan}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_orgaplan.png`}
       />
       <DetailService
         // both
@@ -72,7 +72,7 @@ export default function Orgaplan() {
         borderColor='#282828'
         circleTheme='#9D936D'
         fitLogo
-        liteLogo={BG_Logo}
+        liteLogo={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_lite_logo.png`}
       />
 
       <DetailDemo
@@ -85,22 +85,23 @@ export default function Orgaplan() {
         title='OrgaPlan'
         btnTheme='#9D936D'
         theme='#9D936D'
-        src={OrgaPlan_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_demo_new.png`}
       />
       <DetailDesign
         titleTheme='#282828'
         title='UI DESIGN'
         // overlap
-        TopImg={OrgaPlan_Design1}
-        MidImg={OrgaPlan_Design2}
-        BottomImg={OrgaPlan_Design3}
+        TopImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design1.png`}
+        MidImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design2.png`}
+        BottomImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design3.png`}
         grids
-        src1={OrgaPlan_Design2}
-        src2={OrgaPlan_Design3}
-        src3={OrgaPlan_Design1}
-        src4={OrgaPlan_Design2}
-        src5={OrgaPlan_Design1}
-        src6={OrgaPlan_Design2}
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design2.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design3.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design1.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design2.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design1.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design2.png`}
+
         // overlap
       />
 
@@ -124,14 +125,17 @@ export default function Orgaplan() {
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
-        src={OrgaPlan_Theme}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_theme.png`}
       />
-      <DetailLogo theme='#EDCF99' src={OrgaPlan_Logo} />
+      <DetailLogo
+        theme='#EDCF99'
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_orgaplan_logo.png`}
+      />
       <DetailAppDev
         website
         title='WEB DEVELOPMENT'
         // desp
-        fullImg={OrgaPlan_WebDesign}
+        fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_webdesign.png`}
         titleTheme='#282828'
         // halfImg=(src Required)
       />
@@ -141,7 +145,7 @@ export default function Orgaplan() {
         desp='Falcon’s website design team far exceeded my expectations on every front as I had very high expectations of them. The end product is a responsive website that embodies who we are as a company.'
         // location
         ThemeBG='#ffffff'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Zaara Aziz'
       />
       <Footer />

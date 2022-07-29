@@ -137,8 +137,8 @@ export default function BasicTabs() {
       <TabPanel value={value} index={0}>
         <OurProjectCard
           Reverse
-          LogoSrc={Microsoft_Logo}
-          src={Microsoft}
+          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/microsoftlogo.png`}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/microsoft_update.png`}
           title='Microsoft'
           heading='Microsoft'
           description='Falcon Consulting has been asked by Microsoft for its expertise in .NET and reporting to implement product analysis tools for the media catalogs (music, video and ebooks) on the Windows Store using the latest Azure technologies.'
@@ -149,8 +149,8 @@ export default function BasicTabs() {
           para5='• Migration of projects developed in Scope and SQL Server to Azure Data Lake Analytics and development in U-SQL under Azure of data quality control scripts from the video catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).'
         />
         <OurProjectCard
-          LogoSrc={Canon_Logo}
-          src={Canon}
+          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/canonlogo.png`}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/canon_update.png`}
           title='Canon'
           heading='Canon'
           description='Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)'
@@ -165,8 +165,8 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           Reverse
-          LogoSrc={Fnac_Logo}
-          src={Fnac}
+          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fnaclogo.png`}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fnac_update.png`}
           title='Fnac'
           heading='Fnac'
           description='Falcon Consulting has been asked by FNAC for its expertise in .NET and SQL to reinforce the project teams related to inventory, stocks, locations, label printing, customer orders.'
@@ -186,7 +186,7 @@ export default function BasicTabs() {
           Reverse
           // LogoSrc={Orgaplan_Logo}
           DividerTheme='#DBB208'
-          src={Orgaplan}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_update.png`}
           title='OrgaPlan'
           description='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
           // Modal Data
@@ -199,7 +199,7 @@ export default function BasicTabs() {
           to='/ourprojects/telehealthplatform'
           // LogoSrc={Tele_logo}
           DividerTheme='#0F52BA'
-          src={Movement}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_update.png`}
           title='Movement detection for health providers'
           description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
           // Modal Data
@@ -211,7 +211,7 @@ export default function BasicTabs() {
           Reverse
           // LogoSrc={Quadra_Logo}
           DividerTheme='#7A7A7A'
-          src={Quadra}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_update.png`}
           to='/ourprojects/quadrabase'
           title='Quadrabase'
           description='Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
@@ -223,7 +223,7 @@ export default function BasicTabs() {
         <OurProjectCard
           // LogoSrc={PP_logo}
           DividerTheme='#11A283'
-          src={PermispopImg}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`}
           title='Permispop'
           to='/ourprojects/permispop'
           description='Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. '
@@ -247,7 +247,7 @@ export default function BasicTabs() {
           to='/ourprojects/tilt'
           title='Tilt'
           description='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order. '
-          src={Tilt}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_update.png`}
           // Modal Data
           para1='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.  '
           para2='The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience. '
@@ -257,7 +257,7 @@ export default function BasicTabs() {
         <OurProjectCard
           // LogoSrc={Kidcab_Logo}
           DividerTheme='#0097A7'
-          src={Kidcap}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_update.png`}
           to='/ourprojects/kidcab'
           title='Kidcab'
           description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
@@ -274,7 +274,7 @@ export default function BasicTabs() {
           to='/ourprojects/excellence'
           title='ERP Excellence'
           description='Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
-          src={ERP}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_update.png`}
         />
 
         <OurProjectCard
@@ -283,7 +283,7 @@ export default function BasicTabs() {
           to='/ourprojects/ezbox'
           title='EZbox'
           description='EZBox media is a platform providing different services'
-          src={EZbox}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_update.png`}
           // Modal Data
           para1='EZBox media is a platform providing different services including'
           para2='Advertising: '
@@ -297,9 +297,9 @@ export default function BasicTabs() {
 
         <OurProjectCard
           Reverse
-          LogoSrc={Tajweed_logo}
+          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo.svg`}
           DividerTheme='#007536'
-          src={Tajweed}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_update.png`}
           heading='Tajweed'
           title='Tajweed'
           description='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
@@ -326,7 +326,7 @@ export default function BasicTabs() {
 
         <OurProjectCard
           to='/ourprojects/designconfection'
-          src={DesignConf}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/designconf_update.png`}
           title='Design Confection Ethiques'
           description='A web app designed to help customers with customized stitching to receive your creation at your home. '
           // Modal Data
@@ -355,7 +355,7 @@ export default function BasicTabs() {
           DividerTheme='red'
           title='Tilt'
           description='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
-          src={Tilt}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_update.png`}
           // Modal Data
           para1='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
           para2='The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience.'
@@ -367,7 +367,7 @@ export default function BasicTabs() {
           // LogoSrc={PP_logo}
           // ModalHeading="Permispop"
           DividerTheme='#11A283'
-          src={PermispopImg}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`}
           title='Permispop'
           description={t(
             'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.'
@@ -387,7 +387,7 @@ export default function BasicTabs() {
           // LogoSrc={Quadra_Logo}
           to='/ourprojects/quadrabase'
           DividerTheme='#7A7A7A'
-          src={Quadra}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_update.png`}
           title='Quadrabase'
           description='Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
           // Modal Data
@@ -396,7 +396,7 @@ export default function BasicTabs() {
           // para3="This project is ambitious and aims to revolutionize the approach to design in the field of construction in France. "
         />
         <OurProjectCard
-          src={Kidcap}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_update.png`}
           // LogoSrc={Kidcab_Logo}
           to='/ourprojects/kidcab'
           DividerTheme='#0097A7'
@@ -417,14 +417,14 @@ export default function BasicTabs() {
           to='/ourprojects/yuwway'
           title='Yuwway'
           description="Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs."
-          src={Yuwway}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_update.png`}
         />
 
         <OurProjectCard
           to='/ourprojects/telehealthplatform'
           // LogoSrc={Tele_logo}
           DividerTheme='#0F52BA'
-          src={Movement}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_update.png`}
           title='Movement detection for health providers'
           description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.'
           // Modal Data
@@ -435,7 +435,7 @@ export default function BasicTabs() {
         <OurProjectCard
           to='/ourprojects/orientator'
           Reverse
-          src={Orientator}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_update.png`}
           title='Orientator'
           description='Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.'
           // Modal Data
@@ -444,7 +444,7 @@ export default function BasicTabs() {
         <OurProjectCard
           to='/ourprojects/registerrh'
           DividerTheme='blue'
-          src={Register_RH}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_update.png`}
           title='Register-RH'
           description='This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
           // Modal Data
@@ -453,7 +453,7 @@ export default function BasicTabs() {
         <OurProjectCard
           to='/ourprojects/facilitymanagement'
           Reverse
-          src={Ficility}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_update.png`}
           title='Facility Management'
           description='This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.'
           // Modal Data
@@ -462,7 +462,7 @@ export default function BasicTabs() {
           to='/ourprojects/orgaplan'
           // LogoSrc={Orgaplan_Logo}
           DividerTheme='#DBB208'
-          src={Orgaplan}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_update.png`}
           title='OrgaPlan'
           description='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
           // Modal Data
@@ -477,7 +477,7 @@ export default function BasicTabs() {
           Reverse
           // LogoSrc={Zypzap_Logo}
           DividerTheme='#522F6D'
-          src={Zypzap}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_update.png`}
           title='Zypzap'
           description='ZypZap is a gaming platform by Falcon IT.'
           // Modal Data
@@ -494,7 +494,7 @@ export default function BasicTabs() {
           DividerTheme='blue'
           title='EZbox'
           description='EZBox media is a platform providing different services including'
-          src={EZbox}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_update.png`}
           // Modal Data
           para1='EZBox media is a platform providing different services including'
           para2='Advertising: '
@@ -510,13 +510,13 @@ export default function BasicTabs() {
           to='/ourprojects/sindoor'
           title='Sindoor'
           description='Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
-          src={Sindoor}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_update.png`}
         />
 
         <OurProjectCard
           to='/ourprojects/fireman'
           DividerTheme='blue'
-          src={Fireman}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fireman_update.png`}
           title='Fireman'
           description='Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:'
           // Modal Data
@@ -527,13 +527,13 @@ export default function BasicTabs() {
           to='/ourprojects/excellence'
           title='ERP Excellence'
           description='Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
-          src={ERP}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_update.png`}
         />
 
         <OurProjectCard
           to='/ourprojects/wina'
           DividerTheme='#C39B7E'
-          src={Wina}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_update.png`}
           title='Wina'
           description='Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. '
           // Modal Data
@@ -545,9 +545,9 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           Reverse
-          // LogoSrc={Tajweed_logo}
+          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo.svg`}
           DividerTheme='#007536'
-          src={Tajweed}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_update.png`}
           title='Tajweed'
           heading='Tajweed'
           description='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
@@ -561,15 +561,15 @@ export default function BasicTabs() {
 
         <OurProjectCard
           to='/ourprojects/table'
-          src={PizzaBoli}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_update.png`}
           title='Table'
           description='This project consists of two apps one is for the restaurant and other is for the end user.'
         />
 
         <OurProjectCard
           Reverse
-          LogoSrc={Canon_Logo}
-          src={Canon}
+          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/canonlogo.png`}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/canon_update.png`}
           title='Canon'
           heading='Canon'
           description='Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)'
@@ -588,7 +588,7 @@ export default function BasicTabs() {
           to='/ourprojects/designconfection'
           // ModalHeading="Design Confection Ethiques"
           DividerTheme='#CC8E9C'
-          src={DesignConf}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/designconf_update.png`}
           title='Design Confection Ethiques'
           description='A web app designed to help customers with customized stitching to receive your creation at your home.'
           // Modal Data
@@ -609,10 +609,10 @@ export default function BasicTabs() {
         /> */}
         <OurProjectCard
           Reverse
-          LogoSrc={AccorHotel_Logo}
+          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/accorlogo.png`}
           title='Accor Hotels'
           description='Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.'
-          src={AccorHotel}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/accor_update.png`}
           heading='Accor Hotels'
           para1='Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.'
           para2='OUR CONTRIBUTION'
@@ -629,7 +629,7 @@ export default function BasicTabs() {
           // ModalHeading="Real Estate"
           DividerTheme='#837C6B'
           RealEstate_Logo
-          src={RealEstate}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_update.png`}
           title='Real Estate'
           description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
         />
@@ -645,8 +645,8 @@ export default function BasicTabs() {
         /> */}
         <OurProjectCard
           Reverse
-          LogoSrc={Fnac_Logo}
-          src={Fnac}
+          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fnaclogo.png`}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fnac_update.png`}
           title='Fnac'
           heading='Fnac'
           description='Falcon Consulting has been asked by FNAC for its expertise in .NET and SQL to reinforce the project teams related to inventory, stocks, locations, label printing, customer orders.'
@@ -660,8 +660,8 @@ export default function BasicTabs() {
           para8='• Development in ASP.NET 3.5 to upgrade a shipping management tool for live customer orders in Switzerland'
         />
         <OurProjectCard
-          LogoSrc={Microsoft_Logo}
-          src={Microsoft}
+          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/microsoftlogo.png`}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/microsoft_update.png`}
           title='Microsoft'
           heading='Microsoft'
           description='Falcon Consulting has been asked by Microsoft for its expertise in .NET and reporting to implement product analysis tools for the media catalogs (music, video and ebooks) on the Windows Store using the latest Azure technologies.'
@@ -694,7 +694,7 @@ export default function BasicTabs() {
           description='MediaPipe offers cross-platform, customizable ML solutions for live and streaming media'
         /> */}
         {/* <OurProjectCard
-          LogoSrc={Canon_Logo}
+          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/canonlogo.png`}
           src={Canon}
           title='Canon'
           heading='Canon'
@@ -727,7 +727,7 @@ export default function BasicTabs() {
           Reverse
           // LogoSrc={Orgaplan_Logo}
           DividerTheme='#DBB208'
-          src={Orgaplan}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_update.png`}
           title='OrgaPlan'
           description='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
           // Modal Data
@@ -738,7 +738,7 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           // LogoSrc={PP_logo}
-          src={PermispopImg}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`}
           title='Permispop'
           to='/ourprojects/permispop'
           description='Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. '
@@ -759,7 +759,7 @@ export default function BasicTabs() {
           DividerTheme='red'
           title='Tilt'
           description='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order. '
-          src={Tilt}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_update.png`}
           // Modal Data
           para1='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.  '
           para2='The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience. '
@@ -773,7 +773,7 @@ export default function BasicTabs() {
         <OurProjectCard
           // LogoSrc={Kidcab_Logo}
           DividerTheme='#0097A7'
-          src={Kidcap}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_update.png`}
           to='/ourprojects/kidcab'
           title='Kidcab'
           description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
@@ -790,21 +790,21 @@ export default function BasicTabs() {
           to='/ourprojects/excellence'
           title='ERP Excellence'
           description='Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
-          src={ERP}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_update.png`}
         />
 
         <OurProjectCard
           to='/ourprojects/table'
-          src={PizzaBoli}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_update.png`}
           title='Table'
           description='This project consists of two apps one is for the restaurant and other is for the end user.'
         />
         <OurProjectCard
           Reverse
-          LogoSrc={Tajweed_logo}
+          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo.svg`}
           DividerTheme='#007536'
           heading='Tajweed'
-          src={Tajweed}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_update.png`}
           title='Tajweed'
           description='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
           // Modal Data
@@ -815,7 +815,7 @@ export default function BasicTabs() {
           para5='•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy.'
         />
         <OurProjectCard
-          src={RealEstate}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_update.png`}
           to='/ourprojects/realestate'
           title='Real Estate'
           description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
@@ -835,7 +835,7 @@ export default function BasicTabs() {
           to='/ourprojects/telehealthplatform'
           // LogoSrc={Tele_logo}
           DividerTheme='#0F52BA'
-          src={Movement}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_update.png`}
           title='Movement detection for health providers'
           description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
           // Modal Data
@@ -883,7 +883,7 @@ export default function BasicTabs() {
           to='/ourprojects/telehealthplatform'
           // LogoSrc={Tele_logo}
           DividerTheme='#0F52BA'
-          src={Movement}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_update.png`}
           title='Movement detection for health providers'
           description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
           // Modal Data
@@ -893,7 +893,7 @@ export default function BasicTabs() {
         />
         <OurProjectCard
           // LogoSrc={PP_logo}
-          src={PermispopImg}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`}
           to='/ourprojects/permispop'
           title='Permispop'
           description='Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. '
@@ -909,9 +909,9 @@ export default function BasicTabs() {
 
         <OurProjectCard
           Reverse
-          LogoSrc={Tajweed_logo}
+          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo.svg`}
           DividerTheme='#007536'
-          src={Tajweed}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_update.png`}
           heading='Tajweed'
           title='Tajweed'
           description='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
@@ -926,7 +926,7 @@ export default function BasicTabs() {
         <OurProjectCard
           // LogoSrc={Quadra_Logo}
           DividerTheme='#7A7A7A'
-          src={Quadra}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_update.png`}
           to='/ourprojects/quadrabase'
           title='Quadrabase'
           description='Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
@@ -939,7 +939,7 @@ export default function BasicTabs() {
         <OurProjectCard
           Reverse
           to='/ourprojects/designconfection'
-          src={DesignConf}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/designconf_update.png`}
           title='Design Confection Ethiques'
           description='A web app designed to help customers with customized stitching to receive your creation at your home. '
           // Modal Data
@@ -962,7 +962,7 @@ export default function BasicTabs() {
         <OurProjectCard
           // LogoSrc={Kidcab_Logo}
           DividerTheme='#0097A7'
-          src={Kidcap}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_update.png`}
           to='/ourprojects/kidcab'
           title='Kidcab'
           description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
@@ -987,7 +987,7 @@ export default function BasicTabs() {
           DividerTheme='blue'
           title='EZbox'
           description='EZBox media is a platform providing different services '
-          src={EZbox}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_update.png`}
           // Modal Data
           para1='EZBox media is a platform providing different services including'
           para2='Advertising: '
@@ -999,7 +999,7 @@ export default function BasicTabs() {
           para8='•	EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions. '
         />
         <OurProjectCard
-          src={RealEstate}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_update.png`}
           to='/ourprojects/realestate'
           title='Real Estate'
           description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
@@ -1043,8 +1043,8 @@ export default function BasicTabs() {
           Reverse
           title='Accor Hotels'
           description='Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.'
-          LogoSrc={AccorHotel_Logo}
-          src={AccorHotel}
+          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/accorlogo.png`}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/accor_update.png`}
           heading='Accor Hotels'
           para1='Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.'
           para2='OUR CONTRIBUTION'

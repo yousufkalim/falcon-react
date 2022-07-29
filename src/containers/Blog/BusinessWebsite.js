@@ -96,7 +96,7 @@ export default function BusinessWebsite() {
       </Helmet>
       <NavBar />
       <BlogReadMore
-        src={BlogImg2}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/blogarticle2.svg`}
         title='Why having a business website is necessary ?'
         content={blog.body}
       />

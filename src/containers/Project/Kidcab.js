@@ -46,7 +46,7 @@ export default function Kidcab() {
         background='#18374E'
         bottomBG='#18374E'
         typoBG='#18374E'
-        HeaderImg={KidcabHeader}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabHeader.png`}
         title='KidCab.'
         subTitle='KidCab'
         description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.'
@@ -56,10 +56,10 @@ export default function Kidcab() {
         desp='Kidcab, a mobile app project was designed for the French market very efficiently as this project required work carefully on the code optimization, and especially all the API calls to minimize the operation costs. The mobile application is developed on React Native and the whole project took 3 months.'
         // location
         titleTheme='#4CB9B4'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor='#4CB9B4'
         name='Maxime Chevallier'
-        src={OV_Kidcab}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_overview.png`}
       />
       <DetailService
         // both
@@ -69,7 +69,7 @@ export default function Kidcab() {
         borderColor='#18374E'
         circleTheme='#4CB9B4'
         BGLogo
-        liteLogo={BG_Logo}
+        liteLogo={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_lite_logo.png`}
       />
 
       <DetailDemo
@@ -82,7 +82,7 @@ export default function Kidcab() {
         title='KidCab'
         btnTheme='#18374E'
         theme='#18374E'
-        src={KidCab_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_demo_new.png`}
       />
       <DetailDesign
         // titleTheme
@@ -92,6 +92,12 @@ export default function Kidcab() {
         // MidImg
         // BottomImg
         grids
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_4.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_3.png`}
         // src1
         // src2
         // src3
@@ -119,14 +125,17 @@ export default function Kidcab() {
         Theme5='#CCCCCC'
         Theme6='#CCCCCC'
         // Theme7
-        src={KidCab_Theme}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_theme.png`}
       />
-      <DetailLogo theme='#ffffff' src={Kidcab_Logo} />
+      <DetailLogo
+        theme='#ffffff'
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_kidcab_logo.png`}
+      />
       <DetailAppDev
         application
         // title
         // desp
-        halfImg={KidCab_AppDesign}
+        halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_appDesign_new.png`}
         titleTheme='#4CB9B4'
         // fullImg={KidCab_AppDesign}
       />
@@ -136,7 +145,7 @@ export default function Kidcab() {
         // desp
         // halfImg={KidCab_AppDesign}
         titleTheme='#4CB9B4'
-        fullImg={KidCab_WebDesign}
+        fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_webDesign_new.png`}
       />
       <DetailFeedback
         // titleTheme
@@ -144,7 +153,7 @@ export default function Kidcab() {
         desp='Expertise and systematic approach to fulfilling client needs. I love the energy and excitement the Falcon IT team exhibits towards the success of my APP.'
         // location
         ThemeBG='#18374E'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Maxime Chevallier'
       />
       <Footer />

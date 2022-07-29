@@ -25,7 +25,7 @@ export default function BlogSection() {
                 >
                   <BlogCard
                     HomeBlogCArd
-                    src={BlogImg1}
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/blogarticle1.svg`}
                     date='June 13th 2022'
                     title='Managing a Remote Team'
                   />
@@ -41,7 +41,7 @@ export default function BlogSection() {
                   viewport={{ once: true }}
                 >
                   <BlogCard
-                    src={BlogImg2}
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/blogarticle2.svg`}
                     date='June 13th 2022'
                     title='Why having a business website is necessary ?'
                   />

@@ -39,6 +39,7 @@ export default function Home() {
         <div className='HomeContainer'>
           <NavBar />
           <Header
+            ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/HeaderImg.svg`}
             Title='WE PROVIDE GREAT SERVICES AT THE BEST PRICE.'
             Description='Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners. '
             btn

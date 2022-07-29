@@ -125,7 +125,10 @@ export default function RemoteTeam() {
         />
       </Helmet>
       <NavBar />
-      <BlogReadMore content={blog.body} />
+      <BlogReadMore
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/blogarticle1.svg`}
+        content={blog.body}
+      />
       <Footer />
     </div>
   );

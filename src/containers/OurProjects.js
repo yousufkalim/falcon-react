@@ -29,7 +29,7 @@ export default function OurProjects() {
         // ColorTitle="ALL PROJECTS "
         Title='ALL PROJECTS START BY A SIMPLE IDEA, LET US TAKE CARE OF THE REST!'
         Description='Falcon Consulting had the opportunity to work on  various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time. '
-        ImgSrc={HeaderImg}
+        ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ProjectHeaderImg.svg`}
         HeaderParaClassName
       />
       <LabTabs />

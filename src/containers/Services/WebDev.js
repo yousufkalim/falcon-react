@@ -31,11 +31,11 @@ export default function WebDev() {
         DespColor='#003B7E'
         btn
         btnText='More information'
-        ImgSrc={WebDevImg}
+        ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/webdevImg.svg`}
       />
       <KeyFeatureSection />
       <WorkProcessSection />
-      <ServiceFrame />
+      <ServiceFrame src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/webframe.svg`} />
       <LatestProjects />
 
       <Footer />

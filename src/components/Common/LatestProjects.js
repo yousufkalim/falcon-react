@@ -147,8 +147,8 @@ export default function LatestProjects(props) {
               hoverDesp={t(
                 'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.'
               )}
-              src={KidCab}
-              LogoSrc={KC_logo}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab.svg`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabLogo.png`}
               // btnBackground="#47B9B4"
               to='/ourprojects/kidcab'
             />
@@ -156,95 +156,95 @@ export default function LatestProjects(props) {
               hoverDesp={t(
                 'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.'
               )}
-              src={Permispop}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/pp_logo_lp.svg`}
               DividerTheme='#11A283'
               // btnBackground="#11A283"
               Heading='Permispop'
-              LogoSrc={PP_logo}
               to='/ourprojects/permispop'
             />
             <LatestProjectsCard
               hoverDesp={t(
                 'Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
               )}
-              src={QB}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadrabase.svg`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/qb_lp_logo.svg`}
               to='/ourprojects/quadrabase'
               DividerTheme='#FF8616'
               // btnBackground="#FF8616"
               Heading='Quadrabase'
-              LogoSrc={QB_logo}
             />
             <LatestProjectsCard
               hoverDesp={t(
                 'A web app designed to help customers with customized stitching to receive your creation at your home.'
               )}
-              src={Desine}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/desine.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/desineLogo.png`}
               to='/ourprojects/designconfection'
               DividerTheme='#CC8E9C'
               // btnBackground="#CC8E9C"
               Heading='Design Confection'
-              LogoSrc={Desine_Logo}
             />
             <LatestProjectsCard
               hoverDesp={t(
                 'The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
               )}
-              src={Real_Estate}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realEstate.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestateLogo.png`}
               to='/ourprojects/realestate'
               DividerTheme='#837C6B'
               // btnBackground="#837C6B"
               Heading='Real Estate'
-              LogoSrc={RealEstate_Logo}
             />
             <LatestProjectsCard
               hoverDesp={t('EZBox media is a platform providing different services')}
-              src={EzBox}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezBox.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezBoxLogo.png`}
               to='/ourprojects/ezbox'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               Heading='Box Media'
-              LogoSrc={EzBox_Logo}
             />
             <LatestProjectsCard
               hoverDesp={t(
                 'This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.'
               )}
-              src={Facility}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_logo_lp.svg`}
               to='/ourprojects/facilitymanagement'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               heading='Facility Management'
-              LogoSrc={FacilityLogo}
             />
             <LatestProjectsCard
               hoverDesp={t(
                 "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs."
               )}
-              src={Yuwway}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_logo_lp.png`}
               to='/ourprojects/yuwway'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               heading='Yuwway'
-              LogoSrc={YuwwayLogo}
             />
             <LatestProjectsCard
               hoverDesp={t(
                 'Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
               )}
-              src={Excellence}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_logo_lp.svg`}
               to='/ourprojects/excellence'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               Heading='Excellence'
-              LogoSrc={ExcellenceLogo}
             />
             <LatestProjectsCard
-              src={Fnac}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fnac_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fnaclogo.png`}
               // to='/ourprojects/ezbox'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               heading='Fnac'
-              LogoSrc={Fnac_Logo}
               hoverDesp={t(
                 'Falcon Consulting has been asked by FNAC for its expertise in .NET and SQL to reinforce the project teams related to inventory, stocks, locations, label printing, customer orders.'
               )}
@@ -260,12 +260,12 @@ export default function LatestProjects(props) {
               hoverDesp={t(
                 'Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:'
               )}
-              src={Fireman}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fireman_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fireman_logo_lp.png`}
               to='/ourprojects/fireman'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               Heading='Fireman'
-              LogoSrc={FiremanLogo}
             />
             {/* <LatestProjectsCard
               hoverDesp='Toyota'
@@ -277,12 +277,12 @@ export default function LatestProjects(props) {
               LogoSrc={Toyota_Logo}
             /> */}
             <LatestProjectsCard
-              src={Canon}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/canon_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/canonlogo.png`}
               // to='/ourprojects/ezbox'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               heading='Canon'
-              LogoSrc={Canon_Logo}
               hoverDesp={t(
                 'Falcon Consulting has been asked by Canon for its expertise in .NET and its ability to adapt to any business to set up several projects around EDM Therefore for their customers (several sectors of activity: banking, insurance, construction, aeronautics,...)'
               )}
@@ -299,19 +299,19 @@ export default function LatestProjects(props) {
               hoverDesp={t(
                 'This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
               )}
-              src={Register}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/rr_logo_lp.svg`}
               to='/ourprojects/registerrh'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               Heading='Register RH'
-              LogoSrc={RegisterLogo}
             />
             <LatestProjectsCard
-              src={Accor}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/accor_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/accorlogo.png`}
               // to='/ourprojects/ezbox'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              LogoSrc={AccorHotel_Logo}
               hoverDesp={t(
                 'Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.'
               )}
@@ -329,32 +329,32 @@ export default function LatestProjects(props) {
               hoverDesp={t(
                 'Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. '
               )}
-              src={Wina}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_logo_lp.svg`}
               to='/ourprojects/wina'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               heading='Wina'
-              LogoSrc={Wina_Logo_modal}
             />
             <LatestProjectsCard
               hoverDesp={t('ZypZap is a gaming platform by Falcon IT.')}
-              src={Zypzap}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_Logo.svg`}
               to='/ourprojects/zypzap'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               heading='Zypzap'
-              LogoSrc={Zypzap_Logo}
             />
             <LatestProjectsCard
               hoverDesp={t(
                 'Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
               )}
-              src={Tilt}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_logo.png`}
               to='/ourprojects/tilt'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               Heading='Tilt'
-              LogoSrc={Tilt_Logo}
             />
             {/* <LatestProjectsCard
               src={Blsh}
@@ -377,21 +377,21 @@ export default function LatestProjects(props) {
               hoverDesp={t(
                 'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
               )}
-              src={Orgaplan}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_logo.svg`}
               to='/ourprojects/orgaplan'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               heading='Orgaplan'
-              LogoSrc={Orgaplan_Logo}
             />
             <LatestProjectsCard
               // hoverDesp='Tajweed'
-              src={Tajweed}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo_lp.svg`}
+              ModalLogo={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo.svg`}
               // to='/ourprojects/ezbox'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              LogoSrc={Tajweed_ModalLogo}
-              ModalLogo={Tajweed_logo}
               // DividerTheme='#007536'
               heading='Tajweed'
               title='Tajweed'
@@ -418,11 +418,11 @@ export default function LatestProjects(props) {
               para1='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
             /> */}
             <LatestProjectsCard
-              src={Microsoft}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/microsoft_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/microsoft_logo_lp.png`}
               // to='/ourprojects/ezbox'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              LogoSrc={MicrosoftLogo}
               heading='Microsoft'
               hoverDesp={t(
                 'Falcon Consulting has been asked by Microsoft for its expertise in .NET and reporting to implement product analysis tools for the media catalogs (music, video and ebooks) on the Windows Store using the latest Azure technologies.'
@@ -437,45 +437,45 @@ export default function LatestProjects(props) {
               hoverDesp={t(
                 'Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
               )}
-              src={Sindoor}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_logo_lp.png`}
               to='/ourprojects/sindoor'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               heading='Sindoor'
-              LogoSrc={SindoorLogo}
             />
             <LatestProjectsCard
               hoverDesp={t(
                 'Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.'
               )}
-              src={Orientator}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_logo_lp.png`}
               to='/ourprojects/orientator'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               Heading='Orientator'
-              LogoSrc={OrientatorLogo}
             />
             <LatestProjectsCard
               hoverDesp={t(
                 'Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.'
               )}
-              src={TeleHealth}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_logo.svg`}
               to='/ourprojects/telehealthplatform'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               Heading='Tele Health'
-              LogoSrc={Tele_logo}
             />
             <LatestProjectsCard
               hoverDesp={t(
                 'This project consists of two apps one is for the restaurant and other is for the end user.'
               )}
-              src={Table}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_logo_lp.png`}
               to='/ourprojects/table'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
               Heading='Table'
-              LogoSrc={TableLogo}
             />
             {/* <LatestProjectsCard
               hoverDesp={t(

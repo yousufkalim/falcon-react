@@ -36,11 +36,11 @@ export default function OnDemandDev() {
         Description='Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !'
         btn
         btnText='More information'
-        ImgSrc={DemandDevImg}
+        ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/demanddevImg.svg`}
       />
       <OurDevelopers />
       <DeveloperWorkProcess />
-      <ServiceFrame src={DemandDevFrame} />
+      <ServiceFrame src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/demanddevframe.svg`} />
       <LatestProjects />
       <Footer />
     </div>

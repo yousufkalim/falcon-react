@@ -12,7 +12,10 @@ export default function DetailFeedback(props) {
 
   return (
     <>
-      <div className='DetailFeedback_container' style={{ background: props.ThemeBG ? props.ThemeBG : '#00654F' }}>
+      <div
+        className='DetailFeedback_container'
+        style={{ background: props.ThemeBG ? props.ThemeBG : '#00654F' }}
+      >
         <div className='DetailFeedback_Div'>
           <div className='DetailFeedback_TypoDiv'>
             <div className='DetailFeedback_TitleDiv'>
@@ -32,12 +35,15 @@ export default function DetailFeedback(props) {
             <div className='DetailFeedback_ClientContainer'>
               <div className='DetailFeedback_ClientDiv'>
                 <div className='DetailFeedback_AvatarDiv'>
-                  <Avatar className='DetailFeedback_Avatar' src={props.AvatarSrc || AvatarImg} />
+                  <Avatar className='DetailFeedback_Avatar' src={props.AvatarSrc} />
                   <div className='DetailFeedback_NameDiv'>
                     <Typography className='DetailFeedback_Name' color={props.titleTheme || '#fff'}>
                       {props.name || 'DDS Formation'}
                     </Typography>
-                    <Typography className='DetailFeedback_Location' color={props.despTheme || '#fff'}>
+                    <Typography
+                      className='DetailFeedback_Location'
+                      color={props.despTheme || '#fff'}
+                    >
                       {props.location || 'France'}
                     </Typography>
                   </div>

@@ -45,7 +45,7 @@ export default function DetailOverview(props) {
                 <Avatar
                   className='DetailOverview_Avatar'
                   sx={{ width: 70, height: 70 }}
-                  src={props.AvatarSrc || AvatarImg}
+                  src={props.AvatarSrc}
                 />
                 <div className='DetailOverview_NameDiv'>
                   <Typography className='DetailOverview_Name' color={props.nameColor || '#2FAD93'}>
@@ -60,7 +60,7 @@ export default function DetailOverview(props) {
           </div>
         </div>
         <div className='DetailOverview_ImageDiv'>
-          <img className='DetailOverview_Image' src={props.src || OverView} alt='Overview' />
+          <img className='DetailOverview_Image' src={props.src} alt='Overview' />
         </div>
       </div>
     </>

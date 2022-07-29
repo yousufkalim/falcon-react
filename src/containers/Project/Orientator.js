@@ -43,7 +43,7 @@ export default function Orientator() {
         background='#282828'
         bottomBG=' linear-gradient(269.14deg, #BE9400 0%, #CB4B03 48.96%, #8B0054 100%)'
         typoBG=' linear-gradient(269.14deg, #BE9400 0%, #CB4B03 48.96%, #8B0054 100%)'
-        HeaderImg={Orientator_Header}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_header.png`}
         title='Orientator'
         subTitle='Orientator'
         // iconTheme="#9D3C64"
@@ -53,11 +53,11 @@ export default function Orientator() {
         titleTheme='#FF29AA'
         desp='Orientator is a French-based platform for students to decide on their university.This site is developed with the front end on React and the backend on Node JS and the whole project was completed in 5 months'
         // desp=""
-        AvatarSrc={QB_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/overview_quadraAvatar.png`}
         nameColor='FF29AA'
         name='Bilel S.'
         // location="France"
-        src={OV_Orientator}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_orientator.png`}
       />
       <DetailService
         // app
@@ -78,7 +78,7 @@ export default function Orientator() {
         title='ORIENTATOR'
         btnTheme='linear-gradient(267.62deg, #FF3A87 1.18%, #FF6924 47.48%, #FFA220 100%)'
         theme='linear-gradient(229.11deg, #FECE24 1.54%, #FF6D1A 100%)'
-        src={Orientator_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_demo.png`}
       />
       <DetailDesign
         titleTheme='#FF29AA'
@@ -88,6 +88,12 @@ export default function Orientator() {
         // MidImg={Facility_Design2}
         // BottomImg={Facility_Design3}
         grids
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_4.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_3.png`}
         // src1
         // src2
         // src3
@@ -124,9 +130,9 @@ export default function Orientator() {
         website
         title='WEB DEVELOPMENT'
         // desp
-        fullImg={Orientator_WebFull}
+        fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_ss.png`}
         titleTheme='#FF29AA'
-        halfImg={Orientator_WebHalf}
+        halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_webhalf.png`}
       />
       <DetailFeedback
         // titleTheme="#FF29AA"
@@ -135,7 +141,7 @@ export default function Orientator() {
         // location
         ThemeBG='linear-gradient(269.14deg, #BE9400 0%, #CB4B03 48.96%, #8B0054 100%)'
         // AvatarSrc={Kidcab_Avatar}
-
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         name='Bilel S.'
       />
       <Footer />

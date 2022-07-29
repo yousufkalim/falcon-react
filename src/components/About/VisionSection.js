@@ -38,7 +38,11 @@ export default function VisionSection() {
           </div>
         </div>
         <div className='VisionImgDiv'>
-          <img className='VisionImg' src={VisionImg} />
+          <img
+            className='VisionImg'
+            alt='vision image'
+            src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/visionImg.svg`}
+          />
         </div>
       </div>
     </>

@@ -9,7 +9,10 @@ const PolicyHeader = () => {
         <div className='LegalMention_HeaderDiv'>
           <div className='LegalMention_HeaderTitleDiv'>
             <div>
-              <img src={Legal_Icon} alt='Policy' />
+              <img
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/legal_icon.svg`}
+                alt='Policy'
+              />
             </div>
             <h1 className='LegalMention_HeaderTitle'>Privacy Policy</h1>
           </div>

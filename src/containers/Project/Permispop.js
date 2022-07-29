@@ -43,7 +43,7 @@ export default function Permispop() {
         background='#2FAD93'
         bottomBG='#2FAD93'
         typoBG='#FF9A20EB'
-        HeaderImg={PermispopHeader}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/pp_header.png`}
         title='Permispop.'
         subTitle='Permispop'
         description='Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.'
@@ -51,17 +51,25 @@ export default function Permispop() {
 
       <DetailOverview
         name='Salim S.'
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overview.png`}
         desp='The idea was to develop a first version of the website, in order to test the market fit. This version was completed within a couple of months, using ReactJS for the frontend, and ASP.NET Core for the backend. We are still continuing the development, which is currently at the V4.'
       />
 
       <DetailService both BGLogo liteLogo={BG_Logo} />
       <DetailDemo
-        src={PP_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/pp_demo_new.png`}
         to='https://permispop.fr/'
         desp='Permispop is a web platform and a mobile app connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently. The possibility to search for an instructor with an interactive map, and book a session depending on his availability. The booking feature allows the driving schools and instructors to have an overview of all the activities and manage them efficiently; At the end  of each session, the student can rate the instructor and provide feedback to the platform; An internal messaging system; A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made.'
       />
       <DetailDesign
         grids
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_4.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_3.png`}
         // overlap
       />
       <DetailTheme
@@ -73,13 +81,17 @@ export default function Permispop() {
         Theme4='#454238'
         Theme5='#F6FAFB'
         Theme6='#C8CFD0'
-        src={ThemeImage}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/theme_image.png`}
       />
-      <DetailLogo />
-      <DetailAppDev application halfImg={AppDev} />
+      <DetailLogo src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detaillogo.png`} />
+      <DetailAppDev
+        application
+        halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_appdev_new.png`}
+      />
       <DetailWebDev
         // titleTheme
         // AvatarSrc
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         // nameColor
         name='Salim S.'
         // location

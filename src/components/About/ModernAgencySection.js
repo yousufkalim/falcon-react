@@ -31,10 +31,18 @@ export default function ModernAgencySection() {
           <div className='HistoryMain'>
             <div className='HistoryDiv'>
               <div className='HistoryImgDiv'>
-                <img className='HistoryImg' src={Tick1} alt='modern Agency' />
+                <img
+                  className='HistoryImg'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/MA1.svg`}
+                  alt='modern Agency'
+                />
               </div>
               <div className='ArrowMain'>
-                <img className='ArrowImg' src={AgencyArrow} alt='modern Agency' />
+                <img
+                  className='ArrowImg'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/AgencyArrow.svg`}
+                  alt='modern Agency'
+                />
               </div>
             </div>
             <div className='HistoryTypoDiv'>
@@ -45,10 +53,18 @@ export default function ModernAgencySection() {
           <div className='HistoryMain'>
             <div className='HistoryDiv'>
               <div className='HistoryImgDiv'>
-                <img className='HistoryImg' src={Tick2} alt='modern Agency' />
+                <img
+                  className='HistoryImg'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/MA2.svg`}
+                  alt='modern Agency'
+                />
               </div>
               <div className='ArrowMain'>
-                <img className='ArrowImg' src={AgencyArrow} alt='modern Agency' />
+                <img
+                  className='ArrowImg'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/AgencyArrow.svg`}
+                  alt='modern Agency'
+                />
               </div>
             </div>
             <div className='HistoryTypoDiv'>
@@ -59,10 +75,18 @@ export default function ModernAgencySection() {
           <div className='HistoryMain'>
             <div className='HistoryDiv'>
               <div className='HistoryImgDiv'>
-                <img className='HistoryImg' src={Tick3} alt='modern Agency' />
+                <img
+                  className='HistoryImg'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/MA3.svg`}
+                  alt='modern Agency'
+                />
               </div>
               <div className='ArrowMain'>
-                <img className='ArrowImg' src={AgencyArrow} alt='modern Agency' />
+                <img
+                  className='ArrowImg'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/AgencyArrow.svg`}
+                  alt='modern Agency'
+                />
               </div>
             </div>
             <div className='HistoryTypoDiv'>

@@ -19,16 +19,32 @@ export default function ClientSection() {
         <div className='ClientsDiv'>
           <Grid container spacing={1} className='ClientsGrid'>
             <Grid className='ClientLogoGrid' xs={6} sm={3}>
-              <img className='ClientLogo' src={Client1} alt='client' />
+              <img
+                className='ClientLogo'
+                alt='client'
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/6.svg`}
+              />
             </Grid>
             <Grid className='ClientLogoGrid' xs={6} sm={3}>
-              <img className='ClientLogo' src={Client2} alt='client' />
+              <img
+                className='ClientLogo'
+                alt='client'
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/7.svg`}
+              />
             </Grid>
             <Grid className='ClientLogoGrid' xs={6} sm={3}>
-              <img className='ClientLogo' src={Client3} alt='client' />
+              <img
+                className='ClientLogo'
+                alt='client'
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/4.svg`}
+              />
             </Grid>
             <Grid className='ClientLogoGrid' xs={6} sm={3}>
-              <img className='ClientLogo' src={Client4} alt='client' />
+              <img
+                className='ClientLogo'
+                alt='client'
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/5.svg`}
+              />
             </Grid>
           </Grid>
         </div>

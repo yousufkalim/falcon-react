@@ -153,7 +153,11 @@ export default function ContactUsSection(props) {
               <Grid xs={12} sm={10} md={10} className='ContactMedia'>
                 <a href='mailto:contact@falconconsulting.fr'>
                   <div className='ContactMediaDiv'>
-                    <img className='ContactMediaIcons' src={EmailIcon} alt='Email' />
+                    <img
+                      className='ContactMediaIcons'
+                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/emailIcon.svg`}
+                      alt='Email'
+                    />
                     <div className='SocialMediaText'>
                       <h3 sx={{ fontSize: '1rem' }}>{t('Email')}</h3>
                       <h5 sx={{ fontSize: '.7rem' }}>contact@falconconsulting.fr</h5>
@@ -162,7 +166,11 @@ export default function ContactUsSection(props) {
                 </a>
                 <a href='http://calendly.com/falconit'>
                   <div className='ContactMediaDiv'>
-                    <img className='ContactMediaIcons' src={CalendlyIcon} alt='Calendly' />
+                    <img
+                      className='ContactMediaIcons'
+                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendlyIcon.svg`}
+                      alt='Calendly'
+                    />
                     <div className='SocialMediaText'>
                       <h3 sx={{ fontSize: '1rem' }}>{t('Calendly')}</h3>
                       <h5 sx={{ fontSize: '.7rem' }}>{t('Click and join link')}</h5>
@@ -204,7 +212,11 @@ export default function ContactUsSection(props) {
                   <div style={{ width: '50%' }}>
                     <a href='http://calendly.com/falconit'>
                       <div className='SocialMediaDiv'>
-                        <img className='SocialMediaIcons' src={CalendlyIcon} alt='calendly' />
+                        <img
+                          className='SocialMediaIcons'
+                          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendlyIcon.svg`}
+                          alt='calendly'
+                        />
                         <div className='SocialMediaText'>
                           <h4>{t('Schedule Meeting')}</h4>
                           <h4>calendly.com/falconit</h4>
@@ -215,7 +227,11 @@ export default function ContactUsSection(props) {
                   <div style={{ width: '50%' }}>
                     <a href='mailto:contact@falconconsulting.fr'>
                       <div className='SocialMediaDiv'>
-                        <img className='SocialMediaIcons' src={EmailIcon} alt='email' />
+                        <img
+                          className='SocialMediaIcons'
+                          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/emailIcon.svg`}
+                          alt='email'
+                        />
                         <div className='SocialMediaText'>
                           <h4>{t('Email')}</h4>
                           <h4>contact@falconconsulting.fr</h4>

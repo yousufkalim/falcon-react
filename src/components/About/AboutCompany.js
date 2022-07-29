@@ -12,7 +12,11 @@ export default function AboutCompany() {
         <Grid container spacing={1}>
           <Grid sm={12} md={6}>
             <div className='AboutCompanyImgDiv'>
-              <img src={AboutCompanyImg} className='AboutCompanyImg' alt='about Us' />
+              <img
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/aboutCompanyImg.svg`}
+                className='AboutCompanyImg'
+                alt='about Us'
+              />
             </div>
           </Grid>
           <Grid sm={12} md={6}>

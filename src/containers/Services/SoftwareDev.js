@@ -33,11 +33,11 @@ export default function SoftwareDev() {
         Description='We are ready to handle your ambitious projects!'
         btn
         btnText='Get This Service'
-        ImgSrc={SoftwareDevImg}
+        ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/softwaredevImg.svg`}
       />
       <KeyFeatureSection />
       <WorkProcessSection />
-      <ServiceFrame src={SoftDevFrame} />
+      <ServiceFrame src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/softdevframe.svg`} />
       <LatestProjects />
       <Footer />
     </div>

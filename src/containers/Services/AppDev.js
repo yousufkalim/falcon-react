@@ -33,12 +33,12 @@ export default function AppDev() {
         Description='We are ready to handle your ambitious projects!'
         btn
         btnText='More information'
-        ImgSrc={AppDevImg}
+        ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/appdevImg.svg`}
         ImgWidth='75%'
       />
       <KeyFeatureSection />
       <WorkProcessSection />
-      <ServiceFrame src={AppDevFrame} />
+      <ServiceFrame src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/appdevframe.svg`} />
       <LatestProjects />
       <Footer />
     </div>

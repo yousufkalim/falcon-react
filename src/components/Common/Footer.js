@@ -33,11 +33,20 @@ export default function Footer(props) {
           viewport={{ once: true }}
           className='FooterMain'
         >
-          <img id='scrollToTopBtn' onClick={scrollToTop} src={TopBtn} alt='top' />
+          <img
+            id='scrollToTopBtn'
+            onClick={scrollToTop}
+            src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/top_btn.svg`}
+            alt='top'
+          />
           <div className='FooterDiv'>
             <div className='FooterLeft'>
               <Link to={`/`}>
-                <img className='FooterLogo' src={Logo} alt='logo' />
+                <img
+                  className='FooterLogo'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/logo.svg`}
+                  alt='logo'
+                />
               </Link>
               <h4
                 className='FooterTypo'
@@ -136,13 +145,25 @@ export default function Footer(props) {
           >
             <div className='IconsDiv'>
               <a href='https://www.facebook.com/FalconConsulting.fr'>
-                <img className='FooterIcons' src={FB} alt='facebook' />
+                <img
+                  className='FooterIcons'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterFB.svg`}
+                  alt='facebook'
+                />
               </a>
               <a href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'>
-                <img className='FooterIcons' src={LinkedIn} alt='linkedin' />
+                <img
+                  className='FooterIcons'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterLinkedIn.svg`}
+                  alt='linkedin'
+                />
               </a>
               <a href='https://wa.me/+923135098197'>
-                <img className='FooterIcons' src={WhatsApp} alt='whatsapp' />
+                <img
+                  className='FooterIcons'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                  alt='whatsapp'
+                />
               </a>
             </div>
             <div className='LegalMentionDiv'>
@@ -151,7 +172,11 @@ export default function Footer(props) {
                   {t('Privacy Policy')}
                 </a>{' '}
                 {/* <div style={{ padding: '0 1%' }}> */}
-                <img style={{ padding: '0 2% 0 1%' }} src={DividerPoint} alt='divider' />
+                <img
+                  style={{ padding: '0 2% 0 1%' }}
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/divider_point.svg`}
+                  alt='divider'
+                />
                 {/* </div> */}
                 <a className='LegalMention_H' href='/legalmentions'>
                   {t('Legal Mentions')}
@@ -187,7 +212,11 @@ export default function Footer(props) {
       <div className='Footer_MobView'>
         <div className='Footer_MobView_LogoDiv'>
           <Link className='Footer_MobView_LogoLink' to={`/`}>
-            <img className='FooterLogoMob' src={Logo} alt='logo' />
+            <img
+              className='FooterLogoMob'
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/logo.svg`}
+              alt='logo'
+            />
           </Link>
         </div>
         <div className='Footer_MobView_ListContainer'>
@@ -249,13 +278,25 @@ export default function Footer(props) {
         </div>
         <div className='Footer_MobView_IconDiv'>
           <a href='https://www.facebook.com/FalconConsulting.fr'>
-            <img className='FooterIcons' src={FB} alt='facebook' />
+            <img
+              className='FooterIcons'
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterFB.svg`}
+              alt='facebook'
+            />
           </a>
           <a href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'>
-            <img className='FooterIcons' src={LinkedIn} alt='libkedin' />
+            <img
+              className='FooterIcons'
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterLinkedIn.svg`}
+              alt='libkedin'
+            />
           </a>
           <a href='https://wa.me/+923135098197'>
-            <img className='FooterIcons' src={WhatsApp} alt='whatsapp' />
+            <img
+              className='FooterIcons'
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+              alt='whatsapp'
+            />
           </a>
         </div>
         <div>

@@ -51,7 +51,7 @@ export default function EZbox() {
         background='#454238'
         bottomBG='#3399FE'
         typoBG='#3399FE'
-        HeaderImg={EZbox_Header}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_header.png`}
         title='EZbox Media'
         subTitle='EZbox Media'
         description='EZBox media is a platform providing different services'
@@ -61,10 +61,10 @@ export default function EZbox() {
         desp='A French-based, service-providing website developed on MERN. This effective model took 3 months from January 2022 to March 2022 including all features.'
         // location
         titleTheme='#454238'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor='#3399FE'
         name='Eassa Awake'
-        src={OV_EZbox}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_ezbox.png`}
       />
       <DetailService
         // both
@@ -74,7 +74,7 @@ export default function EZbox() {
         borderColor='#454238'
         circleTheme='#3399FE'
         BGLogo
-        liteLogo={BG_Logo}
+        liteLogo={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_lite_logo.png`}
       />
 
       <DetailDemo
@@ -87,7 +87,7 @@ export default function EZbox() {
         title='EZbox Media'
         btnTheme='#3399FE'
         theme='#3399FE'
-        src={EZbox_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_demo_new.png`}
       />
       <DetailDesign
         titleTheme='#454238'
@@ -97,12 +97,13 @@ export default function EZbox() {
         // MidImg={EZbox_Design2}
         // BottomImg={EZbox_Design3}
         grids
-        src1={EZbox_Design2}
-        src2={EZbox_Design1}
-        src3={EZbox_Design2}
-        src4={EZbox_Design1}
-        src5={EZbox_Design3}
-        src6={EZbox_Design1}
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_design2.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_design1.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_design2.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_design1.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_design3.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_design1.png`}
+
         // overlap
       />
 
@@ -111,9 +112,9 @@ export default function EZbox() {
         // centerImage
         // src
         Images
-        src1={EZbox_Theme1}
-        src2={EZbox_Theme2}
-        src3={EZbox_Theme3}
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_theme1.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_theme2.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_theme3.png`}
         // fullscreen
         titleTheme='#454238'
         // desp
@@ -127,12 +128,15 @@ export default function EZbox() {
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={KidCab_Theme}
       />
-      <DetailLogo theme='#454238' src={EZbox_Logo} />
+      <DetailLogo
+        theme='#454238'
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_ezbox_logo.png`}
+      />
       <DetailAppDev
         website
         title='WEB DESIGN'
         // desp
-        halfImg={EZbox_WebDesign}
+        halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_webdesign.png`}
         titleTheme='#454238'
         // fullImg=(src Required)
       />
@@ -142,7 +146,7 @@ export default function EZbox() {
         desp='Falcon IT is a great company to work with as they are always responsive and willing to do what it takes to get the job done right and in a timely manner. They are very reliable and it was very clear during working that they are the right choice. Thank you, Falcon IT!'
         // location
         ThemeBG='#3399FE'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Eassa Awake'
       />
       <Footer />

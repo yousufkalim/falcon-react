@@ -33,12 +33,20 @@ export default function DetailWebDev(props) {
             </Typography>
           </div>
           <div className='DetailWebDev_Left_ImgDiv'>
-            <img style={{ width: '100%' }} src={WebDev_1} alt='Detail Development' />
+            <img
+              style={{ width: '100%' }}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_webdev1.png`}
+              alt='Detail Development'
+            />
           </div>
         </div>
         <div className='DetailWebDev_RightContainer'>
           <div className='DetailWebDev_Right_ImgDiv'>
-            <img style={{ width: '100%' }} src={WebDev_2} alt='Detail Development' />
+            <img
+              style={{ width: '100%' }}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_webdev2.png`}
+              alt='Detail Development'
+            />
           </div>
           <div className='DetailWebDev_TypoDiv'>
             <div className='DetailWebDev_TitleDiv'>

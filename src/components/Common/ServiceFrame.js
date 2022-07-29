@@ -5,7 +5,7 @@ export default function ServiceFrame(props) {
   return (
     <>
       <div className='ServiceFrame'>
-        <img src={props.src || WebFrame} width={props.width || '70%'} alt='Service Frame' />
+        <img src={props.src} width={props.width || '70%'} alt='Service Frame' />
       </div>
     </>
   );

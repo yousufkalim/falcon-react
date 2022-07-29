@@ -42,7 +42,7 @@ export default function Zypzap() {
         background='#282828'
         bottomBG='linear-gradient(269.14deg, #20BF55 0%, #25B058 0.01%, #522F6D 82.32%)'
         typoBG='linear-gradient(269.14deg, #20BF55 0%, #25B058 0.01%, #522F6D 82.32%)'
-        HeaderImg={Zypzap_Header}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_header.png`}
         title='Zypzap'
         subTitle='Zypzap'
         // iconTheme="#9D3C64"
@@ -52,11 +52,11 @@ export default function Zypzap() {
         titleTheme='#282828'
         desp='A French-based gaming platform, developed with the front end on React and the backend on Node JS, and the whole project was completed in 5 months, due to frequent changes in the design to meet the gaming world’s expectation.'
         // desp=""
-        AvatarSrc={QB_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/overview_quadraAvatar.png`}
         nameColor='linear-gradient(269.14deg, #20BF55 0%, #25B058 0.01%, #522F6D 82.32%)'
         name='Valentin L.'
         // location="France"
-        src={OV_Zypzap}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_zypzap.png`}
       />
       <DetailService
         // app
@@ -78,7 +78,7 @@ export default function Zypzap() {
         title='Zypzap'
         btnTheme='#16172D'
         theme='linear-gradient(227.79deg, #20BF55 -1.61%, #522F6D 74.91%)'
-        src={Zypzap_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_demo.png`}
       />
       <DetailDesign
         titleTheme='#282828'
@@ -88,6 +88,12 @@ export default function Zypzap() {
         // MidImg={Facility_Design2}
         // BottomImg={Facility_Design3}
         grids
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_4.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_3.png`}
         // src1
         // src2
         // src3
@@ -124,7 +130,7 @@ export default function Zypzap() {
         website
         title='WEB DESIGN'
         // desp
-        fullImg={Zypzap_WebDesign}
+        fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_webdesign.png`}
         titleTheme='#000000'
         // halfImg={Zypzap_WebDesign}
       />
@@ -134,6 +140,7 @@ export default function Zypzap() {
         desp='Quick response to ideas and changes. Falcon always answers the right ways and ideas'
         // location
         ThemeBG='linear-gradient(261.67deg, #20BF55 -0.52%, #522F6D 65.51%)'
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         // AvatarSrc={Kidcab_Avatar}
         name='Valentin L.'
       />

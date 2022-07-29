@@ -46,7 +46,7 @@ export default function Tilt() {
         background='#282828'
         bottomBG='#D3014A'
         typoBG='#D3014A'
-        HeaderImg={Tilt_Header}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_header.png`}
         title='Tilt'
         subTitle='Tilt'
         // iconTheme="#9D3C64"
@@ -55,11 +55,11 @@ export default function Tilt() {
       <DetailOverview
         titleTheme='#282828'
         desp='Tilt is a French-based platform connecting restaurants with corporate customers. Its front end is developed on React and its back end is on Node JS and the project was completed in 5 months.'
-        AvatarSrc={QB_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/overview_quadraAvatar.png`}
         nameColor='#D3014A'
         name='Laurent Louis-Henry'
         // location="France"
-        src={OV_Tilt}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_tilt.png`}
       />
       <DetailService
         // web
@@ -68,7 +68,7 @@ export default function Tilt() {
         borderColor='#282828'
         circleTheme='#D3014A'
         fitLogo
-        liteLogo={BG_Logo}
+        liteLogo={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_lite_logo.png`}
       />
 
       <DetailDemo
@@ -81,7 +81,7 @@ export default function Tilt() {
         title='Tilt'
         btnTheme='#D3014A'
         theme='#D3014A'
-        src={Tilt_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_demo_new.png`}
       />
       <DetailDesign
         titleTheme='#282828'
@@ -91,6 +91,12 @@ export default function Tilt() {
         // MidImg={Tilt_Design2}
         // BottomImg={Tilt_Design3}
         grids
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_4.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_3.png`}
         // src1
         // src2
         // src3
@@ -102,7 +108,7 @@ export default function Tilt() {
 
       <DetailTheme
         // desp
-        centerImage
+        // centerImage
         // src
         // Images
         // src1={OrgaPlan_Theme}
@@ -122,12 +128,15 @@ export default function Tilt() {
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={OrgaPlan_Theme}
       />
-      <DetailLogo theme='#D3014A' src={Tilt_Logo} />
+      <DetailLogo
+        theme='#D3014A'
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_tilt_logo.png`}
+      />
       <DetailAppDev
         application
         title='MOBILE APP DEVELOPMENT'
         // desp
-        fullImg={Tilt_AppDesign}
+        fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_appdesign.png`}
         titleTheme='#282828'
         // halfImg=(src Required)
       />
@@ -135,7 +144,7 @@ export default function Tilt() {
         website
         title='WEB DEVELOPMENT'
         // desp
-        fullImg={Tilt_WebDesign}
+        fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_webdesign.png`}
         titleTheme='#282828'
         // halfImg=(src Required)
       />
@@ -144,6 +153,7 @@ export default function Tilt() {
         // despTheme="#282828"
         desp='Falcon IT excels at turning your website dreams into reality. We are so proud of the work they have done for us that we have already recommended them to many of Our partners and we are very thankful to them.'
         // location
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         ThemeBG='#D3014A'
         // AvatarSrc={Kidcab_Avatar}
         name='Laurent Louis-Henry'
