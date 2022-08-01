@@ -179,20 +179,8 @@ export default function BasicTabs() {
           para3='The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.'
         />
         <OurProjectCard
-          Reverse
-          // LogoSrc={Quadra_Logo}
-          DividerTheme='#7A7A7A'
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_update.png`}
-          to='/ourprojects/quadrabase'
-          title='Quadrabase'
-          description='Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
-          // Modal Data
-          para1='Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
-          para2='Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. '
-          para3='This project is ambitious and aims to revolutionize the approach to design in the field of construction in France. '
-        />
-        <OurProjectCard
           // LogoSrc={PP_logo}
+          Reverse
           DividerTheme='#11A283'
           src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`}
           title='Permispop'
@@ -206,6 +194,44 @@ export default function BasicTabs() {
           para5='- At the end of each session, the student can rate the instructor and provide feedback to the platform; '
           para6='- An internal messaging system;'
           para7='- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. '
+        />
+        <OurProjectCard
+          // LogoSrc={Quadra_Logo}
+          DividerTheme='#7A7A7A'
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_update.png`}
+          to='/ourprojects/quadrabase'
+          title='Quadrabase'
+          description='Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
+          // Modal Data
+          para1='Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
+          para2='Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. '
+          para3='This project is ambitious and aims to revolutionize the approach to design in the field of construction in France. '
+        />
+        <OurProjectCard
+          Reverse
+          to='/ourprojects/designconfection'
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/designconf_update.png`}
+          title='Design Confection Ethiques'
+          description='A web app designed to help customers with customized stitching to receive your creation at your home. '
+          // Modal Data
+          para1='A web app designed to help customers with customized stitching to receive your creation at your home. '
+          para2='User login to register and add information regarding customized dress like color combination, stuff design, etc.'
+          para3='After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs.'
+          para4='Choose your designer with 99% accuracy as design confection brings your ideas to life.'
+        />
+        <OurProjectCard
+          // LogoSrc={Kidcab_Logo}
+          DividerTheme='#0097A7'
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_update.png`}
+          to='/ourprojects/kidcab'
+          title='Kidcab'
+          description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
+          // Modal Data
+          para1='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
+          para2='The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. '
+          para3='The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. '
+          para4='Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. '
+          para5='This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. '
         />
 
         {/* {MoreProjects && (
@@ -226,29 +252,6 @@ export default function BasicTabs() {
           para4='On the delivery side, the application the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications. '
         />
         <OurProjectCard
-          // LogoSrc={Kidcab_Logo}
-          DividerTheme='#0097A7'
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_update.png`}
-          to='/ourprojects/kidcab'
-          title='Kidcab'
-          description='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
-          // Modal Data
-          para1='Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application. '
-          para2='The Driver mobile application allow them to receive ride offers and see an overview of the upcoming and past activities. When being on a ride, the application is having similar features as Uber. '
-          para3='The Parents mobile application shows the live location of the driver, and allows to monitor all the past and upcoming rides. '
-          para4='Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. '
-          para5='This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. '
-        />
-
-        <OurProjectCard
-          Reverse
-          to='/ourprojects/excellence'
-          title='ERP Excellence'
-          description='Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_update.png`}
-        />
-
-        <OurProjectCard
           // LogoSrc={EZBox_Logo}
           DividerTheme='blue'
           to='/ourprojects/ezbox'
@@ -268,6 +271,13 @@ export default function BasicTabs() {
 
         <OurProjectCard
           Reverse
+          to='/ourprojects/excellence'
+          title='ERP Excellence'
+          description='Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_update.png`}
+        />
+
+        <OurProjectCard
           LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo.svg`}
           DividerTheme='#007536'
           src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_update.png`}
@@ -295,17 +305,6 @@ export default function BasicTabs() {
           para5='The app will be free for Customers. The Courier will pay 20% of the delivery price.'
         /> */}
 
-        <OurProjectCard
-          to='/ourprojects/designconfection'
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/designconf_update.png`}
-          title='Design Confection Ethiques'
-          description='A web app designed to help customers with customized stitching to receive your creation at your home. '
-          // Modal Data
-          para1='A web app designed to help customers with customized stitching to receive your creation at your home. '
-          para2='User login to register and add information regarding customized dress like color combination, stuff design, etc.'
-          para3='After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs.'
-          para4='Choose your designer with 99% accuracy as design confection brings your ideas to life.'
-        />
         {/* </>
         )} */}
         {/* <Grid xs={12} className="BlogBtnGrid">
@@ -321,17 +320,61 @@ export default function BasicTabs() {
       <TabPanel value={value} index={2}>
         <OurProjectCard
           Reverse
-          to='/ourprojects/tilt'
-          // LogoSrc={Tilt_Logo}
-          DividerTheme='red'
-          title='Tilt'
-          description='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_update.png`}
+          to='/ourprojects/orgaplan'
+          // LogoSrc={Orgaplan_Logo}
+          DividerTheme='#DBB208'
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_update.png`}
+          title='OrgaPlan'
+          description='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
           // Modal Data
-          para1='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
-          para2='The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience.'
-          para3='On the restaurant side, it is possible to create and manage a customized menu, see all the incoming orders, and change their status.'
-          para4='On the delivery side, the application the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications.'
+          para1='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
+          para2='Available in web and mobile version, with 5 types of users: Super admin / Admin / Company / Traffic agent / Buffer traffic agent. Each user has his own rights and functionalities, allowing an infinity of scenarios, as per the real situations on site. '
+          para3='Possibility to create and draw the Site Installation Plan, as well as the buildings and storage areas. Possibility to create deliveries and monitor the general state of the site.'
+          para4='Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. '
+        />
+        <OurProjectCard
+          to='/ourprojects/orientator'
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_update.png`}
+          title='Orientator'
+          description='Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.'
+          // Modal Data
+        />
+        <OurProjectCard
+          Reverse
+          to='/ourprojects/registerrh'
+          DividerTheme='blue'
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_update.png`}
+          title='Registre-RH'
+          description='This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
+          // Modal Data
+        />
+        <OurProjectCard
+          to='/ourprojects/telehealthplatform'
+          // LogoSrc={Tele_logo}
+          DividerTheme='#0F52BA'
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_update.png`}
+          title='Movement detection for health providers'
+          description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.'
+          // Modal Data
+          para1='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
+          para2='The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not.'
+          para3='The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.'
+        />
+        <OurProjectCard
+          to='/ourprojects/zypzap'
+          Reverse
+          // LogoSrc={Zypzap_Logo}
+          DividerTheme='#522F6D'
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_update.png`}
+          title='Zypzap'
+          description='ZypZap is a gaming platform by Falcon IT.'
+          // Modal Data
+          para1='ZypZap is a gaming platform by Falcon IT.'
+          para2='It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.'
+          para3='•	For learners, ZypZap helps them to become Pro players.'
+          para4='•	Full gameplay courses are available on this site.'
+          para5='•	For creators, gamers teach, what they are good at'
+          para6='•	Specifically, for the gamers who want to teach how to play and make familiar with the game content quickly.'
         />
         <OurProjectCard
           to='/ourprojects/permispop'
@@ -352,7 +395,6 @@ export default function BasicTabs() {
           para6='- An internal messaging system;'
           para7='- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. '
         />
-
         <OurProjectCard
           Reverse
           // LogoSrc={Quadra_Logo}
@@ -365,6 +407,47 @@ export default function BasicTabs() {
           // para1="Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details."
           // para2="Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. "
           // para3="This project is ambitious and aims to revolutionize the approach to design in the field of construction in France. "
+        />
+
+        {/* {MoreProjects && (
+          <> */}
+        <OurProjectCard
+          to='/ourprojects/yuwway'
+          title='Yuwway'
+          description="Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs."
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_update.png`}
+        />
+        <OurProjectCard
+          Reverse
+          to='/ourprojects/sindoor'
+          title='Sindoor'
+          description='Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_update.png`}
+        />
+        <OurProjectCard
+          // LogoSrc={Desine_Logo}
+          to='/ourprojects/designconfection'
+          // ModalHeading="Design Confection Ethiques"
+          DividerTheme='#CC8E9C'
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/designconf_update.png`}
+          title='Design Confection Ethiques'
+          description='A web app designed to help customers with customized stitching to receive your creation at your home.'
+          // Modal Data
+          para1='A web app designed to help customers with customized stitching to receive your creation at your home. '
+          para2='User login to register and add information regarding customized dress like color combination, stuff design, etc.'
+          para3='After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs.'
+          para4='Choose your designer with 99% accuracy as design confection brings your ideas to life.'
+        />
+        <OurProjectCard
+          Reverse
+          to='/ourprojects/realestate'
+          // LogoSrc={RealEstate_Logo}
+          // ModalHeading="Real Estate"
+          DividerTheme='#837C6B'
+          RealEstate_Logo
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_update.png`}
+          title='Real Estate'
+          description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
         />
         <OurProjectCard
           src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_update.png`}
@@ -380,84 +463,19 @@ export default function BasicTabs() {
           para4='Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created.'
           para5='This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. '
         />
-
-        {/* {MoreProjects && (
-          <> */}
         <OurProjectCard
           Reverse
-          to='/ourprojects/yuwway'
-          title='Yuwway'
-          description="Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs."
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_update.png`}
-        />
-
-        <OurProjectCard
-          to='/ourprojects/telehealthplatform'
-          // LogoSrc={Tele_logo}
-          DividerTheme='#0F52BA'
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_update.png`}
-          title='Movement detection for health providers'
-          description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.'
+          to='/ourprojects/tilt'
+          // LogoSrc={Tilt_Logo}
+          DividerTheme='red'
+          title='Tilt'
+          description='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_update.png`}
           // Modal Data
-          para1='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
-          para2='The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not.'
-          para3='The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.'
-        />
-        <OurProjectCard
-          to='/ourprojects/orientator'
-          Reverse
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_update.png`}
-          title='Orientator'
-          description='Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.'
-          // Modal Data
-        />
-
-        <OurProjectCard
-          to='/ourprojects/registerrh'
-          DividerTheme='blue'
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_update.png`}
-          title='Registre-RH'
-          description='This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
-          // Modal Data
-        />
-
-        <OurProjectCard
-          to='/ourprojects/facilitymanagement'
-          Reverse
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_update.png`}
-          title='Facility Management'
-          description='This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.'
-          // Modal Data
-        />
-        <OurProjectCard
-          to='/ourprojects/orgaplan'
-          // LogoSrc={Orgaplan_Logo}
-          DividerTheme='#DBB208'
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_update.png`}
-          title='OrgaPlan'
-          description='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
-          // Modal Data
-          para1='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
-          para2='Available in web and mobile version, with 5 types of users: Super admin / Admin / Company / Traffic agent / Buffer traffic agent. Each user has his own rights and functionalities, allowing an infinity of scenarios, as per the real situations on site. '
-          para3='Possibility to create and draw the Site Installation Plan, as well as the buildings and storage areas. Possibility to create deliveries and monitor the general state of the site.'
-          para4='Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. '
-        />
-
-        <OurProjectCard
-          to='/ourprojects/zypzap'
-          Reverse
-          // LogoSrc={Zypzap_Logo}
-          DividerTheme='#522F6D'
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_update.png`}
-          title='Zypzap'
-          description='ZypZap is a gaming platform by Falcon IT.'
-          // Modal Data
-          para1='ZypZap is a gaming platform by Falcon IT.'
-          para2='It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.'
-          para3='•	For learners, ZypZap helps them to become Pro players.'
-          para4='•	Full gameplay courses are available on this site.'
-          para5='•	For creators, gamers teach, what they are good at'
-          para6='•	Specifically, for the gamers who want to teach how to play and make familiar with the game content quickly.'
+          para1='Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
+          para2='The customers can order food with a ingenious system allowing mixed dishes among several restaurants in the same area. Then they get notified of the status of the order, and they can rate the overall experience.'
+          para3='On the restaurant side, it is possible to create and manage a customized menu, see all the incoming orders, and change their status.'
+          para4='On the delivery side, the application the dishes to be picked and delivered, with all the location information. The delivery driver automatically informs the users of the progress of the order, with push notifications.'
         />
         <OurProjectCard
           to='/ourprojects/ezbox'
@@ -476,12 +494,14 @@ export default function BasicTabs() {
           para7='Chromium Browser: '
           para8='•	EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions. '
         />
+
         <OurProjectCard
+          to='/ourprojects/facilitymanagement'
           Reverse
-          to='/ourprojects/sindoor'
-          title='Sindoor'
-          description='Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_update.png`}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_update.png`}
+          title='Facility Management'
+          description='This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.'
+          // Modal Data
         />
 
         <OurProjectCard
@@ -554,20 +574,6 @@ export default function BasicTabs() {
           para8='• Technical support around Therefore from different Canon customers'
         />
 
-        <OurProjectCard
-          // LogoSrc={Desine_Logo}
-          to='/ourprojects/designconfection'
-          // ModalHeading="Design Confection Ethiques"
-          DividerTheme='#CC8E9C'
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/designconf_update.png`}
-          title='Design Confection Ethiques'
-          description='A web app designed to help customers with customized stitching to receive your creation at your home.'
-          // Modal Data
-          para1='A web app designed to help customers with customized stitching to receive your creation at your home. '
-          para2='User login to register and add information regarding customized dress like color combination, stuff design, etc.'
-          para3='After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs.'
-          para4='Choose your designer with 99% accuracy as design confection brings your ideas to life.'
-        />
         {/* <OurProjectCard
           Reverse
           LogoSrc={BarberLogo}
@@ -579,7 +585,6 @@ export default function BasicTabs() {
           para1='BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.'
         /> */}
         <OurProjectCard
-          Reverse
           LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/accorlogo.png`}
           title='Accor Hotels'
           description='Falcon Consulting has been asked by Accor for its expertise in .NET and SQL to maintain the tools related to the training courses and trainings.'
@@ -593,16 +598,6 @@ export default function BasicTabs() {
           para6='• T-SQL development (generation of extracts, counters and data consistency checks)'
           para7='• rDevelopment to evolve invoices to the new SSRS format'
           para8='• Kettle-based batch development for import / export and data transformation'
-        />
-        <OurProjectCard
-          to='/ourprojects/realestate'
-          // LogoSrc={RealEstate_Logo}
-          // ModalHeading="Real Estate"
-          DividerTheme='#837C6B'
-          RealEstate_Logo
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_update.png`}
-          title='Real Estate'
-          description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
         />
 
         {/* <OurProjectCard
@@ -708,7 +703,20 @@ export default function BasicTabs() {
           para4='Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification in order to get the best User experience. '
         />
         <OurProjectCard
+          to='/ourprojects/telehealthplatform'
+          // LogoSrc={Tele_logo}
+          DividerTheme='#0F52BA'
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_update.png`}
+          title='Movement detection for health providers'
+          description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
+          // Modal Data
+          para1='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
+          para2='The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not.'
+          para3='The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.'
+        />
+        <OurProjectCard
           // LogoSrc={PP_logo}
+          Reverse
           src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`}
           title='Permispop'
           to='/ourprojects/permispop'
@@ -722,7 +730,12 @@ export default function BasicTabs() {
           para6='- An internal messaging system;'
           para7='- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. '
         />
-
+        <OurProjectCard
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_update.png`}
+          to='/ourprojects/realestate'
+          title='Real Estate'
+          description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
+        />
         <OurProjectCard
           Reverse
           to='/ourprojects/tilt'
@@ -785,12 +798,6 @@ export default function BasicTabs() {
           para4='•	User can repeat the lesson at any time without an internet connection'
           para5='•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy.'
         />
-        <OurProjectCard
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_update.png`}
-          to='/ourprojects/realestate'
-          title='Real Estate'
-          description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
-        />
 
         {/* <OurProjectCard
           Reverse
@@ -800,20 +807,6 @@ export default function BasicTabs() {
           heading='Beauty Salon'
           para1='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
         /> */}
-
-        <OurProjectCard
-          Reverse
-          to='/ourprojects/telehealthplatform'
-          // LogoSrc={Tele_logo}
-          DividerTheme='#0F52BA'
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_update.png`}
-          title='Movement detection for health providers'
-          description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
-          // Modal Data
-          para1='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
-          para2='The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc…). The program then analyzes the data based on internal rules, and deduces whether the movements are abnormal or not.'
-          para3='The detection of the movements is done with the help of Mediapipe, and requires an advanced knowledge in terms of image processing in order to ensure a fluidity and accuracy of the final results.'
-        />
 
         {/* <OurProjectCard
           Reverse
@@ -877,24 +870,8 @@ export default function BasicTabs() {
           para6='- An internal messaging system;'
           para7='- A digital driving booklet, allowing the instructors to have an overview of the level of each student, and add any progress made. '
         />
-
         <OurProjectCard
           Reverse
-          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo.svg`}
-          DividerTheme='#007536'
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_update.png`}
-          heading='Tajweed'
-          title='Tajweed'
-          description='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
-          // Modal Data
-          para1='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
-          para2='•	User can signup and start learning Quran with Tajweed.'
-          para3='•	Practice lessons are available.'
-          para4='•	User can repeat the lesson at any time without an internet connection'
-          para5='•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy.'
-        />
-
-        <OurProjectCard
           // LogoSrc={Quadra_Logo}
           DividerTheme='#7A7A7A'
           src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_update.png`}
@@ -906,9 +883,7 @@ export default function BasicTabs() {
           para2='Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. '
           para3='This project is ambitious and aims to revolutionize the approach to design in the field of construction in France. '
         />
-
         <OurProjectCard
-          Reverse
           to='/ourprojects/designconfection'
           src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/designconf_update.png`}
           title='Design Confection Ethiques'
@@ -919,17 +894,13 @@ export default function BasicTabs() {
           para3='After registration, consumers post ads containing ideas and 100+creative designers send you the estimated costs.'
           para4='Choose your designer with 99% accuracy as design confection brings your ideas to life.'
         />
-        {/* {MoreProjects && (
-          <> */}
-        {/* <OurProjectCard
+        <OurProjectCard
           Reverse
-          src={BeautySalon}
-          title='Beauty Salon'
-          description='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
-          heading='Beauty Salon'
-          para1='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
-        /> */}
-
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_update.png`}
+          to='/ourprojects/realestate'
+          title='Real Estate'
+          description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
+        />
         <OurProjectCard
           // LogoSrc={Kidcab_Logo}
           DividerTheme='#0097A7'
@@ -944,13 +915,6 @@ export default function BasicTabs() {
           para4='Finally, the Ride Management website is intended for Kidcab administrator to create, manage and assign efficiently the activities of the company. An in-app quote and invoice management tool has also been created. '
           para5='This project required to work carefully on the code optimization, and especially all the API calls in order to minimize the operation costs. '
         />
-        {/* <OurProjectCard
-          Reverse
-          LogoSrc={BarberLogo}
-          title='Barber Shop'
-          description='BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.'
-          src={BarberShop}
-        /> */}
         <OurProjectCard
           Reverse
           to='/ourprojects/ezbox'
@@ -970,11 +934,39 @@ export default function BasicTabs() {
           para8='•	EZBoxmedia worked with leading consumer electronics manufacturers to design and provide turnkey solutions. '
         />
         <OurProjectCard
-          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_update.png`}
-          to='/ourprojects/realestate'
-          title='Real Estate'
-          description='The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.'
+          LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo.svg`}
+          DividerTheme='#007536'
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_update.png`}
+          heading='Tajweed'
+          title='Tajweed'
+          description='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
+          // Modal Data
+          para1='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
+          para2='•	User can signup and start learning Quran with Tajweed.'
+          para3='•	Practice lessons are available.'
+          para4='•	User can repeat the lesson at any time without an internet connection'
+          para5='•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy.'
         />
+
+        {/* {MoreProjects && (
+          <> */}
+        {/* <OurProjectCard
+          Reverse
+          src={BeautySalon}
+          title='Beauty Salon'
+          description='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
+          heading='Beauty Salon'
+          para1='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
+        /> */}
+
+        {/* <OurProjectCard
+          Reverse
+          LogoSrc={BarberLogo}
+          title='Barber Shop'
+          description='BarberShop is designed for the specific barber store. This is the connecting platform where the client can book their appointment through his mobile and the barber get clients booking without personal intensions. Client can easily book their appointment on the availability of barber. On the other hand Barber can easily get all the booking schedules or appointment details through his mobile app.'
+          src={BarberShop}
+        /> */}
+
         {/* <OurProjectCard
           Reverse
           src={Blsh}
