@@ -1,12 +1,12 @@
 // Init
 import React from 'react';
-import { Grid, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import { useTranslation } from 'react-i18next';
 
 // Component
 export default function DetailTheme(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   return (
     <>
       <div className='DetailTheme_Container'>

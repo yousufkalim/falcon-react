@@ -1,16 +1,17 @@
-import { Typography } from '@mui/material';
 import React from 'react';
-import Legal_Icon from '../../assets/images/legal_icon.svg';
 import { useTranslation } from 'react-i18next';
 export default function LegalHeader(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   return (
     <>
       <div className='LegalMention_HeaderContainer'>
         <div className='LegalMention_HeaderDiv'>
           <div className='LegalMention_HeaderTitleDiv'>
             <div>
-              <img src={Legal_Icon} alt='Legal Mentions' />
+              <img
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/legal_icon.svg`}
+                alt='Legal Mentions'
+              />
             </div>
             <h1 className='LegalMention_HeaderTitle'>{t('Legal Mentions')}</h1>
           </div>

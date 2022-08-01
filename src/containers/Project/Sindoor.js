@@ -4,19 +4,12 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Sindoor_Header from '../../assets/images/sindoor_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Sindoor from '../../assets/images/ov_sindoor.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-
-import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Sindoor_Demo from '../../assets/images/sindoor_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import Sindoor_AppDesign from '../../assets/images/sindoor_appdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
@@ -42,7 +35,7 @@ export default function Sindoor() {
         background='#000000'
         bottomBG='#E45A5A'
         typoBG='#E45A5A'
-        HeaderImg={Sindoor_Header}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_header.png`}
         title='Sindoor'
         subTitle='Sindoor'
         description='Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
@@ -52,10 +45,10 @@ export default function Sindoor() {
         desp='Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
         // location
         titleTheme='#E45A5A'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor='#E45A5A'
         name='Muzammal Chaudhry'
-        src={OV_Sindoor}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_sindoor.png`}
       />
       <DetailService
         // both
@@ -76,7 +69,7 @@ export default function Sindoor() {
         title='Sindoor'
         btnTheme='#E45A5A'
         theme='#E45A5A'
-        src={Sindoor_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_demo.png`}
       />
       <DetailDesign
         titleTheme='#E45A5A'
@@ -86,6 +79,12 @@ export default function Sindoor() {
         // MidImg={Sindoor_Design2}
         // BottomImg={Sindoor_Design3}
         grids
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_4.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_3.png`}
         // src1
         // src2
         // src3
@@ -124,7 +123,7 @@ export default function Sindoor() {
         // desp
         // fullImg={Table_AppDesign}
         titleTheme='#E45A5A'
-        halfImg={Sindoor_AppDesign}
+        halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_appdesign.png`}
       />
       <DetailFeedback
         // titleTheme
@@ -132,7 +131,7 @@ export default function Sindoor() {
         // desp
         // location
         ThemeBG='#E45A5A'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Muzammal Chaudhry'
       />
       <Footer />

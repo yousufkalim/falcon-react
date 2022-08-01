@@ -1,13 +1,7 @@
-import { Grid, Typography } from '@mui/material';
+import { Grid } from '@mui/material';
 import React from 'react';
 import SectionHeader from './SectionHeader';
 import InfoBox from './InfoBox';
-import AboutImg from '../../assets/images/about_section.svg';
-import AboutInfo2 from '../../assets/images/aboutSec_2.svg';
-import AboutInfo3 from '../../assets/images/aboutSec_3.svg';
-import AboutInfo4 from '../../assets/images/officeicon.svg';
-import AboutInfo5 from '../../assets/images/aboutSec_5.svg';
-import AboutInfo6 from '../../assets/images/aboutSec_6.svg';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
@@ -36,19 +30,39 @@ export default function AboutSection() {
                 className='About_MobInfo'
               >
                 <div style={{ display: 'flex' }}>
-                  <InfoBox number='8' title='Years of Excellence' />
-                  <InfoBox src={AboutInfo2} number='65' title='Number of Employees' />
-                </div>
-                <div style={{ display: 'flex' }}>
-                  <InfoBox src={AboutInfo3} number='85' title='Successfull Projects' />
-                  <InfoBox src={AboutInfo4} number='4' title='Number of Offices' />
-                </div>
-                <div style={{ display: 'flex' }}>
-                  <InfoBox src={AboutInfo5} number='20' title='External Tools Built' />
                   <InfoBox
-                    src={AboutInfo6}
+                    number='8'
+                    title='Years of Excellence'
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/Info1.svg`}
+                  />
+                  <InfoBox
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/aboutSec_2.svg`}
+                    number='65'
+                    title='Number of Employees'
+                  />
+                </div>
+                <div style={{ display: 'flex' }}>
+                  <InfoBox
+                    number='85'
+                    title='Successfull Projects'
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/aboutSec_3.svg`}
+                  />
+                  <InfoBox
+                    number='4'
+                    title='Number of Offices'
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/officeicon.svg`}
+                  />
+                </div>
+                <div style={{ display: 'flex' }}>
+                  <InfoBox
+                    number='20'
+                    title='External Tools Built'
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/aboutSec_5.svg`}
+                  />
+                  <InfoBox
                     number='100%'
                     title='Improvement and Customer focused'
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/aboutSec_6.svg`}
                   />
                 </div>
               </motion.div>
@@ -59,9 +73,21 @@ export default function AboutSection() {
                 viewport={{ once: true }}
                 className='AboutTopGrid'
               >
-                <InfoBox number='8' title='Years of Excellence' />
-                <InfoBox src={AboutInfo2} number='65' title='Number of Employees' />
-                <InfoBox src={AboutInfo3} number='85' title='Successfull Projects' />
+                <InfoBox
+                  number='8'
+                  title='Years of Excellence'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/Info1.svg`}
+                />
+                <InfoBox
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/aboutSec_2.svg`}
+                  number='65'
+                  title='Number of Employees'
+                />
+                <InfoBox
+                  number='85'
+                  title='Successfull Projects'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/aboutSec_3.svg`}
+                />
               </motion.div>
             </Grid>
             <Grid container sm={12} className='AboutBottomMain'>
@@ -73,7 +99,10 @@ export default function AboutSection() {
                   viewport={{ once: true }}
                   className='AboutImg'
                 >
-                  <img src={AboutImg} alt='AboutImg' />
+                  <img
+                    alt='AboutImg'
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/about_section.svg`}
+                  />
                 </motion.div>
               </Grid>
               <Grid sm={6}>
@@ -84,14 +113,22 @@ export default function AboutSection() {
                   viewport={{ once: true }}
                   className='AboutbottomGrid'
                 >
-                  <InfoBox src={AboutInfo4} number='4' title='Number of Offices'>
+                  <InfoBox
+                    number='4'
+                    title='Number of Offices'
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/officeicon.svg`}
+                  >
                     {/* <AboutInfo4 opacity='.8' /> */}
                   </InfoBox>
-                  <InfoBox src={AboutInfo5} number='20' title='External Tools Built' />
                   <InfoBox
-                    src={AboutInfo6}
+                    number='20'
+                    title='External Tools Built'
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/aboutSec_5.svg`}
+                  />
+                  <InfoBox
                     number='100%'
                     title='Improvement and Customer focused'
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/aboutSec_6.svg`}
                   />
                 </motion.div>
                 <div className='AboutTypo'>

@@ -1,6 +1,5 @@
 // Init
 import React from 'react';
-import Logo from '../../assets/images/detaillogo.png';
 
 // Component
 export default function DetailLogo(props) {
@@ -13,7 +12,7 @@ export default function DetailLogo(props) {
         }}
       >
         <div className='DetailLogo_Div'>
-          <img className='DetailLogo_Img' src={props.src || Logo} alt='Detail Logo' />
+          <img className='DetailLogo_Img' src={props.src} alt='Detail Logo' />
         </div>
       </div>
     </>

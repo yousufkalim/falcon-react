@@ -1,17 +1,7 @@
 // Init
 import React from 'react';
 import { Typography } from '@mui/material';
-import PP_Process from '../../assets/images/detail_pp_process.png';
-import Reserch from '../../assets/images/reserch_icon.svg';
-import AppDesign from '../../assets/images/appdesign_icon.svg';
-import WebDesign from '../../assets/images/webdesign_icon.svg';
-import AppDev from '../../assets/images/appdev_icon.svg';
-import WebDev from '../../assets/images/webdev_icon.svg';
-import Testing from '../../assets/images/testingicon.svg';
-import Maintain from '../../assets/images/maintainicon.svg';
 import Divider from '@mui/material/Divider';
-import { Avatar } from '@mui/material';
-import { motion } from 'framer-motion';
 
 // Component
 export default function DetailService(props) {
@@ -64,7 +54,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={Reserch} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/reserch_icon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv1'>
                 <Typography
@@ -87,7 +81,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={AppDesign} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/appdesign_icon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv2'>
                 <Typography
@@ -111,7 +109,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={WebDesign} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/webdesign_icon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv1'>
                 <Typography
@@ -135,7 +137,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={AppDev} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/appdev_icon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv2'>
                 <Typography
@@ -159,7 +165,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={WebDev} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/webdev_icon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv1'>
                 <Typography
@@ -183,7 +193,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={Testing} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/testingicon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv2'>
                 <Typography
@@ -207,7 +221,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={Maintain} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/maintainicon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv1'>
                 <Typography
@@ -234,7 +252,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={Reserch} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/reserch_icon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv1'>
                 <Typography
@@ -257,7 +279,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={WebDesign} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/webdesign_icon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv2'>
                 <Typography
@@ -282,7 +308,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={WebDev} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/webdev_icon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv1'>
                 <Typography
@@ -306,7 +336,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={Testing} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/testingicon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv2'>
                 <Typography
@@ -330,7 +364,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={Maintain} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/maintainicon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv1'>
                 <Typography
@@ -357,7 +395,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={Reserch} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/reserch_icon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv1'>
                 <Typography
@@ -380,7 +422,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={AppDesign} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/appdesign_icon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv2'>
                 <Typography
@@ -404,7 +450,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={AppDev} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/appdev_icon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv1'>
                 <Typography
@@ -429,7 +479,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={Testing} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/testingicon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv2'>
                 <Typography
@@ -453,7 +507,11 @@ export default function DetailService(props) {
                   background: props.circleTheme ? props.circleTheme : '#FFA333',
                 }}
               >
-                <img className='IconImage' src={Maintain} alt='Detail Services' />
+                <img
+                  className='IconImage'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/maintainicon.svg`}
+                  alt='Detail Services'
+                />
               </div>
               <div className='DetailService_TypoDiv1'>
                 <Typography

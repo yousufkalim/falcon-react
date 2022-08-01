@@ -4,24 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Register_Header from '../../assets/images/register_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Register from '../../assets/images/ov_register.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-
-import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Register_Demo from '../../assets/images/register_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import Register_Design1 from '../../assets/images/register_design1.png';
-import Register_Design2 from '../../assets/images/register_design2.png';
-import Register_Design3 from '../../assets/images/register_design3.png';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-import Register_WebDev from '../../assets/images/register_webdev.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
-
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 
@@ -45,9 +34,9 @@ export default function RegisterRH() {
         background='#000000B8'
         bottomBG='#142E68'
         typoBG='#142E68'
-        HeaderImg={Register_Header}
-        title='Register-RH'
-        subTitle='Register-RH'
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_header.png`}
+        title='Registre-RH'
+        subTitle='Registre-RH'
         // iconTheme="#9D3C64"
         description='This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
       />
@@ -55,11 +44,11 @@ export default function RegisterRH() {
         desp='This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
         titleTheme='#142E68'
         // desp=""
-        AvatarSrc={QB_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/overview_quadraAvatar.png`}
         nameColor='#142E68'
         name='Romain S.'
         // location="France"
-        src={OV_Register}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_register.png`}
       />
       <DetailService
         // app
@@ -77,10 +66,10 @@ export default function RegisterRH() {
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
         titleColor='#142E68'
-        title='Register-RH'
+        title='Registre-RH'
         btnTheme='#142E68'
         theme='#142E68'
-        src={Register_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_demo.png`}
       />
       <DetailDesign
         titleTheme='#142E68'
@@ -90,11 +79,13 @@ export default function RegisterRH() {
         // MidImg={Register_Design2}
         // BottomImg={Register_Design3}
         grids
-        src1={Register_Design2}
-        src2={Register_Design1}
-        // src3
-        // src4
-        src5={Register_Design3}
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_design2.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_design1.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_4.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_design3.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_3.png`}
+
         // src6
         // overlap
       />
@@ -107,7 +98,7 @@ export default function RegisterRH() {
         // src1={OrgaPlan_Theme}
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
-        fullscreen
+        // fullscreen
         title='COLOR THEME AND DESIGN'
         titleTheme='#142E68'
         // desp
@@ -126,7 +117,7 @@ export default function RegisterRH() {
         website
         title='WEB DEVELOPMENT'
         // desp
-        fullImg={Register_WebDev}
+        fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_webdev.png`}
         titleTheme='#142E68'
         // halfImg={Yuwway_AppDesign}
       />
@@ -136,6 +127,7 @@ export default function RegisterRH() {
         // desp
         // location
         ThemeBG='#fffff'
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         // AvatarSrc={Kidcab_Avatar}
         name='Romain S.'
       />

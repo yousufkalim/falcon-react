@@ -8,6 +8,7 @@ import { Divider } from '@mui/material';
 import BasicModal from './BasicModal';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import Tooltip from '@mui/material/Tooltip';
 // Home Component
 
 export default function OurProjectCard(props) {
@@ -58,12 +59,14 @@ export default function OurProjectCard(props) {
             </Grid>
             <Grid xs={12} sm={10} md={3}>
               <div className='ProjectCardTypo'>
-                <Typography className='ProjectCardTitle'>
-                  {props?.title?.length > 15
-                    ? props?.title?.slice(0, 15) + '...'
-                    : props?.title || 'Permispop.'}
-                  {/* {props.title || "Permispop."} */}
-                </Typography>
+                <Tooltip title={props.title}>
+                  <Typography className='ProjectCardTitle'>
+                    {props?.title?.length > 15
+                      ? props?.title?.slice(0, 15) + '...'
+                      : props?.title || 'Permispop.'}
+                    {/* {props.title || "Permispop."} */}
+                  </Typography>
+                </Tooltip>
                 <Divider
                   className='ProjectCardDivider'
                   width={props.width || '20%'}
@@ -115,12 +118,14 @@ export default function OurProjectCard(props) {
           <Grid container spacing={1} className='ProjectCardContainer1'>
             <Grid xs={12} sm={10} md={3}>
               <div className='ProjectCardTypo'>
-                <Typography className='ProjectCardTitle'>
-                  {props?.title?.length > 15
-                    ? props?.title?.slice(0, 15) + '...'
-                    : props?.title || 'Permispop.'}
-                  {/* {props.title || "Permispop."} */}
-                </Typography>
+                <Tooltip title={props.title}>
+                  <Typography className='ProjectCardTitle'>
+                    {props?.title?.length > 15
+                      ? props?.title?.slice(0, 15) + '...'
+                      : props?.title || 'Permispop.'}
+                    {/* {props.title || "Permispop."} */}
+                  </Typography>
+                </Tooltip>
                 <Divider
                   className='ProjectCardDivider'
                   width={props.width || '20%'}

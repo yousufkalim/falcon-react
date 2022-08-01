@@ -4,22 +4,12 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Excellence_Header from '../../assets/images/excellence_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Excellence from '../../assets/images/ov_excellence.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-
-import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Excellence_Demo from '../../assets/images/excellence_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import OrgaPlan_Design1 from '../../assets/images/orgaplan_design1.png';
-import OrgaPlan_Design2 from '../../assets/images/orgaplan_design2.png';
-import OrgaPlan_Design3 from '../../assets/images/orgaplan_design3.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-import Excellence_Theme from '../../assets/images/excellence_theme.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
@@ -45,7 +35,7 @@ export default function Excellence() {
         background='#282828'
         bottomBG='#0086EF'
         typoBG='#0086EF'
-        HeaderImg={Excellence_Header}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_header.png`}
         title='Excellence ERP'
         subTitle='Excellence ERP'
         description='Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
@@ -55,10 +45,10 @@ export default function Excellence() {
         // location
         desp='In order to develop A French-based ready-to-wear store chain, its brand image, and its online activity, the company wanted to have an e-commerce site. The website was developed on .NET and was complete in 4 months from April 2022 to July 2022'
         titleTheme='#282828'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor='#0086EF'
         name='Ukhano'
-        src={OV_Excellence}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_excellence.png`}
       />
       <DetailService
         // both
@@ -70,7 +60,7 @@ export default function Excellence() {
       />
 
       <DetailDemo
-        to='http://160.153.249.64:4455/'
+        // to='http://160.153.249.64:4455/'
         // desp
         // btnText
         DetailDemo_SquareDiv
@@ -79,7 +69,7 @@ export default function Excellence() {
         title='Excellence ERP'
         btnTheme='#0086EF'
         theme='#0086EF'
-        src={Excellence_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_demo.png`}
       />
       <DetailDesign
         titleTheme='#282828'
@@ -89,12 +79,13 @@ export default function Excellence() {
         // MidImg={OrgaPlan_Design2}
         // BottomImg={OrgaPlan_Design3}
         grids
-        src1={OrgaPlan_Design2}
-        src2={OrgaPlan_Design1}
-        src3={OrgaPlan_Design1}
-        src4={OrgaPlan_Design2}
-        src5={OrgaPlan_Design3}
-        src6={OrgaPlan_Design1}
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design2.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design1.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design1.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design2.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design3.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design1.png`}
+
         // overlap
       />
 
@@ -125,7 +116,7 @@ export default function Excellence() {
         website
         title='WEB DEVELOPMENT'
         // desp
-        fullImg={Excellence_Theme}
+        fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_theme.png`}
         titleTheme='#282828'
         // halfImg=(src Required)
       />
@@ -135,7 +126,7 @@ export default function Excellence() {
         desp='It is a distinct pleasure for me to recommend falcon IT to all interested parties.They have been professional, comprehensive, and competent throughout the process of working together. We have established a relationship with them for years to come.'
         // location
         ThemeBG='#ffffff'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Ukhano'
       />
       <Footer />

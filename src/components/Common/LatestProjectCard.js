@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Typography } from '@mui/material';
 import BasicModal from './BasicModal';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';

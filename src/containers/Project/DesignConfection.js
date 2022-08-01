@@ -4,26 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import DesignConfectionHeader from '../../assets/images/detail_DC_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_DesignConfection from '../../assets/images/detail_dc_overview.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-import BG_Logo from '../../assets/images/dc_lite_logo.png';
-import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import DC_Demo from '../../assets/images/detail_dc_demo_new.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import DC_Design1 from '../../assets/images/dc_design1.png';
-import DC_Design2 from '../../assets/images/dc_design2.png';
-import DC_Design3 from '../../assets/images/dc_design3.png';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-import DC_Theme1 from '../../assets/images/dc_theme1.png';
-import DC_Theme2 from '../../assets/images/dc_theme2.png';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import DC_Logo from '../../assets/images/dc_logo.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import DC_WebDesign from '../../assets/images/detail_dc_webdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
@@ -49,7 +36,7 @@ export default function DesignConfection() {
         background='#CC8E9C'
         bottomBG='#CC8E9C'
         typoBG='#CC8E9C'
-        HeaderImg={DesignConfectionHeader}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_DC_header.png`}
         title='Design Confection.'
         subTitle='Design Confection'
         description='A web app designed to help customers with customized stitching to receive your creation at your home.'
@@ -59,10 +46,10 @@ export default function DesignConfection() {
         // location
         desp='Design confection is a French-based project. It is a platform for tailors and clients for sewing services. The website is developed using MERN stacks, and it was completed in 4 months.'
         titleTheme='#282828'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor='#CC8E9C'
         name='Designer JK'
-        src={OV_DesignConfection}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_dc_overview.png`}
       />
       <DetailService
         // both
@@ -72,7 +59,7 @@ export default function DesignConfection() {
         borderColor='#282828'
         circleTheme='#CC8E9C'
         fitLogo
-        liteLogo={BG_Logo}
+        liteLogo={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/dc_lite_logo.png`}
       />
 
       <DetailDemo
@@ -85,7 +72,7 @@ export default function DesignConfection() {
         title='Design Confection'
         btnTheme='#CC8E9C'
         theme='#CC8E9C'
-        src={DC_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_dc_demo_new.png`}
       />
       <DetailDesign
         titleTheme='#282828'
@@ -95,12 +82,13 @@ export default function DesignConfection() {
         // MidImg={DC_Design2}
         // BottomImg={DC_Design3}
         grids
-        src1={DC_Design2}
-        src2={DC_Design1}
-        src3={DC_Design2}
-        src4={DC_Design3}
-        src5={DC_Design1}
-        src6={DC_Design2}
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/dc_design2.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/dc_design1.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/dc_design2.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/dc_design3.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/dc_design1.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/dc_design2.png`}
+
         // overlap
       />
 
@@ -110,8 +98,8 @@ export default function DesignConfection() {
         // src
         // Images
         double
-        src1={DC_Theme1}
-        src2={DC_Theme2}
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/dc_theme1.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/dc_theme2.png`}
         // src3
         // fullscreen
         titleTheme='#282828'
@@ -126,14 +114,17 @@ export default function DesignConfection() {
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={KidCab_Theme}
       />
-      <DetailLogo theme='#282828' src={DC_Logo} />
+      <DetailLogo
+        theme='#282828'
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/dc_logo.png`}
+      />
       <DetailAppDev
         website
         title='WEB DEVELOPMENT'
         // desp
         // halfImg (src Required)
         titleTheme='#282828'
-        fullImg={DC_WebDesign}
+        fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_dc_webdesign.png`}
       />
       <DetailFeedback
         // titleTheme
@@ -141,7 +132,7 @@ export default function DesignConfection() {
         desp='I contacted Falcon IT with a basic feel I wanted in a website. They developed the best of Design Confection, the overall website visual layout, and the content too. Falcon’s services are a bargain when you weigh the cost versus the product you received. I will be using them again in future endeavors. Thanks again!'
         // location
         ThemeBG='#CC8E9C'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Designer JK'
       />
       <Footer />

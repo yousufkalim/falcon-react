@@ -1,14 +1,5 @@
-import { Typography } from '@mui/material';
 import React from 'react';
 import SectionHeader from '../Common/SectionHeader';
-import Pak from '../../assets/images/location_pak.svg';
-import Pak_Icon from '../../assets/images/pak_icon.svg';
-import London from '../../assets/images/location_london.svg';
-import Paris_Icon from '../../assets/images/paris_icon.svg';
-import US from '../../assets/images/location_us.svg';
-import US_Icon from '../../assets/images/us_icon.svg';
-import UAE from '../../assets/images/UAE.svg';
-import UAE_Icon from '../../assets/images/UAE_Icon.svg';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 export default function LocationSection(props) {
@@ -25,29 +16,46 @@ export default function LocationSection(props) {
           >
             <div className='LocationDiv'>
               <div className='LocationDiv_Typo'>
-                <img src={Paris_Icon} alt='Paris' />
+                <img
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/paris_icon.svg`}
+                  alt='Paris'
+                />
 
                 <h2 className='Location_Country'>France</h2>
                 <h3 className='Location_Address'>53 Avenue Victor Hugo 94290 Villeneuve-Le-Roi</h3>
               </div>
               <div className='LocationDiv_Img'>
-                <img className='Location_Img' src={London} alt='London' />
+                <img
+                  className='Location_Img'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/location_london.svg`}
+                  alt='London'
+                />
               </div>
             </div>
             <div className='LocationDiv'>
               <div className='LocationDiv_Typo'>
-                <img src={US_Icon} alt='US' />
+                <img
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/us_icon.svg`}
+                  alt='US'
+                />
 
                 <h2 className='Location_Country'>United States</h2>
                 <h3 className='Location_Address'>4201 31st St S, Arlington, VA 22206</h3>
               </div>
               <div className='LocationDiv_Img'>
-                <img className='Location_Img' src={US} alt='US' />
+                <img
+                  className='Location_Img'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/location_us.svg`}
+                  alt='US'
+                />
               </div>
             </div>
             <div className='LocationDiv'>
               <div className='LocationDiv_Typo'>
-                <img src={Pak_Icon} alt='Pakistan' />
+                <img
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/pak_icon.svg`}
+                  alt='Pakistan'
+                />
 
                 <h2 className='Location_Country'>Pakistan</h2>
                 <h3 className='Location_Address'>
@@ -55,12 +63,19 @@ export default function LocationSection(props) {
                 </h3>
               </div>
               <div className='LocationDiv_Img'>
-                <img className='Location_Img' src={Pak} alt='pakistan' />
+                <img
+                  className='Location_Img'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/location_pak.svg`}
+                  alt='pakistan'
+                />
               </div>
             </div>
             <div className='LocationDiv'>
               <div className='LocationDiv_Typo'>
-                <img src={UAE_Icon} alt='UAE' />
+                <img
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/UAE_Icon.svg`}
+                  alt='UAE'
+                />
 
                 <h2 className='Location_Country'>UAE</h2>
                 <h3 className='Location_Address'>
@@ -68,7 +83,11 @@ export default function LocationSection(props) {
                 </h3>
               </div>
               <div className='LocationDiv_Img'>
-                <img className='Location_Img' src={UAE} alt='UAE' />
+                <img
+                  className='Location_Img'
+                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/UAE.svg`}
+                  alt='UAE'
+                />
               </div>
             </div>
           </AwesomeSlider>

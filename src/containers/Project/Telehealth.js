@@ -4,19 +4,10 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Telehealth_Header from '../../assets/images/telehealth_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Telehealth from '../../assets/images/ov_telehealth.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-import BG_Logo from '../../assets/images/tele_lite_logo.png';
-
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Tele_Demo from '../../assets/images/telehealth_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import Tele_Design1 from '../../assets/images/telehealth_design1.png';
-import Tele_Design2 from '../../assets/images/telehealth_design2.png';
-import Tele_Design3 from '../../assets/images/telehealth_design3.png';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
@@ -43,7 +34,7 @@ export default function Telehealth() {
         background='#136773'
         bottomBG='#136773'
         typoBG='#FBA622EB'
-        HeaderImg={Telehealth_Header}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/telehealth_header.png`}
         title='Telehealth Platform'
         subTitle='Telehealth Platform'
         description='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. '
@@ -55,8 +46,9 @@ export default function Telehealth() {
         titleTheme='#FBA622'
         // AvatarSrc={Kidcab_Avatar}
         nameColor='#FBA622'
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         name='Confidential'
-        src={OV_Telehealth}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_telehealth.png`}
       />
       <DetailService
         both
@@ -66,11 +58,11 @@ export default function Telehealth() {
         borderColor='#FBA622'
         circleTheme='#136773'
         BGLogo
-        liteLogo={BG_Logo}
+        liteLogo={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_lite_logo.png`}
       />
 
       <DetailDemo
-        to='https://screnr-ui.web.app/'
+        // to='https://screnr-ui.web.app/'
         desp='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc...). The program then analyzes the data based on internal rules and deduces whether the movements are abnormal or not.The detection of the movements is done with the help of a Media pipe and requires advanced knowledge in terms of image processing to ensure fluidity and accuracy of the final results.'
         // btnText
         DetailDemo_SquareDiv
@@ -79,7 +71,7 @@ export default function Telehealth() {
         title='Tele Health Platform'
         btnTheme='#FBA622'
         theme='#136773'
-        src={Tele_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/telehealth_demo.png`}
       />
       <DetailDesign
         titleTheme='#454238'
@@ -89,12 +81,13 @@ export default function Telehealth() {
         // MidImg={Tele_Design2}
         // BottomImg={Tele_Design3}
         grids
-        src1={Tele_Design2}
-        src2={Tele_Design3}
-        // src3={Tele_Design2}
-        // src4
-        src5={Tele_Design1}
-        src6={Tele_Design2}
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/telehealth_design2.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/telehealth_design3.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_4.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/telehealth_design1.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/telehealth_design2.png`}
+
         // overlap
       />
 
@@ -132,6 +125,7 @@ export default function Telehealth() {
         // despTheme
         desp='This was a very challenging project, and to be honest, we were uncertain whether it was even technically possible. In the past, we reached out to another offshore company for a first version, which did cost us more than $100k, even though the final result was not user friendly. When we met with Falcon, they were confident to be able to do a better and more efficient project, as an MVP as a start. It was not an easy project, but they did show a lot of commitment and they finally made it successfully. Great job guys !'
         // location
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         ThemeBG='#FBA622'
         // AvatarSrc={Kidcab_Avatar}
         name='Confidential'

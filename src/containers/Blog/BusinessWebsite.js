@@ -3,7 +3,6 @@ import React from 'react';
 
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
-import BlogImg2 from '../../assets/images/blogarticle2.svg';
 import BlogReadMore from '../../components/Blog/BlogReadMore';
 import Footer from '../../components/Common/Footer';
 import { useTranslation } from 'react-i18next';
@@ -96,7 +95,7 @@ export default function BusinessWebsite() {
       </Helmet>
       <NavBar />
       <BlogReadMore
-        src={BlogImg2}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/blogarticle2.svg`}
         title='Why having a business website is necessary ?'
         content={blog.body}
       />

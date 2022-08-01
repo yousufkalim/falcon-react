@@ -1,10 +1,6 @@
 // Init
 import React from 'react';
 import { Grid, Typography } from '@mui/material';
-import AppDev from '../../assets/images/detail_appdev.png';
-import Image2 from '../../assets/images/detail_design_2.png';
-import Image3 from '../../assets/images/detail_design_3.png';
-
 import Divider from '@mui/material/Divider';
 import { Avatar } from '@mui/material';
 import { motion } from 'framer-motion';
@@ -45,21 +41,13 @@ export default function DetailAppDev(props) {
         </div>
         {props.halfImg && (
           <div className='DetailAppDev_ImgDiv HalfImg'>
-            <img
-              className='DetailAppDev_Img'
-              src={props.halfImg || AppDev}
-              alt='Detail Development'
-            />
+            <img className='DetailAppDev_Img' src={props.halfImg} alt='Detail Development' />
           </div>
         )}
       </div>
       {props.fullImg && (
         <div className='DetailAppDev_ImgDiv'>
-          <img
-            className='DetailAppDev_Img'
-            src={props.fullImg || AppDev}
-            alt='Detail Development'
-          />
+          <img className='DetailAppDev_Img' src={props.fullImg} alt='Detail Development' />
         </div>
       )}
     </>

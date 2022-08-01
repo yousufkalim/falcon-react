@@ -1,19 +1,13 @@
 // Init
 import React from 'react';
-import { Grid, Typography } from '@mui/material';
-import AppDev from '../../assets/images/detail_appdev.png';
-import WebDev_1 from '../../assets/images/detail_webdev1.png';
-import WebDev_2 from '../../assets/images/detail_webdev2.png';
-import AvatarImg from '../../assets/images/detail_overviewAvatar.png';
-
+import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import { Avatar } from '@mui/material';
-import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 // Component
 export default function DetailWebDev(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>
@@ -33,12 +27,20 @@ export default function DetailWebDev(props) {
             </Typography>
           </div>
           <div className='DetailWebDev_Left_ImgDiv'>
-            <img style={{ width: '100%' }} src={WebDev_1} alt='Detail Development' />
+            <img
+              style={{ width: '100%' }}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_webdev1.png`}
+              alt='Detail Development'
+            />
           </div>
         </div>
         <div className='DetailWebDev_RightContainer'>
           <div className='DetailWebDev_Right_ImgDiv'>
-            <img style={{ width: '100%' }} src={WebDev_2} alt='Detail Development' />
+            <img
+              style={{ width: '100%' }}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_webdev2.png`}
+              alt='Detail Development'
+            />
           </div>
           <div className='DetailWebDev_TypoDiv'>
             <div className='DetailWebDev_TitleDiv'>
@@ -64,7 +66,7 @@ export default function DetailWebDev(props) {
                   <Avatar
                     className='DetailWebDev_Avatar'
                     sx={{ width: 70, height: 70 }}
-                    src={props.AvatarSrc || AvatarImg}
+                    src={props.AvatarSrc}
                   />
                   <div className='DetailWebDev_NameDiv'>
                     <Typography className='DetailWebDev_Name' color={props.nameColor || '#2FAD93'}>

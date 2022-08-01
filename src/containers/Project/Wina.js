@@ -4,20 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Wina_Header from '../../assets/images/wina_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Wina from '../../assets/images/ov_wina.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Wina_Demo from '../../assets/images/wina_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import Wina_Logo from '../../assets/images/detail_wina_logo_new.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import Wina_AppDesign from '../../assets/images/wina_appdesign.png';
-import Wina_WebDesign from '../../assets/images/wina_webdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
@@ -42,9 +35,9 @@ export default function Wina() {
         background='#282828'
         bottomBG='#2A5AA6'
         typoBG='#2A5AA6'
-        HeaderImg={Wina_Header}
-        title='Wina'
-        subTitle='Wina'
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_header.png`}
+        title='Winaa'
+        subTitle='Winaa'
         // iconTheme="#9D3C64"
         description='Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. '
       />
@@ -52,11 +45,11 @@ export default function Wina() {
         titleTheme='#2A5AA6'
         desp='A French job platform connecting employers and employees for hiring apprenticeship with its website’s front end on React and backend on Node JS. This project was completed is still ongoing, in order to be the most adapted to the market'
         // desp=""
-        AvatarSrc={QB_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/overview_quadraAvatar.png`}
         nameColor='#2A5AA6'
         name='Shane Jhon'
         // location="France"
-        src={OV_Wina}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_wina.png`}
       />
       <DetailService
         // app
@@ -74,10 +67,10 @@ export default function Wina() {
         // DetailDemo_SquareDiv
         DetailDemo_RoundDiv
         titleColor='#2A5AA6'
-        title='Wina'
+        title='Winaa'
         btnTheme='#2A5AA6'
         theme='#2A5AA6'
-        src={Wina_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_demo.png`}
       />
       <DetailDesign
         titleTheme='#2A5AA6'
@@ -87,6 +80,12 @@ export default function Wina() {
         // MidImg={Yuwway_Design2}
         // BottomImg={Yuwway_Design3}
         grids
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_4.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_3.png`}
         // src1
         // src2
         // src3
@@ -118,12 +117,15 @@ export default function Wina() {
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={Firemen_Theme}
       />
-      <DetailLogo theme='#2A5AA6' src={Wina_Logo} />
+      <DetailLogo
+        theme='#2A5AA6'
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_wina_logo_new.png`}
+      />
       <DetailAppDev
         application
         title='MOBILE APP DEVELOPMENT'
         // desp
-        fullImg={Wina_AppDesign}
+        fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_appdesign.png`}
         titleTheme='#2A5AA6'
         // halfImg={Wina_AppDesign}
       />
@@ -131,7 +133,7 @@ export default function Wina() {
         website
         title='WEB DEVELOPMENT'
         // desp
-        fullImg={Wina_WebDesign}
+        fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_webdesign.png`}
         titleTheme='#2A5AA6'
         // halfImg={Wina_AppDesign}
       />
@@ -141,6 +143,7 @@ export default function Wina() {
         desp='Falcon IT has done a great job and we are impressed with the overall services.'
         // location
         ThemeBG='#2A5AA6'
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         // AvatarSrc={Kidcab_Avatar}
         name='Shane jhon'
       />

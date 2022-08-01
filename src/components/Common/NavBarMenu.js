@@ -1,8 +1,6 @@
 import * as React from 'react';
 import Toolbar from '@mui/material/Toolbar';
 import { ReactComponent as LogoWhite } from '../../assets/images/logo_white.svg';
-import CloseIcon from '../../assets/images/close_White.png';
-import FalconIcon from '../../assets/images/falcon_Icon.svg';
 import { Divider, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
 import List from '@mui/material/List';
@@ -50,7 +48,7 @@ export default function NavBarMenu({ Menu, SetMenu }) {
           <img
             className='MenuIconMob'
             alt='NavMenu'
-            src={CloseIcon}
+            src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/close_White.png`}
             style={{
               color: 'white',
               cursor: 'pointer',
@@ -61,7 +59,12 @@ export default function NavBarMenu({ Menu, SetMenu }) {
         <div className='MenuSectionMain'>
           <div className='MenuSection'>
             <div className='MenuImgDiv'>
-              <img className='MenuImg' style={{ opacity: '.5' }} src={FalconIcon} alt='Falcon' />
+              <img
+                className='MenuImg'
+                style={{ opacity: '.5' }}
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/falcon_Icon.svg`}
+                alt='Falcon'
+              />
             </div>
             <div className='MenuTypoDiv'>
               <div className='ServiceOptionDiv'>

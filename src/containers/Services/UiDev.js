@@ -5,8 +5,6 @@ import React from 'react';
 import NavBar from '../../components/Common/NavBar';
 import Header from '../../components/Common/Header';
 import Footer from '../../components/Common/Footer';
-import UiDevImg from '../../assets/images/uidevImg.svg';
-import UiDevFrame from '../../assets/images/uidevframe.svg';
 import ServiceFrame from '../../components/Common/ServiceFrame';
 import LatestProjects from '../../components/Common/LatestProjects';
 import WorkProcessSection from '../../components/Common/WorkProcessSection';
@@ -33,11 +31,11 @@ export default function UiDev() {
         Description='We are ready to handle your ambitious projects!'
         btn
         btnText='Get This Service'
-        ImgSrc={UiDevImg}
+        ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/uidevImg.svg`}
       />
       <KeyFeatureSection UxKey />
       <WorkProcessSection UxWorkProcess />
-      <ServiceFrame src={UiDevFrame} />
+      <ServiceFrame src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/uidevframe.svg`} />
       <LatestProjects />
       <Footer />
     </div>

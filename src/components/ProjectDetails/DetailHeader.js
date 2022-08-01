@@ -1,7 +1,6 @@
 // Init
 import React, { useState, useEffect } from 'react';
 import { Typography } from '@mui/material';
-import PermispopHeader from '../../assets/images/pp_header.png';
 import { ReactComponent as DownArrow } from '../../assets/images/DownArrow.svg';
 import Divider from '@mui/material/Divider';
 import { useTranslation } from 'react-i18next';
@@ -35,11 +34,7 @@ export default function DetailHeader(props) {
         }}
       >
         <div className='DetailHeader_MainDiv' style={{ marginBottom: '-4px' }}>
-          <img
-            className='DetailHeader_Img'
-            src={props.HeaderImg || PermispopHeader}
-            alt='Design Header Image'
-          />
+          <img className='DetailHeader_Img' src={props.HeaderImg} alt='Design Header Image' />
           <div className='DetailHeader_Typo'>
             <div className='DetailHeaderTitleDiv'>
               <h1 className='DetailHeader_Title'>{props.title}</h1>

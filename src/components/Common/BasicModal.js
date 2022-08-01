@@ -4,7 +4,6 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { Divider } from '@mui/material';
-import CloseIcon from '../../assets/images/modalClose.svg';
 import { useTranslation } from 'react-i18next';
 const style = {
   position: 'absolute',
@@ -54,7 +53,7 @@ export default function BasicModal(props) {
                 cursor: 'pointer',
               }}
               onClick={handleClose}
-              src={CloseIcon}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/modalClose.svg`}
               alt='closeIcon'
             />
           </div>

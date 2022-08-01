@@ -4,22 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Table_Header from '../../assets/images/table_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Table from '../../assets/images/ov_table.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-import BG_Logo from '../../assets/images/table_lite_logo.png';
-
-import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Table_Demo from '../../assets/images/table_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import Table_Logo from '../../assets/images/detail_table_logo.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import Table_AppDesign from '../../assets/images/table_appdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
@@ -45,7 +36,7 @@ export default function Table() {
         background='#000000'
         bottomBG='#D60000'
         typoBG='#D60000'
-        HeaderImg={Table_Header}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_header.png`}
         title='@Table'
         subTitle='@Table'
         description='MediaPipe offers cross-platform, customizable ML solutions for live and streaming media'
@@ -61,10 +52,10 @@ export default function Table() {
         - Either the client is looking for a restaurant. In this case, he can search for a specific dish in the Home page. The app will show the popular dishes around him (geolocation). He has the possibility to filter his search: specific type of food, specific restaurant, etc...The filter is working with tags, that can be added or removed."
         // location
         titleTheme='#D60000'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor='#D60000'
         name='Shane Jhon'
-        src={OV_Table}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_table.png`}
       />
       <DetailService
         // both
@@ -74,7 +65,7 @@ export default function Table() {
         borderColor='#18374E'
         circleTheme='#D60000'
         fitLogo
-        liteLogo={BG_Logo}
+        liteLogo={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_lite_logo.png`}
       />
 
       <DetailDemo
@@ -87,7 +78,7 @@ export default function Table() {
         title='@Table'
         btnTheme='#D60000'
         theme='#D60000'
-        src={Table_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_demo.png`}
       />
       <DetailDesign
         titleTheme='#D60000'
@@ -97,6 +88,12 @@ export default function Table() {
         // MidImg={RealEstate_Design2}
         // BottomImg={RealEstate_Design3}
         grids
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_4.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_3.png`}
         // src1
         // src2
         // src3
@@ -128,14 +125,17 @@ export default function Table() {
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={KidCab_Theme}
       />
-      <DetailLogo theme='rgba(255, 213, 77, 0.25)' src={Table_Logo} />
+      <DetailLogo
+        theme='rgba(255, 213, 77, 0.25)'
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_table_logo.png`}
+      />
       <DetailAppDev
         application
         title='MOBILE APP DEVELOPMENT'
         // desp
         // fullImg={Table_AppDesign}
         titleTheme='#D60000'
-        halfImg={Table_AppDesign}
+        halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_appdesign.png`}
       />
       <DetailFeedback
         // titleTheme
@@ -143,7 +143,7 @@ export default function Table() {
         // desp
         // location
         ThemeBG='#D60000'
-        AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Shane Jhon'
       />
       <Footer />

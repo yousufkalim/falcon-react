@@ -2,8 +2,6 @@ import React from 'react';
 import SectionHeader from './SectionHeader';
 import BlogCard from './BlogCard';
 import { Grid } from '@mui/material';
-import BlogImg2 from '../../assets/images/blogarticle2.svg';
-import BlogImg1 from '../../assets/images/blogarticle1.svg';
 
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
@@ -25,7 +23,7 @@ export default function BlogSection() {
                 >
                   <BlogCard
                     HomeBlogCArd
-                    src={BlogImg1}
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/blogarticle1.svg`}
                     date='June 13th 2022'
                     title='Managing a Remote Team'
                   />
@@ -41,7 +39,7 @@ export default function BlogSection() {
                   viewport={{ once: true }}
                 >
                   <BlogCard
-                    src={BlogImg2}
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/blogarticle2.svg`}
                     date='June 13th 2022'
                     title='Why having a business website is necessary ?'
                   />

@@ -4,24 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Facility_Header from '../../assets/images/facility_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Facility from '../../assets/images/ov_facility.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-
-import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Facility_Demo from '../../assets/images/facility_demo_new.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import Facility_Design1 from '../../assets/images/facility_design1.png';
-import Facility_Design2 from '../../assets/images/facility_design2.png';
-import Facility_Design3 from '../../assets/images/facility_design3.png';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
-import Facility_Theme from '../../assets/images/facility_theme.png';
-
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 
@@ -45,7 +34,7 @@ export default function FacilityManagement() {
         background='#282828'
         bottomBG='#2F696D'
         typoBG='#2F696D'
-        HeaderImg={Facility_Header}
+        HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_header.png`}
         title='Facility Management'
         subTitle='Facility Management'
         // iconTheme="#9D3C64"
@@ -55,11 +44,11 @@ export default function FacilityManagement() {
         titleTheme='#282828'
         desp='This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user.'
         // desp=""
-        AvatarSrc={QB_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/overview_quadraAvatar.png`}
         nameColor='#2F696D'
         name='Damien Dehoul'
         // location="France"
-        src={OV_Facility}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_facility.png`}
       />
       <DetailService
         // app
@@ -80,7 +69,7 @@ export default function FacilityManagement() {
         title='Facility Management'
         btnTheme='#2F696D'
         theme='#2F696D'
-        src={Facility_Demo}
+        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_demo_new.png`}
       />
       <DetailDesign
         titleTheme='#2F696D'
@@ -90,12 +79,13 @@ export default function FacilityManagement() {
         // MidImg={Facility_Design2}
         // BottomImg={Facility_Design3}
         grids
-        src1={Facility_Design2}
-        src2={Facility_Design1}
-        src3={Facility_Design2}
-        src4={Facility_Design1}
-        src5={Facility_Design3}
-        src6={Facility_Design1}
+        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_design2.png`}
+        src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_design1.png`}
+        src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_design2.png`}
+        src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_design1.png`}
+        src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_design3.png`}
+        src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_design1.png`}
+
         // overlap
       />
 
@@ -126,7 +116,7 @@ export default function FacilityManagement() {
         website
         title='WEB DEVELOPMENT'
         // desp
-        fullImg={Facility_Theme}
+        fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_theme.png`}
         titleTheme='#282828'
         // halfImg={Yuwway_AppDesign}
       />
@@ -137,6 +127,7 @@ export default function FacilityManagement() {
         // location
         ThemeBG='#ffffff'
         // AvatarSrc={Kidcab_Avatar}
+        AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         name='Damien Dehoul'
       />
       <Footer />

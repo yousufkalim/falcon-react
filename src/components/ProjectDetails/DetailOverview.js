@@ -1,16 +1,13 @@
 // Init
 import React from 'react';
 import { Typography } from '@mui/material';
-import OverView from '../../assets/images/detail_overview.png';
-import AvatarImg from '../../assets/images/detail_overviewAvatar.png';
 import Divider from '@mui/material/Divider';
 import { Avatar } from '@mui/material';
-import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 // Component
 export default function DetailOverview(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>
@@ -45,7 +42,7 @@ export default function DetailOverview(props) {
                 <Avatar
                   className='DetailOverview_Avatar'
                   sx={{ width: 70, height: 70 }}
-                  src={props.AvatarSrc || AvatarImg}
+                  src={props.AvatarSrc}
                 />
                 <div className='DetailOverview_NameDiv'>
                   <Typography className='DetailOverview_Name' color={props.nameColor || '#2FAD93'}>
@@ -60,7 +57,7 @@ export default function DetailOverview(props) {
           </div>
         </div>
         <div className='DetailOverview_ImageDiv'>
-          <img className='DetailOverview_Image' src={props.src || OverView} alt='Overview' />
+          <img className='DetailOverview_Image' src={props.src} alt='Overview' />
         </div>
       </div>
     </>

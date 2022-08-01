@@ -7,7 +7,6 @@ import Header from '../../components/Common/Header';
 import Footer from '../../components/Common/Footer';
 import ServiceFrame from '../../components/Common/ServiceFrame';
 import LatestProjects from '../../components/Common/LatestProjects';
-import WebDevImg from '../../assets/images/webdevImg.svg';
 import WorkProcessSection from '../../components/Common/WorkProcessSection';
 import KeyFeatureSection from '../../components/Common/KeyFeatureSection';
 import { Helmet } from 'react-helmet';
@@ -31,11 +30,11 @@ export default function WebDev() {
         DespColor='#003B7E'
         btn
         btnText='More information'
-        ImgSrc={WebDevImg}
+        ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/webdevImg.svg`}
       />
       <KeyFeatureSection />
       <WorkProcessSection />
-      <ServiceFrame />
+      <ServiceFrame src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/webframe.svg`} />
       <LatestProjects />
 
       <Footer />

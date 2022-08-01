@@ -1,7 +1,6 @@
 import { Grid, Typography } from '@mui/material';
 import React from 'react';
 import { Divider } from '@mui/material';
-import AboutCompanyImg from '../../assets/images/aboutCompanyImg.svg';
 import { useTranslation } from 'react-i18next';
 export default function AboutCompany() {
   const { t } = useTranslation();
@@ -12,7 +11,11 @@ export default function AboutCompany() {
         <Grid container spacing={1}>
           <Grid sm={12} md={6}>
             <div className='AboutCompanyImgDiv'>
-              <img src={AboutCompanyImg} className='AboutCompanyImg' alt='about Us' />
+              <img
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/aboutCompanyImg.svg`}
+                className='AboutCompanyImg'
+                alt='about Us'
+              />
             </div>
           </Grid>
           <Grid sm={12} md={6}>
