@@ -4,19 +4,12 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Sindoor_Header from '../../assets/images/sindoor_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Sindoor from '../../assets/images/ov_sindoor.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-
-import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Sindoor_Demo from '../../assets/images/sindoor_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import Sindoor_AppDesign from '../../assets/images/sindoor_appdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';

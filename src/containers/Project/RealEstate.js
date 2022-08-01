@@ -4,22 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import RealEstate_Header from '../../assets/images/realestate_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_RealEstate from '../../assets/images/ov_realestate.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-
-import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import RealEstate_Demo from '../../assets/images/realestate_demo_new.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-import RealEstate_Theme1 from '../../assets/images/realestate_theme1.png';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import RealEstate_Logo from '../../assets/images/detail_realestate_logo.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import RealEstate_AppDesign from '../../assets/images/realestate_appdesign_new.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';

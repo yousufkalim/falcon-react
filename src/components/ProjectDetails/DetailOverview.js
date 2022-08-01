@@ -1,16 +1,13 @@
 // Init
 import React from 'react';
 import { Typography } from '@mui/material';
-import OverView from '../../assets/images/detail_overview.png';
-import AvatarImg from '../../assets/images/detail_overviewAvatar.png';
 import Divider from '@mui/material/Divider';
 import { Avatar } from '@mui/material';
-import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 // Component
 export default function DetailOverview(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>

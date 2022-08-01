@@ -4,19 +4,11 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Orientator_Header from '../../assets/images/orientator_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Orientator from '../../assets/images/ov_orientator.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-
-import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Orientator_Demo from '../../assets/images/orientator_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-// import Orientator_Theme from '../../assets/images/orientator_theme.png';
-import Orientator_WebHalf from '../../assets/images/orientator_webhalf.png';
-import Orientator_WebFull from '../../assets/images/orientator_ss.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 
@@ -69,7 +61,8 @@ export default function Orientator() {
       />
 
       <DetailDemo
-        to='https://orientator-demo.web.app/'
+        // to='https://orientator-demo.web.app/'
+        to='https://orientator.com/'
         desp="Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.The questionnaire is presented as a decision tree, with discriminating and non-discriminating questions, helping to understand the user profile. At the end of the questionnaire, a complex algorithm generates a list of post-baccalaureate programs and schools that best match the student's profile. This algorithm calculates a score according to several criteria, such as distance, selectivity, or the duration of the course, and a percentage of compatibility based on the student’s answers."
         // btnText
         DetailDemo_SquareDiv

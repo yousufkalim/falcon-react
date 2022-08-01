@@ -4,21 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Zypzap_Header from '../../assets/images/zypzap_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Zypzap from '../../assets/images/ov_zypzap.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-
-import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Zypzap_Demo from '../../assets/images/zypzap_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import Zypzap_WebDesign from '../../assets/images/zypzap_webdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
-
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 

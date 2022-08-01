@@ -5,8 +5,6 @@ import React from 'react';
 import NavBar from '../../components/Common/NavBar';
 import Header from '../../components/Common/Header';
 import Footer from '../../components/Common/Footer';
-import AppDevImg from '../../assets/images/appdevImg.svg';
-import AppDevFrame from '../../assets/images/appdevframe.svg';
 import ServiceFrame from '../../components/Common/ServiceFrame';
 import LatestProjects from '../../components/Common/LatestProjects';
 import WorkProcessSection from '../../components/Common/WorkProcessSection';

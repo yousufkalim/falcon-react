@@ -1,9 +1,7 @@
-import { Typography } from '@mui/material';
 import React from 'react';
-import Legal_Icon from '../../assets/images/legal_icon.svg';
 import { useTranslation } from 'react-i18next';
 export default function LegalHeader(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   return (
     <>
       <div className='LegalMention_HeaderContainer'>

@@ -4,22 +4,14 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import PermispopHeader from '../../assets/images/pp_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import BG_Logo from '../../assets/images/pp_lite_logo.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import PP_Demo from '../../assets/images/pp_demo_new.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import AppDev from '../../assets/images/detail_appdev_new.png';
-import ThemeImage from '../../assets/images/theme_image.png';
-
 import DetailWebDev from '../../components/ProjectDetails/DetailWebDev';
-import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
-
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 
@@ -56,7 +48,11 @@ export default function Permispop() {
         desp='The idea was to develop a first version of the website, in order to test the market fit. This version was completed within a couple of months, using ReactJS for the frontend, and ASP.NET Core for the backend. We are still continuing the development, which is currently at the V4.'
       />
 
-      <DetailService both BGLogo liteLogo={BG_Logo} />
+      <DetailService
+        both
+        BGLogo
+        liteLogo={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/pp_lite_logo.png`}
+      />
       <DetailDemo
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/pp_demo_new.png`}
         to='https://permispop.fr/'

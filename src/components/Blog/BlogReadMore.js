@@ -1,10 +1,6 @@
 import { Grid, Typography } from '@mui/material';
 import React from 'react';
-// import Blog1 from "../../assets/images/Blog1.svg";
-import BlogImg2 from '../../assets/images/blogarticle2.svg';
 import { Link } from 'react-router-dom';
-import BlogImg1 from '../../assets/images/blogarticle1.svg';
-// import BlogRead from "../../assets/images/blogread.png";
 import BlogCard from '../Common/BlogCard';
 import { useTranslation } from 'react-i18next';
 export default function BlogReadMore(props) {
@@ -13,7 +9,7 @@ export default function BlogReadMore(props) {
     <>
       <div className='BlogReadMore_Container'>
         <div className='BlogReadMore_HeaderDiv'>
-          <img className='BlogReadMore_HeaderImg' src={props.src || BlogImg1} />
+          <img className='BlogReadMore_HeaderImg' src={props.src} />
         </div>
         <Grid container spacing={1} className='BlogReadMore_ContentContainer'>
           <Grid xs={12} md={7}>

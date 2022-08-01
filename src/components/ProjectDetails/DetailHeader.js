@@ -1,7 +1,6 @@
 // Init
 import React, { useState, useEffect } from 'react';
 import { Typography } from '@mui/material';
-import PermispopHeader from '../../assets/images/pp_header.png';
 import { ReactComponent as DownArrow } from '../../assets/images/DownArrow.svg';
 import Divider from '@mui/material/Divider';
 import { useTranslation } from 'react-i18next';

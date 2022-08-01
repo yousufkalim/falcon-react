@@ -1,7 +1,6 @@
 import { Grid, Typography } from '@mui/material';
 import React from 'react';
 import { Divider } from '@mui/material';
-import AboutCompanyImg from '../../assets/images/aboutCompanyImg.svg';
 import { useTranslation } from 'react-i18next';
 export default function AboutCompany() {
   const { t } = useTranslation();

@@ -1,11 +1,5 @@
 import { Divider, Typography } from '@mui/material';
 import React from 'react';
-import Logo from '../../assets/images/logo.svg';
-import FB from '../../assets/images/FooterFB.svg';
-import LinkedIn from '../../assets/images/FooterLinkedIn.svg';
-import WhatsApp from '../../assets/images/FooterWhatsApp.svg';
-import TopBtn from '../../assets/images/top_btn.svg';
-import DividerPoint from '../../assets/images/divider_point.svg';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';

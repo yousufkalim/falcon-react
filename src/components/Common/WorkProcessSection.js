@@ -2,11 +2,7 @@
 import { Grid } from '@mui/material';
 import React from 'react';
 import SectionHeader from './SectionHeader';
-import Step1 from '../../assets/images/step1.svg';
 import WorkProcessSteps from './WorkProcessSteps';
-import Step2 from '../../assets/images/step2.svg';
-import Step3 from '../../assets/images/step3.svg';
-import Step4 from '../../assets/images/step4.svg';
 // Importing Components
 
 // Home Component

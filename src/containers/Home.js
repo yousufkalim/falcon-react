@@ -1,5 +1,5 @@
 // Init
-import React, { useEffect } from 'react';
+import React from 'react';
 
 // Importing Components
 import NavBar from '../components/Common/NavBar';
@@ -20,7 +20,7 @@ import { Helmet } from 'react-helmet';
 // import
 // Home Component
 export default function Home() {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>

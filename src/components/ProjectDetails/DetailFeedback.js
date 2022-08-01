@@ -1,6 +1,5 @@
 // Init
 import React from 'react';
-import AvatarImg from '../../assets/images/detail_overviewAvatar.png';
 import { Typography } from '@mui/material';
 import { Avatar } from '@mui/material';
 import { Divider } from '@mui/material';
@@ -8,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 
 // Component
 export default function DetailFeedback(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>

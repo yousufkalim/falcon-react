@@ -1,7 +1,4 @@
-import { Typography } from '@mui/material';
 import React from 'react';
-import MobileApp from '../../assets/images/MobileApp.svg';
-import ArrowForward from '../../assets/images/arrowForward.svg';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -46,7 +43,7 @@ export default function ServiceProvidedCard(props) {
                     style={{
                       marginLeft: '2%',
                     }}
-                    src={ArrowForward}
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/arrowForward.svg`}
                     alt='forward Button'
                   />
                 </div>
@@ -57,7 +54,7 @@ export default function ServiceProvidedCard(props) {
             <Link to={props.to}>
               <img
                 className='ServiceProvided_VerticleCardImg'
-                src={props.CardImgSrc || MobileApp}
+                src={props.CardImgSrc}
                 alt='categories'
               />
             </Link>
@@ -97,7 +94,7 @@ export default function ServiceProvidedCard(props) {
                     style={{
                       marginLeft: '2%',
                     }}
-                    src={ArrowForward}
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/arrowForward.svg`}
                     alt='forward Arrow'
                   />
                 </div>
@@ -106,11 +103,7 @@ export default function ServiceProvidedCard(props) {
           </div>
           <div className='ServiceProvided_CardImgDiv'>
             <Link to={props.to}>
-              <img
-                className='ServiceProvided_CardImg'
-                src={props.CardImgSrc || MobileApp}
-                alt='Categories'
-              />
+              <img className='ServiceProvided_CardImg' src={props.CardImgSrc} alt='Categories' />
             </Link>
           </div>
         </motion.div>

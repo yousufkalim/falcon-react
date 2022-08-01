@@ -4,24 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Tilt_Header from '../../assets/images/tilt_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Tilt from '../../assets/images/ov_tilt.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-import BG_Logo from '../../assets/images/tilt_lite_logo.png';
-
-import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Tilt_Demo from '../../assets/images/tilt_demo_new.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-import QB_Theme from '../../assets/images/detail_qb_theme.png';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import Tilt_Logo from '../../assets/images/detail_tilt_logo.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import Tilt_AppDesign from '../../assets/images/tilt_appdesign.png';
-import Tilt_WebDesign from '../../assets/images/tilt_webdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';

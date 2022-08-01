@@ -7,7 +7,7 @@ import { Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 
 const PolicyList = () => {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   const [open, setOpen] = React.useState('');
 
   const handleClick = (item) => {

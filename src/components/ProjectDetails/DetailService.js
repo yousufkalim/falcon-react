@@ -1,17 +1,7 @@
 // Init
 import React from 'react';
 import { Typography } from '@mui/material';
-import PP_Process from '../../assets/images/detail_pp_process.png';
-import Reserch from '../../assets/images/reserch_icon.svg';
-import AppDesign from '../../assets/images/appdesign_icon.svg';
-import WebDesign from '../../assets/images/webdesign_icon.svg';
-import AppDev from '../../assets/images/appdev_icon.svg';
-import WebDev from '../../assets/images/webdev_icon.svg';
-import Testing from '../../assets/images/testingicon.svg';
-import Maintain from '../../assets/images/maintainicon.svg';
 import Divider from '@mui/material/Divider';
-import { Avatar } from '@mui/material';
-import { motion } from 'framer-motion';
 
 // Component
 export default function DetailService(props) {

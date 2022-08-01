@@ -1,8 +1,6 @@
 import * as React from 'react';
 import Toolbar from '@mui/material/Toolbar';
 import { ReactComponent as LogoWhite } from '../../assets/images/logo_white.svg';
-import CloseIcon from '../../assets/images/close_White.png';
-import FalconIcon from '../../assets/images/falcon_Icon.svg';
 import { Divider, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
 import List from '@mui/material/List';

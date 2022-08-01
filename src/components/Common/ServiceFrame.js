@@ -1,5 +1,4 @@
 import React from 'react';
-import WebFrame from '../../assets/images/webframe.svg';
 
 export default function ServiceFrame(props) {
   return (

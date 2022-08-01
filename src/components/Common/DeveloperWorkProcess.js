@@ -1,11 +1,6 @@
 import React from 'react';
 import SectionHeader from '../Common/SectionHeader';
 import DeveloperWorkCard from '../Common/DeveloperWorkCard';
-import DC_1 from '../../assets/images/DC_1.png';
-import DC_2 from '../../assets/images/DC_2.png';
-import DC_3 from '../../assets/images/DC_3.png';
-import DC_4 from '../../assets/images/DC_4.png';
-import DC_5 from '../../assets/images/DC_5.png';
 
 export default function DeveloperWorkProcess(props) {
   return (

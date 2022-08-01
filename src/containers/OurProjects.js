@@ -4,7 +4,6 @@ import React from 'react';
 // Importing Components
 import NavBar from '../components/Common/NavBar';
 import Header from '../components/Common/Header';
-import HeaderImg from '../assets/images/ProjectHeaderImg.svg';
 import LabTabs from '../components/Common/OurProjectTabs';
 import Footer from '../components/Common/Footer';
 import { Helmet } from 'react-helmet';

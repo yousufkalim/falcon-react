@@ -1,14 +1,8 @@
 // Init
-import { Grid, Typography } from '@mui/material';
+import { Grid } from '@mui/material';
 import React from 'react';
 import SectionHeader from './SectionHeader';
 import KeyFeatures from './KeyFeatures';
-import keyIcon5 from '../../assets/images/keyIcon5.svg';
-import keyIcon1 from '../../assets/images/keyIcon1.svg';
-import keyIcon2 from '../../assets/images/keyIcon2.svg';
-import keyIcon3 from '../../assets/images/keyIcon3.svg';
-import keyIcon4 from '../../assets/images/keyIcon4.svg';
-import keyIcon6 from '../../assets/images/keyIcon6.svg';
 import { motion } from 'framer-motion';
 // Importing Components
 

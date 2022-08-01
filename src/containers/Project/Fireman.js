@@ -4,21 +4,11 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Firemen_Header from '../../assets/images/firemen_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Firemen from '../../assets/images/ov_firemen.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-
-import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Firemen_Demo from '../../assets/images/firemen_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import Facility_Design1 from '../../assets/images/facility_design1.png';
-import Facility_Design2 from '../../assets/images/facility_design2.png';
-import Facility_Design3 from '../../assets/images/facility_design3.png';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-import Firemen_Theme from '../../assets/images/firemen_theme.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 

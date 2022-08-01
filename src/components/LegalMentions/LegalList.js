@@ -6,7 +6,7 @@ import ExpandMore from '@mui/icons-material/ExpandMore';
 import { Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 export default function LegalList(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   const [open, setOpen] = React.useState('');
 
   const handleClick = (item) => {

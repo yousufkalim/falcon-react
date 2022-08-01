@@ -4,19 +4,10 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Telehealth_Header from '../../assets/images/telehealth_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Telehealth from '../../assets/images/ov_telehealth.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-import BG_Logo from '../../assets/images/tele_lite_logo.png';
-
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Tele_Demo from '../../assets/images/telehealth_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import Tele_Design1 from '../../assets/images/telehealth_design1.png';
-import Tele_Design2 from '../../assets/images/telehealth_design2.png';
-import Tele_Design3 from '../../assets/images/telehealth_design3.png';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
@@ -71,7 +62,7 @@ export default function Telehealth() {
       />
 
       <DetailDemo
-        to='https://screnr-ui.web.app/'
+        // to='https://screnr-ui.web.app/'
         desp='Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc...). The program then analyzes the data based on internal rules and deduces whether the movements are abnormal or not.The detection of the movements is done with the help of a Media pipe and requires advanced knowledge in terms of image processing to ensure fluidity and accuracy of the final results.'
         // btnText
         DetailDemo_SquareDiv

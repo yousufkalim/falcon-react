@@ -5,8 +5,6 @@ import React from 'react';
 import NavBar from '../../components/Common/NavBar';
 import Header from '../../components/Common/Header';
 import Footer from '../../components/Common/Footer';
-import DemandDevImg from '../../assets/images/demanddevImg.svg';
-import DemandDevFrame from '../../assets/images/demanddevframe.svg';
 import ServiceFrame from '../../components/Common/ServiceFrame';
 import LatestProjects from '../../components/Common/LatestProjects';
 import OurDevelopers from '../../components/Common/OurDevelopers';

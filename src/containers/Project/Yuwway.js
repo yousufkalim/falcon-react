@@ -4,21 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Yuwway_Header from '../../assets/images/yuwway_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Yuwway from '../../assets/images/ov_yuwway.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-
-import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Yuwway_Demo from '../../assets/images/yuwway_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-import QB_Theme from '../../assets/images/detail_qb_theme.png';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import Yuwway_Logo from '../../assets/images/detail_yuwway_logo.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import Yuwway_AppDesign from '../../assets/images/yuwway_appdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';

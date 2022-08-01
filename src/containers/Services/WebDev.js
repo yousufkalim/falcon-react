@@ -7,7 +7,6 @@ import Header from '../../components/Common/Header';
 import Footer from '../../components/Common/Footer';
 import ServiceFrame from '../../components/Common/ServiceFrame';
 import LatestProjects from '../../components/Common/LatestProjects';
-import WebDevImg from '../../assets/images/webdevImg.svg';
 import WorkProcessSection from '../../components/Common/WorkProcessSection';
 import KeyFeatureSection from '../../components/Common/KeyFeatureSection';
 import { Helmet } from 'react-helmet';

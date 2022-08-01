@@ -4,26 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import DesignConfectionHeader from '../../assets/images/detail_DC_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_DesignConfection from '../../assets/images/detail_dc_overview.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-import BG_Logo from '../../assets/images/dc_lite_logo.png';
-import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import DC_Demo from '../../assets/images/detail_dc_demo_new.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import DC_Design1 from '../../assets/images/dc_design1.png';
-import DC_Design2 from '../../assets/images/dc_design2.png';
-import DC_Design3 from '../../assets/images/dc_design3.png';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-import DC_Theme1 from '../../assets/images/dc_theme1.png';
-import DC_Theme2 from '../../assets/images/dc_theme2.png';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import DC_Logo from '../../assets/images/dc_logo.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import DC_WebDesign from '../../assets/images/detail_dc_webdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';

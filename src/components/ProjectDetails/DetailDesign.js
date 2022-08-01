@@ -1,22 +1,12 @@
 // Init
 import React from 'react';
 import { Grid, Typography } from '@mui/material';
-import Image1 from '../../assets/images/detail_design_1.png';
-import Image2 from '../../assets/images/detail_design_2.png';
-import Image3 from '../../assets/images/detail_design_3.png';
-import Image7 from '../../assets/images/detail_design_4.png';
-import Image4 from '../../assets/images/detail_kc_design1.png';
-import Image5 from '../../assets/images/detail_kc_design2.png';
-import Image6 from '../../assets/images/detail_kc_design3.png';
 import { useTranslation } from 'react-i18next';
-
 import Divider from '@mui/material/Divider';
-import { Avatar } from '@mui/material';
-import { motion } from 'framer-motion';
 
 // Component
 export default function DetailDesign(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   return (
     <>
       <div className='DetailDesign_Container'>
@@ -40,21 +30,21 @@ export default function DetailDesign(props) {
             <div className='DetailDesign_ImgDiv_Top'>
               <img
                 style={{ width: '-webkit-fill-available' }}
-                src={props.TopImg || Image6}
+                src={props.TopImg}
                 alt='Design Images'
               />
             </div>
             <div className='DetailDesign_ImgDiv_Middle'>
               <img
                 style={{ margin: '0 3%', width: '70%' }}
-                src={props.MidImg || Image5}
+                src={props.MidImg}
                 alt='Design Images'
               />
             </div>
             <div className='DetailDesign_ImgDiv_Bottom'>
               <img
                 style={{ width: '-webkit-fill-available' }}
-                src={props.BottomImg || Image4}
+                src={props.BottomImg}
                 alt='Design Images'
               />
             </div>

@@ -1,10 +1,6 @@
 import { Grid } from '@mui/material';
 import React from 'react';
 import SectionHeader from './SectionHeader';
-import Client3 from '../../assets/images/4.svg';
-import Client4 from '../../assets/images/5.svg';
-import Client1 from '../../assets/images/6.svg';
-import Client2 from '../../assets/images/7.svg';
 export default function ClientSection() {
   return (
     <>

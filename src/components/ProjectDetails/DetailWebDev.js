@@ -1,19 +1,13 @@
 // Init
 import React from 'react';
-import { Grid, Typography } from '@mui/material';
-import AppDev from '../../assets/images/detail_appdev.png';
-import WebDev_1 from '../../assets/images/detail_webdev1.png';
-import WebDev_2 from '../../assets/images/detail_webdev2.png';
-import AvatarImg from '../../assets/images/detail_overviewAvatar.png';
-
+import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import { Avatar } from '@mui/material';
-import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 // Component
 export default function DetailWebDev(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>
@@ -72,7 +66,7 @@ export default function DetailWebDev(props) {
                   <Avatar
                     className='DetailWebDev_Avatar'
                     sx={{ width: 70, height: 70 }}
-                    src={props.AvatarSrc || AvatarImg}
+                    src={props.AvatarSrc}
                   />
                   <div className='DetailWebDev_NameDiv'>
                     <Typography className='DetailWebDev_Name' color={props.nameColor || '#2FAD93'}>

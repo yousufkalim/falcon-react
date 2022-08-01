@@ -4,20 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Wina_Header from '../../assets/images/wina_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Wina from '../../assets/images/ov_wina.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Wina_Demo from '../../assets/images/wina_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import Wina_Logo from '../../assets/images/detail_wina_logo_new.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import Wina_AppDesign from '../../assets/images/wina_appdesign.png';
-import Wina_WebDesign from '../../assets/images/wina_webdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
@@ -43,8 +36,8 @@ export default function Wina() {
         bottomBG='#2A5AA6'
         typoBG='#2A5AA6'
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_header.png`}
-        title='Wina'
-        subTitle='Wina'
+        title='Winaa'
+        subTitle='Winaa'
         // iconTheme="#9D3C64"
         description='Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. '
       />
@@ -74,7 +67,7 @@ export default function Wina() {
         // DetailDemo_SquareDiv
         DetailDemo_RoundDiv
         titleColor='#2A5AA6'
-        title='Wina'
+        title='Winaa'
         btnTheme='#2A5AA6'
         theme='#2A5AA6'
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_demo.png`}

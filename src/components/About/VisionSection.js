@@ -1,6 +1,5 @@
 import React from 'react';
 import SectionHeader from '../Common/SectionHeader';
-import VisionImg from '../../assets/images/visionImg.svg';
 import { Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 export default function VisionSection() {

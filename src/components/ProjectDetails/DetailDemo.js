@@ -1,16 +1,11 @@
 import React from 'react';
-import { Button, Typography } from '@mui/material';
-import OverView from '../../assets/images/detail_overview.png';
-import PP_Demo from '../../assets/images/pp_demo.png';
+import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
-import { Avatar } from '@mui/material';
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 // Component
 export default function DetailServiceDetailDemo(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>
@@ -31,18 +26,20 @@ export default function DetailServiceDetailDemo(props) {
                 )}
               </Typography>
             </div>
-            <div className='DetailDemo_BtnDiv'>
-              <a href={props.to}>
-                <button
-                  className='DetailDemo_Btn'
-                  style={{
-                    background: props.btnTheme ? props.btnTheme : '#FFA333',
-                  }}
-                >
-                  {t(props.btnText || 'GO TO THE PROJECT')}
-                </button>
-              </a>
-            </div>
+            {props.to && (
+              <div className='DetailDemo_BtnDiv'>
+                <a href={props.to}>
+                  <button
+                    className='DetailDemo_Btn'
+                    style={{
+                      background: props.btnTheme ? props.btnTheme : '#FFA333',
+                    }}
+                  >
+                    {t(props.btnText || 'GO TO THE PROJECT')}
+                  </button>
+                </a>
+              </div>
+            )}
           </div>
           <div className='DetailDemo_ImgContainer'>
             <div
@@ -53,7 +50,7 @@ export default function DetailServiceDetailDemo(props) {
                 background: props.theme ? props.theme : '#FFA333',
               }}
             >
-              <img className='DetailDemo_Img' src={props.src || PP_Demo} alt='Detail Demo' />
+              <img className='DetailDemo_Img' src={props.src} alt='Detail Demo' />
             </div>
           </div>
         </div>

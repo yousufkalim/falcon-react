@@ -1,10 +1,6 @@
 // Init
 import React from 'react';
-import { Grid, Typography } from '@mui/material';
-import HeaderImg from '../../assets/images/HeaderImg.svg';
-import ChatIcon from '../../assets/images/whatsappIcon.svg';
-import WhatsappIcon from '../../assets/images/ChatIcon.svg';
-import Calendly from '../../assets/images/calendly.svg';
+import { Grid } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import Button from '@mui/material/Button';
 import { motion } from 'framer-motion';

@@ -4,24 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Facility_Header from '../../assets/images/facility_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Facility from '../../assets/images/ov_facility.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-
-import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Facility_Demo from '../../assets/images/facility_demo_new.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import Facility_Design1 from '../../assets/images/facility_design1.png';
-import Facility_Design2 from '../../assets/images/facility_design2.png';
-import Facility_Design3 from '../../assets/images/facility_design3.png';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
-import Facility_Theme from '../../assets/images/facility_theme.png';
-
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 

@@ -2,12 +2,6 @@ import { Grid } from '@mui/material';
 import React from 'react';
 import ServiceProvidedCard from '../Common/ServiceProvidedCard';
 import SectionHeader from '../Common/SectionHeader';
-import UiDev from '../../assets/images/UiDev.svg';
-import UiMob from '../../assets/images/ui.svg';
-import AppDev from '../../assets/images/appdev_new.svg';
-import WebDev from '../../assets/images/webdev_new.svg';
-import SoftDev from '../../assets/images/softdev_new.svg';
-import OnDemand from '../../assets/images/ondemand_new.svg';
 import { Link } from 'react-router-dom';
 
 export default function ServiceProvided() {

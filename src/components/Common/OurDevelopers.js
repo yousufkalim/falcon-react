@@ -2,10 +2,6 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import SectionHeader from '../Common/SectionHeader';
-import Agile from '../../assets/images/od_agile.png';
-import Experienced from '../../assets/images/od_experienced.png';
-import Trained from '../../assets/images/od_trained.png';
-import Dedicated from '../../assets/images/od_dedicated.png';
 import DeveloperSlider from '../Common/DeveloperSlider';
 import { useTranslation } from 'react-i18next';
 export default function OurDevelopers(props) {

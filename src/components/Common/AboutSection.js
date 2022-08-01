@@ -1,13 +1,7 @@
-import { Grid, Typography } from '@mui/material';
+import { Grid } from '@mui/material';
 import React from 'react';
 import SectionHeader from './SectionHeader';
 import InfoBox from './InfoBox';
-import AboutImg from '../../assets/images/about_section.svg';
-import AboutInfo2 from '../../assets/images/aboutSec_2.svg';
-import AboutInfo3 from '../../assets/images/aboutSec_3.svg';
-import AboutInfo4 from '../../assets/images/officeicon.svg';
-import AboutInfo5 from '../../assets/images/aboutSec_5.svg';
-import AboutInfo6 from '../../assets/images/aboutSec_6.svg';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';

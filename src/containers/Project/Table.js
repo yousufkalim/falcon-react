@@ -4,22 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Table_Header from '../../assets/images/table_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Table from '../../assets/images/ov_table.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-import BG_Logo from '../../assets/images/table_lite_logo.png';
-
-import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Table_Demo from '../../assets/images/table_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import Table_Logo from '../../assets/images/detail_table_logo.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import Table_AppDesign from '../../assets/images/table_appdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';

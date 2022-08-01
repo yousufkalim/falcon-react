@@ -1,10 +1,6 @@
 import { Typography } from '@mui/material';
 import React from 'react';
-import Tick1 from '../../assets/images/MA1.svg';
-import Tick2 from '../../assets/images/MA2.svg';
 import { ReactComponent as AboutInfo4 } from '../../assets/images/aboutSec_4.svg';
-import Tick3 from '../../assets/images/MA3.svg';
-import AgencyArrow from '../../assets/images/AgencyArrow.svg';
 import { useTranslation } from 'react-i18next';
 export default function ModernAgencySection() {
   const { i18n, t } = useTranslation();

@@ -1,8 +1,6 @@
-import { Grid, Typography } from '@mui/material';
+import { Grid } from '@mui/material';
 import React, { useState } from 'react';
 import SectionHeader from './SectionHeader';
-import EmailIcon from '../../assets/images/emailIcon.svg';
-import CalendlyIcon from '../../assets/images/calendlyIcon.svg';
 import emailjs from 'emailjs-com';
 import { toast } from 'react-toastify';
 import { useTranslation } from 'react-i18next';

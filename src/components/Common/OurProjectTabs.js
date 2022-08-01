@@ -2,35 +2,6 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import OurProjectCard from '../Common/OurProjectCard';
-import PermispopImg from '../../assets/images/permispop_update.png';
-import DesignConf from '../../assets/images/designconf_update.png';
-import Movement from '../../assets/images/tele_update.png';
-import Quadra from '../../assets/images/quadra_update.png';
-import Kidcap from '../../assets/images/kidcab_update.png';
-import Tajweed from '../../assets/images/tajweed_update.png';
-import Tajweed_logo from '../../assets/images/tajweed_logo.svg';
-import EZbox from '../../assets/images/ezbox_update.png';
-import RealEstate from '../../assets/images/realestate_update.png';
-import Orgaplan from '../../assets/images/orgaplan_update.png';
-import Tilt from '../../assets/images/tilt_update.png';
-import Microsoft from '../../assets/images/microsoft_update.png';
-import Microsoft_Logo from '../../assets/images/microsoftlogo.png';
-import Fnac from '../../assets/images/fnac_update.png';
-import Fnac_Logo from '../../assets/images/fnaclogo.png';
-import Canon from '../../assets/images/canon_update.png';
-import Canon_Logo from '../../assets/images/canonlogo.png';
-import AccorHotel from '../../assets/images/accor_update.png';
-import AccorHotel_Logo from '../../assets/images/accorlogo.png';
-import ERP from '../../assets/images/excellence_update.png';
-import PizzaBoli from '../../assets/images/table_update.png';
-import Sindoor from '../../assets/images/sindoor_update.png';
-import Yuwway from '../../assets/images/yuwway_update.png';
-import Zypzap from '../../assets/images/zypzap_update.png';
-import Wina from '../../assets/images/wina_update.png';
-import Ficility from '../../assets/images/facility_update.png';
-import Fireman from '../../assets/images/fireman_update.png';
-import Orientator from '../../assets/images/orientator_update.png';
-import Register_RH from '../../assets/images/register_update.png';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
@@ -445,7 +416,7 @@ export default function BasicTabs() {
           to='/ourprojects/registerrh'
           DividerTheme='blue'
           src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_update.png`}
-          title='Register-RH'
+          title='Registre-RH'
           description='This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
           // Modal Data
         />
@@ -534,7 +505,7 @@ export default function BasicTabs() {
           to='/ourprojects/wina'
           DividerTheme='#C39B7E'
           src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_update.png`}
-          title='Wina'
+          title='Winaa'
           description='Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. '
           // Modal Data
           para1='Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. '

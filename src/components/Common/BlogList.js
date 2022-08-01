@@ -1,12 +1,7 @@
 // Init
 import { Grid } from '@mui/material';
 import React from 'react';
-// import Button from "@mui/material/Button";
 import BlogCard from './BlogCard';
-// import BlogList1 from '../../assets/images/bloglist1.svg';
-// import BlogList2 from '../../assets/images/bloglist2.svg';
-// import BlogList3 from '../../assets/images/bloglist3.svg';
-// import BlogList4 from '../../assets/images/bloglist4.svg';
 import { motion } from 'framer-motion';
 // Importing Components
 

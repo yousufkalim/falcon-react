@@ -4,22 +4,12 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import Excellence_Header from '../../assets/images/excellence_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Excellence from '../../assets/images/ov_excellence.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-
-import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import Excellence_Demo from '../../assets/images/excellence_demo.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import OrgaPlan_Design1 from '../../assets/images/orgaplan_design1.png';
-import OrgaPlan_Design2 from '../../assets/images/orgaplan_design2.png';
-import OrgaPlan_Design3 from '../../assets/images/orgaplan_design3.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-import Excellence_Theme from '../../assets/images/excellence_theme.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
@@ -70,7 +60,7 @@ export default function Excellence() {
       />
 
       <DetailDemo
-        to='http://160.153.249.64:4455/'
+        // to='http://160.153.249.64:4455/'
         // desp
         // btnText
         DetailDemo_SquareDiv

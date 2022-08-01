@@ -4,25 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import QuadraHeader from '../../assets/images/qudra_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_Quadra from '../../assets/images/quadra_overview.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-
-import QB_Avatar from '../../assets/images/overview_quadraAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import QB_Demo from '../../assets/images/qb_demo_new.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import QB_Design1 from '../../assets/images/detail_qb_design1.png';
-import QB_Design2 from '../../assets/images/detail_qb_design2.png';
-import QB_Design3 from '../../assets/images/detail_qb_design3.png';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-import QB_Theme from '../../assets/images/detail_qb_theme.png';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import QB_Logo from '../../assets/images/detail_qb_logo.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import QB_Design from '../../assets/images/detail_qb_design.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { useTranslation } from 'react-i18next';
@@ -71,7 +59,8 @@ export default function Quadrabase() {
       <DetailService web titleTheme='#FF8616' borderColor='#FF8616' circleTheme='#9D3C64' />
 
       <DetailDemo
-        to='https://quadrabase-demo.web.app/auth/home'
+        // to='https://quadrabase-demo.web.app/auth/home'
+        to='https://www.quadrabase.fr'
         titleColor='#FF8616'
         title='Quadrabase'
         desp='Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. This project is ambitious and aims to revolutionize the approach to design in the field of construction in France.'

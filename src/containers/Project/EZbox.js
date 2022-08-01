@@ -4,28 +4,13 @@ import React from 'react';
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
 import DetailHeader from '../../components/ProjectDetails/DetailHeader';
-import EZbox_Header from '../../assets/images/ezbox_header.png';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
-import OV_EZbox from '../../assets/images/ov_ezbox.png';
 import DetailService from '../../components/ProjectDetails/DetailService';
-import BG_Logo from '../../assets/images/ezbox_lite_logo.png';
-
-import Kidcab_Avatar from '../../assets/images/kidcabAvatar.png';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import EZbox_Demo from '../../assets/images/ezbox_demo_new.png';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import EZbox_Design1 from '../../assets/images/ezbox_design1.png';
-import EZbox_Design2 from '../../assets/images/ezbox_design2.png';
-import EZbox_Design3 from '../../assets/images/ezbox_design3.png';
-
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
-import EZbox_Theme1 from '../../assets/images/ezbox_theme1.png';
-import EZbox_Theme2 from '../../assets/images/ezbox_theme2.png';
-import EZbox_Theme3 from '../../assets/images/ezbox_theme3.png';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
-import EZbox_Logo from '../../assets/images/detail_ezbox_logo.png';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import EZbox_WebDesign from '../../assets/images/ezbox_webdesign.png';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';

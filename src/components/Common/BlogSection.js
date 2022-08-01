@@ -2,8 +2,6 @@ import React from 'react';
 import SectionHeader from './SectionHeader';
 import BlogCard from './BlogCard';
 import { Grid } from '@mui/material';
-import BlogImg2 from '../../assets/images/blogarticle2.svg';
-import BlogImg1 from '../../assets/images/blogarticle1.svg';
 
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';

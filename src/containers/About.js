@@ -8,7 +8,6 @@ import Footer from '../components/Common/Footer';
 import AboutCompany from '../components/About/AboutCompany';
 import VisionSection from '../components/About/VisionSection';
 import ModernAgencySection from '../components/About/ModernAgencySection';
-import Header_Img from '../assets/images/AboutUs_Header_Img.png';
 import { Helmet } from 'react-helmet';
 // Home Component
 export default function About() {
