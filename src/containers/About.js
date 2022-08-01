@@ -11,6 +11,9 @@ import ModernAgencySection from '../components/About/ModernAgencySection';
 import { Helmet } from 'react-helmet';
 // Home Component
 export default function About() {
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className='AboutContainer'>
       <Helmet>

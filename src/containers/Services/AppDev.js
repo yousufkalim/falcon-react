@@ -1,5 +1,5 @@
 // Init
-import React from 'react';
+import React, { useEffect } from 'react';
 
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
@@ -10,9 +10,20 @@ import LatestProjects from '../../components/Common/LatestProjects';
 import WorkProcessSection from '../../components/Common/WorkProcessSection';
 import KeyFeatureSection from '../../components/Common/KeyFeatureSection';
 import { Helmet } from 'react-helmet';
+import { useLocation } from 'react-router-dom';
 
 // Home Component
 export default function AppDev() {
+  let { pathname } = useLocation();
+  useEffect(() => {
+    // Scroll to top logic
+    setTimeout(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'auto',
+      });
+    }, 300);
+  }, [pathname]);
   return (
     <div className='Services_AppContainer'>
       <Helmet>

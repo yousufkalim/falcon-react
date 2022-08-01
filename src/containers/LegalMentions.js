@@ -10,6 +10,9 @@ import Footer from '../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 // Home Component
 export default function LegalMentions() {
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className='HomeContainer'>
       <Helmet>

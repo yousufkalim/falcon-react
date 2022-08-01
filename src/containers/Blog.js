@@ -11,6 +11,9 @@ import { Helmet } from 'react-helmet';
 
 // Home Component
 export default function Blog() {
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
   const { t } = useTranslation();
 
   return (

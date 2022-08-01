@@ -17,7 +17,6 @@ import { Helmet } from 'react-helmet';
 // Component
 function App() {
   const { t, i18n } = useTranslation();
-  let { pathname } = useLocation();
 
   useEffect(() => {
     const { host } = window.location;
@@ -32,15 +31,13 @@ function App() {
       localStorage.setItem('open', true);
     }
   }, []);
-
+  let { pathname } = useLocation();
   useEffect(() => {
     // Scroll to top logic
-    setTimeout(() => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth',
-      });
-    }, 800);
+    window.scrollTo({
+      top: 0,
+      behavior: 'auto',
+    });
   }, [pathname]);
 
   const [open, setOpen] = React.useState(true);

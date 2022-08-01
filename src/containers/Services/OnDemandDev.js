@@ -1,5 +1,5 @@
 // Init
-import React from 'react';
+import React, { useEffect } from 'react';
 
 // Importing Components
 import NavBar from '../../components/Common/NavBar';
@@ -10,9 +10,20 @@ import LatestProjects from '../../components/Common/LatestProjects';
 import OurDevelopers from '../../components/Common/OurDevelopers';
 import DeveloperWorkProcess from '../../components/Common/DeveloperWorkProcess';
 import { Helmet } from 'react-helmet';
+import { useLocation } from 'react-router-dom';
 
 // Home Component
 export default function OnDemandDev() {
+  let { pathname } = useLocation();
+  useEffect(() => {
+    // Scroll to top logic
+    setTimeout(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'auto',
+      });
+    }, 300);
+  }, [pathname]);
   return (
     <div className='Services_DemandContainer'>
       <Helmet>
