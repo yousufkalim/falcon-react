@@ -59,8 +59,8 @@ export default function Quadrabase() {
       <DetailService web titleTheme='#FF8616' borderColor='#FF8616' circleTheme='#9D3C64' />
 
       <DetailDemo
-        // to='https://quadrabase-demo.web.app/auth/home'
-        to='https://www.quadrabase.fr'
+        to='https://quadrabase-demo.web.app/auth/home'
+        // to='https://www.quadrabase.fr'
         titleColor='#FF8616'
         title='Quadrabase'
         desp='Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. This project is ambitious and aims to revolutionize the approach to design in the field of construction in France.'
