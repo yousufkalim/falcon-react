@@ -28,7 +28,7 @@ export default function DetailServiceDetailDemo(props) {
             </div>
             {props.to && (
               <div className='DetailDemo_BtnDiv'>
-                <a href={props.to}>
+                <a href={props.to} target='_blank'>
                   <button
                     className='DetailDemo_Btn'
                     style={{
