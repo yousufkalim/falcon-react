@@ -3,7 +3,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-
+import Twitter from '../../assets/images/twitter.svg';
+import Instagram from '../../assets/images/instagram.svg';
+import Youtube from '../../assets/images/youtube.svg';
 export default function Footer(props) {
   const { i18n, t } = useTranslation();
   const { language } = i18n;
@@ -138,25 +140,55 @@ export default function Footer(props) {
             }}
           >
             <div className='IconsDiv'>
-              <a href='https://www.facebook.com/FalconConsulting.fr'>
+              <a href='https://www.facebook.com/FalconConsulting.fr' target='_blank'>
                 <img
                   className='FooterIcons'
                   src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterFB.svg`}
                   alt='facebook'
                 />
               </a>
-              <a href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'>
+              <a
+                href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'
+                target='_blank'
+              >
                 <img
                   className='FooterIcons'
                   src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterLinkedIn.svg`}
                   alt='linkedin'
                 />
               </a>
-              <a href='https://wa.me/+923135098197'>
+              <a href='https://wa.me/+923135098197' target='_blank'>
                 <img
                   className='FooterIcons'
                   src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
                   alt='whatsapp'
+                />
+              </a>
+              <a href='https://twitter.com/FalconITConsul2' target='_blank'>
+                <img
+                  className='FooterIcons'
+                  // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                  src={Twitter}
+                  alt='twitter'
+                />
+              </a>
+              <a
+                href='https://instagram.com/falconitconsultant?igshid=YmMyMTA2M2Y='
+                target='_blank'
+              >
+                <img
+                  className='FooterIcons'
+                  // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                  src={Instagram}
+                  alt='instagram'
+                />
+              </a>
+              <a href='https://www.youtube.com/channel/UC44pvxAGtKji2GB8inEKxaw' target='_blank'>
+                <img
+                  className='FooterIcons'
+                  // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                  src={Youtube}
+                  alt='youtube'
                 />
               </a>
             </div>
@@ -271,25 +303,52 @@ export default function Footer(props) {
           </Link>
         </div>
         <div className='Footer_MobView_IconDiv'>
-          <a href='https://www.facebook.com/FalconConsulting.fr'>
+          <a href='https://www.facebook.com/FalconConsulting.fr' target='_blank'>
             <img
               className='FooterIcons'
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterFB.svg`}
               alt='facebook'
             />
           </a>
-          <a href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'>
+          <a
+            href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'
+            target='_blank'
+          >
             <img
               className='FooterIcons'
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterLinkedIn.svg`}
               alt='libkedin'
             />
           </a>
-          <a href='https://wa.me/+923135098197'>
+          <a href='https://wa.me/+923135098197' target='_blank'>
             <img
               className='FooterIcons'
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
               alt='whatsapp'
+            />
+          </a>
+          <a href='https://twitter.com/FalconITConsul2' target='_blank'>
+            <img
+              className='FooterIcons'
+              // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+              src={Twitter}
+              alt='twitter'
+            />
+          </a>
+          <a href='https://instagram.com/falconitconsultant?igshid=YmMyMTA2M2Y=' target='_blank'>
+            <img
+              className='FooterIcons'
+              // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+              src={Instagram}
+              alt='instagram'
+            />
+          </a>
+          <a href='https://www.youtube.com/channel/UC44pvxAGtKji2GB8inEKxaw' target='_blank'>
+            <img
+              className='FooterIcons'
+              // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+              src={Youtube}
+              alt='youtube'
             />
           </a>
         </div>
