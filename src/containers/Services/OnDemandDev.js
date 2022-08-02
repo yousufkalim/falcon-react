@@ -27,7 +27,7 @@ export default function OnDemandDev() {
   return (
     <div className='Services_DemandContainer'>
       <Helmet>
-        <title>Falcon IT Consulting</title>
+        <title>{t('Falcon IT : Expert Software Engineers')}</title>
         <meta
           name='description'
           content='Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !'

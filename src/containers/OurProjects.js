@@ -7,13 +7,16 @@ import Header from '../components/Common/Header';
 import LabTabs from '../components/Common/OurProjectTabs';
 import Footer from '../components/Common/Footer';
 import { Helmet } from 'react-helmet';
+import { useTranslation } from 'react-i18next';
 
 // OurProjects Component
 export default function OurProjects() {
+  const { t } = useTranslation();
+
   return (
     <div className='ProjectsContainer'>
       <Helmet>
-        <title>Falcon IT Consulting</title>
+        <title>{t('Falcon IT : Expert Software Engineers')}</title>
         <meta
           name='description'
           content='Falcon Consulting had the opportunity to work on  various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time.'

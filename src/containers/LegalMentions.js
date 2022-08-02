@@ -8,15 +8,19 @@ import LegalList from '../components/LegalMentions/LegalList';
 import LocationSection from '../components/Common/LocationSection';
 import Footer from '../components/Common/Footer';
 import { Helmet } from 'react-helmet';
+import { useTranslation } from 'react-i18next';
+
 // Home Component
 export default function LegalMentions() {
+  const { t } = useTranslation();
+
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
   };
   return (
     <div className='HomeContainer'>
       <Helmet>
-        <title>Falcon IT Consulting</title>
+        <title>{t('Falcon IT : Expert Software Engineers')}</title>
         <meta name='description' content='Our Team Member will get back to you within 24 hours.' />
         <meta
           name='keywords'

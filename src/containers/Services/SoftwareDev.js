@@ -27,7 +27,7 @@ export default function SoftwareDev() {
   return (
     <div className='Services_SoftwareContainer'>
       <Helmet>
-        <title>Falcon IT Consulting</title>
+        <title>{t('Falcon IT : Expert Software Engineers')}</title>
         <meta name='description' content='We are ready to handle your ambitious projects!' />
         <meta
           name='keywords'
