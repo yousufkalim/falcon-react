@@ -50,7 +50,7 @@
         font-size: 1.5rem !important;
 }
     .AboutCompanyTypo_Desp{
-        font-size: .6rem !important;
+        font-size: .8rem !important;
     }
 }
 @media only screen and (max-width: 900px) {
@@ -61,7 +61,7 @@
         font-size: 1.7rem !important;
 }
     .AboutCompanyTypo_Desp{
-        font-size: .8rem !important;
+        font-size: .9rem !important;
         width: 80%;
     }
     .AboutCompanyImg{

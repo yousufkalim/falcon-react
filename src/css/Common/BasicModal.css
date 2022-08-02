@@ -54,6 +54,6 @@
 }
 @media only screen and (max-width: 420px) {
     .ModalOpenBtn{
-        font-size: .7rem !important;
+        font-size: .75rem !important;
     }
 }

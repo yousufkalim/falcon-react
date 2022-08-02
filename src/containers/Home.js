@@ -36,7 +36,7 @@ export default function Home() {
           />
           <meta
             name='keywords'
-            content='falcon, falconit, falcon consulting, blogs, projects, Software house, EXCEED YOUR EXPECTATION, développement, application, mobile, web, ingénieur, qualité, développeurs '
+            content='falcon, falconit, falcon consulting, blogs, projects,websites, Software house, EXCEED YOUR EXPECTATION, développement, application, mobile, web, ingénieur, qualité, développeurs, javascript, reactjs, react native, .net, ui, Expert Software Engineers '
           />
         </Helmet>
         <div className='HomeContainer'>

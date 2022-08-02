@@ -3,7 +3,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-
+import Twitter from '../../assets/images/twitter.svg';
+import Instagram from '../../assets/images/instagram.svg';
+import Youtube from '../../assets/images/youtube.svg';
 export default function Footer(props) {
   const { i18n, t } = useTranslation();
   const { language } = i18n;
@@ -115,18 +117,6 @@ export default function Footer(props) {
                   </li>
                 </ul>
               </div>
-              {/* <div className="FooterList">
-              <Typography
-                className="FooterListHeading"
-                sx={{ fontWeight: "700", opacity: "40%", marginBottom: "28%" }}
-              >
-                Privacy
-              </Typography>
-              <ul>
-                <li className="Footer_li">Terms of Service</li>
-                <li className="Footer_li">Cookies</li>
-              </ul>
-            </div> */}
             </div>
           </div>
           <div
@@ -138,25 +128,55 @@ export default function Footer(props) {
             }}
           >
             <div className='IconsDiv'>
-              <a href='https://www.facebook.com/FalconConsulting.fr'>
+              <a href='https://www.facebook.com/FalconConsulting.fr' target='_blank'>
                 <img
                   className='FooterIcons'
                   src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterFB.svg`}
                   alt='facebook'
                 />
               </a>
-              <a href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'>
+              <a
+                href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'
+                target='_blank'
+              >
                 <img
                   className='FooterIcons'
                   src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterLinkedIn.svg`}
                   alt='linkedin'
                 />
               </a>
-              <a href='https://wa.me/+923135098197'>
+              <a href='https://wa.me/+923135098197' target='_blank'>
                 <img
                   className='FooterIcons'
                   src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
                   alt='whatsapp'
+                />
+              </a>
+              <a href='https://twitter.com/FalconITConsul2' target='_blank'>
+                <img
+                  className='FooterIcons'
+                  // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                  src={Twitter}
+                  alt='twitter'
+                />
+              </a>
+              <a
+                href='https://instagram.com/falconitconsultant?igshid=YmMyMTA2M2Y='
+                target='_blank'
+              >
+                <img
+                  className='FooterIcons'
+                  // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                  src={Instagram}
+                  alt='instagram'
+                />
+              </a>
+              <a href='https://www.youtube.com/channel/UC44pvxAGtKji2GB8inEKxaw' target='_blank'>
+                <img
+                  className='FooterIcons'
+                  // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                  src={Youtube}
+                  alt='youtube'
                 />
               </a>
             </div>
@@ -217,21 +237,15 @@ export default function Footer(props) {
           <div className='Footer_MobView_ListDiv'>
             <h4 className='Footer_MobView_Title'>{t('Overview')}</h4>
             <ul className='Footer_MobView_List'>
-              <li>
-                <Link className='FooterMob_Link' to='/about'>
-                  {t('About')}
-                </Link>
-              </li>
-              <li>
-                <Link className='FooterMob_Link' to='/ourprojects'>
-                  {t('Our projects')}
-                </Link>
-              </li>
-              <li>
-                <Link className='FooterMob_Link' to='/contactus'>
-                  {t('Contact Us')}
-                </Link>
-              </li>
+              <Link className='FooterMob_Link' to='/about'>
+                <li className='FooterMob_Li'>{t('About')}</li>
+              </Link>
+              <Link className='FooterMob_Link' to='/ourprojects'>
+                <li className='FooterMob_Li'>{t('Our projects')}</li>
+              </Link>
+              <Link className='FooterMob_Link' to='/contactus'>
+                <li className='FooterMob_Li'>{t('Contact Us')}</li>
+              </Link>
             </ul>
           </div>
         </div>
@@ -239,26 +253,18 @@ export default function Footer(props) {
           <div className='Footer_MobView_ListDiv'>
             <h4 className='Footer_MobView_Title'>{t('Solutions')}</h4>
             <ul className='Footer_MobView_List'>
-              <li>
-                <Link className='FooterMob_Link' to='/services/ui-development'>
-                  {t('UI/UX Developmemt')}
-                </Link>
-              </li>
-              <li>
-                <Link className='FooterMob_Link' to='/services/app-development'>
-                  {t('App Development')}
-                </Link>
-              </li>
-              <li>
-                <Link className='FooterMob_Link' to='/services/web-development'>
-                  {t('Web Development')}
-                </Link>
-              </li>
-              <li>
-                <Link className='FooterMob_Link' to='/services/software-development'>
-                  {t('Software Development')}
-                </Link>
-              </li>
+              <Link className='FooterMob_Link' to='/services/ui-development'>
+                <li className='FooterMob_Li'>{t('UI/UX Developmemt')}</li>
+              </Link>
+              <Link className='FooterMob_Link' to='/services/app-development'>
+                <li className='FooterMob_Li'>{t('App Development')}</li>
+              </Link>
+              <Link className='FooterMob_Link' to='/services/web-development'>
+                <li className='FooterMob_Li'>{t('Web Development')}</li>
+              </Link>
+              <Link className='FooterMob_Link' to='/services/software-development'>
+                <li className='FooterMob_Li'>{t('Software Development')}</li>
+              </Link>
             </ul>
           </div>
         </div>
@@ -271,25 +277,52 @@ export default function Footer(props) {
           </Link>
         </div>
         <div className='Footer_MobView_IconDiv'>
-          <a href='https://www.facebook.com/FalconConsulting.fr'>
+          <a href='https://www.facebook.com/FalconConsulting.fr' target='_blank'>
             <img
               className='FooterIcons'
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterFB.svg`}
               alt='facebook'
             />
           </a>
-          <a href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'>
+          <a
+            href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'
+            target='_blank'
+          >
             <img
               className='FooterIcons'
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterLinkedIn.svg`}
               alt='libkedin'
             />
           </a>
-          <a href='https://wa.me/+923135098197'>
+          <a href='https://wa.me/+923135098197' target='_blank'>
             <img
               className='FooterIcons'
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
               alt='whatsapp'
+            />
+          </a>
+          <a href='https://twitter.com/FalconITConsul2' target='_blank'>
+            <img
+              className='FooterIcons'
+              // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+              src={Twitter}
+              alt='twitter'
+            />
+          </a>
+          <a href='https://instagram.com/falconitconsultant?igshid=YmMyMTA2M2Y=' target='_blank'>
+            <img
+              className='FooterIcons'
+              // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+              src={Instagram}
+              alt='instagram'
+            />
+          </a>
+          <a href='https://www.youtube.com/channel/UC44pvxAGtKji2GB8inEKxaw' target='_blank'>
+            <img
+              className='FooterIcons'
+              // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+              src={Youtube}
+              alt='youtube'
             />
           </a>
         </div>

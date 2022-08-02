@@ -37,10 +37,13 @@
     display:flex;
     align-items: center;
 }
+.IconsDiv a{
+    margin-right: 1%;
+}
 .FooterIcons{
-    width: 100%;
+    width: 100% !important;
     /* margin-right: 5px; */
-    padding-right: 20%;
+    /* margin-right: 20% !important; */
 }
 .FooterRight{
     display: flex;
@@ -53,7 +56,7 @@
 .FooterRight ul {
     list-style: none;
     font-weight: 600;
-    font-size: .8rem;
+    font-size: .85rem;
 }
 .FooterRight ul li{
     padding-bottom: 5px;
@@ -158,6 +161,9 @@
     display: flex; 
     margin: 5% 0;
 }
+.Footer_MobView_IconDiv a{
+    margin-right: 2%;
+}
 .Footer_MobView_changeLang{
     font-size: 1.2rem;
      font-weight: 600; 
@@ -172,10 +178,10 @@
         width: 40%;
     }
     .FooterRight ul {
-        font-size: .7rem;
+        font-size: .8rem;
     }
     .FooterListHeading{
-        font-size: .8rem !important;
+        font-size: .9rem !important;
 
     }
     .FooterRight{
@@ -193,7 +199,7 @@
 
 @media only screen and (max-width: 768px) {
     .FooterRight ul {
-        font-size: .6rem;
+        font-size: .75rem;
     }
     .FooterTypo {
     width: 80% !important;
@@ -222,13 +228,15 @@
         color: #4879b1 !important;
         font-weight: 400 !important;
     }
-    
+    .FooterMob_Li{
+        padding: 2% 0;
+    }
     .FooterLogo {
         width: 50%;
     }
     .FooterTypo {
         width: 90% !important;
-        font-size: .5rem !important;
+        font-size: 1rem !important;
     }
     .IconsDiv{
         width:15%;
@@ -237,11 +245,11 @@
         width: 100% !important;
     }
     .FooterListHeading{
-        font-size: .7rem !important;
+        font-size: 1rem !important;
 
     }
     .Footer_li{
-        font-size: 8px !important;
+        font-size: 18px !important;
     }
     .FooterLeft{
         width: 50%;
@@ -250,7 +258,7 @@
         width: 40%;
     }
     .FooterRight ul {
-        font-size: .5rem;
+        font-size: 1rem;
     }
     .CopyRightTypo{
         width: 50%;
@@ -271,22 +279,22 @@
   @media only screen and (max-width: 400px) {
 
     .FooterListHeading{
-        font-size: .5rem !important;
+        font-size: 1rem !important;
 
     }
   .LegalMentionDiv{
     text-align: center;
 }
 .LegalMention_H{
-font-size: .7rem;
+font-size: .8rem;
 }
 #scrollToTopBtn {
     right: 9%;
 }
 .CopyRightTypo{
-        font-size: .5rem !important;
+        font-size: .8rem !important;
 }
 .Footer_ChangeLanguage{
-font-size: .6rem !important;
+font-size: 8rem !important;
 }
 }

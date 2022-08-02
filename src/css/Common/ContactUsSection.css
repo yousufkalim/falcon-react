@@ -128,7 +128,7 @@ input::-webkit-inner-spin-button {
 }
 .InputField{
     color: white;
-    font-size: .7rem;
+    font-size: .75rem;
     font-family: Montserrat !important;
     padding: 4%;
     margin: 4% 2%;
@@ -140,7 +140,7 @@ input::-webkit-inner-spin-button {
 }
 .textField{
     color: white;
-    font-size: .7rem;
+    font-size: .75rem;
     padding: 2%;
     margin: 3% 2%;
     background: transparent;
@@ -237,7 +237,7 @@ input:focus ,textarea:focus{
 
 @media only screen and (max-width: 768px) {
     .InputField{
-        font-size: .5rem;
+        font-size: .75rem;
     }
     .ContactUsDiv{
         padding: 18% 5% 5% 5%;
@@ -247,7 +247,7 @@ input:focus ,textarea:focus{
         margin-top: 8%;
     }
     .textField{
-        font-size: .5rem;
+        font-size: .75rem;
         height: 15vh;
 }
 .ContactMedia{
