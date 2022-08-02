@@ -37,10 +37,13 @@
     display:flex;
     align-items: center;
 }
+.IconsDiv a{
+    margin-right: 1%;
+}
 .FooterIcons{
-    width: 100%;
+    width: 100% !important;
     /* margin-right: 5px; */
-    padding-right: 20%;
+    /* margin-right: 20% !important; */
 }
 .FooterRight{
     display: flex;
@@ -157,6 +160,9 @@
 .Footer_MobView_IconDiv{
     display: flex; 
     margin: 5% 0;
+}
+.Footer_MobView_IconDiv a{
+    margin-right: 2%;
 }
 .Footer_MobView_changeLang{
     font-size: 1.2rem;
