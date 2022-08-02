@@ -11,12 +11,15 @@ import { Helmet } from 'react-helmet';
 
 // Home Component
 export default function Blog() {
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
   const { t } = useTranslation();
 
   return (
     <div className='BlogContainer'>
       <Helmet>
-        <title>Falcon IT Consulting</title>
+        <title>{t('Falcon IT : Expert Software Engineers')}</title>
         <meta
           name='description'
           content='The articles written below by our team reflect our values and expertize when it comes to collaborating in mid-size and big projects.'

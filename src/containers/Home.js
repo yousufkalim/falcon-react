@@ -21,19 +21,22 @@ import { Helmet } from 'react-helmet';
 // Home Component
 export default function Home() {
   const { t } = useTranslation();
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <>
       <div>
         <Helmet>
-          <title>Falcon IT Consulting</title>
+          <title>{t('Falcon IT : Expert Software Engineers')}</title>
           <meta
             name='description'
             content='Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners.'
           />
           <meta
             name='keywords'
-            content='falcon, falconit, falcon consulting, blogs, projects, Software house, EXCEED YOUR EXPECTATION, Excellence '
+            content='falcon, falconit, falcon consulting, blogs, projects, Software house, EXCEED YOUR EXPECTATION, développement, application, mobile, web, ingénieur, qualité, développeurs '
           />
         </Helmet>
         <div className='HomeContainer'>

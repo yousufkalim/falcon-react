@@ -6,6 +6,9 @@ import Button from '@mui/material/Button';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import Twitter from '../../assets/images/twitter.svg';
+import Instagram from '../../assets/images/instagram.svg';
+import Youtube from '../../assets/images/youtube.svg';
 // Component
 export default function Header(props) {
   const { t } = useTranslation();
@@ -52,6 +55,64 @@ export default function Header(props) {
                     {t(props.btnText)}
                   </Button>
                 </Link>
+              )}
+              {props.socialIcons && (
+                <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+                  <a href='https://www.facebook.com/FalconConsulting.fr' target='_blank'>
+                    <img
+                      className='Social_Icons'
+                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterFB.svg`}
+                      alt='facebook'
+                    />
+                  </a>
+                  <a
+                    href='https://pk.linkedin.com/company/falconconsultinggroup?trk=ppro_cprof&original_referer=https%3A%2F%2Fwww.google.com%2F'
+                    target='_blank'
+                  >
+                    <img
+                      className='Social_Icons'
+                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterLinkedIn.svg`}
+                      alt='linkedin'
+                    />
+                  </a>
+                  <a href='https://wa.me/+923135098197' target='_blank'>
+                    <img
+                      className='Social_Icons'
+                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                      alt='whatsapp'
+                    />
+                  </a>
+                  <a href='https://twitter.com/FalconITConsul2' target='_blank'>
+                    <img
+                      className='Social_Icons'
+                      // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                      src={Twitter}
+                      alt='twitter'
+                    />
+                  </a>
+                  <a
+                    href='https://instagram.com/falconitconsultant?igshid=YmMyMTA2M2Y='
+                    target='_blank'
+                  >
+                    <img
+                      className='Social_Icons'
+                      // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                      src={Instagram}
+                      alt='instagram'
+                    />
+                  </a>
+                  <a
+                    href='https://www.youtube.com/channel/UC44pvxAGtKji2GB8inEKxaw'
+                    target='_blank'
+                  >
+                    <img
+                      className='Social_Icons'
+                      // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                      src={Youtube}
+                      alt='youtube'
+                    />
+                  </a>
+                </div>
               )}
             </header>
           </motion.div>

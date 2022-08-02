@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://falconitconsultant.com/</loc>
+  <lastmod>2022-04-04T10:51:45+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://falconitconsultant.com/about</loc>
+  <lastmod>2022-04-04T10:51:45+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://falconitconsultant.com/blog</loc>
+  <lastmod>2022-04-04T10:51:45+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://falconitconsultant.com/ourprojects</loc>
+  <lastmod>2022-04-04T10:51:45+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://falconitconsultant.com/contactus</loc>
+  <lastmod>2022-04-04T10:51:45+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://falconitconsultant.com/services/web-development</loc>
+  <lastmod>2022-04-04T10:51:45+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://falconitconsultant.com/services/app-development</loc>
+  <lastmod>2022-04-04T10:51:45+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://falconitconsultant.com/services/software-development</loc>
+  <lastmod>2022-04-04T10:51:45+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://falconitconsultant.com/services/ondemand-developers</loc>
+  <lastmod>2022-04-04T10:51:45+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://falconitconsultant.com/services/ui-development</loc>
+  <lastmod>2022-04-04T10:51:45+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://falconitconsultant.com/legalmentions</loc>
+  <lastmod>2022-04-04T10:51:45+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://falconitconsultant.com/policy</loc>
+  <lastmod>2022-04-04T10:51:45+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+</urlset>

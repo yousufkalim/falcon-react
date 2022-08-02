@@ -23,7 +23,7 @@ export default function Quadrabase() {
   return (
     <div className='Permispop_Container'>
       <Helmet>
-        <title>Falcon IT Consulting</title>
+        <title>{t('Falcon IT : Expert Software Engineers')}</title>
         <meta
           name='description'
           content='In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.'
@@ -59,8 +59,8 @@ export default function Quadrabase() {
       <DetailService web titleTheme='#FF8616' borderColor='#FF8616' circleTheme='#9D3C64' />
 
       <DetailDemo
-        // to='https://quadrabase-demo.web.app/auth/home'
-        to='https://www.quadrabase.fr'
+        to='https://quadrabase-demo.web.app/auth/home'
+        // to='https://www.quadrabase.fr'
         titleColor='#FF8616'
         title='Quadrabase'
         desp='Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects. This project is ambitious and aims to revolutionize the approach to design in the field of construction in France.'
