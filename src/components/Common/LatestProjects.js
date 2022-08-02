@@ -94,14 +94,57 @@ export default function LatestProjects(props) {
             customButtonGroup={<ButtonGroup />}
           >
             <LatestProjectsCard
-              // HoverDetailLite
               hoverDesp={t(
-                'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.'
+                'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
               )}
-              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab.svg`}
-              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabLogo.png`}
-              // btnBackground="#47B9B4"
-              to='/ourprojects/kidcab'
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_logo.svg`}
+              to='/ourprojects/orgaplan'
+              DividerTheme='#3399FE'
+              // btnBackground="#3399FE"
+              heading='Orgaplan'
+            />
+            <LatestProjectsCard
+              hoverDesp={t(
+                'Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.'
+              )}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_logo_lp.png`}
+              to='/ourprojects/orientator'
+              DividerTheme='#3399FE'
+              // btnBackground="#3399FE"
+              Heading='Orientator'
+            />
+            <LatestProjectsCard
+              hoverDesp={t(
+                'This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
+              )}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/rr_logo_lp.svg`}
+              to='/ourprojects/registerrh'
+              DividerTheme='#3399FE'
+              // btnBackground="#3399FE"
+              Heading='Registre RH'
+            />
+            <LatestProjectsCard
+              hoverDesp={t(
+                'Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.'
+              )}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_logo.svg`}
+              to='/ourprojects/telehealthplatform'
+              DividerTheme='#3399FE'
+              // btnBackground="#3399FE"
+              Heading='Tele Health'
+            />
+            <LatestProjectsCard
+              hoverDesp={t('ZypZap is a gaming platform by Falcon IT.')}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_Logo.svg`}
+              to='/ourprojects/zypzap'
+              DividerTheme='#3399FE'
+              // btnBackground="#3399FE"
+              heading='Zypzap'
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -124,6 +167,29 @@ export default function LatestProjects(props) {
               DividerTheme='#FF8616'
               // btnBackground="#FF8616"
               Heading='Quadrabase'
+            />
+
+            <LatestProjectsCard
+              hoverDesp={t(
+                "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs."
+              )}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_logo_lp.png`}
+              to='/ourprojects/yuwway'
+              DividerTheme='#3399FE'
+              // btnBackground="#3399FE"
+              heading='Yuwway'
+            />
+            <LatestProjectsCard
+              hoverDesp={t(
+                'Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
+              )}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_lp.png`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_logo_lp.png`}
+              to='/ourprojects/sindoor'
+              DividerTheme='#3399FE'
+              // btnBackground="#3399FE"
+              heading='Sindoor'
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -148,6 +214,17 @@ export default function LatestProjects(props) {
               Heading='Real Estate'
             />
             <LatestProjectsCard
+              // HoverDetailLite
+              hoverDesp={t(
+                'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.'
+              )}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab.svg`}
+              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabLogo.png`}
+              // btnBackground="#47B9B4"
+              to='/ourprojects/kidcab'
+            />
+
+            <LatestProjectsCard
               hoverDesp={t('EZBox media is a platform providing different services')}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezBox.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezBoxLogo.png`}
@@ -167,17 +244,7 @@ export default function LatestProjects(props) {
               // btnBackground="#3399FE"
               heading='Facility Management'
             />
-            <LatestProjectsCard
-              hoverDesp={t(
-                "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs."
-              )}
-              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_lp.png`}
-              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_logo_lp.png`}
-              to='/ourprojects/yuwway'
-              DividerTheme='#3399FE'
-              // btnBackground="#3399FE"
-              heading='Yuwway'
-            />
+
             <LatestProjectsCard
               hoverDesp={t(
                 'Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.'
@@ -246,17 +313,7 @@ export default function LatestProjects(props) {
               para7='• raining of various Canon customers in the use, management and administration of Therefore'
               para8='• Technical support around Therefore from different Canon customers'
             />
-            <LatestProjectsCard
-              hoverDesp={t(
-                'This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.'
-              )}
-              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_lp.png`}
-              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/rr_logo_lp.svg`}
-              to='/ourprojects/registerrh'
-              DividerTheme='#3399FE'
-              // btnBackground="#3399FE"
-              Heading='Registre RH'
-            />
+
             <LatestProjectsCard
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/accor_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/accorlogo.png`}
@@ -287,15 +344,7 @@ export default function LatestProjects(props) {
               // btnBackground="#3399FE"
               heading='Winaa'
             />
-            <LatestProjectsCard
-              hoverDesp={t('ZypZap is a gaming platform by Falcon IT.')}
-              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_lp.png`}
-              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_Logo.svg`}
-              to='/ourprojects/zypzap'
-              DividerTheme='#3399FE'
-              // btnBackground="#3399FE"
-              heading='Zypzap'
-            />
+
             <LatestProjectsCard
               hoverDesp={t(
                 'Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.'
@@ -324,17 +373,7 @@ export default function LatestProjects(props) {
               para4='The app will offer market-based pricing. When the Individual shopper requests, he will offer the price he is willing to pay for delivery. All drivers who match his request will see the price. They will be able to accept the request or negotiate the delivery price.'
               para5='The app will be free for Customers. The Courier will pay 20% of the delivery price.'
             /> */}
-            <LatestProjectsCard
-              hoverDesp={t(
-                'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
-              )}
-              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_lp.png`}
-              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_logo.svg`}
-              to='/ourprojects/orgaplan'
-              DividerTheme='#3399FE'
-              // btnBackground="#3399FE"
-              heading='Orgaplan'
-            />
+
             <LatestProjectsCard
               // hoverDesp='Tajweed'
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_lp.png`}
@@ -384,39 +423,7 @@ export default function LatestProjects(props) {
               para4='• Development in U-SQL under Azure Data Lake Analytics of scripts for quality control of data from the ebook catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).'
               para5='• Migration of projects developed in Scope and SQL Server to Azure Data Lake Analytics and development in U-SQL under Azure of data quality control scripts from the video catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).'
             />
-            <LatestProjectsCard
-              hoverDesp={t(
-                'Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
-              )}
-              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_lp.png`}
-              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_logo_lp.png`}
-              to='/ourprojects/sindoor'
-              DividerTheme='#3399FE'
-              // btnBackground="#3399FE"
-              heading='Sindoor'
-            />
-            <LatestProjectsCard
-              hoverDesp={t(
-                'Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.'
-              )}
-              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_lp.png`}
-              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_logo_lp.png`}
-              to='/ourprojects/orientator'
-              DividerTheme='#3399FE'
-              // btnBackground="#3399FE"
-              Heading='Orientator'
-            />
-            <LatestProjectsCard
-              hoverDesp={t(
-                'Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.'
-              )}
-              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_lp.png`}
-              LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_logo.svg`}
-              to='/ourprojects/telehealthplatform'
-              DividerTheme='#3399FE'
-              // btnBackground="#3399FE"
-              Heading='Tele Health'
-            />
+
             <LatestProjectsCard
               hoverDesp={t(
                 'This project consists of two apps one is for the restaurant and other is for the end user.'
