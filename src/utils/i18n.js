@@ -10,6 +10,8 @@ i18n
     resources: {
       en: {
         translations: {
+          // title
+          'Falcon IT : Expert Software Engineers': 'Falcon IT : Expert Software Engineers',
           //Home
           // Home_Header
           'WE PROVIDE GREAT SERVICES AT THE BEST PRICE.':
@@ -1031,6 +1033,9 @@ i18n
           'Read more about cookies': 'En savoir plus sur les cookies',
           Agree: 'Accepter',
           Decline: 'Refuser',
+          // title
+          'Falcon IT : Expert Software Engineers':
+            'Falcon Consulting : Agence de développement informatique',
 
           //Home
           // Home_Header
