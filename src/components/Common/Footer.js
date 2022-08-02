@@ -117,18 +117,6 @@ export default function Footer(props) {
                   </li>
                 </ul>
               </div>
-              {/* <div className="FooterList">
-              <Typography
-                className="FooterListHeading"
-                sx={{ fontWeight: "700", opacity: "40%", marginBottom: "28%" }}
-              >
-                Privacy
-              </Typography>
-              <ul>
-                <li className="Footer_li">Terms of Service</li>
-                <li className="Footer_li">Cookies</li>
-              </ul>
-            </div> */}
             </div>
           </div>
           <div
@@ -249,21 +237,15 @@ export default function Footer(props) {
           <div className='Footer_MobView_ListDiv'>
             <h4 className='Footer_MobView_Title'>{t('Overview')}</h4>
             <ul className='Footer_MobView_List'>
-              <li>
-                <Link className='FooterMob_Link' to='/about'>
-                  {t('About')}
-                </Link>
-              </li>
-              <li>
-                <Link className='FooterMob_Link' to='/ourprojects'>
-                  {t('Our projects')}
-                </Link>
-              </li>
-              <li>
-                <Link className='FooterMob_Link' to='/contactus'>
-                  {t('Contact Us')}
-                </Link>
-              </li>
+              <Link className='FooterMob_Link' to='/about'>
+                <li className='FooterMob_Li'>{t('About')}</li>
+              </Link>
+              <Link className='FooterMob_Link' to='/ourprojects'>
+                <li className='FooterMob_Li'>{t('Our projects')}</li>
+              </Link>
+              <Link className='FooterMob_Link' to='/contactus'>
+                <li className='FooterMob_Li'>{t('Contact Us')}</li>
+              </Link>
             </ul>
           </div>
         </div>
@@ -271,26 +253,18 @@ export default function Footer(props) {
           <div className='Footer_MobView_ListDiv'>
             <h4 className='Footer_MobView_Title'>{t('Solutions')}</h4>
             <ul className='Footer_MobView_List'>
-              <li>
-                <Link className='FooterMob_Link' to='/services/ui-development'>
-                  {t('UI/UX Developmemt')}
-                </Link>
-              </li>
-              <li>
-                <Link className='FooterMob_Link' to='/services/app-development'>
-                  {t('App Development')}
-                </Link>
-              </li>
-              <li>
-                <Link className='FooterMob_Link' to='/services/web-development'>
-                  {t('Web Development')}
-                </Link>
-              </li>
-              <li>
-                <Link className='FooterMob_Link' to='/services/software-development'>
-                  {t('Software Development')}
-                </Link>
-              </li>
+              <Link className='FooterMob_Link' to='/services/ui-development'>
+                <li className='FooterMob_Li'>{t('UI/UX Developmemt')}</li>
+              </Link>
+              <Link className='FooterMob_Link' to='/services/app-development'>
+                <li className='FooterMob_Li'>{t('App Development')}</li>
+              </Link>
+              <Link className='FooterMob_Link' to='/services/web-development'>
+                <li className='FooterMob_Li'>{t('Web Development')}</li>
+              </Link>
+              <Link className='FooterMob_Link' to='/services/software-development'>
+                <li className='FooterMob_Li'>{t('Software Development')}</li>
+              </Link>
             </ul>
           </div>
         </div>
