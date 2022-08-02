@@ -145,6 +145,17 @@
     color: #003B7E !important;
     border-radius: 10px !important;
 }
+.Social_Icons{
+  width: 100%;
+  padding-right: 20%;
+  filter: grayscale(1);
+  transition: .5s;
+}
+.Social_Icons:hover{
+  transform: scale(1.1);
+  filter: grayscale(0);
+  
+}
 
 /* MEDIA QUERIES*/
 
