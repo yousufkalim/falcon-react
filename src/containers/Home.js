@@ -29,7 +29,7 @@ export default function Home() {
     <>
       <div>
         <Helmet>
-          <title>{t('Falcon IT : Expert Software Engineers')}</title>
+          <title>{t('FalconIT : Expert Software Engineers')}</title>
           <meta
             name='description'
             content='Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners.'

@@ -19,7 +19,7 @@ export default function ContactUs() {
   return (
     <div className='ContactContainer'>
       <Helmet>
-        <title>{t('Falcon IT : Expert Software Engineers')}</title>
+        <title>{t('FalconIT : Expert Software Engineers')}</title>
         <meta name='description' content='Our Team Member will get back to you within 24 hours.' />
         <meta
           name='keywords'

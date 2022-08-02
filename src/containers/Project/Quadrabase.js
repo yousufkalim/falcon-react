@@ -15,7 +15,6 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet';
-
 // Home Component
 export default function Quadrabase() {
   const { i18n, t } = useTranslation();
@@ -23,7 +22,7 @@ export default function Quadrabase() {
   return (
     <div className='Permispop_Container'>
       <Helmet>
-        <title>{t('Falcon IT : Expert Software Engineers')}</title>
+        <title>{t('FalconIT : Expert Software Engineers')}</title>
         <meta
           name='description'
           content='In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.'

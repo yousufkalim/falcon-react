@@ -11,9 +11,10 @@ import OurDevelopers from '../../components/Common/OurDevelopers';
 import DeveloperWorkProcess from '../../components/Common/DeveloperWorkProcess';
 import { Helmet } from 'react-helmet';
 import { useLocation } from 'react-router-dom';
-
+import { useTranslation } from 'react-i18next';
 // Home Component
 export default function OnDemandDev() {
+  const { t } = useTranslation();
   let { pathname } = useLocation();
   useEffect(() => {
     // Scroll to top logic
@@ -27,7 +28,7 @@ export default function OnDemandDev() {
   return (
     <div className='Services_DemandContainer'>
       <Helmet>
-        <title>{t('Falcon IT : Expert Software Engineers')}</title>
+        <title>{t('FalconIT : Expert Software Engineers')}</title>
         <meta
           name='description'
           content='Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !'
