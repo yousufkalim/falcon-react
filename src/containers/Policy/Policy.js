@@ -5,12 +5,15 @@ import PolicyList from '../../components/Policy/PolicyList';
 import LocationSection from '../../components/Common/LocationSection';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
+import { useTranslation } from 'react-i18next';
 
 const Policy = () => {
+  const { t } = useTranslation();
+
   return (
     <div>
       <Helmet>
-        <title>{t('Falcon IT : Expert Software Engineers')}</title>
+        <title>{t('FalconIT : Expert Software Engineers')}</title>
         <meta name='description' content='Our Team Member will get back to you within 24 hours.' />
         <meta
           name='keywords'

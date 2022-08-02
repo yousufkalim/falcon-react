@@ -11,9 +11,10 @@ import WorkProcessSection from '../../components/Common/WorkProcessSection';
 import KeyFeatureSection from '../../components/Common/KeyFeatureSection';
 import { Helmet } from 'react-helmet';
 import { useLocation } from 'react-router-dom';
-
+import { useTranslation } from 'react-i18next';
 // Home Component
 export default function SoftwareDev() {
+  const { t } = useTranslation();
   let { pathname } = useLocation();
   useEffect(() => {
     // Scroll to top logic
@@ -27,7 +28,7 @@ export default function SoftwareDev() {
   return (
     <div className='Services_SoftwareContainer'>
       <Helmet>
-        <title>{t('Falcon IT : Expert Software Engineers')}</title>
+        <title>{t('FalconIT : Expert Software Engineers')}</title>
         <meta name='description' content='We are ready to handle your ambitious projects!' />
         <meta
           name='keywords'

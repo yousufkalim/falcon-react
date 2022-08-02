@@ -11,7 +11,7 @@ i18n
       en: {
         translations: {
           // title
-          'Falcon IT : Expert Software Engineers': 'Falcon IT : Expert Software Engineers',
+          'FalconIT : Expert Software Engineers': 'FalconIT : Expert Software Engineers',
           //Home
           // Home_Header
           'WE PROVIDE GREAT SERVICES AT THE BEST PRICE.':
@@ -1034,7 +1034,7 @@ i18n
           Agree: 'Accepter',
           Decline: 'Refuser',
           // title
-          'Falcon IT : Expert Software Engineers':
+          'FalconIT : Expert Software Engineers':
             'Falcon Consulting : Agence de développement informatique',
 
           //Home
