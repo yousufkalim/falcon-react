@@ -29,6 +29,17 @@ export default function Home() {
     <>
       <div>
         <Helmet>
+          <title>{t('Falcon IT Consulting - Software House')}</title>
+          <meta
+            name='description'
+            content='Falcon IT is a software development and IT company with the best software management system.'
+          />
+          <meta
+            name='keywords'
+            content='software house, IT company, software development, software management system'
+          />
+        </Helmet>
+        {/* <Helmet>
           <title>{t('FalconIT : Expert Software Engineers')}</title>
           <meta
             name='description'
@@ -38,7 +49,7 @@ export default function Home() {
             name='keywords'
             content='falcon, falconit, falcon consulting, blogs, projects,websites, Software house, EXCEED YOUR EXPECTATION, développement, application, mobile, web, ingénieur, qualité, développeurs, javascript, reactjs, react native, .net, ui, Expert Software Engineers '
           />
-        </Helmet>
+        </Helmet> */}
         <div className='HomeContainer'>
           <NavBar />
           <Header
