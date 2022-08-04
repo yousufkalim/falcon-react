@@ -1041,7 +1041,7 @@ i18n
           // Home_Header
           'WE PROVIDE GREAT SERVICES AT THE BEST PRICE.': "L'EXCELLENCE À TOUT PRIX",
           'Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners. ':
-            'Agence informatique avec une équipe de développeurs et de chefs de projet expérimentés, priviligiant la qualité avant tout. ',
+            'Développement d’applications web, mobiles, et entreprises pour les startups et grandes entreprises.',
           'GET A FREE QUOTE': 'OBTENIR UN DEVIS GRATUIT',
 
           //   service Provided section
