@@ -48,6 +48,7 @@
 }
 .BlogReadImg{
     width: 90%;
+    border-radius: 15px;
 }
 @media only screen and (max-width: 1400px) {
     .BlogReadTitle{

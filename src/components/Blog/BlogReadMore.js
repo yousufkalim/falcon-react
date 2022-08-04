@@ -3,6 +3,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import BlogCard from '../Common/BlogCard';
 import { useTranslation } from 'react-i18next';
+import Agile from '../../assets/images/aglie.png';
+
 export default function BlogReadMore(props) {
   const { t } = useTranslation();
   return (
@@ -43,6 +45,11 @@ export default function BlogReadMore(props) {
                     date='June 13th 2022'
                     title='Managing a Remote Team'
                   />
+                </Link>
+              </div>
+              <div className='BlogReadMore_CardsDiv'>
+                <Link to='/agilemethodology'>
+                  <BlogCard src={Agile} date='August 3rd 2022' title='Agile Methodology' />
                 </Link>
               </div>
             </div>
