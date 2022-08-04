@@ -18,6 +18,7 @@ export default function OurProjects() {
       <Helmet>
         {/* <title>{t('FalconIT : Expert Software Engineers')}</title> */}
         <title>{t('Project details - Falcon IT Consulting')}</title>
+        <link rel='canonical' href='https://falconitconsultant.com/ourprojects' />
 
         <meta
           name='description'

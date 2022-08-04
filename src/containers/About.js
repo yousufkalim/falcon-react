@@ -21,7 +21,9 @@ export default function About() {
   return (
     <div className='AboutContainer'>
       <Helmet>
-        <title>{t('FalconIT : Expert Software Engineers')}</title>
+        <title>{t('About Us - Falcon IT Consulting')}</title>
+        <link rel='canonical' href='https://falconitconsultant.com/about' />
+
         <meta
           name='description'
           content='Trustful, skilled and ambitious team of developers, UI/UX designers, project managers and quality testers. Our aim is to build healthy partnerships with our clients, in which respect is the central value. Our main difference with other software houses is that we are committed to delivering the last mile, without any compromise.'

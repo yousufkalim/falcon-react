@@ -30,6 +30,8 @@ export default function SoftwareDev() {
       <Helmet>
         {/* <title>{t('FalconIT : Expert Software Engineers')}</title> */}
         <title>{t('Software development services - Falcon IT Consulting')}</title>
+        <link rel='canonical' href='https://falconitconsultant.com/services/software-development' />
+
         <meta
           name='description'
           content='Our agile software development engineers provide custom software development services with software quality assurance.'

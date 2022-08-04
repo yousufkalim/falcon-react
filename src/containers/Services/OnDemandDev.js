@@ -29,6 +29,8 @@ export default function OnDemandDev() {
     <div className='Services_DemandContainer'>
       <Helmet>
         <title>{t('On-demand services - Falcon IT Consulting')}</title>
+        <link rel='canonical' href='https://falconitconsultant.com/services/ondemand-developers' />
+
         <meta
           name='description'
           content='Falcon IT Consulting hires an on-demand developers team, SQA team, software engineers and provides on-demand web development, app development, and software development services.'

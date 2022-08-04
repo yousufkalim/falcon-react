@@ -16,11 +16,14 @@ export default function ContactUs() {
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
   };
+
   return (
     <div className='ContactContainer'>
       <Helmet>
         {/* <title>{t('FalconIT : Expert Software Engineers')}</title> */}
         <title>{t('Contact US - Falcon IT Consulting')}</title>
+        <link rel='canonical' href='https://falconitconsultant.com/contactus' />
+
         <meta name='description' content='To contact Falcon IT Consulting, fill out the form.' />
         <meta name='keywords' content='contact us, Fill the form' />
       </Helmet>

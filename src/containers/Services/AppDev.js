@@ -30,6 +30,8 @@ export default function AppDev() {
     <div className='Services_AppContainer'>
       <Helmet>
         <title>{t('App Development Services - Falcon IT Consulting')}</title>
+        <link rel='canonical' href='https://falconitconsultant.com/services/app-development' />
+
         <meta
           name='description'
           content="Falcon's apps developer team develops android, IOS, and cross-platform/hybrid applications."

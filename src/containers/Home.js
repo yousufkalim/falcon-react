@@ -25,12 +25,14 @@ export default function Home() {
     window.scrollTo(0, 0);
   };
 
-  return (
+  https: return (
     <>
       <div>
         <Helmet>
           {/* <title>{t('Falcon IT Consulting - Software House')}</title> */}
           <title>{t('Home - Falcon IT Consulting - Software House')}</title>
+          <link rel='canonical' href='https://falconitconsultant.com/' />
+
           <meta
             name='description'
             content='Falcon IT is a software development and IT company with the best software management system.'

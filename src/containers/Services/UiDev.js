@@ -30,6 +30,8 @@ export default function UiDev() {
       <Helmet>
         {/* <title>{t('FalconIT : Expert Software Engineers')}</title> */}
         <title>{t('UI/UX developers services - Falcon IT Consulting')}</title>
+        <link rel='canonical' href='https://falconitconsultant.com/services/ui-development' />
+
         <meta
           name='description'
           content='Falcon Consulting has a devoted team of UI/UX developers working on the front-end UI/UX of the web and apps. The team is specialized in user experience development.'

@@ -29,6 +29,8 @@ export default function WebDev() {
     <div className='Services_WebContainer'>
       <Helmet>
         <title>{t('Web Development Services - Falcon IT Consulting')}</title>
+        <link rel='canonical' href='https://falconitconsultant.com/services/web-development' />
+
         <meta
           name='description'
           content='The best software development company with a team of front-end and back-end developers - Falcon IT Consulting provides website development services at the cheapest rates.'

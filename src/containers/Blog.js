@@ -21,6 +21,8 @@ export default function Blog() {
       <Helmet>
         {/* <title>{t('FalconIT : Expert Software Engineers')}</title> */}
         <title>{t('Blog - Falcon IT Consulting')}</title>
+        <link rel='canonical' href='https://falconitconsultant.com/blog' />
+
         <meta
           name='description'
           content='Online Blogs written by the Falcon IT Consulting team are about advancements in information technology and software development industries.'
