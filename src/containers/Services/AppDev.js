@@ -29,11 +29,14 @@ export default function AppDev() {
   return (
     <div className='Services_AppContainer'>
       <Helmet>
-        <title>{t('FalconIT : Expert Software Engineers')}</title>
-        <meta name='description' content='We are ready to handle your ambitious projects!' />
+        <title>{t('App Development Services - Falcon IT Consulting')}</title>
+        <meta
+          name='description'
+          content="Falcon's apps developer team develops android, IOS, and cross-platform/hybrid applications."
+        />
         <meta
           name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
+          content='App development, application development, IOS development, android development, app developers, app development software, cross-platform applications, hybrid applications'
         />
       </Helmet>
       <NavBar />

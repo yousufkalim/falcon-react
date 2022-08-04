@@ -19,12 +19,10 @@ export default function ContactUs() {
   return (
     <div className='ContactContainer'>
       <Helmet>
-        <title>{t('FalconIT : Expert Software Engineers')}</title>
-        <meta name='description' content='Our Team Member will get back to you within 24 hours.' />
-        <meta
-          name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp '
-        />
+        {/* <title>{t('FalconIT : Expert Software Engineers')}</title> */}
+        <title>{t('Contact US - Falcon IT Consulting')}</title>
+        <meta name='description' content='To contact Falcon IT Consulting, fill out the form.' />
+        <meta name='keywords' content='contact us, Fill the form' />
       </Helmet>
       <NavBar ContactUs />
       <ContactUsSection ContactUs />

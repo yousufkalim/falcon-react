@@ -28,11 +28,14 @@ export default function WebDev() {
   return (
     <div className='Services_WebContainer'>
       <Helmet>
-        <title>{t('FalconIT : Expert Software Engineers')}</title>
-        <meta name='description' content='We are ready to handle your ambitious projects!' />
+        <title>{t('Web Development Services - Falcon IT Consulting')}</title>
+        <meta
+          name='description'
+          content='The best software development company with a team of front-end and back-end developers - Falcon IT Consulting provides website development services at the cheapest rates.'
+        />
         <meta
           name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
+          content='software development company, web development, website development, web programming, front end developers, back end developers'
         />
       </Helmet>
       <NavBar />

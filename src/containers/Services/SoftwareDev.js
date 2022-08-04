@@ -28,11 +28,15 @@ export default function SoftwareDev() {
   return (
     <div className='Services_SoftwareContainer'>
       <Helmet>
-        <title>{t('FalconIT : Expert Software Engineers')}</title>
-        <meta name='description' content='We are ready to handle your ambitious projects!' />
+        {/* <title>{t('FalconIT : Expert Software Engineers')}</title> */}
+        <title>{t('Software development services - Falcon IT Consulting')}</title>
+        <meta
+          name='description'
+          content='Our agile software development engineers provide custom software development services with software quality assurance.'
+        />
         <meta
           name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
+          content='software quality assurance, software development services, agile software, software development engineers'
         />
       </Helmet>
       <NavBar />

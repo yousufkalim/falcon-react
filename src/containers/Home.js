@@ -29,7 +29,8 @@ export default function Home() {
     <>
       <div>
         <Helmet>
-          <title>{t('Falcon IT Consulting - Software House')}</title>
+          {/* <title>{t('Falcon IT Consulting - Software House')}</title> */}
+          <title>{t('Home - Falcon IT Consulting - Software House')}</title>
           <meta
             name='description'
             content='Falcon IT is a software development and IT company with the best software management system.'

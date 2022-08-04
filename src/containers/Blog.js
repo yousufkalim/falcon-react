@@ -19,14 +19,15 @@ export default function Blog() {
   return (
     <div className='BlogContainer'>
       <Helmet>
-        <title>{t('FalconIT : Expert Software Engineers')}</title>
+        {/* <title>{t('FalconIT : Expert Software Engineers')}</title> */}
+        <title>{t('Blog - Falcon IT Consulting')}</title>
         <meta
           name='description'
-          content='The articles written below by our team reflect our values and expertize when it comes to collaborating in mid-size and big projects.'
+          content='Online Blogs written by the Falcon IT Consulting team are about advancements in information technology and software development industries.'
         />
         <meta
           name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, Remote Team, business website is necessary, business website'
+          content='blogs, IT blogs, information technology blog, online blog, software development'
         />
       </Helmet>
       <NavBar />
