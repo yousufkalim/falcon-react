@@ -17,19 +17,6 @@ export default function AgileMethod() {
   const blog = {
     body: (
       <>
-        {/* <div
-          style={{
-            width: '100%',
-            display: 'flex',
-            justifycontent: 'center',
-            alignItems: 'center',
-          }}
-        >
-          <img
-            style={{ width: '100%', padding: '2%' }}
-            src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/AboutUs_Header_Img.png`}
-          />
-        </div> */}
         {t(
           'Agile stands for its versatility and evolutionary nature as one of the most common approaches to project management. Those who work in the industry, or closely to it, are aware that the art of software development is special and a bit different to other kinds of engineering projects.'
         )}
@@ -50,7 +37,7 @@ export default function AgileMethod() {
         )}
         <br />
         <br />
-        <h2 style={{ color: '#0F52BA' }}>{t('1. Product of greater quality')}</h2>
+        <h2 style={{ color: '#0F52BA' }}>1. {t('Product of greater quality')}</h2>
         <br />
         {t(
           "Testing is an integrated aspect of Agile project management, which ensures that the finished product's overall output is greater. The consumer may request adjustments in compliance with the reality of the market and remain involved. Since Agile is an iterative process, self-organizing teams continue to learn and change over time."
@@ -63,10 +50,10 @@ export default function AgileMethod() {
           )}
         </li>
         <br />
-        <h2 style={{ color: '#0F52BA' }}>{t('2. Gratitude to the customer')}</h2>
+        <h2 style={{ color: '#0F52BA' }}>2. {t('Gratitude to the customer')}</h2>
         <br />
         {t(
-          'The customer does not control execution in the traditional system which affects flexibility and adaptability, since it is only interested in the planning process. In Agile, the consumer often participates in a decision-making process that leads to better retention of customers. You can deliver value to the customer and make sure that the final product is truly according to their requirements, by keeping the customer in the circle and making changes according to their opinion. '
+          'The customer does not control execution in the traditional system which affects flexibility and adaptability, since it is only interested in the planning process. In Agile, the consumer often participates in a decision-making process that leads to better retention of customers. You can deliver value to the customer and make sure that the final product is truly according to their requirements, by keeping the customer in the circle and making changes according to their opinion.'
         )}{' '}
         <br />
         <br />
@@ -75,7 +62,7 @@ export default function AgileMethod() {
         )}
         <br />
         <br />
-        <h2 style={{ color: '#0F52BA' }}>{t('3. Better Evaluating')}</h2>
+        <h2 style={{ color: '#0F52BA' }}>3. {t('Better Evaluating')}</h2>
         <br />
         {t(
           'Agile allows managers to have better control over quality-control features, feedback integration and project due to its limpidity. All shareholders engage in the process through sophisticated monitoring methods and reporting tools and quality is assured during the entire project execution period'
@@ -93,7 +80,7 @@ export default function AgileMethod() {
           <img style={{ width: '100%', padding: '2%' }} src={Agile2} />
         </div>
         <br />
-        <h2 style={{ color: '#0F52BA' }}>{t('4. Enhanced stability for projects')}</h2>
+        <h2 style={{ color: '#0F52BA' }}>4. {t('Enhanced stability for projects')}</h2>
         <br />
         {t(
           'There are greater ways within the Agile system to ensure the project runs smoothly and to recognize and anticipate risks. With increased visibility, predicting risks, and coming up with effective mitigation plans becomes easier.'
@@ -105,14 +92,14 @@ export default function AgileMethod() {
         )}
         <br />
         <br />
-        <h2 style={{ color: '#0F52BA' }}>{t('5. Risks minimized')}</h2>
+        <h2 style={{ color: '#0F52BA' }}>5. {t('Risks minimized')}</h2>
         <br />
         {t(
           'Agile performs in short, continuous delivery sprints. Any project using an Agile approach would, in principle, never fail. and if a sector does not go as expected, there is still a minor part that can be salvaged and used in the future.'
         )}
         <br />
         <br />
-        <h2 style={{ color: '#0F52BA' }}>{t('6. Enhanced versatility')}</h2>
+        <h2 style={{ color: '#0F52BA' }}>6. {t('Enhanced versatility')}</h2>
         <br />
         {t(
           "People work in smaller collisions and are facilitated by the product owner's continuous input and participation. If Agile is applied successfully in a project team, it offers additional versatility. Changes are typically time-consuming and expensive in some project management methodologies."
@@ -124,13 +111,14 @@ export default function AgileMethod() {
         )}
         <br />
         <br />
-        <h2 style={{ color: '#0F52BA' }}>{t('7. The enhancement is continual')}</h2>
+        <h2 style={{ color: '#0F52BA' }}>7. {t('The enhancement is continual')}</h2>
+        <br />
         {t(
           'One of the 12 fundamental concepts of the Agile Manifesto is working for continuous creativity and self-reflection. The methodology works on variations that do not replicate previous errors and that each sprint is better than the last. Agile methodologies allow team members to learn from similar experiences and promote an open culture of sharing of ideas.'
         )}
         <br />
         <br />
-        <h2 style={{ color: '#0F52BA' }}>{t('8. Expanded moral squads')}</h2>
+        <h2 style={{ color: '#0F52BA' }}>8. {t('Expanded moral squads')}</h2>
         <br />
         {t(
           'The project manager defends the team from sponsoring and management intervention. When Agile teams are self-organized and self-managed, they can easily increase their control and authority over their decisions.'
@@ -152,7 +140,7 @@ export default function AgileMethod() {
         )}
         <br />
         <br />
-        <h2 style={{ color: '#0F52BA' }}>{t('9. More valid data')}</h2>
+        <h2 style={{ color: '#0F52BA' }}>9. {t('More valid data')}</h2>
         <br />
         {t(
           'The metrics used in time and cost analysis by Agile teams for measuring project performance are more specific and relevant than those used in traditional methodologies. The Waterfall methodology measurements indicate that the project closely tracks expected costs and time, while Agile emphasizes on performance optimization and results produced.'
