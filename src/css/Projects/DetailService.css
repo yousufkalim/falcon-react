@@ -19,7 +19,22 @@
     font-weight: 700 !important;
     font-size: 1.5rem !important;
 }
+.DetailService_ImageDiv{
+   width: 100%; 
+   display: flex; 
+   justify-content: center;
 
+}
+.DetailService_BothImage{
+    width: 80%; 
+    margin: 5% 2%; 
+    object-fit: cover;
+}
+.DetailService_WebAppImage{
+    width: 60%; 
+    margin: 5% 2%; 
+    object-fit: cover;
+}
 .DetailService_CircleContainer {
     display: flex;
     justify-content: center;
@@ -324,8 +339,20 @@
     .DetailService_TypoDiv2 {
         top: 75px;
     }
+    .DetailService_BothImage{
+        width: 90%; 
+    }
+    .DetailService_WebAppImage{
+        width: 80%; 
+    }
 }
 @media only screen and (max-width: 400px) {
+    .DetailService_BothImage{
+        width: 100%; 
+    }
+    .DetailService_WebAppImage{
+        width: 100%; 
+    }
 
     .DetailService_UpperBorder {
         width: 40px;

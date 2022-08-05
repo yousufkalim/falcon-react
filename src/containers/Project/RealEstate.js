@@ -15,6 +15,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import RealService from '../../assets/images/real_detailservice.svg';
+
 // Home Component
 export default function RealEstate() {
   const { t } = useTranslation();
@@ -53,9 +55,10 @@ export default function RealEstate() {
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_realestate.png`}
       />
       <DetailService
+        src={RealService}
         // both
         // web
-        app
+        WebApp
         titleTheme='#837C6B'
         borderColor='#18374E'
         circleTheme='#837C6B'

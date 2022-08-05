@@ -8,7 +8,7 @@ import BlogReadArticles from '../components/Common/BlogReadArticles';
 import Footer from '../components/Common/Footer';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet';
-
+import Agile from '../assets/images/aglie.png';
 // Home Component
 export default function Blog() {
   window.onbeforeunload = function () {
@@ -19,14 +19,17 @@ export default function Blog() {
   return (
     <div className='BlogContainer'>
       <Helmet>
-        <title>{t('FalconIT : Expert Software Engineers')}</title>
+        {/* <title>{t('FalconIT : Expert Software Engineers')}</title> */}
+        <title>{t('Blog - Falcon IT Consulting')}</title>
+        <link rel='canonical' href='https://falconitconsultant.com/blog' />
+
         <meta
           name='description'
-          content='The articles written below by our team reflect our values and expertize when it comes to collaborating in mid-size and big projects.'
+          content='Online Blogs written by the Falcon IT Consulting team are about advancements in information technology and software development industries.'
         />
         <meta
           name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, Remote Team, business website is necessary, business website'
+          content='blogs, IT blogs, information technology blog, online blog, software development'
         />
       </Helmet>
       <NavBar />
@@ -46,6 +49,15 @@ export default function Blog() {
         to='/businesswebsite'
         description={t(
           'We live in a digital world where everyone has cell-phones with the internet. Most consumers will be using their electronic devices to search for online information that will help them in making a smarter purchase decision. Actually, according to a survey, 88% of the consumers will search online information about a product before they finally buy it. Hence if your business doesn’t have a website, you are probably losing a lot of customers and opportunities. Nowadays business website serves as the backbone of the business as it lures new customers and can be used to employ different marketing strategies to expand your business. Below we’ll discuss the role of an online website in boosting your sales and growing your business.'
+        )}
+      />
+      <BlogReadArticles
+        PublishDate='August 3rd 2022'
+        title='Agile Methodology'
+        src={Agile}
+        to='/agilemethodology'
+        description={t(
+          'Agile stands for its versatility and evolutionary nature as one of the most common approaches to project management. Those who work in the industry, or closely to it, are aware that the art of software development is special and a bit different to other kinds of engineering projects.'
         )}
       />
 

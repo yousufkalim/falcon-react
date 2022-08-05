@@ -16,14 +16,17 @@ export default function OurProjects() {
   return (
     <div className='ProjectsContainer'>
       <Helmet>
-        <title>{t('FalconIT : Expert Software Engineers')}</title>
+        {/* <title>{t('FalconIT : Expert Software Engineers')}</title> */}
+        <title>{t('Project details - Falcon IT Consulting')}</title>
+        <link rel='canonical' href='https://falconitconsultant.com/ourprojects' />
+
         <meta
           name='description'
-          content='Falcon Consulting had the opportunity to work on  various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time.'
+          content='Falcon IT worked on many projects including web development, apps development, UI/UX development, and many others.'
         />
         <meta
           name='keywords'
-          content='falcon, falconit, falcon consulting, SIMPLE IDEA, opportunity, efficient process'
+          content='projects, development projects, software development projects, application development, UI/UX development'
         />
       </Helmet>
       <NavBar />

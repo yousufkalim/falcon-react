@@ -15,6 +15,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import TableService from '../../assets/images/table_detailservice.svg';
+
 // Home Component
 export default function Table() {
   const { t } = useTranslation();
@@ -60,8 +62,9 @@ export default function Table() {
       />
       <DetailService
         // both
+        src={TableService}
         // web
-        app
+        WebApp
         titleTheme='#D60000'
         borderColor='#18374E'
         circleTheme='#D60000'

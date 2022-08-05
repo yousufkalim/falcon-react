@@ -13,6 +13,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import TeleService from '../../assets/images/tele_detailservice.svg';
+
 // Home Component
 export default function Telehealth() {
   const { t } = useTranslation();
@@ -53,8 +55,7 @@ export default function Telehealth() {
       />
       <DetailService
         both
-        // web
-        // app
+        src={TeleService}
         titleTheme='#FBA622'
         borderColor='#FBA622'
         circleTheme='#136773'

@@ -14,6 +14,7 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import ZypzapService from '../../assets/images/zypzap_detailservice.svg';
 
 // Home Component
 export default function Zypzap() {
@@ -53,8 +54,9 @@ export default function Zypzap() {
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_zypzap.png`}
       />
       <DetailService
+        src={ZypzapService}
         // app
-        web
+        WebApp
         // both
         titleTheme='#282828'
         borderColor='#282828'

@@ -15,6 +15,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import TiltService from '../../assets/images/tilt_detailservice.svg';
+
 // Home Component
 export default function Tilt() {
   const { t } = useTranslation();
@@ -52,6 +54,7 @@ export default function Tilt() {
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_tilt.png`}
       />
       <DetailService
+        src={TiltService}
         // web
         both
         titleTheme='#282828'

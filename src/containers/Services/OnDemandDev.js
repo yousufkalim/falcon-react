@@ -28,14 +28,16 @@ export default function OnDemandDev() {
   return (
     <div className='Services_DemandContainer'>
       <Helmet>
-        <title>{t('FalconIT : Expert Software Engineers')}</title>
+        <title>{t('On-demand services - Falcon IT Consulting')}</title>
+        <link rel='canonical' href='https://falconitconsultant.com/services/ondemand-developers' />
+
         <meta
           name='description'
-          content='Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !'
+          content='Falcon IT Consulting hires an on-demand developers team, SQA team, software engineers and provides on-demand web development, app development, and software development services.'
         />
         <meta
           name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
+          content='on-demand developers, hire on-demand developers, on-demand development services, software developers, app developers, web developers, SQA team, SQ engineers'
         />
       </Helmet>
       <NavBar />

@@ -15,6 +15,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import EzBoxService from '../../assets/images/ez_detailservice.svg';
+
 // Home Component
 export default function EZbox() {
   const { t } = useTranslation();
@@ -53,8 +55,9 @@ export default function EZbox() {
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_ezbox.png`}
       />
       <DetailService
+        src={EzBoxService}
         // both
-        web
+        WebApp
         // app
         titleTheme='#454238'
         borderColor='#454238'

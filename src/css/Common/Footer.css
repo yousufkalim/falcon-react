@@ -229,7 +229,8 @@
         font-weight: 400 !important;
     }
     .FooterMob_Li{
-        padding: 2% 0;
+        padding: 1.5% 0;
+        margin: 2% 0;
     }
     .FooterLogo {
         width: 50%;

@@ -14,6 +14,7 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import ExcellenceService from '../../assets/images/excellence_detailservice.svg';
 
 // Home Component
 export default function Excellence() {
@@ -54,7 +55,8 @@ export default function Excellence() {
       />
       <DetailService
         // both
-        web
+        WebApp
+        src={ExcellenceService}
         // app
         titleTheme='#282828'
         borderColor='#282828'

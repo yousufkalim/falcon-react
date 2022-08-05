@@ -36,7 +36,7 @@ import Wina from '../containers/Project/Wina';
 import Orientator from '../containers/Project/Orientator';
 import RegisterRH from '../containers/Project/RegisterRH';
 import Policy from '../containers/Policy/Policy.js';
-
+import AgileMethod from '../containers/Blog/AgileMethod';
 const index = () => {
   return (
     <Switch>
@@ -51,6 +51,7 @@ const index = () => {
       <Route exact path='/blog' component={Blog} />
       <Route exact path='/remoteteam' component={RemoteTeam} />
       <Route exact path='/businesswebsite' component={BusinessWebsite} />
+      <Route exact path='/agilemethodology' component={AgileMethod} />
 
       <Route exact path='/legalmentions' component={LegalMentions} />
       <Route exact path='/policy' component={Policy} />
@@ -70,12 +71,12 @@ const index = () => {
       <Route exact path='/ourprojects/sindoor' component={Sindoor} />
       <Route exact path='/ourprojects/zypzap' component={Zypzap} />
 
-      <Route exact path="/ourprojects/yuwway" component={Yuwway} />
-      <Route exact path="/ourprojects/facilitymanagement" component={FacilityManagement} />
-      <Route exact path="/ourprojects/fireman" component={Fireman} />
-      <Route exact path="/ourprojects/wina" component={Wina} />
-      <Route exact path="/ourprojects/orientator" component={Orientator} />
-      <Route exact path="/ourprojects/registerrh" component={RegisterRH} />
+      <Route exact path='/ourprojects/yuwway' component={Yuwway} />
+      <Route exact path='/ourprojects/facilitymanagement' component={FacilityManagement} />
+      <Route exact path='/ourprojects/fireman' component={Fireman} />
+      <Route exact path='/ourprojects/wina' component={Wina} />
+      <Route exact path='/ourprojects/orientator' component={Orientator} />
+      <Route exact path='/ourprojects/registerrh' component={RegisterRH} />
     </Switch>
   );
 };

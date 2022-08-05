@@ -52,14 +52,15 @@ function App() {
   return (
     <div>
       <Helmet>
-        <title>{t('FalconIT : Expert Software Engineers')}</title>
+        <title>{t('Falcon IT Consulting - Software House')}</title>
+
         <meta
           name='description'
-          content='In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.'
+          content='Falcon IT is a software development and IT company with the best software management system.'
         />
         <meta
           name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
+          content='software house, IT company, software development, software management system'
         />
       </Helmet>
       {open === 'true' && (

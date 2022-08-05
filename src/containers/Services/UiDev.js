@@ -28,11 +28,17 @@ export default function UiDev() {
   return (
     <div className='Services_UiContainer'>
       <Helmet>
-        <title>{t('FalconIT : Expert Software Engineers')}</title>
-        <meta name='description' content='We are ready to handle your ambitious projects!' />
+        {/* <title>{t('FalconIT : Expert Software Engineers')}</title> */}
+        <title>{t('UI/UX developers services - Falcon IT Consulting')}</title>
+        <link rel='canonical' href='https://falconitconsultant.com/services/ui-development' />
+
+        <meta
+          name='description'
+          content='Falcon Consulting has a devoted team of UI/UX developers working on the front-end UI/UX of the web and apps. The team is specialized in user experience development.'
+        />
         <meta
           name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
+          content='web UI developer, user interface development, front-end UI UX, web ui / UX developer'
         />
       </Helmet>
       <NavBar />

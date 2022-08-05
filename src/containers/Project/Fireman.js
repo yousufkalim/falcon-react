@@ -15,6 +15,7 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import FiremenService from '../../assets/images/firemen_detailservice.svg';
 
 // Home Component
 export default function Fireman() {
@@ -54,8 +55,9 @@ export default function Fireman() {
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_firemen.png`}
       />
       <DetailService
+        src={FiremenService}
         // app
-        web
+        WebApp
         // both
         titleTheme='#282828'
         borderColor='#282828'

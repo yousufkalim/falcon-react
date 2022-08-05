@@ -15,6 +15,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import OrientatorService from '../../assets/images/orientator_detailservice.svg';
+
 // Home Component
 export default function Orientator() {
   const { t } = useTranslation();
@@ -54,7 +56,8 @@ export default function Orientator() {
       />
       <DetailService
         // app
-        web
+        src={OrientatorService}
+        WebApp
         // both
         titleTheme='#FF29AA'
         borderColor='#FF29AA'

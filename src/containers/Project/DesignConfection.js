@@ -15,6 +15,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import DcService from '../../assets/images/dc_detailservice.svg';
+
 // Home Component
 export default function DesignConfection() {
   const { t } = useTranslation();
@@ -54,7 +56,8 @@ export default function DesignConfection() {
       />
       <DetailService
         // both
-        web
+        WebApp
+        src={DcService}
         // app
         titleTheme='#282828'
         borderColor='#282828'
