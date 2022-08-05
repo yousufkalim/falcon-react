@@ -15,6 +15,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet';
+import ServiceImg from '../../assets/images/qb_detailservice.svg';
+
 // Home Component
 export default function Quadrabase() {
   const { i18n, t } = useTranslation();
@@ -55,7 +57,13 @@ export default function Quadrabase() {
         // location="France"
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_overview.png`}
       />
-      <DetailService web titleTheme='#FF8616' borderColor='#FF8616' circleTheme='#9D3C64' />
+      <DetailService
+        src={ServiceImg}
+        WebApp
+        titleTheme='#FF8616'
+        borderColor='#FF8616'
+        circleTheme='#9D3C64'
+      />
 
       <DetailDemo
         to='https://quadrabase-demo.web.app/auth/home'

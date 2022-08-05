@@ -15,6 +15,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import OrgaService from '../../assets/images/orga_detailservice.svg';
+
 // Home Component
 export default function Orgaplan() {
   const { t } = useTranslation();
@@ -53,8 +55,9 @@ export default function Orgaplan() {
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_orgaplan.png`}
       />
       <DetailService
+        src={OrgaService}
         // both
-        web
+        WebApp
         // app
         titleTheme='#282828'
         borderColor='#282828'

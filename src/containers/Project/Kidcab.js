@@ -15,6 +15,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import KidcabService from '../../assets/images/kc_detailservice.svg';
+
 // Home Component
 export default function Kidcab() {
   const { t } = useTranslation();
@@ -53,9 +55,10 @@ export default function Kidcab() {
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_overview.png`}
       />
       <DetailService
+        src={KidcabService}
         // both
         // web
-        app
+        WebApp
         titleTheme='#4CB9B4'
         borderColor='#18374E'
         circleTheme='#4CB9B4'

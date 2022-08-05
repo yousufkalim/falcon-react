@@ -14,6 +14,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import RegistreService from '../../assets/images/registre_detailservice.svg';
+
 // Home Component
 export default function RegisterRH() {
   const { t } = useTranslation();
@@ -53,7 +55,8 @@ export default function RegisterRH() {
       />
       <DetailService
         // app
-        web
+        src={RegistreService}
+        WebApp
         // both
         titleTheme='#142E68'
         borderColor='#42C2FF'

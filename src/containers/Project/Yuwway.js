@@ -15,6 +15,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import YuwayService from '../../assets/images/yuway_detailservice.svg';
+
 // Home Component
 export default function Yuwway() {
   const { t } = useTranslation();
@@ -53,7 +55,8 @@ export default function Yuwway() {
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_yuwway.png`}
       />
       <DetailService
-        app
+        src={YuwayService}
+        WebApp
         // web
         // both
         titleTheme='#0073BB'

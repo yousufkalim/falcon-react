@@ -14,6 +14,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import FmService from '../../assets/images/fm_detailservice.svg';
+
 // Home Component
 export default function FacilityManagement() {
   const { t } = useTranslation();
@@ -52,8 +54,9 @@ export default function FacilityManagement() {
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_facility.png`}
       />
       <DetailService
+        src={FmService}
         // app
-        web
+        WebApp
         // both
         titleTheme='#282828'
         borderColor='#282828'

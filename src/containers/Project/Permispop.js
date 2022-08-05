@@ -15,6 +15,8 @@ import DetailWebDev from '../../components/ProjectDetails/DetailWebDev';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import PermispopService from '../../assets/images/pp_detailservice.svg';
+
 // Home Component
 export default function Permispop() {
   const { t } = useTranslation();
@@ -51,6 +53,7 @@ export default function Permispop() {
 
       <DetailService
         both
+        src={PermispopService}
         BGLogo
         liteLogo={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/pp_lite_logo.png`}
       />

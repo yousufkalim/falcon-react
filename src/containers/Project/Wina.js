@@ -15,6 +15,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import WinaService from '../../assets/images/wina_detailservice.svg';
+
 // Project Detail (Wina)
 export default function Wina() {
   const { t } = useTranslation();
@@ -53,6 +55,7 @@ export default function Wina() {
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_wina.png`}
       />
       <DetailService
+        src={WinaService}
         // app
         // web
         both

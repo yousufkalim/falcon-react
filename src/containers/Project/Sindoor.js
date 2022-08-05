@@ -14,6 +14,8 @@ import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import SindoorService from '../../assets/images/sindoor_detailservice.svg';
+
 // Home Component
 export default function Sindoor() {
   const { t } = useTranslation();
@@ -52,9 +54,10 @@ export default function Sindoor() {
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_sindoor.png`}
       />
       <DetailService
+        src={SindoorService}
         // both
         // web
-        app
+        WebApp
         titleTheme='#E45A5A'
         borderColor='#18374E'
         circleTheme='#E45A5A'
