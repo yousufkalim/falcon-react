@@ -14,12 +14,12 @@ export default function Header(props) {
     <>
       <Grid className={props.DetailHeader ? 'DetailHeader' : 'HeaderMain'} container spacing={1}>
         <Grid xs={12} sm={12} md={5}>
-          <motion.div
+          <div
             className='HeaderTypo'
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 1 }}
-            viewport={{ once: true }}
+            // initial={{ opacity: 0 }}
+            // whileInView={{ opacity: 1 }}
+            // transition={{ duration: 1 }}
+            // viewport={{ once: true }}
           >
             <header className='HeaderTitle'>
               <h1
@@ -54,7 +54,7 @@ export default function Header(props) {
                 </Link>
               )}
             </header>
-          </motion.div>
+          </div>
         </Grid>
         <Grid
           className={props.DetailHeaderImg ? 'DetailHeaderImg' : 'HeaderImg'}
@@ -62,11 +62,11 @@ export default function Header(props) {
           sm={12}
           md={7}
         >
-          <motion.img
-            initial={{ x: 300 }}
-            whileInView={{ x: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
+          <img
+            // initial={{ x: 300 }}
+            // whileInView={{ x: 0 }}
+            // transition={{ duration: 0.5 }}
+            // viewport={{ once: true }}
             alt={props.ImgAlt || 'Header'}
             src={props.ImgSrc}
             style={props.ImgStyle}
