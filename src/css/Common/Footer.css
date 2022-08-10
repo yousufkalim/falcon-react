@@ -150,7 +150,8 @@
     align-items: center;
 }
 .Footer_MobView_LegalMentionLink{
-    padding: 2% 0;
+    padding: 1% 0;
+    margin: 8px 0;
     font-size: 1.1rem;
      color: #282828;
       font-weight: 700;
@@ -228,7 +229,7 @@
     }
     .FooterMob_Li{
         padding: 1.5% 0;
-        margin: 2% 0;
+        margin: 8px 0;
     }
     .FooterLogo {
         width: 50%;
