@@ -45,12 +45,12 @@ export default function SectionHeader(props) {
           </h2>
         </motion.div>
       ) : (
-        <motion.div
+        <div
           className={props.LeftSectionHeader ? 'LeftSectionHeader' : 'SectionHeaderTypo'}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
+          // initial={{ opacity: 0 }}
+          // whileInView={{ opacity: 1 }}
+          // transition={{ duration: 1 }}
+          // viewport={{ once: true }}
         >
           <h2 className='SectionHeaderH1' color={props.colorH1 || '#42C2FF'}>
             {t(props.h1)}
@@ -70,7 +70,7 @@ export default function SectionHeader(props) {
           >
             {t(props.decription)}
           </h3>
-        </motion.div>
+        </div>
       )}
     </>
   );
