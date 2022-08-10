@@ -197,13 +197,13 @@ opacity: 1;
     .HoverDivTypo{
         /* color: white;*/
         width: 85%; 
-        font-size: .8rem !important;
+        font-size: 1rem !important;
     }
     .HoverDivBtn{
-        font-size: .8rem;
+        font-size: 1rem;
     }
     .HoverDivBtnLink{
-        font-size: .8rem !important;
+        font-size: 1rem !important;
 }
 .ProjectsCompleted_Num{
     font-size: 2rem !important;
@@ -229,7 +229,7 @@ top: -45%;
 @media only screen and (max-width: 900px) {
 
     .HoverDivTypo{
-        font-size: .9rem !important;
+        font-size: 1rem !important;
     }
     .ProjectsCompleted_Num{
         font-size: 1.2rem !important;

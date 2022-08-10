@@ -42,7 +42,7 @@
     border: 3px solid #003B7E !important;
     border-radius: 10px !important;
     color:#003B7E !important;
-    font-size: .9rem !important;
+    font-size: 1rem !important;
     font-weight: 700 !important;
     margin-top: 5% !important;
     text-transform: capitalize !important;
@@ -57,7 +57,7 @@
     font-size: 1.5rem !important;
 }
 .ProjectCardDesp{
-    font-size: .9rem !important;
+    font-size: 1rem !important;
     width: 100% !important;
 }
 }

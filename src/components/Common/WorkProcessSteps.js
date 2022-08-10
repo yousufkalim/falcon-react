@@ -15,15 +15,15 @@ export default function WorkProcessSteps(props) {
         }}
       >
         <img style={{ width: '20%', margin: '3% 0%' }} src={props.src} alt='process' />
-        <Typography sx={{ color: 'white', fontWeight: '700', margin: '5% 0%', fontSize: '1rem' }}>
+        <Typography sx={{ color: 'white', fontWeight: '700', margin: '5% 0%', fontSize: '1.2rem' }}>
           {t(props.title)}
         </Typography>
         <Typography
           sx={{
             color: 'white',
             fontWeight: '400',
-            fontSize: '.8rem',
-            width: '80%',
+            fontSize: '1rem',
+            width: '90%',
             opacity: '80%',
           }}
         >

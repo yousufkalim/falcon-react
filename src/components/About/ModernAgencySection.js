@@ -14,7 +14,7 @@ export default function ModernAgencySection() {
           </Typography>
           <Typography
             sx={{
-              fontSize: '.8rem',
+              fontSize: '1rem',
               fontWeight: '500',
               color: '#F8F8F8',
               opacity: '80%',

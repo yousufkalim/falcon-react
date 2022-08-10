@@ -26,7 +26,7 @@
 }
 .Modal_Para{
     margin-top: 1% !important;
-    font-size: .9rem !important;
+    font-size: 1rem !important;
 }
 .ModalOpenBtn{
     width: 100% !important;
@@ -54,6 +54,6 @@
 }
 @media only screen and (max-width: 420px) {
     .ModalOpenBtn{
-        font-size: .75rem !important;
+        font-size: 1rem !important;
     }
 }

@@ -158,7 +158,7 @@ export default function ContactUsSection(props) {
                     />
                     <div className='SocialMediaText'>
                       <h3 sx={{ fontSize: '1rem' }}>{t('Email')}</h3>
-                      <h5 sx={{ fontSize: '.7rem' }}>contact@falconconsulting.fr</h5>
+                      <h4>contact@falconconsulting.fr</h4>
                     </div>
                   </div>
                 </a>
@@ -170,8 +170,8 @@ export default function ContactUsSection(props) {
                       alt='Calendly'
                     />
                     <div className='SocialMediaText'>
-                      <h3 sx={{ fontSize: '1rem' }}>{t('Calendly')}</h3>
-                      <h5 sx={{ fontSize: '.7rem' }}>{t('Click and join link')}</h5>
+                      <h3>{t('Calendly')}</h3>
+                      <h4>{t('Click and join link')}</h4>
                     </div>
                   </div>
                 </a>

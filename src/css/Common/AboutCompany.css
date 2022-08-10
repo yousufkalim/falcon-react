@@ -36,7 +36,7 @@
 @media only screen and (max-width: 1366px) {
 
 .AboutCompanyTypo_Desp{
-    font-size: .9rem !important; 
+    font-size: 1rem !important; 
 }
 .AboutCompanyImg{
     width: 95%;
@@ -61,8 +61,8 @@
         font-size: 1.7rem !important;
 }
     .AboutCompanyTypo_Desp{
-        font-size: .9rem !important;
-        width: 80%;
+        font-size: 1rem !important;
+        width: 85%;
     }
     .AboutCompanyImg{
         width: 100%;

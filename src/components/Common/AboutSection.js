@@ -149,7 +149,7 @@ export default function AboutSection() {
                     </h2>
                     <h3
                       style={{
-                        fontSize: '.95rem',
+                        fontSize: '1rem',
                         fontWeight: '400',
                         color: '#003B7E',
                       }}

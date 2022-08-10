@@ -171,7 +171,7 @@ tr:nth-child(even) {
   }
 
   .LegalMention_ListBar_Title {
-    font-size: 0.8rem !important;
+    font-size: .8rem !important;
     margin-left: 4% !important;
   }
 }

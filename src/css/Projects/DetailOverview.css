@@ -43,7 +43,7 @@
 .DetailOverview_ClientTitle{
         color: #7A7A7A;
         font-weight: 700 !important;
-        font-size: .8rem !important;
+        font-size: 1rem !important;
 }
 .DetailOverview_AvatarDiv{
         display: flex;
