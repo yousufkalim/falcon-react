@@ -27,7 +27,7 @@ export default function BlogReadArticles(props) {
         >
           <Grid container spacing={1} className='BlogArticleContainer2'>
             <Grid xs={12} sm={10} md={6}>
-              <img className='BlogReadImg' width={props.width} src={props.src} alt='blogImg' />
+              <img className='BlogReadImg' width={props.width} src={props.src} alt='blog' />
             </Grid>
             <Grid xs={12} sm={10} md={6}>
               <div className='BlogTypo'>
@@ -88,7 +88,7 @@ export default function BlogReadArticles(props) {
               </div>
             </Grid>
             <Grid xs={12} sm={10} md={6}>
-              <img className='BlogReadImg' width={props.width} src={props.src} alt='blogImg' />
+              <img className='BlogReadImg' width={props.width} src={props.src} alt='blog' />
             </Grid>
           </Grid>
         </motion.div>

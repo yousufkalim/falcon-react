@@ -43,7 +43,7 @@ export default function BasicModal(props) {
       >
         <Box className='ModalBox' sx={style}>
           <div className='Modal_Top'>
-            <img className='Modal_Logo' src={props.LogoSrc} alt='modalLogo' />
+            <img className='Modal_Logo' src={props.LogoSrc} alt='company logo' />
             <img
               style={{
                 position: 'absolute',
@@ -54,7 +54,7 @@ export default function BasicModal(props) {
               }}
               onClick={handleClose}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/modalClose.svg`}
-              alt='closeIcon'
+              alt='close Icon'
             />
           </div>
           <Typography className='ModalHeading' id='modal-modal-title' variant='h4' component='h2'>

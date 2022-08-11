@@ -30,14 +30,14 @@ export default function ModernAgencySection() {
                 <img
                   className='HistoryImg'
                   src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/MA1.svg`}
-                  alt='modern Agency'
+                  alt='Years of excellence'
                 />
               </div>
               <div className='ArrowMain'>
                 <img
                   className='ArrowImg'
                   src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/AgencyArrow.svg`}
-                  alt='modern Agency'
+                  alt='Arrow'
                 />
               </div>
             </div>
@@ -52,14 +52,14 @@ export default function ModernAgencySection() {
                 <img
                   className='HistoryImg'
                   src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/MA2.svg`}
-                  alt='modern Agency'
+                  alt='Sucessful Projects'
                 />
               </div>
               <div className='ArrowMain'>
                 <img
                   className='ArrowImg'
                   src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/AgencyArrow.svg`}
-                  alt='modern Agency'
+                  alt='Arrow'
                 />
               </div>
             </div>
@@ -74,14 +74,14 @@ export default function ModernAgencySection() {
                 <img
                   className='HistoryImg'
                   src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/MA3.svg`}
-                  alt='modern Agency'
+                  alt='Client Satifaction'
                 />
               </div>
               <div className='ArrowMain'>
                 <img
                   className='ArrowImg'
                   src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/AgencyArrow.svg`}
-                  alt='modern Agency'
+                  alt='Arrow'
                 />
               </div>
             </div>

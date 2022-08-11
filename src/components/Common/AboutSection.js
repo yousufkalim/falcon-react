@@ -100,7 +100,7 @@ export default function AboutSection() {
                   className='AboutImg'
                 >
                   <img
-                    alt='AboutImg'
+                    alt='About Us'
                     src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/about_section.svg`}
                   />
                 </motion.div>

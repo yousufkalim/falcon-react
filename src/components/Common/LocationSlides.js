@@ -4,7 +4,7 @@ export default function LocationSlides(props) {
   return (
     <div className='LocationDiv'>
       <div className='LocationDiv_Typo'>
-        <img src={props.iconSrc} alt='LocationIcon' />
+        <img src={props.iconSrc} alt='Location Icon' />
         <Typography className='Location_Country'>{props.country}</Typography>
         <Typography className='Location_Address'>{props.address}</Typography>
       </div>
