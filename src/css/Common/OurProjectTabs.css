@@ -34,6 +34,7 @@
     background-color: #003B7E !important;
     opacity: 100% !important;
     border-radius: 10px !important;
+    transition: .75s !important;
 }
 
 .css-1aquho2-MuiTabs-indicator {

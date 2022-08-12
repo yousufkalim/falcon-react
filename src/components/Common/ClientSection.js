@@ -17,28 +17,28 @@ export default function ClientSection() {
             <Grid className='ClientLogoGrid' xs={6} sm={3}>
               <img
                 className='ClientLogo'
-                alt='client'
+                alt='microsoft'
                 src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/6.svg`}
               />
             </Grid>
             <Grid className='ClientLogoGrid' xs={6} sm={3}>
               <img
                 className='ClientLogo'
-                alt='client'
+                alt='canon'
                 src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/7.svg`}
               />
             </Grid>
             <Grid className='ClientLogoGrid' xs={6} sm={3}>
               <img
                 className='ClientLogo'
-                alt='client'
+                alt='fnac'
                 src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/4.svg`}
               />
             </Grid>
             <Grid className='ClientLogoGrid' xs={6} sm={3}>
               <img
                 className='ClientLogo'
-                alt='client'
+                alt='accor hotel'
                 src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/5.svg`}
               />
             </Grid>

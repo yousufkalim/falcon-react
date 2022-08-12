@@ -26,7 +26,7 @@ export default function DeveloperWorkCard(props) {
                 sx={{
                   color: '#282828',
                   fontWeight: '400',
-                  fontSize: '.9rem',
+                  fontSize: '1rem',
                   width: '90%',
                 }}
               >
@@ -53,7 +53,7 @@ export default function DeveloperWorkCard(props) {
                 sx={{
                   color: '#282828',
                   fontWeight: '400',
-                  fontSize: '.9rem',
+                  fontSize: '1rem',
                   width: '100%',
                 }}
               >

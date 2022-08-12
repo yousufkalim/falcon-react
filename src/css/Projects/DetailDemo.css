@@ -116,10 +116,10 @@
 
 .DetailDemo_Desp{
     width: 95% !important;
-    font-size: .8rem !important;
+    font-size: 1rem !important;
 }
 .DetailDemo_Btn{
-    font-size: .9rem;
+    font-size: 1rem;
    
 }
 
@@ -137,13 +137,6 @@
     width: 70%;
     top:12%;
 }
-
-
-
-}
-@media only screen and (max-width: 600px) {
-
-
 .DetailDemo_MainDiv{
     justify-content: space-between;
     flex-direction: column;
@@ -154,7 +147,7 @@
 }
 .DetailDemo_Desp{
     width: 75% !important;
-    font-size: .8rem !important;
+    /* font-size: .8rem !important; */
     margin: 8% 0 !important;
 
 }
@@ -169,7 +162,6 @@
     flex-direction: column;
     align-items: center;
 }
-
 .DetailDemo_RoundDiv{
     width: 90%;
     height: 60%;
@@ -183,7 +175,11 @@
     width: 85%;
     top:12%;
 }
+
+
 }
+/* @media only screen and (max-width: 600px) {
+} */
 @media only screen and (max-width: 520px) {
     .DetailDemo_ImgContainer{
         height: 350px;

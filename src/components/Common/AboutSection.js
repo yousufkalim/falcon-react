@@ -100,7 +100,7 @@ export default function AboutSection() {
                   className='AboutImg'
                 >
                   <img
-                    alt='AboutImg'
+                    alt='About Us'
                     src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/about_section.svg`}
                   />
                 </motion.div>
@@ -149,7 +149,7 @@ export default function AboutSection() {
                     </h2>
                     <h3
                       style={{
-                        fontSize: '.95rem',
+                        fontSize: '1rem',
                         fontWeight: '400',
                         color: '#003B7E',
                       }}

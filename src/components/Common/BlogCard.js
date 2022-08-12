@@ -9,7 +9,7 @@ export default function BlogCard(props) {
           <img
             style={{ objectFit: 'cover', height: '100%', width: '100%', borderRadius: '15px' }}
             src={props.src}
-            alt='blogImg'
+            alt='blog'
           />
         </div>
 

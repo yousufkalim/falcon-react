@@ -79,7 +79,7 @@
 
 }
 .HistoryTypoP{
-    font-size: .8rem !important;
+    font-size: 1rem !important;
     color: white;
     font-family: Roboto !important;
     width: 100% !important;
@@ -124,13 +124,13 @@
 }
 @media only screen and (max-width: 778px) {
     .HistoryTypoDiv{
-        width: 80%;
+        width: 50%;
     }
     .HistoryTypoH{
-        font-size: .8rem !important;
+        font-size: 1.1rem !important;
     }
     .HistoryTypoP{
-        font-size: .6rem !important;
+        font-size: 1rem !important;
     }
     .HistoryMain{
         width: 150px;

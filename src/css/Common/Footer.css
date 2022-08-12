@@ -48,7 +48,7 @@
 .FooterRight{
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 45%;
 }
 .FooterList{
     width:50%
@@ -56,7 +56,7 @@
 .FooterRight ul {
     list-style: none;
     font-weight: 600;
-    font-size: .85rem;
+    font-size: 1rem;
 }
 .FooterRight ul li{
     padding-bottom: 5px;
@@ -150,7 +150,8 @@
     align-items: center;
 }
 .Footer_MobView_LegalMentionLink{
-    padding: 2% 0;
+    padding: 1% 0;
+    margin: 8px 0;
     font-size: 1.1rem;
      color: #282828;
       font-weight: 700;
@@ -177,22 +178,20 @@
     .FooterLogo {
         width: 40%;
     }
-    .FooterRight ul {
-        font-size: .8rem;
-    }
+ 
     .FooterListHeading{
-        font-size: .9rem !important;
+        font-size: 1rem !important;
 
     }
     .FooterRight{
-        width: 35%;
+        width: 45%;
     }
  
 .LegalMention_H{
     font-size: .9rem;
 }
     .Footer_ChangeLanguage{
-        font-size: .8rem !important;
+        font-size: 1rem !important;
         /* width: 70%; */
         }
 }
@@ -203,7 +202,7 @@
     }
     .FooterTypo {
     width: 80% !important;
-    font-size: .8rem !important;
+    font-size: .9rem !important;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -230,7 +229,7 @@
     }
     .FooterMob_Li{
         padding: 1.5% 0;
-        margin: 2% 0;
+        margin: 8px 0;
     }
     .FooterLogo {
         width: 50%;
@@ -271,7 +270,7 @@
     flex-direction: column-reverse ;
     }
     .Footer_ChangeLanguage{
-    font-size: .8rem !important;
+    font-size: 1rem !important;
     width: 100%;
     margin-bottom: .5% !important;
     }
@@ -287,15 +286,15 @@
     text-align: center;
 }
 .LegalMention_H{
-font-size: .8rem;
+font-size: 1rem;
 }
 #scrollToTopBtn {
     right: 9%;
 }
 .CopyRightTypo{
-        font-size: .8rem !important;
+        font-size: 1rem !important;
 }
 .Footer_ChangeLanguage{
-font-size: 8rem !important;
+font-size: 1rem !important;
 }
 }

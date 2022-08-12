@@ -152,9 +152,9 @@ opacity: 1;
 .ProjectsCompleted_Award{
   position: absolute;
   color: #F8F8F890;
-  width: 25%;
+  width: 32%;
   top: -30%;
-  left: 18%;
+  left: 10%;
 }
 .ProjectsCompleted_Num{
         font-family: Montserrat!important;
@@ -183,11 +183,11 @@ opacity: 1;
     .ProjectsCompleted_MedKit{
         width:30%;
     }
-    /* .ProjectsCompleted_Award{
-    width: 25%;
+    .ProjectsCompleted_Award{
+    width: 35%;
     top: -30%;
-    left: 18%;
-    } */
+    left: 7%;
+    }
    
 }
 @media only screen and (max-width: 1200px) {
@@ -197,13 +197,13 @@ opacity: 1;
     .HoverDivTypo{
         /* color: white;*/
         width: 85%; 
-        font-size: .8rem !important;
+        font-size: 1rem !important;
     }
     .HoverDivBtn{
-        font-size: .8rem;
+        font-size: 1rem;
     }
     .HoverDivBtnLink{
-        font-size: .8rem !important;
+        font-size: 1rem !important;
 }
 .ProjectsCompleted_Num{
     font-size: 2rem !important;
@@ -222,14 +222,14 @@ opacity: 1;
 .ProjectsCompleted_Award{
 /* width: 25%; */
 top: -45%;
-/* left: 18%; */
+left: 2%;
 }
 
 }
 @media only screen and (max-width: 900px) {
 
     .HoverDivTypo{
-        font-size: .9rem !important;
+        font-size: 1rem !important;
     }
     .ProjectsCompleted_Num{
         font-size: 1.2rem !important;
