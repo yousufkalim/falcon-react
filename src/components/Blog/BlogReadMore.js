@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import BlogCard from '../Common/BlogCard';
 import { useTranslation } from 'react-i18next';
 import Agile from '../../assets/images/aglie.png';
+import SB_Cover from '../../assets/images/sb_main.jpg';
 
 export default function BlogReadMore(props) {
   const { t } = useTranslation();
@@ -50,6 +51,15 @@ export default function BlogReadMore(props) {
               <div className='BlogReadMore_CardsDiv'>
                 <Link to='/agilemethodology'>
                   <BlogCard src={Agile} date='August 3rd 2022' title='Agile Methodology' />
+                </Link>
+              </div>
+              <div className='BlogReadMore_CardsDiv'>
+                <Link to='/successfulbusiness'>
+                  <BlogCard
+                    src={SB_Cover}
+                    date='August 12th 2022'
+                    title='Business ran Successfully'
+                  />
                 </Link>
               </div>
             </div>
