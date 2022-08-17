@@ -157,6 +157,7 @@ i18n
           Services: 'Services',
           'Our projects': 'Our projects',
           'Our Projects': 'Our Projects',
+          Projects: 'Projects',
 
           Contact: 'Contact',
           Privacy: 'Privacy',
@@ -607,10 +608,14 @@ i18n
           Français: 'Français',
           'WEB DEVELOPMENT': 'WEB DEVELOPMENT',
           'APP DEVELOPMENT': 'APP DEVELOPMENT',
+          'MOBILE APPLICATION': 'MOBILE APPLICATION',
           'SOFTWARE DEVELOPMENT': 'SOFTWARE DEVELOPMENT',
           'ON DEMAND DEVELOPERS': 'ON DEMAND DEVELOPERS',
+          'ON DEMAND': 'ON DEMAND',
+
           'UI/UX DEVELOPMENT': 'UI/UX DEVELOPMENT',
           'Client Details': 'Client Details',
+          SOFTWARE: 'SOFTWARE',
 
           // Legal Mentions
           'Legal Mentions': 'Legal Mentions',
@@ -1237,8 +1242,11 @@ i18n
           Français: 'English',
           'WEB DEVELOPMENT': 'Développement Web',
           'APP DEVELOPMENT': 'Développement App mobiles',
+          'MOBILE APPLICATION': 'Application mobile',
           'SOFTWARE DEVELOPMENT': 'Développement Logiciel',
+          SOFTWARE: 'Logiciel',
           'ON DEMAND DEVELOPERS': 'Régie Informatique',
+          'ON DEMAND': 'Régie Informatique',
           'UI/UX DEVELOPMENT': 'Développement UI/UX',
           'MOBILE APP DEVELOPMENT': "DÉVELOPPEMENT D'APPLICATIONS MOBILES",
           'APP UI DESIGN': "CONCEPTION DE L'UI DE L'APPLICATION",
@@ -1388,6 +1396,7 @@ i18n
           About: 'Notre Entreprise​',
           Services: 'Services',
           'Our Projects': 'Nos projets',
+          Projects: 'Projets',
           'Our projects': 'Nos projets',
           'GO TO THE PROJECT': 'VOIR LE PROJET',
           'COLOR THEME & ILLUSTRATION': 'THÈME DE COULEUR ET ILLUSTRATION',
