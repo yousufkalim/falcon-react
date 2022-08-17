@@ -2,18 +2,103 @@ import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import { ReactComponent as LogoWhite } from '../../assets/images/logo_white.svg';
-import { ReactComponent as WhiteMenuIcon } from '../../assets/images/WhiteMenuIcon.svg';
-import NavBarMenu from './NavBarMenu';
+import NavBarMenu from './NewNavMenu';
 import { Link } from 'react-router-dom';
 import { useScrollPosition } from '../../utils/ScrollPosition';
-
+import { AnimatePresence, motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import WhiteLogo from '../../assets/images/falconwhitelogo.svg';
 export default function NavBar(props) {
   const [Menu, SetMenu] = React.useState(false);
-
+  const [Active, SetActive] = React.useState(false);
+  // const [isOpen, setOpen] = useState(false);
   let position = useScrollPosition();
+  const { i18n, t } = useTranslation();
+  const myFunction = () => {
+    SetActive(!Active);
+  };
+  const { language } = i18n;
   return (
     <>
+      {props.ContactUs ? (
+        <>
+          <div className='logoNew'>
+            <Link className='NavLogo_Link' to={`/`}>
+              <img
+                className='Falcon_logo'
+                style={{ margin: '1% 0', cursor: 'pointer' }}
+                alt='logo'
+                src={
+                  Active
+                    ? WhiteLogo
+                    : position <= 970
+                    ? WhiteLogo
+                    : `${process.env.REACT_APP_MEDIA_URL}/uploads/images/logo.svg`
+                }
+              />
+            </Link>
+          </div>
+          <div
+            className={Active ? 'changes' : 'containers'}
+            onClick={() => {
+              myFunction();
+              SetMenu(!Menu);
+            }}
+          >
+            <div
+              className='bars1'
+              style={{
+                background: Active ? '' : position <= 970 ? '#fff' : '#003b7e',
+              }}
+            ></div>
+            <div
+              className='bars2'
+              style={{
+                background: Active ? '' : position <= 970 ? '#fff' : '#003b7e',
+              }}
+            ></div>
+            <div className='bars3'>
+              <div
+                className='abcd'
+                style={{
+                  background: Active ? '' : position <= 970 ? '#fff' : '#003b7e',
+                }}
+              ></div>
+            </div>
+          </div>
+        </>
+      ) : (
+        <>
+          <div className='logoNew'>
+            <Link className='NavLogo_Link' to={`/`}>
+              <img
+                className='Falcon_logo'
+                alt='logo'
+                src={
+                  Active ? WhiteLogo : `${process.env.REACT_APP_MEDIA_URL}/uploads/images/logo.svg`
+                }
+                style={{ width: '100%', margin: '1% 0', cursor: 'pointer' }}
+              />
+            </Link>
+          </div>
+
+          <div
+            className={Active ? 'change' : 'container'}
+            // style={{ width: '50px', height: '30px', background: 'red' }}
+            onClick={() => {
+              myFunction();
+              SetMenu(!Menu);
+            }}
+          >
+            <div className='bar1'></div>
+            <div className='bar2'></div>
+            <div className='bar3'>
+              <div className='abc'></div>
+            </div>
+          </div>
+        </>
+      )}
+
       {props.ContactUs ? (
         <Box className='NavBarBox' sx={{ flexGrow: 1 }}>
           <AppBar
@@ -27,48 +112,13 @@ export default function NavBar(props) {
               boxShadow: position <= 3 && 'none',
             }}
           >
-            {Menu ? (
-              <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
-            ) : (
-              <Toolbar className='NavToolbar '>
-                <Link className='NavLogo_Link' to={`/`}>
-                  <LogoWhite
-                    // className="Falcon_logo"
-                    style={{
-                      width: '100%',
-                      transition: '.5s',
-                      color: position <= 970 ? 'white' : '#003B7E',
-                      height: 40,
-                    }}
-                    // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/logo_white.svg`}
-                  />
-                  {/* <LogoWhite
-                    // className="Falcon_logo"
-                    style={{
-                      width: '100%',
-                      transition: '.5s',
-                      color: position <= 970 ? 'white' : '#003B7E',
-                      height: 40,
-                    }}
-                  /> */}
-                  {/* <img
-                    className="Falcon_logo"
-                    alt="logo"
-                    src={LogoWhite}
-                    style={{ width: "10%", margin: "1% 0", cursor: "pointer" }}
-                  /> */}
-                </Link>
-                <WhiteMenuIcon
-                  className='MenuIconMob'
-                  onClick={(e) => SetMenu(!Menu)}
-                  style={{
-                    color: position <= 970 ? 'white' : '#003B7E',
-                    transition: '.5s',
-                    cursor: 'pointer',
-                  }}
-                />
-              </Toolbar>
+            {Menu && (
+              <AnimatePresence>
+                <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
+              </AnimatePresence>
             )}
+
+            <Toolbar className='NavToolbar '></Toolbar>
           </AppBar>
         </Box>
       ) : (
@@ -82,27 +132,12 @@ export default function NavBar(props) {
               boxShadow: position <= 3 && 'none',
             }}
           >
-            {Menu ? (
-              <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
-            ) : (
-              <Toolbar className='NavToolbar'>
-                <Link className='NavLogo_Link' to={`/`}>
-                  <img
-                    className='Falcon_logo'
-                    alt='logo'
-                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/logo.svg`}
-                    style={{ width: '100%', margin: '1% 0', cursor: 'pointer' }}
-                  />
-                </Link>
-                <img
-                  className='MenuIconMob'
-                  alt='menu'
-                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/NavMenu.png`}
-                  style={{ cursor: 'pointer' }}
-                  onClick={(e) => SetMenu(!Menu)}
-                />
-              </Toolbar>
+            {Menu && (
+              <AnimatePresence>
+                <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
+              </AnimatePresence>
             )}
+            <Toolbar className='NavToolbar '></Toolbar>
           </AppBar>
         </Box>
       )}
