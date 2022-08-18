@@ -22,9 +22,9 @@ export default function OurDevelopers(props) {
             className='DeveloperCarouselDiv'
             autoPlay
             infiniteLoop
-            showIndicators={false}
+            showIndicators={true}
             showStatus={false}
-            swipeable={false}
+            swipeable={true}
           >
             <DeveloperSlider
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/od_agile.png`}

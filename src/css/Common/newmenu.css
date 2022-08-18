@@ -91,7 +91,7 @@ transform: scaleX(1);
     transition: 1s;
 }
 .dropdown_new:hover .spaceDiv{
-    width: 100px;
+    width: 60px;
 }
 .dropdown_new:hover #c{
     height: 200px;

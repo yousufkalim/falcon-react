@@ -2,6 +2,7 @@ import { Grid, Typography } from '@mui/material';
 import React from 'react';
 import { Divider } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 export default function AboutCompany() {
   const { t } = useTranslation();
 
@@ -19,7 +20,13 @@ export default function AboutCompany() {
             </div>
           </Grid>
           <Grid sm={12} md={6}>
-            <div className='AboutCompanyTypo'>
+            <motion.div
+              className='AboutCompanyTypo'
+              initial={{ y: 100, opacity: 0.5 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              viewport={{ once: true }}
+            >
               <Typography className='AboutCompanyTypo_H1'>{t('BEST company')}</Typography>
               <Divider
                 sx={{
@@ -38,7 +45,7 @@ export default function AboutCompany() {
                   'Falcon Consulting is a development agency that specializes in web application development and consultancy in the field of new technologies. We combine rigor, quality of work and optimized production costs. Founded in 2015, Falcon Consulting started out as a consulting company which worked with large companies such as Microsoft, Canon and Accor. In 2017, Falcon Consulting took off and became a development agency, bringing together over 10 years of experience in application development and project management in its team. Established in France, United States and Pakistan, the company is providing development services worldwide.'
                 )}
               </Typography>
-            </div>
+            </motion.div>
           </Grid>
         </Grid>
       </div>

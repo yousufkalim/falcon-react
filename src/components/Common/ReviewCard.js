@@ -1,5 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
+
 export default function ReviewCard(props) {
   const { i18n, t } = useTranslation();
   const { data, dataIndex } = props;
@@ -10,7 +12,13 @@ export default function ReviewCard(props) {
   // let text = review;
 
   return (
-    <div className='ReviewCard_Container'>
+    <motion.div
+      initial={{ y: 100, opacity: 0.5 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.4, delay: 0.2 }}
+      viewport={{ once: true }}
+      className='ReviewCard_Container'
+    >
       <div className='ReviewCard'>
         {/* <Avatar alt='Remy Sharp' src={props.src} sx={{ width: 120, height: 120 }} /> */}
         <h2
@@ -72,6 +80,6 @@ export default function ReviewCard(props) {
           {work}
         </h4>
       </div>
-    </div>
+    </motion.div>
   );
 }

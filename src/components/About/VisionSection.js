@@ -2,13 +2,20 @@ import React from 'react';
 import SectionHeader from '../Common/SectionHeader';
 import { Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 export default function VisionSection() {
   const { i18n, t } = useTranslation();
 
   return (
     <>
       <div className='VisionDiv'>
-        <div className='VisionTypo'>
+        <motion.div
+          className='VisionTypo'
+          initial={{ y: 100, opacity: 0.5 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          viewport={{ once: true }}
+        >
           <SectionHeader
             LeftSectionHeader
             // h1='We believe our vision'
@@ -35,7 +42,7 @@ export default function VisionSection() {
               <li>{t('TRANSPARENCY')}</li>
             </ul>
           </div>
-        </div>
+        </motion.div>
         <div className='VisionImgDiv'>
           <img
             className='VisionImg'

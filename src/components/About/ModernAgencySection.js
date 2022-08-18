@@ -2,12 +2,19 @@ import { Typography } from '@mui/material';
 import React from 'react';
 import { ReactComponent as AboutInfo4 } from '../../assets/images/aboutSec_4.svg';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 export default function ModernAgencySection() {
   const { i18n, t } = useTranslation();
 
   return (
     <>
-      <div className='ModernAgencyDiv'>
+      <motion.div
+        className='ModernAgencyDiv'
+        initial={{ y: 100, opacity: 0.5 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.4 }}
+        viewport={{ once: true }}
+      >
         <div className='AgencyTypo'>
           <Typography sx={{ fontSize: '1.5rem', fontWeight: '800', color: '#FFF' }}>
             {t('We Are A Modern IT Agency')}
@@ -103,7 +110,7 @@ export default function ModernAgencySection() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

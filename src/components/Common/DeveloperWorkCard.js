@@ -1,6 +1,7 @@
 import { Typography } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 export default function DeveloperWorkCard(props) {
   const { i18n, t } = useTranslation();
   return (
@@ -10,7 +11,13 @@ export default function DeveloperWorkCard(props) {
           <div className='DeveloperCardImg_Div'>
             <img className='DeveloperCard_Img' src={props.src} alt='developer' />
           </div>
-          <div className='DeveloperCard_Typo'>
+          <motion.div
+            className='DeveloperCard_Typo'
+            initial={{ y: 100, opacity: 0.5 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            viewport={{ once: true }}
+          >
             <div style={{ width: '80%' }}>
               <Typography
                 sx={{
@@ -33,11 +40,17 @@ export default function DeveloperWorkCard(props) {
                 {t(props.desp)}
               </Typography>
             </div>
-          </div>
+          </motion.div>
         </div>
       ) : (
         <div className='DeveloperCardMain'>
-          <div className='DeveloperCard_Typo'>
+          <motion.div
+            className='DeveloperCard_Typo'
+            initial={{ y: 100, opacity: 0.5 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            viewport={{ once: true }}
+          >
             <div style={{ width: '80%' }}>
               <Typography
                 sx={{
@@ -60,7 +73,7 @@ export default function DeveloperWorkCard(props) {
                 {t(props.desp)}
               </Typography>
             </div>
-          </div>
+          </motion.div>
           <div className='DeveloperCardImg_Div'>
             <img className='DeveloperCard_Img' src={props.src} alt='developer' />
           </div>

@@ -1,6 +1,7 @@
 import { Grid } from '@mui/material';
 import React from 'react';
 import ServiceProvidedCard from '../Common/ServiceProvidedCard';
+import { motion } from 'framer-motion';
 import SectionHeader from '../Common/SectionHeader';
 import { Link } from 'react-router-dom';
 
@@ -14,7 +15,13 @@ export default function ServiceProvided() {
           width='8%'
           // decription="This sounds simple, but it is beneficial to your business success."
         />
-        <div className='ServiceProvidedBoxes'>
+        <motion.div
+          initial={{ y: 100, opacity: 0.5 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+          className='ServiceProvidedBoxes'
+        >
           <Grid container spacing={1} className='CardGridMain'>
             <Grid container xs={12} sm={12} md={9} className='CardGridLeftMain'>
               <Grid xs={12} sm={5.7} sx={{ margin: '1%' }}>
@@ -68,7 +75,7 @@ export default function ServiceProvided() {
               </Grid>
             </Grid>
           </Grid>
-        </div>
+        </motion.div>
         {/* <ServiceProvidedCard CardTitle="Mobile Application Development" /> */}
       </div>
     </>
