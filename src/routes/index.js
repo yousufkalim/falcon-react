@@ -37,6 +37,7 @@ import Orientator from '../containers/Project/Orientator';
 import RegisterRH from '../containers/Project/RegisterRH';
 import Policy from '../containers/Policy/Policy.js';
 import AgileMethod from '../containers/Blog/AgileMethod';
+import SuccessfulBusiness from '../containers/Blog/SuccessfulBusiness';
 const index = () => {
   return (
     <Switch>
@@ -52,6 +53,7 @@ const index = () => {
       <Route exact path='/remoteteam' component={RemoteTeam} />
       <Route exact path='/businesswebsite' component={BusinessWebsite} />
       <Route exact path='/agilemethodology' component={AgileMethod} />
+      <Route exact path='/successfulbusiness' component={SuccessfulBusiness} />
 
       <Route exact path='/legalmentions' component={LegalMentions} />
       <Route exact path='/policy' component={Policy} />

@@ -9,6 +9,8 @@ import Footer from '../components/Common/Footer';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet';
 import Agile from '../assets/images/aglie.png';
+import SB_Cover from '../assets/images/sb_main.jpg';
+
 // Home Component
 export default function Blog() {
   window.onbeforeunload = function () {
@@ -58,6 +60,16 @@ export default function Blog() {
         to='/agilemethodology'
         description={t(
           'Agile stands for its versatility and evolutionary nature as one of the most common approaches to project management. Those who work in the industry, or closely to it, are aware that the art of software development is special and a bit different to other kinds of engineering projects.'
+        )}
+      />
+      <BlogReadArticles
+        Reverse
+        PublishDate='August 12th 2022'
+        title={t('Business Ran Successfully')}
+        src={SB_Cover}
+        to='/successfulbusiness'
+        description={t(
+          'The way how we work can be seen as a concentrated adaptation of what goes on at different scales around the software industry and in various others is one of the stimulating things at Gsquad'
         )}
       />
 
