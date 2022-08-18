@@ -184,7 +184,7 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                             </Link>
                           </li>
                           <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
-                            <Link className='lMenuDropdownLinkskj' to={`/services/app-development`}>
+                            <Link className='MenuDropdownLinks' to={`/services/app-development`}>
                               {t('MOBILE APPLICATION')}
                             </Link>
                           </li>
