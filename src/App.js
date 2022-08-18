@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 import Index from './routes/index';
 import './css/index.css';
 import { Helmet } from 'react-helmet';
-
+import AnimatedCursor from 'react-animated-cursor';
 // Component
 function App() {
   const { t, i18n } = useTranslation();
@@ -51,6 +51,30 @@ function App() {
   };
   return (
     <div>
+      <div style={{ zIndex: '99999999', position: 'absolute' }}>
+        <AnimatedCursor
+          innerSize={10}
+          outerSize={60}
+          color='66, 195, 255'
+          outerAlpha={0.2}
+          innerScale={1.2}
+          outerScale={2.5}
+          clickables={[
+            'a',
+            'input[type="text"]',
+            'input[type="email"]',
+            'input[type="number"]',
+            'input[type="submit"]',
+            'input[type="image"]',
+            'label[for]',
+            'select',
+            'textarea',
+            'button',
+            '.link',
+            'span',
+          ]}
+        />
+      </div>
       <Helmet>
         <title>{t('Falcon IT Consulting - Software House')}</title>
 
