@@ -9,46 +9,42 @@ import { Link } from 'react-router-dom';
 export default function BlogSection() {
   return (
     <>
-      <div className='BlogSectionMain'>
+      <motion.div
+        initial={{ y: 100, opacity: 0.5 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+        viewport={{ once: true }}
+        className='BlogSectionMain'
+      >
         <SectionHeader width='40%' h1='With lots of unique blogs' h2='Read our blog' />
         <div className='BlogContainerGrid'>
           <Grid container spacing={1}>
             <Grid className='BlogGrid' md={5.5}>
               <Link to='/blog'>
-                <motion.div
-                  initial={{ x: -200 }}
-                  whileInView={{ x: 0 }}
-                  transition={{ duration: 1 }}
-                  viewport={{ once: true }}
-                >
+                <div>
                   <BlogCard
                     HomeBlogCArd
                     src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/blogarticle1.svg`}
                     date='June 13th 2022'
                     title='Managing a Remote Team'
                   />
-                </motion.div>
+                </div>
               </Link>
             </Grid>
             <Grid className='BlogGrid' md={5.5}>
               <Link to='/blog'>
-                <motion.div
-                  initial={{ x: 200 }}
-                  whileInView={{ x: 0 }}
-                  transition={{ duration: 1 }}
-                  viewport={{ once: true }}
-                >
+                <div>
                   <BlogCard
                     src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/blogarticle2.svg`}
                     date='June 13th 2022'
                     title='Why having a business website is necessary ?'
                   />
-                </motion.div>
+                </div>
               </Link>
             </Grid>
           </Grid>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

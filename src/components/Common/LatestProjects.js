@@ -76,9 +76,9 @@ export default function LatestProjects(props) {
         />
 
         <motion.div
-          initial={{ x: 300, opacity: 0 }}
+          initial={{ x: 300, opacity: 0.7 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
           className='LatestProjectsSlider'
         >
@@ -451,9 +451,10 @@ export default function LatestProjects(props) {
         </motion.div>
         {props.ProjectsSummary && (
           <motion.div
-            initial={{ y: 100, opacity: 0 }}
+            initial={{ y: 50, opacity: 0.7 }}
             whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            viewport={{ once: false }}
             className='ProjectsCompletedDiv'
           >
             <div className='About_InfoLeft' style={{ position: 'relative' }}>

@@ -9,7 +9,11 @@ import { motion } from 'framer-motion';
 // Home Component
 export default function KeyFeatureSection(props) {
   return (
-    <div
+    <motion.div
+      initial={{ y: 100, opacity: 0.5 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.6, delay: 0.4 }}
+      viewport={{ once: true }}
       style={{
         display: 'flex',
         flexDirection: 'column',
@@ -24,9 +28,9 @@ export default function KeyFeatureSection(props) {
         colorDesp
       />
       <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 1 }}
+        initial={{ y: 100, opacity: 0.5 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.4 }}
         viewport={{ once: true }}
         style={{
           width: '100%',
@@ -89,6 +93,6 @@ export default function KeyFeatureSection(props) {
           </Grid>
         </Grid>
       </motion.div>
-    </div>
+    </motion.div>
   );
 }

@@ -11,6 +11,10 @@
 
     background-color: #F8F8F8;
 }
+.FooterListHeading{
+    font-size: 1.2rem !important;
+
+}
 .FooterMainBg{
     display: flex;
   padding: 5% 5% 1% 5%;
@@ -40,6 +44,11 @@
 .IconsDiv a{
     margin-right: 1%;
 }
+.Footer_li{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    padding: 5px 0 !important;
+}
 .FooterIcons{
     width: 100% !important;
     /* margin-right: 5px; */
@@ -51,7 +60,8 @@
     width: 45%;
 }
 .FooterList{
-    width:50%
+    width:50%;
+    margin-bottom: 25px;
 }
 .FooterRight ul {
     list-style: none;
@@ -59,7 +69,9 @@
     font-size: 1rem;
 }
 .FooterRight ul li{
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    font-weight: 800;
+
     
 }
 .FooterRight ul li a{

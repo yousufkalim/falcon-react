@@ -3,6 +3,7 @@ import SectionHeader from './SectionHeader';
 import ReviewCard from './ReviewCard';
 import { StackedCarousel, ResponsiveContainer } from 'react-stacked-center-carousel';
 import Fab from '@mui/material/Fab';
+import { motion } from 'framer-motion';
 import { ReactComponent as LeftArrow } from '../../assets/images/left_arrow_btn.svg';
 import { ReactComponent as RightArrow } from '../../assets/images/right_arrow_btn.svg';
 
@@ -98,7 +99,13 @@ export default function ReviewSection() {
 
   return (
     <>
-      <div className='ReviewSectionMain'>
+      <motion.div
+        initial={{ y: 100, opacity: 0.5 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.4 }}
+        viewport={{ once: true }}
+        className='ReviewSectionMain'
+      >
         <SectionHeader
           colorH2='#0F52BA'
           h1='your feedback matters'
@@ -166,7 +173,7 @@ export default function ReviewSection() {
             <div className='fade-right'></div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

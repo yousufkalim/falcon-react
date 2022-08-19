@@ -1,11 +1,19 @@
 import React from 'react';
 import SectionHeader from '../Common/SectionHeader';
 import AwesomeSlider from 'react-awesome-slider';
+import { motion } from 'framer-motion';
+
 import 'react-awesome-slider/dist/styles.css';
 export default function LocationSection(props) {
   return (
     <>
-      <div className='LocationSectionMain'>
+      <motion.div
+        initial={{ y: 100, opacity: 0.5 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.4 }}
+        viewport={{ once: true }}
+        className='LocationSectionMain'
+      >
         <div className='LocationSectionHeader'>
           <SectionHeader colorH2='#0F52BA' h1='WHERE YOU CAN MEET' h2='Our Offices' width='5%' />
         </div>
@@ -92,7 +100,7 @@ export default function LocationSection(props) {
             </div>
           </AwesomeSlider>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

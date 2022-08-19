@@ -5,6 +5,7 @@ import emailjs from 'emailjs-com';
 import { toast } from 'react-toastify';
 import { useTranslation } from 'react-i18next';
 import ReCAPTCHA from 'react-google-recaptcha';
+import { motion } from 'framer-motion';
 export default function ContactUsSection(props) {
   const { t } = useTranslation();
   const [number, setNumber] = useState('');
@@ -91,6 +92,7 @@ export default function ContactUsSection(props) {
                       <input
                         // type='email'
                         name='email'
+                        type='text'
                         placeholder={t('Email')}
                         className='InputField'
                       />
@@ -150,7 +152,13 @@ export default function ContactUsSection(props) {
               </Grid>
               <Grid xs={12} sm={10} md={10} className='ContactMedia'>
                 <a href='mailto:contact@falconconsulting.fr'>
-                  <div className='ContactMediaDiv'>
+                  <motion.div
+                    className='ContactMediaDiv'
+                    initial={{ y: 40, opacity: 0.5 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.3 }}
+                    viewport={{ once: true }}
+                  >
                     <img
                       className='ContactMediaIcons'
                       src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/emailIcon.svg`}
@@ -160,10 +168,16 @@ export default function ContactUsSection(props) {
                       <h3 sx={{ fontSize: '1rem' }}>{t('Email')}</h3>
                       <h4>contact@falconconsulting.fr</h4>
                     </div>
-                  </div>
+                  </motion.div>
                 </a>
                 <a href='http://calendly.com/falconit'>
-                  <div className='ContactMediaDiv'>
+                  <motion.div
+                    className='ContactMediaDiv'
+                    initial={{ y: 40, opacity: 0.5 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.3 }}
+                    viewport={{ once: true }}
+                  >
                     <img
                       className='ContactMediaIcons'
                       src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendlyIcon.svg`}
@@ -173,7 +187,7 @@ export default function ContactUsSection(props) {
                       <h3>{t('Calendly')}</h3>
                       <h4>{t('Click and join link')}</h4>
                     </div>
-                  </div>
+                  </motion.div>
                 </a>
               </Grid>
             </Grid>
@@ -253,6 +267,7 @@ export default function ContactUsSection(props) {
                     <Grid xs={12} sm={6}>
                       <input
                         // type='email'
+                        type='text'
                         name='email'
                         placeholder={t('Email')}
                         className='InputField'

@@ -57,7 +57,7 @@ export default function Footer(props) {
               <div className='FooterList'>
                 <h4
                   className='FooterListHeading'
-                  style={{ fontWeight: '700', opacity: '40%', marginBottom: '15%' }}
+                  style={{ fontWeight: '700', opacity: '40%', marginBottom: '10%' }}
                 >
                   {t('Overview')}
                 </h4>
@@ -82,7 +82,7 @@ export default function Footer(props) {
               <div className='FooterList'>
                 <h4
                   className='FooterListHeading'
-                  style={{ fontWeight: '700', opacity: '40%', marginBottom: '15%' }}
+                  style={{ fontWeight: '700', opacity: '40%', marginBottom: '10%' }}
                 >
                   {t('Solutions')}
                 </h4>

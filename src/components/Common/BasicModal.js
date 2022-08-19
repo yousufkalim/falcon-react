@@ -5,6 +5,8 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { Divider } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
+
 const style = {
   position: 'absolute',
   top: '50%',
@@ -41,59 +43,61 @@ export default function BasicModal(props) {
         aria-labelledby='modal-modal-title'
         aria-describedby='modal-modal-description'
       >
-        <Box className='ModalBox' sx={style}>
-          <div className='Modal_Top'>
-            <img className='Modal_Logo' src={props.LogoSrc} alt='company logo' />
-            <img
-              style={{
-                position: 'absolute',
-                top: '5%',
-                width: '4%',
-                right: '5%',
-                cursor: 'pointer',
+        <motion.div animate={{ opacity: [0, 1] }} transition={{ ease: 'easeOut', delay: 0.1 }}>
+          <Box className='ModalBox' sx={style}>
+            <div className='Modal_Top'>
+              <img className='Modal_Logo' src={props.LogoSrc} alt='company logo' />
+              <img
+                style={{
+                  position: 'absolute',
+                  top: '5%',
+                  width: '4%',
+                  right: '5%',
+                  cursor: 'pointer',
+                }}
+                onClick={handleClose}
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/modalClose.svg`}
+                alt='close Icon'
+              />
+            </div>
+            <Typography className='ModalHeading' id='modal-modal-title' variant='h4' component='h2'>
+              {props.Heading || 'Coming Soon'}
+            </Typography>
+            <Divider
+              width={props.Dividerwidth || '12%'}
+              color={props.DividerTheme || '#0097A7'}
+              sx={{
+                height: '4px',
+                borderRadius: '4px',
+                margin: '1% 0',
               }}
-              onClick={handleClose}
-              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/modalClose.svg`}
-              alt='close Icon'
             />
-          </div>
-          <Typography className='ModalHeading' id='modal-modal-title' variant='h4' component='h2'>
-            {props.Heading || 'Coming Soon'}
-          </Typography>
-          <Divider
-            width={props.Dividerwidth || '12%'}
-            color={props.DividerTheme || '#0097A7'}
-            sx={{
-              height: '4px',
-              borderRadius: '4px',
-              margin: '1% 0',
-            }}
-          />
-          <Typography className='Modal_Para' id='modal-modal-description'>
-            {t(props.para1)}
-          </Typography>
-          <Typography className='Modal_Para' id='modal-modal-description'>
-            {t(props.para2)}
-          </Typography>
-          <Typography className='Modal_Para' id='modal-modal-description'>
-            {t(props.para3)}
-          </Typography>
-          <Typography className='Modal_Para' id='modal-modal-description'>
-            {t(props.para4)}
-          </Typography>
-          <Typography className='Modal_Para' id='modal-modal-description'>
-            {t(props.para5)}
-          </Typography>
-          <Typography className='Modal_Para' id='modal-modal-description'>
-            {t(props.para6)}
-          </Typography>
-          <Typography className='Modal_Para' id='modal-modal-description'>
-            {t(props.para7)}
-          </Typography>
-          <Typography className='Modal_Para' id='modal-modal-description'>
-            {t(props.para8)}
-          </Typography>
-        </Box>
+            <Typography className='Modal_Para' id='modal-modal-description'>
+              {t(props.para1)}
+            </Typography>
+            <Typography className='Modal_Para' id='modal-modal-description'>
+              {t(props.para2)}
+            </Typography>
+            <Typography className='Modal_Para' id='modal-modal-description'>
+              {t(props.para3)}
+            </Typography>
+            <Typography className='Modal_Para' id='modal-modal-description'>
+              {t(props.para4)}
+            </Typography>
+            <Typography className='Modal_Para' id='modal-modal-description'>
+              {t(props.para5)}
+            </Typography>
+            <Typography className='Modal_Para' id='modal-modal-description'>
+              {t(props.para6)}
+            </Typography>
+            <Typography className='Modal_Para' id='modal-modal-description'>
+              {t(props.para7)}
+            </Typography>
+            <Typography className='Modal_Para' id='modal-modal-description'>
+              {t(props.para8)}
+            </Typography>
+          </Box>
+        </motion.div>
       </Modal>
     </div>
   );

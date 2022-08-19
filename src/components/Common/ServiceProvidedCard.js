@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -9,13 +8,7 @@ export default function ServiceProvidedCard(props) {
   return (
     <>
       {props.verticleCard ? (
-        <motion.div
-          className='ServiceProvided_VerticleCard'
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
-        >
+        <div className='ServiceProvided_VerticleCard'>
           <div className='ServiceProvided_VerticleCardTypo'>
             <Link
               style={{
@@ -59,15 +52,9 @@ export default function ServiceProvidedCard(props) {
               />
             </Link>
           </div>
-        </motion.div>
+        </div>
       ) : (
-        <motion.div
-          className='ServiceProvided_Card'
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
-        >
+        <div className='ServiceProvided_Card'>
           <div className='ServiceProvided_CardTypo'>
             <Link
               style={{
@@ -106,7 +93,7 @@ export default function ServiceProvidedCard(props) {
               <img className='ServiceProvided_CardImg' src={props.CardImgSrc} alt='Categories' />
             </Link>
           </div>
-        </motion.div>
+        </div>
       )}
     </>
   );
