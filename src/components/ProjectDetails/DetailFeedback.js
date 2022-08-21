@@ -4,6 +4,7 @@ import { Typography } from '@mui/material';
 import { Avatar } from '@mui/material';
 import { Divider } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 
 // Component
 export default function DetailFeedback(props) {
@@ -11,8 +12,12 @@ export default function DetailFeedback(props) {
 
   return (
     <>
-      <div
+      <motion.div
         className='DetailFeedback_container'
+        initial={{ y: 50, opacity: 0.7 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.3 }}
+        viewport={{ once: true }}
         style={{ background: props.ThemeBG ? props.ThemeBG : '#00654F' }}
       >
         <div className='DetailFeedback_Div'>
@@ -51,7 +56,7 @@ export default function DetailFeedback(props) {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

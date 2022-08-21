@@ -4,9 +4,8 @@ import { Typography } from '@mui/material';
 import { ReactComponent as DownArrow } from '../../assets/images/DownArrow.svg';
 import Divider from '@mui/material/Divider';
 import { useTranslation } from 'react-i18next';
-
-// import { IoIosArrowDown } from "react-icons";
 import { motion } from 'framer-motion';
+// import { IoIosArrowDown } from "react-icons";
 
 // Component
 export default function DetailHeader(props) {
@@ -79,13 +78,25 @@ export default function DetailHeader(props) {
         }}
       >
         {/* <img src={DownArrow} alt='Down Arrow' /> */}
-        <DownArrow
-          onClick={scrollToTop}
-          style={{
-            color: props.iconTheme ? props.iconTheme : 'white',
-            cursor: 'pointer',
+        <motion.div
+          animate={{
+            y: [-10, 0, -10],
           }}
-        />
+          transition={{
+            delay: 0.05,
+            repeat: Infinity,
+          }}
+          // transition={{ duration: 0.6, delay: 0.3 }}
+          viewport={{ once: false }}
+        >
+          <DownArrow
+            onClick={scrollToTop}
+            style={{
+              color: props.iconTheme ? props.iconTheme : 'white',
+              cursor: 'pointer',
+            }}
+          />
+        </motion.div>
         {/* <IoIosArrowDown /> */}
       </div>
     </>

@@ -13,7 +13,12 @@ export default function DetailAppDev(props) {
   return (
     <>
       <div className='DetailAppDev_Container'>
-        <div>
+        <motion.div
+          initial={{ y: 50, opacity: 0.7 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          viewport={{ once: true }}
+        >
           <div className='DetailAppDev_TitleDiv'>
             <Divider className='DetailAppDev_TitleDivider' color={props.titleTheme || '#11A283'} />
             <Typography className='DetailAppDev_Title' color={props.titleTheme || '#11A283'}>
@@ -38,7 +43,7 @@ export default function DetailAppDev(props) {
               </Typography>
             )}
           </div>
-        </div>
+        </motion.div>
         {props.halfImg && (
           <div className='DetailAppDev_ImgDiv HalfImg'>
             <img className='DetailAppDev_Img' src={props.halfImg} alt='Detail Development' />

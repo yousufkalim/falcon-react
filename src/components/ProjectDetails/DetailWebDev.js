@@ -4,7 +4,7 @@ import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import { Avatar } from '@mui/material';
 import { useTranslation } from 'react-i18next';
-
+import { motion } from 'framer-motion';
 // Component
 export default function DetailWebDev(props) {
   const { t } = useTranslation();
@@ -12,7 +12,13 @@ export default function DetailWebDev(props) {
   return (
     <>
       <div className='DetailWebDev_Container'>
-        <div className='DetailWebDev_LeftContainer'>
+        <motion.div
+          className='DetailWebDev_LeftContainer'
+          initial={{ y: 50, opacity: 0.7 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          viewport={{ once: true }}
+        >
           <div className='DetailWebDev_TitleDiv'>
             <Divider className='DetailWebDev_TitleDivider' color={props.titleTheme || '#11A283'} />
             <Typography className='DetailWebDev_Title' color={props.titleTheme || '#11A283'}>
@@ -33,7 +39,7 @@ export default function DetailWebDev(props) {
               alt='Detail Development'
             />
           </div>
-        </div>
+        </motion.div>
         <div className='DetailWebDev_RightContainer'>
           <div className='DetailWebDev_Right_ImgDiv'>
             <img
