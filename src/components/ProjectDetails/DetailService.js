@@ -2,6 +2,7 @@
 import React from 'react';
 import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
+import { motion } from 'framer-motion';
 // Component
 export default function DetailService(props) {
   return (
@@ -40,14 +41,26 @@ export default function DetailService(props) {
           </Typography>
         </div>
         {props.both && (
-          <div className='DetailService_ImageDiv'>
+          <motion.div
+            className='DetailService_ImageDiv'
+            initial={{ y: 50, opacity: 0.7 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            viewport={{ once: true }}
+          >
             <img className='DetailService_BothImage' src={props.src} />
-          </div>
+          </motion.div>
         )}
         {props.WebApp && (
-          <div className='DetailService_ImageDiv'>
+          <motion.div
+            className='DetailService_ImageDiv'
+            initial={{ y: 50, opacity: 0.7 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            viewport={{ once: false }}
+          >
             <img className='DetailService_WebAppImage' src={props.src} />
-          </div>
+          </motion.div>
         )}
       </div>
     </>

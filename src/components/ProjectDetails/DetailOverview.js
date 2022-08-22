@@ -4,7 +4,7 @@ import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import { Avatar } from '@mui/material';
 import { useTranslation } from 'react-i18next';
-
+import { motion } from 'framer-motion';
 // Component
 export default function DetailOverview(props) {
   const { t } = useTranslation();
@@ -56,9 +56,15 @@ export default function DetailOverview(props) {
             </div>
           </div>
         </div>
-        <div className='DetailOverview_ImageDiv'>
+        <motion.div
+          className='DetailOverview_ImageDiv'
+          initial={{ y: 50, opacity: 0.7 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          viewport={{ once: true }}
+        >
           <img className='DetailOverview_Image' src={props.src} alt='Overview' />
-        </div>
+        </motion.div>
       </div>
     </>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import { useTranslation } from 'react-i18next';
-
+import { motion } from 'framer-motion';
 // Component
 export default function DetailServiceDetailDemo(props) {
   const { t } = useTranslation();
@@ -11,7 +11,13 @@ export default function DetailServiceDetailDemo(props) {
     <>
       <div className='DetailDemo_Container'>
         <div className='DetailDemo_MainDiv'>
-          <div className='DetailDemo_Typo'>
+          <motion.div
+            className='DetailDemo_Typo'
+            initial={{ y: 50, opacity: 0.7 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            viewport={{ once: true }}
+          >
             <div className='DetailDemo_TitleDiv'>
               <Typography className='DetailDemo_Title' color={props.titleColor || '#2FAD93'}>
                 {props.title || 'Permispop.'}
@@ -40,7 +46,7 @@ export default function DetailServiceDetailDemo(props) {
                 </a>
               </div>
             )}
-          </div>
+          </motion.div>
           <div className='DetailDemo_ImgContainer'>
             <div
               className={

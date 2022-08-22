@@ -3,14 +3,19 @@ import React from 'react';
 import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import { useTranslation } from 'react-i18next';
-
+import { motion } from 'framer-motion';
 // Component
 export default function DetailTheme(props) {
   const { t } = useTranslation();
   return (
     <>
       <div className='DetailTheme_Container'>
-        <div>
+        <motion.div
+          initial={{ y: 50, opacity: 0.7 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          viewport={{ once: true }}
+        >
           <div className='DetailTheme_TitleDiv'>
             <Divider className='DetailTheme_TitleDivider' color={props.titleTheme || '#11A283'} />
             <Typography className='DetailTheme_Title' color={props.titleTheme || '#11A283'}>
@@ -25,7 +30,7 @@ export default function DetailTheme(props) {
               )}
             </Typography>
           </div>
-        </div>
+        </motion.div>
         <div className='DetailTheme_BoxContainer'>
           <div className='DetailTheme_BoxDiv'>
             {props.Theme1 && (
