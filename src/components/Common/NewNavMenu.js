@@ -34,19 +34,12 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
           animate={{
             y: [-1000, 0],
           }}
-          // animate={{ y: Menu ? [-1000, 0] : [0, -1000] }}
           transition={{
             ease: 'easeOut',
             delay: 0.05,
-            // repeatType: 'reverse',
-            // repeat: Infinity,
-            // duration: 2,
           }}
         >
           <motion.div
-            // className='MenuDiv'
-            // className='BlueMenu'
-            // className={Menu ? 'BlueMenu' : 'BlueMenuNot'}
             style={{
               background: '#003b7e',
               margin: '0',
@@ -57,13 +50,9 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
               left: '0',
             }}
             animate={{ y: [-1000, 0] }}
-            // animate={{ y: Menu ? [-1000, 0] : [0, -1000] }}
             transition={{
               ease: 'easeOut',
               delay: 0.15,
-              // repeatType: 'reverse',
-              // repeat: Infinity,
-              // duration: 2,
             }}
           >
             <Toolbar
@@ -136,12 +125,25 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                     animate={{ y: Menu ? [50, 0] : [0, 50], opacity: Menu ? [0, 1] : [1, 0] }}
                     transition={{ ease: 'easeOut', delay: 0.6 }}
                     // style={{ width: '30%' }}
-                    style={{ overflow: 'hidden', whiteSpace: 'nowrap' }}
+                    style={{ overflow: 'visible', whiteSpace: 'nowrap' }}
                   >
-                    <Link id='asd' to='/about'>
-                      {t('About')}
-                    </Link>
-                    <div id='b'></div>
+                    <div
+                      className='MenuHoverDiv'
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                      }}
+                    >
+                      <div className='MenuExpandDiv'></div>
+
+                      <div>
+                        <Link id='menuId' to='/about'>
+                          {t('About')}
+                        </Link>
+                        <div id='b'></div>
+                      </div>
+                    </div>
                   </motion.div>
                   <motion.div
                     // animate={{ y: [50, 0], opacity: [0, 1] }}
@@ -163,7 +165,7 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                         }}
                       >
                         <div>
-                          <div id='asd' style={{ cursor: 'context-menu', marginLeft: '10px' }}>
+                          <div id='menuId' style={{ cursor: 'context-menu', marginLeft: '10px' }}>
                             {t('Services')}
                           </div>
                           <div id='b' style={{ marginLeft: '10px' }}></div>
@@ -234,10 +236,22 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                       margin: '1% 2%',
                     }}
                   >
-                    <Link id='asd' to='/ourprojects'>
-                      {t('Projects')}
-                    </Link>
-                    <div id='b'></div>
+                    <div
+                      className='MenuHoverDiv'
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                      }}
+                    >
+                      <div>
+                        <Link id='menuId' to='/ourprojects'>
+                          {t('Projects')}
+                        </Link>
+                        <div id='b'></div>
+                      </div>
+                      <div className='MenuExpandDiv'></div>
+                    </div>
                   </motion.div>
                   <motion.div
                     animate={{ y: [50, 0], opacity: [0, 1] }}
@@ -247,10 +261,22 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                       margin: '1% 2%',
                     }}
                   >
-                    <Link id='asd' to='/blog'>
-                      {t('Blog')}
-                    </Link>
-                    <div id='b'></div>
+                    <div
+                      className='MenuHoverDiv'
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                      }}
+                    >
+                      <div>
+                        <Link id='menuId' to='/blog'>
+                          {t('Blog')}
+                        </Link>
+                        <div id='b'></div>
+                      </div>
+                      <div className='MenuExpandDiv'></div>
+                    </div>
                   </motion.div>
                   <motion.div
                     animate={{ y: [50, 0], opacity: [0, 1] }}
@@ -260,10 +286,22 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                       margin: '1% 2%',
                     }}
                   >
-                    <Link id='asd' to='/contactus'>
-                      {t('Contact')}
-                    </Link>
-                    <div id='b'></div>
+                    <div
+                      className='MenuHoverDiv'
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                      }}
+                    >
+                      <div>
+                        <Link id='menuId' to='/contactus'>
+                          {t('Contact')}
+                        </Link>
+                        <div id='b'></div>
+                      </div>
+                      <div className='MenuExpandDiv'></div>
+                    </div>
                   </motion.div>
                 </motion.div>
                 <div
