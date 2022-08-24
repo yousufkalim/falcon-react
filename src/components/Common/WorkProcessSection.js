@@ -19,6 +19,7 @@ export default function WorkProcessSection(props) {
     >
       <SectionHeader
         WorkProcess
+        SectionHeaderMargin
         width='5%'
         h1='We always follow the standard work process'
         decription="We solve clients' projects in a simple & efficient way"

@@ -72,6 +72,7 @@ export default function ContactUsSection(props) {
               h2='Share Your Project/Idea with us!'
               colorH2='#fff'
               colorDesp='#F8F8F8'
+              SectionHeaderMargin
               decription='Our Team Member will get back to you within 24 hours. '
             />
           </div>
@@ -230,8 +231,8 @@ export default function ContactUsSection(props) {
                           alt='calendly'
                         />
                         <div className='SocialMediaText'>
-                          <h4>{t('Schedule Meeting')}</h4>
-                          <h4>calendly.com/falconit</h4>
+                          <h2>{t('Schedule Meeting')}</h2>
+                          {/* <h4>calendly.com/falconit</h4> */}
                         </div>
                       </div>
                     </a>
@@ -245,8 +246,8 @@ export default function ContactUsSection(props) {
                           alt='email'
                         />
                         <div className='SocialMediaText'>
-                          <h4>{t('Email')}</h4>
-                          <h4>contact@falconconsulting.fr</h4>
+                          <h2>{t('Email')}</h2>
+                          {/* <h4>contact@falconconsulting.fr</h4> */}
                         </div>
                       </div>
                     </a>

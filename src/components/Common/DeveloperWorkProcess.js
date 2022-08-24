@@ -10,6 +10,7 @@ export default function DeveloperWorkProcess(props) {
           <SectionHeader
             h1="We solve clients' projects in a simple & efficient way"
             colorH2='#003B7E'
+            SectionHeaderMargin
             h2='We always follow the standard work process'
           />
         </div>
