@@ -5,7 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import NavBarMenu from './NewNavMenu';
 import { Link } from 'react-router-dom';
 import { useScrollPosition } from '../../utils/ScrollPosition';
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence, motion, useScroll } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import WhiteLogo from '../../assets/images/falconwhitelogo.svg';
 export default function NavBar(props) {
@@ -13,6 +13,7 @@ export default function NavBar(props) {
   const [Active, SetActive] = React.useState(false);
   // const [isOpen, setOpen] = useState(false);
   let position = useScrollPosition();
+  const { scrollYProgress } = useScroll();
   const { i18n, t } = useTranslation();
   const myFunction = () => {
     SetActive(!Active);
@@ -22,6 +23,15 @@ export default function NavBar(props) {
     <>
       {props.ContactUs ? (
         <>
+          {!Menu && (
+            <motion.div
+              className='progress-bar'
+              style={{
+                scaleX: scrollYProgress,
+                background: props.scrollBarBG ? props.scrollBarBG : 'transparent',
+              }}
+            />
+          )}
           <div className='logoNew'>
             <Link className='NavLogo_Link' to={`/`}>
               <img
