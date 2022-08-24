@@ -15,6 +15,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import SindoorService from '../../assets/images/sindoor_detailservice.svg';
+import Sindoor_Overview from '../../assets/images/detail_sindoor_overview.svg';
 
 // Home Component
 export default function Sindoor() {
@@ -32,7 +33,7 @@ export default function Sindoor() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar ContactUs scrollBarBG='#E45A5A' />
       <DetailHeader
         // DividerBG
         background='#000000'
@@ -51,7 +52,8 @@ export default function Sindoor() {
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor='#E45A5A'
         name='Muzammal Chaudhry'
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_sindoor.png`}
+        // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_sindoor.png`}
+        src={Sindoor_Overview}
       />
       <DetailService
         src={SindoorService}

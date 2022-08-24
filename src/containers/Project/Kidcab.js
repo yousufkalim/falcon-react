@@ -16,6 +16,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import KidcabService from '../../assets/images/kc_detailservice.svg';
+import KC_Overview from '../../assets/images/detail_kc_overview.svg';
 
 // Home Component
 export default function Kidcab() {
@@ -33,7 +34,7 @@ export default function Kidcab() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar ContactUs scrollBarBG='#18374E' />
       <DetailHeader
         // DividerBG
         background='#18374E'
@@ -52,7 +53,7 @@ export default function Kidcab() {
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor='#4CB9B4'
         name='Maxime Chevallier'
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_overview.png`}
+        src={KC_Overview}
       />
       <DetailService
         src={KidcabService}

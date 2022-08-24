@@ -14,6 +14,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import TeleService from '../../assets/images/tele_detailservice.svg';
+import Tele_Overview from '../../assets/images/detail_tele_overview.svg';
 
 // Home Component
 export default function Telehealth() {
@@ -31,7 +32,7 @@ export default function Telehealth() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar ContactUs scrollBarBG='#136773' />
       <DetailHeader
         // DividerBG
         background='#136773'
@@ -51,7 +52,8 @@ export default function Telehealth() {
         nameColor='#FBA622'
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         name='Confidential'
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_telehealth.png`}
+        // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_telehealth.png`}
+        src={Tele_Overview}
       />
       <DetailService
         both

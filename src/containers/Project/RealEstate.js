@@ -16,6 +16,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import RealService from '../../assets/images/real_detailservice.svg';
+import Real_Overview from '../../assets/images/detail_real_overview.svg';
 
 // Home Component
 export default function RealEstate() {
@@ -33,7 +34,7 @@ export default function RealEstate() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar ContactUs scrollBarBG='#837C6B' />
       <DetailHeader
         // DividerBG
         background='#000000'
@@ -52,7 +53,8 @@ export default function RealEstate() {
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor='#837C6B'
         name='Steve jobs'
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_realestate.png`}
+        // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_realestate.png`}
+        src={Real_Overview}
       />
       <DetailService
         src={RealService}

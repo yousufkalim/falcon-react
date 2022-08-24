@@ -15,6 +15,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import FmService from '../../assets/images/fm_detailservice.svg';
+import Facility_Overview from '../../assets/images/detail_facility_overview.svg';
 
 // Home Component
 export default function FacilityManagement() {
@@ -32,7 +33,7 @@ export default function FacilityManagement() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar ContactUs scrollBarBG='#2F696D' />
       <DetailHeader
         background='#282828'
         bottomBG='#2F696D'
@@ -51,7 +52,8 @@ export default function FacilityManagement() {
         nameColor='#2F696D'
         name='Damien Dehoul'
         // location="France"
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_facility.png`}
+        // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_facility.png`}
+        src={Facility_Overview}
       />
       <DetailService
         src={FmService}

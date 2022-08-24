@@ -15,6 +15,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import ZypzapService from '../../assets/images/zypzap_detailservice.svg';
+import Zypzap_Overview from '../../assets/images/detail_zypzap_overview.svg';
 
 // Home Component
 export default function Zypzap() {
@@ -32,7 +33,10 @@ export default function Zypzap() {
           content='software house, best software house,falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar
+        ContactUs
+        scrollBarBG='linear-gradient(269.14deg, #20BF55 0%, #25B058 0.01%, #522F6D 82.32%)'
+      />
       <DetailHeader
         background='#282828'
         bottomBG='linear-gradient(269.14deg, #20BF55 0%, #25B058 0.01%, #522F6D 82.32%)'
@@ -51,7 +55,8 @@ export default function Zypzap() {
         nameColor='linear-gradient(269.14deg, #20BF55 0%, #25B058 0.01%, #522F6D 82.32%)'
         name='Valentin L.'
         // location="France"
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_zypzap.png`}
+        // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_zypzap.png`}
+        src={Zypzap_Overview}
       />
       <DetailService
         src={ZypzapService}

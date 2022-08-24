@@ -16,6 +16,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import TableService from '../../assets/images/table_detailservice.svg';
+import Table_Overview from '../../assets/images/detail_table_overview.svg';
 
 // Home Component
 export default function Table() {
@@ -33,7 +34,7 @@ export default function Table() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar ContactUs scrollBarBG='#D60000' />
       <DetailHeader
         // DividerBG
         background='#000000'
@@ -58,7 +59,8 @@ export default function Table() {
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor='#D60000'
         name='Shane Jhon'
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_table.png`}
+        // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_table.png`}
+        src={Table_Overview}
       />
       <DetailService
         // both

@@ -16,6 +16,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import YuwayService from '../../assets/images/yuway_detailservice.svg';
+import Yuway_Overview from '../../assets/images/detail_yuway_overview.svg';
 
 // Home Component
 export default function Yuwway() {
@@ -33,7 +34,7 @@ export default function Yuwway() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar ContactUs scrollBarBG='#0073BB' />
       <DetailHeader
         background='#282828'
         bottomBG='#0073BB'
@@ -52,7 +53,8 @@ export default function Yuwway() {
         nameColor='#0073BB'
         name='Jamel L.'
         // location="France"
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_yuwway.png`}
+        // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_yuwway.png`}
+        src={Yuway_Overview}
       />
       <DetailService
         src={YuwayService}

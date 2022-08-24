@@ -16,6 +16,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import WinaService from '../../assets/images/wina_detailservice.svg';
+import Wina_Overview from '../../assets/images/detail_wina_overview.svg';
 
 // Project Detail (Wina)
 export default function Wina() {
@@ -33,7 +34,7 @@ export default function Wina() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar ContactUs scrollBarBG='#2A5AA6' />
       <DetailHeader
         background='#282828'
         bottomBG='#2A5AA6'
@@ -52,7 +53,8 @@ export default function Wina() {
         nameColor='#2A5AA6'
         name='Shane Jhon'
         // location="France"
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_wina.png`}
+        // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_wina.png`}
+        src={Wina_Overview}
       />
       <DetailService
         src={WinaService}
