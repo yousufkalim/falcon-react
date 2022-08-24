@@ -16,13 +16,11 @@ export default function SectionHeader(props) {
             {t(props.decription)}
           </h4>
           <Divider
-            className='SectionHeaderDivider'
+            // className='SectionHeaderDivider'
+            className={props.SectionHeaderMargin ? 'SectionHeaderMargin' : 'SectionHeaderDivider'}
             width={props.width || '10%'}
             sx={{
-              height: '5px',
               backgroundColor: '#42C2FF',
-              borderRadius: '4px',
-              margin: '.7% 0',
             }}
           />
           <h2
@@ -55,7 +53,10 @@ export default function SectionHeader(props) {
           <h2 className='SectionHeaderH1' color={props.colorH1 || '#42C2FF'}>
             {t(props.h1)}
           </h2>
-          <Divider className='SectionHeaderDivider' width={props.width || '10%'} />
+          <Divider
+            className={props.SectionHeaderMargin ? 'SectionHeaderMargin' : 'SectionHeaderDivider'}
+            width={props.width || '10%'}
+          />
           <h2
             className='SectionHeaderH2'
             style={{ color: props.colorH2 ? props.colorH2 : '#003B7E' }}
