@@ -231,7 +231,10 @@ export default function ContactUsSection(props) {
                           alt='calendly'
                         />
                         <div className='SocialMediaText'>
-                          <h2>{t('Schedule Meeting')}</h2>
+                          <h2 id='contactHover'>{t('Schedule Meeting')}</h2>
+                          <div id='b'></div>
+
+                          {/* <h2>{t('Schedule Meeting')}</h2> */}
                           {/* <h4>calendly.com/falconit</h4> */}
                         </div>
                       </div>
@@ -246,7 +249,10 @@ export default function ContactUsSection(props) {
                           alt='email'
                         />
                         <div className='SocialMediaText'>
-                          <h2>{t('Email')}</h2>
+                          <h2 id='contactHover'>{t('Email')}</h2>
+                          <div id='b'></div>
+
+                          {/* <h2>{t('Email')}</h2> */}
                           {/* <h4>contact@falconconsulting.fr</h4> */}
                         </div>
                       </div>
