@@ -116,10 +116,11 @@ export default function NavBar(props) {
             position='fixed'
             sx={{
               transition: '.5s',
-              backgroundColor: position <= 970 ? '#0000000D' : 'white',
+              backgroundColor: position <= 970 ? 'transparent' : 'white',
               color: 'blue',
               padding: '0px 20px',
-              boxShadow: position <= 3 && 'none',
+              // boxShadow: position <= 3 && 'none',
+              boxShadow: position <= 3 ? 'none' : '0px 4px 13px rgba(0, 0, 0, 0.1)',
             }}
           >
             {Menu && (
@@ -139,7 +140,8 @@ export default function NavBar(props) {
             sx={{
               backgroundColor: position <= 3 ? 'transparent' : 'white',
               padding: '0px 20px',
-              boxShadow: position <= 3 && 'none',
+              // boxShadow: position <= 3 && 'none',
+              boxShadow: position <= 3 ? 'none' : '0px 4px 13px rgba(0, 0, 0, 0.1)',
             }}
           >
             {Menu && (
