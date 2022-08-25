@@ -175,7 +175,7 @@ export default function Footer(props) {
 
         <Divider />
         <div className='CopyRightDiv'>
-          <h5 ClassName='CopyRightTypo' style={{ fontSize: '70%', fontWeight: '700' }}>
+          <h5 ClassName='CopyRightTypo' style={{ fontWeight: '700' }}>
             © 2015-{new Date().getFullYear()}
             <span style={{ color: '#003B7E' }}> Falcon Consulting</span>, {t('All Rights Reserved')}
             .
@@ -328,7 +328,7 @@ export default function Footer(props) {
           }}
         />
         <div>
-          <h6 ClassName='CopyRightTypo' style={{ fontSize: '70%', fontWeight: '700' }}>
+          <h6 ClassName='CopyRightTypo' style={{ fontWeight: '700' }}>
             © 2015-{new Date().getFullYear()}
             <span style={{ color: '#003B7E' }}> Falcon Consulting</span>, {t('All Rights Reserved')}
             .
