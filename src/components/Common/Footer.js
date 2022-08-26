@@ -145,13 +145,23 @@ export default function Footer(props) {
                   alt='linkedin'
                 />
               </a>
-              <a href='https://wa.me/+923135098197' target='_blank'>
-                <img
-                  className='FooterIcons'
-                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
-                  alt='whatsapp'
-                />
-              </a>
+              {localStorage.getItem('i18nextLng') === 'fr' ? (
+                <a href='https://wa.me/+33658883107' target='_blank'>
+                  <img
+                    className='FooterIcons'
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                    alt='whatsapp'
+                  />
+                </a>
+              ) : (
+                <a href='https://wa.me/+923135098197' target='_blank'>
+                  <img
+                    className='FooterIcons'
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                    alt='whatsapp'
+                  />
+                </a>
+              )}
             </div>
             <div className='LegalMentionDiv'>
               <Typography>
@@ -267,13 +277,23 @@ export default function Footer(props) {
               alt='libkedin'
             />
           </a>
-          <a href='https://wa.me/+923135098197' target='_blank'>
-            <img
-              className='FooterIcons'
-              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
-              alt='whatsapp'
-            />
-          </a>
+          {localStorage.getItem('i18nextLng') === 'fr' ? (
+            <a href='https://wa.me/+33658883107' target='_blank'>
+              <img
+                className='FooterIcons'
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                alt='whatsapp'
+              />
+            </a>
+          ) : (
+            <a href='https://wa.me/+923135098197' target='_blank'>
+              <img
+                className='FooterIcons'
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                alt='whatsapp'
+              />
+            </a>
+          )}
           <a href='https://twitter.com/FalconITConsul2' target='_blank'>
             <img
               className='FooterIcons'

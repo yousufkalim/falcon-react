@@ -75,13 +75,23 @@ export default function Header(props) {
                       alt='linkedin'
                     />
                   </a>
-                  <a href='https://wa.me/+923135098197' target='_blank'>
-                    <img
-                      className='FooterIcons'
-                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
-                      alt='whatsapp'
-                    />
-                  </a>
+                  {localStorage.getItem('i18nextLng') === 'fr' ? (
+                    <a href='https://wa.me/+33658883107' target='_blank'>
+                      <img
+                        className='FooterIcons'
+                        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                        alt='whatsapp'
+                      />
+                    </a>
+                  ) : (
+                    <a href='https://wa.me/+923135098197' target='_blank'>
+                      <img
+                        className='FooterIcons'
+                        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                        alt='whatsapp'
+                      />
+                    </a>
+                  )}
                   <a href='https://twitter.com/FalconITConsul2' target='_blank'>
                     <img
                       className='FooterIcons'
@@ -135,21 +145,42 @@ export default function Header(props) {
           />
           {props.chatIcons ? (
             <div className='ChatIconsDiv'>
-              <a href='https://wa.me/+923135098197'>
-                <img
-                  className='ChatIconImg'
-                  alt='whatsapp'
-                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ChatIcon.svg`}
-                />
-              </a>
+              {localStorage.getItem('i18nextLng') === 'fr' ? (
+                <>
+                  <a href={t('https://wa.me/+33658883107')}>
+                    <img
+                      className='ChatIconImg'
+                      alt='whatsapp'
+                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ChatIcon.svg`}
+                    />
+                  </a>
+                  <a href={`https://calendly.com/falconconsulting`}>
+                    <img
+                      className='ChatIconImg'
+                      alt='Calendly'
+                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendly.svg`}
+                    />
+                  </a>
+                </>
+              ) : (
+                <>
+                  <a href={t('https://wa.me/+923135098197')}>
+                    <img
+                      className='ChatIconImg'
+                      alt='whatsapp'
+                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ChatIcon.svg`}
+                    />
+                  </a>
+                  <a href={`http://calendly.com/falconit`}>
+                    <img
+                      className='ChatIconImg'
+                      alt='Calendly'
+                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendly.svg`}
+                    />
+                  </a>
+                </>
+              )}
 
-              <a href={`http://calendly.com/falconit`}>
-                <img
-                  className='ChatIconImg'
-                  alt='Calendly'
-                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendly.svg`}
-                />
-              </a>
               <Link to={`/contactus`}>
                 <img
                   className='ChatIconImg'
