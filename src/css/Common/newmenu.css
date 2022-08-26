@@ -44,7 +44,7 @@
         transform: translateX(-2px) rotate(45deg);
     }
     .newMenuDiv{
-        width: 50%;
+        width: 60%;
     transition-duration: 2s;
 
     transition-delay: 2s;
@@ -58,6 +58,17 @@
         list-style: none;
         width: 100%;
         transition: 1s;
+        letter-spacing: .15rem;
+    }
+    #disableId{
+            margin: 1% 2%;  
+                color: #B3B3B3;
+                font-weight: 400;
+                font-size: 2rem;
+        list-style: none;
+        width: 100%;
+        letter-spacing: .15rem;
+        transition: 1s;
     }
     .dropdown_new{
         position: relative;
@@ -70,6 +81,7 @@
         transition: .5s;
         overflow: hidden;
     }
+
 #b{
     height: 2px;
     background: #fff;
@@ -77,21 +89,50 @@
     margin-top: 1px;
     transition: .5s;
 }
+#b_disable{
+    height: 2px;
+    background: #B3B3B3;
+    width:30%;
+    margin-top: 1px;
+    transition: .5s;
+}
 #menuId:hover + #b {
+    width:100%;
+    background: #42C2FF;
+}
+#menuId:hover {
+  color: #42C2FF;
+
+
+}
+#contactHover:hover + #b {
     width:100%;
 
 }
+.SocialMediaText:hover + #b {
+    width:100%;
+
+}
+
 .MenuDropdownList{
 transform: scaleX(.9);
 transition: .5s;
+
 }
 .MenuDropdownList:hover{
 transform: scaleX(1);
 }
 .MenuDropdownLinks{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #e5e5e5;
-
+    text-transform: capitalize !important;
+}
+.MenuDropdownLinks:hover{
+    color: #42C2FF;
+}
+.MenuDropdownLinksDisable{
+    font-size: 1.4rem;
+    color: #B3B3B3;
 }
 .spaceDiv{
     width: 0px;
@@ -289,7 +330,7 @@ transform: scaleX(1);
 }
 @media only screen and (max-width: 1024px) {
     .newMenuDiv{
-        width: 70%;
+        width: 75%;
     }
     #menuId{
             font-size: 1.7rem;
@@ -297,6 +338,9 @@ transform: scaleX(1);
 }
 .MenuDropdownLinks{
     font-size: 1rem;
+}
+.MenuDropdownLinksDisable{
+  font-size: 1rem;
 }
 .logoNew{
     width: 15% !important;
