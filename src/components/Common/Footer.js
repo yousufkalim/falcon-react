@@ -145,40 +145,23 @@ export default function Footer(props) {
                   alt='linkedin'
                 />
               </a>
-              <a href='https://wa.me/+923135098197' target='_blank'>
-                <img
-                  className='FooterIcons'
-                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
-                  alt='whatsapp'
-                />
-              </a>
-              <a href='https://twitter.com/FalconITConsul2' target='_blank'>
-                <img
-                  className='FooterIcons'
-                  // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
-                  src={Twitter}
-                  alt='twitter'
-                />
-              </a>
-              <a
-                href='https://instagram.com/falconitconsultant?igshid=YmMyMTA2M2Y='
-                target='_blank'
-              >
-                <img
-                  className='FooterIcons'
-                  // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
-                  src={Instagram}
-                  alt='instagram'
-                />
-              </a>
-              <a href='https://www.youtube.com/channel/UC44pvxAGtKji2GB8inEKxaw' target='_blank'>
-                <img
-                  className='FooterIcons'
-                  // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
-                  src={Youtube}
-                  alt='youtube'
-                />
-              </a>
+              {localStorage.getItem('i18nextLng') === 'fr' ? (
+                <a href='https://wa.me/+33658883107' target='_blank'>
+                  <img
+                    className='FooterIcons'
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                    alt='whatsapp'
+                  />
+                </a>
+              ) : (
+                <a href='https://wa.me/+33664317359' target='_blank'>
+                  <img
+                    className='FooterIcons'
+                    src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                    alt='whatsapp'
+                  />
+                </a>
+              )}
             </div>
             <div className='LegalMentionDiv'>
               <Typography>
@@ -202,7 +185,7 @@ export default function Footer(props) {
 
         <Divider />
         <div className='CopyRightDiv'>
-          <h5 ClassName='CopyRightTypo' style={{ fontSize: '70%', fontWeight: '700' }}>
+          <h5 ClassName='CopyRightTypo' style={{ fontWeight: '700' }}>
             © 2015-{new Date().getFullYear()}
             <span style={{ color: '#003B7E' }}> Falcon Consulting</span>, {t('All Rights Reserved')}
             .
@@ -294,13 +277,23 @@ export default function Footer(props) {
               alt='libkedin'
             />
           </a>
-          <a href='https://wa.me/+923135098197' target='_blank'>
-            <img
-              className='FooterIcons'
-              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
-              alt='whatsapp'
-            />
-          </a>
+          {localStorage.getItem('i18nextLng') === 'fr' ? (
+            <a href='https://wa.me/+33658883107' target='_blank'>
+              <img
+                className='FooterIcons'
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                alt='whatsapp'
+              />
+            </a>
+          ) : (
+            <a href='https://wa.me/+33664317359' target='_blank'>
+              <img
+                className='FooterIcons'
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
+                alt='whatsapp'
+              />
+            </a>
+          )}
           <a href='https://twitter.com/FalconITConsul2' target='_blank'>
             <img
               className='FooterIcons'
@@ -355,7 +348,7 @@ export default function Footer(props) {
           }}
         />
         <div>
-          <h6 ClassName='CopyRightTypo' style={{ fontSize: '70%', fontWeight: '700' }}>
+          <h6 ClassName='CopyRightTypo' style={{ fontWeight: '700' }}>
             © 2015-{new Date().getFullYear()}
             <span style={{ color: '#003B7E' }}> Falcon Consulting</span>, {t('All Rights Reserved')}
             .

@@ -16,6 +16,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import TiltService from '../../assets/images/tilt_detailservice.svg';
+import Tilt_Overview from '../../assets/images/detail_tilt_overview.svg';
 
 // Home Component
 export default function Tilt() {
@@ -33,7 +34,7 @@ export default function Tilt() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar ContactUs scrollBarBG='#D3014A' />
       <DetailHeader
         background='#282828'
         bottomBG='#D3014A'
@@ -51,7 +52,8 @@ export default function Tilt() {
         nameColor='#D3014A'
         name='Laurent Louis-Henry'
         // location="France"
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_tilt.png`}
+        // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_tilt.png`}
+        src={Tilt_Overview}
       />
       <DetailService
         src={TiltService}

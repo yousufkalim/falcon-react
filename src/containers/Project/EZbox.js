@@ -16,6 +16,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import EzBoxService from '../../assets/images/ez_detailservice.svg';
+import EZ_Overview from '../../assets/images/detail_ez_overview.svg';
 
 // Home Component
 export default function EZbox() {
@@ -33,7 +34,7 @@ export default function EZbox() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar ContactUs scrollBarBG='#3399FE' />
       <DetailHeader
         // DividerBG
         background='#454238'
@@ -52,7 +53,7 @@ export default function EZbox() {
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor='#3399FE'
         name='Eassa Awake'
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_ezbox.png`}
+        src={EZ_Overview}
       />
       <DetailService
         src={EzBoxService}

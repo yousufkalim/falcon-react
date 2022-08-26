@@ -16,7 +16,7 @@ import Footer from '../../components/Common/Footer';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet';
 import ServiceImg from '../../assets/images/qb_detailservice.svg';
-
+import QB_Overview from '../../assets/images/detail_qb_overview.svg';
 // Home Component
 export default function Quadrabase() {
   const { i18n, t } = useTranslation();
@@ -34,7 +34,7 @@ export default function Quadrabase() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar ContactUs scrollBarBG='#9D3C64EB' />
       <DetailHeader
         background='#000000'
         bottomBG='#FFF0E2'
@@ -55,7 +55,7 @@ export default function Quadrabase() {
         nameColor='#9D3C64'
         name='Jean-Claude Imbert'
         // location="France"
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_overview.png`}
+        src={QB_Overview}
       />
       <DetailService
         src={ServiceImg}

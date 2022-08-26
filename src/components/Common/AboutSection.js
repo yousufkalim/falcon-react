@@ -14,6 +14,7 @@ export default function AboutSection() {
         <SectionHeader
           LeftSectionHeader={true}
           colorH2='#0F52BA'
+          SectionHeaderMargin
           width='7%'
           h1='your work is our priority'
           h2='Why choose Falcon Consulting?'

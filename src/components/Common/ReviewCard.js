@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import Tooltip from '@mui/material/Tooltip';
 
 export default function ReviewCard(props) {
   const { i18n, t } = useTranslation();
@@ -55,18 +56,20 @@ export default function ReviewCard(props) {
             setValue(newValue);
           }}
         /> */}
-        <p
-          className='Selection'
-          style={{
-            width: '80%',
-            fontSize: '1rem',
-            opacity: '.9',
-            fontWeight: '400',
-          }}
-        >
-          {review?.length > 100 ? review?.slice(0, 100) + '...' : review}
-          {/* {review} */}
-        </p>
+        <Tooltip title={review}>
+          <p
+            className='Selection'
+            style={{
+              width: '80%',
+              fontSize: '1rem',
+              opacity: '.9',
+              fontWeight: '400',
+            }}
+          >
+            {review?.length > 100 ? review?.slice(0, 100) + '...' : review}
+            {/* {review} */}
+          </p>
+        </Tooltip>
         <h4
           className='Selection'
           style={{

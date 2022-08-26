@@ -13,6 +13,7 @@ export default function ServiceProvided() {
           h1='EXCEED YOUR EXPECTATION'
           h2='Services We Provide'
           width='8%'
+          SectionHeaderMargin
           // decription="This sounds simple, but it is beneficial to your business success."
         />
         <motion.div

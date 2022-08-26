@@ -11,6 +11,7 @@ import RemoteTeam from '../containers/Blog/RemoteTeam';
 import BusinessWebsite from '../containers/Blog/BusinessWebsite';
 import LegalMentions from '../containers/LegalMentions';
 import OurProjects from '../containers/OurProjects';
+import Clients from '../containers/Clients';
 import WebDev from '../containers/Services/WebDev.js';
 import AppDev from '../containers/Services/AppDev.js';
 import SoftwareDev from '../containers/Services/SoftwareDev.js';
@@ -59,6 +60,7 @@ const index = () => {
       <Route exact path='/policy' component={Policy} />
 
       <Route exact path='/ourprojects' component={OurProjects} />
+      <Route exact path='/clients' component={Clients} />
       <Route exact path='/ourprojects/permispop' component={Permispop} />
       <Route exact path='/ourprojects/quadrabase' component={Quadrabase} />
       <Route exact path='/ourprojects/kidcab' component={Kidcab} />

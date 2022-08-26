@@ -1,6 +1,6 @@
 .ProjectListTabsBox {
     display: flex;
-    width: 50%;
+    width: 40%;
     justify-content: center;
 }
 .ProjectListTabs{
@@ -40,6 +40,13 @@
 .css-1aquho2-MuiTabs-indicator {
     height: 0 !important;
 }
+/* .css-1aquho2-MuiTabs-indicator {
+    background: #003B7E !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: #003B7E !important;
+
+} */
 
 .css-ttwr4n {
     height: 0 !important;
@@ -52,6 +59,7 @@
 
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
     margin: 0 0.5% !important;
+    /* color: #8D8D8D !important */
 }
 
 @media only screen and (max-width: 768px) {

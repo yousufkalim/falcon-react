@@ -17,7 +17,8 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
   const handleClick = () => {
     setOpen(!open);
   };
-
+  const [Active, setActive] = React.useState(false);
+  const menuRoute = window.location.pathname;
   return (
     <>
       <AnimatePresence>
@@ -34,19 +35,12 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
           animate={{
             y: [-1000, 0],
           }}
-          // animate={{ y: Menu ? [-1000, 0] : [0, -1000] }}
           transition={{
             ease: 'easeOut',
             delay: 0.05,
-            // repeatType: 'reverse',
-            // repeat: Infinity,
-            // duration: 2,
           }}
         >
           <motion.div
-            // className='MenuDiv'
-            // className='BlueMenu'
-            // className={Menu ? 'BlueMenu' : 'BlueMenuNot'}
             style={{
               background: '#003b7e',
               margin: '0',
@@ -57,13 +51,9 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
               left: '0',
             }}
             animate={{ y: [-1000, 0] }}
-            // animate={{ y: Menu ? [-1000, 0] : [0, -1000] }}
             transition={{
               ease: 'easeOut',
               delay: 0.15,
-              // repeatType: 'reverse',
-              // repeat: Infinity,
-              // duration: 2,
             }}
           >
             <Toolbar
@@ -136,12 +126,26 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                     animate={{ y: Menu ? [50, 0] : [0, 50], opacity: Menu ? [0, 1] : [1, 0] }}
                     transition={{ ease: 'easeOut', delay: 0.6 }}
                     // style={{ width: '30%' }}
-                    style={{ overflow: 'hidden', whiteSpace: 'nowrap' }}
+                    style={{ overflow: 'visible', whiteSpace: 'nowrap' }}
                   >
-                    <Link id='asd' to='/about'>
-                      {t('About')}
-                    </Link>
-                    <div id='b'></div>
+                    <div
+                      className='MenuHoverDiv'
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                      }}
+                    >
+                      <div className='MenuExpandDiv'></div>
+
+                      <div>
+                        <Link id={menuRoute === '/about' ? 'disableId' : 'menuId'} to='/about'>
+                          {t('About')}
+                        </Link>
+                        <div id={menuRoute === '/about' ? 'b_disable' : 'b'}></div>
+                      </div>
+                      <div className='MenuExpandDiv'></div>
+                    </div>
                   </motion.div>
                   <motion.div
                     // animate={{ y: [50, 0], opacity: [0, 1] }}
@@ -163,7 +167,7 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                         }}
                       >
                         <div>
-                          <div id='asd' style={{ cursor: 'context-menu', marginLeft: '10px' }}>
+                          <div id='menuId' style={{ marginLeft: '10px' }}>
                             {t('Services')}
                           </div>
                           <div id='b' style={{ marginLeft: '10px' }}></div>
@@ -179,34 +183,63 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                       >
                         <ul style={{ listStyle: 'none', width: '100%' }}>
                           <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
-                            <Link className='MenuDropdownLinks' to={`/services/web-development`}>
-                              {t('WEBSITE')}
-                            </Link>
-                          </li>
-                          <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
-                            <Link className='MenuDropdownLinks' to={`/services/app-development`}>
-                              {t('MOBILE APPLICATION')}
+                            <Link
+                              className={
+                                menuRoute === '/services/web-development'
+                                  ? 'MenuDropdownLinksDisable'
+                                  : 'MenuDropdownLinks'
+                              }
+                              to={`/services/web-development`}
+                            >
+                              {t('Website')}
                             </Link>
                           </li>
                           <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
                             <Link
-                              className='MenuDropdownLinks'
+                              className={
+                                menuRoute === '/services/app-development'
+                                  ? 'MenuDropdownLinksDisable'
+                                  : 'MenuDropdownLinks'
+                              }
+                              to={`/services/app-development`}
+                            >
+                              {t('Mobile Application')}
+                            </Link>
+                          </li>
+                          <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                            <Link
+                              className={
+                                menuRoute === '/services/software-development'
+                                  ? 'MenuDropdownLinksDisable'
+                                  : 'MenuDropdownLinks'
+                              }
                               to={`/services/software-development`}
                             >
-                              {t('SOFTWARE')}
-                            </Link>
-                          </li>
-                          <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
-                            <Link className='MenuDropdownLinks' to={`/services/ui-development`}>
-                              {t('UI/UX DESIGN')}
+                              {t('Software')}
                             </Link>
                           </li>
                           <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
                             <Link
-                              className='MenuDropdownLinks'
+                              className={
+                                menuRoute === '/services/ui-development'
+                                  ? 'MenuDropdownLinksDisable'
+                                  : 'MenuDropdownLinks'
+                              }
+                              to={`/services/ui-development`}
+                            >
+                              {t('UI/UX Design')}
+                            </Link>
+                          </li>
+                          <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                            <Link
+                              className={
+                                menuRoute === '/services/ondemand-developers'
+                                  ? 'MenuDropdownLinksDisable'
+                                  : 'MenuDropdownLinks'
+                              }
                               to={`/services/ondemand-developers`}
                             >
-                              {t('ON DEMAND')}
+                              {t('On Demand')}
                             </Link>
                           </li>
                         </ul>
@@ -215,17 +248,67 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                     </div>
                   </motion.div>
                   {/* {ServiceDropDown && ( */}
-                  <motion.div
+                  {/* <motion.div
                     animate={{ y: [50, 0], opacity: [0, 1] }}
                     transition={{ ease: 'easeOut', delay: 1 }}
                     // animate={{ x: [-100, 20, 10], opacity: [0, 1] }}
                     // transition={{ ease: 'easeOut', duration: 1.5 }}
                     className='spaceDiv'
-                  >
-                    {/* <div>asdfgf</div> */}
-                  </motion.div>
+                  ></motion.div> */}
                   {/* )} */}
-
+                  {/* <motion.div
+                    // animate={{ y: [50, 0], opacity: [0, 1] }}
+                    animate={{ y: Menu ? [50, 0] : [0, 50], opacity: Menu ? [0, 1] : [1, 0] }}
+                    transition={{ ease: 'easeOut', delay: 0.7 }}
+                  >
+                    <div
+                      className='dropdown_new'
+                      style={{
+                        margin: '1% 2%',
+                      }}
+                      // onClick={(e) => SetServiceDropDown(!ServiceDropDown)}
+                    >
+                      <div
+                        style={{
+                          display: 'flex',
+                          justifyContent: 'space-between',
+                          alignItems: 'center',
+                        }}
+                      >
+                        <div>
+                          <Link id='menuId' to='/ourprojects' style={{ marginLeft: '10px' }}>
+                            {t('Projects')}
+                          </Link>
+                          <div id='b' style={{ marginLeft: '10px' }}></div>
+                        </div>
+                        <div className='spaceDiv'></div>
+                      </div>
+                      <motion.div
+                        animate={{ y: [100, 20], opacity: [0, 1] }}
+                        transition={{ ease: 'easeOut', duration: 1 }}
+                        id='c'
+                        // className='ServicesDropDown'
+                      >
+                        <ul style={{ listStyle: 'none', width: '100%' }}>
+                          <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                            <div className='MenuDropdownLinks'>{t('WEBSITE')}</div>
+                          </li>
+                          <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                            <div className='MenuDropdownLinks'>{t('MOBILE APPLICATION')}</div>
+                          </li>
+                          <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                            <div className='MenuDropdownLinks'>{t('SOFTWARE')}</div>
+                          </li>
+                          <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                            <div className='MenuDropdownLinks'>{t('UI/UX DESIGN')}</div>
+                          </li>
+                          <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                            <div className='MenuDropdownLinks'>{t('DATA & CLOUD')}</div>
+                          </li>
+                        </ul>
+                      </motion.div>
+                    </div>
+                  </motion.div> */}
                   <motion.div
                     animate={{ y: [50, 0], opacity: [0, 1] }}
                     // animate={{ y: Menu ? [50, 0] : [0, 50], opacity: Menu ? [0, 1] : [1, 0] }}
@@ -234,10 +317,54 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                       margin: '1% 2%',
                     }}
                   >
-                    <Link id='asd' to='/ourprojects'>
-                      {t('Projects')}
-                    </Link>
-                    <div id='b'></div>
+                    <div
+                      className='MenuHoverDiv'
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                      }}
+                    >
+                      <div className='MenuExpandDiv'></div>
+
+                      <div>
+                        <Link
+                          id={menuRoute === '/ourprojects' ? 'disableId' : 'menuId'}
+                          to='/ourprojects'
+                        >
+                          {t('Projects')}
+                        </Link>
+                        <div id={menuRoute === '/ourprojects' ? 'b_disable' : 'b'}></div>
+                      </div>
+                      <div className='MenuExpandDiv'></div>
+                    </div>
+                  </motion.div>
+                  <motion.div
+                    animate={{ y: [50, 0], opacity: [0, 1] }}
+                    // animate={{ y: Menu ? [50, 0] : [0, 50], opacity: Menu ? [0, 1] : [1, 0] }}
+                    transition={{ ease: 'easeOut', delay: 0.8 }}
+                    style={{
+                      margin: '1% 2%',
+                    }}
+                  >
+                    <div
+                      className='MenuHoverDiv'
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                      }}
+                    >
+                      <div className='MenuExpandDiv'></div>
+
+                      <div>
+                        <Link id={menuRoute === '/clients' ? 'disableId' : 'menuId'} to='/clients'>
+                          {t('Clients')}
+                        </Link>
+                        <div id={menuRoute === '/clients' ? 'b_disable' : 'b'}></div>
+                      </div>
+                      <div className='MenuExpandDiv'></div>
+                    </div>
                   </motion.div>
                   <motion.div
                     animate={{ y: [50, 0], opacity: [0, 1] }}
@@ -247,10 +374,24 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                       margin: '1% 2%',
                     }}
                   >
-                    <Link id='asd' to='/blog'>
-                      {t('Blog')}
-                    </Link>
-                    <div id='b'></div>
+                    <div
+                      className='MenuHoverDiv'
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                      }}
+                    >
+                      <div className='MenuExpandDiv'></div>
+
+                      <div>
+                        <Link id={menuRoute === '/blog' ? 'disableId' : 'menuId'} to='/blog'>
+                          {t('Blog')}
+                        </Link>
+                        <div id={menuRoute === '/blog' ? 'b_disable' : 'b'}></div>
+                      </div>
+                      <div className='MenuExpandDiv'></div>
+                    </div>
                   </motion.div>
                   <motion.div
                     animate={{ y: [50, 0], opacity: [0, 1] }}
@@ -260,10 +401,27 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                       margin: '1% 2%',
                     }}
                   >
-                    <Link id='asd' to='/contactus'>
-                      {t('Contact')}
-                    </Link>
-                    <div id='b'></div>
+                    <div
+                      className='MenuHoverDiv'
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                      }}
+                    >
+                      <div className='MenuExpandDiv'></div>
+
+                      <div>
+                        <Link
+                          id={menuRoute === '/contactus' ? 'disableId' : 'menuId'}
+                          to='/contactus'
+                        >
+                          {t('Contact')}
+                        </Link>
+                        <div id={menuRoute === '/contactus' ? 'b_disable' : 'b'}></div>
+                      </div>
+                      <div className='MenuExpandDiv'></div>
+                    </div>
                   </motion.div>
                 </motion.div>
                 <div
@@ -296,7 +454,7 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                     >
                       <Typography
                         className='Menu_languageTypo'
-                        sx={{ color: '#f8f8f8', fontWeight: '600' }}
+                        sx={{ color: '#f8f8f8', fontWeight: '600', fontSize: '1.5rem' }}
                       >
                         <span style={{ color: '#fff', opacity: '.6' }}>
                           {' '}
@@ -398,6 +556,11 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                   <ListItemButton id='Mob_nav'>
                     <Link className='Nav_links' to={`/ourprojects`}>
                       <ListItemText primary={t('Our Projects')} />
+                    </Link>
+                  </ListItemButton>
+                  <ListItemButton id='Mob_nav'>
+                    <Link className='Nav_links' to={`/ourprojects`}>
+                      <ListItemText primary={t('Clients')} />
                     </Link>
                   </ListItemButton>
                   <ListItemButton id='Mob_nav'>

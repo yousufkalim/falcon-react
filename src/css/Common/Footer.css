@@ -48,6 +48,11 @@
     font-size: 18px !important;
     font-weight: 600 !important;
     padding: 5px 0 !important;
+    transition: .3s !important;
+}
+.Footer_li:hover{
+    padding: 5px 0 5px 5px !important;
+
 }
 .FooterIcons{
     width: 100% !important;

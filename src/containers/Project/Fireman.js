@@ -16,6 +16,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import FiremenService from '../../assets/images/firemen_detailservice.svg';
+import Fireman_Overview from '../../assets/images/detail_fireman_overview.svg';
 
 // Home Component
 export default function Fireman() {
@@ -33,7 +34,7 @@ export default function Fireman() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar ContactUs scrollBarBG='#3675B7' />
       <DetailHeader
         background='#3675B7'
         bottomBG='#3675B7'
@@ -52,7 +53,8 @@ export default function Fireman() {
         nameColor='#3675B7'
         name='Ludovic Crepy'
         // location="France"
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_firemen.png`}
+        // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_firemen.png`}
+        src={Fireman_Overview}
       />
       <DetailService
         src={FiremenService}

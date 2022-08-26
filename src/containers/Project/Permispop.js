@@ -16,7 +16,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import PermispopService from '../../assets/images/pp_detailservice.svg';
-
+import Detail_PP_Overview from '../../assets/images/detail_overview.svg';
 // Home Component
 export default function Permispop() {
   const { t } = useTranslation();
@@ -33,7 +33,7 @@ export default function Permispop() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar ContactUs scrollBarBG='#2FAD93' />
       <DetailHeader
         background='#2FAD93'
         bottomBG='#2FAD93'
@@ -47,7 +47,8 @@ export default function Permispop() {
       <DetailOverview
         name='Salim S.'
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overview.png`}
+        // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overview.png`}
+        src={Detail_PP_Overview}
         desp='The idea was to develop a first version of the website, in order to test the market fit. This version was completed within a couple of months, using ReactJS for the frontend, and ASP.NET Core for the backend. We are still continuing the development, which is currently at the V4.'
       />
 

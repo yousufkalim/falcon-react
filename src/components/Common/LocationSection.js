@@ -15,7 +15,13 @@ export default function LocationSection(props) {
         className='LocationSectionMain'
       >
         <div className='LocationSectionHeader'>
-          <SectionHeader colorH2='#0F52BA' h1='WHERE YOU CAN MEET' h2='Our Offices' width='5%' />
+          <SectionHeader
+            colorH2='#0F52BA'
+            h1='WHERE YOU CAN MEET'
+            h2='Our Offices'
+            width='5%'
+            SectionHeaderMargin
+          />
         </div>
         <div className='LocationSliderDiv'>
           <AwesomeSlider

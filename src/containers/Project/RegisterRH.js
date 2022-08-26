@@ -15,6 +15,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import RegistreService from '../../assets/images/registre_detailservice.svg';
+import Registre_Overview from '../../assets/images/detail_registre_overview.svg';
 
 // Home Component
 export default function RegisterRH() {
@@ -32,7 +33,7 @@ export default function RegisterRH() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar ContactUs scrollBarBG='#142E68' />
       <DetailHeader
         background='#000000B8'
         bottomBG='#142E68'
@@ -51,7 +52,8 @@ export default function RegisterRH() {
         nameColor='#142E68'
         name='Romain S.'
         // location="France"
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_register.png`}
+        // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_register.png`}
+        src={Registre_Overview}
       />
       <DetailService
         // app

@@ -43,10 +43,13 @@
   margin: 5% 0 !important;
   border-radius: 8px !important;
   padding: 3% 5% !important;
+  transition: .5s !important;
 }
 .HeaderBtn:hover{
   color: #fff !important;
   background-color: #003B7E !important;
+  margin: 4% 0 6% 0 !important;
+
 
 }
 .ProjectDetailBtn{

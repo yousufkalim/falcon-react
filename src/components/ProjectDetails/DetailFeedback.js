@@ -12,15 +12,17 @@ export default function DetailFeedback(props) {
 
   return (
     <>
-      <motion.div
+      <div
         className='DetailFeedback_container'
-        initial={{ y: 50, opacity: 0.7 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.3 }}
-        viewport={{ once: true }}
         style={{ background: props.ThemeBG ? props.ThemeBG : '#00654F' }}
       >
-        <div className='DetailFeedback_Div'>
+        <motion.div
+          className='DetailFeedback_Div'
+          initial={{ y: 50, opacity: 0.7 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          viewport={{ once: true }}
+        >
           <div className='DetailFeedback_TypoDiv'>
             <div className='DetailFeedback_TitleDiv'>
               <Divider className='DetailFeedback_TitleDivider' color={props.titleTheme || '#fff'} />
@@ -55,8 +57,8 @@ export default function DetailFeedback(props) {
               </div>
             </div>
           </div>
-        </div>
-      </motion.div>
+        </motion.div>
+      </div>
     </>
   );
 }

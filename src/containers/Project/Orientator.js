@@ -16,6 +16,7 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import OrientatorService from '../../assets/images/orientator_detailservice.svg';
+import Orientator_Overview from '../../assets/images/detail_orientator_overview.svg';
 
 // Home Component
 export default function Orientator() {
@@ -33,7 +34,10 @@ export default function Orientator() {
           content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
         />
       </Helmet>
-      <NavBar ContactUs />
+      <NavBar
+        ContactUs
+        scrollBarBG='linear-gradient(269.14deg, #BE9400 0%, #CB4B03 48.96%, #8B0054 100%)'
+      />
       <DetailHeader
         background='#282828'
         bottomBG=' linear-gradient(269.14deg, #BE9400 0%, #CB4B03 48.96%, #8B0054 100%)'
@@ -52,7 +56,8 @@ export default function Orientator() {
         nameColor='FF29AA'
         name='Bilel S.'
         // location="France"
-        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_orientator.png`}
+        // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_orientator.png`}
+        src={Orientator_Overview}
       />
       <DetailService
         // app

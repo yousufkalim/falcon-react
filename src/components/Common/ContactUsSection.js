@@ -6,13 +6,13 @@ import { toast } from 'react-toastify';
 import { useTranslation } from 'react-i18next';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { motion } from 'framer-motion';
+import { Email } from '@mui/icons-material';
 export default function ContactUsSection(props) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [number, setNumber] = useState('');
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     const data = new FormData(e.currentTarget);
     let regex = /[^\s@]+@[^\s@]+\.[^\s@]+/;
 
@@ -40,14 +40,30 @@ export default function ContactUsSection(props) {
     } else if (message === '') {
       toast.error(`${t('Please Enter A Message')}`);
     } else {
-      emailjs.sendForm('service_9tq9fqk', 'template_yc206p5', e.target, 'tMMbs5Pn0amH90Aml').then(
-        (result) => {
-          return result;
-        },
-        (error) => {
-          return error;
-        }
-      );
+      {
+        localStorage.getItem('i18nextLng') === 'fr'
+          ? emailjs
+              .sendForm('service_9tq9fqk', 'template_yc206p5', e.target, 'tMMbs5Pn0amH90Aml')
+              .then(
+                (result) => {
+                  return result;
+                },
+                (error) => {
+                  return error;
+                }
+              )
+          : emailjs
+              .sendForm('service_9tq9fqk', 'template_lmpx1v8', e.target, 'tMMbs5Pn0amH90Aml')
+              .then(
+                (result) => {
+                  return result;
+                },
+                (error) => {
+                  return error;
+                }
+              );
+      }
+
       e.target.reset();
       setNumber('');
 
@@ -72,6 +88,7 @@ export default function ContactUsSection(props) {
               h2='Share Your Project/Idea with us!'
               colorH2='#fff'
               colorDesp='#F8F8F8'
+              SectionHeaderMargin
               decription='Our Team Member will get back to you within 24 hours. '
             />
           </div>
@@ -170,25 +187,47 @@ export default function ContactUsSection(props) {
                     </div>
                   </motion.div>
                 </a>
-                <a href='http://calendly.com/falconit'>
-                  <motion.div
-                    className='ContactMediaDiv'
-                    initial={{ y: 40, opacity: 0.5 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.3 }}
-                    viewport={{ once: true }}
-                  >
-                    <img
-                      className='ContactMediaIcons'
-                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendlyIcon.svg`}
-                      alt='Calendly'
-                    />
-                    <div className='SocialMediaText'>
-                      <h3>{t('Calendly')}</h3>
-                      <h4>{t('Click and join link')}</h4>
-                    </div>
-                  </motion.div>
-                </a>
+                {localStorage.getItem('i18nextLng') === 'fr' ? (
+                  <a href='https://calendly.com/falconconsulting'>
+                    <motion.div
+                      className='ContactMediaDiv'
+                      initial={{ y: 40, opacity: 0.5 }}
+                      whileInView={{ y: 0, opacity: 1 }}
+                      transition={{ duration: 0.3 }}
+                      viewport={{ once: true }}
+                    >
+                      <img
+                        className='ContactMediaIcons'
+                        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendlyIcon.svg`}
+                        alt='Calendly'
+                      />
+                      <div className='SocialMediaText'>
+                        <h3>{t('Calendly')}</h3>
+                        <h4>{t('Click and join link')}</h4>
+                      </div>
+                    </motion.div>
+                  </a>
+                ) : (
+                  <a href='http://calendly.com/falconit'>
+                    <motion.div
+                      className='ContactMediaDiv'
+                      initial={{ y: 40, opacity: 0.5 }}
+                      whileInView={{ y: 0, opacity: 1 }}
+                      transition={{ duration: 0.3 }}
+                      viewport={{ once: true }}
+                    >
+                      <img
+                        className='ContactMediaIcons'
+                        src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendlyIcon.svg`}
+                        alt='Calendly'
+                      />
+                      <div className='SocialMediaText'>
+                        <h3>{t('Calendly')}</h3>
+                        <h4>{t('Click and join link')}</h4>
+                      </div>
+                    </motion.div>
+                  </a>
+                )}
               </Grid>
             </Grid>
           </div>
@@ -222,19 +261,41 @@ export default function ContactUsSection(props) {
                 </div>
                 <div style={{ width: '100%' }}>
                   <div style={{ width: '50%' }}>
-                    <a href='http://calendly.com/falconit'>
-                      <div className='SocialMediaDiv'>
-                        <img
-                          className='SocialMediaIcons'
-                          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendlyIcon.svg`}
-                          alt='calendly'
-                        />
-                        <div className='SocialMediaText'>
-                          <h4>{t('Schedule Meeting')}</h4>
-                          <h4>calendly.com/falconit</h4>
+                    {localStorage.getItem('i18nextLng') === 'fr' ? (
+                      <a href='https://calendly.com/falconconsulting'>
+                        <div className='SocialMediaDiv'>
+                          <img
+                            className='SocialMediaIcons'
+                            src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendlyIcon.svg`}
+                            alt='calendly'
+                          />
+                          <div className='SocialMediaText'>
+                            <h2 id='contactHover'>{t('Schedule Meeting')}</h2>
+                            <div id='b'></div>
+
+                            {/* <h2>{t('Schedule Meeting')}</h2> */}
+                            {/* <h4>calendly.com/falconit</h4> */}
+                          </div>
                         </div>
-                      </div>
-                    </a>
+                      </a>
+                    ) : (
+                      <a href='http://calendly.com/falconit'>
+                        <div className='SocialMediaDiv'>
+                          <img
+                            className='SocialMediaIcons'
+                            src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendlyIcon.svg`}
+                            alt='calendly'
+                          />
+                          <div className='SocialMediaText'>
+                            <h2 id='contactHover'>{t('Schedule Meeting')}</h2>
+                            <div id='b'></div>
+
+                            {/* <h2>{t('Schedule Meeting')}</h2> */}
+                            {/* <h4>calendly.com/falconit</h4> */}
+                          </div>
+                        </div>
+                      </a>
+                    )}
                   </div>
                   <div style={{ width: '50%' }}>
                     <a href='mailto:contact@falconconsulting.fr'>
@@ -245,8 +306,11 @@ export default function ContactUsSection(props) {
                           alt='email'
                         />
                         <div className='SocialMediaText'>
-                          <h4>{t('Email')}</h4>
-                          <h4>contact@falconconsulting.fr</h4>
+                          <h2 id='contactHover'>{t('Email')}</h2>
+                          <div id='b'></div>
+
+                          {/* <h2>{t('Email')}</h2> */}
+                          {/* <h4>contact@falconconsulting.fr</h4> */}
                         </div>
                       </div>
                     </a>
