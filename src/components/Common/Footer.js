@@ -154,7 +154,7 @@ export default function Footer(props) {
                   />
                 </a>
               ) : (
-                <a href='https://wa.me/+923135098197' target='_blank'>
+                <a href='https://wa.me/+33664317359' target='_blank'>
                   <img
                     className='FooterIcons'
                     src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
@@ -286,7 +286,7 @@ export default function Footer(props) {
               />
             </a>
           ) : (
-            <a href='https://wa.me/+923135098197' target='_blank'>
+            <a href='https://wa.me/+33664317359' target='_blank'>
               <img
                 className='FooterIcons'
                 src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}

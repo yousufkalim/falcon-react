@@ -84,7 +84,7 @@ export default function Header(props) {
                       />
                     </a>
                   ) : (
-                    <a href='https://wa.me/+923135098197' target='_blank'>
+                    <a href='https://wa.me/+33664317359' target='_blank'>
                       <img
                         className='FooterIcons'
                         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
@@ -164,7 +164,7 @@ export default function Header(props) {
                 </>
               ) : (
                 <>
-                  <a href={t('https://wa.me/+923135098197')}>
+                  <a href={t('https://wa.me/+33664317359')}>
                     <img
                       className='ChatIconImg'
                       alt='whatsapp'
