@@ -138,7 +138,7 @@ export default function NavBar(props) {
             className='AppBarBox'
             position='fixed'
             sx={{
-              backgroundColor: position <= 3 ? 'transparent' : 'white',
+              backgroundColor: position <= 3 ? 'white' : 'white',
               padding: '0px 20px',
               // boxShadow: position <= 3 && 'none',
               boxShadow: position <= 3 ? 'none' : '0px 4px 13px rgba(0, 0, 0, 0.1)',
