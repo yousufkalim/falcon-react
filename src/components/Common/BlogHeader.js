@@ -15,21 +15,35 @@ export default function BlogHeader() {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
     let regex = /[^\s@]+@[^\s@]+\.[^\s@]+/;
-
     const email = data.get('email');
     if (email === '') {
       toast.error(`${t("Email can't be blank")}`);
     } else if (regex.test(email) === false) {
       toast.error(`${t('Not a Valid Email')}`);
     } else {
-      emailjs.sendForm('service_9tq9fqk', 'template_lmpx1v8', e.target, 'tMMbs5Pn0amH90Aml').then(
-        (result) => {
-          return result;
-        },
-        (error) => {
-          return error;
-        }
-      );
+      {
+        localStorage.getItem('i18nextLng') === 'fr'
+          ? emailjs
+              .sendForm('service_9tq9fqk', 'template_yc206p5', e.target, 'tMMbs5Pn0amH90Aml')
+              .then(
+                (result) => {
+                  return result;
+                },
+                (error) => {
+                  return error;
+                }
+              )
+          : emailjs
+              .sendForm('service_9tq9fqk', 'template_lmpx1v8', e.target, 'tMMbs5Pn0amH90Aml')
+              .then(
+                (result) => {
+                  return result;
+                },
+                (error) => {
+                  return error;
+                }
+              );
+      }
       e.target.reset();
       toast.success(t("You've Subscribed Successfully"));
     }
@@ -91,18 +105,14 @@ export default function BlogHeader() {
             style={{
               width: '100%',
               display: 'flex',
-              // justifyContent: 'space-between',
             }}
-            //  ref={form}
             onSubmit={sendEmail}
           >
             <input
               // autocomplete='false'
-              // type='email'
               name='email'
               style={{
                 width: '100%',
-                //   height: "10%",
                 border: 'none',
                 borderRadius: '35px',
                 paddingLeft: '5%',
