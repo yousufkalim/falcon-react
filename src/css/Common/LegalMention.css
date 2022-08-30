@@ -18,7 +18,7 @@
 
 .LegalMention_HeaderTitle {
   font-weight: 700 !important;
-  font-family: inter !important;
+  font-family: Raleway !important;
   font-size: 1.5rem !important;
   margin-top: 2% !important;
 }
@@ -50,7 +50,7 @@
 .LegalMention_ListDiv {
   width: 100%;
   margin: 1% 0;
-  cursor: pointer;
+  cursor: poRaleway;
 }
 
 .LegalMention_ListBar {
@@ -101,33 +101,33 @@
 }
 
 .LegalMention_Collapse_Body {
-        padding: 2% 5%;
-        background-color: #F5F6F8;
-        border-radius: 0 0 10px 10px;
-        cursor: auto;
+  padding: 2% 5%;
+  background-color: #f5f6f8;
+  border-radius: 0 0 10px 10px;
+  cursor: auto;
 }
 
 /* body content */
 .LegalMentions_Data_P {
   opacity: 0.7;
-  font-family: Inter !important;
+  font-family: Raleway !important;
   font-weight: 500 !important;
 }
 
 .LegalMentions_Data_H {
   font-weight: 700 !important;
-  font-family: Inter !important;
+  font-family: Raleway !important;
   opacity: 1;
 }
 
 .LegalMention_FalconConsulting {
   color: #003b7e;
-  font-family: Inter !important;
+  font-family: Raleway !important;
   opacity: 1;
   font-weight: 550;
 }
 table {
-  font-family: arial, sans-serif;
+  font-family: Raleway !important;
   border-collapse: collapse;
   width: 100%;
 }
@@ -171,7 +171,7 @@ tr:nth-child(even) {
   }
 
   .LegalMention_ListBar_Title {
-    font-size: .8rem !important;
+    font-size: 0.8rem !important;
     margin-left: 4% !important;
   }
 }

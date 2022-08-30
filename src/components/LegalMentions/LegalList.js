@@ -1,5 +1,5 @@
 import React from 'react';
-import { data } from '../../utils/Data';
+import { legalMentions } from '../../utils/Data';
 import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
@@ -15,7 +15,7 @@ export default function LegalList(props) {
   return (
     <>
       <div className='LegalMention_ListContainer'>
-        {data.map((item) => {
+        {legalMentions.map((item) => {
           return (
             <>
               <div className='LegalMention_ListDiv'>
