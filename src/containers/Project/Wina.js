@@ -17,6 +17,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import WinaService from '../../assets/images/wina_detailservice.svg';
 import Wina_Overview from '../../assets/images/detail_wina_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Project Detail (Wina)
 export default function Wina() {
@@ -153,6 +154,8 @@ export default function Wina() {
         // AvatarSrc={Kidcab_Avatar}
         name='Shane jhon'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

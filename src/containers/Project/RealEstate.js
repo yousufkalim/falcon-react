@@ -17,6 +17,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import RealService from '../../assets/images/real_detailservice.svg';
 import Real_Overview from '../../assets/images/detail_real_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function RealEstate() {
@@ -144,6 +145,8 @@ export default function RealEstate() {
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Steve Jobs'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

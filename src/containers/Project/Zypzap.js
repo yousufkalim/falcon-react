@@ -16,6 +16,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import ZypzapService from '../../assets/images/zypzap_detailservice.svg';
 import Zypzap_Overview from '../../assets/images/detail_zypzap_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function Zypzap() {
@@ -145,6 +146,8 @@ export default function Zypzap() {
         // AvatarSrc={Kidcab_Avatar}
         name='Valentin L.'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

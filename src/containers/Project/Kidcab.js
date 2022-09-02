@@ -17,6 +17,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import KidcabService from '../../assets/images/kc_detailservice.svg';
 import KC_Overview from '../../assets/images/detail_kc_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function Kidcab() {
@@ -152,6 +153,8 @@ export default function Kidcab() {
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Maxime Chevallier'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

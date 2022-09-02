@@ -17,6 +17,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import OrgaService from '../../assets/images/orga_detailservice.svg';
 import OP_Overview from '../../assets/images/detail_op_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function Orgaplan() {
@@ -141,6 +142,8 @@ export default function Orgaplan() {
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Zaara Aziz'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

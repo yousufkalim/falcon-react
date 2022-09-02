@@ -17,6 +17,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import EzBoxService from '../../assets/images/ez_detailservice.svg';
 import EZ_Overview from '../../assets/images/detail_ez_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function EZbox() {
@@ -139,6 +140,8 @@ export default function EZbox() {
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Eassa Awake'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

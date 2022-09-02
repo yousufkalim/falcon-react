@@ -17,6 +17,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import TiltService from '../../assets/images/tilt_detailservice.svg';
 import Tilt_Overview from '../../assets/images/detail_tilt_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function Tilt() {
@@ -153,6 +154,8 @@ export default function Tilt() {
         // AvatarSrc={Kidcab_Avatar}
         name='Laurent Louis-Henry'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

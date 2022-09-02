@@ -18,6 +18,7 @@ import { useTranslation } from 'react-i18next';
 import DcService from '../../assets/images/dc_detailservice.svg';
 import { motion, useScroll } from 'framer-motion';
 import DC_Overview from '../../assets/images/detail_dc_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function DesignConfection() {
@@ -147,6 +148,8 @@ export default function DesignConfection() {
           AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
           name='Designer JK'
         />
+        <DetailMoreProjects />
+
         <Footer />
       </div>
     </>

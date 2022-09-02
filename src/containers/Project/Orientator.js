@@ -17,6 +17,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import OrientatorService from '../../assets/images/orientator_detailservice.svg';
 import Orientator_Overview from '../../assets/images/detail_orientator_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function Orientator() {
@@ -146,6 +147,8 @@ export default function Orientator() {
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         name='Bilel S.'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

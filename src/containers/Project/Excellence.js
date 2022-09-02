@@ -16,6 +16,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import ExcellenceService from '../../assets/images/excellence_detailservice.svg';
 import Excellence_Overview from '../../assets/images/detail_erp_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function Excellence() {
@@ -135,6 +136,8 @@ export default function Excellence() {
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Ukhano'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

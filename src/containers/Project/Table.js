@@ -17,6 +17,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import TableService from '../../assets/images/table_detailservice.svg';
 import Table_Overview from '../../assets/images/detail_table_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function Table() {
@@ -152,6 +153,8 @@ export default function Table() {
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Shane Jhon'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

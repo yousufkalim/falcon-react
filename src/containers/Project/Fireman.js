@@ -17,6 +17,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import FiremenService from '../../assets/images/firemen_detailservice.svg';
 import Fireman_Overview from '../../assets/images/detail_fireman_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function Fireman() {
@@ -138,6 +139,8 @@ export default function Fireman() {
 
         name='Ludovic Crepy'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

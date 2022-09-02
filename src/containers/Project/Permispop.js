@@ -12,6 +12,7 @@ import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
 import DetailWebDev from '../../components/ProjectDetails/DetailWebDev';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
@@ -99,6 +100,7 @@ export default function Permispop() {
         feedback='We at Permispop are very impressed with all aspects of our website and mobile app, as it is user-friendly and work efficiently. We would highly recommend Falcon IT to anyone looking to build a website, web app or mobile application.'
       />
       {/* <DetailFeedback /> */}
+      <DetailMoreProjects />
       <Footer />
     </div>
   );
