@@ -20,7 +20,7 @@ const Policy = () => {
           content='falcon, falconit, falcon consulting, privacy policy, policies, terms and conditions,  '
         />
       </Helmet>
-      <NavBar />
+      <NavBar default />
       <PolicyHeader />
       <PolicyList />
       <LocationSection />

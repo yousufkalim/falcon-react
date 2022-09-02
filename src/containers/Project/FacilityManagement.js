@@ -16,6 +16,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import FmService from '../../assets/images/fm_detailservice.svg';
 import Facility_Overview from '../../assets/images/detail_facility_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function FacilityManagement() {
@@ -136,6 +137,8 @@ export default function FacilityManagement() {
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         name='Damien Dehoul'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

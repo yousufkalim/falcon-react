@@ -16,6 +16,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import RegistreService from '../../assets/images/registre_detailservice.svg';
 import Registre_Overview from '../../assets/images/detail_registre_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function RegisterRH() {
@@ -137,6 +138,8 @@ export default function RegisterRH() {
         // AvatarSrc={Kidcab_Avatar}
         name='Romain S.'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

@@ -15,6 +15,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import TeleService from '../../assets/images/tele_detailservice.svg';
 import Tele_Overview from '../../assets/images/detail_tele_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function Telehealth() {
@@ -134,6 +135,8 @@ export default function Telehealth() {
         // AvatarSrc={Kidcab_Avatar}
         name='Confidential'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

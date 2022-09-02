@@ -1,0 +1,547 @@
+import Microsoft from '../assets/images/client_microsoft.png';
+import Toyota from '../assets/images/client_toyota.png';
+import Accor from '../assets/images/client_accor.png';
+import Fnac from '../assets/images/client_fnac.png';
+import Canon from '../assets/images/client_canon.png';
+import Action from '../assets/images/client_action.png';
+import Expensya from '../assets/images/client_expensya.png';
+import Upclear from '../assets/images/client_upclear.png';
+import Pharma from '../assets/images/client_pharma.png';
+import Idex from '../assets/images/client_idex.png';
+import Wolters from '../assets/images/client_wolters.png';
+import Agricole from '../assets/images/client_agricole.png';
+import AFD from '../assets/images/client_afd.png';
+import DDS from '../assets/images/client_dds.png';
+
+export const AllProjects = [
+  {
+    to: '/ourprojects/orgaplan',
+    title: 'Orgaplan',
+    index: 1,
+    desp: 'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_update.png`,
+  },
+  {
+    to: '/ourprojects/orientator',
+    title: 'Orientator',
+    index: 2,
+    desp: 'Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_update.png`,
+  },
+  {
+    to: '/ourprojects/registerrh',
+    title: 'Registre-RH',
+    index: 3,
+    desp: 'This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_update.png`,
+  },
+  {
+    to: '/ourprojects/telehealthplatform',
+    title: 'Movement detection for health providers',
+    index: 4,
+    desp: 'Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_update.png`,
+  },
+  {
+    to: '/ourprojects/zypzap',
+    title: 'Zypzap',
+    index: 5,
+    desp: 'ZypZap is a gaming platform by Falcon IT.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_update.png`,
+  },
+  {
+    to: '/ourprojects/permispop',
+    title: 'Permispop',
+    index: 6,
+    desp: 'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`,
+  },
+  {
+    to: '/ourprojects/quadrabase',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_update.png`,
+    title: 'Quadrabase',
+    desp: 'Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.',
+    index: 7,
+  },
+  {
+    to: '/ourprojects/yuwway',
+    title: 'Yuwway',
+    desp: "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs.",
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_update.png`,
+    index: 8,
+  },
+  {
+    to: '/ourprojects/sindoor',
+    title: 'Sindoor',
+    desp: 'Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_update.png`,
+    index: 9,
+  },
+  {
+    to: '/ourprojects/designconfection',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/designconf_update.png`,
+    title: 'Design Confection Ethiques',
+    desp: 'A web app designed to help customers with customized stitching to receive your creation at your home.',
+    index: 10,
+  },
+  {
+    index: 11,
+    to: '/ourprojects/realestate',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_update.png`,
+    title: 'Real Estate',
+    desp: 'The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.',
+  },
+  {
+    index: 11,
+    to: '/ourprojects/kidcab',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_update.png`,
+    title: 'Kidcab',
+    desp: 'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.',
+  },
+  {
+    to: '/ourprojects/tilt',
+    title: 'Tilt',
+    desp: 'Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_update.png`,
+    index: 12,
+  },
+  {
+    index: 13,
+    to: '/ourprojects/ezbox',
+    title: 'EZbox',
+    desp: 'EZBox media is a platform providing different services including',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_update.png`,
+  },
+  {
+    index: 14,
+    to: '/ourprojects/facilitymanagement',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_update.png`,
+    title: 'Facility Management',
+    desp: 'This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.',
+  },
+  {
+    index: 15,
+    to: '/ourprojects/fireman',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/fireman_update.png`,
+    title: 'Fireman',
+    desp: 'Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:',
+  },
+  {
+    index: 16,
+    to: '/ourprojects/excellence',
+    title: 'ERP Excellence',
+    desp: 'Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_update.png`,
+  },
+  {
+    index: 17,
+    to: '/ourprojects/wina',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_update.png`,
+    title: 'Winaa',
+    desp: 'Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. ',
+  },
+  {
+    index: 18,
+    to: '/ourprojects/table',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_update.png`,
+    title: 'Table',
+    desp: 'This project consists of two apps one is for the restaurant and other is for the end user.',
+  },
+  {
+    LogoSrc: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo.svg`,
+    DividerTheme: '#007536',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_update.png`,
+    heading: 'Tajweed',
+    title: 'Tajweed',
+    desp: 'Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.',
+    index: 19,
+    BtnText: 'Visit Website',
+    href: 'https://tajweedmadeeasy.com/home',
+    para1:
+      'Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.',
+    para2: '•	User can signup and start learning Quran with Tajweed.',
+    para3: '•	Practice lessons are available.',
+    para4: '•	User can repeat the lesson at any time without an internet connection',
+    para5:
+      '•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy.',
+  },
+];
+export const Construction = [
+  {
+    to: '/ourprojects/orgaplan',
+    title: 'Orgaplan',
+    index: 1,
+    desp: 'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_update.png`,
+  },
+  {
+    to: '/ourprojects/quadrabase',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_update.png`,
+    title: 'Quadrabase',
+    desp: 'Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.',
+    index: 2,
+  },
+  {
+    index: 3,
+    to: '/ourprojects/realestate',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_update.png`,
+    title: 'Real Estate',
+    desp: 'The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.',
+  },
+  {
+    index: 4,
+    to: '/ourprojects/fireman',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/fireman_update.png`,
+    title: 'Fireman',
+    desp: 'Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:',
+  },
+];
+export const Education = [
+  {
+    to: '/ourprojects/orientator',
+    title: 'Orientator',
+    index: 1,
+    desp: 'Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_update.png`,
+  },
+  {
+    to: '/ourprojects/permispop',
+    title: 'Permispop',
+    index: 2,
+    desp: 'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`,
+  },
+  {
+    index: 3,
+    to: '/ourprojects/wina',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_update.png`,
+    title: 'Winaa',
+    desp: 'Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. ',
+  },
+  {
+    to: '',
+    LogoSrc: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo.svg`,
+    DividerTheme: '#007536',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_update.png`,
+    heading: 'Tajweed',
+    title: 'Tajweed',
+    desp: 'Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.',
+    index: 4,
+    BtnText: 'Visit Website',
+    href: 'https://tajweedmadeeasy.com/home',
+    para1:
+      'Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.',
+    para2: '•	User can signup and start learning Quran with Tajweed.',
+    para3: '•	Practice lessons are available.',
+    para4: '•	User can repeat the lesson at any time without an internet connection',
+    para5:
+      '•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy.',
+  },
+];
+export const HumanResources = [
+  {
+    to: '/ourprojects/registerrh',
+    title: 'Registre-RH',
+    index: 1,
+    desp: 'This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_update.png`,
+  },
+  {
+    to: '/ourprojects/orgaplan',
+    title: 'Orgaplan',
+    index: 2,
+    desp: 'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_update.png`,
+  },
+  {
+    index: 3,
+    to: '/ourprojects/facilitymanagement',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_update.png`,
+    title: 'Facility Management',
+    desp: 'This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.',
+  },
+  {
+    index: 4,
+    to: '/ourprojects/excellence',
+    title: 'ERP Excellence',
+    desp: 'Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_update.png`,
+  },
+];
+export const Health = [
+  {
+    to: '/ourprojects/telehealthplatform',
+    title: 'Movement detection for health providers',
+    index: 1,
+    desp: 'Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_update.png`,
+  },
+];
+export const Gaming = [
+  {
+    to: '/ourprojects/zypzap',
+    title: 'Zypzap',
+    index: 1,
+    desp: 'ZypZap is a gaming platform by Falcon IT.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_update.png`,
+  },
+];
+export const Transport = [
+  {
+    to: '/ourprojects/yuwway',
+    title: 'Yuwway',
+    desp: "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs.",
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_update.png`,
+    index: 1,
+  },
+  {
+    to: '/ourprojects/permispop',
+    title: 'Permispop',
+    index: 2,
+    desp: 'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`,
+  },
+  {
+    index: 3,
+    to: '/ourprojects/kidcab',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_update.png`,
+    title: 'Kidcab',
+    desp: 'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.',
+  },
+  {
+    to: '/ourprojects/tilt',
+    title: 'Tilt',
+    desp: 'Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_update.png`,
+    index: 4,
+  },
+];
+export const Business = [
+  {
+    to: '/ourprojects/orgaplan',
+    title: 'Orgaplan',
+    index: 1,
+    desp: 'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_update.png`,
+  },
+  {
+    to: '/ourprojects/registerrh',
+    title: 'Registre-RH',
+    index: 2,
+    desp: 'This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_update.png`,
+  },
+  {
+    to: '/ourprojects/telehealthplatform',
+    title: 'Movement detection for health providers',
+    index: 3,
+    desp: 'Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_update.png`,
+  },
+  {
+    to: '/ourprojects/permispop',
+    title: 'Permispop',
+    index: 4,
+    desp: 'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`,
+  },
+  {
+    to: '/ourprojects/yuwway',
+    title: 'Yuwway',
+    desp: "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs.",
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_update.png`,
+    index: 5,
+  },
+  {
+    to: '/ourprojects/sindoor',
+    title: 'Sindoor',
+    desp: 'Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_update.png`,
+    index: 6,
+  },
+  {
+    to: '/ourprojects/designconfection',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/designconf_update.png`,
+    title: 'Design Confection Ethiques',
+    desp: 'A web app designed to help customers with customized stitching to receive your creation at your home.',
+    index: 7,
+  },
+  {
+    index: 8,
+    to: '/ourprojects/realestate',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_update.png`,
+    title: 'Real Estate',
+    desp: 'The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.',
+  },
+  {
+    index: 9,
+    to: '/ourprojects/kidcab',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_update.png`,
+    title: 'Kidcab',
+    desp: 'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.',
+  },
+  {
+    to: '/ourprojects/tilt',
+    title: 'Tilt',
+    desp: 'Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_update.png`,
+    index: 10,
+  },
+  {
+    index: 11,
+    to: '/ourprojects/facilitymanagement',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_update.png`,
+    title: 'Facility Management',
+    desp: 'This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.',
+  },
+  {
+    index: 12,
+    to: '/ourprojects/excellence',
+    title: 'ERP Excellence',
+    desp: 'Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_update.png`,
+  },
+  {
+    index: 13,
+    to: '/ourprojects/wina',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_update.png`,
+    title: 'Winaa',
+    desp: 'Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. ',
+  },
+  {
+    index: 14,
+    to: '/ourprojects/table',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_update.png`,
+    title: 'Table',
+    desp: 'This project consists of two apps one is for the restaurant and other is for the end user.',
+  },
+];
+export const Fashion = [
+  {
+    to: '/ourprojects/designconfection',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/designconf_update.png`,
+    title: 'Design Confection Ethiques',
+    desp: 'A web app designed to help customers with customized stitching to receive your creation at your home.',
+    index: 1,
+  },
+  {
+    index: 2,
+    to: '/ourprojects/excellence',
+    title: 'ERP Excellence',
+    desp: 'Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_update.png`,
+  },
+];
+export const Food = [
+  {
+    to: '/ourprojects/tilt',
+    title: 'Tilt',
+    desp: 'Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_update.png`,
+    index: 1,
+  },
+  {
+    index: 2,
+    to: '/ourprojects/table',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_update.png`,
+    title: 'Table',
+    desp: 'This project consists of two apps one is for the restaurant and other is for the end user.',
+  },
+];
+export const Advertisement = [
+  {
+    index: 1,
+    to: '/ourprojects/ezbox',
+    title: 'EZbox',
+    desp: 'EZBox media is a platform providing different services including',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_update.png`,
+  },
+];
+export const clientData = [
+  {
+    title: 'Microsoft',
+    id: '#01',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [Microsoft],
+    bg: [Microsoft],
+  },
+  {
+    title: 'Toyota',
+    id: '#02',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [Toyota],
+  },
+  {
+    title: 'Accor Hotel',
+    id: '#03',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [Accor],
+  },
+  {
+    title: 'Fnac',
+    id: '#04',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [Fnac],
+  },
+  {
+    title: 'Canon',
+    id: '#05',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [Canon],
+  },
+  {
+    title: 'Action contre la faim',
+    id: '#06',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [Action],
+  },
+  {
+    title: 'Expensya',
+    id: '#07',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [Expensya],
+  },
+  {
+    title: 'Upclear',
+    id: '#08',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [Upclear],
+  },
+  {
+    title: 'Big Pharma',
+    subtitle: '(CIP laboratoires)',
+    id: '#09',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [Pharma],
+  },
+  {
+    title: 'Idex',
+    id: '#10',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [Idex],
+  },
+  {
+    title: 'Wolters Kluwer',
+    id: '#11',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [Wolters],
+  },
+  {
+    title: 'Crédit Agricole',
+    id: '#12',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [Agricole],
+  },
+  {
+    title: 'AFD',
+    id: '#13',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [AFD],
+  },
+  {
+    title: 'DDS Logistics',
+    id: '#14',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [DDS],
+  },
+];

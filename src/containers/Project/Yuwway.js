@@ -17,6 +17,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import YuwayService from '../../assets/images/yuway_detailservice.svg';
 import Yuway_Overview from '../../assets/images/detail_yuway_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function Yuwway() {
@@ -145,6 +146,8 @@ export default function Yuwway() {
         // AvatarSrc={Kidcab_Avatar}
         name='Jamel L.'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

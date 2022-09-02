@@ -1,149 +1,143 @@
-.menu-icon{
-     width: 50px;
-    height: 50px;
-     background: red;
-        position: fixed;
-        z-index:2;
-        right: 50px;
-        top: 10px;
-        cursor: pointer;
+.menu-icon {
+  width: 50px;
+  height: 50px;
+  background: red;
+  position: fixed;
+  z-index: 2;
+  right: 50px;
+  top: 10px;
+  cursor: pointer;
 }
-.MenuExpandDiv{
+.MenuExpandDiv {
   width: 0;
-  transition: .5s;
+  transition: 0.5s;
 }
-.MenuHoverDiv:hover .MenuExpandDiv{
+.MenuHoverDiv:hover .MenuExpandDiv {
   width: 20px;
 }
-.menu-icon__line{
-    height: 2px;
-		width: 50px;
-		display: block;
-		background-color: #fff;
-		margin-bottom: 4px;
-		transition: transform .2s ease, background-color .5s ease;
+.menu-icon__line {
+  height: 2px;
+  width: 50px;
+  display: block;
+  background-color: #fff;
+  margin-bottom: 4px;
+  transition: transform 0.2s ease, background-color 0.5s ease;
 }
-.menu-icon__line-left{
-    width: 50px / 2;
+.menu-icon__line-left {
+  width: 50px / 2;
 }
-.menu-icon__line-right{
-    width: 50px / 2;
-		float: right;
+.menu-icon__line-right {
+  width: 50px / 2;
+  float: right;
 }
 
 /* $menu--items--count: 4; */
 /* .menu-icon{ */
-    .menu-icon__line:hover{
-        background-color: #000;
-        transform: translateX(0px) rotate(-45deg);
-    }
-    .menu-icon__line-left:hover{
-        transform: translateX(1px) rotate(45deg);
-    }
-    .menu-icon__line-right:hover{
-        transform: translateX(-2px) rotate(45deg);
-    }
-    .newMenuDiv{
-        width: 60%;
-    transition-duration: 2s;
-
-    transition-delay: 2s;
-
-    }
-    #menuId{
-            margin: 1% 2%;  
-                color: #e5e5e5;
-                font-weight: 400;
-                font-size: 2rem;
-        list-style: none;
-        width: 100%;
-        transition: 1s;
-        letter-spacing: .15rem;
-    }
-    #disableId{
-            margin: 1% 2%;  
-                color: #B3B3B3;
-                font-weight: 400;
-                font-size: 2rem;
-        list-style: none;
-        width: 100%;
-        letter-spacing: .15rem;
-        transition: 1s;
-    }
-    .dropdown_new{
-        position: relative;
-        width: 100%;
-    }
-    #c{
-        position: absolute;
-        width: 250px;
-        height: 0px;
-        transition: .5s;
-        overflow: hidden;
-    }
-
-#b{
-    height: 2px;
-    background: #fff;
-    width:30%;
-    margin-top: 1px;
-    transition: .5s;
+.menu-icon__line:hover {
+  background-color: #000;
+  transform: translateX(0px) rotate(-45deg);
 }
-#b_disable{
-    height: 2px;
-    background: #B3B3B3;
-    width:30%;
-    margin-top: 1px;
-    transition: .5s;
+.menu-icon__line-left:hover {
+  transform: translateX(1px) rotate(45deg);
+}
+.menu-icon__line-right:hover {
+  transform: translateX(-2px) rotate(45deg);
+}
+.newMenuDiv {
+  width: 60%;
+  transition-duration: 2s;
+
+  transition-delay: 2s;
+}
+#menuId {
+  margin: 1% 2%;
+  color: #e5e5e5;
+  font-weight: 400;
+  font-size: 2rem;
+  list-style: none;
+  width: 100%;
+  transition: 1s;
+  letter-spacing: 0.15rem;
+}
+#disableId {
+  margin: 1% 2%;
+  color: #b3b3b3;
+  font-weight: 400;
+  font-size: 2rem;
+  list-style: none;
+  width: 100%;
+  letter-spacing: 0.15rem;
+  transition: 1s;
+}
+.dropdown_new {
+  position: relative;
+  width: 100%;
+}
+#c {
+  position: absolute;
+  width: 250px;
+  height: 0px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#b {
+  height: 2px;
+  background: #fff;
+  width: 30%;
+  margin-top: 1px;
+  transition: 0.5s;
+}
+#b_disable {
+  height: 2px;
+  background: #b3b3b3;
+  width: 30%;
+  margin-top: 1px;
+  transition: 0.5s;
 }
 #menuId:hover + #b {
-    width:100%;
-    background: #42C2FF;
+  width: 100%;
+  background: #42c2ff;
 }
 #menuId:hover {
-  color: #42C2FF;
-
-
+  color: #42c2ff;
 }
 #contactHover:hover + #b {
-    width:100%;
-
+  width: 100%;
 }
 .SocialMediaText:hover + #b {
-    width:100%;
-
+  width: 100%;
 }
 
-.MenuDropdownList{
-transform: scaleX(.9);
-transition: .5s;
-
+.MenuDropdownList {
+  transform: scaleX(0.9);
+  transition: 0.5s;
 }
-.MenuDropdownList:hover{
-transform: scaleX(1);
+.MenuDropdownList:hover {
+  transform: scaleX(1);
 }
-.MenuDropdownLinks{
-    font-size: 1.4rem;
-    color: #e5e5e5;
-    text-transform: capitalize !important;
+.MenuDropdownLinks {
+  font-size: 1.4rem;
+  color: #e5e5e5;
+  text-transform: capitalize !important;
 }
-.MenuDropdownLinks:hover{
-    color: #42C2FF;
+.MenuDropdownLinks:hover {
+  color: #42c2ff;
 }
-.MenuDropdownLinksDisable{
-    font-size: 1.4rem;
-    color: #B3B3B3;
+.MenuDropdownLinksDisable {
+  font-size: 1.4rem;
+  color: #b3b3b3;
 }
-.spaceDiv{
-    width: 0px;
-    transition: 1s;
+.spaceDiv {
+  width: 0px;
+  transition: 1s;
 }
-.dropdown_new:hover .spaceDiv{
-    width: 60px;
+.dropdown_new:hover .spaceDiv {
+  width: 60px;
 }
-.dropdown_new:hover #c{
-    height: 200px;
-    /* overflow: visible; */
+.dropdown_new:hover #c {
+  height: 200px;
+  /* overflow: visible; */
 }
 /* .spaceDiv{
     width: 100px;
@@ -159,215 +153,209 @@ transform: scaleX(1);
     position: fixed !important;
 } */
 .container {
-    display: inline-block;
-    cursor: pointer;
-    position: fixed;
-    right: 5%;
-    top:1.5%;
-    z-index: 999999999 !important;
-  }
-  .change{
-      width: 30px;
-      height: 30px;
-      position: fixed;
-      right: 5%;
-      top:1.5%;
-      z-index: 999999999 !important;
-    cursor: pointer;
-
-  }
-  .changes{
-      width: 30px;
-      height: 30px;
-      position: fixed;
-      right: 5%;
-      top:1.5%;
-      z-index: 999999999 !important;
-    cursor: pointer;
-
-  }
-  .logoNew{
-    display: inline-block;
-    cursor: pointer;
-    position: fixed;
-    left: 5%;
-    top:1.5%;
-    z-index: 999999999999 !important;
-    width: 10% !important;
-  }
-  .bar1 {
-    width: 15px;
-    height: 3px;
-    background-color: #003b7e;
-    margin: 5px 0;
-    transition: 0.4s;
-  }
-  .bar2{
-    width: 35px;
-    height: 3px;
-    background-color: #003b7e;
-    margin: 5px 0;
-    transition: 0.4s;
-  }
-  .bar3 {
-    width: 35px;
-    height: 3px;
-    margin: 5px 0;
-    transition: 0.4s;
-    display: flex;
-    justify-content: flex-end;
-  }
-  .abc {
-    width: 15px;
-    background-color: #003b7e;
-  }
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-1px, 0px);
-    transform: rotate(-45deg) translate(-1px, 0px);
-    width: 35px;
-    background-color: #ffffff;
-    position: fixed;
-    right: 5%;
-    top:2.5%;
-    z-index: 999999999 !important;
-    cursor: pointer;
-
-    
-  }
-  .change .bar2 {opacity: 0;}
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-1px, 1px);
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  right: 5%;
+  top: 1.5%;
+  z-index: 999999999 !important;
+}
+.change {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  right: 5%;
+  top: 1.5%;
+  z-index: 999999999 !important;
+  cursor: pointer;
+}
+.changes {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  right: 5%;
+  top: 1.5%;
+  z-index: 999999999 !important;
+  cursor: pointer;
+}
+.logoNew {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  left: 5%;
+  top: 1.5%;
+  z-index: 999999999999 !important;
+  width: 10% !important;
+}
+.bar1 {
+  width: 15px;
+  height: 3px;
+  background-color: #003b7e;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+.bar2 {
+  width: 35px;
+  height: 3px;
+  background-color: #003b7e;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+.bar3 {
+  width: 35px;
+  height: 3px;
+  margin: 5px 0;
+  transition: 0.4s;
+  display: flex;
+  justify-content: flex-end;
+}
+.abc {
+  width: 15px;
+  background-color: #003b7e;
+}
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-1px, 0px);
+  transform: rotate(-45deg) translate(-1px, 0px);
+  width: 35px;
+  background-color: #ffffff;
+  position: fixed;
+  right: 5%;
+  top: 2.5%;
+  z-index: 999999999 !important;
+  cursor: pointer;
+}
+.change .bar2 {
+  opacity: 0;
+}
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-1px, 1px);
   transform: rotate(45deg) translate(-1px, 1px);
-    position: fixed;
-    right: 5%;
-    top:2.5%;
-    cursor: pointer;
+  position: fixed;
+  right: 5%;
+  top: 2.5%;
+  cursor: pointer;
 
-    z-index: 999999999 !important;
-
-  }
-  .change .abc {
-    width: 35px;
-    background-color: #ffffff;
-
-
-  }
-  /* .css-14fbbh9-MuiPaper-root-MuiAppBar-root{
+  z-index: 999999999 !important;
+}
+.change .abc {
+  width: 35px;
+  background-color: #ffffff;
+}
+/* .css-14fbbh9-MuiPaper-root-MuiAppBar-root{
       color:red !important;
   } */
-  .containers {
-    display: inline-block;
-    cursor: pointer;
-    position: fixed;
-    right: 5%;
-    top:1.5%;
-    z-index: 999999999 !important;
-  }
-  .bars1 {
-    width: 15px;
-    height: 3px;
-    background-color: #ffffff;
-    margin: 5px 0;
-    transition: 0.4s;
-  }
-  .bars2{
-    width: 35px;
-    height: 3px;
-    background-color: #ffffff;
-    margin: 5px 0;
-    transition: 0.4s;
-  }
-  .bars3 {
-    width: 35px;
-    height: 3px;
-    margin: 5px 0;
-    transition: 0.4s;
-    display: flex;
-    justify-content: flex-end;
-  }
-  .abcd {
-    width: 15px;
-    background-color: #ffffff;
-  }
- 
-  .changes .bars1 {
-    -webkit-transform: rotate(-45deg) translate(-1px, 0px);
-    transform: rotate(-45deg) translate(-1px, 0px);
-    width: 35px;
-    background-color: #ffffff;
-    position: fixed;
-    right: 5%;
-    top:2.5%;
-    z-index: 999999999 !important;
-    cursor: pointer;
+.containers {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  right: 5%;
+  top: 1.5%;
+  z-index: 999999999 !important;
+}
+.bars1 {
+  width: 15px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+.bars2 {
+  width: 35px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+.bars3 {
+  width: 35px;
+  height: 3px;
+  margin: 5px 0;
+  transition: 0.4s;
+  display: flex;
+  justify-content: flex-end;
+}
+.abcd {
+  width: 15px;
+  background-color: #ffffff;
+}
 
-    
-  }
-  .changes .bars2 {opacity: 0;}
-  .changes .bars3 {
-    -webkit-transform: rotate(45deg) translate(-1px, 1px);
+.changes .bars1 {
+  -webkit-transform: rotate(-45deg) translate(-1px, 0px);
+  transform: rotate(-45deg) translate(-1px, 0px);
+  width: 35px;
+  background-color: #ffffff;
+  position: fixed;
+  right: 5%;
+  top: 2.5%;
+  z-index: 999999999 !important;
+  cursor: pointer;
+}
+.changes .bars2 {
+  opacity: 0;
+}
+.changes .bars3 {
+  -webkit-transform: rotate(45deg) translate(-1px, 1px);
   transform: rotate(45deg) translate(-1px, 1px);
-    position: fixed;
-    right: 5%;
-    top:2.5%;
-    cursor: pointer;
+  position: fixed;
+  right: 5%;
+  top: 2.5%;
+  cursor: pointer;
 
-    z-index: 999999999 !important;
-
-  }
-  .changes .abcd {
-    width: 35px;
-    background-color: #ffffff;
-
-
-  }
-
+  z-index: 999999999 !important;
+}
+.changes .abcd {
+  width: 35px;
+  background-color: #ffffff;
+}
 
 @media only screen and (max-width: 1400px) {
-    .newMenuDiv{
-        width: 70%;
-    }
+  .newMenuDiv {
+    width: 70%;
+  }
 }
 @media only screen and (max-width: 1024px) {
-    .newMenuDiv{
-        width: 75%;
-    }
-    #menuId{
-            font-size: 1.7rem;
-
-}
-.MenuDropdownLinks{
+  .newMenuDiv {
+    width: 75%;
+  }
+  #menuId {
+    font-size: 1.7rem;
+  }
+  .MenuDropdownLinks {
     font-size: 1rem;
-}
-.MenuDropdownLinksDisable{
-  font-size: 1rem;
-}
-.logoNew{
+  }
+  .MenuDropdownLinksDisable {
+    font-size: 1rem;
+  }
+  .logoNew {
     width: 15% !important;
   }
 }
+@media only screen and (max-width: 900px) {
+  .destopView {
+    display: none !important;
+  }
+}
 @media only screen and (max-width: 768px) {
-    .newMenuDiv{
-        width: 85%;
-    }
-    #menuId{
-            font-size: 1.5rem;
-
-}
-.MenuDropdownLinks{
+  .newMenuDiv {
+    width: 85%;
+  }
+  #menuId {
+    font-size: 1.5rem;
+  }
+  .MenuDropdownLinks {
     font-size: 1rem;
-}
-.logoNew{
+  }
+  .logoNew {
     width: 20% !important;
   }
 }
 @media only screen and (max-width: 600px) {
-
-.destopView{
-    display: none !important;
-}
-.logoNew{
+  .logoNew {
     width: 25% !important;
   }
 }
-
+@media only screen and (max-width: 480px) {
+  .logoNew {
+    width: 33% !important;
+  }
+}

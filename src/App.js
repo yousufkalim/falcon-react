@@ -58,7 +58,7 @@ function App() {
           color='66, 195, 255'
           outerAlpha={0.2}
           innerScale={1.2}
-          outerScale={2.5}
+          outerScale={1.5}
           clickables={[
             'a',
             'input[type="text"]',

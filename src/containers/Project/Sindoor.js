@@ -16,6 +16,7 @@ import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import SindoorService from '../../assets/images/sindoor_detailservice.svg';
 import Sindoor_Overview from '../../assets/images/detail_sindoor_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function Sindoor() {
@@ -140,6 +141,8 @@ export default function Sindoor() {
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name='Muzammal Chaudhry'
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );

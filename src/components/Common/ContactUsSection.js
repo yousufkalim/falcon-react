@@ -262,7 +262,7 @@ export default function ContactUsSection(props) {
                 <div style={{ width: '100%' }}>
                   <div style={{ width: '50%' }}>
                     {localStorage.getItem('i18nextLng') === 'fr' ? (
-                      <a href='https://calendly.com/falconconsulting'>
+                      <a href='https://calendly.com/falconconsulting' target='_blank'>
                         <div className='SocialMediaDiv'>
                           <img
                             className='SocialMediaIcons'
@@ -279,7 +279,7 @@ export default function ContactUsSection(props) {
                         </div>
                       </a>
                     ) : (
-                      <a href='http://calendly.com/falconit'>
+                      <a href='http://calendly.com/falconit' target='_blank'>
                         <div className='SocialMediaDiv'>
                           <img
                             className='SocialMediaIcons'
@@ -298,7 +298,7 @@ export default function ContactUsSection(props) {
                     )}
                   </div>
                   <div style={{ width: '50%' }}>
-                    <a href='mailto:contact@falconconsulting.fr'>
+                    <a href='mailto:contact@falconconsulting.fr' target='_blank'>
                       <div className='SocialMediaDiv'>
                         <img
                           className='SocialMediaIcons'

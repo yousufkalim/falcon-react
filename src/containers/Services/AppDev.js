@@ -41,7 +41,7 @@ export default function AppDev() {
           content='App development, application development, IOS development, android development, app developers, app development software, cross-platform applications, hybrid applications'
         />
       </Helmet>
-      <NavBar />
+      <NavBar default />
       <Header
         Title='APP DEVELOPMENT'
         Titlecolor='#003B7E'

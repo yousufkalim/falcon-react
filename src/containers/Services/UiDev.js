@@ -41,7 +41,7 @@ export default function UiDev() {
           content='web UI developer, user interface development, front-end UI UX, web ui / UX developer'
         />
       </Helmet>
-      <NavBar />
+      <NavBar default />
       <Header
         Title='UI/UX DEVELOPMENT'
         Titlecolor='#003B7E'

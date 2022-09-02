@@ -17,6 +17,8 @@ import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet';
 import ServiceImg from '../../assets/images/qb_detailservice.svg';
 import QB_Overview from '../../assets/images/detail_qb_overview.svg';
+import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
+
 // Home Component
 export default function Quadrabase() {
   const { i18n, t } = useTranslation();
@@ -121,6 +123,8 @@ export default function Quadrabase() {
 
         // location=""
       />
+      <DetailMoreProjects />
+
       <Footer />
     </div>
   );
