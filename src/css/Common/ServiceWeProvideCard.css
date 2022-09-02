@@ -1,0 +1,93 @@
+.ServiceCard_MainDiv {
+  width: 100%;
+  height: 280px;
+  padding: 8% 5%;
+  box-shadow: 0px 3.23497px 12.1311px 4.04372px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  margin: 5% 0;
+  transition: 0.5s;
+  transform: scale(1);
+}
+.ServiceCard_Link {
+  color: #000;
+}
+.ServiceCard_ImageDiv {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ServiceCard_Image {
+  color: #000;
+  transition: 0.5s;
+}
+
+.ServiceCard_Divider {
+  width: 20%;
+  height: 4px;
+  background: #00a4ef;
+  margin: 5% 0 !important;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.ServiceCard_heading {
+  margin: 3% 0;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.ServiceCard_desp {
+  margin: 5% 0 3% 0;
+  transition: 0.5s;
+}
+.ServiceCard_MainDiv:hover {
+  background: #003b7e;
+  transform: scale(1.05);
+}
+.ServiceCard_MainDiv:hover .ServiceCard_Image {
+  color: #fff !important;
+}
+.ServiceCard_MainDiv:hover .ServiceCard_Divider {
+  background: #fff !important;
+}
+.ServiceCard_MainDiv:hover .ServiceCard_heading {
+  color: #fff !important;
+}
+.ServiceCard_MainDiv:hover .ServiceCard_desp {
+  color: #fff !important;
+  opacity: 0.7;
+}
+
+/* Service we provide section */
+
+.ServiceCardSection_MainDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ServiceCardSection_ContainerGrid {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 10%;
+  width: 90%;
+}
+.ServiceCardSection_SectionHeaderDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ServiceCardSection_Divider {
+  height: 5px;
+  width: 10%;
+  background: #00a4ef;
+  border-radius: 10px;
+}
+.ServiceCardSection_H {
+  margin: 1% 0;
+  color: #003b7e;
+}
+.ServiceCardSection_P {
+  color: rgba(64, 64, 64, 0.7);
+}
