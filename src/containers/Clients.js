@@ -3,8 +3,8 @@ import React from 'react';
 
 // Importing Components
 import NavBar from '../components/Common/NavBar';
-import Header from '../components/Common/Header';
-import ClientsList from '../components/Common/ClientsList';
+import Header from '../components/Clients/ClientHeader';
+import ClientsList from '../components/Clients/ClientsList';
 import Footer from '../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
@@ -29,14 +29,8 @@ export default function Clients() {
           content='projects, development projects, software development projects, application development, UI/UX development'
         />
       </Helmet>
-      <NavBar />
-      <Header
-        // ColorTitle="ALL PROJECTS "
-        Title='Our Clients'
-        Description='Falcon Consulting had the opportunity to work on  various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time. '
-        ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ProjectHeaderImg.svg`}
-        HeaderParaClassName
-      />
+      <NavBar transparent />
+      <Header />
       <ClientsList />
       <Footer />
     </div>
