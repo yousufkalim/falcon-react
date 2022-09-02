@@ -31,6 +31,7 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
             height: '100vh',
             position: 'absolute',
             left: '0',
+            zIndex: '9999999',
           }}
           animate={{
             y: [-1000, 0],
@@ -559,7 +560,7 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                     </Link>
                   </ListItemButton>
                   <ListItemButton id='Mob_nav'>
-                    <Link className='Nav_links' to={`/ourprojects`}>
+                    <Link className='Nav_links' to={`/clients`}>
                       <ListItemText primary={t('Clients')} />
                     </Link>
                   </ListItemButton>

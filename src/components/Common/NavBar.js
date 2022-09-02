@@ -1,8 +1,10 @@
 import * as React from 'react';
+import { useEffect } from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import NavBarMenu from './NewNavMenu';
+import { useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { useScrollPosition } from '../../utils/ScrollPosition';
 import { AnimatePresence, motion, useScroll } from 'framer-motion';
@@ -19,9 +21,14 @@ export default function NavBar(props) {
     SetActive(!Active);
   };
   const { language } = i18n;
+  let { pathname } = useLocation();
+  useEffect(() => {
+    document.body.style.overflow = 'visible';
+  }, [pathname]);
+
   return (
     <>
-      {props.ContactUs ? (
+      {props.ContactUs && (
         <>
           {!Menu && (
             <motion.div
@@ -77,7 +84,8 @@ export default function NavBar(props) {
             </div>
           </div>
         </>
-      ) : (
+      )}
+      {props.default && (
         <>
           <div className='logoNew'>
             <Link className='NavLogo_Link' to={`/`}>
@@ -98,6 +106,11 @@ export default function NavBar(props) {
             onClick={() => {
               myFunction();
               SetMenu(!Menu);
+              if (!Menu) {
+                document.body.style.overflow = 'hidden';
+              } else {
+                document.body.style.overflow = 'visible';
+              }
             }}
           >
             <div className='bar1'></div>
@@ -108,8 +121,67 @@ export default function NavBar(props) {
           </div>
         </>
       )}
+      {props.transparent && (
+        <>
+          {/* {!Menu && (
+            <motion.div
+              className='progress-bar'
+              style={{
+                scaleX: scrollYProgress,
+                background: props.scrollBarBG ? props.scrollBarBG : 'transparent',
+              }}
+            />
+          )} */}
+          <div className={!Menu ? '*' : 'root'}>
+            <div className='logoNew'>
+              <Link className='NavLogo_Link' to={`/`}>
+                <img
+                  className='Falcon_logo'
+                  alt='logo'
+                  // src={
+                  //   Active
+                  //     ? WhiteLogo
+                  //     : `${process.env.REACT_APP_MEDIA_URL}/uploads/images/logo.svg`
+                  // }
+                  src={WhiteLogo}
+                  style={{ width: '100%', margin: '1% 0', cursor: 'pointer' }}
+                />
+              </Link>
+            </div>
 
-      {props.ContactUs ? (
+            <div
+              className={Active ? 'changes' : 'containers'}
+              onClick={() => {
+                myFunction();
+                SetMenu(!Menu);
+              }}
+            >
+              <div
+                className='bars1'
+                style={{
+                  background: '#fff',
+                }}
+              ></div>
+              <div
+                className='bars2'
+                style={{
+                  background: '#fff',
+                }}
+              ></div>
+              <div className='bars3'>
+                <div
+                  className='abcd'
+                  style={{
+                    background: '#fff',
+                  }}
+                ></div>
+              </div>
+            </div>
+          </div>
+        </>
+      )}
+
+      {props.ContactUs && (
         <Box className='NavBarBox' sx={{ flexGrow: 1 }}>
           <AppBar
             className='AppBarBox'
@@ -132,13 +204,36 @@ export default function NavBar(props) {
             <Toolbar className='NavToolbar '></Toolbar>
           </AppBar>
         </Box>
-      ) : (
+      )}
+      {props.default && (
         <Box className='NavBarBox' sx={{ flexGrow: 1 }}>
           <AppBar
             className='AppBarBox'
             position='fixed'
             sx={{
-              backgroundColor: position <= 3 ? 'white' : 'white',
+              backgroundColor: 'white',
+              padding: '0px 20px',
+              // boxShadow: position <= 3 && 'none',
+              boxShadow: position <= 3 ? 'none' : '0px 4px 13px rgba(0, 0, 0, 0.1)',
+              height: '60px',
+            }}
+          >
+            {Menu && (
+              <AnimatePresence>
+                <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
+              </AnimatePresence>
+            )}
+            <Toolbar className='NavToolbar '></Toolbar>
+          </AppBar>
+        </Box>
+      )}
+      {props.transparent && (
+        <Box className='NavBarBox' sx={{ flexGrow: 1 }}>
+          <AppBar
+            className='AppBarBox'
+            position='fixed'
+            sx={{
+              backgroundColor: position <= 3 ? 'transparent' : '#003B7E',
               padding: '0px 20px',
               // boxShadow: position <= 3 && 'none',
               boxShadow: position <= 3 ? 'none' : '0px 4px 13px rgba(0, 0, 0, 0.1)',
