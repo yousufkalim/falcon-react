@@ -1,0 +1,122 @@
+/* Clients Header */
+.ClientHeader_MainDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+  background: #003b7e;
+}
+.ClientHeader_Heading {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+.ClientHeader_Divider {
+  height: 5px;
+  background: #fff;
+  width: 10%;
+  border-radius: 10px;
+  margin: 2% 0 !important;
+}
+.ClientHeader_Desp {
+  color: #fff;
+  width: 60%;
+  text-align: center;
+}
+/* Client List Progress bar */
+.ClientsList_ProgressBar {
+  top: 64px;
+}
+/* Client Card */
+.ClientCard_MainDiv {
+  display: flex;
+  justify-content: center;
+  padding: 8% 0;
+}
+.ClientCard_SubDiv {
+  width: 45%;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+.ClientCard_ImageDiv {
+  width: 60%;
+}
+.ClientCard_Image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ClientCard_TextDiv {
+  position: absolute;
+  width: 40%;
+  bottom: 10%;
+  left: 55%;
+}
+.ClientCard_Index {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.ClientCard_Title {
+  color: #fff;
+  font-size: 3rem;
+  margin: 2% 0;
+}
+.ClientCard_Desp {
+  color: #f8f8f8;
+  font-size: 0.9rem;
+}
+.MuiBox-root {
+  padding: 0 !important;
+}
+/* css-19kzrtu */
+@media only screen and (max-width: 900px) {
+  .ClientHeader_Desp {
+    width: 90%;
+  }
+  .ClientCard_SubDiv {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ClientCard_TextDiv {
+    width: 80%;
+  }
+  .ClientCard_Title {
+    font-size: 2.5rem;
+    width: 80%;
+  }
+  .ClientCard_Desp {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ClientHeader_MainDiv {
+    padding: 15% 10%;
+  }
+  .ClientHeader_Heading {
+    font-size: 2.2rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+  }
+  .ClientHeader_Desp {
+    width: 100%;
+  }
+  .ClientCard_SubDiv {
+    width: 70%;
+  }
+  .ClientsList_MapDiv {
+    height: 60vh;
+  }
+  /* Client List Progress bar */
+  .ClientsList_ProgressBar {
+    top: 55px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .ClientCard_Title {
+    font-size: 2rem;
+  }
+}
