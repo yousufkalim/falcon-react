@@ -1,0 +1,64 @@
+.ProjectHeader_MainDiv {
+  background: #003b7e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8% 0 3% 0;
+  height: 400px;
+}
+.ProjectHeader_TextDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ProjectHeader_Title {
+  color: #fff;
+  width: 60%;
+  text-align: center;
+  font-size: 2.4rem;
+}
+.ProjectHeader_TitleDivider {
+  width: 8%;
+  background: #42c2ff;
+  height: 5px;
+  border-radius: 4px;
+  margin: 2% 0 !important;
+}
+.ProjectHeader_desp {
+  color: #f8f8f8;
+  font-weight: 400;
+  font-family: Raleway;
+  text-align: center;
+  width: 55%;
+  opacity: 0.7;
+  font-size: 1rem;
+}
+@media only screen and (max-width: 1200px) {
+  .ProjectHeader_Title {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ProjectHeader_Title {
+    width: 85%;
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ProjectHeader_Title {
+    width: 90%;
+  }
+  .ProjectHeader_desp {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .ProjectHeader_Title {
+    width: 90%;
+    font-size: 1.8rem;
+  }
+  .ProjectHeader_desp {
+    width: 90%;
+  }
+}
