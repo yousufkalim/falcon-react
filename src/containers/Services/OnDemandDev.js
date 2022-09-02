@@ -40,7 +40,7 @@ export default function OnDemandDev() {
           content='on-demand developers, hire on-demand developers, on-demand development services, software developers, app developers, web developers, SQA team, SQ engineers'
         />
       </Helmet>
-      <NavBar />
+      <NavBar default />
       <Header
         Titlecolor='#003B7E'
         DespColor='#003B7E'

@@ -3,8 +3,8 @@ import React from 'react';
 
 // Importing Components
 import NavBar from '../components/Common/NavBar';
-import Header from '../components/Common/Header';
-import LabTabs from '../components/Common/OurProjectTabs';
+import Header from '../components/Common/ProjectHeader';
+import LabTabs from '../components/Common/Projects';
 import Footer from '../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
@@ -29,7 +29,7 @@ export default function OurProjects() {
           content='projects, development projects, software development projects, application development, UI/UX development'
         />
       </Helmet>
-      <NavBar />
+      <NavBar default />
       <Header
         // ColorTitle="ALL PROJECTS "
         Title='ALL PROJECTS START BY A SIMPLE IDEA, LET US TAKE CARE OF THE REST!'

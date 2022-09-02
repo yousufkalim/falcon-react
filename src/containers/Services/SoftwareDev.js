@@ -41,7 +41,7 @@ export default function SoftwareDev() {
           content='software quality assurance, software development services, agile software, software development engineers'
         />
       </Helmet>
-      <NavBar />
+      <NavBar default />
       <Header
         Title='SOFTWARE DEVELOPMENT'
         Titlecolor='#003B7E'

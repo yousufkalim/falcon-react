@@ -4,7 +4,7 @@ import React from 'react';
 // Importing Components
 import NavBar from '../components/Common/NavBar';
 import Header from '../components/Common/Header';
-import ServiceProvided from '../components/Common/ServiceProvided';
+import ServiceProvided from '../components/Common/ServiceWeProvide';
 import LatestProjects from '../components/Common/LatestProjects';
 import AboutSection from '../components/Common/AboutSection';
 import ClientSection from '../components/Common/ClientSection';
@@ -54,7 +54,7 @@ export default function Home() {
           />
         </Helmet> */}
         <div className='HomeContainer'>
-          <NavBar />
+          <NavBar default />
           <Header
             ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/HeaderImg.svg`}
             Title='WE PROVIDE GREAT SERVICES AT THE BEST PRICE.'

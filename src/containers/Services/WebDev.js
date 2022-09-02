@@ -40,7 +40,7 @@ export default function WebDev() {
           content='software development company, web development, website development, web programming, front end developers, back end developers'
         />
       </Helmet>
-      <NavBar />
+      <NavBar default />
       <Header
         Title='WEB DEVELOPMENT'
         Titlecolor='#003B7E'

@@ -27,7 +27,7 @@ export default function LegalMentions() {
           content='falcon, falconit, falcon consulting, website, our offices, '
         />
       </Helmet>
-      <NavBar />
+      <NavBar default />
       <LegalHeader />
       <LegalList />
       <LocationSection />

@@ -34,7 +34,7 @@ export default function Blog() {
           content='blogs, IT blogs, information technology blog, online blog, software development'
         />
       </Helmet>
-      <NavBar />
+      <NavBar default />
       <BlogHeader />
       <BlogReadArticles
         title='Managing a Remote Team'

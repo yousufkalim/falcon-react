@@ -34,7 +34,7 @@ export default function About() {
           content='falcon, falconit, falcon consulting, Trustful, partnerships , best company, Modern IT Agency, Healthy Relationships '
         />
       </Helmet>
-      <NavBar />
+      <NavBar default />
       <Header
         Title='Our Goal Is To Exceed Your Expectations '
         // Description='Healthy, skilled and ambitious team'
