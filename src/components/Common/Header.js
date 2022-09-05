@@ -147,14 +147,14 @@ export default function Header(props) {
             <div className='ChatIconsDiv'>
               {localStorage.getItem('i18nextLng') === 'fr' ? (
                 <>
-                  <a href={t('https://wa.me/+33658883107')}>
+                  <a href={t('https://wa.me/+33658883107')} target='_blank'>
                     <img
                       className='ChatIconImg'
                       alt='whatsapp'
                       src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ChatIcon.svg`}
                     />
                   </a>
-                  <a href={`https://calendly.com/falconconsulting`}>
+                  <a href={`https://calendly.com/falconconsulting`} target='_blank'>
                     <img
                       className='ChatIconImg'
                       alt='Calendly'
@@ -164,14 +164,14 @@ export default function Header(props) {
                 </>
               ) : (
                 <>
-                  <a href={t('https://wa.me/+33664317359')}>
+                  <a href={t('https://wa.me/+33664317359')} target='_blank'>
                     <img
                       className='ChatIconImg'
                       alt='whatsapp'
                       src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ChatIcon.svg`}
                     />
                   </a>
-                  <a href={`http://calendly.com/falconit`}>
+                  <a href={`http://calendly.com/falconit`} target='_blank'>
                     <img
                       className='ChatIconImg'
                       alt='Calendly'
