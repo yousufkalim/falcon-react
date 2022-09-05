@@ -102,9 +102,8 @@ function a11yProps(index) {
 export default function BasicTabs(props) {
   const { i18n, t } = useTranslation();
   let position = useScrollPosition();
-
   const [activeId, setactiveId] = useState(0);
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -115,6 +114,30 @@ export default function BasicTabs(props) {
   useEffect(() => {
     setDesp(t(props?.description));
   }, [props?.description]);
+
+  useEffect(() => {
+    let tab = localStorage.getItem('simpleTab');
+    if (tab) {
+      console.log('in useEffect', JSON.parse(tab));
+      setValue(JSON.parse(tab));
+      localStorage.removeItem('simpleTab');
+    } else {
+      setValue(0);
+    }
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'auto',
+    });
+  }, [activeId]);
+
+  const handleTabChange = (e, index) => {
+    localStorage.setItem('simpleTab', index);
+    setactiveId(e.target.id);
+  };
+
   return (
     <Box
       sx={{
@@ -146,7 +169,7 @@ export default function BasicTabs(props) {
         >
           {items.map((val, index) => (
             <Tab
-              onClick={(event) => setactiveId(event.target.id)}
+              onClick={(event) => handleTabChange(event, index)}
               label={t(val?.text)}
               {...a11yProps(index)}
             />
@@ -160,21 +183,38 @@ export default function BasicTabs(props) {
             title={item.title}
             description={item.desp}
             to={item.to}
-            // LogoSrc={item.LogoSrc}
-            // heading={item.heading}
-            // para1={item.para1}
-            // para2={item.para2}
-            // para3={item.para3}
-            // para4={item.para4}
-            // para5={item.para5}
             BtnText={item.BtnText}
             href={item.href}
+            tag1={item.tag1}
+            tag2={item.tag2}
+            tag3={item.tag3}
+            tag4={item.tag4}
+            tag5={item.tag5}
+            tag6={item.tag6}
+            tag7={item.tag7}
+            tag8={item.tag8}
           />
         ))}
       </TabPanel>
       <TabPanel value={value} index={1}>
         {Construction.map((item) => (
-          <ProjectCard src={item.image} title={item.title} description={item.desp} to={item.to} />
+          <ProjectCard
+            src={item.image}
+            title={item.title}
+            description={item.desp}
+            to={item.to}
+            BtnText={item.BtnText}
+            href={item.href}
+            tag1={item.tag1}
+            tag2={item.tag2}
+            tag3={item.tag3}
+            tag4={item.tag4}
+            tag5={item.tag5}
+            tag6={item.tag6}
+            tag7={item.tag7}
+            tag8={item.tag8}
+            // activeId={activeId}
+          />
         ))}
       </TabPanel>
       <TabPanel value={value} index={2}>
@@ -194,55 +234,147 @@ export default function BasicTabs(props) {
             // para5={item.para5}
             BtnText={item.BtnText}
             href={item.href}
+            tag1={item.tag1}
+            tag2={item.tag2}
+            tag3={item.tag3}
+            tag4={item.tag4}
           />
         ))}
       </TabPanel>
       <TabPanel value={value} index={3}>
         {' '}
         {HumanResources.map((item) => (
-          <ProjectCard src={item.image} title={item.title} description={item.desp} to={item.to} />
+          <ProjectCard
+            src={item.image}
+            title={item.title}
+            description={item.desp}
+            to={item.to}
+            BtnText={item.BtnText}
+            href={item.href}
+            tag1={item.tag1}
+            tag2={item.tag2}
+            tag3={item.tag3}
+            tag4={item.tag4}
+          />
         ))}
       </TabPanel>
       <TabPanel value={value} index={4}>
         {' '}
         {Health.map((item) => (
-          <ProjectCard src={item.image} title={item.title} description={item.desp} to={item.to} />
+          <ProjectCard
+            src={item.image}
+            title={item.title}
+            description={item.desp}
+            to={item.to}
+            BtnText={item.BtnText}
+            href={item.href}
+            tag1={item.tag1}
+            tag2={item.tag2}
+            tag3={item.tag3}
+            tag4={item.tag4}
+          />
         ))}
       </TabPanel>
       <TabPanel value={value} index={5}>
         {' '}
         {Gaming.map((item) => (
-          <ProjectCard src={item.image} title={item.title} description={item.desp} to={item.to} />
+          <ProjectCard
+            src={item.image}
+            title={item.title}
+            description={item.desp}
+            to={item.to}
+            BtnText={item.BtnText}
+            href={item.href}
+            tag1={item.tag1}
+            tag2={item.tag2}
+            tag3={item.tag3}
+            tag4={item.tag4}
+          />
         ))}
       </TabPanel>
       <TabPanel value={value} index={6}>
         {' '}
         {Transport.map((item) => (
-          <ProjectCard src={item.image} title={item.title} description={item.desp} to={item.to} />
+          <ProjectCard
+            src={item.image}
+            title={item.title}
+            description={item.desp}
+            to={item.to}
+            BtnText={item.BtnText}
+            href={item.href}
+            tag1={item.tag1}
+            tag2={item.tag2}
+            tag3={item.tag3}
+            tag4={item.tag4}
+          />
         ))}
       </TabPanel>
       <TabPanel value={value} index={7}>
         {' '}
         {Business.map((item) => (
-          <ProjectCard src={item.image} title={item.title} description={item.desp} to={item.to} />
+          <ProjectCard
+            src={item.image}
+            title={item.title}
+            description={item.desp}
+            to={item.to}
+            BtnText={item.BtnText}
+            href={item.href}
+            tag1={item.tag1}
+            tag2={item.tag2}
+            tag3={item.tag3}
+            tag4={item.tag4}
+          />
         ))}
       </TabPanel>
       <TabPanel value={value} index={8}>
         {' '}
         {Fashion.map((item) => (
-          <ProjectCard src={item.image} title={item.title} description={item.desp} to={item.to} />
+          <ProjectCard
+            src={item.image}
+            title={item.title}
+            description={item.desp}
+            to={item.to}
+            BtnText={item.BtnText}
+            href={item.href}
+            tag1={item.tag1}
+            tag2={item.tag2}
+            tag3={item.tag3}
+            tag4={item.tag4}
+          />
         ))}
       </TabPanel>
       <TabPanel value={value} index={9}>
         {' '}
         {Food.map((item) => (
-          <ProjectCard src={item.image} title={item.title} description={item.desp} to={item.to} />
+          <ProjectCard
+            src={item.image}
+            title={item.title}
+            description={item.desp}
+            to={item.to}
+            BtnText={item.BtnText}
+            href={item.href}
+            tag1={item.tag1}
+            tag2={item.tag2}
+            tag3={item.tag3}
+            tag4={item.tag4}
+          />
         ))}
       </TabPanel>
       <TabPanel value={value} index={10}>
         {' '}
         {Advertisement.map((item) => (
-          <ProjectCard src={item.image} title={item.title} description={item.desp} to={item.to} />
+          <ProjectCard
+            src={item.image}
+            title={item.title}
+            description={item.desp}
+            to={item.to}
+            BtnText={item.BtnText}
+            href={item.href}
+            tag1={item.tag1}
+            tag2={item.tag2}
+            tag3={item.tag3}
+            tag4={item.tag4}
+          />
         ))}
       </TabPanel>
     </Box>
