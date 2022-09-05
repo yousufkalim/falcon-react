@@ -183,7 +183,7 @@
   cursor: pointer;
   position: fixed;
   left: 5%;
-  top: 1.5%;
+  top: 1%;
   z-index: 999999999999 !important;
   width: 10% !important;
 }
@@ -312,6 +312,10 @@
   .newMenuDiv {
     width: 70%;
   }
+  .logoNew {
+    top: 1.5%;
+    width: 12% !important;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .newMenuDiv {
@@ -333,6 +337,9 @@
 @media only screen and (max-width: 900px) {
   .destopView {
     display: none !important;
+  }
+  .logoNew {
+    width: 17% !important;
   }
 }
 @media only screen and (max-width: 768px) {

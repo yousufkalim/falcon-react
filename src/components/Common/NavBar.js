@@ -95,7 +95,7 @@ export default function NavBar(props) {
                 src={
                   Active ? WhiteLogo : `${process.env.REACT_APP_MEDIA_URL}/uploads/images/logo.svg`
                 }
-                style={{ width: '100%', margin: '1% 0', cursor: 'pointer' }}
+                style={{ width: '100%', cursor: 'pointer', marginBottom: '1% 0' }}
               />
             </Link>
           </div>
