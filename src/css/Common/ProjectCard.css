@@ -55,9 +55,21 @@
 }
 .ProjectCard_Desp {
   color: #7a7a7a;
-  font-size: 0.8rem;
-  width: 60%;
+  font-size: 1rem;
+  width: 90%;
   margin: 3% 0;
+}
+.ProjectCard_TagsDiv {
+  width: 90%;
+  margin-top: 5%;
+  color: #7a7a7a;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+}
+.ProjectCard_Tags {
+  margin-right: 2% !important;
 }
 .ProjectCard_Btn {
   color: #003b7e;
