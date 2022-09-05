@@ -42,7 +42,7 @@
 }
 .ServiceCard_MainDiv:hover {
   background: #003b7e;
-  transform: scale(1.05);
+  transform: scale(1.05) !important;
 }
 .ServiceCard_MainDiv:hover .ServiceCard_Image {
   color: #fff !important;
