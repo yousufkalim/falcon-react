@@ -60,42 +60,49 @@ export default function BasicModal(props) {
                 alt='close Icon'
               />
             </div>
-            <Typography className='ModalHeading' id='modal-modal-title' variant='h4' component='h2'>
-              {props.Heading || 'Coming Soon'}
-            </Typography>
-            <Divider
-              width={props.Dividerwidth || '12%'}
-              color={props.DividerTheme || '#0097A7'}
-              sx={{
-                height: '4px',
-                borderRadius: '4px',
-                margin: '1% 0',
-              }}
-            />
-            <Typography className='Modal_Para' id='modal-modal-description'>
-              {t(props.para1)}
-            </Typography>
-            <Typography className='Modal_Para' id='modal-modal-description'>
-              {t(props.para2)}
-            </Typography>
-            <Typography className='Modal_Para' id='modal-modal-description'>
-              {t(props.para3)}
-            </Typography>
-            <Typography className='Modal_Para' id='modal-modal-description'>
-              {t(props.para4)}
-            </Typography>
-            <Typography className='Modal_Para' id='modal-modal-description'>
-              {t(props.para5)}
-            </Typography>
-            <Typography className='Modal_Para' id='modal-modal-description'>
-              {t(props.para6)}
-            </Typography>
-            <Typography className='Modal_Para' id='modal-modal-description'>
-              {t(props.para7)}
-            </Typography>
-            <Typography className='Modal_Para' id='modal-modal-description'>
-              {t(props.para8)}
-            </Typography>
+            <div style={{ padding: '2% 4%' }}>
+              <Typography
+                className='ModalHeading'
+                id='modal-modal-title'
+                variant='h4'
+                component='h2'
+              >
+                {props.Heading || 'Coming Soon'}
+              </Typography>
+              <Divider
+                width={props.Dividerwidth || '12%'}
+                color={props.DividerTheme || '#0097A7'}
+                sx={{
+                  height: '4px',
+                  borderRadius: '4px',
+                  margin: '1% 0',
+                }}
+              />
+              <Typography className='Modal_Para' id='modal-modal-description'>
+                {t(props.para1)}
+              </Typography>
+              <Typography className='Modal_Para' id='modal-modal-description'>
+                {t(props.para2)}
+              </Typography>
+              <Typography className='Modal_Para' id='modal-modal-description'>
+                {t(props.para3)}
+              </Typography>
+              <Typography className='Modal_Para' id='modal-modal-description'>
+                {t(props.para4)}
+              </Typography>
+              <Typography className='Modal_Para' id='modal-modal-description'>
+                {t(props.para5)}
+              </Typography>
+              <Typography className='Modal_Para' id='modal-modal-description'>
+                {t(props.para6)}
+              </Typography>
+              <Typography className='Modal_Para' id='modal-modal-description'>
+                {t(props.para7)}
+              </Typography>
+              <Typography className='Modal_Para' id='modal-modal-description'>
+                {t(props.para8)}
+              </Typography>
+            </div>
           </Box>
         </motion.div>
       </Modal>
