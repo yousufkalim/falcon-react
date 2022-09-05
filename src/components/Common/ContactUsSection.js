@@ -168,7 +168,7 @@ export default function ContactUsSection(props) {
                 </form>
               </Grid>
               <Grid xs={12} sm={10} md={10} className='ContactMedia'>
-                <a href='mailto:contact@falconconsulting.fr'>
+                <a href='mailto:contact@falconconsulting.fr' target='_blank'>
                   <motion.div
                     className='ContactMediaDiv'
                     initial={{ y: 40, opacity: 0.5 }}
@@ -188,7 +188,7 @@ export default function ContactUsSection(props) {
                   </motion.div>
                 </a>
                 {localStorage.getItem('i18nextLng') === 'fr' ? (
-                  <a href='https://calendly.com/falconconsulting'>
+                  <a href='https://calendly.com/falconconsulting' target='_blank'>
                     <motion.div
                       className='ContactMediaDiv'
                       initial={{ y: 40, opacity: 0.5 }}
@@ -208,7 +208,7 @@ export default function ContactUsSection(props) {
                     </motion.div>
                   </a>
                 ) : (
-                  <a href='http://calendly.com/falconit'>
+                  <a href='http://calendly.com/falconit' target='_blank'>
                     <motion.div
                       className='ContactMediaDiv'
                       initial={{ y: 40, opacity: 0.5 }}
