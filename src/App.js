@@ -72,6 +72,7 @@ function App() {
             'button',
             '.link',
             'span',
+            '#CursorZoom',
           ]}
         />
       </div>
