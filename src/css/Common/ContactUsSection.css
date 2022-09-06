@@ -1,312 +1,295 @@
-.ContactUsDiv{
-    background-color: #003B7E;
-    padding-top: 10%;
-    
+.ContactUsDiv {
+  background-color: #003b7e;
+  padding-top: 5%;
 }
-.ContactUsGrid{
-    width: 100%;
-    display: flex;
-    margin: 5% 1%;
-    align-items: center;
-    justify-content: center;
+.ContactUsGrid {
+  width: 100%;
+  display: flex;
+  margin: 5% 1%;
+  align-items: center;
+  justify-content: center;
 }
-.ContactContainerGrid{
-    display: flex;
-    flex-direction: column !important;
-    justify-content: center;
-    align-items: center;
+.ContactContainerGrid {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
 }
-.ContactFormGrid{
-    
-    background-color: #24548b;
-    display: flex;
-    align-items: center;
-    padding:  1% 2%;
-    margin: 3% 0%;
-    border-radius: 10px;
+.ContactFormGrid {
+  background-color: #24548b;
+  display: flex;
+  align-items: center;
+  padding: 1% 2%;
+  margin: 3% 0%;
+  border-radius: 10px;
 }
-.ContactMedia{
-    display: flex !important;
-    width: 40vw!important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    margin: 3% 0%;
+.ContactMedia {
+  display: flex !important;
+  width: 40vw !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin: 3% 0%;
 }
-.ContactMedia a{
-    width: 50%;
+.ContactMedia a {
+  width: 50%;
 }
-.ContactMediaIcons{
-    max-width: 80px;
-    margin-right: 5%;
+.ContactMediaIcons {
+  max-width: 80px;
+  margin-right: 5%;
 }
-.SocialMediaText{
-    text-align: left;
-    color: white;
+.SocialMediaText {
+  text-align: left;
+  color: white;
 }
-.ContactMediaDiv{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: scale(1);
-    transition: .5s;
+.ContactMediaDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1);
+  transition: 0.5s;
 }
-.ContactMediaDiv:hover{
-    transform: scale(1.2);
-
+.ContactMediaDiv:hover {
+  transform: scale(1.2);
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-.css-ahj2mt-MuiTypography-root{
-    font-weight: 400!important;
+.css-ahj2mt-MuiTypography-root {
+  font-weight: 400 !important;
 }
 
 /* ============================================== */
 
+.ContactsectionDiv {
+  background: linear-gradient(to left, #2632380b, #263238b0);
+  background-color: #003b7e;
+  padding: 5%;
+  position: relative;
+  overflow: hidden !important;
+  height: 100vh;
+}
+.ContactSectionGrid {
+  /* display: flex; */
+  margin-top: 5%;
+  text-align: center;
+  /* height: 100%; */
+}
+.ContainerGrid {
+  display: flex;
+  /* align-items:center; */
+  /* justify-content: space-between; */
+}
+.SocialMediaMain {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: space-between;
+}
+.ContactSection_Mob_Header {
+  position: absolute;
+  visibility: hidden;
 
-
-
-.ContactsectionDiv{
-    
-    background: linear-gradient(to left,#2632380B,#263238B0);
-    background-color: #003B7E;
-    padding: 5%;
-    position: relative;
-    overflow: hidden !important;
-    /* height: 100vh; */
+  /* left:-100%; */
 }
-.ContactSectionGrid{
-    /* display: flex; */
-    margin-top: 5%;
-    text-align: center;
-    /* height: 100%; */
-}
-.ContainerGrid{
-    display: flex;
-    /* align-items:center; */
-    /* justify-content: space-between; */
-}
-.SocialMediaMain{
-   display: flex;
-   flex-direction: column !important;
-   justify-content: space-between;
-}
-.ContactSection_Mob_Header{
-    position: absolute;
-    visibility: hidden;
-
-    /* left:-100%; */
-}
-.ContactSection_Web_Header{
-    width: 90%;
-    /* left:-100%; */
+.ContactSection_Web_Header {
+  width: 90%;
+  /* left:-100%; */
 }
 
-
-.SocialMediaDiv{
-    display: flex;
-    align-items: center;
-    margin-bottom: 2%;
+.SocialMediaDiv {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
 }
 
-.SocialMediaIcons{
-    width: 25%;
-    margin-right: 5%;
+.SocialMediaIcons {
+  width: 25%;
+  margin-right: 5%;
 }
 
-.FormGrid{
-    /* background: linear-gradient(#ffffff,#F0F0F0); */
-    /* opacity: 10%; */
-    background-color: #204a79;
-    display: flex;
-    align-items: center;
-    padding:  1% 2%;
-    border-radius: 10px;
+.FormGrid {
+  /* background: linear-gradient(#ffffff,#F0F0F0); */
+  /* opacity: 10%; */
+  background-color: #204a79;
+  display: flex;
+  align-items: center;
+  padding: 1% 2%;
+  border-radius: 10px;
 }
-.InputField{
-    color: white;
-    font-size: 1rem;
-    font-family: Montserrat !important;
-    padding: 4%;
-    margin: 4% 2%;
-    background: transparent;
-    border: 1px solid rgb(223, 214, 214, 70%);
-    border-radius: 3px;
-    width: 90%;
-     
+.InputField {
+  color: white;
+  font-size: 1rem;
+  font-family: Montserrat !important;
+  padding: 4%;
+  margin: 4% 2%;
+  background: transparent;
+  border: 1px solid rgb(223, 214, 214, 70%);
+  border-radius: 3px;
+  width: 90%;
 }
-.textField{
-    color: white;
-    font-size: 1rem;
-    padding: 2%;
-    margin: 3% 2%;
-    background: transparent;
-    border: 1px solid rgb(223, 214, 214,70%);
-    border-radius: 3px;
-    width: 95%;
-    height: 17vh;
-    resize: none;
-    
+.textField {
+  color: white;
+  font-size: 1rem;
+  padding: 2%;
+  margin: 3% 2%;
+  background: transparent;
+  border: 1px solid rgb(223, 214, 214, 70%);
+  border-radius: 3px;
+  width: 95%;
+  height: 17vh;
+  resize: none;
 }
-input:focus ,textarea:focus{
-    outline: none;
+input:focus,
+textarea:focus {
+  outline: none;
 }
-::placeholder{
-    color: white;
+::placeholder {
+  color: white;
 }
-.ContactUsBtn{
-    color: white;
-    background-color: #003B7E;
-    margin: 5%;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 5px;
-    padding: 6%;
-    width: 80%;
-    /* height: 2rem; */
-    cursor: pointer;
-    transition: 1s;
+.ContactUsBtn {
+  color: white;
+  background-color: #003b7e;
+  margin: 5%;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  padding: 6%;
+  width: 80%;
+  /* height: 2rem; */
+  cursor: pointer;
+  transition: 1s;
 }
-.ContactUsBtn:hover{
-    color: #003B7E;
-    background-color:white ;
-    font-weight: 600;
-    /* margin-left: 2.5% ; */
+.ContactUsBtn:hover {
+  color: #003b7e;
+  background-color: white;
+  font-weight: 600;
+  /* margin-left: 2.5% ; */
 }
-.ContactForm{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 1% 0%;
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1% 0%;
 }
-.InputGrid{
-    display: flex;
-    justify-content: center;
-    margin: .5% 0%;
+.InputGrid {
+  display: flex;
+  justify-content: center;
+  margin: 0.5% 0%;
 }
-.Robot_Grid{
-    display: flex;
-    justify-content: left;
+.Robot_Grid {
+  display: flex;
+  justify-content: left;
 }
-.Contact_Send_Grid{
-    display: flex;
-    justify-content: center;
+.Contact_Send_Grid {
+  display: flex;
+  justify-content: center;
 }
-.ReCAPTCHA_DIV{
-    margin: 2.5%;
+.ReCAPTCHA_DIV {
+  margin: 2.5%;
 }
-.ContactForm_InputDiv{
-    display: flex;
-     width: 100%;
- }
+.ContactForm_InputDiv {
+  display: flex;
+  width: 100%;
+}
 @media only screen and (max-width: 1366px) {
-
-.RobotDiv{
+  .RobotDiv {
     width: 50% !important;
-}
+  }
 }
 @media only screen and (max-width: 900px) {
-    .ContactSection_Web_Header{
-        position: absolute;
-        visibility: hidden;
-        /* left:-100%; */
-    }
-    .ContactSection_Mob_Header{
-        position: relative;
-        visibility: visible;
-        /* left:-100%; */
-    }
-    .ContainerGrid{
-        flex-direction: column-reverse !important;
-        align-items:center;
-    }
-    .SocialMediaMain{
-        margin-top: 5%;
-    }
-    .SocialMediaIcons{
-        width: 20%;
-    }
-    .ContactMedia{
-        width: 60% !important;
-    }
+  .ContactSection_Web_Header {
+    position: absolute;
+    visibility: hidden;
+    /* left:-100%; */
+  }
+  .ContactSection_Mob_Header {
+    position: relative;
+    visibility: visible;
+    /* left:-100%; */
+  }
+  .ContainerGrid {
+    flex-direction: column-reverse !important;
+    align-items: center;
+  }
+  .SocialMediaMain {
+    margin-top: 5%;
+  }
+  .SocialMediaIcons {
+    width: 20%;
+  }
+  .ContactMedia {
+    width: 60% !important;
+  }
 }
-
 
 @media only screen and (max-width: 768px) {
-
-    .ContactUsDiv{
-        padding: 18% 5% 5% 5%;
-        
-    }
-    .ContactUsGrid{
-        margin-top: 8%;
-    }
-    .textField{
-        height: 15vh;
-}
-.ContactMedia{
+  .ContactUsDiv {
+    padding: 18% 5% 5% 5%;
+  }
+  .ContactUsGrid {
+    margin-top: 8%;
+  }
+  .textField {
+    height: 15vh;
+  }
+  .ContactMedia {
     width: 65% !important;
-}
-.ContactMediaIcons{
-    width:25%;
+  }
+  .ContactMediaIcons {
+    width: 25%;
     margin-right: 5%;
-}
+  }
 }
 @media only screen and (max-width: 600px) {
-    .ContactForm{
-        margin:3% 0;
-        }
-    .ContactForm_InputDiv{
-        flex-direction: column;
-    }
-    .SocialMediaIcons{
-        width: 15%;
-    }
-  
-  
-    .FormGrid{
-        width: 100% !important;
-        margin: 5% 0%;
-    }
-    .InputField{
-        font-size: 1rem;
-        margin: 1%;
-    }
-    .textField{
-        font-size: 1rem;
-        height: 30vh;
-        margin: 2%;
-        padding: 4%;
-        width: 90%;
-    }
-    .ContactUsBtn{
-        margin-left: 18%;
-        border: none;
+  .ContactForm {
+    margin: 3% 0;
+  }
+  .ContactForm_InputDiv {
+    flex-direction: column;
+  }
+  .SocialMediaIcons {
+    width: 15%;
+  }
+
+  .FormGrid {
+    width: 100% !important;
+    margin: 5% 0%;
+  }
+  .InputField {
+    font-size: 1rem;
+    margin: 1%;
+  }
+  .textField {
+    font-size: 1rem;
+    height: 30vh;
+    margin: 2%;
+    padding: 4%;
+    width: 90%;
+  }
+  .ContactUsBtn {
+    margin-left: 18%;
+    border: none;
     font-size: 1em;
     border-radius: 5px;
-        width: 80%;
-    }
-    .ContactMedia{
-        flex-direction: column !important;
-    width: 100% !important;
-
-    } 
-    .ContactMedia a{
-        margin-bottom: 2%;
-        width: 70%;
-        
-    } 
-    .ContactMediaDiv{
-        justify-content:left;
-    }
-    .RobotDiv{
-        width: 60% !important;
-    }
-.ReCAPTCHA_DIV{
-    margin-left: 5%;
-}
-  
+    width: 80%;
   }
+  .ContactMedia {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .ContactMedia a {
+    margin-bottom: 2%;
+    width: 70%;
+  }
+  .ContactMediaDiv {
+    justify-content: left;
+  }
+  .RobotDiv {
+    width: 60% !important;
+  }
+  .ReCAPTCHA_DIV {
+    margin-left: 5%;
+  }
+}
