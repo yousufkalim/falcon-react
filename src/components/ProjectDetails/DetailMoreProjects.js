@@ -34,6 +34,7 @@ export default function DetailMoreProjects(props) {
           <Grid container spacing={1} className='DetailMoreProjects_ContainerGrid'>
             <Grid sm={10} md={3.5} className='DetailMoreProjects_Grid'>
               <MoreProjectCards
+                to='/ourprojects/orientator'
                 title='Orientator'
                 image={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_update.png`}
                 desp='A revolutionary approach to construction document generation for big companies'
@@ -41,6 +42,7 @@ export default function DetailMoreProjects(props) {
             </Grid>
             <Grid sm={10} md={3.5} className='DetailMoreProjects_Grid'>
               <MoreProjectCards
+                to='/ourprojects/permispop'
                 title='Permispop'
                 image={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`}
                 desp='A revolutionary approach to construction document generation for big companies'
@@ -48,6 +50,7 @@ export default function DetailMoreProjects(props) {
             </Grid>
             <Grid sm={10} md={3.5} className='DetailMoreProjects_Grid'>
               <MoreProjectCards
+                to='/ourprojects/quadrabase'
                 title='Quadrabase'
                 image={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_update.png`}
                 desp='A revolutionary approach to construction document generation for big companies'
