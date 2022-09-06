@@ -80,6 +80,10 @@
   transition: 0.5s;
   overflow: hidden;
 }
+#d:hover + #b {
+  width: 100%;
+  background: #42c2ff;
+}
 
 #b {
   height: 2px;
@@ -87,6 +91,10 @@
   width: 30%;
   margin-top: 1px;
   transition: 0.5s;
+}
+#d:hover + #b {
+  width: 100% !important;
+  background: #42c2ff !important;
 }
 #b_disable {
   height: 2px;
@@ -116,6 +124,7 @@
 .MenuDropdownList:hover {
   transform: scaleX(1);
 }
+
 .MenuDropdownLinks {
   font-size: 1.4rem;
   color: #e5e5e5;
@@ -159,6 +168,52 @@
   right: 5%;
   top: 1.5%;
   z-index: 999999999 !important;
+}
+.NavbarLanguageDiv {
+  width: 100px !important;
+  /* height: 30px !important; */
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  border-radius: 20px;
+  position: fixed !important;
+  right: 10% !important;
+  top: 1.2% !important;
+  z-index: 9999999 !important;
+  transition: 0.5s !important;
+}
+.NavbarLanguageDiv:hover {
+  background: #e1e1e1 !important;
+  /* background: #42c3ff !important; */
+}
+.NavbarLanguageMenuDiv {
+  width: 100px !important;
+  /* height: 30px !important; */
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  border-radius: 20px;
+  position: fixed !important;
+  right: 10% !important;
+  top: 1.2% !important;
+  z-index: 9999999 !important;
+  transition: 0.5s !important;
+}
+.NavbarLanguageMenuDiv:hover {
+  /* background: #e1e1e1 !important; */
+  background: #0156b7 !important;
+}
+/* #langName {
+  color: red;
+}
+#lang:hover + #langName {
+  color: #f8f8f8 !important;
+} */
+.NavbarLanguageFlag {
+  transition: 0.5s;
+}
+.NavbarLanguageName {
+  transition: 0.5s;
 }
 .change {
   width: 30px;
@@ -355,6 +410,12 @@
   .logoNew {
     width: 20% !important;
   }
+  .NavbarLanguageDiv {
+    right: 13% !important;
+  }
+  .NavbarLanguageMenuDiv {
+    right: 13% !important;
+  }
 }
 @media only screen and (max-width: 600px) {
   .logoNew {
@@ -364,5 +425,11 @@
 @media only screen and (max-width: 480px) {
   .logoNew {
     width: 33% !important;
+  }
+  .NavbarLanguageDiv {
+    right: 15% !important;
+  }
+  .NavbarLanguageMenuDiv {
+    right: 15% !important;
   }
 }

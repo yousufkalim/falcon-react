@@ -10,9 +10,12 @@ import { useScrollPosition } from '../../utils/ScrollPosition';
 import { AnimatePresence, motion, useScroll } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import WhiteLogo from '../../assets/images/falconwhitelogo.svg';
+import USA from '../../assets/images/usa_flag.svg';
+import French from '../../assets/images/french_flag.svg';
 export default function NavBar(props) {
   const [Menu, SetMenu] = React.useState(false);
   const [Active, SetActive] = React.useState(false);
+  const [Flag, SetFlag] = React.useState(false);
   // const [isOpen, setOpen] = useState(false);
   let position = useScrollPosition();
   const { scrollYProgress } = useScroll();
@@ -56,10 +59,50 @@ export default function NavBar(props) {
             </Link>
           </div>
           <div
+            id='CursorZoom'
+            className={
+              Active
+                ? 'NavbarLanguageMenuDiv'
+                : position <= 970
+                ? 'NavbarLanguageMenuDiv'
+                : 'NavbarLanguageDiv'
+            }
+            style={{
+              background: Active ? '#003b7e' : position <= 970 ? 'transparent' : '#f8f8f8',
+              boxShadow: Active
+                ? '0px 15px 30px rgba(0, 0, 0, 0.1)'
+                : position <= 970
+                ? '0px 15px 30px rgba(0, 0, 0, 0.1)'
+                : 'none',
+            }}
+            onClick={() => {
+              if (language === 'fr') {
+                i18n.changeLanguage('en');
+              } else {
+                i18n.changeLanguage('fr');
+              }
+            }}
+          >
+            <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} />
+            <h2
+              className='NavbarLanguageName'
+              style={{
+                color: Active ? '#f8f8f8' : position <= 970 ? '#f8f8f8' : '#003b7e',
+              }}
+            >
+              {t('FR')}
+            </h2>
+          </div>
+          <div
             className={Active ? 'changes' : 'containers'}
             onClick={() => {
               myFunction();
               SetMenu(!Menu);
+              if (!Menu) {
+                document.body.style.overflow = 'hidden';
+              } else {
+                document.body.style.overflow = 'visible';
+              }
             }}
           >
             <div
@@ -99,8 +142,34 @@ export default function NavBar(props) {
               />
             </Link>
           </div>
+          <div
+            id='CursorZoom'
+            className={Active ? 'NavbarLanguageMenuDiv' : 'NavbarLanguageDiv'}
+            style={{
+              background: Active ? '#003b7e' : '#f8f8f8',
+              boxShadow: Active ? '0px 15px 30px rgba(0, 0, 0, 0.1)' : 'none',
+            }}
+            onClick={() => {
+              if (language === 'fr') {
+                i18n.changeLanguage('en');
+              } else {
+                i18n.changeLanguage('fr');
+              }
+            }}
+          >
+            <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} />
+            <h2
+              className='NavbarLanguageName'
+              style={{
+                color: Active ? '#f8f8f8' : '#003b7e',
+              }}
+            >
+              {t('FR')}
+            </h2>
+          </div>
 
           <div
+            id='CursorZoom'
             className={Active ? 'change' : 'container'}
             // style={{ width: '50px', height: '30px', background: 'red' }}
             onClick={() => {
@@ -148,12 +217,42 @@ export default function NavBar(props) {
                 />
               </Link>
             </div>
+            <div
+              id='CursorZoom'
+              className='NavbarLanguageMenuDiv'
+              style={{
+                background: '#003b7e',
+                boxShadow: '0px 15px 30px rgba(0, 0, 0, 0.1)',
+              }}
+              onClick={() => {
+                if (language === 'fr') {
+                  i18n.changeLanguage('en');
+                } else {
+                  i18n.changeLanguage('fr');
+                }
+              }}
+            >
+              <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} />
+              <h2
+                className='NavbarLanguageName'
+                style={{
+                  color: '#f8f8f8',
+                }}
+              >
+                {t('FR')}
+              </h2>
+            </div>
 
             <div
               className={Active ? 'changes' : 'containers'}
               onClick={() => {
                 myFunction();
                 SetMenu(!Menu);
+                if (!Menu) {
+                  document.body.style.overflow = 'hidden';
+                } else {
+                  document.body.style.overflow = 'visible';
+                }
               }}
             >
               <div
