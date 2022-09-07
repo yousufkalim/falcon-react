@@ -79,11 +79,17 @@
   height: 0px;
   transition: 0.5s;
   overflow: hidden;
+  padding-top: 20px;
 }
-#d:hover + #b {
-  width: 100%;
+
+#c:hover + #b {
+  width: 100% !important;
   background: #42c2ff;
 }
+/* #d:hover + #b {
+  width: 100%;
+  background: #42c2ff;
+}  */
 
 #b {
   height: 2px;
@@ -171,7 +177,7 @@
 }
 .NavbarLanguageDiv {
   width: 100px !important;
-  /* height: 30px !important; */
+  height: 40px !important;
   display: flex;
   justify-content: space-between;
   padding: 5px 15px;
@@ -188,7 +194,7 @@
 }
 .NavbarLanguageMenuDiv {
   width: 100px !important;
-  /* height: 30px !important; */
+  height: 40px !important;
   display: flex;
   justify-content: space-between;
   padding: 5px 15px;
@@ -210,6 +216,7 @@
   color: #f8f8f8 !important;
 } */
 .NavbarLanguageFlag {
+  width: 100%;
   transition: 0.5s;
 }
 .NavbarLanguageName {
@@ -396,6 +403,19 @@
   .logoNew {
     width: 17% !important;
   }
+  .NavbarLanguageDiv {
+    width: 90px !important;
+    height: 30px !important;
+    right: 12% !important;
+  }
+  .NavbarLanguageMenuDiv {
+    width: 90px !important;
+    height: 30px !important;
+    right: 12% !important;
+  }
+  .NavbarLanguageName {
+    font-size: 1.1rem;
+  }
 }
 @media only screen and (max-width: 768px) {
   .newMenuDiv {
@@ -420,6 +440,12 @@
 @media only screen and (max-width: 600px) {
   .logoNew {
     width: 25% !important;
+  }
+  .NavbarLanguageDiv {
+    right: 15% !important;
+  }
+  .NavbarLanguageName {
+    font-size: 1.1rem;
   }
 }
 @media only screen and (max-width: 480px) {

@@ -172,16 +172,80 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                             {t('Services')}
                           </div>
                           <div id='b' style={{ marginLeft: '10px' }}></div>
+                          <div id='c'>
+                            <div id='r'></div>
+                            <ul style={{ listStyle: 'none', width: '100%' }}>
+                              <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                                <Link
+                                  className={
+                                    menuRoute === '/services/web-development'
+                                      ? 'MenuDropdownLinksDisable'
+                                      : 'MenuDropdownLinks'
+                                  }
+                                  to={`/services/web-development`}
+                                >
+                                  {t('Website')}
+                                </Link>
+                              </li>
+                              <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                                <Link
+                                  className={
+                                    menuRoute === '/services/app-development'
+                                      ? 'MenuDropdownLinksDisable'
+                                      : 'MenuDropdownLinks'
+                                  }
+                                  to={`/services/app-development`}
+                                >
+                                  {t('Mobile Application')}
+                                </Link>
+                              </li>
+                              <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                                <Link
+                                  className={
+                                    menuRoute === '/services/software-development'
+                                      ? 'MenuDropdownLinksDisable'
+                                      : 'MenuDropdownLinks'
+                                  }
+                                  to={`/services/software-development`}
+                                >
+                                  {t('Software')}
+                                </Link>
+                              </li>
+                              <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                                <Link
+                                  className={
+                                    menuRoute === '/services/ui-development'
+                                      ? 'MenuDropdownLinksDisable'
+                                      : 'MenuDropdownLinks'
+                                  }
+                                  to={`/services/ui-development`}
+                                >
+                                  {t('UI/UX Design')}
+                                </Link>
+                              </li>
+                              <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                                <Link
+                                  className={
+                                    menuRoute === '/services/ondemand-developers'
+                                      ? 'MenuDropdownLinksDisable'
+                                      : 'MenuDropdownLinks'
+                                  }
+                                  to={`/services/ondemand-developers`}
+                                >
+                                  {t('On Demand')}
+                                </Link>
+                              </li>
+                            </ul>
+                          </div>
                         </div>
                         <div className='spaceDiv'></div>
                       </div>
                       {/* {ServiceDropDown && ( */}
-                      <motion.div
-                        animate={{ y: [100, 20], opacity: [0, 1] }}
-                        transition={{ ease: 'easeOut', duration: 1 }}
-                        id='c'
-                        // className='ServicesDropDown'
-                      >
+                      {/* <motion.div
+                       animate={{ y: [100, 20], opacity: [0, 1] }}
+                       transition={{ ease: 'easeOut', duration: 1 }}
+                      > */}
+                      {/* <div id='c'>
                         <ul style={{ listStyle: 'none', width: '100%' }}>
                           <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
                             <Link
@@ -244,7 +308,8 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                             </Link>
                           </li>
                         </ul>
-                      </motion.div>
+                      </div> */}
+                      {/* </motion.div> */}
                       {/* // )} */}
                     </div>
                   </motion.div>
