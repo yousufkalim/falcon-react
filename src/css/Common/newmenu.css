@@ -79,7 +79,17 @@
   height: 0px;
   transition: 0.5s;
   overflow: hidden;
+  padding-top: 20px;
 }
+
+#c:hover + #b {
+  width: 100% !important;
+  background: #42c2ff;
+}
+/* #d:hover + #b {
+  width: 100%;
+  background: #42c2ff;
+}  */
 
 #b {
   height: 2px;
@@ -87,6 +97,10 @@
   width: 30%;
   margin-top: 1px;
   transition: 0.5s;
+}
+#d:hover + #b {
+  width: 100% !important;
+  background: #42c2ff !important;
 }
 #b_disable {
   height: 2px;
@@ -116,6 +130,7 @@
 .MenuDropdownList:hover {
   transform: scaleX(1);
 }
+
 .MenuDropdownLinks {
   font-size: 1.4rem;
   color: #e5e5e5;
@@ -160,6 +175,53 @@
   top: 1.5%;
   z-index: 999999999 !important;
 }
+.NavbarLanguageDiv {
+  width: 100px !important;
+  height: 40px !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  border-radius: 20px;
+  position: fixed !important;
+  right: 10% !important;
+  top: 1.2% !important;
+  z-index: 9999999 !important;
+  transition: 0.5s !important;
+}
+.NavbarLanguageDiv:hover {
+  background: #e1e1e1 !important;
+  /* background: #42c3ff !important; */
+}
+.NavbarLanguageMenuDiv {
+  width: 100px !important;
+  height: 40px !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  border-radius: 20px;
+  position: fixed !important;
+  right: 10% !important;
+  top: 1.2% !important;
+  z-index: 9999999 !important;
+  transition: 0.5s !important;
+}
+.NavbarLanguageMenuDiv:hover {
+  /* background: #e1e1e1 !important; */
+  background: #0156b7 !important;
+}
+/* #langName {
+  color: red;
+}
+#lang:hover + #langName {
+  color: #f8f8f8 !important;
+} */
+.NavbarLanguageFlag {
+  width: 100%;
+  transition: 0.5s;
+}
+.NavbarLanguageName {
+  transition: 0.5s;
+}
 .change {
   width: 30px;
   height: 30px;
@@ -183,7 +245,7 @@
   cursor: pointer;
   position: fixed;
   left: 5%;
-  top: 1.5%;
+  top: 1%;
   z-index: 999999999999 !important;
   width: 10% !important;
 }
@@ -312,6 +374,10 @@
   .newMenuDiv {
     width: 70%;
   }
+  .logoNew {
+    top: 1.5%;
+    width: 12% !important;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .newMenuDiv {
@@ -334,6 +400,22 @@
   .destopView {
     display: none !important;
   }
+  .logoNew {
+    width: 17% !important;
+  }
+  .NavbarLanguageDiv {
+    width: 90px !important;
+    height: 30px !important;
+    right: 12% !important;
+  }
+  .NavbarLanguageMenuDiv {
+    width: 90px !important;
+    height: 30px !important;
+    right: 12% !important;
+  }
+  .NavbarLanguageName {
+    font-size: 1.1rem;
+  }
 }
 @media only screen and (max-width: 768px) {
   .newMenuDiv {
@@ -348,14 +430,32 @@
   .logoNew {
     width: 20% !important;
   }
+  .NavbarLanguageDiv {
+    right: 13% !important;
+  }
+  .NavbarLanguageMenuDiv {
+    right: 13% !important;
+  }
 }
 @media only screen and (max-width: 600px) {
   .logoNew {
     width: 25% !important;
   }
+  .NavbarLanguageDiv {
+    right: 15% !important;
+  }
+  .NavbarLanguageName {
+    font-size: 1.1rem;
+  }
 }
 @media only screen and (max-width: 480px) {
   .logoNew {
     width: 33% !important;
+  }
+  .NavbarLanguageDiv {
+    right: 15% !important;
+  }
+  .NavbarLanguageMenuDiv {
+    right: 15% !important;
   }
 }

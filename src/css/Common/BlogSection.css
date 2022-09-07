@@ -1,41 +1,40 @@
-.BlogSectionMain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2%;
+.BlogSectionMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 2% 5% 2%;
 }
 
-.BlogCardMain img{
- width: 100%;
+.BlogCardMain img {
+  width: 100%;
 }
-.BlogContainerGrid{
-    display: flex;
-   align-items: center;
-    width: 80%;
+.BlogContainerGrid {
+  display: flex;
+  align-items: center;
+  width: 80%;
 }
-.BlogGrid{
-    margin: 2%;
+.BlogGrid {
+  margin: 2%;
 }
-.BlogCardTitle{
-    color: #12141D; 
-    font-weight: 700 !important; 
-    width: 90%;
-    font-size: 1.5rem !important;
+.BlogCardTitle {
+  color: #12141d;
+  font-weight: 700 !important;
+  width: 90%;
+  font-size: 1.5rem !important;
 }
 @media only screen and (max-width: 1366px) {
-    .BlogCardTitle{
-        width: 95%;
-        font-size: 1.2rem !important;
-
-    }
+  .BlogCardTitle {
+    width: 95%;
+    font-size: 1.2rem !important;
+  }
 }
 @media only screen and (max-width: 900px) {
-    .BlogCardTitle{
-        width: 100%;
-    }
+  .BlogCardTitle {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 600px) {
-    .BlogCardTitle{
-        font-size: 1rem !important;
-    }
+  .BlogCardTitle {
+    font-size: 1rem !important;
+  }
 }

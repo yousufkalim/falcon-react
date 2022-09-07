@@ -110,7 +110,8 @@ i18n
           'What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?':
             'What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?',
           'June 13th 2022': 'June 13th 2022',
-
+          // Our Clients
+          'Our Clients': 'Our Clients',
           // contact us
           'Contact Us': 'Contact Us',
           'Share Your Project/Idea with us!': 'Share Your Project/Idea with us!',
@@ -604,6 +605,7 @@ i18n
           'Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.':
             'Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.',
           // menu
+          FR: 'FR',
           'Changer de langue en': 'Changer de langue en',
           Français: 'Français',
           'WEB DEVELOPMENT': 'WEB DEVELOPMENT',
@@ -1237,6 +1239,7 @@ i18n
             "Un site web d'entreprise vous offre des possibilités infinies pour développer votre entreprise et augmenter vos revenus. Peu importe que vous dirigiez un restaurant, un commerce physique ou que vous vendiez des produits de maquillage, vous avez besoin d'un site web pour toucher un public plus large, lui fournir des informations, lui montrer des critiques et le convaincre d'acheter votre service ou vos produits. Alors qu'attendez-vous ? Mettez immédiatement en place le site web de votre entreprise et explorez les possibilités infinies qui s'y rattachent.",
 
           // menu
+          FR: 'EN',
 
           'Changer de langue en': 'Change the language to',
           Français: 'English',
@@ -1347,7 +1350,8 @@ i18n
           'What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?':
             'Que signifient les règles fiscales minimales mondiales pour les politiques fiscales des entreprises ?',
           'June 13th 2022': '13 juin 2022',
-
+          // Our Clients
+          'Our Clients': 'Nos clients',
           // contact us
           'Contact Us': 'Nous contacter',
           'Share Your Project/Idea with us!': 'Partagez votre projet avec nous !',
@@ -1393,7 +1397,7 @@ i18n
           'The services are provided at a flat rate, or according to a determined daily rate, based on your preference. In both cases, we guarantee you a quality service at a very competitive price.':
             'Les services sont fournis à un tarif forfaitaire, ou selon un tarif journalier déterminé, en fonction de votre préférence. Dans les deux cas, nous vous garantissons un service de qualité à un prix très compétitif.',
           Pages: 'Pages',
-          About: 'Notre Entreprise​',
+          About: 'À propos​',
           Services: 'Services',
           'Our Projects': 'Nos projets',
           Projects: 'Projets',

@@ -1,73 +1,68 @@
-.SectionHeaderTypo{
-    display: flex;
-    flex-direction: column;
+.SectionHeaderTypo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 5% 0 2% 0;
+}
+.SectionHeaderH1 {
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  font-size: 1.2rem !important;
+  color: #42c2ff;
+}
+.SectionHeaderH2 {
+  font-size: 1.8rem !important;
+  text-transform: capitalize;
+  font-weight: 800 !important;
+}
+.SectionHeaderDesp {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  opacity: 50%;
+  width: 75%;
+  margin-top: 3%;
+}
+.LeftSectionHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+  margin: 2% 0% 3% 0%;
+}
+.SectionHeaderDivider {
+  height: 5px;
+  background-color: #42c2ff;
+  border-radius: 4px;
+  margin: 4% 0% !important;
+}
+.SectionHeaderMargin {
+  height: 5px;
+  background-color: #42c2ff;
+  border-radius: 4px;
+  margin: 1.5% 0% !important;
+}
+@media only screen and (max-width: 600px) {
+  .LeftSectionHeader {
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin: 2% 0;
-}
-.SectionHeaderH1{
-    text-transform: uppercase;
-    font-weight: 600 !important;
-    font-size: 1.2rem !important;
-    color: #42C2FF;
-}
-.SectionHeaderH2{
-    font-size: 1.8rem !important;
-    text-transform: capitalize;
-    font-weight: 800 !important;
-}
-.SectionHeaderDesp{
-    font-size: 1rem !important;
-    font-weight: 400 !important;
-    opacity: 50%;
-    width: 75%;
-    margin-top: 3%;
-}
-.LeftSectionHeader{
-    display: flex;
-    flex-direction: column;
-    justify-content:left;
-    text-align: left;
-    align-items: left;
     margin: 2% 0% 3% 0%;
-}
-.SectionHeaderDivider{
-        height: 5px;
-        background-color: #42C2FF;
-        border-radius: 4px;
-        margin: 4% 0% !important;
-}
-.SectionHeaderMargin{
-        height: 5px;
-        background-color: #42C2FF;
-        border-radius: 4px;
-        margin: 1.5% 0% !important;
-}
-@media only screen and (max-width: 600px) {
-    .LeftSectionHeader{
-        justify-content:center;
-        text-align: center;
-        align-items: center;
-        margin: 2% 0% 3% 0%;
-    }
-    .SectionHeaderH1{
-        width: 100% !important;
-    /* font-size: .8rem !important; */
-
-    }
-    .SectionHeaderH2{
-        width: 90% !important;
-        font-size: 1rem !important;
-
-    }
-    .SectionHeaderDesp{
-        width: 95%;
-
-    }
-    .SectionHeaderTypo{
-        margin: 5% 0%;
-    }
-
   }
-
+  .SectionHeaderH1 {
+    width: 100% !important;
+    /* font-size: .8rem !important; */
+  }
+  .SectionHeaderH2 {
+    width: 90% !important;
+    font-size: 1rem !important;
+  }
+  .SectionHeaderDesp {
+    width: 95%;
+  }
+  .SectionHeaderTypo {
+    margin: 5% 0%;
+  }
+}

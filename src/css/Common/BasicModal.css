@@ -1,59 +1,57 @@
-.ModalBox{
-    max-height: 80%;
-    width: 50% !important;
-    overflow-y: scroll;
-    /* padding: 3%; */
+.ModalBox {
+  max-height: 80%;
+  width: 50% !important;
+  overflow-y: scroll;
+  /* padding: 3%; */
 }
 .ModalBox::-webkit-scrollbar {
-    display: none;
-  }
-.Modal_Top{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1% 0%;
+  display: none;
 }
-.Modal_Logo{
-    width: 20%;
-
+.Modal_Top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1% 0%;
 }
-.ModalHeading{
-    font-weight: 800 !important;
+.Modal_Logo {
+  width: 20%;
 }
-.Modal_SubHeading{
-    margin: 2% 0% !important;
-    font-weight: 600 !important;
+.ModalHeading {
+  font-weight: 800 !important;
 }
-.Modal_Para{
-    margin-top: 1% !important;
-    font-size: 1rem !important;
+.Modal_SubHeading {
+  margin: 2% 0% !important;
+  font-weight: 600 !important;
 }
-.ModalOpenBtn{
-    width: 100% !important;
-    border-radius: 10px !important;
-    text-transform: capitalize !important;
-    font-weight: 600 !important;
-    padding: 5% 10%;
-    /* font-weight: 500 !important; */
+.Modal_Para {
+  margin-top: 1% !important;
+  font-size: 1rem !important;
+}
+.ModalOpenBtn {
+  width: 100% !important;
+  border-radius: 10px !important;
+  text-transform: capitalize !important;
+  font-weight: 700 !important;
+  padding: 5% 10%;
+  /* font-weight: 500 !important; */
 }
 @media only screen and (max-width: 1024px) {
-    .ModalBox{
-        max-height: 70%;
-        width: 60% !important;
-    }
+  .ModalBox {
+    max-height: 70%;
+    width: 60% !important;
+  }
 }
 @media only screen and (max-width: 600px) {
-    .ModalBox{
-        max-height: 60%;
-        width: 80% !important;
-    }
-    .Modal_Logo{
-        width: 35%;
-    
-    }
+  .ModalBox {
+    max-height: 60%;
+    width: 80% !important;
+  }
+  .Modal_Logo {
+    width: 35%;
+  }
 }
 @media only screen and (max-width: 420px) {
-    .ModalOpenBtn{
-        font-size: 1rem !important;
-    }
+  .ModalOpenBtn {
+    font-size: 1rem !important;
+  }
 }

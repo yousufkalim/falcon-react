@@ -20,7 +20,7 @@ export default function ServiceWeProvideCard(props) {
         initial={{ y: 50, opacity: 0.7 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.4 }}
-        viewport={{ once: false }}
+        viewport={{ once: true }}
       >
         <Link className='ServiceCard_Link' to={props.to}>
           <div className='ServiceCard_ImageDiv'>

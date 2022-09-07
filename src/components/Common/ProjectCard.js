@@ -51,7 +51,7 @@ export default function ProjectCard(props) {
             <div className='ProjectCard_GradientDiv'></div>
           </div>
           <motion.div
-            initial={{ y: 250, opacity: 0.5 }}
+            initial={{ y: 250, opacity: 0 }}
             whileInView={{ y: 200, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false }}
@@ -69,11 +69,11 @@ export default function ProjectCard(props) {
 
               <p className='ProjectCard_Desp'>
                 {/* {props.description} */}
-                {t(desp?.length > 90 ? desp.slice(0, 90) + '...' : desp)}
+                {t(desp?.length > 150 ? desp.slice(0, 150) + '...' : desp)}
               </p>
-              <div style={{ display: 'flex', alignItems: 'center', width: '50%' }}>
+              <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
                 <button className='ProjectCard_Btn'>
-                  Case Study
+                  {props.BtnText || 'Case Study'}
                   {/* <BasicModal
                     ModalBtntextColor='#003B7E'
                     ModalBtnTheme={props.ModalBtnTheme || 'transparent'}
@@ -110,6 +110,17 @@ export default function ProjectCard(props) {
                 >
                   <img src={Arrow} />
                 </motion.div>
+              </div>
+
+              <div className='ProjectCard_TagsDiv'>
+                <p className='ProjectCard_Tags'>{props.tag1}</p>
+                <p className='ProjectCard_Tags'>{props.tag2}</p>
+                <p className='ProjectCard_Tags'>{props.tag3}</p>
+                <p className='ProjectCard_Tags'>{props.tag4}</p>
+                <p className='ProjectCard_Tags'>{props.tag5}</p>
+                <p className='ProjectCard_Tags'>{props.tag6}</p>
+                <p className='ProjectCard_Tags'>{props.tag7}</p>
+                <p className='ProjectCard_Tags'>{props.tag8}</p>
               </div>
             </div>
           </motion.div>

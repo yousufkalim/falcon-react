@@ -294,30 +294,30 @@ export default function Footer(props) {
               />
             </a>
           )}
-          <a href='https://twitter.com/FalconITConsul2' target='_blank'>
+          {/* <a href='https://twitter.com/FalconITConsul2' target='_blank'>
             <img
               className='FooterIcons'
               // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
               src={Twitter}
               alt='twitter'
             />
-          </a>
-          <a href='https://instagram.com/falconitconsultant?igshid=YmMyMTA2M2Y=' target='_blank'>
+          </a> */}
+          {/* <a href='https://instagram.com/falconitconsultant?igshid=YmMyMTA2M2Y=' target='_blank'>
             <img
               className='FooterIcons'
               // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
               src={Instagram}
               alt='instagram'
             />
-          </a>
-          <a href='https://www.youtube.com/channel/UC44pvxAGtKji2GB8inEKxaw' target='_blank'>
+          </a> */}
+          {/* <a href='https://www.youtube.com/channel/UC44pvxAGtKji2GB8inEKxaw' target='_blank'>
             <img
               className='FooterIcons'
               // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/FooterWhatsApp.svg`}
               src={Youtube}
               alt='youtube'
             />
-          </a>
+          </a> */}
         </div>
         <div>
           <h5
