@@ -51,7 +51,7 @@ export default function ProjectCard(props) {
             <div className='ProjectCard_GradientDiv'></div>
           </div>
           <motion.div
-            initial={{ y: 250, opacity: 0.5 }}
+            initial={{ y: 250, opacity: 0 }}
             whileInView={{ y: 200, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false }}
@@ -71,7 +71,7 @@ export default function ProjectCard(props) {
                 {/* {props.description} */}
                 {t(desp?.length > 150 ? desp.slice(0, 150) + '...' : desp)}
               </p>
-              <div style={{ display: 'flex', alignItems: 'center', width: '50%' }}>
+              <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
                 <button className='ProjectCard_Btn'>
                   {props.BtnText || 'Case Study'}
                   {/* <BasicModal
