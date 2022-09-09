@@ -1303,17 +1303,17 @@ i18n
           'GET A FREE QUOTE': 'OBTENIR UN DEVIS GRATUIT',
 
           //   service Provided section
-          'Our aim provide better service': 'Notre objectif fournir un meilleur service',
+          'Our aim provide better service': 'Notre objectif, vous fournir le meilleur service',
 
           'We are a multi-talented web development company.':
             'Nous sommes une société de développement Web aux multiples talents.',
           'Mobile applications are now essential and allow you.':
-            'Les applications mobiles sont désormais incontournables et vous le permettent.',
-          'MOBILE DEVELOPMENT': 'Développement mobiles',
-          'WEB DEVELOPERS': 'Développement de site Web',
-          'SOFTWARE DEVELOPERS': 'Développement de logiciels',
+            'Nos équipes techniques spécialisées dans le développement mobile peuvent développer applications hybrides ou natives pour adapter vos projets aux besoins clients.',
+          'MOBILE DEVELOPMENT': 'DÉVELOPPEMENT MOBILE',
+          'WEB DEVELOPERS': 'DÉVELOPPEMENT WEB',
+          'SOFTWARE DEVELOPERS': 'DÉVELOPPEMENT LOGICIEL',
           'UI/UX DEVELOPMENT': 'Développement UI/UX',
-          'Data Engineering': 'Ingénierie des données',
+          // 'Data Engineering': 'Ingénierie des données',
           'ON-DEMAND DEVELOPERS': 'Régie Informatique​',
 
           'EXCEED YOUR EXPECTATION': 'NOTRE OBJECTIF : LA SATISFACTION CLIENT',
@@ -1561,7 +1561,7 @@ i18n
 
           'Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !':
             "Avez-vous besoin de développeurs pour des tâches à court ou à long terme ? Notre approche tout compris vous permettra d'obtenir le meilleur match !",
-          'More information': 'More information',
+          'More information': "Plus d'information",
           'Get This Service': 'Obtenir ce service',
 
           // key Features Section
