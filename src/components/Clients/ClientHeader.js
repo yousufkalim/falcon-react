@@ -11,8 +11,9 @@ export default function ClientHeader(props) {
         <h2 className='ClientHeader_Heading'>{t('Our Clients')}</h2>
         <Divider className='ClientHeader_Divider' />
         <p className='ClientHeader_Desp'>
-          Falcon Consulting had the opportunity to work on various type of projects for its clients.
-          We implemented an efficient process in order to deliver qualitative work on time.
+          {t(
+            'Falcon Consulting had the opportunity to work on various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time.'
+          )}
         </p>
       </div>
     </>

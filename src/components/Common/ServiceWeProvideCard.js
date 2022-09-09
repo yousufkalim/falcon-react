@@ -33,8 +33,8 @@ export default function ServiceWeProvideCard(props) {
             {/* <img src={MobileDev} /> */}
           </div>
           <Divider className='ServiceCard_Divider' />
-          <h2 className='ServiceCard_heading'>{props.heading}</h2>
-          <p className='ServiceCard_desp'>{props.desp}</p>
+          <h2 className='ServiceCard_heading'>{t(props.heading)}</h2>
+          <p className='ServiceCard_desp'>{t(props.desp)}</p>
         </Link>
       </motion.div>
     </>
