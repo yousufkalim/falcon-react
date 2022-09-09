@@ -4,14 +4,17 @@ import ServiceWeProvideCard from '../Common/ServiceWeProvideCard';
 import { motion } from 'framer-motion';
 import SectionHeader from '../Common/SectionHeader';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export default function ServiceWeProvide() {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className='ServiceCardSection_SectionHeaderDiv'>
         <Divider className='ServiceCardSection_Divider' />
-        <h1 className='ServiceCardSection_H'>Services We Provide</h1>
-        <p className='ServiceCardSection_P'>Our aim provide better service</p>
+        <h1 className='ServiceCardSection_H'>{t('Services We Provide')}</h1>
+        <p className='ServiceCardSection_P'>{t('Our aim provide better service')}</p>
       </div>
       <div className='ServiceCardSection_MainDiv'>
         <Grid container spacing={1} className='ServiceCardSection_ContainerGrid'>
@@ -27,7 +30,7 @@ export default function ServiceWeProvide() {
             <ServiceWeProvideCard
               to={`/services/web-development`}
               WebDev
-              heading='WEB DEVELOPERS '
+              heading='WEB DEVELOPERS'
               desp='We are a multi-talented web development company.'
             />
           </Grid>
@@ -35,7 +38,7 @@ export default function ServiceWeProvide() {
             <ServiceWeProvideCard
               to={`/services/software-development`}
               SoftwareDev
-              heading='SOFTWARE DEVELOPERS '
+              heading='SOFTWARE DEVELOPERS'
               desp='We are a multi-talented web development company.'
             />
           </Grid>
@@ -58,7 +61,7 @@ export default function ServiceWeProvide() {
             <ServiceWeProvideCard
               to={`/services/ondemand-developers`}
               OnDemandDev
-              heading='ON-DEMAND DEVELOPERS '
+              heading='ON-DEMAND DEVELOPERS'
               desp='We are a multi-talented web development company.'
             />
           </Grid>

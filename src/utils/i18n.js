@@ -22,8 +22,20 @@ i18n
           'GET A FREE QUOTE': 'GET A FREE QUOTE',
 
           //   service Provided section
+          'Our aim provide better service': 'Our aim provide better service',
+          'We are a multi-talented web development company.':
+            'We are a multi-talented web development company.',
+          'Mobile applications are now essential and allow you.':
+            'Mobile applications are now essential and allow you.',
           'EXCEED YOUR EXPECTATION': 'EXCEED YOUR EXPECTATION',
           'Services We Provide': 'Services We Provide',
+          'MOBILE DEVELOPMENT': 'MOBILE DEVELOPMENT',
+          'WEB DEVELOPERS': 'WEB DEVELOPERS',
+          'SOFTWARE DEVELOPERS': 'SOFTWARE DEVELOPERS',
+          'UI/UX DEVELOPMENT': 'UI/UX DEVELOPMENT',
+          'Data Engineering': 'Data Engineering',
+          'ON-DEMAND DEVELOPERS': 'ON-DEMAND DEVELOPERS',
+
           'Mobile Application Development': 'Mobile Application Development',
           'Website Development': 'Website Development',
           'Software Development': 'Software Development',
@@ -39,6 +51,8 @@ i18n
           'COLOR THEME AND DESIGN': 'COLOR THEME AND DESIGN',
           //   latest projects section
           'EACH PROJECT IS A NEW CHALLENGE': 'EACH PROJECT IS A NEW CHALLENGE',
+          'Clients Satisfied': 'Clients Satisfied',
+
           'Latest Projects': 'Latest Projects',
           'Years of Excellence': 'Years of Excellence',
           'Project Completed': 'Project Completed',
@@ -1271,6 +1285,19 @@ i18n
           'GET A FREE QUOTE': 'OBTENIR UN DEVIS GRATUIT',
 
           //   service Provided section
+          'Our aim provide better service': 'Notre objectif fournir un meilleur service',
+
+          'We are a multi-talented web development company.':
+            'Nous sommes une société de développement Web aux multiples talents.',
+          'Mobile applications are now essential and allow you.':
+            'Les applications mobiles sont désormais incontournables et vous le permettent.',
+          'MOBILE DEVELOPMENT': 'Développement mobiles',
+          'WEB DEVELOPERS': 'Développement de site Web',
+          'SOFTWARE DEVELOPERS': 'Développement de logiciels',
+          'UI/UX DEVELOPMENT': 'Développement UI/UX',
+          'Data Engineering': 'Ingénierie des données',
+          'ON-DEMAND DEVELOPERS': 'Régie Informatique​',
+
           'EXCEED YOUR EXPECTATION': 'NOTRE OBJECTIF : LA SATISFACTION CLIENT',
           'Services We Provide': 'Nos Services​',
           'Mobile Application Development': "Développement d'applications mobiles",
@@ -1282,17 +1309,18 @@ i18n
 
           //   latest projects section
           'EACH PROJECT IS A NEW CHALLENGE': 'CHAQUE PROJET EST UN NOUVEAU DÉFI',
-          'Latest Projects': 'Dernier projets',
-          'Years of Excellence': "Années d'Excellence",
+          'Latest Projects': 'Nos derniers projets',
+          'Years of Excellence': "Années d'expertise",
           'Project Completed': 'Projets terminés',
           'Customer Satisfied': 'Clients Satisfaits',
           'View More': 'Voir plus',
           'Client Details': 'Détails du client',
+          'Clients Satisfied': 'Clients satisfaits',
 
           //   aboutus Section
           'your work is our priority': 'Votre projet est notre priorité',
           'Why choose Falcon Consulting?': 'Pourquoi choisir Falcon Consulting ?',
-          'Years of Experience': "Années d'Excellence",
+          'Years of Experience': "Années d'expertise",
           'Number of Employees': "Nombre d'employés",
           'Successfull Projects': 'Projets réussis',
           'Number of Offices': 'Nombre de bureaux',
@@ -1436,7 +1464,7 @@ i18n
             'Prix ​​accessible, sans compromis sur la Qualité !',
           'Office Locations': 'Pays',
 
-          'Years of Excellence': "Années d'excellence",
+          'Years of Excellence': "Années d'expertise",
           'Successfull Projects': 'Projets réussis',
           'Client satisfication': 'Satisfaction client',
 
