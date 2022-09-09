@@ -126,6 +126,9 @@ i18n
           'June 13th 2022': 'June 13th 2022',
           // Our Clients
           'Our Clients': 'Our Clients',
+          'Application Web conçue pour aider les clients souhaitant des coutures personnalisées àrec...':
+            'Web application designed to help customers wanting custom stitching rec...',
+
           // contact us
           'Contact Us': 'Contact Us',
           'Share Your Project/Idea with us!': 'Share Your Project/Idea with us!',
@@ -1395,6 +1398,8 @@ i18n
           'June 13th 2022': '13 juin 2022',
           // Our Clients
           'Our Clients': 'Nos clients',
+          'Application Web conçue pour aider les clients souhaitant des coutures personnalisées àrec...':
+            'Application Web conçue pour aider les clients souhaitant des coutures personnalisées àrec...',
           // contact us
           'Contact Us': 'Nous contacter',
           'Share Your Project/Idea with us!': 'Partagez votre projet avec nous !',

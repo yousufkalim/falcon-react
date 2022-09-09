@@ -4,11 +4,14 @@ import { motion, useScroll, useTransform, useSpring, MotionValue } from 'framer-
 import React, { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import MicroSoft from '../../assets/images/client_microsoft.png';
+
 // Home Component
 function useParallax(value, distance) {
   return useTransform(value, [0, 1], [-distance, distance]);
 }
 export default function ClientCard(props) {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className='ClientCard_MainDiv'>
@@ -44,8 +47,10 @@ export default function ClientCard(props) {
               {props.subtitle}
             </h2>
             <p className='ClientCard_Desp'>
-              {props.desp ||
-                'Application Web conçue pour aider les clients souhaitant des coutures personnalisées àrec...'}
+              {t(
+                props.desp ||
+                  'Application Web conçue pour aider les clients souhaitant des coutures personnalisées àrec...'
+              )}
             </p>
           </motion.div>
         </motion.div>
