@@ -234,6 +234,10 @@ i18n
 
           //   Our Projects
           // Projects_Header
+          'Falcon Consulting had the opportunity to work on various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time.':
+            'Falcon Consulting had the opportunity to work on various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time.',
+          'ALL PROJECTS START BY A SIMPLE IDEA LET US TAKE CARE OF THE REST!':
+            'ALL PROJECTS START BY A SIMPLE IDEA LET US TAKE CARE OF THE REST!',
           'ALL PROJECTS START BY A SIMPLE IDEA, LET US TAKE CARE OF THE REST!':
             'ALL PROJECTS START BY A SIMPLE IDEA, LET US TAKE CARE OF THE REST!',
           'Falcon Consulting had the opportunity to work on  various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time. ':
@@ -252,9 +256,20 @@ i18n
           'Data & Cloud': 'Data & Cloud',
           View: 'View',
           VIEW: 'VIEW',
+          Construction: 'Construction',
+          Education: 'Education',
+          'Human Resources': 'Human Resources',
+          Health: 'Health',
+          Gaming: 'Gaming',
+          Transport: 'Transport',
+          Business: 'Business',
+          Fashion: 'Fashion',
+          Food: 'Food',
+          Advertisement: 'Advertisement',
 
           'What is ': 'What is ',
           'See more': 'See more',
+          'Case Study': 'Case Study',
 
           //   Services
           // Services_Header
@@ -563,8 +578,8 @@ i18n
           // EZBoxmedia
           'EZBox media is a platform providing different services':
             'EZBox media is a platform providing different services',
-          // 'EZBox media is a platform providing different services including':
-          //   'EZBox media is a platform providing different services including',
+          'EZBox media is a platform providing different services including':
+            'EZBox media is a platform providing different services including',
           Advertising: 'Advertising',
           '•	Advertising by understanding how a user can react to the advertisement shown to them.':
             '•	Advertising by understanding how a user can react to the advertisement shown to them.',
@@ -1495,6 +1510,10 @@ i18n
 
           //   Our Projects
           // Projects_Header
+          'ALL PROJECTS START BY A SIMPLE IDEA LET US TAKE CARE OF THE REST!':
+            'TOUS LES PROJETS COMMENCENT PAR UNE IDÉE SIMPLE LAISSEZ NOUS PRENDRE SOIN DU RESTE !',
+          'Falcon Consulting had the opportunity to work on various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time.':
+            "Falcon Consulting a eu l'opportunité de travailler sur différents types de projets pour ses clients. Nous avons mis en place un processus efficace afin de livrer un travail qualitatif dans les délais.",
           'ALL PROJECTS START BY A SIMPLE IDEA, LET US TAKE CARE OF THE REST!':
             'TOUS LES PROJETS COMMENCENT PAR UNE SIMPLE IDÉE. LAISSEZ NOUS PRENDRE SOIN DU RESTE !',
           'Falcon Consulting had the opportunity to work on  various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time. ':
@@ -1513,10 +1532,21 @@ i18n
           'Data & Cloud': 'Data & Cloud',
           View: 'Voir',
           VIEW: 'VOIR',
+          Construction: 'Construction',
+          Education: 'Éducation',
+          'Human Resources': 'Ressources humaines',
+          Health: 'Santé',
+          Gaming: 'Jeux',
+          Transport: 'Le transport',
+          Business: 'Entreprise',
+          Fashion: 'Mode',
+          Food: 'Aliments',
+          Advertisement: 'Publicité',
 
           'What is ': "Qu'est-ce que",
 
           'See more': 'Voir plus',
+          'Case Study': 'Étude de cas',
 
           //   Services
           // Services_Header
@@ -1814,6 +1844,8 @@ i18n
           // EZBoxmedia
           'EZBox media is a platform providing different services':
             'EZBox media est une plate-forme fournissant différents services',
+          'EZBox media is a platform providing different services including':
+            'EEZBox media est une plate-forme fournissant différents services, notamment',
           Advertising: 'Publicité:',
           '•	Advertising by understanding how a user can react to the advertisement shown to them.':
             'Publicité en analysant le comportement des utilisateurs face au contenu présenté.',

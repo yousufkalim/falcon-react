@@ -20,7 +20,7 @@ export default function ProjectCard(props) {
 
   useEffect(() => {
     setDesp(t(props?.description));
-  }, [props?.description]);
+  }, [t(props?.description)]);
   const handleRedirect = () => {
     window.location = [props?.href];
   };
@@ -69,11 +69,11 @@ export default function ProjectCard(props) {
 
               <p className='ProjectCard_Desp'>
                 {/* {props.description} */}
-                {t(desp?.length > 150 ? desp.slice(0, 150) + '...' : desp)}
+                {desp?.length > 150 ? desp.slice(0, 150) + '...' : desp}
               </p>
               <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
                 <button className='ProjectCard_Btn'>
-                  {props.BtnText || 'Case Study'}
+                  {t(props.BtnText || 'Case Study')}
                   {/* <BasicModal
                     ModalBtntextColor='#003B7E'
                     ModalBtnTheme={props.ModalBtnTheme || 'transparent'}
@@ -113,14 +113,14 @@ export default function ProjectCard(props) {
               </div>
 
               <div className='ProjectCard_TagsDiv'>
-                <p className='ProjectCard_Tags'>{props.tag1}</p>
-                <p className='ProjectCard_Tags'>{props.tag2}</p>
-                <p className='ProjectCard_Tags'>{props.tag3}</p>
-                <p className='ProjectCard_Tags'>{props.tag4}</p>
-                <p className='ProjectCard_Tags'>{props.tag5}</p>
-                <p className='ProjectCard_Tags'>{props.tag6}</p>
-                <p className='ProjectCard_Tags'>{props.tag7}</p>
-                <p className='ProjectCard_Tags'>{props.tag8}</p>
+                {props.tag1 && <p className='ProjectCard_Tags'>#{t(props.tag1)}</p>}
+                {props.tag2 && <p className='ProjectCard_Tags'>#{t(props.tag2)}</p>}
+                {props.tag3 && <p className='ProjectCard_Tags'>#{t(props.tag3)}</p>}
+                {props.tag4 && <p className='ProjectCard_Tags'>#{t(props.tag4)}</p>}
+                {props.tag5 && <p className='ProjectCard_Tags'>#{t(props.tag5)}</p>}
+                {props.tag6 && <p className='ProjectCard_Tags'>#{t(props.tag6)}</p>}
+                {props.tag7 && <p className='ProjectCard_Tags'>#{t(props.tag7)}</p>}
+                {props.tag8 && <p className='ProjectCard_Tags'>#{t(props.tag8)}</p>}
               </div>
             </div>
           </motion.div>
