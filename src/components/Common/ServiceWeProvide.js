@@ -23,7 +23,7 @@ export default function ServiceWeProvide() {
               to={`/services/app-development`}
               MobileDev
               heading='MOBILE DEVELOPMENT'
-              desp='Mobile applications are now essential and allow you.'
+              desp='Nos équipes techniques spécialisées dans le développement mobile peuvent développer applications hybrides ou natives pour adapter vos projets aux besoins clients.'
             />
           </Grid>
           <Grid sm={12} md={5} lg={3.5}>
@@ -31,7 +31,7 @@ export default function ServiceWeProvide() {
               to={`/services/web-development`}
               WebDev
               heading='WEB DEVELOPERS'
-              desp='We are a multi-talented web development company.'
+              desp='Nos équipes web sont toujours à la pointe de la technologie aussi bien pour le front end que pour le back end.'
             />
           </Grid>
           <Grid sm={12} md={5} lg={3.5}>
@@ -39,7 +39,7 @@ export default function ServiceWeProvide() {
               to={`/services/software-development`}
               SoftwareDev
               heading='SOFTWARE DEVELOPERS'
-              desp='We are a multi-talented web development company.'
+              desp="Nos équipes d'ingénieurs logiciel ont l'expertise pour développer des logiciels aboutis et adaptés aux différents métiers."
             />
           </Grid>
           <Grid sm={12} md={5} lg={3.5}>
@@ -47,14 +47,14 @@ export default function ServiceWeProvide() {
               to={`/services/ui-development`}
               UiDev
               heading='UI/UX DEVELOPMENT'
-              desp='Mobile applications are now essential and allow you.'
+              desp='Nos équipes de designers sont à votre écoute pour faire briller vos idées et illustrer vos projets par des maquettes de haute qualité.'
             />
           </Grid>
           <Grid sm={12} md={5} lg={3.5}>
             <ServiceWeProvideCard
               DataEng
               heading='Data Engineering'
-              desp='We are a multi-talented web development company.'
+              desp='Nos équipes Data feront de vos données un atout et une force pour votre entreprise.'
             />
           </Grid>
           <Grid sm={12} md={5} lg={3.5}>
@@ -62,7 +62,7 @@ export default function ServiceWeProvide() {
               to={`/services/ondemand-developers`}
               OnDemandDev
               heading='ON-DEMAND DEVELOPERS'
-              desp='We are a multi-talented web development company.'
+              desp='Nous pouvons étendre vos équipes techniques avec nos ressources techniques selon vos besoins.'
             />
           </Grid>
         </Grid>
