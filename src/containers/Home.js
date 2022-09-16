@@ -10,7 +10,7 @@ import AboutSection from '../components/Common/AboutSection';
 import ClientSection from '../components/Common/ClientSection';
 import ReviewSection from '../components/Common/ReviewsSection';
 import BlogSection from '../components/Common/BlogSection';
-import ContactUsSection from '../components/Common/ContactUsSection';
+import ContactUsSection from '../components/Common/NewContactForm';
 import LocationSection from '../components/Common/LocationSection';
 import Footer from '../components/Common/Footer';
 

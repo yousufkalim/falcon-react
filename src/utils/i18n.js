@@ -130,10 +130,50 @@ i18n
             'Web application designed to help customers wanting custom stitching rec...',
 
           // contact us
+          // Validation Messages
+          'Name is required': 'Name is required',
+          'Name is too short (minimum is 3 characters)':
+            'Name is too short (minimum is 3 characters)',
+          'Phone is required': 'Phone is required',
+          'Phone number must be atleast 10 digits long':
+            'Phone number must be atleast 10 digits long',
+          'Company is required': 'Company is required',
+          'Email is required': 'Email is required',
+          'Email must be in this format (name@domain.com)':
+            'Email must be in this format (name@domain.com)',
+          'Message is required': 'Message is required',
+          // 'Name is required': 'Name is required',
+          //labels
+          'My name is': 'My name is',
+          'My phone number is': 'My phone number is',
+          'I work at': 'I work at',
+          'Reach me at': 'Reach me at',
+          Message: 'Message',
+          //placeholders
+          'Your name': 'Your name',
+          'Your phone number': 'Your phone number',
+          'Your company': 'Your company',
+          'name@email.com': 'name@email.com',
+          'Start typing here...': 'Start typing here...',
+          //
+          or: 'or',
+          'Thank you': 'Thank you',
+          'Your message has been sent successfully. Our Team Member will get back to you within 24 hours.':
+            'Your message has been sent successfully. Our Team Member will get back to you within 24 hours.',
+          Submit: 'Submit',
+          // background Text
+          Share: 'Share',
+          Your: 'Your',
+          Project: 'Project',
+          Idea: 'Idea',
+          with: 'with',
+          'us!': 'us!',
+          //
+          'Submit another': 'Submit another',
           'Contact Us': 'Contact Us',
           'Share Your Project/Idea with us!': 'Share Your Project/Idea with us!',
-          'Our Team Member will get back to you within 24 hours. ':
-            'Our Team Member will get back to you within 24 hours. ',
+          'Our Team Member will get back to you within 24 hours.':
+            'Our Team Member will get back to you within 24 hours.',
 
           'Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.':
             'Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.',
@@ -215,8 +255,8 @@ i18n
           // our vision section
           'HEALTHY RELATIONSHIPS​': 'HEALTHY RELATIONSHIPS​',
           'Our Vision': 'Our Vision',
-          'We strongly believe that talent and skills has no border. By providing a great working environment in our offices, we allow our partners to benefit from competitive pricing with a qualitative work. ':
-            'We strongly believe that talent and skills has no border. By providing a great working environment in our offices, we allow our partners to benefit from competitive pricing with a qualitative work. ',
+          'We strongly believe that talent and skills has no border. By providing a great working environment in our offices, we allow our partners to benefit from competitive pricing with a qualitative work.':
+            'We strongly believe that talent and skills has no border. By providing a great working environment in our offices, we allow our partners to benefit from competitive pricing with a qualitative work.',
           'IN-HOUSE TEAM': 'IN-HOUSE TEAM',
           TECHNOLOGIES: 'TECHNOLOGIES',
           'USER-FOCUSED PROCESS': 'USER-FOCUSED PROCESS',
@@ -1401,15 +1441,57 @@ i18n
           'Application Web conçue pour aider les clients souhaitant des coutures personnalisées àrec...':
             'Application Web conçue pour aider les clients souhaitant des coutures personnalisées àrec...',
           // contact us
+          // Validation Messages
+          'Name is required': 'Le nom est requis',
+          'Name is too short (minimum is 3 characters)':
+            'Le nom est trop court (le minimum est de 3 caractères)',
+          'Phone is required': 'Le téléphone est requis',
+          'Phone number must be atleast 10 digits long':
+            'Le numéro de téléphone doit comporter au moins 10 chiffres',
+          'Company is required': 'La société est requise',
+          'Email is required': "L'e-mail est requis",
+          'Email must be in this format (name@domain.com)':
+            "L'e-mail doit être dans ce format (nom@domaine.com)",
+          'Message is required': 'Un message est requis',
+          // 'Name is required': 'french',
+
+          //labels
+          'My name is': 'Mon nom est',
+          'My phone number is': 'Mon numéro de téléphone est',
+          'I work at': 'je travaille à',
+          'Reach me at': 'Contactez-moi au',
+          Message: 'Message',
+          //placeholders
+          'Your name': 'Votre nom',
+          'Your phone number': 'Your phone number',
+          'Your company': 'Votre entreprise',
+          'name@email.com': 'nom@email.com',
+          'Start typing here...': 'Commencez à taper ici...',
+          //
+          or: 'ou',
+          'Thank you': 'Merci',
+          'Your message has been sent successfully. Our Team Member will get back to you within 24 hours.':
+            "Votre message a été envoyé avec succès. Notre membre de l'équipe vous répondra dans les 24 heures.",
+          // background Text
+          Share: 'Partager',
+          Your: 'Ton',
+          Project: 'Projet',
+          Idea: 'Idée',
+          with: 'avec',
+          'us!': 'nous!',
+          //
+          Submit: 'Soumettre',
+          'Submit another': 'Soumettez un autre',
+
           'Contact Us': 'Nous contacter',
           'Share Your Project/Idea with us!': 'Partagez votre projet avec nous !',
-          'Our Team Member will get back to you within 24 hours. ':
+          'Our Team Member will get back to you within 24 hours.':
             'Un collaborateur vous répondra dans les 24 heures.',
 
           'Do you have any question on any concrete project ? Or do you just want to touch base about offshore development and see if it can fit your needs ? Please fill the contact form and we will share our expertize for free. Our Team Member will get back to you within 24 hours.':
             "Vous avez des questions sur un projet concret ? Ou voulez-vous simplement vous renseigner sur le développement offshore et voir s'il peut répondre à vos besoins ? Veuillez remplir le formulaire de contact et nous partagerons gratuitement notre expertise. Un collaborateur vous répondra dans les 24 heures.",
           'Schedule Meeting': 'Planifier une réunion',
-          Email: 'Adresse E-mail​',
+          Email: 'Email​',
           'Your Name': 'Votre nom',
           Phone: 'Téléphone',
           Budget: 'Budget',
@@ -1491,7 +1573,7 @@ i18n
           // our vision section
           'HEALTHY RELATIONSHIPS​': 'DES RELATIONS SAINES',
           'Our Vision': 'Notre vision',
-          'We strongly believe that talent and skills has no border. By providing a great working environment in our offices, we allow our partners to benefit from competitive pricing with a qualitative work. ':
+          'We strongly believe that talent and skills has no border. By providing a great working environment in our offices, we allow our partners to benefit from competitive pricing with a qualitative work.':
             "Nous croyons fermement que le talent et les compétences n'ont pas de frontière. En offrant un excellent environnement de travail dans nos locaux, nous permettons à nos partenaires de bénéficier de prix compétitifs avec un travail qualitatif.",
           'IN-HOUSE TEAM': 'ÉQUIPE INTERNE',
           TECHNOLOGIES: 'TECHNOLOGIES',

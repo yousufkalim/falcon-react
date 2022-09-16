@@ -3,7 +3,7 @@ import React from 'react';
 
 // Importing Components
 import NavBar from '../components/Common/NavBar';
-import ContactUsSection from '../components/Common/ContactUsSection';
+import ContactUsSection from '../components/Common/NewContactForm';
 import LocationSection from '../components/Common/LocationSection';
 import Footer from '../components/Common/Footer';
 import { Helmet } from 'react-helmet';
