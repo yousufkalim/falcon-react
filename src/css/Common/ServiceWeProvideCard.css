@@ -7,6 +7,7 @@
   margin: 5% 0;
   transition: 0.5s;
   transform: scale(1);
+  overflow: hidden;
 }
 .ServiceCard_Link {
   color: #000;
