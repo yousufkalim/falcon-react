@@ -5,7 +5,7 @@
   background-blend-mode: multiply, normal, normal;
   height: 100%;
   overflow: hidden;
-  padding: 6% 1% 4% 5%;
+  padding: 6.5% 1% 4% 5%;
   display: flex;
 }
 .New_ContactSection_MainDiv {
@@ -268,7 +268,7 @@ p strong {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 90vh;
+  height: 70vh;
   width: 70%;
   /* padding: 5% 0; */
 }
