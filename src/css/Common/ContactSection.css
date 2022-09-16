@@ -99,7 +99,7 @@
   resize: none;
   overflow-y: scroll;
   min-height: 35px;
-  max-height: 370px;
+  max-height: 375px;
   font-weight: 600;
   margin-bottom: 1%;
 }
@@ -277,6 +277,9 @@ p strong {
   .New_ContactSection_Container {
     padding: 10% 1% 3% 5%;
   }
+  .New_ContactSection_Textarea {
+    max-height: 352px;
+  }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -285,6 +288,9 @@ p strong {
   }
   .ContactCaptcha {
     margin: 2% 0;
+  }
+  .New_ContactSection_Textarea {
+    max-height: 318px;
   }
 }
 @media only screen and (max-width: 1366px) {
@@ -298,6 +304,9 @@ p strong {
   .New_ContactSection_ButtonDiv {
     width: 70%;
   }
+  .New_ContactSection_Textarea {
+    max-height: 310px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .New_ContactSection_RightTextSubDiv h2 {
@@ -310,6 +319,14 @@ p strong {
   .New_ContactSection_ButtonSuccess {
     padding: 2% 3%;
     width: 30%;
+  }
+  .New_ContactSection_Textarea {
+    max-height: 291px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .New_ContactSection_Textarea {
+    max-height: 272px;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -341,6 +358,9 @@ p strong {
   } */
   .New_ContactSection_SuccessLinksContainer h2 {
     font-size: 1rem;
+  }
+  .New_ContactSection_Textarea {
+    max-height: 250px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -401,7 +421,7 @@ p strong {
     margin-bottom: 2% !important;
   }
   .New_ContactSection_Textarea {
-    margin-bottom: 2%;
+    margin-bottom: 2% !important;
   }
   .New_ContactSection_LinksDivider {
     height: 40px !important;
