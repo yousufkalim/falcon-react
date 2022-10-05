@@ -55,7 +55,7 @@ export default function Quadrabase() {
         // desp=""
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/overview_quadraAvatar.png`}
         nameColor='#9D3C64'
-        name='Jean-Claude Imbert'
+        // name='Jean-Claude Imbert'
         // location="France"
         src={QB_Overview}
       />
@@ -113,7 +113,7 @@ export default function Quadrabase() {
         website
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_qb_design.png`}
       />
-      <DetailFeedback
+      {/* <DetailFeedback
         ThemeBG='#9D3C64'
         // titleTheme=""
         // despTheme=""
@@ -122,7 +122,7 @@ export default function Quadrabase() {
         name='Jean-Claude Imbert'
 
         // location=""
-      />
+      /> */}
       <DetailMoreProjects />
 
       <Footer />

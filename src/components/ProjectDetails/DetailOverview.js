@@ -46,7 +46,7 @@ export default function DetailOverview(props) {
                 />
                 <div className='DetailOverview_NameDiv'>
                   <Typography className='DetailOverview_Name' color={props.nameColor || '#2FAD93'}>
-                    {props.name || 'DDS Formation'}
+                    {props.name}
                   </Typography>
                   <Typography className='DetailOverview_Location'>
                     {props.location || 'France'}
