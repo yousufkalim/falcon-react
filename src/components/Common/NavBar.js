@@ -10,6 +10,7 @@ import { useScrollPosition } from '../../utils/ScrollPosition';
 import { AnimatePresence, motion, useScroll } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import WhiteLogo from '../../assets/images/falconwhitelogo.svg';
+import Tooltip from '@mui/material/Tooltip';
 import USA from '../../assets/images/usa_flag.svg';
 import French from '../../assets/images/french_flag.svg';
 export default function NavBar(props) {
@@ -142,31 +143,37 @@ export default function NavBar(props) {
               />
             </Link>
           </div>
-          <div
-            id='CursorZoom'
-            className={Active ? 'NavbarLanguageMenuDiv' : 'NavbarLanguageDiv'}
-            style={{
-              background: Active ? '#003b7e' : '#f8f8f8',
-              boxShadow: Active ? '0px 15px 30px rgba(0, 0, 0, 0.1)' : 'none',
-            }}
-            onClick={() => {
-              if (language === 'fr') {
-                i18n.changeLanguage('en');
-              } else {
-                i18n.changeLanguage('fr');
-              }
-            }}
+          <Tooltip
+            title={
+              language === 'fr' ? 'Change the Language to English' : 'Changer de langue en Français'
+            }
           >
-            <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} />
-            <h2
-              className='NavbarLanguageName'
+            <div
+              id='CursorZoom'
+              className={Active ? 'NavbarLanguageMenuDiv' : 'NavbarLanguageDiv'}
               style={{
-                color: Active ? '#f8f8f8' : '#003b7e',
+                background: Active ? '#003b7e' : '#f8f8f8',
+                boxShadow: Active ? '0px 15px 30px rgba(0, 0, 0, 0.1)' : 'none',
+              }}
+              onClick={() => {
+                if (language === 'fr') {
+                  i18n.changeLanguage('en');
+                } else {
+                  i18n.changeLanguage('fr');
+                }
               }}
             >
-              {t('FR')}
-            </h2>
-          </div>
+              <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} />
+              <h2
+                className='NavbarLanguageName'
+                style={{
+                  color: Active ? '#f8f8f8' : '#003b7e',
+                }}
+              >
+                {t('FR')}
+              </h2>
+            </div>
+          </Tooltip>
 
           <div
             id='CursorZoom'
