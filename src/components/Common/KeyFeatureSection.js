@@ -10,10 +10,6 @@ import { motion } from 'framer-motion';
 export default function KeyFeatureSection(props) {
   return (
     <motion.div
-      initial={{ y: 100, opacity: 0.5 }}
-      whileInView={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.6, delay: 0.4 }}
-      viewport={{ once: true }}
       style={{
         display: 'flex',
         flexDirection: 'column',
@@ -28,9 +24,9 @@ export default function KeyFeatureSection(props) {
         colorDesp
       />
       <motion.div
-        initial={{ y: 100, opacity: 0.5 }}
+        initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.4 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
         viewport={{ once: true }}
         style={{
           width: '100%',

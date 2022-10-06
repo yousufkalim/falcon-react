@@ -451,9 +451,9 @@ export default function LatestProjects(props) {
         </motion.div>
         {props.ProjectsSummary && (
           <motion.div
-            initial={{ y: 50, opacity: 0.7 }}
+            initial={{ y: 50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: false }}
             className='ProjectsCompletedDiv'
           >

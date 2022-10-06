@@ -22,9 +22,9 @@ export default function AboutCompany() {
           <Grid sm={12} md={6}>
             <motion.div
               className='AboutCompanyTypo'
-              initial={{ y: 100, opacity: 0.5 }}
+              initial={{ y: 50, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
               <Typography className='AboutCompanyTypo_H1'>{t('BEST company')}</Typography>

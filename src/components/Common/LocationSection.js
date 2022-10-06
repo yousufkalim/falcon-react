@@ -7,13 +7,7 @@ import 'react-awesome-slider/dist/styles.css';
 export default function LocationSection(props) {
   return (
     <>
-      <motion.div
-        initial={{ y: 100, opacity: 0.5 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.4 }}
-        viewport={{ once: true }}
-        className='LocationSectionMain'
-      >
+      <div className='LocationSectionMain'>
         <div className='LocationSectionHeader'>
           <SectionHeader
             colorH2='#0F52BA'
@@ -106,7 +100,7 @@ export default function LocationSection(props) {
             </div>
           </AwesomeSlider>
         </div>
-      </motion.div>
+      </div>
     </>
   );
 }

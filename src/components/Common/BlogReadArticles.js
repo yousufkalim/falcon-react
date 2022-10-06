@@ -18,19 +18,26 @@ export default function BlogReadArticles(props) {
   return (
     <>
       {props.Reverse ? (
-        <motion.div
-          initial={{ y: 100, opacity: 0.5 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: true }}
-          className='BlogArticleMain'
-        >
+        <div className='BlogArticleMain'>
           <Grid container spacing={1} className='BlogArticleContainer2'>
             <Grid xs={12} sm={10} md={6}>
-              <img className='BlogReadImg' width={props.width} src={props.src} alt='blog' />
+              <motion.div
+                initial={{ y: 50, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+              >
+                <img className='BlogReadImg' width={props.width} src={props.src} alt='blog' />
+              </motion.div>
             </Grid>
             <Grid xs={12} sm={10} md={6}>
-              <div className='BlogTypo'>
+              <motion.div
+                initial={{ y: 50, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                viewport={{ once: true }}
+                className='BlogTypo'
+              >
                 <Typography className='BlogReadTitle'>
                   {t(props.title || 'Manager une équipe en télétravail')}
                 </Typography>
@@ -52,21 +59,21 @@ export default function BlogReadArticles(props) {
                     {t(props.BtnTexr || 'READ MORE')}
                   </Link>
                 </Button>
-              </div>
+              </motion.div>
             </Grid>
           </Grid>
-        </motion.div>
+        </div>
       ) : (
-        <motion.div
-          initial={{ y: 100, opacity: 0.5 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: true }}
-          className='BlogArticleMain'
-        >
+        <div className='BlogArticleMain'>
           <Grid container spacing={1} className='BlogArticleContainer1'>
             <Grid xs={12} sm={10} md={6}>
-              <div className='BlogTypo'>
+              <motion.div
+                initial={{ y: 50, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                viewport={{ once: true }}
+                className='BlogTypo'
+              >
                 <Typography className='BlogReadTitle'>
                   {t(props.title || 'Manager une équipe en télétravail')}
                 </Typography>
@@ -85,13 +92,20 @@ export default function BlogReadArticles(props) {
                     {t(props.BtnTexr || 'READ MORE')}
                   </Link>
                 </Button>
-              </div>
+              </motion.div>
             </Grid>
             <Grid xs={12} sm={10} md={6}>
-              <img className='BlogReadImg' width={props.width} src={props.src} alt='blog' />
+              <motion.div
+                initial={{ y: 50, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+              >
+                <img className='BlogReadImg' width={props.width} src={props.src} alt='blog' />
+              </motion.div>
             </Grid>
           </Grid>
-        </motion.div>
+        </div>
       )}
     </>
   );
