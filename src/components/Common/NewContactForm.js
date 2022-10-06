@@ -515,7 +515,7 @@ export default function ContactSection(props) {
               </div>
               <div className='New_ContactSection_ButtonDiv'>
                 <button
-                  disabled={formState.isValid ? true : false}
+                  disabled={formState.isValid ? false : true}
                   className={
                     !formState.isValid
                       ? 'New_ContactSection_Button'
