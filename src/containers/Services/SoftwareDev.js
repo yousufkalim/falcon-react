@@ -43,6 +43,7 @@ export default function SoftwareDev() {
       </Helmet>
       <NavBar default />
       <Header
+        ScrollTop
         Title='SOFTWARE DEVELOPMENT'
         Titlecolor='#003B7E'
         DespColor='#003B7E'

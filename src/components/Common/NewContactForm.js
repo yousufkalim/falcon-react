@@ -4,10 +4,20 @@ import ReCAPTCHA from 'react-google-recaptcha';
 import { useTranslation } from 'react-i18next';
 import emailjs from 'emailjs-com';
 import validate from 'validate.js';
+import BackToTop from '../../assets/images/btp.svg';
+import { useScrollPosition } from '../../utils/ScrollPosition';
 
 export default function ContactSection(props) {
   const { t } = useTranslation();
-
+  let position = useScrollPosition();
+  var rootElement = document.documentElement;
+  function scrollToTop() {
+    // Scroll to top logic
+    rootElement.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }
   const [val, setVal] = useState('');
   const textAreaRef = useRef(null);
   const textAreaMobRef = useRef(null);
@@ -112,31 +122,31 @@ export default function ContactSection(props) {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    // {
-    //   localStorage.getItem('i18nextLng') === 'fr'
-    //     ? emailjs
-    //         .sendForm('service_9tq9fqk', 'template_yc206p5', e.target, 'tMMbs5Pn0amH90Aml')
-    //         .then(
-    //           (result) => {
-    //             resetForm();
-    //             return result;
-    //           },
-    //           (error) => {
-    //             return error;
-    //           }
-    //         )
-    //     : emailjs
-    //         .sendForm('service_9tq9fqk', 'template_lmpx1v8', e.target, 'tMMbs5Pn0amH90Aml')
-    //         .then(
-    //           (result) => {
-    //             resetForm();
-    //             return result;
-    //           },
-    //           (error) => {
-    //             return error;
-    //           }
-    //         );
-    // }
+    {
+      localStorage.getItem('i18nextLng') === 'fr'
+        ? emailjs
+            .sendForm('service_9tq9fqk', 'template_yc206p5', e.target, 'tMMbs5Pn0amH90Aml')
+            .then(
+              (result) => {
+                resetForm();
+                return result;
+              },
+              (error) => {
+                return error;
+              }
+            )
+        : emailjs
+            .sendForm('service_9tq9fqk', 'template_lmpx1v8', e.target, 'tMMbs5Pn0amH90Aml')
+            .then(
+              (result) => {
+                resetForm();
+                return result;
+              },
+              (error) => {
+                return error;
+              }
+            );
+    }
 
     setSaveName(formState.values.name);
     setShowForm(!showForm);
@@ -657,6 +667,23 @@ export default function ContactSection(props) {
             </h2>
           </div>
         </div>
+        {props.ScrollTop && (
+          <div
+            className='scrollToTopDiv'
+            style={{
+              display: position <= 700 ? 'none' : 'flex',
+            }}
+          >
+            <img className='scrollToTopText' src={BackToTop} />
+            <div className='scrollToTopDivider'></div>
+            <img
+              className='scrollToTopIcon'
+              onClick={scrollToTop}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/top_btn.svg`}
+              alt='top'
+            />
+          </div>
+        )}
       </div>
     </>
   );

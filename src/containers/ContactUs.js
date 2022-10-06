@@ -5,6 +5,7 @@ import React from 'react';
 import NavBar from '../components/Common/NavBar';
 import ContactUsSection from '../components/Common/NewContactForm';
 import LocationSection from '../components/Common/LocationSection';
+import SocialBanner from '../components/Common/SocialBanner';
 import Footer from '../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
@@ -28,8 +29,9 @@ export default function ContactUs() {
         <meta name='keywords' content='contact us, Fill the form' />
       </Helmet>
       <NavBar ContactUs />
-      <ContactUsSection ContactUs />
+      <ContactUsSection ContactUs ScrollTop />
       <LocationSection />
+      <SocialBanner />
       <Footer />
     </div>
   );

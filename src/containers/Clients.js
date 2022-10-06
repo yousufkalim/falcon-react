@@ -30,7 +30,7 @@ export default function Clients() {
         />
       </Helmet>
       <NavBar transparent />
-      <Header />
+      <Header ScrollTop />
       <ClientsList />
       <Footer />
     </div>

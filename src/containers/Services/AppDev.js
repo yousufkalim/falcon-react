@@ -43,6 +43,7 @@ export default function AppDev() {
       </Helmet>
       <NavBar default />
       <Header
+        ScrollTop
         Title='APP DEVELOPMENT'
         Titlecolor='#003B7E'
         DespColor='#003B7E'

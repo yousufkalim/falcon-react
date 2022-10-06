@@ -42,6 +42,7 @@ export default function WebDev() {
       </Helmet>
       <NavBar default />
       <Header
+        ScrollTop
         Title='WEB DEVELOPMENT'
         Titlecolor='#003B7E'
         Description='We are ready to handle your ambitious projects!'

@@ -35,7 +35,7 @@ export default function Blog() {
         />
       </Helmet>
       <NavBar default />
-      <BlogHeader />
+      <BlogHeader ScrollTop />
       <BlogReadArticles
         title='Managing a Remote Team'
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/blogarticle1.svg`}

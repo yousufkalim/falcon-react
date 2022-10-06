@@ -29,12 +29,12 @@ export default function Footer(props) {
           viewport={{ once: true }}
           className='FooterMain'
         >
-          <img
+          {/* <img
             id='scrollToTopBtn'
             onClick={scrollToTop}
             src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/top_btn.svg`}
             alt='top'
-          />
+          /> */}
           <div className='FooterDiv'>
             <div className='FooterLeft'>
               <Link to={`/`}>

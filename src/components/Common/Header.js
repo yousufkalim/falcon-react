@@ -8,11 +8,26 @@ import { Link } from 'react-router-dom';
 import Twitter from '../../assets/images/twitter.svg';
 import Instagram from '../../assets/images/instagram.svg';
 import Youtube from '../../assets/images/youtube.svg';
+import Whatsapp from '../../assets/images/floating_whatsapp_icon.svg';
+import Cadendly from '../../assets/images/floating_calendly_icon.svg';
+import Text from '../../assets/images/floating_text_icon.svg';
+import BackToTop from '../../assets/images/btp.svg';
 import { useTranslation } from 'react-i18next';
+import { useScrollPosition } from '../../utils/ScrollPosition';
+
 // Component
 export default function Header(props) {
   const { t } = useTranslation();
+  let position = useScrollPosition();
 
+  var rootElement = document.documentElement;
+  function scrollToTop() {
+    // Scroll to top logic
+    rootElement.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }
   return (
     <>
       <Grid className={props.DetailHeader ? 'DetailHeader' : 'HeaderMain'} container spacing={1}>
@@ -151,14 +166,19 @@ export default function Header(props) {
                     <img
                       className='ChatIconImg'
                       alt='whatsapp'
-                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ChatIcon.svg`}
+                      src={Whatsapp}
+                      style={{ borderTopRightRadius: '20px', marginBottom: '-3px' }}
+
+                      // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ChatIcon.svg`}
                     />
                   </a>
                   <a href={`https://calendly.com/falconconsulting`} target='_blank'>
                     <img
                       className='ChatIconImg'
                       alt='Calendly'
-                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendly.svg`}
+                      src={Cadendly}
+
+                      // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendly.svg`}
                     />
                   </a>
                 </>
@@ -168,14 +188,19 @@ export default function Header(props) {
                     <img
                       className='ChatIconImg'
                       alt='whatsapp'
-                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ChatIcon.svg`}
+                      src={Whatsapp}
+                      style={{ borderTopRightRadius: '20px', marginBottom: '-3px' }}
+
+                      // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ChatIcon.svg`}
                     />
                   </a>
                   <a href={`http://calendly.com/falconit`} target='_blank'>
                     <img
                       className='ChatIconImg'
                       alt='Calendly'
-                      src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendly.svg`}
+                      src={Cadendly}
+
+                      // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendly.svg`}
                     />
                   </a>
                 </>
@@ -185,11 +210,31 @@ export default function Header(props) {
                 <img
                   className='ChatIconImg'
                   alt='chat'
-                  src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/whatsappIcon.svg`}
+                  src={Text}
+                  style={{ borderBottomRightRadius: '20px', marginTop: '-3px' }}
+
+                  // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/whatsappIcon.svg`}
                 />
               </Link>
             </div>
           ) : null}
+          {props.ScrollTop && (
+            <div
+              className='scrollToTopDiv'
+              style={{
+                display: position <= 700 ? 'none' : 'flex',
+              }}
+            >
+              <img className='scrollToTopText' src={BackToTop} />
+              <div className='scrollToTopDivider'></div>
+              <img
+                className='scrollToTopIcon'
+                onClick={scrollToTop}
+                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/top_btn.svg`}
+                alt='top'
+              />
+            </div>
+          )}
         </Grid>
       </Grid>
     </>

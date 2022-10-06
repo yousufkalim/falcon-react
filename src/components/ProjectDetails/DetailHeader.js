@@ -5,14 +5,25 @@ import { ReactComponent as DownArrow } from '../../assets/images/DownArrow.svg';
 import Divider from '@mui/material/Divider';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import BackToTop from '../../assets/images/btp.svg';
+import { useScrollPosition } from '../../utils/ScrollPosition';
 // import { IoIosArrowDown } from "react-icons";
 
 // Component
 export default function DetailHeader(props) {
   const { i18n, t } = useTranslation();
-  const [desp, setDesp] = useState();
+  let position = useScrollPosition();
   var rootElement = document.documentElement;
   function scrollToTop() {
+    // Scroll to top logic
+    rootElement.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }
+  const [desp, setDesp] = useState();
+  var rootElement = document.documentElement;
+  function scrollDown() {
     // Scroll to top logic
     rootElement.scrollTo({
       top: 980,
@@ -26,6 +37,23 @@ export default function DetailHeader(props) {
 
   return (
     <>
+      {/* {props.ScrollTop && ( */}
+      <div
+        className='scrollToTopDiv'
+        style={{
+          display: position <= 700 ? 'none' : 'flex',
+        }}
+      >
+        <img className='scrollToTopText' src={BackToTop} />
+        <div className='scrollToTopDivider'></div>
+        <img
+          className='scrollToTopIcon'
+          onClick={scrollToTop}
+          src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/top_btn.svg`}
+          alt='top'
+        />
+      </div>
+      {/* // )} */}
       <div
         className='DetailHeader_Container'
         style={{
@@ -90,7 +118,7 @@ export default function DetailHeader(props) {
           viewport={{ once: false }}
         >
           <DownArrow
-            onClick={scrollToTop}
+            onClick={scrollDown}
             style={{
               color: props.iconTheme ? props.iconTheme : 'white',
               cursor: 'pointer',

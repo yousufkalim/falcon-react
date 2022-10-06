@@ -43,6 +43,7 @@ export default function UiDev() {
       </Helmet>
       <NavBar default />
       <Header
+        ScrollTop
         Title='UI/UX DEVELOPMENT'
         Titlecolor='#003B7E'
         DespColor='#003B7E'
