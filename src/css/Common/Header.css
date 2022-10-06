@@ -73,11 +73,11 @@
   flex-direction: column;
   left: 0;
   top: 77%;
-  width: 40%;
+  width: 3.5%;
   z-index: 999;
 }
 .ChatIconsDiv a {
-  width: 8%;
+  width: 100%;
 }
 
 .ChatIconImg {
@@ -184,7 +184,7 @@ html {
 .scrollToTopDivider {
   width: 1px;
   height: 70px;
-  background: #d4d4d4;
+  background: #d4d4d4a0;
 }
 .scrollToTopIcon {
   width: 100%;
