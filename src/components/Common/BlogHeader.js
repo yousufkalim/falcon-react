@@ -5,12 +5,22 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
+import BackToTop from '../../assets/images/btp.svg';
+import { useScrollPosition } from '../../utils/ScrollPosition';
 // Importing Components
 
 // Home Component
-export default function BlogHeader() {
+export default function BlogHeader(props) {
   const { t } = useTranslation();
-
+  let position = useScrollPosition();
+  var rootElement = document.documentElement;
+  function scrollToTop() {
+    // Scroll to top logic
+    rootElement.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }
   const sendEmail = (e) => {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
@@ -126,6 +136,23 @@ export default function BlogHeader() {
           </form>
         </div>
       </motion.div>
+      {props.ScrollTop && (
+        <div
+          className='scrollToTopDiv'
+          style={{
+            display: position <= 700 ? 'none' : 'flex',
+          }}
+        >
+          <img className='scrollToTopText' src={BackToTop} />
+          <div className='scrollToTopDivider'></div>
+          <img
+            className='scrollToTopIcon'
+            onClick={scrollToTop}
+            src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/top_btn.svg`}
+            alt='top'
+          />
+        </div>
+      )}
     </div>
   );
 }

@@ -31,6 +31,7 @@ export default function OurProjects() {
       </Helmet>
       <NavBar default />
       <Header
+        ScrollTop
         // ColorTitle="ALL PROJECTS "
         Title='ALL PROJECTS START BY A SIMPLE IDEA, LET US TAKE CARE OF THE REST!'
         Description='Falcon Consulting had the opportunity to work on  various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time. '

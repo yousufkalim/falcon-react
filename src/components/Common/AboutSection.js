@@ -24,9 +24,9 @@ export default function AboutSection() {
           <Grid container spacing={1}>
             <Grid xs={12}>
               <motion.div
-                initial={{ y: 100, opacity: 0.5 }}
+                initial={{ y: 50, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: true }}
                 className='About_MobInfo'
               >
@@ -68,9 +68,9 @@ export default function AboutSection() {
                 </div>
               </motion.div>
               <motion.div
-                initial={{ y: 100, opacity: 0.5 }}
+                initial={{ y: 50, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: true }}
                 className='AboutTopGrid'
               >

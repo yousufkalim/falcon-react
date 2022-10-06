@@ -12,6 +12,7 @@ import ReviewSection from '../components/Common/ReviewsSection';
 import BlogSection from '../components/Common/BlogSection';
 import ContactUsSection from '../components/Common/NewContactForm';
 import LocationSection from '../components/Common/LocationSection';
+import SocialBanner from '../components/Common/SocialBanner';
 import Footer from '../components/Common/Footer';
 
 import { useTranslation } from 'react-i18next';
@@ -56,6 +57,7 @@ export default function Home() {
         <div className='HomeContainer'>
           <NavBar default />
           <Header
+            ScrollTop
             ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/HeaderImg.svg`}
             Title='WE PROVIDE GREAT SERVICES AT THE BEST PRICE.'
             Description='Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners. '
@@ -71,6 +73,7 @@ export default function Home() {
           <BlogSection />
           <ContactUsSection />
           <LocationSection />
+          <SocialBanner />
           <Footer />
         </div>
       </div>

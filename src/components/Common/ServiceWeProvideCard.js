@@ -23,9 +23,9 @@ export default function ServiceWeProvideCard(props) {
     <>
       <motion.div
         className='ServiceCard_MainDiv'
-        initial={{ y: 50, opacity: 0.7 }}
+        initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.4 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
         viewport={{ once: true }}
       >
         <Link className='ServiceCard_Link' to={props.to}>

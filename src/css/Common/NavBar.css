@@ -166,7 +166,7 @@
 }
 @media only screen and (max-width: 900px) {
   .Falcon_logo {
-    height: 30px !important;
+    height: 25px !important;
   }
   .NavLogo_Link {
     width: 20% !important;
@@ -323,8 +323,8 @@
   }
 }
 @media only screen and (max-width: 600px) {
-  /* .Falcon_logo{
-    width: 30% !important;
+  /* .Falcon_logo {
+    height: 20px !important;
   } */
   .NavLogo_Link {
     width: 25% !important;
