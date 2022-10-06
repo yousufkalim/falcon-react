@@ -59,41 +59,47 @@ export default function NavBar(props) {
               />
             </Link>
           </div>
-          <div
-            id='CursorZoom'
-            className={
-              Active
-                ? 'NavbarLanguageMenuDiv'
-                : position <= 970
-                ? 'NavbarLanguageMenuDiv'
-                : 'NavbarLanguageDiv'
+          <Tooltip
+            title={
+              language === 'fr' ? 'Change the Language to English' : 'Changer de langue en Français'
             }
-            style={{
-              background: Active ? '#003b7e' : position <= 970 ? 'transparent' : '#f8f8f8',
-              boxShadow: Active
-                ? '0px 15px 30px rgba(0, 0, 0, 0.1)'
-                : position <= 970
-                ? '0px 15px 30px rgba(0, 0, 0, 0.1)'
-                : 'none',
-            }}
-            onClick={() => {
-              if (language === 'fr') {
-                i18n.changeLanguage('en');
-              } else {
-                i18n.changeLanguage('fr');
-              }
-            }}
           >
-            <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} />
-            <h2
-              className='NavbarLanguageName'
+            <div
+              id='CursorZoom'
+              className={
+                Active
+                  ? 'NavbarLanguageMenuDiv'
+                  : position <= 970
+                  ? 'NavbarLanguageMenuDiv'
+                  : 'NavbarLanguageDiv'
+              }
               style={{
-                color: Active ? '#f8f8f8' : position <= 970 ? '#f8f8f8' : '#003b7e',
+                background: Active ? '#003b7e' : position <= 970 ? 'transparent' : '#f8f8f8',
+                boxShadow: Active
+                  ? '0px 15px 30px rgba(0, 0, 0, 0.1)'
+                  : position <= 970
+                  ? '0px 15px 30px rgba(0, 0, 0, 0.1)'
+                  : 'none',
+              }}
+              onClick={() => {
+                if (language === 'fr') {
+                  i18n.changeLanguage('en');
+                } else {
+                  i18n.changeLanguage('fr');
+                }
               }}
             >
-              {t('FR')}
-            </h2>
-          </div>
+              <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} />
+              <h2
+                className='NavbarLanguageName'
+                style={{
+                  color: Active ? '#f8f8f8' : position <= 970 ? '#f8f8f8' : '#003b7e',
+                }}
+              >
+                {t('FR')}
+              </h2>
+            </div>
+          </Tooltip>
           <div
             className={Active ? 'changes' : 'containers'}
             onClick={() => {
@@ -224,32 +230,39 @@ export default function NavBar(props) {
                 />
               </Link>
             </div>
-            <div
-              id='CursorZoom'
-              className='NavbarLanguageMenuDiv'
-              style={{
-                background: '#003b7e',
-                boxShadow: '0px 15px 30px rgba(0, 0, 0, 0.1)',
-              }}
-              onClick={() => {
-                if (language === 'fr') {
-                  i18n.changeLanguage('en');
-                } else {
-                  i18n.changeLanguage('fr');
-                }
-              }}
+            <Tooltip
+              title={
+                language === 'fr'
+                  ? 'Change the Language to English'
+                  : 'Changer de langue en Français'
+              }
             >
-              <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} />
-              <h2
-                className='NavbarLanguageName'
+              <div
+                id='CursorZoom'
+                className='NavbarLanguageMenuDiv'
                 style={{
-                  color: '#f8f8f8',
+                  background: '#003b7e',
+                  boxShadow: '0px 15px 30px rgba(0, 0, 0, 0.1)',
+                }}
+                onClick={() => {
+                  if (language === 'fr') {
+                    i18n.changeLanguage('en');
+                  } else {
+                    i18n.changeLanguage('fr');
+                  }
                 }}
               >
-                {t('FR')}
-              </h2>
-            </div>
-
+                <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} />
+                <h2
+                  className='NavbarLanguageName'
+                  style={{
+                    color: '#f8f8f8',
+                  }}
+                >
+                  {t('FR')}
+                </h2>
+              </div>
+            </Tooltip>
             <div
               className={Active ? 'changes' : 'containers'}
               onClick={() => {
