@@ -1010,11 +1010,19 @@ i18n
           'Past these venture benefits, there’s too a more all-encompassing surrounding for person obligation; how else are you going to evolve and lift your company? Responsibility, responsibility, organization, engagement are all positives for the objectives of the company and a more joyful, more steady, dependable squad.':
             'Past these venture benefits, there’s too a more all-encompassing surrounding for person obligation; how else are you going to evolve and lift your company? Responsibility, responsibility, organization, engagement are all positives for the objectives of the company and a more joyful, more steady, dependable squad.',
           // end
+          // social banner
+          'Curious to learn more?': 'Curious to learn more?',
+          'Check out our socials!': 'Check out our socials!',
+          'Follow us on Linkedin': 'Follow us on Linkedin',
         },
       },
       fr: {
         translations: {
           //
+          // social banner
+          'Curious to learn more?': "Curieux d'en savoir plus ?",
+          'Check out our socials!': 'Découvrez nos réseaux sociaux !',
+          'Follow us on Linkedin': 'Suivez-nous sur Linkedin',
           // Blog
           // Successful Business
           'Past these venture benefits, there’s too a more all-encompassing surrounding for person obligation; how else are you going to evolve and lift your company? Responsibility, responsibility, organization, engagement are all positives for the objectives of the company and a more joyful, more steady, dependable squad.':
