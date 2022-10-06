@@ -33,16 +33,21 @@
   margin: 2% 0% 3% 0%;
 }
 .SectionHeaderDivider {
-  height: 5px;
+  height: 3px;
   background-color: #42c2ff;
   border-radius: 4px;
   margin: 4% 0% !important;
 }
 .SectionHeaderMargin {
-  height: 5px;
+  height: 3px;
   background-color: #42c2ff;
   border-radius: 4px;
   margin: 1.5% 0% !important;
+}
+.css-9mgopn-MuiDivider-root {
+  border-style: none !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+  border-bottom-width: 0ch !important;
 }
 @media only screen and (max-width: 600px) {
   .LeftSectionHeader {

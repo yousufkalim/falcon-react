@@ -1,5 +1,5 @@
 /* Header Component Style */
-.HeaderMain{
+.HeaderMain {
   display: flex !important;
   justify-content: space-between !important;
   padding: 7.5% 3% 5% 3%;
@@ -8,53 +8,50 @@
   height: 100%;
 }
 
-.HeaderTypo{
+.HeaderTypo {
   padding: 7% !important ;
 }
-.HeaderHeading{
+.HeaderHeading {
   font-size: 2.5rem !important;
   font-weight: 800 !important;
   line-height: 1.2 !important;
-  color: #003B7E !important;
-  padding-top: 5%!important;
+  color: #003b7e !important;
+  padding-top: 5% !important;
 }
-.HeaderPara{
+.HeaderPara {
   font-size: 1.2rem !important;
   font-weight: 400 !important;
   line-height: 1.3 !important;
   margin: 5% 0 !important;
-  color: #003B7E;
+  color: #003b7e;
 }
-.HeaderPara_Style{
+.HeaderPara_Style {
   font-weight: 400 !important;
   font-size: 1rem !important;
   line-height: 1.3 !important;
-  opacity: .7;
-  color: #003B7E;
-
+  opacity: 0.7;
+  color: #003b7e;
 }
 
-.HeaderBtn{
+.HeaderBtn {
   font-size: 1rem !important;
   font-weight: 700 !important;
   font-family: Raleway !important;
-  color: #003B7E !important;
-  border: 2px solid #003B7E !important;
+  color: #003b7e !important;
+  border: 2px solid #003b7e !important;
   margin: 5% 0 !important;
   border-radius: 8px !important;
   padding: 3% 5% !important;
-  transition: .5s !important;
+  transition: 0.5s !important;
 }
-.HeaderBtn:hover{
+.HeaderBtn:hover {
   color: #fff !important;
-  background-color: #003B7E !important;
+  background-color: #003b7e !important;
   margin: 4% 0 6% 0 !important;
-
-
 }
-.ProjectDetailBtn{
+.ProjectDetailBtn {
   color: white !important;
-  background-color: #FFA333 !important;
+  background-color: #ffa333 !important;
   border: none !important;
   padding: 2% 3% !important;
   font-size: 1rem !important;
@@ -62,120 +59,155 @@
   border-radius: 10px !important;
   width: 40%;
 }
-.HeaderImg{
+.HeaderImg {
   display: flex;
   justify-content: center;
 }
-.DetailHeaderImg{
+.DetailHeaderImg {
   display: flex;
   justify-content: right;
 }
-.ChatIconsDiv{
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    left: 95%;
-    top: 77%;
-    width: 40%;
-    z-index: 999;
+.ChatIconsDiv {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  top: 77%;
+  width: 40%;
+  z-index: 999;
 }
-.ChatIconImg{
+.ChatIconsDiv a {
   width: 8%;
-  margin-bottom: 1%;
+}
+
+.ChatIconImg {
+  width: 100%;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.ChatIconImg:hover {
+  opacity: 1;
 }
 /* Cookie banner */
-.CookieBanner_DullScreen{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    opacity: 0.6;
-    /* background: #0000001A; */
+.CookieBanner_DullScreen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  opacity: 0.6;
+  /* background: #0000001A; */
 }
-.CookieBanner_Container{
-    width: 100%;
-    background: #ffffff;
-    position: fixed;
-    bottom: 0;
-    padding: 3% 5%;
-    z-index: 10000;
-
+.CookieBanner_Container {
+  width: 100%;
+  background: #ffffff;
+  position: fixed;
+  bottom: 0;
+  padding: 3% 5%;
+  z-index: 10000;
 }
-.CookieBanner_Div{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.CookieBanner_Div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.CookieBanner_TypoDiv{
-  width:40%;
+.CookieBanner_TypoDiv {
+  width: 40%;
 }
-.CookieBanner_desp{
-    color: #000000;
-    font-weight: 500 !important;
-    font-family: Montserrat !important;
-    font-size: 1.3rem !important;
-    line-height: 1 !important;
+.CookieBanner_desp {
+  color: #000000;
+  font-weight: 500 !important;
+  font-family: Montserrat !important;
+  font-size: 1.3rem !important;
+  line-height: 1 !important;
 }
-.CookieBanner_Link{
-    color: #003B7E;
-    font-weight: 500 !important;
-    /* font-family: inter !important; */
-    text-decoration-line: underline;
-    font-size: 1.3rem !important;
+.CookieBanner_Link {
+  color: #003b7e;
+  font-weight: 500 !important;
+  /* font-family: inter !important; */
+  text-decoration-line: underline;
+  font-size: 1.3rem !important;
 }
-.CookieBanner_BtnDiv{
-    width: 25%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 3%;
+.CookieBanner_BtnDiv {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 3%;
 }
-.CookieBanner_AgreeBtn{
-    margin-right: 2% !important;
-    width: 50%;
-    padding: 5.5% !important;
-    background: #003B7E !important;
-    font-weight: 700 !important;
-    text-transform: capitalize !important;
-    border-radius: 10px !important;
+.CookieBanner_AgreeBtn {
+  margin-right: 2% !important;
+  width: 50%;
+  padding: 5.5% !important;
+  background: #003b7e !important;
+  font-weight: 700 !important;
+  text-transform: capitalize !important;
+  border-radius: 10px !important;
 }
-.CookieBanner_DeclineBtn{
-    padding: 5% !important;
-    width: 50%;
-    font-weight: 700 !important;
-    text-transform: capitalize !important;
-    border: 3px solid #003B7E !important;
-    color: #003B7E !important;
-    border-radius: 10px !important;
+.CookieBanner_DeclineBtn {
+  padding: 5% !important;
+  width: 50%;
+  font-weight: 700 !important;
+  text-transform: capitalize !important;
+  border: 3px solid #003b7e !important;
+  color: #003b7e !important;
+  border-radius: 10px !important;
 }
-.Social_Icons{
+.Social_Icons {
   width: 100%;
   padding-right: 20%;
   filter: grayscale(1);
-  transition: .5s;
+  transition: 0.5s;
 }
-.Social_Icons:hover{
+.Social_Icons:hover {
   transform: scale(1.1);
   filter: grayscale(0);
-  
+}
+/* scroll to top */
+.scrollToTopDiv {
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  left: 96%;
+  top: 70%;
+  width: 2.5%;
+  height: 23%;
+  z-index: 999;
+  animation: fadeIn 700ms ease-in-out 1s both;
+}
+html {
+  scroll-behavior: smooth;
+}
+.scrollToTopText {
+  width: 40%;
+}
+.scrollToTopDivider {
+  width: 1px;
+  height: 70px;
+  background: #d4d4d4;
+}
+.scrollToTopIcon {
+  width: 100%;
 }
 
 /* MEDIA QUERIES*/
 
 @media only screen and (max-width: 1366px) {
-  .HeaderMain{
+  .HeaderMain {
     padding: 10% 3%;
   }
-  
+
   .HeaderHeading {
     font-size: 2rem !important;
-
   }
-  .HeaderPara{
+  .HeaderPara {
     font-size: 1rem !important;
   }
-  .CookieBanner_TypoDiv{
-    width:50%;
+  .CookieBanner_TypoDiv {
+    width: 50%;
+  }
+  .scrollToTopText {
+    width: 50%;
   }
 }
 /* @media only screen and (max-width: 992px) {
@@ -191,117 +223,145 @@
   }
 } */
 @media only screen and (max-width: 900px) {
-  .HeaderTitle{
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
+  .HeaderTitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
-  .HeaderMain{
+  .HeaderMain {
     flex-direction: column-reverse !important;
     padding: 8% 3%;
   }
-  .HeaderTypo{
+  .HeaderTypo {
     display: flex;
     flex-direction: column !important;
     text-align: center;
     justify-content: center;
     align-items: center;
   }
-  .HeaderHeading{
+  .HeaderHeading {
     width: 85%;
   }
-  .HeaderPara{
+  .HeaderPara {
     width: 90%;
-  margin: 4% 0 !important;
+    margin: 4% 0 !important;
+  }
+  .ChatIconsDiv {
+    left: 0;
+    top: 75%;
+    width: 65%;
+  }
+  .BtnLink {
+    width: 101% !important;
+  }
+  .HeaderBtn {
+    padding: 3% 4% !important;
+  }
+  .CookieBanner_TypoDiv {
+    width: 65%;
+  }
+  .CookieBanner_desp {
+    font-size: 1.2rem !important;
+  }
+  .CookieBanner_Link {
+    font-size: 1.3rem !important;
+  }
+  .scrollToTopDiv {
+    left: 95%;
+    top: 65%;
+    width: 3%;
+    height: 25%;
+  }
+  .scrollToTopText {
+    width: 60%;
+  }
 }
-.ChatIconsDiv{
-  left: 90%;
-  top: 75%;
-  width: 65%;
-}
-.BtnLink{
-  width: 101% !important;
-}
-.HeaderBtn{
-  padding: 3% 4% !important;
-}
-.CookieBanner_TypoDiv{
-  width:65%;
-}
-.CookieBanner_desp{
-  font-size: 1.2rem !important;
-}
-.CookieBanner_Link{
-  font-size: 1.3rem !important;
-}
-
+@media only screen and (max-width: 768px) {
+  .scrollToTopDiv {
+    left: 94%;
+    width: 3.5%;
+  }
+  .scrollToTopText {
+    width: 65%;
+  }
 }
 @media only screen and (max-width: 600px) {
-    .HeaderMain{
+  .HeaderMain {
     padding: 15% 3%;
-    }
-  .HeaderHeading{
+  }
+  .HeaderHeading {
     width: 90%;
     font-size: 1.7rem !important;
   }
-  .HeaderPara{
+  .HeaderPara {
     width: 95%;
     font-size: 1rem !important;
-  margin: 4% 0 !important;
-}
-.ChatIconsDiv{
-  left: 90%;
-  top: 77%;
-  width: 90%;
-}
-.ChatIconImg{
-  width: 10%;
-}
-.CookieBanner_Container{
-  padding: 5%;
+    margin: 4% 0 !important;
+  }
+  .ChatIconsDiv {
+    display: none;
+  }
+  .ChatIconImg {
+    width: 10%;
+  }
+  .CookieBanner_Container {
+    padding: 5%;
+  }
 
+  .CookieBanner_TypoDiv {
+    width: 65%;
+  }
+  .CookieBanner_desp {
+    font-size: 0.8rem !important;
+  }
+  .CookieBanner_Link {
+    font-size: 1rem !important;
+  }
+  .CookieBanner_BtnDiv {
+    width: 25%;
+    margin-right: 7%;
+  }
+  .CookieBanner_AgreeBtn {
+    width: 50%;
+    padding: 5.5% !important;
+  }
+  .CookieBanner_DeclineBtn {
+    padding: 5% !important;
+    width: 50%;
+  }
+  .scrollToTopDiv {
+    width: 5%;
+    height: 30%;
+    top: 61%;
+    left: 93%;
+  }
+  .scrollToTopText {
+    width: 70%;
+  }
 }
-
-.CookieBanner_TypoDiv{
-width:65%;
-}
-.CookieBanner_desp{
-  font-size: .8rem !important;
-}
-.CookieBanner_Link{
-  font-size: 1rem !important;
-}
-.CookieBanner_BtnDiv{
-  width: 25%;
-  margin-right: 7%;
-}
-.CookieBanner_AgreeBtn{
-  width: 50%;
-  padding: 5.5% !important;
-}
-.CookieBanner_DeclineBtn{
-  padding: 5% !important;
-  width: 50%;
-}
+@media only screen and (max-width: 480px) {
+  .scrollToTopDiv {
+    width: 6%;
+    height: 27%;
+    left: 92%;
+  }
 }
 @media only screen and (max-width: 400px) {
-  .CookieBanner_BtnDiv{
+  .CookieBanner_BtnDiv {
     flex-direction: column;
     width: 35%;
     margin: 0;
   }
-  .CookieBanner_AgreeBtn{
+  .CookieBanner_AgreeBtn {
     margin: 2% !important;
     width: 80%;
-}
-.CookieBanner_DeclineBtn{
+  }
+  .CookieBanner_DeclineBtn {
     padding: 5% !important;
     width: 80%;
+  }
 }
-}
-
-
 
 /* @media only screen and (max-width: 1440px) {
   .btn_main {
