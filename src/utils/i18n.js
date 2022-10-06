@@ -22,6 +22,18 @@ i18n
           'GET A FREE QUOTE': 'GET A FREE QUOTE',
 
           //   service Provided section
+          'We can extend your technical teams with our technical resources according to your needs.':
+            'We can extend your technical teams with our technical resources according to your needs.',
+          'Our Data teams will make your data an asset and a strength for your company.':
+            'Our Data teams will make your data an asset and a strength for your company.',
+          'Our teams of designers are at your disposal to make your ideas shine and illustrate your projects with high-quality models.':
+            'Our teams of designers are at your disposal to make your ideas shine and illustrate your projects with high-quality models.',
+          'Our teams of software engineers have the expertise to develop successful software adapted to the various trades.':
+            'Our teams of software engineers have the expertise to develop successful software adapted to the various trades.',
+          'Our web teams are always at the forefront of technology for both the front end and the back end.':
+            'Our web teams are always at the forefront of technology for both the front end and the back end.',
+          'Our technical teams specialized in mobile development can develop hybrid or native applications to adapt your projects to customer needs.':
+            'Our technical teams specialized in mobile development can develop hybrid or native applications to adapt your projects to customer needs.',
           'Our aim provide better service': 'Our aim provide better service',
           'We are a multi-talented web development company.':
             'We are a multi-talented web development company.',
@@ -1343,11 +1355,23 @@ i18n
           'GET A FREE QUOTE': 'OBTENIR UN DEVIS GRATUIT',
 
           //   service Provided section
+          'We can extend your technical teams with our technical resources according to your needs.':
+            'Nous pouvons étendre vos équipes techniques avec nos ressources techniques selon vos besoins.',
+          'Our Data teams will make your data an asset and a strength for your company.':
+            'Nos équipes Data feront de vos données un atout et une force pour votre entreprise.',
+          'Our teams of designers are at your disposal to make your ideas shine and illustrate your projects with high-quality models.':
+            'Nos équipes de designers sont à votre écoute pour faire briller vos idées et illustrer vos projets par des maquettes de haute qualité.',
+          'Our teams of software engineers have the expertise to develop successful software adapted to the various trades.':
+            "Nos équipes d'ingénieurs logiciel ont l'expertise pour développer des logiciels aboutis et adaptés aux différents métiers.",
+          'Our web teams are always at the forefront of technology for both the front end and the back end.':
+            'Nos équipes web sont toujours à la pointe de la technologie aussi bien pour le front end que pour le back end.',
           'Our aim provide better service': 'Notre objectif, vous fournir le meilleur service',
 
           'We are a multi-talented web development company.':
             'Nous sommes une société de développement Web aux multiples talents.',
           'Mobile applications are now essential and allow you.':
+            'Nos équipes techniques spécialisées dans le développement mobile peuvent développer applications hybrides ou natives pour adapter vos projets aux besoins clients.',
+          'Our technical teams specialized in mobile development can develop hybrid or native applications to adapt your projects to customer needs.':
             'Nos équipes techniques spécialisées dans le développement mobile peuvent développer applications hybrides ou natives pour adapter vos projets aux besoins clients.',
           'MOBILE DEVELOPMENT': 'DÉVELOPPEMENT MOBILE',
           'WEB DEVELOPERS': 'DÉVELOPPEMENT WEB',

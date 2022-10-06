@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ReactComponent as MobileDev } from '../../assets/images/sp_mobiledev.svg';
@@ -9,9 +9,15 @@ import { ReactComponent as OnDemandDev } from '../../assets/images/sp_ondemand_d
 import { ReactComponent as DataEng } from '../../assets/images/sp_data_eng.svg';
 import { Divider } from '@mui/material';
 import { motion } from 'framer-motion';
+import Tooltip from '@mui/material/Tooltip';
 
 export default function ServiceWeProvideCard(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
+  const [desp, setDesp] = useState();
+
+  useEffect(() => {
+    setDesp(t(props?.description));
+  }, [props?.description]);
 
   return (
     <>
@@ -34,7 +40,12 @@ export default function ServiceWeProvideCard(props) {
           </div>
           <Divider className='ServiceCard_Divider' />
           <h2 className='ServiceCard_heading'>{t(props.heading)}</h2>
-          <p className='ServiceCard_desp'>{t(props.desp)}</p>
+          <Tooltip title={props.description}>
+            <p className='ServiceCard_desp'>
+              {/* {t(props.description)} */}
+              {t(desp?.length > 100 ? desp.slice(0, 100) + '...' : desp)}
+            </p>
+          </Tooltip>
         </Link>
       </motion.div>
     </>
