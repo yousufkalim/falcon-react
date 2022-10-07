@@ -46,12 +46,12 @@ export default function ClientCard(props) {
             <h2 style={{ fontSize: '1.2rem', color: '#fff', margin: '-5px 0 5px 0' }}>
               {props.subtitle}
             </h2>
-            <p className='ClientCard_Desp'>
+            {/* <p className='ClientCard_Desp'>
               {t(
                 props.desp ||
                   'Application Web conçue pour aider les clients souhaitant des coutures personnalisées àrec...'
               )}
-            </p>
+            </p> */}
           </motion.div>
         </motion.div>
       </div>
