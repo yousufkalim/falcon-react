@@ -12,6 +12,8 @@ import Wolters from '../assets/images/client_wolters.png';
 import Agricole from '../assets/images/client_agricole.png';
 import AFD from '../assets/images/client_afd.png';
 import DDS from '../assets/images/client_dds.png';
+import Witivio from '../assets/images/witivio.png';
+import FieldBox from '../assets/images/fieldbox.png';
 
 export const AllProjects = [
   {
@@ -725,6 +727,7 @@ export const clientData = [
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
     image: [Microsoft],
     bg: [Microsoft],
+    href: 'https://upclear.com',
   },
   {
     title: 'Toyota',
@@ -804,5 +807,17 @@ export const clientData = [
     id: '#14',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
     image: [DDS],
+  },
+  {
+    title: 'Witivio',
+    id: '#15',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [Witivio],
+  },
+  {
+    title: 'FieldBox.ai',
+    id: '#16',
+    desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
+    image: [FieldBox],
   },
 ];
