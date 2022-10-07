@@ -40,7 +40,7 @@ export default function ClientsList() {
                 id={item.id}
                 image={item.image}
                 title={item.title}
-                desp={item.desp}
+                // desp={item.desp}
                 subtitle={item.subtitle}
               />
             </div>

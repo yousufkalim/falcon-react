@@ -72,9 +72,9 @@
   display: flex;
   flex-direction: column;
   left: 0;
-  top: 77%;
+  top: 75%;
   width: 3.5%;
-  z-index: 999;
+  z-index: 999999 !important;
 }
 .ChatIconsDiv a {
   width: 100%;
@@ -247,11 +247,12 @@ html {
     width: 90%;
     margin: 4% 0 !important;
   }
+
   .ChatIconsDiv {
-    left: 0;
-    top: 75%;
-    width: 65%;
+    top: 77%;
+    width: 4%;
   }
+
   .BtnLink {
     width: 101% !important;
   }
@@ -284,6 +285,10 @@ html {
   }
   .scrollToTopText {
     width: 65%;
+  }
+  .ChatIconsDiv {
+    top: 77%;
+    width: 5%;
   }
 }
 @media only screen and (max-width: 600px) {
