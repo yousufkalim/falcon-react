@@ -11,13 +11,16 @@ import Youtube from '../../assets/images/youtube.svg';
 import Whatsapp from '../../assets/images/floating_whatsapp_icon.svg';
 import Cadendly from '../../assets/images/floating_calendly_icon.svg';
 import Text from '../../assets/images/floating_text_icon.svg';
-import BackToTop from '../../assets/images/btp.svg';
+import BackTopEnglish from '../../assets/images/btp.svg';
+import BackTopFrench from '../../assets/images/scrolltop_french.svg';
 import { useTranslation } from 'react-i18next';
 import { useScrollPosition } from '../../utils/ScrollPosition';
 
 // Component
 export default function Header(props) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { language } = i18n;
+
   let position = useScrollPosition();
 
   var rootElement = document.documentElement;
@@ -220,12 +223,15 @@ export default function Header(props) {
           ) : null}
           {props.ScrollTop && (
             <div
-              className='scrollToTopDiv'
+              className={language === 'fr' ? 'scrollToTopFr' : 'scrollToTopDiv'}
               style={{
                 display: position <= 700 ? 'none' : 'flex',
               }}
             >
-              <img className='scrollToTopText' src={BackToTop} />
+              <img
+                className={language === 'fr' ? 'scrollToTopTextFr' : 'scrollToTopText'}
+                src={language === 'fr' ? BackTopFrench : BackTopEnglish}
+              />
               <div className='scrollToTopDivider'></div>
               <img
                 className='scrollToTopIcon'
