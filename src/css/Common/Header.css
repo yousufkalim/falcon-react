@@ -175,11 +175,26 @@
   z-index: 999;
   animation: fadeIn 700ms ease-in-out 1s both;
 }
+.scrollToTopFr {
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  left: 96%;
+  top: 62%;
+  width: 2.5%;
+  height: 30%;
+  z-index: 999;
+  animation: fadeIn 700ms ease-in-out 1s both;
+}
 html {
   scroll-behavior: smooth;
 }
 .scrollToTopText {
   width: 40%;
+}
+.scrollToTopTextFr {
+  width: 30%;
 }
 .scrollToTopDivider {
   width: 1px;
@@ -208,6 +223,9 @@ html {
   }
   .scrollToTopText {
     width: 50%;
+  }
+  .scrollToTopTextFr {
+    width: 40%;
   }
 }
 /* @media only screen and (max-width: 992px) {
@@ -274,8 +292,17 @@ html {
     width: 3%;
     height: 25%;
   }
+  .scrollToTopFr {
+    left: 96%;
+    top: 60%;
+    width: 2.5%;
+    height: 32%;
+  }
   .scrollToTopText {
     width: 60%;
+  }
+  .scrollToTopTextFr {
+    width: 50%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -283,8 +310,15 @@ html {
     left: 94%;
     width: 3.5%;
   }
+  .scrollToTopFr {
+    left: 94%;
+    width: 3%;
+  }
   .scrollToTopText {
     width: 65%;
+  }
+  .scrollToTopTextFr {
+    width: 55%;
   }
   .ChatIconsDiv {
     top: 77%;
@@ -344,12 +378,29 @@ html {
   .scrollToTopText {
     width: 70%;
   }
+  .scrollToTopFr {
+    left: 93%;
+    top: 61%;
+    height: 30%;
+    width: 3.3%;
+  }
+  .scrollToTopTextFr {
+    width: 60%;
+  }
 }
 @media only screen and (max-width: 480px) {
   .scrollToTopDiv {
     width: 6%;
     height: 27%;
     left: 92%;
+  }
+  .scrollToTopFr {
+    left: 94%;
+    width: 3.3%;
+    height: 35%;
+  }
+  .scrollToTopTextFr {
+    width: 75%;
   }
 }
 @media only screen and (max-width: 400px) {
