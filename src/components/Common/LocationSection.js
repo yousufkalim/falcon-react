@@ -20,7 +20,7 @@ export default function LocationSection(props) {
             SectionHeaderMargin
           />
         </div>
-        {language === 'fr' && (
+        {language === 'fr' ? (
           <div className='LocationSliderDiv'>
             <AwesomeSlider
               // organicArrows={false}
@@ -106,8 +106,7 @@ export default function LocationSection(props) {
               </div>
             </AwesomeSlider>
           </div>
-        )}{' '}
-        {language === 'en' && (
+        ) : (
           <div className='LocationSliderDiv'>
             <AwesomeSlider
               // organicArrows={false}
@@ -194,7 +193,7 @@ export default function LocationSection(props) {
               </div>
             </AwesomeSlider>
           </div>
-        )}{' '}
+        )}
       </div>
     </>
   );
