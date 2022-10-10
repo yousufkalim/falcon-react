@@ -10,14 +10,22 @@
 .LatestProjectsSlider {
   position: relative;
   margin: 2% 0;
+  padding: 0 5% !important;
   width: 100%;
+  display: flex;
+  justify-content: center;
   /* overflow: hidden !important; */
   /* overflow-x: hidden; */
 }
 .SliderDiv {
-  width: 100% !important;
-  /* overflow-x: scroll; */
+  width: 90% !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 0 1%;
+  overflow-x: scroll;
 }
+
 .SliderDiv::-webkit-scrollbar {
   display: none;
 }
@@ -25,7 +33,10 @@
   width: 100%;
 }
 .SliderImgs {
-  width: 95%;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  /* border-radius: 15px !important; */
 }
 /* .SliderImgs:hover{
     background-color: black;
@@ -46,33 +57,41 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 90%;
   position: relative;
-  height: 100%;
+  height: 500px;
   cursor: grab;
 }
 .HoverDetail {
   color: white !important;
-  background-color: #002051d9 !important;
-  /* background-color: #003B7E !important; */
-  border-radius: 15px;
+  background: linear-gradient(0deg, #003b7e 0%, rgba(0, 59, 126, 0) 100%);
   opacity: 0;
-  /* z-index: 11000 !important; */
-  width: 95% !important;
-  /* max-height: 35% !important; */
+  width: 100% !important;
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;
+  align-items: flex-end;
+  text-align: left;
+  justify-content: flex-end;
   position: absolute;
+  transition: 0.5s;
+  padding: 0 0 0 5%;
+}
+.HoverDetailSubDiv {
+  width: 100%;
+  height: 45%;
+  opacity: 0;
+  display: flex;
+  padding-left: 350px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   transition: 0.5s;
 }
 .HoverDetailLite {
   color: black !important;
   background-color: white !important;
-  border-radius: 12px;
+  /* border-radius: 12px; */
   opacity: 0;
   width: 96% !important;
   height: 100%;
@@ -87,42 +106,68 @@
 .HoverDetail:hover {
   opacity: 1;
 }
+.HoverDetail:hover .HoverDetailSubDiv {
+  opacity: 1;
+  padding-left: 0;
+}
+.HoverDetail:hover .HoverDivTypo {
+  opacity: 0.8;
+}
 .HoverDetailLite:hover {
   opacity: 0.9;
 }
+.hoverDivLogoDiv {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 .hoverDivLogo {
-  padding: 10% 0 5% 0;
-  width: 90%;
-  /* height: 18%; */
+  padding: 0 0 5% 0;
+  width: 100%;
+  /* height: 100%; */
 }
 .HoverDivTypo {
   /* color: white; */
   width: 80%;
-  font-size: 1.1rem !important;
-  font-weight: 500;
+  font-size: 1rem !important;
+  font-weight: 400;
+  opacity: 0;
+  transition: 1s;
+  /* white-space: nowrap; */
 }
 .HoverDivBtn {
-  width: 45%;
-  margin-bottom: 10%;
-  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 5%;
   border: none;
-  background-color: transparent;
 }
 .HoverDivBtnDark {
-  width: 45%;
-  margin-bottom: 10%;
+  /* width: 45%; */
+  margin-bottom: 5%;
+  margin-left: 0;
   /* padding:5% 3%; */
-  border-radius: 10px;
   border: none;
-  background-color: #47b9b4;
 }
+.HoverDivBtnSubdiv {
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  padding: 0 2% 0 0;
+}
+
 .HoverDivBtnLink {
   font-size: 0.9rem !important;
-  color: #003b7e !important;
-  font-weight: 700 !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
   font-family: Raleway !important;
   text-transform: capitalize !important;
-  /* padding: 2% 3%; */
+  padding: 2% 3% 2% 0 !important;
+}
+
+.HoverDivBtnDark:hover .HoverDivBtnSubdiv {
+  padding: 0 0 0 2%;
 }
 .Awesome_Slider {
   height: 40vh;
@@ -168,6 +213,56 @@
   font-weight: 400 !important;
   text-align: center;
 }
+.custom-dot-list-style {
+  margin-bottom: -3%;
+}
+
+.react-multi-carousel-dot button {
+  display: inline-block;
+  width: 12px;
+  height: 5px;
+  border-radius: 50px;
+  opacity: 1;
+  padding: 5px 5px 5px 5px;
+  box-shadow: none;
+  background: #bebebe69;
+  transition: background 0.5s;
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 6px;
+  outline: 0;
+  cursor: pointer;
+}
+.react-multi-carousel-dot--active button {
+  background: #42c2ff;
+  width: 50px;
+  border-radius: 10px;
+}
+.HoverDivBtnDark img {
+  width: 18%;
+}
+
+@media only screen and (max-width: 1800px) {
+  .SliderProject {
+    /* width: 290px; */
+    height: 400px;
+  }
+  .HoverDetailSubDiv {
+    height: 55%;
+  }
+  .SliderDiv {
+    padding: 0 3%;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .SliderDiv {
+    padding: 0 2%;
+  }
+  .HoverDetailSubDiv {
+    height: 60%;
+  }
+}
 @media only screen and (max-width: 1366px) {
   .ProjectsCompleted_Num {
     font-size: 2.5rem !important;
@@ -186,21 +281,28 @@
     top: -30%;
     left: 7%;
   }
+  .SliderProject {
+    /* width: 250px; */
+    height: 370px;
+  }
+  .HoverDetailSubDiv {
+    height: 65%;
+  }
+  .HoverDivTypo {
+    width: 95%;
+    font-size: 0.9rem !important;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .hoverDivLogo {
     width: 60%;
   }
-  .HoverDivTypo {
-    /* color: white;*/
-    width: 85%;
-    font-size: 1rem !important;
-  }
+
   .HoverDivBtn {
     font-size: 1rem;
   }
-  .HoverDivBtnLink {
-    font-size: 1rem !important;
+  .HoverDivBtnDark img {
+    width: 15%;
   }
   .ProjectsCompleted_Num {
     font-size: 2rem !important;
@@ -221,11 +323,26 @@
     top: -45%;
     left: 2%;
   }
+  .SliderProject {
+    /* width: 220px; */
+    height: 340px;
+  }
+  .HoverDetailSubDiv {
+    height: 65%;
+  }
+  .HoverDivTypo {
+    width: 100%;
+  }
+  .SliderDiv {
+    padding: 0 1%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .SliderDiv {
+    padding: 0 3%;
+  }
 }
 @media only screen and (max-width: 900px) {
-  .HoverDivTypo {
-    font-size: 1rem !important;
-  }
   .ProjectsCompleted_Num {
     font-size: 1.2rem !important;
   }
@@ -243,12 +360,35 @@
   .ProjectsCompleted_Award {
     top: -80%;
   }
-  .HoverDivBtnLink {
-    font-size: 1rem !important;
+
+  .SliderDiv {
+    padding: 0 2%;
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .HoverDetailSubDiv {
+    height: 75%;
+  }
+  .SliderProject {
+    /* width: 175px; */
+    height: 300px;
+  }
+}
 @media only screen and (max-width: 600px) {
+  .SliderProject {
+    /* width: 150px; */
+    height: 250px;
+  }
+  .HoverDetailSubDiv {
+    height: 95%;
+  }
+  .HoverDivBtnLink {
+    font-size: 0.7rem !important;
+  }
+  .SliderDiv {
+    padding: 1%;
+  }
   .ProjectsCompleted_Num {
     font-size: 1.3rem !important;
   }
@@ -307,7 +447,27 @@
     width: 100%;
 } */
 }
+@media only screen and (max-width: 520px) {
+  .HoverDetailSubDiv {
+    height: 65%;
+  }
+  .SliderProject {
+    /* width: 250px; */
+    height: 350px;
+  }
+  .HoverDivBtnLink {
+    font-size: 0.9rem !important;
+  }
+  .HoverDivTypo {
+    width: 90%;
+  }
+}
 @media only screen and (max-width: 480px) {
+  .SliderProject {
+    /* width: 200px; */
+    height: 300px;
+  }
+
   .About_InfoLeft {
     margin-top: 10%;
   }
@@ -328,11 +488,19 @@
   }
 }
 @media only screen and (max-width: 400px) {
+  .SliderProject {
+    /* width: 180px; */
+    height: 270px;
+  }
   .ProjectsCompletedDiv {
     width: 70%;
   }
 }
 @media only screen and (max-width: 330px) {
+  .SliderProject {
+    /* width: 150px; */
+    height: 240px;
+  }
   .ProjectsCompletedDiv {
     height: 55vh;
   }

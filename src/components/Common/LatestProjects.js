@@ -15,16 +15,16 @@ import { ReactComponent as RightArrow } from '../../assets/images/right_arrow_bt
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 5,
-    slidesToSlide: 5, // optional, default to 1.
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 3,
+    items: 4,
     slidesToSlide: 3, // optional, default to 1.
   },
+  tablet: {
+    breakpoint: { max: 1024, min: 520 },
+    items: 3,
+    slidesToSlide: 1, // optional, default to 1.
+  },
   mobile: {
-    breakpoint: { max: 464, min: 0 },
+    breakpoint: { max: 520, min: 0 },
     items: 1.5,
     slidesToSlide: 1, // optional, default to 1.
   },
@@ -76,22 +76,26 @@ export default function LatestProjects(props) {
         />
 
         <motion.div
-          initial={{ x: 300, opacity: 0.7 }}
-          whileInView={{ x: 0, opacity: 1 }}
+          initial={{ y: 50, opacity: 1 }}
+          whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
           className='LatestProjectsSlider'
         >
           <Carousel
             className='SliderDiv'
-            autoPlay={true}
+            // autoPlay={true}
             responsive={responsive}
-            transitionDuration={10}
+            customTransition='transform 800ms linear'
+            transitionDuration={500}
             slidesToSlide={1}
-            renderArrowNext={true}
+            // renderArrowNext={true}
             infinite={true}
             arrows={false}
-            customButtonGroup={<ButtonGroup />}
+            showDots={true}
+            renderDotsOutside={true}
+            dotListClass='custom-dot-list-style'
+            // customButtonGroup={<ButtonGroup />}
           >
             <LatestProjectsCard
               hoverDesp={t(
@@ -113,7 +117,7 @@ export default function LatestProjects(props) {
               to='/ourprojects/orientator'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              Heading='Orientator'
+              heading='Orientator'
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -124,7 +128,7 @@ export default function LatestProjects(props) {
               to='/ourprojects/registerrh'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              Heading='Registre RH'
+              heading='Registre RH'
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -135,7 +139,7 @@ export default function LatestProjects(props) {
               to='/ourprojects/telehealthplatform'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              Heading='Tele Health'
+              heading='Tele Health'
             />
             <LatestProjectsCard
               hoverDesp={t('ZypZap is a gaming platform by Falcon IT.')}
@@ -154,7 +158,7 @@ export default function LatestProjects(props) {
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/pp_logo_lp.svg`}
               DividerTheme='#11A283'
               // btnBackground="#11A283"
-              Heading='Permispop'
+              heading='Permispop'
               to='/ourprojects/permispop'
             />
             <LatestProjectsCard
@@ -166,7 +170,7 @@ export default function LatestProjects(props) {
               to='/ourprojects/quadrabase'
               DividerTheme='#FF8616'
               // btnBackground="#FF8616"
-              Heading='Quadrabase'
+              heading='Quadrabase'
             />
 
             <LatestProjectsCard
@@ -200,7 +204,7 @@ export default function LatestProjects(props) {
               to='/ourprojects/designconfection'
               DividerTheme='#CC8E9C'
               // btnBackground="#CC8E9C"
-              Heading='Design Confection'
+              heading='Design Confection'
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -211,7 +215,7 @@ export default function LatestProjects(props) {
               to='/ourprojects/realestate'
               DividerTheme='#837C6B'
               // btnBackground="#837C6B"
-              Heading='Real Estate'
+              heading='Real Estate'
             />
             <LatestProjectsCard
               // HoverDetailLite
@@ -222,6 +226,7 @@ export default function LatestProjects(props) {
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabLogo.png`}
               // btnBackground="#47B9B4"
               to='/ourprojects/kidcab'
+              heading='Kidcab'
             />
 
             <LatestProjectsCard
@@ -231,7 +236,7 @@ export default function LatestProjects(props) {
               to='/ourprojects/ezbox'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              Heading='Box Media'
+              heading='Box Media'
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -254,9 +259,9 @@ export default function LatestProjects(props) {
               to='/ourprojects/excellence'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              Heading='Excellence'
+              heading='Excellence'
             />
-            <LatestProjectsCard
+            {/* <LatestProjectsCard
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fnac_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fnaclogo.png`}
               // to='/ourprojects/ezbox'
@@ -273,7 +278,7 @@ export default function LatestProjects(props) {
               para5='• Development in ASP.NET MVC 4 and Entity Framework 5 to develop a tool for managing store inventories (inventory management, location management, in-store label printing), unsold product returns, shipping and customer order remittances, use of EXT.NET modules with JavaScript / JQuery development to modernize this tool.'
               para6='• Development in C# Compact Framework 3.5 to upgrade the tool for managing store inventories, returns of unsold products, shipping and customer order remittances on PDAs used in the store by staff.'
               para7='• T-SQL development (generation of extracts, counters and data consistency checks, creation of stored procedures for the different projects, data archiving)'
-            />
+            /> */}
             <LatestProjectsCard
               hoverDesp={t(
                 'Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:'
@@ -283,7 +288,7 @@ export default function LatestProjects(props) {
               to='/ourprojects/fireman'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              Heading='Fireman'
+              heading='Fireman'
             />
             {/* <LatestProjectsCard
               hoverDesp='Toyota'
@@ -291,10 +296,10 @@ export default function LatestProjects(props) {
               // to='/ourprojects/ezbox'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              Heading='Yuwway'
+              heading='Yuwway'
               LogoSrc={Toyota_Logo}
             /> */}
-            <LatestProjectsCard
+            {/* <LatestProjectsCard
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/canon_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/canonlogo.png`}
               // to='/ourprojects/ezbox'
@@ -312,9 +317,9 @@ export default function LatestProjects(props) {
               para6='• Creation and implementation of reports in PowerBI (visualization of extracts, formatting of counters and graphs for data consistency checking)'
               para7='• raining of various Canon customers in the use, management and administration of Therefore'
               para8='• Technical support around Therefore from different Canon customers'
-            />
+            /> */}
 
-            <LatestProjectsCard
+            {/* <LatestProjectsCard
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/accor_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/accorlogo.png`}
               // to='/ourprojects/ezbox'
@@ -332,7 +337,7 @@ export default function LatestProjects(props) {
               para6='• T-SQL development (generation of extracts, counters and data consistency checks)'
               para7='• rDevelopment to evolve invoices to the new SSRS format'
               para8='• Kettle-based batch development for import / export and data transformation'
-            />
+            /> */}
             <LatestProjectsCard
               hoverDesp={t(
                 'Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. '
@@ -354,7 +359,7 @@ export default function LatestProjects(props) {
               to='/ourprojects/tilt'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              Heading='Tilt'
+              heading='Tilt'
             />
             {/* <LatestProjectsCard
               src={Blsh}
@@ -376,6 +381,7 @@ export default function LatestProjects(props) {
 
             <LatestProjectsCard
               // hoverDesp='Tajweed'
+              href='https://tajweedmadeeasy.com/home'
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo_lp.svg`}
               ModalLogo={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo.svg`}
@@ -407,7 +413,7 @@ export default function LatestProjects(props) {
               heading='Beauty Salon'
               para1='Beauty Salon & Spa is just like another world of FoodPanda where all the beauty salons are in one place. So girls can easily make appointments against any Salon through her mobile application. On the other hand Salons can get appointments through her Beauty Salon Account. Through this app we can find our favorite beauticians also nearby salons and can make appointments.'
             /> */}
-            <LatestProjectsCard
+            {/* <LatestProjectsCard
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/microsoft_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/microsoft_logo_lp.png`}
               // to='/ourprojects/ezbox'
@@ -422,7 +428,7 @@ export default function LatestProjects(props) {
               para3='• Implementation of project developments and production quality control'
               para4='• Development in U-SQL under Azure Data Lake Analytics of scripts for quality control of data from the ebook catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).'
               para5='• Migration of projects developed in Scope and SQL Server to Azure Data Lake Analytics and development in U-SQL under Azure of data quality control scripts from the video catalog with a library of classes containing the code behind the scripts in C# (generation of extracts, counters and data consistency checks, creation of stored procedures, archiving of data).'
-            />
+            /> */}
 
             <LatestProjectsCard
               hoverDesp={t(
@@ -433,7 +439,7 @@ export default function LatestProjects(props) {
               to='/ourprojects/table'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              Heading='Table'
+              heading='Table'
             />
             {/* <LatestProjectsCard
               hoverDesp={t(
@@ -444,7 +450,7 @@ export default function LatestProjects(props) {
               // to='/ourprojects/table'
               DividerTheme='#3399FE'
               // btnBackground="#3399FE"
-              Heading='Barber Shop'
+              heading='Barber Shop'
               LogoSrc={BarberLogo}
             /> */}
           </Carousel>
