@@ -35,20 +35,14 @@ export default function LatestProjectsCard(props) {
           >
             <Link to={props.to}>
               {props.to ? (
-                <div
-                  style={{ display: 'flex', alignItems: 'center' }}
-                  onClick={props.to ? '' : handleRedirect}
-                >
+                <div className='HoverDivBtnSubdiv' onClick={props.to ? '' : handleRedirect}>
                   <Button className='HoverDivBtnLink'>{t('Case Study')}</Button>
                   <img src={Arrow} />
                 </div>
               ) : (
-                <div
-                  style={{ display: 'flex', alignItems: 'center' }}
-                  onClick={props.to ? '' : handleRedirect}
-                >
+                <div className='HoverDivBtnSubdiv' onClick={props.to ? '' : handleRedirect}>
                   <Button className='HoverDivBtnLink'>{t('Case Study')}</Button>
-                  <img src={Arrow} />
+                  <img className='HoverDivBtnArrow' src={Arrow} />
                 </div>
                 // <div style={{ display: 'flex', alignItems: 'center' }}>
                 //   <BasicModal

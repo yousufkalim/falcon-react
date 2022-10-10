@@ -150,6 +150,13 @@
   /* padding:5% 3%; */
   border: none;
 }
+.HoverDivBtnSubdiv {
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  padding: 0 2% 0 0;
+}
+
 .HoverDivBtnLink {
   font-size: 0.9rem !important;
   color: #ffffff !important;
@@ -157,6 +164,10 @@
   font-family: Raleway !important;
   text-transform: capitalize !important;
   padding: 2% 3% 2% 0 !important;
+}
+
+.HoverDivBtnDark:hover .HoverDivBtnSubdiv {
+  padding: 0 0 0 2%;
 }
 .Awesome_Slider {
   height: 40vh;
