@@ -153,8 +153,6 @@
 .HoverDivBtnSubdiv {
   display: flex;
   align-items: center;
-  transition: 0.5s;
-  padding: 0 2% 0 0;
 }
 
 .HoverDivBtnLink {
@@ -166,9 +164,6 @@
   padding: 2% 3% 2% 0 !important;
 }
 
-.HoverDivBtnDark:hover .HoverDivBtnSubdiv {
-  padding: 0 0 0 2%;
-}
 .Awesome_Slider {
   height: 40vh;
 }
