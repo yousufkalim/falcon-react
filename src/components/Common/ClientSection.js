@@ -1,50 +1,33 @@
 import { Grid } from '@mui/material';
 import React from 'react';
 import SectionHeader from './SectionHeader';
+import bgImage from '../../assets/images/client_logos.png';
+import { MouseParallaxContainer, MouseParallaxChild } from 'react-parallax-mouse';
+
 export default function ClientSection() {
   return (
     <>
-      <div className='ClientSectionMain'>
-        <SectionHeader
-          width='15%'
-          colorH2='#0F52BA'
-          h1='SINCERELY YOURS'
-          h2='Some Amazing Partners We Work With'
-          // decription="This sounds simple, but it is beneficial to your business success."
-        />
-        <div className='ClientsDiv'>
-          <Grid container spacing={1} className='ClientsGrid'>
-            <Grid className='ClientLogoGrid' xs={6} sm={3}>
-              <img
-                className='ClientLogo'
-                alt='microsoft'
-                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/6.svg`}
-              />
-            </Grid>
-            <Grid className='ClientLogoGrid' xs={6} sm={3}>
-              <img
-                className='ClientLogo'
-                alt='canon'
-                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/7.svg`}
-              />
-            </Grid>
-            <Grid className='ClientLogoGrid' xs={6} sm={3}>
-              <img
-                className='ClientLogo'
-                alt='fnac'
-                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/4.svg`}
-              />
-            </Grid>
-            <Grid className='ClientLogoGrid' xs={6} sm={3}>
-              <img
-                className='ClientLogo'
-                alt='accor hotel'
-                src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/5.svg`}
-              />
-            </Grid>
-          </Grid>
+      <MouseParallaxContainer>
+        <div className='ClientSectionMain'>
+          <div className='ClientSectionTitleDiv'>
+            <SectionHeader
+              LeftSectionHeader
+              width='15%'
+              colorH2='#0F52BA'
+              h1='SINCERELY YOURS'
+              h2='Some Amazing Partners We Work With'
+              // decription="This sounds simple, but it is beneficial to your business success."
+            />
+          </div>
+
+          <div className='ClientsGradientDiv' />
+          <MouseParallaxChild factorX='{0.03}' factorY='{0.05}'>
+            <div className='ClientsDiv'>
+              <img className='ClientsGradientImg' src={bgImage} />
+            </div>
+          </MouseParallaxChild>
         </div>
-      </div>
+      </MouseParallaxContainer>
     </>
   );
 }
