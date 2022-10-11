@@ -12,7 +12,7 @@ import { useTranslation } from 'react-i18next';
 
 export default function ReviewSection() {
   const { i18n } = useTranslation();
-  const { language } = i18n;
+  let lang = localStorage.getItem('i18nextLng');
   const ref = React.useRef();
   const [enData, setEnData] = useState([
     {
@@ -206,9 +206,7 @@ export default function ReviewSection() {
         <div className='ReviewCardSlider'>
           <div className='ReviewSliderContainer'>
             <div className='fade-left'></div>
-            {/* <button style={{ border: "none", background: "none", fontSize: "40px", color: "#0F52BA", fontWeight: "600" }}>
-              {"<"}
-            </button> */}
+
             <ResponsiveContainer
               className='ReviewSection_Carousel'
               carouselRef={ref}
@@ -221,7 +219,7 @@ export default function ReviewSection() {
                     autoRotate={true}
                     ref={carouselRef}
                     rotationInterval={2000}
-                    data={language === 'en' ? enData : frData}
+                    data={lang === 'fr' ? frData : enData}
                     carouselWidth={parentWidth}
                     slideWidth={
                       currentVisibleSlide === 5
