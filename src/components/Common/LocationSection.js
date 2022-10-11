@@ -7,7 +7,8 @@ import { useTranslation } from 'react-i18next';
 import 'react-awesome-slider/dist/styles.css';
 export default function LocationSection(props) {
   const { i18n, t } = useTranslation();
-  const { language } = i18n;
+  let lang = localStorage.getItem('i18nextLng');
+
   return (
     <>
       <div className='LocationSectionMain'>
@@ -20,7 +21,7 @@ export default function LocationSection(props) {
             SectionHeaderMargin
           />
         </div>
-        {language === 'fr' ? (
+        {lang === 'fr' ? (
           <div className='LocationSliderDiv'>
             <AwesomeSlider
               // organicArrows={false}
