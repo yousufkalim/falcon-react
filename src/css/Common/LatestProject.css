@@ -36,6 +36,9 @@
   width: 100%;
   object-fit: cover;
   height: 100%;
+  transform: scale(1);
+  transition: 0.5s;
+  z-index: 99;
   /* border-radius: 15px !important; */
 }
 /* .SliderImgs:hover{
@@ -61,6 +64,7 @@
   position: relative;
   height: 500px;
   cursor: grab;
+  overflow: hidden;
 }
 .HoverDetail {
   color: white !important;
@@ -76,6 +80,7 @@
   position: absolute;
   transition: 0.5s;
   padding: 0 0 0 5%;
+  z-index: 999;
 }
 .HoverDetailSubDiv {
   width: 100%;
@@ -112,6 +117,9 @@
 }
 .HoverDetail:hover .HoverDivTypo {
   opacity: 0.8;
+}
+.HoverDetail:hover + .SliderImgs {
+  transform: scale(1.1) !important;
 }
 .HoverDetailLite:hover {
   opacity: 0.9;
