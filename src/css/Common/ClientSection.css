@@ -1,49 +1,62 @@
-.ClientSectionMain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2%;
-    justify-content: center;
-    /* height: 100vh; */
-    background-color: #F8F8F8;
+.ClientSectionMain {
+  height: 60vh;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
-.ClientsDiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    width: 60%;
+
+.ClientSectionTitleDiv {
+  padding: 5%;
+  width: 30%;
+  z-index: 11 !important;
 }
- .ClientsGrid{
-    /* width: 100% !important; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* margin-left: 5% !important; */
-} 
-.ClientLogoGrid{
-    display: flex;
-    justify-content: center;
-    margin: 2% 0;
+
+.ClientsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+  width: 100%;
 }
-.ClientLogo{
- 
-    width: 70%;
-    transform: scale(1);
-    filter: grayscale(1);
-    transition: .5s;
-    cursor: pointer;
+
+.ClientsGradientDiv {
+  position: absolute !important;
+  height: 100%;
+  width: 100vw;
+  z-index: 10 !important;
+  background: linear-gradient(100.19deg, #ffffff 25.54%, rgba(255, 255, 255, 0) 98.48%) !important;
 }
-.ClientLogo:hover{
-    transform: scale(1.1);
-    filter: grayscale(0);
-    
+.ClientsGradientImg {
+  position: absolute;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1366px) {
+  .ClientSectionTitleDiv {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .ClientSectionTitleDiv {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ClientSectionTitleDiv {
+    width: 50%;
+  }
 }
 @media only screen and (max-width: 600px) {
-    .ClientsDiv{
-        width: 80%;
-    }
-    .ClientLogoGrid{
-        margin: 5% 0;
-    }
+  .ClientsDiv {
+    width: 100%;
+  }
+  .ClientLogoGrid {
+    margin: 5% 0;
+  }
 }
