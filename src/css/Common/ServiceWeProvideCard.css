@@ -20,6 +20,7 @@
   align-items: center;
 }
 .ServiceCard_Image {
+  width: 100%;
   color: #000;
   transition: 0.5s;
 }
@@ -91,4 +92,24 @@
 }
 .ServiceCardSection_P {
   color: rgba(64, 64, 64, 0.7);
+}
+
+@media only screen and (max-width: 1366px) {
+  .ServiceCard_heading {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .ServiceCard_MainDiv {
+    padding: 5% 5% 2% 5%;
+    height: 100%;
+  }
+  .ServiceCardSection_Grid {
+    margin: 2% 0 !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .ServiceCardSection_Grid {
+    margin: 3% 0 !important;
+  }
 }
