@@ -24,6 +24,7 @@
     "react-helmet": "^6.1.0",
     "react-i18next": "^11.17.0",
     "react-multi-carousel": "^2.8.2",
+    "react-parallax-mouse": "^1.7.3",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.0",
