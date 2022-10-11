@@ -18,7 +18,7 @@ export default function ServiceWeProvide() {
       </div>
       <div className='ServiceCardSection_MainDiv'>
         <Grid container spacing={1} className='ServiceCardSection_ContainerGrid'>
-          <Grid sm={12} md={5} lg={3.5}>
+          <Grid className='ServiceCardSection_Grid' sm={12} md={5} lg={3.5}>
             <ServiceWeProvideCard
               to={`/services/app-development`}
               MobileDev
@@ -28,7 +28,7 @@ export default function ServiceWeProvide() {
               )}
             />
           </Grid>
-          <Grid sm={12} md={5} lg={3.5}>
+          <Grid className='ServiceCardSection_Grid' sm={12} md={5} lg={3.5}>
             <ServiceWeProvideCard
               to={`/services/web-development`}
               WebDev
@@ -38,7 +38,7 @@ export default function ServiceWeProvide() {
               )}
             />
           </Grid>
-          <Grid sm={12} md={5} lg={3.5}>
+          <Grid className='ServiceCardSection_Grid' sm={12} md={5} lg={3.5}>
             <ServiceWeProvideCard
               to={`/services/software-development`}
               SoftwareDev
@@ -48,7 +48,7 @@ export default function ServiceWeProvide() {
               )}
             />
           </Grid>
-          <Grid sm={12} md={5} lg={3.5}>
+          <Grid className='ServiceCardSection_Grid' sm={12} md={5} lg={3.5}>
             <ServiceWeProvideCard
               to={`/services/ui-development`}
               UiDev
@@ -58,7 +58,7 @@ export default function ServiceWeProvide() {
               )}
             />
           </Grid>
-          <Grid sm={12} md={5} lg={3.5}>
+          <Grid className='ServiceCardSection_Grid' sm={12} md={5} lg={3.5}>
             <ServiceWeProvideCard
               DataEng
               heading='Data Engineering'
@@ -67,7 +67,7 @@ export default function ServiceWeProvide() {
               )}
             />
           </Grid>
-          <Grid sm={12} md={5} lg={3.5}>
+          <Grid className='ServiceCardSection_Grid' sm={12} md={5} lg={3.5}>
             <ServiceWeProvideCard
               to={`/services/ondemand-developers`}
               OnDemandDev
