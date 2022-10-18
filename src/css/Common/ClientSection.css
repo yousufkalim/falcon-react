@@ -2,7 +2,6 @@
   height: 60vh;
   position: relative;
   overflow: hidden;
-  background-color: white;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -17,11 +16,12 @@
 }
 
 .ClientsDiv {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
-
+  height: 100%;
   width: 100%;
 }
 
@@ -35,6 +35,7 @@
 .ClientsGradientImg {
   position: absolute;
   object-fit: cover;
+  width: 180%;
 }
 
 @media only screen and (max-width: 1366px) {
@@ -46,17 +47,33 @@
   .ClientSectionTitleDiv {
     width: 50%;
   }
+  .ClientsGradientImg {
+    width: 250%;
+  }
 }
 @media only screen and (max-width: 768px) {
   .ClientSectionTitleDiv {
-    width: 50%;
+    width: 60%;
+  }
+  .ClientsGradientImg {
+    width: 300%;
   }
 }
 @media only screen and (max-width: 600px) {
-  .ClientsDiv {
+  .ClientSectionTitleDiv {
     width: 100%;
+    padding: 3% 0 0 0;
+    background-color: #ffffff;
   }
   .ClientLogoGrid {
     margin: 5% 0;
+  }
+  .ClientsGradientImg {
+    width: 350%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .ClientsGradientImg {
+    width: 350%;
   }
 }
