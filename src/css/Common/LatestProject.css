@@ -4,6 +4,7 @@
   align-items: center;
   padding: 0;
   margin-top: 2%;
+  padding-bottom: 4%;
   /* overflow-x: hidden; */
   /* height: 100vh; */
 }
@@ -23,7 +24,7 @@
   justify-content: space-between !important;
   align-items: center !important;
   padding: 0 1%;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 
 .SliderDiv::-webkit-scrollbar {
@@ -152,13 +153,14 @@
   border: none;
 }
 .HoverDivBtnDark {
-  /* width: 45%; */
+  width: 100%;
   margin-bottom: 5%;
   margin-left: 0;
   /* padding:5% 3%; */
   border: none;
 }
 .HoverDivBtnSubdiv {
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -242,8 +244,15 @@
   width: 50px;
   border-radius: 10px;
 }
-.HoverDivBtnDark img {
-  width: 18%;
+.HoverDivBtnArrow {
+  color: #f8f8f8;
+  width: 6%;
+}
+.react-multiple-carousel__arrow--right {
+  right: 2% !important;
+}
+.react-multiple-carousel__arrow--left {
+  left: 2% !important;
 }
 
 @media only screen and (max-width: 1800px) {
@@ -366,6 +375,9 @@
 
   .SliderDiv {
     padding: 0 2%;
+  }
+  .HoverDivBtnArrow {
+    width: 10%;
   }
 }
 
@@ -491,6 +503,9 @@
   }
 }
 @media only screen and (max-width: 400px) {
+  .custom-dot-list-style {
+    margin-bottom: -5%;
+  }
   .SliderProject {
     /* width: 180px; */
     height: 270px;

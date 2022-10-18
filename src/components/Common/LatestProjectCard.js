@@ -3,7 +3,7 @@ import BasicModal from './BasicModal';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@mui/material';
-import Arrow from '../../assets/images/right_arrow_lp.svg';
+import { ReactComponent as Arrow } from '../../assets/images/right_arrow_lp.svg';
 export default function LatestProjectsCard(props) {
   const { t } = useTranslation();
   const [desp, setDesp] = useState();
@@ -37,12 +37,14 @@ export default function LatestProjectsCard(props) {
               {props.to ? (
                 <div className='HoverDivBtnSubdiv' onClick={props.to ? '' : handleRedirect}>
                   <Button className='HoverDivBtnLink'>{t('Case Study')}</Button>
-                  <img src={Arrow} />
+                  {/* <img src={Arrow} /> */}
+                  <Arrow className='HoverDivBtnArrow' />
                 </div>
               ) : (
                 <div className='HoverDivBtnSubdiv' onClick={props.to ? '' : handleRedirect}>
                   <Button className='HoverDivBtnLink'>{t('Case Study')}</Button>
-                  <img className='HoverDivBtnArrow' src={Arrow} />
+                  {/* <img className='HoverDivBtnArrow' src={Arrow} /> */}
+                  <Arrow className='HoverDivBtnArrow' />
                 </div>
                 // <div style={{ display: 'flex', alignItems: 'center' }}>
                 //   <BasicModal
