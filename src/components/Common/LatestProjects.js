@@ -21,7 +21,7 @@ const responsive = {
   tablet: {
     breakpoint: { max: 1024, min: 520 },
     items: 3,
-    slidesToSlide: 1, // optional, default to 1.
+    slidesToSlide: 2, // optional, default to 1.
   },
   mobile: {
     breakpoint: { max: 520, min: 0 },
@@ -84,14 +84,14 @@ export default function LatestProjects(props) {
         >
           <Carousel
             className='SliderDiv'
-            // autoPlay={true}
+            autoPlay={true}
             responsive={responsive}
             customTransition='transform 800ms linear'
             transitionDuration={500}
             slidesToSlide={1}
             // renderArrowNext={true}
             infinite={true}
-            arrows={false}
+            arrows={true}
             showDots={true}
             renderDotsOutside={true}
             dotListClass='custom-dot-list-style'
