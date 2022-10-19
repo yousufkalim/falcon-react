@@ -24,6 +24,7 @@ export default function ContactSection(props) {
   const [activeName, setActiveName] = useState('');
   const [showForm, setShowForm] = useState(true);
   const [saveName, setSaveName] = useState('');
+  const [checkCaptch, setCheckCaptch] = useState(false);
   const [formState, setFormState] = useState({
     isValid: false,
     values: {
@@ -102,7 +103,10 @@ export default function ContactSection(props) {
   };
 
   const onChange = (e) => {
-    // console.log('value');
+    setCheckCaptch(true);
+  };
+  const onError = (e) => {
+    setCheckCaptch(false);
   };
 
   const resetForm = () => {
@@ -118,6 +122,7 @@ export default function ContactSection(props) {
       touched: {},
       errors: {},
     });
+    setCheckCaptch(false);
   };
 
   const sendEmail = (e) => {
@@ -511,19 +516,27 @@ export default function ContactSection(props) {
                 <ReCAPTCHA
                   sitekey={process.env.REACT_APP_GOOGLE_CAPTCHA_SITE_KEY}
                   onChange={onChange}
+                  onExpired={onError}
+                  onErrored={onError}
                 />
               </div>
               <div className='New_ContactSection_ButtonDiv'>
                 <button
-                  disabled={formState.isValid ? false : true}
+                  disabled={formState.isValid && checkCaptch ? false : true}
                   className={
                     !formState.isValid
+                      ? 'New_ContactSection_Button'
+                      : !checkCaptch
                       ? 'New_ContactSection_Button'
                       : 'New_ContactSection_ButtonHover'
                   }
                   style={{
-                    color: !formState.isValid ? '#7c99bb' : '#42C2FF',
-                    border: !formState.isValid ? '3px solid #7c99bb' : '3px solid #42C2FF ',
+                    color: !formState.isValid ? '#7c99bb' : !checkCaptch ? '#7c99bb' : '#42C2FF',
+                    border: !formState.isValid
+                      ? '3px solid #7c99bb'
+                      : !checkCaptch
+                      ? '3px solid #7c99bb'
+                      : '3px solid #42C2FF ',
                   }}
                 >
                   {showForm ? t('Submit') : t('Submit another')}

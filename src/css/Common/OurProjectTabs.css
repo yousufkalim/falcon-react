@@ -13,6 +13,12 @@
   width: 100%;
   z-index: 1000;
 } */
+.ProjectsNavigateTabsBox {
+  background-color: #fff;
+  top: 60px;
+  width: 100%;
+  z-index: 1000;
+}
 
 .ProjectListMain {
   /* margin: 2%; */
@@ -87,4 +93,14 @@
 .css-1anid1y {
   overflow-x: scroll !important;
   max-width: 100% !important;
+}
+@media only screen and (max-width: 900px) {
+  .ProjectsNavigateTabsBox {
+    top: 50px !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .ProjectsNavigateTabsBox {
+    top: 45px !important;
+  }
 }

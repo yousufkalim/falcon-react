@@ -91,11 +91,11 @@ export default function LatestProjects(props) {
             slidesToSlide={1}
             // renderArrowNext={true}
             infinite={true}
-            arrows={true}
+            arrows={false}
             showDots={true}
             renderDotsOutside={true}
             dotListClass='custom-dot-list-style'
-            // customButtonGroup={<ButtonGroup />}
+            customButtonGroup={<ButtonGroup />}
           >
             <LatestProjectsCard
               hoverDesp={t(

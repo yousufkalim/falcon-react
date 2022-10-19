@@ -19,6 +19,7 @@ export default function ServiceWeProvide() {
             <ServiceWeProvideCard
               to={`/services/app-development`}
               MobileDev
+              btnIconColor='#003B7E'
               btnColor='linear-gradient(310.84deg, rgba(255, 255, 255, 0.2) 20.21%, rgba(0, 0, 0, 0) 97.83%), #003B7E'
               heading='MOBILE DEVELOPMENT'
               description={t(

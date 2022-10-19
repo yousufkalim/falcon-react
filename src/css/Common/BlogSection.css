@@ -4,10 +4,30 @@
   align-items: center;
   padding: 2% 2% 5% 2%;
 }
-
-.BlogCardMain img {
-  width: 100%;
+.BlogCardImgDiv {
+  border-radius: 15px;
+  background: #fff;
+  overflow: hidden;
 }
+.BlogCardImg {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  transform: scale(1);
+  transition: 0.5s;
+}
+.BlogCardImg:hover {
+  transform: scale(1.1);
+}
+.BlogCardMain h3 {
+  color: #52525b;
+  font-weight: 400;
+  margin: 2% 0;
+}
+/* .BlogCardMain img {
+  width: 100%;
+} */
 .BlogContainerGrid {
   display: flex;
   align-items: center;

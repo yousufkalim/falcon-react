@@ -46,7 +46,7 @@ export default function ServiceWeProvideCard(props) {
         <Link className='ServiceCard_Link' to={props.to}>
           <div className='ServiceCard_ImageDiv'>
             {props.MobileDev && (
-              <MobileDev style={{ color: props.btnColor }} className='ServiceCard_Image' />
+              <MobileDev style={{ color: props.btnIconColor }} className='ServiceCard_Image' />
             )}
             {props.WebDev && (
               <WebDev style={{ color: props.btnColor }} className='ServiceCard_Image' />
