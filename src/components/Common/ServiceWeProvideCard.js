@@ -75,7 +75,7 @@ export default function ServiceWeProvideCard(props) {
           </Tooltip>
           <div className='ServiceCard_BtnDiv'>
             <p className='ServiceCard_BtnText' style={{ color: props.btnColor }}>
-              Get Details
+              {t("Get Details")}
             </p>
             <Arrow className='ServiceCard_BtnImg' style={{ color: props.btnColor }} />
           </div>

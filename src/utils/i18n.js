@@ -1495,7 +1495,7 @@ i18n
           Message: 'Message',
           //placeholders
           'Your name': 'Votre nom',
-          'Your phone number': 'Your phone number',
+          'Your phone number': 'Votre numéro de téléphone',
           'Your company': 'Votre entreprise',
           'name@email.com': 'nom@email.com',
           'Start typing here...': 'Commencez à taper ici...',
