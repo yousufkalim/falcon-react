@@ -5,23 +5,11 @@ export default function BlogCard(props) {
   return (
     <>
       <div className='BlogCardMain'>
-        <div>
-          <img
-            style={{ objectFit: 'cover', height: '100%', width: '100%', borderRadius: '15px' }}
-            src={props.src}
-            alt='blog'
-          />
+        <div className='BlogCardImgDiv'>
+          <img className='BlogCardImg' src={props.src} alt='blog' />
         </div>
 
-        <h3
-          style={{
-            color: '#52525B',
-            fontWeight: '400',
-            margin: '2% 0%',
-          }}
-        >
-          {t(props.date)}
-        </h3>
+        <h3>{t(props.date)}</h3>
         <h2 className='BlogCardTitle'>{t(props.title)}</h2>
       </div>
     </>
