@@ -12,7 +12,8 @@ export default function BlogReadMore(props) {
     <>
       <div className='BlogReadMore_Container'>
         <div className='BlogReadMore_HeaderDiv'>
-          <img className='BlogReadMore_HeaderImg' src={props.src} />
+          <img className='BlogReadMore_HeaderImg' src={props.src} 
+           alt='BlogHeader'/>
         </div>
         <Grid container spacing={1} className='BlogReadMore_ContentContainer'>
           <Grid xs={12} md={7}>

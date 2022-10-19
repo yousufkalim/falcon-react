@@ -32,7 +32,7 @@ export default function ClientCard(props) {
           viewport={{ once: true }}
         >
           <div className='ClientCard_ImageDiv'>
-            <img className='ClientCard_Image' src={props.image || MicroSoft} />
+            <img className='ClientCard_Image' src={props.image || MicroSoft} alt='ClientCard'/>
           </div>
           <motion.div
             className='ClientCard_TextDiv'

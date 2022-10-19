@@ -44,7 +44,7 @@ export default function DetailHeader(props) {
           display: position <= 700 ? 'none' : 'flex',
         }}
       >
-        <img className='scrollToTopText' src={BackToTop} />
+        <img className='scrollToTopText' src={BackToTop} alt='top'/>
         <div className='scrollToTopDivider'></div>
         <img
           className='scrollToTopIcon'

@@ -18,7 +18,7 @@ export default function ClientSection() {
         </div>
         <div className='ClientsGradientDiv' />
         <div className='ClientsDiv'>
-          <img className='ClientsMovingImg' src={bgImage} />
+          <img className='ClientsMovingImg' src={bgImage} alt='clients logos' />
         </div>
       </div>
     </>

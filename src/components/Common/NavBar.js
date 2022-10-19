@@ -89,7 +89,7 @@ export default function NavBar(props) {
                 }
               }}
             >
-              <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} />
+              <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} alt='flag'/>
               <h2
                 className='NavbarLanguageName'
                 style={{
@@ -169,7 +169,7 @@ export default function NavBar(props) {
                 }
               }}
             >
-              <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} />
+              <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} alt='flag' />
               <h2
                 className='NavbarLanguageName'
                 style={{
@@ -252,7 +252,7 @@ export default function NavBar(props) {
                   }
                 }}
               >
-                <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} />
+                <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} alt='flag' />
                 <h2
                   className='NavbarLanguageName'
                   style={{

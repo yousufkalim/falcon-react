@@ -16,7 +16,7 @@ export default function MoreProjectCards(props) {
               <p className='MoreProjectCards_Description'>{t(props.desp)}</p>
             </div>
           </div>
-          <img className='MoreProjectCards_Image' src={props.image} />
+          <img className='MoreProjectCards_Image' src={props.image} alt='ProjectCards'/>
         </div>
       </Link>
     </>

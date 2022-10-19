@@ -48,7 +48,7 @@ export default function DetailService(props) {
             transition={{ duration: 0.6, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <img className='DetailService_BothImage' src={props.src} />
+            <img className='DetailService_BothImage' src={props.src} alt="Image" />
           </motion.div>
         )}
         {props.WebApp && (
@@ -59,7 +59,7 @@ export default function DetailService(props) {
             transition={{ duration: 0.6, delay: 0.3 }}
             viewport={{ once: false }}
           >
-            <img className='DetailService_WebAppImage' src={props.src} />
+            <img className='DetailService_WebAppImage' src={props.src} alt="Image" />
           </motion.div>
         )}
       </div>
