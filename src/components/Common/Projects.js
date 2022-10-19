@@ -151,11 +151,7 @@ export default function BasicTabs(props) {
       <Box
         className='ProjectsNavigateTabsBox'
         sx={{
-          backgroundColor: ' #fff',
           position: position <= 335 ? 'block' : 'fixed',
-          top: '60px',
-          width: '100%',
-          zIndex: '1000',
         }}
       >
         <Tabs

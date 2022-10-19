@@ -78,6 +78,9 @@
 }
 /* css-19kzrtu */
 @media only screen and (max-width: 900px) {
+  .ClientsList_ProgressBar {
+    top: 50px;
+  }
   .ClientHeader_Desp {
     width: 90%;
   }
@@ -116,11 +119,11 @@
     height: 60vh;
   }
   /* Client List Progress bar */
-  .ClientsList_ProgressBar {
-    top: 55px;
-  }
 }
 @media only screen and (max-width: 480px) {
+  .ClientsList_ProgressBar {
+    top: 45px;
+  }
   .ClientCard_Title {
     font-size: 2rem;
   }
