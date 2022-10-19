@@ -389,6 +389,9 @@ html {
   }
 }
 @media only screen and (max-width: 480px) {
+  .scrollToTopIcon {
+    width: 150%;
+  }
   .scrollToTopDiv {
     width: 6%;
     height: 27%;
