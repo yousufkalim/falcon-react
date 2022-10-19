@@ -22,6 +22,7 @@ export default function BlogReadArticles(props) {
           <Grid container spacing={1} className='BlogArticleContainer2'>
             <Grid xs={12} sm={10} md={6}>
               <motion.div
+                className='BlogReadImgDiv'
                 initial={{ y: 50, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
@@ -96,6 +97,7 @@ export default function BlogReadArticles(props) {
             </Grid>
             <Grid xs={12} sm={10} md={6}>
               <motion.div
+                className='BlogReadImgDiv'
                 initial={{ y: 50, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
