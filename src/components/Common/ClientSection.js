@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionHeader from './SectionHeader';
-import bgImage from '../../assets/images/client_logos.png';
+import bgImage from '../../assets/images/client_logo.png';
 
 export default function ClientSection() {
   return (
@@ -18,19 +18,7 @@ export default function ClientSection() {
         </div>
         <div className='ClientsGradientDiv' />
         <div className='ClientsDiv'>
-          <img className='ClientsGradientImg' src={bgImage} />
-          {/* <marquee
-            direction='up'
-            height='100%'
-            behavior='scroll'
-            truespeed='25'
-            loop=''
-            scrolldelay='50'
-            hspace='0px'
-            scrollamount='4'
-          >
-            <img style={{ width: '100%' }} src={bgImage} />
-          </marquee> */}
+          <img className='ClientsMovingImg' src={bgImage} />
         </div>
       </div>
     </>
