@@ -77,7 +77,7 @@ export default function AgileMethod() {
             alignItems: 'center',
           }}
         >
-          <img style={{ width: '100%', padding: '2%' }} src={Agile2} />
+          <img style={{ width: '100%', padding: '2%' }} src={Agile2} alt='blog Image' />
         </div>
         <br />
         <h2 style={{ color: '#0F52BA' }}>4. {t('Enhanced stability for projects')}</h2>
@@ -132,7 +132,7 @@ export default function AgileMethod() {
             alignItems: 'center',
           }}
         >
-          <img style={{ width: '100%', padding: '2%' }} src={Agile1} />
+          <img style={{ width: '100%', padding: '2%' }} src={Agile1} alt='blog Image' />
         </div>
         <br />
         {t(

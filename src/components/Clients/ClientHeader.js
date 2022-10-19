@@ -34,7 +34,7 @@ export default function ClientHeader(props) {
               display: position <= 700 ? 'none' : 'flex',
             }}
           >
-            <img className='scrollToTopText' src={BackToTop} />
+            <img className='scrollToTopText' src={BackToTop} alt='text' />
             <div className='scrollToTopDivider'></div>
             <img
               className='scrollToTopIcon'

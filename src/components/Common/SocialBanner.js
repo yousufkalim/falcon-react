@@ -17,7 +17,7 @@ export default function SocialBanner(props) {
             className='socialBannerLeftDiv'
           >
             <div className='socialBannerImageDiv'>
-              <img src={Bulb} />
+              <img src={Bulb} alt='bulb' />
             </div>
             <div className='socialBannerTextDiv'>
               <div className='socialBannerDivider'></div>
@@ -38,7 +38,7 @@ export default function SocialBanner(props) {
               target='_blank'
             >
               <div className='socialBannerBtnImagediv'>
-                <img src={Linkedin} />
+                <img src={Linkedin} alt="LinkedIn"/>
               </div>
               <div className='socialBannerBtnTextDiv'>
                 <p>{t('Follow us on Linkedin')}</p>

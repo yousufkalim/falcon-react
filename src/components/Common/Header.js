@@ -231,6 +231,7 @@ export default function Header(props) {
               <img
                 className={language === 'fr' ? 'scrollToTopTextFr' : 'scrollToTopText'}
                 src={language === 'fr' ? BackTopFrench : BackTopEnglish}
+                alt='Change Language'
               />
               <div className='scrollToTopDivider'></div>
               <img

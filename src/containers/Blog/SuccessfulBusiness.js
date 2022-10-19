@@ -43,7 +43,7 @@ export default function SuccessfulBusiness() {
             alignItems: 'center',
           }}
         >
-          <img style={{ width: '100%', padding: '2%' }} src={SB_Cover} />
+          <img style={{ width: '100%', padding: '2%' }} src={SB_Cover} alt='blog Image'/>
         </div>
         <br />
         <br />
@@ -91,7 +91,7 @@ export default function SuccessfulBusiness() {
             alignItems: 'center',
           }}
         >
-          <img style={{ width: '100%', padding: '2%' }} src={SB_Precision} />
+          <img style={{ width: '100%', padding: '2%' }} src={SB_Precision}  alt='blog Image'/>
         </div>
         <br />
         {t(
@@ -127,7 +127,7 @@ export default function SuccessfulBusiness() {
             alignItems: 'center',
           }}
         >
-          <img style={{ width: '100%', padding: '2%' }} src={SB_Team} />
+          <img style={{ width: '100%', padding: '2%' }} src={SB_Team}  alt='blog Image'/>
         </div>
         <br />
         {t(
@@ -166,7 +166,7 @@ export default function SuccessfulBusiness() {
             alignItems: 'center',
           }}
         >
-          <img style={{ width: '100%', padding: '2%' }} src={SB_Thumbsup} />
+          <img style={{ width: '100%', padding: '2%' }} src={SB_Thumbsup} alt='blog Image' />
         </div>
         <br />
         {t(

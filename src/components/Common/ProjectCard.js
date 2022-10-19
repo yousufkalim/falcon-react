@@ -31,6 +31,7 @@ export default function ProjectCard(props) {
       <img
         className='ProjectCard_BgImage'
         src={props.src || `${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_update.png`}
+        alt='ProjectCard Background'
       />
       <motion.div
         className='ProjectCard_MainDiv'
@@ -108,7 +109,7 @@ export default function ProjectCard(props) {
                     marginLeft: '5%',
                   }}
                 >
-                  <img src={Arrow} />
+                  <img src={Arrow} alt='arrow' />
                 </motion.div>
               </div>
 
