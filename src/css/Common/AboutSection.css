@@ -1,219 +1,208 @@
-.AboutSectionDiv{
-    padding: 5%;
-    height: 100%;
+.AboutSectionDiv {
+  padding: 5%;
+  height: 100%;
 }
-.AboutSectionLower{
-    margin-top: 5%;
+.AboutSectionLower {
+  margin-top: 5%;
 }
-.AboutTopGrid{
-    display: flex;
-    margin-left: 10%;
-    align-items: center;
-    /* justify-content: center; */
-}
-
-.AboutbottomGrid{
-    display: flex;
-    align-items: center;
-
-
-}
-.AboutTypo{
-    width: 80%;
-    margin: 8% 0% 1% 12%;
-
-}
-.AboutImg{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-.AboutImg img{
-    width: 90%;
-    margin-top: 5%;
-}
-.AboutSectionBtn{
-    color: #42C2FF !important;
-    border: none;
-    background-color: transparent;
-    font-size: 100%;
-    font-weight: 600;
-    margin-top: 5% !important;
-    text-transform: uppercase;
-    cursor: pointer;
+.AboutTopGrid {
+  display: flex;
+  margin-left: 10%;
+  align-items: center;
+  /* justify-content: center; */
 }
 
-
-
-
-
-.InfoDiv{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
-    text-align: center;
-    padding: 2%;
-    margin: 1%;
-    background-color: #0F52BA14;
-    border-radius: 10px;
-   height: 180px;
-    width: 180px;
+.AboutbottomGrid {
+  display: flex;
+  align-items: center;
 }
-.InfoImg{
-    height: 90px;
-    display:flex;
-    justify-content: center;
+.AboutTypo {
+  width: 80%;
+  margin: 8% 0% 1% 12%;
+}
+.AboutImg {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.AboutImg img {
+  width: 90%;
+  margin-top: 5%;
+}
+.AboutSectionBtn {
+  color: #42c2ff !important;
+  border: none;
+  background-color: transparent;
+  font-size: 100%;
+  font-weight: 600;
+  margin-top: 5% !important;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0 1% 0 0;
+  transition: 0.5s;
+}
+.AboutSectionBtn:hover {
+  padding: 0 0 0 1%;
+}
 
+.InfoDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2%;
+  margin: 1%;
+  background-color: #0f52ba14;
+  border-radius: 10px;
+  height: 180px;
+  width: 180px;
 }
-.InfoDiv img{
-    width: 70%;
-    /* margin-bottom: 2%; */
-
+.InfoImg {
+  height: 90px;
+  display: flex;
+  justify-content: center;
 }
-.InfoDiv h2{
-    color:#003B7E;
-    font-family: Montserrat !important;
+.InfoDiv img {
+  width: 70%;
+  /* margin-bottom: 2%; */
 }
-.InfoDiv p{
-    width: 160px;
-    font-size: .9rem;
-    color:#003B7E;
-    font-family: Montserrat !important;
-    /* margin-top: 2%; */
+.InfoDiv h2 {
+  color: #003b7e;
+  font-family: Montserrat !important;
 }
-.About_MobInfo{
-    display: none;
+.InfoDiv p {
+  width: 160px;
+  font-size: 0.9rem;
+  color: #003b7e;
+  font-family: Montserrat !important;
+  /* margin-top: 2%; */
+}
+.About_MobInfo {
+  display: none;
 }
 @media only screen and (max-width: 1366px) {
-    .InfoDiv{
-        height: 150px;
-         width: 150px;
-     }
-     .InfoImg{
-        height: 75px;
-    }
-    .InfoDiv img{
-        width: 70%;
-    
-    }
-    .InfoDiv p{
-        width: 130px;
-        font-size: .8rem;
-    }
+  .InfoDiv {
+    height: 150px;
+    width: 150px;
+  }
+  .InfoImg {
+    height: 75px;
+  }
+  .InfoDiv img {
+    width: 70%;
+  }
+  .InfoDiv p {
+    width: 130px;
+    font-size: 0.8rem;
+  }
 }
 @media only screen and (max-width: 992px) {
-    .InfoDiv{
-        height: 120px;
-         width: 120px;
-     }
-     .InfoImg{
-        height: 60px;
-    }
-    .InfoDiv img{
-        width: 60%;
-
-    }
-    .InfoDiv h2{
+  .InfoDiv {
+    height: 120px;
+    width: 120px;
+  }
+  .InfoImg {
+    height: 60px;
+  }
+  .InfoDiv img {
+    width: 60%;
+  }
+  .InfoDiv h2 {
     font-size: 1rem;
     margin: 3% 0;
-    }
-  
-    .InfoDiv p{
-        width: 100px;
-        font-size: .75rem;
-    }
+  }
+
+  .InfoDiv p {
+    width: 100px;
+    font-size: 0.75rem;
+  }
 }
 @media only screen and (max-width: 768px) {
-    .InfoDiv{
-       height: 110px;
-        width: 110px;
-    }
-    .InfoImg{
-        height: 55px;
-    }
-    .InfoDiv img{
-        width: 60%;
-
-    }
-    .InfoDiv p{
-        width: 90px;
-        /* font-size: .6rem; */
-    }
+  .InfoDiv {
+    height: 110px;
+    width: 110px;
+  }
+  .InfoImg {
+    height: 55px;
+  }
+  .InfoDiv img {
+    width: 60%;
+  }
+  .InfoDiv p {
+    width: 90px;
+    /* font-size: .6rem; */
+  }
 }
 @media only screen and (max-width: 600px) {
-    .About_MobInfo{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .InfoDiv{
-        height: 150px;
-         width: 150px;
-     }
-     .InfoImg{
-        height:50px;
-    }
-    .InfoDiv h2{
-        font-size: 1.2rem;
-        margin: 3% 0;
-    }
-    .InfoDiv p{
-        width: 130px;
-            font-size: .7rem;
-            font-weight: 500;
-    }
-    .AboutSectionDiv{
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+  .About_MobInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .InfoDiv {
+    height: 150px;
+    width: 150px;
+  }
+  .InfoImg {
+    height: 50px;
+  }
+  .InfoDiv h2 {
+    font-size: 1.2rem;
+    margin: 3% 0;
+  }
+  .InfoDiv p {
+    width: 130px;
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+  .AboutSectionDiv {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
-    .AboutTopGrid{
-        display: none;
-        margin-left: 0%;
-        justify-content: center;
-    }
-    .AboutBottomMain{
-        display: flex !important;
-        flex-direction: column-reverse !important;
-        
-    }
-    .AboutbottomGrid{
+  .AboutTopGrid {
+    display: none;
+    margin-left: 0%;
+    justify-content: center;
+  }
+  .AboutBottomMain {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+  .AboutbottomGrid {
+    display: none;
+    justify-content: center;
+  }
+  .AboutTypo {
+    text-align: left;
+  }
+  .AboutImg {
+    display: flex;
+    justify-content: center;
+  }
+  .AboutImg img {
+    width: 80%;
+  }
+}
 
-        display: none;
-        justify-content: center;
-    }
-    .AboutTypo{
-        text-align: left;
-    
-    }
-    .AboutImg {
-        display: flex;
-        justify-content: center;
-    }
-    .AboutImg img{
-       
-        width: 80%;
-    }
-    }
-
-    @media only screen and (max-width: 400px) {
-        .InfoDiv{
-            height: 120px;
-             width: 120px;
-         }
-         .InfoImg{
-            height:30px;
-        }
-        .InfoDiv h2{
-            margin: 5% 0;
-            }
-            .InfoDiv p{
-                width: 100px;
-                font-size: .75rem;
-            }
-        }
+@media only screen and (max-width: 400px) {
+  .InfoDiv {
+    height: 120px;
+    width: 120px;
+  }
+  .InfoImg {
+    height: 30px;
+  }
+  .InfoDiv h2 {
+    margin: 5% 0;
+  }
+  .InfoDiv p {
+    width: 100px;
+    font-size: 0.75rem;
+  }
+}

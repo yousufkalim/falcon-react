@@ -5,7 +5,7 @@
   padding: 2% 2% 5% 2%;
 }
 .BlogCardImgDiv {
-  border-radius: 15px;
+  /* border-radius: 15px; */
   background: #fff;
   overflow: hidden;
 }
@@ -13,8 +13,8 @@
   object-fit: cover;
   height: 100%;
   width: 100%;
-  border-radius: 15px;
-  transform: scale(1);
+  /* border-radius: 15px; */
+  transform: scale(1.04);
   transition: 0.5s;
 }
 .BlogCardImg:hover {

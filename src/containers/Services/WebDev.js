@@ -21,34 +21,35 @@ export default function WebDev() {
     setTimeout(() => {
       window.scrollTo({
         top: 0,
-        behavior: 'auto',
+        behavior: 'auto'
       });
     }, 300);
   }, [pathname]);
   return (
-    <div className='Services_WebContainer'>
+    <div className="Services_WebContainer">
       <Helmet>
         <title>{t('Web Development Services - Falcon IT Consulting')}</title>
-        <link rel='canonical' href='https://falconitconsultant.com/services/web-development' />
+        <link rel="canonical" href="https://falconitconsultant.com/services/web-development" />
 
         <meta
-          name='description'
-          content='The best software development company with a team of front-end and back-end developers - Falcon IT Consulting provides website development services at the cheapest rates.'
+          name="description"
+          content="The best software development company with a team of front-end and back-end developers - Falcon IT Consulting provides website development services at the cheapest rates."
         />
         <meta
-          name='keywords'
-          content='software development company, web development, website development, web programming, front end developers, back end developers'
+          name="keywords"
+          content="software development company, web development, website development, web programming, front end developers, back end developers"
         />
       </Helmet>
       <NavBar default />
       <Header
         ScrollTop
-        Title='WEB DEVELOPMENT'
-        Titlecolor='#003B7E'
-        Description='We are ready to handle your ambitious projects!'
-        DespColor='#003B7E'
+        Title="WEB DEVELOPMENT"
+        Titlecolor="#003B7E"
+        Description="We are ready to handle your ambitious projects!"
+        DespColor="#003B7E"
         btn
-        btnText='More information'
+        ImgWidth="80%"
+        btnText="More information"
         ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/webdevImg.svg`}
       />
       <KeyFeatureSection />

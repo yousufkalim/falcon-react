@@ -7,59 +7,57 @@ import { motion } from 'framer-motion';
 export default function DetailService(props) {
   return (
     <>
-      <div className='DetailService_Container'>
+      <div className="DetailService_Container">
         {props.BGLogo && (
-          <div className='DetailService_BGLogo_Div'>
-            <img className='DetailService_BGLogo_Img1' src={props.liteLogo} alt='Detail Services' />
-            <img className='DetailService_BGLogo_Img2' src={props.liteLogo} alt='Detail Services' />
-            <img className='DetailService_BGLogo_Img3' src={props.liteLogo} alt='Detail Services' />
+          <div className="DetailService_BGLogo_Div">
+            <img className="DetailService_BGLogo_Img1" src={props.liteLogo} alt="Detail Services" />
+            <img className="DetailService_BGLogo_Img2" src={props.liteLogo} alt="Detail Services" />
+            <img className="DetailService_BGLogo_Img3" src={props.liteLogo} alt="Detail Services" />
           </div>
         )}
         {props.fitLogo && (
-          <div className='DetailService_FitLogo_Div'>
+          <div className="DetailService_FitLogo_Div">
             <img
-              className='DetailService_FitLogo_Img1'
+              className="DetailService_FitLogo_Img1"
               src={props.liteLogo}
-              alt='Detail Services'
+              alt="Detail Services"
             />
             <img
-              className='DetailService_FitLogo_Img2'
+              className="DetailService_FitLogo_Img2"
               src={props.liteLogo}
-              alt='Detail Services'
+              alt="Detail Services"
             />
             <img
-              className='DetailService_FitLogo_Img3'
+              className="DetailService_FitLogo_Img3"
               src={props.liteLogo}
-              alt='Detail Services'
+              alt="Detail Services"
             />
           </div>
         )}
-        <div className='DetailService_TitleDiv'>
-          <Divider className='DetailService_TitleDivider' color={props.titleTheme || '#11A283'} />
-          <Typography className='DetailService_Title' color={props.titleTheme || '#11A283'}>
+        <div className="DetailService_TitleDiv">
+          <Divider className="DetailService_TitleDivider" color={props.titleTheme || '#11A283'} />
+          <Typography className="DetailService_Title" color={props.titleTheme || '#11A283'}>
             Service
           </Typography>
         </div>
         {props.both && (
           <motion.div
-            className='DetailService_ImageDiv'
+            className="DetailService_ImageDiv"
             initial={{ y: 50, opacity: 0.7 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            viewport={{ once: true }}
-          >
-            <img className='DetailService_BothImage' src={props.src} alt="Image" />
+            viewport={{ once: true }}>
+            <img className="DetailService_BothImage" src={props.src} alt="Image" />
           </motion.div>
         )}
         {props.WebApp && (
           <motion.div
-            className='DetailService_ImageDiv'
+            className="DetailService_ImageDiv"
             initial={{ y: 50, opacity: 0.7 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            viewport={{ once: false }}
-          >
-            <img className='DetailService_WebAppImage' src={props.src} alt="Image" />
+            viewport={{ once: false }}>
+            <img className="DetailService_WebAppImage" src={props.src} alt="Image" />{' '}
           </motion.div>
         )}
       </div>

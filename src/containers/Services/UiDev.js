@@ -21,35 +21,36 @@ export default function UiDev() {
     setTimeout(() => {
       window.scrollTo({
         top: 0,
-        behavior: 'auto',
+        behavior: 'auto'
       });
     }, 300);
   }, [pathname]);
   return (
-    <div className='Services_UiContainer'>
+    <div className="Services_UiContainer">
       <Helmet>
         {/* <title>{t('FalconIT : Expert Software Engineers')}</title> */}
         <title>{t('UI/UX developers services - Falcon IT Consulting')}</title>
-        <link rel='canonical' href='https://falconitconsultant.com/services/ui-development' />
+        <link rel="canonical" href="https://falconitconsultant.com/services/ui-development" />
 
         <meta
-          name='description'
-          content='Falcon Consulting has a devoted team of UI/UX developers working on the front-end UI/UX of the web and apps. The team is specialized in user experience development.'
+          name="description"
+          content="Falcon Consulting has a devoted team of UI/UX developers working on the front-end UI/UX of the web and apps. The team is specialized in user experience development."
         />
         <meta
-          name='keywords'
-          content='web UI developer, user interface development, front-end UI UX, web ui / UX developer'
+          name="keywords"
+          content="web UI developer, user interface development, front-end UI UX, web ui / UX developer"
         />
       </Helmet>
       <NavBar default />
       <Header
         ScrollTop
-        Title='UI/UX DEVELOPMENT'
-        Titlecolor='#003B7E'
-        DespColor='#003B7E'
-        Description='We are ready to handle your ambitious projects!'
+        Title="UI/UX DEVELOPMENT"
+        Titlecolor="#003B7E"
+        DespColor="#003B7E"
+        Description="We are ready to handle your ambitious projects!"
         btn
-        btnText='Get This Service'
+        ImgWidth="80%"
+        btnText="Get This Service"
         ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/uidevImg.svg`}
       />
       <KeyFeatureSection UxKey />

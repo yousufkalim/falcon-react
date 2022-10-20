@@ -21,34 +21,35 @@ export default function OnDemandDev() {
     setTimeout(() => {
       window.scrollTo({
         top: 0,
-        behavior: 'auto',
+        behavior: 'auto'
       });
     }, 300);
   }, [pathname]);
   return (
-    <div className='Services_DemandContainer'>
+    <div className="Services_DemandContainer">
       <Helmet>
         <title>{t('On-demand services - Falcon IT Consulting')}</title>
-        <link rel='canonical' href='https://falconitconsultant.com/services/ondemand-developers' />
+        <link rel="canonical" href="https://falconitconsultant.com/services/ondemand-developers" />
 
         <meta
-          name='description'
-          content='Falcon IT Consulting hires an on-demand developers team, SQA team, software engineers and provides on-demand web development, app development, and software development services.'
+          name="description"
+          content="Falcon IT Consulting hires an on-demand developers team, SQA team, software engineers and provides on-demand web development, app development, and software development services."
         />
         <meta
-          name='keywords'
-          content='on-demand developers, hire on-demand developers, on-demand development services, software developers, app developers, web developers, SQA team, SQ engineers'
+          name="keywords"
+          content="on-demand developers, hire on-demand developers, on-demand development services, software developers, app developers, web developers, SQA team, SQ engineers"
         />
       </Helmet>
       <NavBar default />
       <Header
         ScrollTop
-        Titlecolor='#003B7E'
-        DespColor='#003B7E'
-        Title='Skilled Developers for your Projects'
-        Description='Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !'
+        Titlecolor="#003B7E"
+        DespColor="#003B7E"
+        Title="Skilled Developers for your Projects"
+        Description="Are you in need of developers for short of long term tasks ? Our all-inclusive approach will allow you to get the best match !"
         btn
-        btnText='More information'
+        ImgWidth="80%"
+        btnText="More information"
         ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/demanddevImg.svg`}
       />
       <OurDevelopers />
