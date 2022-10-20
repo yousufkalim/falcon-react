@@ -22,36 +22,36 @@ export default function AppDev() {
     setTimeout(() => {
       window.scrollTo({
         top: 0,
-        behavior: 'auto',
+        behavior: 'auto'
       });
     }, 300);
   }, [pathname]);
   return (
-    <div className='Services_AppContainer'>
+    <div className="Services_AppContainer">
       <Helmet>
         <title>{t('App Development Services - Falcon IT Consulting')}</title>
-        <link rel='canonical' href='https://falconitconsultant.com/services/app-development' />
+        <link rel="canonical" href="https://falconitconsultant.com/services/app-development" />
 
         <meta
-          name='description'
+          name="description"
           content="Falcon's apps developer team develops android, IOS, and cross-platform/hybrid applications."
         />
         <meta
-          name='keywords'
-          content='App development, application development, IOS development, android development, app developers, app development software, cross-platform applications, hybrid applications'
+          name="keywords"
+          content="App development, application development, IOS development, android development, app developers, app development software, cross-platform applications, hybrid applications"
         />
       </Helmet>
       <NavBar default />
       <Header
         ScrollTop
-        Title='APP DEVELOPMENT'
-        Titlecolor='#003B7E'
-        DespColor='#003B7E'
-        Description='We are ready to handle your ambitious projects!'
+        Title="APP DEVELOPMENT"
+        Titlecolor="#003B7E"
+        DespColor="#003B7E"
+        Description="We are ready to handle your ambitious projects!"
         btn
-        btnText='More information'
+        btnText="More information"
         ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/appdevImg.svg`}
-        ImgWidth='75%'
+        ImgWidth="70%"
       />
       <KeyFeatureSection />
       <WorkProcessSection />
