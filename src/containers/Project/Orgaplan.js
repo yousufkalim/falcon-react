@@ -23,37 +23,37 @@ import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjec
 export default function Orgaplan() {
   const { t } = useTranslation();
   return (
-    <div className='Permispop_Container'>
+    <div className="Permispop_Container">
       <Helmet>
         <title>{t('FalconIT : Expert Software Engineers')}</title>
         <meta
-          name='description'
-          content='In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.'
+          name="description"
+          content="In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles."
         />
         <meta
-          name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
+          name="keywords"
+          content="falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies "
         />
       </Helmet>
-      <NavBar ContactUs scrollBarBG='#9D936D' />
+      <NavBar ContactUs scrollBarBG="#9D936D" />
       <DetailHeader
         // DividerBG
-        background='#282828'
-        bottomBG='#9D936D'
-        typoBG='#9D936D'
+        background="#282828"
+        bottomBG="#9D936D"
+        typoBG="#9D936D"
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_header.png`}
-        title='OrgaPlan'
-        subTitle='OrgaPlan'
-        description='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
+        title="OrgaPlan"
+        subTitle="OrgaPlan"
+        description="Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities."
       />
       <DetailOverview
-        desp='Orgaplan is a Logistics management in France on a large scale and its site is developed on React front end and Node JS backend. This project was delivered in just 6 months, which was possible by scalling the team from 2 developers to up to 8 developers.'
+        desp="Orgaplan is a Logistics management in France on a large scale and its site is developed on React front end and Node JS backend. This project was delivered in just 6 months, which was possible by scalling the team from 2 developers to up to 8 developers."
         // desp
         // location
-        titleTheme='#282828'
+        titleTheme="#282828"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
-        nameColor='#9D936D'
-        name='Zaara Aziz'
+        nameColor="#9D936D"
+        name="Zaara Aziz"
         // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_orgaplan.png`}
         src={OP_Overview}
       />
@@ -62,28 +62,28 @@ export default function Orgaplan() {
         // both
         WebApp
         // app
-        titleTheme='#282828'
-        borderColor='#282828'
-        circleTheme='#9D936D'
+        titleTheme="#282828"
+        borderColor="#282828"
+        circleTheme="#9D936D"
         fitLogo
         liteLogo={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_lite_logo.png`}
       />
 
       <DetailDemo
-        to='http://orgaplansa.com'
-        desp='Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, to facilitate very challenging logistic activities. Available in web and mobile versions, with 5 types of users: Super admin / Admin / Company / Traffic agent / Buffer traffic agent. Each user has his rights and functionalities, allowing an infinity of scenarios, as per the real situations on site. Possibility to create and draw the Site Installation Plan, as well as the buildings and storage areas. Possibility to create deliveries and monitor the general state of the site. Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification to get the best User experience'
+        to="http://orgaplansa.com"
+        desp="Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, to facilitate very challenging logistic activities. Available in web and mobile versions, with 5 types of users: Super admin / Admin / Company / Traffic agent / Buffer traffic agent. Each user has his rights and functionalities, allowing an infinity of scenarios, as per the real situations on site. Possibility to create and draw the Site Installation Plan, as well as the buildings and storage areas. Possibility to create deliveries and monitor the general state of the site. Falcon Consulting is specialized in digital construction projects, and we helped our partner to finalize its specification to get the best User experience"
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
-        titleColor='#282828'
-        title='OrgaPlan'
-        btnTheme='#9D936D'
-        theme='#9D936D'
+        titleColor="#282828"
+        title="OrgaPlan"
+        btnTheme="#9D936D"
+        theme="#9D936D"
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_demo_new.png`}
       />
       <DetailDesign
-        titleTheme='#282828'
-        title='UI DESIGN'
+        titleTheme="#282828"
+        title="UI DESIGN"
         // overlap
         TopImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design1.png`}
         MidImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design2.png`}
@@ -109,38 +109,38 @@ export default function Orgaplan() {
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
         // fullscreen
-        titleTheme='#282828'
+        titleTheme="#282828"
         // desp
-        Theme1='#9D936D'
-        Theme2='#EDCF99'
-        Theme3='#AA912B'
-        Theme4='#FFFFFF'
-        Theme5='#282828'
+        Theme1="#9D936D"
+        Theme2="#EDCF99"
+        Theme3="#AA912B"
+        Theme4="#FFFFFF"
+        Theme5="#282828"
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_theme.png`}
       />
       <DetailLogo
-        theme='#EDCF99'
+        theme="#EDCF99"
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_orgaplan_logo.png`}
       />
       <DetailAppDev
         website
-        title='WEB DEVELOPMENT'
+        title="WEB DEVELOPMENT"
         // desp
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_webdesign.png`}
-        titleTheme='#282828'
+        titleTheme="#282828"
         // halfImg=(src Required)
       />
       <DetailFeedback
-        titleTheme='#9D936D'
-        despTheme='#282828'
-        desp='Falcon’s website design team far exceeded my expectations on every front as I had very high expectations of them. The end product is a responsive website that embodies who we are as a company.'
+        titleTheme="#9D936D"
+        despTheme="#282828"
+        desp="Falcon’s website design team far exceeded my expectations on every front as I had very high expectations of them. The end product is a responsive website that embodies who we are as a company."
         // location
-        ThemeBG='#ffffff'
+        ThemeBG="#ffffff"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
-        name='Zaara Aziz'
+        name="Zaara Aziz"
       />
       <DetailMoreProjects />
 
