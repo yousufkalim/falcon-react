@@ -26,7 +26,7 @@ export const AllProjects = [
     tag2: 'Construction',
     tag3: 'Website',
     tag4: 'HumanResource',
-    tag5: 'Business',
+    tag5: 'Business'
   },
   {
     to: '/ourprojects/orientator',
@@ -36,7 +36,7 @@ export const AllProjects = [
     image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_update.png`,
     tag1: 'MERNStack',
     tag2: 'Education',
-    tag4: 'Website',
+    tag4: 'Website'
   },
   {
     to: '/ourprojects/registerrh',
@@ -47,7 +47,7 @@ export const AllProjects = [
     tag1: 'DotNet',
     tag2: 'HumanResource',
     tag3: 'Business',
-    tag4: 'Website',
+    tag4: 'Website'
   },
   {
     to: '/ourprojects/telehealthplatform',
@@ -58,7 +58,7 @@ export const AllProjects = [
     tag1: 'MERNStack',
     tag2: 'Website',
     tag3: 'Health',
-    tag4: 'Business',
+    tag4: 'Business'
   },
   {
     to: '/ourprojects/zypzap',
@@ -68,7 +68,7 @@ export const AllProjects = [
     image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_update.png`,
     tag1: 'MERNStack',
     tag2: 'Website',
-    tag3: 'Gaming',
+    tag3: 'Gaming'
   },
   {
     to: '/ourprojects/permispop',
@@ -83,7 +83,7 @@ export const AllProjects = [
     tag5: 'MobileApp',
     tag6: 'Education',
     tag7: 'Transport',
-    tag8: 'Business',
+    tag8: 'Business'
   },
 
   {
@@ -94,7 +94,7 @@ export const AllProjects = [
     index: 7,
     tag1: 'MERNStack',
     tag2: 'Website',
-    tag3: 'Construction',
+    tag3: 'Construction'
   },
   {
     to: '/ourprojects/yuwway',
@@ -105,7 +105,7 @@ export const AllProjects = [
     tag1: 'ReactNative',
     tag2: 'MobileApp',
     tag3: 'Transport',
-    tag4: 'Business',
+    tag4: 'Business'
   },
   {
     to: '/ourprojects/sindoor',
@@ -116,7 +116,7 @@ export const AllProjects = [
     tag1: 'NodeJS',
     tag2: 'ReactNative',
     tag3: 'MobileApp',
-    tag4: 'Business',
+    tag4: 'Business'
   },
   {
     to: '/ourprojects/designconfection',
@@ -127,7 +127,7 @@ export const AllProjects = [
     tag1: 'MERNStack',
     tag2: 'Website',
     tag3: 'Business',
-    tag4: 'Fashion',
+    tag4: 'Fashion'
   },
   {
     index: 11,
@@ -140,7 +140,7 @@ export const AllProjects = [
     tag3: 'MobileApp',
     tag4: 'Website',
     tag5: 'Construction',
-    tag6: 'Business',
+    tag6: 'Business'
   },
   {
     index: 12,
@@ -152,7 +152,7 @@ export const AllProjects = [
     tag2: 'ReactNative',
     tag3: 'MobileApp',
     tag4: 'Transport',
-    tag5: 'Business',
+    tag5: 'Business'
   },
   {
     to: '/ourprojects/tilt',
@@ -166,7 +166,7 @@ export const AllProjects = [
     tag4: 'Website',
     tag5: 'Transport',
     tag6: 'Business',
-    tag7: 'Food',
+    tag7: 'Food'
   },
   {
     index: 14,
@@ -176,7 +176,7 @@ export const AllProjects = [
     image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_update.png`,
     tag1: 'MERNStack',
     tag2: 'Website',
-    tag3: 'Advertisement',
+    tag3: 'Advertisement'
   },
   {
     index: 15,
@@ -188,7 +188,7 @@ export const AllProjects = [
     tag2: 'DotNet',
     tag3: 'Website',
     tag4: 'HumanResource',
-    tag5: 'Business',
+    tag5: 'Business'
   },
   {
     index: 16,
@@ -199,7 +199,7 @@ export const AllProjects = [
     tag1: 'ReactJS',
     tag2: 'DotNet',
     tag3: 'Website',
-    tag4: 'Construction',
+    tag4: 'Construction'
   },
   {
     index: 17,
@@ -211,7 +211,7 @@ export const AllProjects = [
     tag2: 'Website',
     tag3: 'HumanResource',
     tag4: 'Business',
-    tag5: 'Fashion',
+    tag5: 'Fashion'
   },
   {
     index: 18,
@@ -224,7 +224,7 @@ export const AllProjects = [
     tag3: 'Website',
     tag4: 'MobileApp',
     tag5: 'Education',
-    tag6: 'Business',
+    tag6: 'Business'
   },
   {
     index: 19,
@@ -235,7 +235,7 @@ export const AllProjects = [
     tag1: 'ReactNative',
     tag2: 'MobileApp',
     tag3: 'Business',
-    tag4: 'Table',
+    tag4: 'Table'
   },
   {
     index: 20,
@@ -249,8 +249,8 @@ export const AllProjects = [
     tag2: 'ReactNative',
     tag3: 'MobileApp',
     tag4: 'Website',
-    tag5: 'Education',
-  },
+    tag5: 'Education'
+  }
 ];
 export const Construction = [
   {
@@ -263,7 +263,7 @@ export const Construction = [
     tag2: 'Construction',
     tag3: 'Website',
     tag4: 'HumanResource',
-    tag5: 'Business',
+    tag5: 'Business'
   },
   {
     to: '/ourprojects/quadrabase',
@@ -273,7 +273,7 @@ export const Construction = [
     index: 2,
     tag1: 'MERNStack',
     tag2: 'Website',
-    tag3: 'Construction',
+    tag3: 'Construction'
   },
   {
     index: 3,
@@ -286,7 +286,7 @@ export const Construction = [
     tag3: 'MobileApp',
     tag4: 'Website',
     tag5: 'Construction',
-    tag6: 'Business',
+    tag6: 'Business'
   },
   {
     index: 4,
@@ -297,8 +297,8 @@ export const Construction = [
     tag1: 'ReactJS',
     tag2: 'DotNet',
     tag3: 'Website',
-    tag4: 'Construction',
-  },
+    tag4: 'Construction'
+  }
 ];
 export const Education = [
   {
@@ -309,7 +309,7 @@ export const Education = [
     image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_update.png`,
     tag1: 'MERNStack',
     tag2: 'Education',
-    tag4: 'Website',
+    tag4: 'Website'
   },
   {
     to: '/ourprojects/permispop',
@@ -324,7 +324,7 @@ export const Education = [
     tag5: 'MobileApp',
     tag6: 'Education',
     tag7: 'Transport',
-    tag8: 'Business',
+    tag8: 'Business'
   },
   {
     index: 3,
@@ -337,7 +337,7 @@ export const Education = [
     tag3: 'Website',
     tag4: 'MobileApp',
     tag5: 'Education',
-    tag6: 'Business',
+    tag6: 'Business'
   },
   {
     to: '',
@@ -354,8 +354,8 @@ export const Education = [
     tag2: 'ReactNative',
     tag3: 'MobileApp',
     tag4: 'Website',
-    tag5: 'Education',
-  },
+    tag5: 'Education'
+  }
 ];
 export const HumanResources = [
   {
@@ -367,7 +367,7 @@ export const HumanResources = [
     tag1: 'DotNet',
     tag2: 'HumanResource',
     tag3: 'Business',
-    tag4: 'Website',
+    tag4: 'Website'
   },
   {
     to: '/ourprojects/orgaplan',
@@ -379,7 +379,7 @@ export const HumanResources = [
     tag2: 'Construction',
     tag3: 'Website',
     tag4: 'HumanResource',
-    tag5: 'Business',
+    tag5: 'Business'
   },
   {
     index: 3,
@@ -391,7 +391,7 @@ export const HumanResources = [
     tag2: 'DotNet',
     tag3: 'Website',
     tag4: 'HumanResource',
-    tag5: 'Business',
+    tag5: 'Business'
   },
   {
     index: 4,
@@ -403,8 +403,8 @@ export const HumanResources = [
     tag2: 'Website',
     tag3: 'HumanResource',
     tag4: 'Business',
-    tag5: 'Fashion',
-  },
+    tag5: 'Fashion'
+  }
 ];
 export const Health = [
   {
@@ -416,8 +416,8 @@ export const Health = [
     tag1: 'MERNStack',
     tag2: 'Website',
     tag3: 'Health',
-    tag4: 'Business',
-  },
+    tag4: 'Business'
+  }
 ];
 export const Gaming = [
   {
@@ -428,8 +428,8 @@ export const Gaming = [
     image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_update.png`,
     tag1: 'MERNStack',
     tag2: 'Website',
-    tag3: 'Gaming',
-  },
+    tag3: 'Gaming'
+  }
 ];
 export const Transport = [
   {
@@ -441,7 +441,7 @@ export const Transport = [
     tag1: 'ReactNative',
     tag2: 'MobileApp',
     tag3: 'Transport',
-    tag4: 'Business',
+    tag4: 'Business'
   },
   {
     to: '/ourprojects/permispop',
@@ -456,7 +456,7 @@ export const Transport = [
     tag5: 'MobileApp',
     tag6: 'Education',
     tag7: 'Transport',
-    tag8: 'Business',
+    tag8: 'Business'
   },
   {
     index: 3,
@@ -468,7 +468,7 @@ export const Transport = [
     tag2: 'ReactNative',
     tag3: 'MobileApp',
     tag4: 'Transport',
-    tag5: 'Business',
+    tag5: 'Business'
   },
   {
     to: '/ourprojects/tilt',
@@ -482,8 +482,8 @@ export const Transport = [
     tag4: 'Website',
     tag5: 'Transport',
     tag6: 'Business',
-    tag7: 'Food',
-  },
+    tag7: 'Food'
+  }
 ];
 export const Business = [
   {
@@ -496,7 +496,7 @@ export const Business = [
     tag2: 'Construction',
     tag3: 'Website',
     tag4: 'HumanResource',
-    tag5: 'Business',
+    tag5: 'Business'
   },
   {
     to: '/ourprojects/registerrh',
@@ -507,7 +507,7 @@ export const Business = [
     tag1: 'DotNet',
     tag2: 'HumanResource',
     tag3: 'Business',
-    tag4: 'Website',
+    tag4: 'Website'
   },
   {
     to: '/ourprojects/telehealthplatform',
@@ -518,7 +518,7 @@ export const Business = [
     tag1: 'MERNStack',
     tag2: 'Website',
     tag3: 'Health',
-    tag4: 'Business',
+    tag4: 'Business'
   },
   {
     to: '/ourprojects/permispop',
@@ -533,7 +533,7 @@ export const Business = [
     tag5: 'MobileApp',
     tag6: 'Education',
     tag7: 'Transport',
-    tag8: 'Business',
+    tag8: 'Business'
   },
   {
     to: '/ourprojects/yuwway',
@@ -544,7 +544,7 @@ export const Business = [
     tag1: 'ReactNative',
     tag2: 'MobileApp',
     tag3: 'Transport',
-    tag4: 'Business',
+    tag4: 'Business'
   },
   {
     to: '/ourprojects/sindoor',
@@ -555,7 +555,7 @@ export const Business = [
     tag1: 'NodeJS',
     tag2: 'ReactNative',
     tag3: 'MobileApp',
-    tag4: 'Business',
+    tag4: 'Business'
   },
   {
     to: '/ourprojects/designconfection',
@@ -566,7 +566,7 @@ export const Business = [
     tag1: 'MERNStack',
     tag2: 'Website',
     tag3: 'Business',
-    tag4: 'Fashion',
+    tag4: 'Fashion'
   },
   {
     index: 8,
@@ -579,7 +579,7 @@ export const Business = [
     tag3: 'MobileApp',
     tag4: 'Website',
     tag5: 'Construction',
-    tag6: 'Business',
+    tag6: 'Business'
   },
   {
     index: 9,
@@ -591,7 +591,7 @@ export const Business = [
     tag2: 'ReactNative',
     tag3: 'MobileApp',
     tag4: 'Transport',
-    tag5: 'Business',
+    tag5: 'Business'
   },
   {
     to: '/ourprojects/tilt',
@@ -605,7 +605,7 @@ export const Business = [
     tag4: 'Website',
     tag5: 'Transport',
     tag6: 'Business',
-    tag7: 'Food',
+    tag7: 'Food'
   },
   {
     index: 11,
@@ -617,7 +617,7 @@ export const Business = [
     tag2: 'DotNet',
     tag3: 'Website',
     tag4: 'HumanResource',
-    tag5: 'Business',
+    tag5: 'Business'
   },
   {
     index: 12,
@@ -629,7 +629,7 @@ export const Business = [
     tag2: 'Website',
     tag3: 'HumanResource',
     tag4: 'Business',
-    tag5: 'Fashion',
+    tag5: 'Fashion'
   },
   {
     index: 13,
@@ -642,7 +642,7 @@ export const Business = [
     tag3: 'Website',
     tag4: 'MobileApp',
     tag5: 'Education',
-    tag6: 'Business',
+    tag6: 'Business'
   },
   {
     index: 14,
@@ -653,8 +653,8 @@ export const Business = [
     tag1: 'ReactNative',
     tag2: 'MobileApp',
     tag3: 'Business',
-    tag4: 'Table',
-  },
+    tag4: 'Table'
+  }
 ];
 export const Fashion = [
   {
@@ -666,7 +666,7 @@ export const Fashion = [
     tag1: 'MERNStack',
     tag2: 'Website',
     tag3: 'Business',
-    tag4: 'Fashion',
+    tag4: 'Fashion'
   },
   {
     index: 2,
@@ -678,8 +678,8 @@ export const Fashion = [
     tag2: 'Website',
     tag3: 'HumanResource',
     tag4: 'Business',
-    tag5: 'Fashion',
-  },
+    tag5: 'Fashion'
+  }
 ];
 export const Food = [
   {
@@ -694,7 +694,7 @@ export const Food = [
     tag4: 'Website',
     tag5: 'Transport',
     tag6: 'Business',
-    tag7: 'Food',
+    tag7: 'Food'
   },
   {
     index: 2,
@@ -705,8 +705,8 @@ export const Food = [
     tag1: 'ReactNative',
     tag2: 'MobileApp',
     tag3: 'Business',
-    tag4: 'Table',
-  },
+    tag4: 'Table'
+  }
 ];
 export const Advertisement = [
   {
@@ -717,8 +717,8 @@ export const Advertisement = [
     image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_update.png`,
     tag1: 'MERNStack',
     tag2: 'Website',
-    tag3: 'Advertisement',
-  },
+    tag3: 'Advertisement'
+  }
 ];
 export const clientData = [
   {
@@ -727,97 +727,398 @@ export const clientData = [
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
     image: [Microsoft],
     bg: [Microsoft],
-    href: 'https://upclear.com',
+    href: 'https://upclear.com'
   },
   {
     title: 'Toyota',
     id: '#02',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [Toyota],
+    image: [Toyota]
   },
   {
     title: 'Accor Hotel',
     id: '#03',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [Accor],
+    image: [Accor]
   },
   {
     title: 'Fnac',
     id: '#04',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [Fnac],
+    image: [Fnac]
   },
   {
     title: 'Canon',
     id: '#05',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [Canon],
+    image: [Canon]
   },
   {
     title: 'Action contre la faim',
     id: '#06',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [Action],
+    image: [Action]
   },
   {
     title: 'Expensya',
     id: '#07',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [Expensya],
+    image: [Expensya]
   },
   {
     title: 'Upclear',
     id: '#08',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [Upclear],
+    image: [Upclear]
   },
   {
     title: 'Big Pharma',
     subtitle: '(CIP laboratoires)',
     id: '#09',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [Pharma],
+    image: [Pharma]
   },
   {
     title: 'Idex',
     id: '#10',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [Idex],
+    image: [Idex]
   },
   {
     title: 'Wolters Kluwer',
     id: '#11',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [Wolters],
+    image: [Wolters]
   },
   {
     title: 'Crédit Agricole',
     id: '#12',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [Agricole],
+    image: [Agricole]
   },
   {
     title: 'AFD',
     id: '#13',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [AFD],
+    image: [AFD]
   },
   {
     title: 'DDS Logistics',
     id: '#14',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [DDS],
+    image: [DDS]
   },
   {
     title: 'Witivio',
     id: '#15',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [Witivio],
+    image: [Witivio]
   },
   {
     title: 'FieldBox.ai',
     id: '#16',
     desp: 'Application Web conçue pour aider les clients souhaitant des coutures personnalisées à rec...',
-    image: [FieldBox],
+    image: [FieldBox]
+  }
+];
+export const EducationType = [
+  {
+    to: '/ourprojects/orientator',
+    title: 'Orientator',
+    index: 1,
+    desp: 'Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_update.png`,
+    tag1: 'MERNStack',
+    tag2: 'Education',
+    tag4: 'Website'
   },
+  {
+    to: '/ourprojects/permispop',
+    title: 'Permispop',
+    index: 2,
+    desp: 'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`,
+    tag1: 'ReactJS',
+    tag2: 'DotNet',
+    tag3: 'ReactNative',
+    tag4: 'Website',
+    tag5: 'MobileApp',
+    tag6: 'Education',
+    tag7: 'Transport',
+    tag8: 'Business'
+  },
+  {
+    index: 3,
+    to: '/ourprojects/wina',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_update.png`,
+    title: 'Winaa',
+    desp: 'Winaa is a job board, in the shape of a mobile and web application,  for connecting companies and apprentices. ',
+    tag1: 'NodeJS',
+    tag2: 'ReactNative',
+    tag3: 'Website',
+    tag4: 'MobileApp',
+    tag5: 'Education',
+    tag6: 'Business'
+  }
+];
+export const ConstructionType = [
+  {
+    to: '/ourprojects/orgaplan',
+    title: 'Orgaplan',
+    index: 1,
+    desp: 'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_update.png`,
+    tag1: 'MERNStack',
+    tag2: 'Construction',
+    tag3: 'Website',
+    tag4: 'HumanResource',
+    tag5: 'Business'
+  },
+  {
+    to: '/ourprojects/quadrabase',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_update.png`,
+    title: 'Quadrabase',
+    desp: 'Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.',
+    index: 2,
+    tag1: 'MERNStack',
+    tag2: 'Website',
+    tag3: 'Construction'
+  },
+  {
+    index: 3,
+    to: '/ourprojects/realestate',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_update.png`,
+    title: 'Real Estate',
+    desp: 'The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.',
+    tag1: 'ReactJS',
+    tag2: 'ReactNative',
+    tag3: 'MobileApp',
+    tag4: 'Website',
+    tag5: 'Construction',
+    tag6: 'Business'
+  }
+];
+export const HumanResourcesType = [
+  {
+    to: '/ourprojects/registerrh',
+    title: 'Registre-RH',
+    index: 1,
+    desp: 'This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_update.png`,
+    tag1: 'DotNet',
+    tag2: 'HumanResource',
+    tag3: 'Business',
+    tag4: 'Website'
+  },
+
+  {
+    index: 2,
+    to: '/ourprojects/facilitymanagement',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_update.png`,
+    title: 'Facility Management',
+    desp: 'This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status.',
+    tag1: 'ReactJS',
+    tag2: 'DotNet',
+    tag3: 'Website',
+    tag4: 'HumanResource',
+    tag5: 'Business'
+  },
+  {
+    index: 3,
+    to: '/ourprojects/excellence',
+    title: 'ERP Excellence',
+    desp: 'Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_update.png`,
+    tag1: 'DotNet',
+    tag2: 'Website',
+    tag3: 'HumanResource',
+    tag4: 'Business',
+    tag5: 'Fashion'
+  }
+];
+export const FoodType = [
+  {
+    to: '/ourprojects/tilt',
+    title: 'Tilt',
+    desp: 'Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_update.png`,
+    index: 1,
+    tag1: 'NodeJS',
+    tag2: 'ReactNative',
+    tag3: 'MobileApp',
+    tag4: 'Website',
+    tag5: 'Transport',
+    tag6: 'Business',
+    tag7: 'Food'
+  },
+  {
+    index: 2,
+    to: '/ourprojects/table',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_update.png`,
+    title: 'Table',
+    desp: 'This project consists of two apps one is for the restaurant and other is for the end user.',
+    tag1: 'ReactNative',
+    tag2: 'MobileApp',
+    tag3: 'Business',
+    tag4: 'Table'
+  },
+  {
+    to: '/ourprojects/sindoor',
+    title: 'Sindoor',
+    desp: 'Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_update.png`,
+    index: 3,
+    tag1: 'NodeJS',
+    tag2: 'ReactNative',
+    tag3: 'MobileApp',
+    tag4: 'Business'
+  }
+];
+export const TransportType = [
+  {
+    to: '/ourprojects/yuwway',
+    title: 'Yuwway',
+    desp: "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs.",
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_update.png`,
+    index: 1,
+    tag1: 'ReactNative',
+    tag2: 'MobileApp',
+    tag3: 'Transport',
+    tag4: 'Business'
+  },
+  {
+    to: '/ourprojects/permispop',
+    title: 'Permispop',
+    index: 2,
+    desp: 'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`,
+    tag1: 'ReactJS',
+    tag2: 'DotNet',
+    tag3: 'ReactNative',
+    tag4: 'Website',
+    tag5: 'MobileApp',
+    tag6: 'Education',
+    tag7: 'Transport',
+    tag8: 'Business'
+  },
+  {
+    index: 3,
+    to: '/ourprojects/kidcab',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_update.png`,
+    title: 'Kidcab',
+    desp: 'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.',
+    tag1: 'NodeJS',
+    tag2: 'ReactNative',
+    tag3: 'MobileApp',
+    tag4: 'Transport',
+    tag5: 'Business'
+  }
+];
+export const FashionType = [
+  {
+    to: '/ourprojects/designconfection',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/designconf_update.png`,
+    title: 'Design Confection Ethiques',
+    desp: 'A web app designed to help customers with customized stitching to receive your creation at your home.',
+    index: 1,
+    tag1: 'MERNStack',
+    tag2: 'Website',
+    tag3: 'Business',
+    tag4: 'Fashion'
+  },
+  {
+    index: 2,
+    to: '/ourprojects/excellence',
+    title: 'ERP Excellence',
+    desp: 'Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_update.png`,
+    tag1: 'DotNet',
+    tag2: 'Website',
+    tag3: 'HumanResource',
+    tag4: 'Business',
+    tag5: 'Fashion'
+  },
+  {
+    to: '/ourprojects/sindoor',
+    title: 'Sindoor',
+    desp: 'Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_update.png`,
+    index: 3,
+    tag1: 'NodeJS',
+    tag2: 'ReactNative',
+    tag3: 'MobileApp',
+    tag4: 'Business'
+  }
+];
+export const BusinessType = [
+  {
+    to: '/ourprojects/telehealthplatform',
+    title: 'Movement detection for health providers',
+    index: 1,
+    desp: 'Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_update.png`,
+    tag1: 'MERNStack',
+    tag2: 'Website',
+    tag3: 'Health',
+    tag4: 'Business'
+  },
+
+  {
+    index: 2,
+    to: '/ourprojects/realestate',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_update.png`,
+    title: 'Real Estate',
+    desp: 'The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company.',
+    tag1: 'ReactJS',
+    tag2: 'ReactNative',
+    tag3: 'MobileApp',
+    tag4: 'Website',
+    tag5: 'Construction',
+    tag6: 'Business'
+  },
+  {
+    index: 3,
+    to: '/ourprojects/excellence',
+    title: 'ERP Excellence',
+    desp: 'Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France. In order to develop its brand image and develop its online activity, the company wanted to have an e-commerce site.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_update.png`,
+    tag1: 'DotNet',
+    tag2: 'Website',
+    tag3: 'HumanResource',
+    tag4: 'Business',
+    tag5: 'Fashion'
+  }
+];
+export const GamingType = [
+  {
+    to: '/ourprojects/zypzap',
+    title: 'Zypzap',
+    index: 1,
+    desp: 'ZypZap is a gaming platform by Falcon IT. It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_update.png`,
+    tag1: 'MERNStack',
+    tag2: 'Website',
+    tag3: 'Gaming'
+  },
+  {
+    index: 2,
+    to: '/ourprojects/ezbox',
+    title: 'EZbox',
+    desp: 'EZBox media is a platform providing different services including',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_update.png`,
+    tag1: 'MERNStack',
+    tag2: 'Website',
+    tag3: 'Advertisement'
+  },
+  {
+    to: '/ourprojects/telehealthplatform',
+    title: 'Movement detection for health providers',
+    index: 3,
+    desp: 'Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_update.png`,
+    tag1: 'MERNStack',
+    tag2: 'Website',
+    tag3: 'Health',
+    tag4: 'Business'
+  }
 ];
