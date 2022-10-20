@@ -1,62 +1,121 @@
 // Init
-import { Grid, Typography } from '@mui/material';
+import { Grid } from '@mui/material';
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
 // Importing Components
-import Button from '@mui/material/Button';
 import { Divider } from '@mui/material';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
-import Tooltip from '@mui/material/Tooltip';
-import Image from '../../assets/images/dc_detailservice.svg';
-import SectionHeader from '../Common/SectionHeader';
 import MoreProjectCards from '../Common/MoreProjectCards';
 // Home Component
 
 export default function DetailMoreProjects(props) {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   const [desp, setDesp] = useState();
+  const menuRoute = window.location.pathname;
 
   useEffect(() => {
-    setDesp(t(props?.description));
-  }, [props?.description]);
+    setDesp(t(props?.desp));
+  }, [props?.desp]);
 
   return (
     <>
       <div>
-        <div className='DetailMoreProjects_SectionHeaderDiv'>
-          <h2 className='DetailMoreProjects_SectionHeader_H1'>a project offers a challenge</h2>
-
-          <Divider className='DetailMoreProjects_SectionHeader_Divider' />
-          <h1 className='DetailMoreProjects_SectionHeader_H2'>More Projects</h1>
+        <div className="DetailMoreProjects_SectionHeaderDiv">
+          <h2 className="DetailMoreProjects_SectionHeader_H1">
+            {t('a project offers a challenge')}
+          </h2>
+          <Divider className="DetailMoreProjects_SectionHeader_Divider" />
+          <h1 className="DetailMoreProjects_SectionHeader_H2">{t('More Projects')}</h1>
         </div>
-        <div className='DetailMoreProjects_MainDiv'>
-          <Grid container spacing={1} className='DetailMoreProjects_ContainerGrid'>
-            <Grid sm={10} md={3.5} className='DetailMoreProjects_Grid'>
-              <MoreProjectCards
-                to='/ourprojects/orientator'
-                title='Orientator'
-                image={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_update.png`}
-                desp='A revolutionary approach to construction document generation for big companies'
-              />
+        <div className="DetailMoreProjects_MainDiv">
+          {menuRoute === '/ourprojects/orientator' ||
+          menuRoute === '/ourprojects/permispop' ||
+          menuRoute === '/ourprojects/quadrabase' ||
+          menuRoute === '/ourprojects/orgaplan' ? (
+            <Grid container spacing={1} className="DetailMoreProjects_ContainerGrid">
+              {menuRoute !== '/ourprojects/orientator' && (
+                <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
+                  <MoreProjectCards
+                    to="/ourprojects/orientator"
+                    title="Orientator"
+                    image={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_update.png`}
+                    desp={t(
+                      'Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.'
+                    )}
+                  />
+                </Grid>
+              )}
+              {menuRoute !== '/ourprojects/permispop' && (
+                <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
+                  <MoreProjectCards
+                    to="/ourprojects/permispop"
+                    title="Permispop"
+                    image={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`}
+                    desp={t(
+                      'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.'
+                    )}
+                  />
+                </Grid>
+              )}
+              {menuRoute !== '/ourprojects/quadrabase' && (
+                <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
+                  <MoreProjectCards
+                    to="/ourprojects/quadrabase"
+                    title="Quadrabase"
+                    image={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_update.png`}
+                    desp={t(
+                      'Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
+                    )}
+                  />
+                </Grid>
+              )}
+              {menuRoute !== '/ourprojects/orgaplan' && (
+                <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
+                  <MoreProjectCards
+                    to="/ourprojects/orgaplan"
+                    title="Orgaplan"
+                    image={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_update.png`}
+                    desp={t(
+                      'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
+                    )}
+                  />
+                </Grid>
+              )}
             </Grid>
-            <Grid sm={10} md={3.5} className='DetailMoreProjects_Grid'>
-              <MoreProjectCards
-                to='/ourprojects/permispop'
-                title='Permispop'
-                image={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`}
-                desp='A revolutionary approach to construction document generation for big companies'
-              />
+          ) : (
+            <Grid container spacing={1} className="DetailMoreProjects_ContainerGrid">
+              <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
+                <MoreProjectCards
+                  to="/ourprojects/orientator"
+                  title="Orientator"
+                  image={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_update.png`}
+                  desp={t(
+                    'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.'
+                  )}
+                />
+              </Grid>
+              <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
+                <MoreProjectCards
+                  to="/ourprojects/permispop"
+                  title="Permispop"
+                  image={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop_update.png`}
+                  desp={t(
+                    'Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently.'
+                  )}
+                />
+              </Grid>
+
+              <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
+                <MoreProjectCards
+                  to="/ourprojects/quadrabase"
+                  title="Quadrabase"
+                  image={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_update.png`}
+                  desp={t(
+                    'Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
+                  )}
+                />
+              </Grid>
             </Grid>
-            <Grid sm={10} md={3.5} className='DetailMoreProjects_Grid'>
-              <MoreProjectCards
-                to='/ourprojects/quadrabase'
-                title='Quadrabase'
-                image={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadra_update.png`}
-                desp='A revolutionary approach to construction document generation for big companies'
-              />
-            </Grid>
-          </Grid>
+          )}
         </div>
       </div>
     </>
