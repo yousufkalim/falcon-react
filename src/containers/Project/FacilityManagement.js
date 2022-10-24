@@ -15,72 +15,74 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import FmService from '../../assets/images/fm_detailservice.svg';
+import FmService_fr from '../../assets/images/fm_detailservice_fr.svg';
 import Facility_Overview from '../../assets/images/detail_facility_overview.svg';
 import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function FacilityManagement() {
+  let lang = localStorage.getItem('i18nextLng');
   const { t } = useTranslation();
   return (
-    <div className='Permispop_Container'>
+    <div className="Permispop_Container">
       <Helmet>
         <title>{t('FalconIT : Expert Software Engineers')}</title>
         <meta
-          name='description'
-          content='In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.'
+          name="description"
+          content="In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles."
         />
         <meta
-          name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
+          name="keywords"
+          content="falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies "
         />
       </Helmet>
-      <NavBar ContactUs scrollBarBG='#2F696D' />
+      <NavBar ContactUs scrollBarBG="#2F696D" />
       <DetailHeader
-        background='#282828'
-        bottomBG='#2F696D'
-        typoBG='#2F696D'
+        background="#282828"
+        bottomBG="#2F696D"
+        typoBG="#2F696D"
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_header.png`}
-        title='Facility Management'
-        subTitle='Facility Management'
+        title="Facility Management"
+        subTitle="Facility Management"
         // iconTheme="#9D3C64"
-        description='This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user.'
+        description="This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user."
       />
       <DetailOverview
-        titleTheme='#282828'
-        desp='This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user.'
+        titleTheme="#282828"
+        desp="This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user."
         // desp=""
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/overview_quadraAvatar.png`}
-        nameColor='#2F696D'
-        name='Damien Dehoul'
+        nameColor="#2F696D"
+        name="Damien Dehoul"
         // location="France"
         // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_facility.png`}
         src={Facility_Overview}
       />
       <DetailService
-        src={FmService}
+        src={lang === 'fr' ? FmService_fr : FmService}
         // app
         WebApp
         // both
-        titleTheme='#282828'
-        borderColor='#282828'
-        circleTheme='#2F696D'
+        titleTheme="#282828"
+        borderColor="#282828"
+        circleTheme="#2F696D"
       />
 
       <DetailDemo
-        to='https://facilitymanagement-demo.web.app/'
+        to="https://facilitymanagement-demo.web.app/"
         // desp
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
-        titleColor='#282828'
-        title='Facility Management'
-        btnTheme='#2F696D'
-        theme='#2F696D'
+        titleColor="#282828"
+        title="Facility Management"
+        btnTheme="#2F696D"
+        theme="#2F696D"
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_demo_new.png`}
       />
       <DetailDesign
-        titleTheme='#2F696D'
-        title='UI DESIGN'
+        titleTheme="#2F696D"
+        title="UI DESIGN"
         // overlap
         // TopImg={Facility_Design1}
         // MidImg={Facility_Design2}
@@ -105,13 +107,13 @@ export default function FacilityManagement() {
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
         // fullscreen
-        title='COLOR THEME AND DESIGN'
-        titleTheme='#282828'
+        title="COLOR THEME AND DESIGN"
+        titleTheme="#282828"
         // desp
-        Theme1='#2F696D'
-        Theme2='#FAFAFA'
-        Theme3='#191A1F'
-        Theme4='#575961'
+        Theme1="#2F696D"
+        Theme2="#FAFAFA"
+        Theme3="#191A1F"
+        Theme4="#575961"
         // Theme5="#00000040"
         // Theme6=""
         // Theme7=""
@@ -121,21 +123,21 @@ export default function FacilityManagement() {
       {/* <DetailLogo theme="#0073BB" src={Yuwway_Logo} /> */}
       <DetailAppDev
         website
-        title='WEB DEVELOPMENT'
+        title="WEB DEVELOPMENT"
         // desp
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_theme.png`}
-        titleTheme='#282828'
+        titleTheme="#282828"
         // halfImg={Yuwway_AppDesign}
       />
       <DetailFeedback
-        titleTheme='#2F696D'
-        despTheme='#282828'
+        titleTheme="#2F696D"
+        despTheme="#282828"
         // desp
         // location
-        ThemeBG='#ffffff'
+        ThemeBG="#ffffff"
         // AvatarSrc={Kidcab_Avatar}
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
-        name='Damien Dehoul'
+        name="Damien Dehoul"
       />
       <DetailMoreProjects />
 
