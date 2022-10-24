@@ -16,11 +16,13 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import OrgaService from '../../assets/images/orga_detailservice.svg';
+import OrgaService_fr from '../../assets/images/orga_detailservice_fr.svg';
 import OP_Overview from '../../assets/images/detail_op_overview.svg';
 import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function Orgaplan() {
+  let lang = localStorage.getItem('i18nextLng');
   const { t } = useTranslation();
   return (
     <div className="Permispop_Container">
@@ -58,7 +60,7 @@ export default function Orgaplan() {
         src={OP_Overview}
       />
       <DetailService
-        src={OrgaService}
+        src={lang === 'fr' ? OrgaService_fr : OrgaService}
         // both
         WebApp
         // app

@@ -15,72 +15,74 @@ import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import SindoorService from '../../assets/images/sindoor_detailservice.svg';
+import SindoorService_fr from '../../assets/images/sindoor_detailservice_fr.svg';
 import Sindoor_Overview from '../../assets/images/detail_sindoor_overview.svg';
 import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function Sindoor() {
+  let lang = localStorage.getItem('i18nextLng');
   const { t } = useTranslation();
   return (
-    <div className='Permispop_Container'>
+    <div className="Permispop_Container">
       <Helmet>
         <title>{t('FalconIT : Expert Software Engineers')}</title>
         <meta
-          name='description'
-          content='In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles.'
+          name="description"
+          content="In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles."
         />
         <meta
-          name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
+          name="keywords"
+          content="falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies "
         />
       </Helmet>
-      <NavBar ContactUs scrollBarBG='#E45A5A' />
+      <NavBar ContactUs scrollBarBG="#E45A5A" />
       <DetailHeader
         // DividerBG
-        background='#000000'
-        bottomBG='#E45A5A'
-        typoBG='#E45A5A'
+        background="#000000"
+        bottomBG="#E45A5A"
+        typoBG="#E45A5A"
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_header.png`}
-        title='Sindoor'
-        subTitle='Sindoor'
-        description='Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
+        title="Sindoor"
+        subTitle="Sindoor"
+        description="Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App."
       />
       <DetailOverview
         // desp
-        desp='Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App.'
+        desp="Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App."
         // location
-        titleTheme='#E45A5A'
+        titleTheme="#E45A5A"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
-        nameColor='#E45A5A'
-        name='Muzammal Chaudhry'
+        nameColor="#E45A5A"
+        name="Muzammal Chaudhry"
         // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_sindoor.png`}
         src={Sindoor_Overview}
       />
       <DetailService
-        src={SindoorService}
+        src={lang === 'fr' ? SindoorService_fr : SindoorService}
         // both
         // web
         WebApp
-        titleTheme='#E45A5A'
-        borderColor='#18374E'
-        circleTheme='#E45A5A'
+        titleTheme="#E45A5A"
+        borderColor="#18374E"
+        circleTheme="#E45A5A"
       />
 
       <DetailDemo
-        to='https://sindoor-demo.web.app/'
+        to="https://sindoor-demo.web.app/"
         // desp
         // btnText
         // DetailDemo_SquareDiv
         DetailDemo_RoundDiv
-        titleColor='#E45A5A'
-        title='Sindoor'
-        btnTheme='#E45A5A'
-        theme='#E45A5A'
+        titleColor="#E45A5A"
+        title="Sindoor"
+        btnTheme="#E45A5A"
+        theme="#E45A5A"
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_demo.png`}
       />
       <DetailDesign
-        titleTheme='#E45A5A'
-        title='APP UI DESIGN'
+        titleTheme="#E45A5A"
+        title="APP UI DESIGN"
         // // overlap
         // TopImg={Sindoor_Design1}
         // MidImg={Sindoor_Design2}
@@ -110,13 +112,13 @@ export default function Sindoor() {
         // src2={EZbox_Theme2}
         // src3={EZbox_Theme3}
         // fullscreen
-        title='COLOR THEME'
-        titleTheme='#E45A5A'
+        title="COLOR THEME"
+        titleTheme="#E45A5A"
         // desp
-        Theme1='#E45A5A'
-        Theme2='#FAFAFA'
-        Theme3='#191A1F'
-        Theme4='#575961'
+        Theme1="#E45A5A"
+        Theme2="#FAFAFA"
+        Theme3="#191A1F"
+        Theme4="#575961"
         // Theme5=""
         // Theme6=""
         // Theme7=""
@@ -126,10 +128,10 @@ export default function Sindoor() {
       {/* <DetailLogo theme="rgba(255, 213, 77, 0.25)" src={Table_Logo} /> */}
       <DetailAppDev
         application
-        title='MOBILE APP DEVELOPMENT'
+        title="MOBILE APP DEVELOPMENT"
         // desp
         // fullImg={Table_AppDesign}
-        titleTheme='#E45A5A'
+        titleTheme="#E45A5A"
         halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_appdesign.png`}
       />
       <DetailFeedback
@@ -137,9 +139,9 @@ export default function Sindoor() {
         // despTheme
         // desp
         // location
-        ThemeBG='#E45A5A'
+        ThemeBG="#E45A5A"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
-        name='Muzammal Chaudhry'
+        name="Muzammal Chaudhry"
       />
       <DetailMoreProjects />
 
