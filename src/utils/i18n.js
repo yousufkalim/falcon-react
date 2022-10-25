@@ -1014,10 +1014,3053 @@ i18n
           'Curious to learn more?': 'Curious to learn more?',
           'Check out our socials!': 'Check out our socials!',
           'Follow us on Linkedin': 'Follow us on Linkedin',
-        },
+
+          // Legal Mentions
+          // title 1
+          Éditeur: 'Editor',
+          // Body 1
+          'Le présent site web, accessible à l’adresse': 'This website, accessible at',
+          'est réalisé par la Société Falcon Consulting, inscrite au registre du commerce de Créteil sous le numéro B 813 509 536, dont le siège social est situé au 53 avenue Victor Hugo - 94290 Villeneuve Le Roi.':
+            'is carried out by Falcon Consulting, registered in the Créteil commercial register under number B 813 509 536, whose head office is located at 53 avenue Victor Hugo - 94290 Villeneuve Le Roi.',
+          'Le site appartient au groupe Falcon Consulting. En France, c’est la Société Falcon Consulting au capital de 10 000 euros, inscrite au registre du commerce de Créteil sous le numéro B 813 509 536 et numéro TVA intracommunautaire FR84813509536, dont le siège social est situé au 53 avenue Victor Hugo - 94290 Villeneuve Le Roi, qui est reconnu comme propriétaire.':
+            'The site belongs to the Falcon Consulting group. In France, it is Falcon Consulting with a capital of 10,000 euros, registered in the Créteil commercial register under number B 813 509 536 and intra-community VAT number FR84813509536, whose head office is located at 53 avenue Victor Hugo - 94290 Villeneuve Le Roi, who is recognized as the owner.',
+          'Le groupe international Falcon Consulting est un ensemble d’ESN toutes spécialisées dans les services informatiques, autour nouvelles technologies logicielles et digitales.':
+            'The international group Falcon Consulting is a set of ESN all specialized in IT services, around new software and digital technologies.',
+          'Le directeur de la publication du Site Web est la société Falcon Consulting elle-même.':
+            'The publishing director of the Website is Falcon Consulting itself.',
+
+          // Tilte 2
+          'Contenu du Site': 'Content of the Site',
+          // Body 2
+          "Le contenu du site la structure générale, les textes, les images, animées ou non, et les sons dont le site est composé sont la propriété exclusive de la société Falcon Consulting. Toute représentation totale ou partielle de ce Site et de son Contenu, par quelques procédés que ce soient, sans l'autorisation pré alable expresse de la société Falcon Consulting est interdite et constituerait une contrefaçon sanctionnée par les articles L.335-2 et suivants du Code de la Propriété intellectuelle.":
+            'The content of the site, the general structure, the texts, the images, animated or not, and the sounds of which the site is composed are the exclusive property of the company Falcon Consulting. Any total or partial representation of this Site and its Content, by any means whatsoever, without the express prior authorization of Falcon Consulting is prohibited and constitutes an infringement punishable by articles L.335-2 and following of the Intellectual Property Code.',
+          "Le site accessible à l'adresse": 'The site accessible at',
+          'est hébergé par la société GoDaddy.com, dont le siège social est situé au 14455 North Hayden Rd., Suite 219, Scottsdale, AZ 85260.':
+            'is hosted by GoDaddy.com, whose main office is at 14455 North Hayden Rd., Suite 219, Scottsdale, AZ 85260.',
+          'Email :': 'E-mail :',
+          'Téléphone :': 'Telephone :',
+          // Title 3
+          "Licence d'utilisation du Contenu du Site": 'License to use Site Content',
+          // Body 3
+          "Du seul fait de sa connexion au site, l'utilisateur reconnaît accepter de la société Falcon Consulting, une licence 'usage du Contenu du Site strictement limitée aux conditions impératives suivantes:":
+            'By the mere fact of connecting to the site, the user acknowledges accepting from Falcon Consulting, a license to use the Content of the Site strictly limited to the following mandatory conditions:',
+          "La présente licence est accordée à tire non exclusif et n'est pas transmissible.":
+            'This license is granted on a non-exclusive basis and is not transferable.',
+          "Le droit 'usage conféré à l'utilisateur / internaute est personnel et privé : c'est-à-dire que toute reproduction du contenu du site sur un quelconque support pour un usage collectif ou professionnel, même en interne dans l'entreprise, est prohibée. Il en est de même pour toute communication de ce contenu par voie électronique, même diffusé en intranet ou en extranet d'entreprise.":
+            'The right of use granted to the user / Internet user is personal and private: that is to say that any reproduction of the content of the site on any medium whatsoever for collective or professional use, even internally within the company, is prohibited. The same applies to any communication of this content by electronic means, even distributed on the intranet or company extranet.',
+          "Le droit 'usage comprend seulement l'autorisation de consulter le site et son contenu.":
+            'The right of use includes only the authorization to consult the site and its content.',
+          "Cet usage comprend seulement l'autorisation de reproduire pour stockage aux fins de représentation sur écran monoposte et de reproduction en un exemplaire, pour copie de  sauvegarde et tirage papier. Tout autre usage est soumis à l'autorisation expresse préalable de la société Falcon Consulting. La violation de ces dispositions soumet le contrevenant et toute personne responsable aux peines pénales et civiles prévues par la loi française.":
+            'This use includes only the authorization to reproduce for storage for the purposes of representation on a single-user screen and reproduction in one copy, for backup copy and hard copy. Any other use is subject to the express prior authorization of Falcon Consulting. Violation of these provisions subjects the offender and any person responsible to the criminal and civil penalties provided for by French law.',
+          //  Title 4
+          'Loi informatique, fichiers et libertés': 'IT law, files and freedoms',
+          // Body 4
+          'La société Falcon Consulting est le responsable du traitement des donees collectees sur son site via :':
+            'Falcon Consulting is responsible for processing the data collected on its site via:',
+          "L'utilisateur est notamment informé que conformément à l'article 32 de la loi Informatique et libertés du 6 janvier 1978 modifiée, les informations qu'il communique par les formulaires présents sur le site de la société Falcon Consulting sot nécessaires pour répondre à sa demande et sont destines aux services en charge de répondre à sa demande à des fins de suivi de cette demande.":
+            'The user is informed in particular that in accordance with article 32 of the amended Data Protection Act of 6 January 1978, the information he communicates through the forms on the Falcon Consulting website is necessary to respond to his request. and are intended for the services in charge of responding to his request for the purpose of monitoring this request.',
+          "Conformément aux dispositions des articles 39 et 40 de la loi « Informatique et Libertés » du 6 janvier 1978 modifiée en 2004, l'utilisateur bénéficie d'un droit d'accès, de rectification, de mise à jour et 'effacement des informations qui le concernent, qu'il peut exercer en s'adressant à l'adresse mail":
+            "In accordance with the provisions of articles 39 and 40 of the law 'Informatique et Libertés' of January 6, 1978 amended in 2004, the user has the right to access, rectify, update and delete information which concern, which he can exercise by contacting the email address",
+          "ou par courier à l'adresse de la société:": "or by post to the company's address:",
+          "Falcon Consulting, 53 Avenue Victor Hugo, 94290 Villeneuve Le Roi, France, service «Droit des personnes » et en joignant la copie de son justificatif d'identité.":
+            'Falcon Consulting, 53 Avenue Victor Hugo, 94290 Villeneuve Le Roi, France, "Personal Rights" department and enclosing a copy of their proof of identity.',
+          "Conformément aux dispositions de 'article 38 de la loi « Informatique et Libertés » du 6 ianvier 1978 modifiée en 2004, l'utilisateur put également 'opposer, pour des motifs légitimes à ce que ses données fassent l'objet d' un traitement et sans motif et sans frais, à ce que ses données soient utilisées à des fins de prospection commerciale":
+            'In accordance with the provisions of article 38 of the law "Informatique et Libertés" of January 6, 1978 amended in 2004, the user could also oppose, for legitimate reasons, that his data be subject to processing and without reason and free of charge, for his data to be used for commercial prospecting purposes',
+          "L'utilisateur est informé que lors de ses visites sur le site":
+            'The user is informed that during his visits to the site',
+          ", un cookie peut 'installer automatiquement sur son logiciel de navigation.":
+            ', a cookie can be installed automatically on its navigation software.',
+          "Le cookie est un bloc de données qui ne permet pas d'identifier les utilisateurs, mais sert à enregistrer des informations relatives à la navigation de celui-ci sur le site. Le paramétrage du logiciel de navigation permet 'informer de la présence de cookie et éventuellement, de la refuser de la manière décrite à l'adresse suivante":
+            'The cookie is a block of data that does not allow users to be identified, but is used to record information relating to their browsing on the site. The configuration of the navigation software makes it possible to inform of the presence of cookies and possibly to refuse them in the manner described at the following address',
+          "L'utilisateur dispose d'un droit d'accès, de retrait et de modification des données à caractère personnel communiques par le bias des cookies dans les conditions indiquées ci-dessus.":
+            'The user has a right to access, withdraw and modify personal data communicated through cookies under the conditions indicated above.',
+          "L'utilisateur du site": "L'utilisateur du site",
+          "est tenu de respecter les dispositions de la loi Informatique et libertés du 6 janvier 1978 modifiée dont la violation est passible de sanctions pénales. Il doit notamment s' abstenir, s'agissant des informations nominatives auxquelles il accède, de toute collecte, de toute utilisation détournée, et d'une manière générale, de tout acte susceptible de porter atteinte à la vie privée ou à la réputation des personnes.":
+            'is required to comply with the provisions of the amended Data Protection Act of January 6, 1978, the violation of which is punishable by criminal penalties. In particular, he must refrain, with regard to the personal information to which he has access, from any collection, from any misuse, and in general, from any act likely to infringe the privacy or reputation of individuals.',
+
+          //Title 5
+          'Liens hypertextes': 'Hypertext links',
+          // Body 5
+          "Les liens hypertextes mis en place dans le cadre du présent site en direction d'autres resources présentes sur le réseau Intemet, ne sauraient engager la responsabilité de la société Falcon Consulting. Les utilisateurs/internautes du site ne peuvent mettre en place un lien hypertexte en direction de ce site sans l'autorisation expresse et préalable de la société Falcon Consulting.":
+            'The hypertext links set up within the framework of this site in the direction of other resources present on the Internet network, could not engage the responsibility of the company Falcon Consulting. Users/Internet users of the site may not set up a hypertext link to this site without the express prior authorization of Falcon Consulting.',
+
+          //Title 6
+          "Autorisation de reproduction de contenus et de mise en placed'hyperliens":
+            'Authorization to reproduce content and to place hyperlinks',
+          // Body 6
+          "Les liens hypertextes mis en place dans le cadre du présent site en direction d'autres resources présentes sur le réseau Intemet, ne sauraient engager la responsabilité de la société Falcon Consulting. Les utilisateurs / internautes du site ne peuvent mettre en place un lien hypertexte en direction de ce site sans l'autorisation expresse et préalable de la société Falcon Consulting.":
+            'The hypertext links set up within the framework of this site in the direction of other resources present on the Internet network, could not engage the responsibility of the company Falcon Consulting. The users / Internet users of the site cannot set up a hypertext link to this site without the express and prior authorization of the company Falcon Consulting.',
+
+          //Title 7
+          'Respect de la vie privée': 'Respect for privacy',
+
+          // Body 7
+          "Falcon Consulting respecte votre vie privée et s'engage à la protéger. La présente déclaration est destinée à vous informer de notre politique et de nos pratiques en matière de respect de la vie privée, ainsi que des choix que vous pouvez opérer sur la manière dont vos coordonnées sont recueillies en ligne et comment elles sont utilisées.":
+            'Falcon Consulting respects your privacy and is committed to protecting it. This statement is intended to inform you of our privacy policy and practices, and the choices you can make about the way your contact information is collected online and how it is used.',
+          'Le site web est régi par le Droit français. Notre activité professionnelle est répartie selon le pays dans lequel le contrat de prestation est signé. En cas de litige résultant de votre utilisation de note site web, seuls les Tribunaux français sont compétents.':
+            'The website is governed by French law. Our professional activity is divided according to the country in which the service contract is signed. In the event of a dispute resulting from your use of our website, only the French courts have jurisdiction.',
+          'Tous droits réservés © -': 'All rights reserved © -',
+          // Privacy Policy
+          // Title 1
+          'Falcon Consulting Policy Document': 'Falcon Consulting Policy Document',
+          // Body 1
+          'Information Security policy': 'Information Security policy',
+          'Privacy Policy': 'Privacy Policy',
+          'Acceptable Use policy': 'Acceptable Use policy',
+          'Business Continuity/Disaster recovery Policy':
+            'Business Continuity/Disaster recovery Policy',
+          'Hiring and Termination Policy Including background checks':
+            'Hiring and Termination Policy Including background checks',
+          'Encryption Policy': 'Encryption Policy',
+          'Incident response Policy (Internal, External, Web)':
+            'Incident response Policy (Internal, External, Web)',
+          'Security awareness training programs and topics covered':
+            'Security awareness training programs and topics covered',
+          'Third party management programs': 'Third party management programs',
+          'System backup policy and program': 'System backup policy and program',
+          'Falcon Consulting maintains and communicates an Information Security Program consisting of topic-specific policies, standards, procedures and guidelines that:':
+            'Falcon Consulting maintains and communicates an Information Security Program consisting of topic-specific policies, standards, procedures and guidelines that:',
+          'Serve to protect the Confidentiality, Integrity, and Availability of the Information Resources maintained within the organization using administrative, physical and technical controls.':
+            'Serve to protect the Confidentiality, Integrity, and Availability of the Information Resources maintained within the organization using administrative, physical and technical controls.',
+          'Provide value to the way we conduct business and support institutional objectives. Comply with all regulatory and legal requirements, including:':
+            'Provide value to the way we conduct business and support institutional objectives. Comply with all regulatory and legal requirements, including:',
+          'HIPAA Security Rule': 'HIPAA Security Rule',
+          'State breach notification laws,': 'State breach notification laws,',
+          'PCI Data Security Standard,': 'PCI Data Security Standard,',
+          'Information Security best practices, including ISO 27002 and NIST CSF,':
+            'Information Security best practices, including ISO 27002 and NIST CSF,',
+          'Contractual agreements,': 'Contractual agreements,',
+          'All other applicable federal and state laws or regulations. The information security program is reviewed no less than annually or upon significant changes to the information security environment.':
+            'All other applicable federal and state laws or regulations. The information security program is reviewed no less than annually or upon significant changes to the information security environment.',
+          'At Falcon consulting, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by falconconsulting and how we use it.':
+            'At Falcon consulting, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by falconconsulting and how we use it.',
+          'If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.':
+            'If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.',
+          'This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in falconconsulting. This policy is not applicable to any information collected offline or via channels other than this website.':
+            'This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in falconconsulting. This policy is not applicable to any information collected offline or via channels other than this website.',
+          Consent: 'Consent',
+          'By using our website, you hereby consent to our Privacy Policy and agree to its terms.':
+            'By using our website, you hereby consent to our Privacy Policy and agree to its terms.',
+          'Information we collect': 'Information we collect',
+          'The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.':
+            'The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.',
+          'If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.':
+            'If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.',
+          'When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.':
+            'When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.',
+          'How we use your information': 'How we use your information',
+          'We use the information we collect in various ways, including to:':
+            'We use the information we collect in various ways, including to:',
+          'Provide, operate, and maintain our website':
+            'Provide, operate, and maintain our website',
+          'Improve, personalize, and expand our website':
+            'Improve, personalize, and expand our website',
+          'Understand and analyze how you use our website':
+            'Understand and analyze how you use our website',
+          'Develop new products, services, features, and functionality':
+            'Develop new products, services, features, and functionality',
+          'Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes':
+            'Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes',
+          'Send you emails': 'Send you emails',
+          'Find and prevent fraud': 'Find and prevent fraud',
+          'Log Files': 'Log Files',
+          "Falcon Consulting follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and are a part of hosting services' analytics. The information collected by log files includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.":
+            "Falcon Consulting follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and are a part of hosting services' analytics. The information collected by log files includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.",
+          'Cookies and Web Beacons': 'Cookies and Web Beacons',
+          "Like any other website, falconconsulting uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.":
+            "Like any other website, falconconsulting uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.",
+          'Advertising Partners Privacy Policies': 'Advertising Partners Privacy Policies',
+          'You may consult this list to find the Privacy Policy for each of the advertising partners of falconconsulting.':
+            'You may consult this list to find the Privacy Policy for each of the advertising partners of falconconsulting.',
+          "Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on falconconsulting, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.":
+            "Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on falconconsulting, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.",
+          'Note that falconconsulting has no access to or control over these cookies that are used by third-party advertisers.':
+            'Note that falconconsulting has no access to or control over these cookies that are used by third-party advertisers.',
+          'Third Party Privacy Policies': 'Third Party Privacy Policies',
+          "falconconsulting's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.":
+            "falconconsulting's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.",
+          "You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.":
+            "You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.",
+          'CCPA Privacy Rights (Do Not Sell My Personal Information)':
+            'CCPA Privacy Rights (Do Not Sell My Personal Information)',
+          'Under the CCPA, among other rights, California consumers have the right to:':
+            'Under the CCPA, among other rights, California consumers have the right to:',
+          "Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.":
+            "Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.",
+          'Request that a business delete any personal data about the consumer that a business has collected.':
+            'Request that a business delete any personal data about the consumer that a business has collected.',
+          "Request that a business that sells a consumer's personal data, not sell the consumer's personal data.":
+            "Request that a business that sells a consumer's personal data, not sell the consumer's personal data.",
+          'If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.':
+            'If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.',
+          'GDPR Data Protection Rights': 'GDPR Data Protection Rights',
+          'We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:':
+            'We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:',
+          'The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.':
+            'The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.',
+          'The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.':
+            'The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.',
+          'The right to erasure – You have the right to request that we erase your personal data, under certain conditions.':
+            'The right to erasure – You have the right to request that we erase your personal data, under certain conditions.',
+          'The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.':
+            'The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.',
+          'The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.':
+            'The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.',
+          'The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.':
+            'The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.',
+          'If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.':
+            'If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.',
+          "Children's Information": "Children's Information",
+          'Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.':
+            'Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.',
+          'falconconsulting does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.':
+            'falconconsulting does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.',
+          'This policy applies to the use of information, electronic and computing devices, and network resources to conduct Falcon Consulting business or interact with internal networks and business systems, whether owned or leased by Falcon Consulting, the employee, or a third party. All employees, contractors, consultants, temporary, and other workers at Falcon Consulting and its subsidiaries are responsible for exercising good judgment regarding appropriate use of information, electronic devices, and network resources in accordance with Falcon Consulting.':
+            'This policy applies to the use of information, electronic and computing devices, and network resources to conduct Falcon Consulting business or interact with internal networks and business systems, whether owned or leased by Falcon Consulting, the employee, or a third party. All employees, contractors, consultants, temporary, and other workers at Falcon Consulting and its subsidiaries are responsible for exercising good judgment regarding appropriate use of information, electronic devices, and network resources in accordance with Falcon Consulting.',
+          'General Use and Ownership': 'General Use and Ownership',
+          'Falcon Consulting proprietary information stored on electronic and computing devices whether owned or leased by Falcon Consulting, the employee or a third party, remains the sole property of Falcon Consulting. You must ensure through legal or technical means that proprietary information is protected in accordance with the Data Protection Standard.':
+            'Falcon Consulting proprietary information stored on electronic and computing devices whether owned or leased by Falcon Consulting, the employee or a third party, remains the sole property of Falcon Consulting. You must ensure through legal or technical means that proprietary information is protected in accordance with the Data Protection Standard.',
+          'You have a responsibility to promptly report the theft, loss or unauthorized disclosure of Falcon Consulting proprietary information.':
+            'You have a responsibility to promptly report the theft, loss or unauthorized disclosure of Falcon Consulting proprietary information.',
+          'You may access, use or share Falcon Consulting proprietary information only to the extent it is authorized and necessary to fulfill your assigned job duties.':
+            'You may access, use or share Falcon Consulting proprietary information only to the extent it is authorized and necessary to fulfill your assigned job duties.',
+          'Employees are responsible for exercising good judgment regarding the reasonableness of personal use. Individual departments are responsible for creating guidelines concerning personal use of Internet/Intranet/Extranet systems. In the absence of such policies, employees should be guided by departmental policies on personal use, and if there is any uncertainty, employees should consult their supervisor or manager.':
+            'Employees are responsible for exercising good judgment regarding the reasonableness of personal use. Individual departments are responsible for creating guidelines concerning personal use of Internet/Intranet/Extranet systems. In the absence of such policies, employees should be guided by departmental policies on personal use, and if there is any uncertainty, employees should consult their supervisor or manager.',
+          'For security and network maintenance purposes, authorized individuals within Falcon Consulting may monitor equipment, systems and network traffic at any time, per Audit Policy.':
+            'For security and network maintenance purposes, authorized individuals within Falcon Consulting may monitor equipment, systems and network traffic at any time, per Audit Policy.',
+          'Falcon Consulting reserves the right to audit networks and systems on a periodic basis to ensure compliance with this policy.':
+            'Falcon Consulting reserves the right to audit networks and systems on a periodic basis to ensure compliance with this policy.',
+          'Security and Proprietary Information': 'Security and Proprietary Information',
+          'All mobile and computing devices that connect to the internal network must comply with the Minimum Access Policy.':
+            'All mobile and computing devices that connect to the internal network must comply with the Minimum Access Policy.',
+          'System level and user level passwords must comply with the Password Policy. Providing access to another individual, either deliberately or through failure to secure its access, is prohibited.':
+            'System level and user level passwords must comply with the Password Policy. Providing access to another individual, either deliberately or through failure to secure its access, is prohibited.',
+          'All computing devices must be secured with a password-protected screensaver with the automatic activation feature set to 10 minutes or less. You must lock the screen or log off when the device is unattended.':
+            'All computing devices must be secured with a password-protected screensaver with the automatic activation feature set to 10 minutes or less. You must lock the screen or log off when the device is unattended.',
+          'Postings by employees from a Falcon Consulting email address to newsgroups should contain a disclaimer stating that the opinions expressed are strictly their own and not necessarily those of Falcon Consulting, unless posting is in the course of business duties.':
+            'Postings by employees from a Falcon Consulting email address to newsgroups should contain a disclaimer stating that the opinions expressed are strictly their own and not necessarily those of Falcon Consulting, unless posting is in the course of business duties.',
+          'Employees must use extreme caution when opening e-mail attachments received from unknown senders, which may contain malware.':
+            'Employees must use extreme caution when opening e-mail attachments received from unknown senders, which may contain malware.',
+          'Business Continuity Plan': 'Business Continuity Plan',
+          'Business Continuity focuses on sustaining The Falcon Consulting’s critical business processes during and after a disruption.':
+            'Business Continuity focuses on sustaining The Falcon Consulting’s critical business processes during and after a disruption.',
+          'Falcon Consulting has created and implemented a Business Continuity Plan (“BCP”).':
+            'Falcon Consulting has created and implemented a Business Continuity Plan (“BCP”).',
+          'The BCP is periodically tested and the results should be shared with executive management.':
+            'The BCP is periodically tested and the results should be shared with executive management.',
+          'The BCP is reviewed and updated upon any relevant change to the organization, at the conclusion of plan testing, or least annually.':
+            'The BCP is reviewed and updated upon any relevant change to the organization, at the conclusion of plan testing, or least annually.',
+          'The BCP is communicated and distributed to all relevant internal personnel and executive management.':
+            'The BCP is communicated and distributed to all relevant internal personnel and executive management.',
+          'Business continuity planning includes:': 'Business continuity planning includes:',
+          'The safety and security of personnel is the first priority;':
+            'The safety and security of personnel is the first priority;',
+          'An adequate management structure is in place to prepare for, mitigate and respond to a disruptive event using personnel with the necessary authority, experience, and competence;':
+            'An adequate management structure is in place to prepare for, mitigate and respond to a disruptive event using personnel with the necessary authority, experience, and competence;',
+          'Documented plans, response and recovery procedures are developed and approved, detailing how the organization will manage a disruptive event.':
+            'Documented plans, response and recovery procedures are developed and approved, detailing how the organization will manage a disruptive event.',
+          'The BCP include, at a minimum:': 'The BCP include, at a minimum:',
+          'A risk assessment for critical business processes and operations (Business Impact Analysis);':
+            'A risk assessment for critical business processes and operations (Business Impact Analysis);',
+          'An inventory of critical systems and records, and their dependencies;':
+            'An inventory of critical systems and records, and their dependencies;',
+          'Requirements for ensuring information security throughout the process;':
+            'Requirements for ensuring information security throughout the process;',
+          'Identification of supply chain relationships and the organization’s role to support critical infrastructure;':
+            'Identification of supply chain relationships and the organization’s role to support critical infrastructure;',
+          'Processes to ensure the safety of personnel;':
+            'Processes to ensure the safety of personnel;',
+          'Communication strategies for communications both inside and outside the organization;':
+            'Communication strategies for communications both inside and outside the organization;',
+          'Mitigation strategies and safeguards to reduce impact;':
+            'Mitigation strategies and safeguards to reduce impact;',
+          'Strategies to address and limit the reputational impact from an event':
+            'Strategies to address and limit the reputational impact from an event',
+          'Contingency plans for different types of disruption events;':
+            'Contingency plans for different types of disruption events;',
+          'Protection and availability of plan documentation;':
+            'Protection and availability of plan documentation;',
+          'Procedures for plan tests, review, and updates.':
+            'Procedures for plan tests, review, and updates.',
+          'Disaster recovery Policy': 'Disaster recovery Policy',
+          'Disaster Recovery focuses on restoring the technology systems that support both critical and day-to-day business operations.':
+            'Disaster Recovery focuses on restoring the technology systems that support both critical and day-to-day business operations.',
+          'Falcon consulting has created and implement a Disaster Recovery Plan (“DRP”) to support business objectives outlined in the (BCP/critical processes identified by a Business Impact Analysis).':
+            'Falcon consulting has created and implement a Disaster Recovery Plan (“DRP”) to support business objectives outlined in the (BCP/critical processes identified by a Business Impact Analysis).',
+          'The DRP must be tested annually, at a minimum.':
+            'The DRP must be tested annually, at a minimum.',
+          'The DRP must be reviewed and updated upon any relevant change to IT Infrastructure, at the conclusion of plan testing, or least annually.':
+            'The DRP must be reviewed and updated upon any relevant change to IT Infrastructure, at the conclusion of plan testing, or least annually.',
+          'The DRP must be communicated and distributed to all relevant internal personnel and executive management.':
+            'The DRP must be communicated and distributed to all relevant internal personnel and executive management.',
+          'The Falcon consulting DRP include at a minimum:':
+            'The Falcon consulting DRP include at a minimum:',
+          'Roles and responsibilities for implementing the disaster recovery plan;':
+            'Roles and responsibilities for implementing the disaster recovery plan;',
+          'List of potential risks to critical systems and sensitive information;':
+            'List of potential risks to critical systems and sensitive information;',
+          'Procedures for reporting disaster events, event escalation, recovery of critical operations, and resumption of normal operations;':
+            'Procedures for reporting disaster events, event escalation, recovery of critical operations, and resumption of normal operations;',
+          'Requirements for ensuring information security throughout the process;':
+            'Requirements for ensuring information security throughout the process;',
+          'An inventory of backups and offsite storage locations;':
+            'An inventory of backups and offsite storage locations;',
+          'Contingency plans for different types of disruption events;':
+            'Contingency plans for different types of disruption events;',
+          'Protection and availability of plan documentation;':
+            'Protection and availability of plan documentation;',
+          'Procedures for plan tests, review, and updates.':
+            'Procedures for plan tests, review, and updates.',
+          Waivers: 'Waivers',
+          'Waivers from certain policy provisions may be sought following the Falcon Consulting Waiver Process.':
+            'Waivers from certain policy provisions may be sought following the Falcon Consulting Waiver Process.',
+          Enforcement: 'Enforcement',
+          'Personnel found to have violated this policy may be subject to disciplinary action, up to and including termination of employment, and related civil or criminal penalties.':
+            'Personnel found to have violated this policy may be subject to disciplinary action, up to and including termination of employment, and related civil or criminal penalties.',
+          'Any vendor, consultant, or contractor found to have violated this policy may be subject to sanctions up to and including removal of access rights, termination of contract(s), and related civil or criminal penalties.':
+            'Any vendor, consultant, or contractor found to have violated this policy may be subject to sanctions up to and including removal of access rights, termination of contract(s), and related civil or criminal penalties.',
+          'Hiring and Termination Policy with Background Checks':
+            'Hiring and Termination Policy with Background Checks',
+          'Hiring policy': 'Hiring policy',
+          OVERVIEW: 'OVERVIEW',
+          "Falcon Consulting believes that hiring qualified personnel to fill positions in the different departments contributes to the company's overall success. Each employee is therefore hired with the objective of making a significant contribution to Falcon Consulting.":
+            "Falcon Consulting believes that hiring qualified personnel to fill positions in the different departments contributes to the company's overall success. Each employee is therefore hired with the objective of making a significant contribution to Falcon Consulting.",
+          PURPOSE: 'PURPOSE',
+          'The hiring policy has been established to ensure Falcon Consulting has the opportunity to attract the best available staff for all vacant positions.':
+            'The hiring policy has been established to ensure Falcon Consulting has the opportunity to attract the best available staff for all vacant positions.',
+          SCOPE: 'SCOPE',
+          'This hiring policy applies to all employees of Falcon Consulting who are involved in the hiring process.':
+            'This hiring policy applies to all employees of Falcon Consulting who are involved in the hiring process.',
+          RESPONSIBILITY: 'RESPONSIBILITY',
+          'It shall be the responsibility of the Human Resources (HR) department to implement this policy and to monitor its performance.':
+            'It shall be the responsibility of the Human Resources (HR) department to implement this policy and to monitor its performance.',
+          'It is the responsibility of Managers and Supervisors to ensure that:':
+            'It is the responsibility of Managers and Supervisors to ensure that:',
+          'Staffing levels for their department are determined and authorized;':
+            'Staffing levels for their department are determined and authorized;',
+          'All roles have current position descriptions that specify role requirements and selection criteria.':
+            'All roles have current position descriptions that specify role requirements and selection criteria.',
+          'It is the responsibility of the HR department to ensure that:':
+            'It is the responsibility of the HR department to ensure that:',
+          'All Managers are aware of their responsibilities in the recruitment and selection process;':
+            'All Managers are aware of their responsibilities in the recruitment and selection process;',
+          'Managers are given continuous support and guidance in regard to recruitment and selection issues.':
+            'Managers are given continuous support and guidance in regard to recruitment and selection issues.',
+          'POLICY AND PROCEDURES': 'POLICY AND PROCEDURES',
+          'In hiring the most qualified candidates for positions, the following process should be followed.':
+            'In hiring the most qualified candidates for positions, the following process should be followed.',
+          'Staff request': 'Staff request',
+          'When a position (newly created or replacement, continuing or term position) needs to be filled or extended, a staff request form must be completed and authorized.':
+            'When a position (newly created or replacement, continuing or term position) needs to be filled or extended, a staff request form must be completed and authorized.',
+          'Requests must be submitted by the supervisor or service manager and forwarded to the HR department:':
+            'Requests must be submitted by the supervisor or service manager and forwarded to the HR department:',
+          'Position title;': 'Position title;',
+          'Hours/shift teams of the position;': 'Hours/shift teams of the position;',
+          'The exempt or non-exempt status of the position;':
+            'The exempt or non-exempt status of the position;',
+          'Reason for the opening;': 'Reason for the opening;',
+          'Duties and essential qualifications of the position (or a current position description may be attached);':
+            'Duties and essential qualifications of the position (or a current position description may be attached);',
+          'Any special instructions relating to advertising on recruitment.':
+            'Any special instructions relating to advertising on recruitment.',
+          'Job description': 'Job description',
+          'A job description describes the areas of responsibility and accountability within a department. When a position is vacant, it is appropriate to review and, if necessary, update the job description and task description to ensure that it is up to date. Professional qualifications should also be reviewed. The HR department can assist in updating work descriptions.':
+            'A job description describes the areas of responsibility and accountability within a department. When a position is vacant, it is appropriate to review and, if necessary, update the job description and task description to ensure that it is up to date. Professional qualifications should also be reviewed. The HR department can assist in updating work descriptions.',
+          'New or modified positions will be evaluated by the HR department in order to determine a salary range corresponding to the underlying responsibilities.':
+            'New or modified positions will be evaluated by the HR department in order to determine a salary range corresponding to the underlying responsibilities.',
+          Meetings: 'Meetings',
+          'HR will arrange a meeting with the hiring manager before posting a job offer. The objective of this meeting is to learn more about the position, requirements and profile of the ideal candidate. The recruitment strategy will be defined during this meeting and expectations will be established with all stakeholders.':
+            'HR will arrange a meeting with the hiring manager before posting a job offer. The objective of this meeting is to learn more about the position, requirements and profile of the ideal candidate. The recruitment strategy will be defined during this meeting and expectations will be established with all stakeholders.',
+          'Job postings': 'Job postings',
+          "Once the position is approved and the job description is finalized (if applicable), the HR department will prepare the job posting. HR will create job postings that briefly describe the job opening and communicate Falcon Consulting's brand.":
+            "Once the position is approved and the job description is finalized (if applicable), the HR department will prepare the job posting. HR will create job postings that briefly describe the job opening and communicate Falcon Consulting's brand.",
+          'The job posting will be prepared based on the job description and any special requirements detailed on the staff request. It may also include preferred qualifications that may enhance performance in the position. These would be considered in the event that two candidates are considered relatively equal.':
+            'The job posting will be prepared based on the job description and any special requirements detailed on the staff request. It may also include preferred qualifications that may enhance performance in the position. These would be considered in the event that two candidates are considered relatively equal.',
+          "All job openings will be posted concurrently on Falcon Consulting's intranet and externally with sources appropriate for the position being filled. Jobs will remain posted until the position is filled.":
+            "All job openings will be posted concurrently on Falcon Consulting's intranet and externally with sources appropriate for the position being filled. Jobs will remain posted until the position is filled.",
+          'All qualified candidates are encouraged to apply for positions. As the company strives to be an equal opportunity employer, all employment postings will encourage applications from qualified Aboriginal People, or other persons from a visible minority group, persons with disabilities and women. Applicants who self-identify in their cover letter will be given special consideration.':
+            'All qualified candidates are encouraged to apply for positions. As the company strives to be an equal opportunity employer, all employment postings will encourage applications from qualified Aboriginal People, or other persons from a visible minority group, persons with disabilities and women. Applicants who self-identify in their cover letter will be given special consideration.',
+          'The HR department will be responsible for tracking all applicants and retaining applications and resumes as required.':
+            'The HR department will be responsible for tracking all applicants and retaining applications and resumes as required.',
+          'Termination Policy': 'Termination Policy',
+          Purpose: 'Purpose',
+          'Falcon Consulting ensures that employee terminations, including voluntary and involuntary terminations and terminations due to the death of an employee, are handled in a professional manner with minimal disruption to the workplace.':
+            'Falcon Consulting ensures that employee terminations, including voluntary and involuntary terminations and terminations due to the death of an employee, are handled in a professional manner with minimal disruption to the workplace.',
+          'At-Will Employment': 'At-Will Employment',
+          'Employment with Falcon Consulting is voluntary and subject to termination by the employee or Falcon Consulting at will, with or without cause, and with or without notice, at any time. Nothing in these policies shall be interpreted to be in conflict with or to eliminate or modify in any way the employment-at-will status of Falcon Consulting employees.':
+            'Employment with Falcon Consulting is voluntary and subject to termination by the employee or Falcon Consulting at will, with or without cause, and with or without notice, at any time. Nothing in these policies shall be interpreted to be in conflict with or to eliminate or modify in any way the employment-at-will status of Falcon Consulting employees.',
+          'Voluntary Terminations': 'Voluntary Terminations',
+          'A voluntary termination of employment occurs when an employee submits a written or verbal notice of resignation to his or her supervisor.':
+            'A voluntary termination of employment occurs when an employee submits a written or verbal notice of resignation to his or her supervisor.',
+          Procedures: 'Procedures',
+          "Employees are requested to provide a minimum of three weeks' notice of their intention to separate from the company to allow a reasonable amount of time to transfer ongoing workloads. The employee should provide a written resignation notification to his or her manager.":
+            "Employees are requested to provide a minimum of three weeks' notice of their intention to separate from the company to allow a reasonable amount of time to transfer ongoing workloads. The employee should provide a written resignation notification to his or her manager.",
+          "Upon receipt of an employee's resignation, the manager will notify the human resource (HR) department by sending a copy of the resignation letter and any other pertinent information (i.e., employee's reason for leaving, last day of work).":
+            "Upon receipt of an employee's resignation, the manager will notify the human resource (HR) department by sending a copy of the resignation letter and any other pertinent information (i.e., employee's reason for leaving, last day of work).",
+          "The HR department will coordinate the employee's out-processing. This process will include the employee's returning all company property (computers, documentation, keys, etc.); a review of the employee's post termination benefits status; and the employee's completion of an exit interview.":
+            "The HR department will coordinate the employee's out-processing. This process will include the employee's returning all company property (computers, documentation, keys, etc.); a review of the employee's post termination benefits status; and the employee's completion of an exit interview.",
+          "The employee's manager will complete a Supervisory Termination Summary and deliver the completed form to HR.":
+            "The employee's manager will complete a Supervisory Termination Summary and deliver the completed form to HR.",
+          'Employees who possess a security clearance (security codes to the building, computer passwords, etc.) must meet with administration for a debriefing no later than their last day of employment.':
+            'Employees who possess a security clearance (security codes to the building, computer passwords, etc.) must meet with administration for a debriefing no later than their last day of employment.',
+          'Involuntary Terminations': 'Involuntary Terminations',
+          'An involuntary termination of employment, including layoffs of over 30 days, is a  management-initiated dismissal with or without cause. The inability of an employee to perform the essential functions of his or her job with or without a reasonable accommodation may also result in an involuntary termination. An employee may also be discharged for any legal reason, including but not limited to: misconduct, tardiness, absenteeism, unsatisfactory performance or inability to perform.':
+            'An involuntary termination of employment, including layoffs of over 30 days, is a  management-initiated dismissal with or without cause. The inability of an employee to perform the essential functions of his or her job with or without a reasonable accommodation may also result in an involuntary termination. An employee may also be discharged for any legal reason, including but not limited to: misconduct, tardiness, absenteeism, unsatisfactory performance or inability to perform.',
+          Procedures: 'Procedures',
+          "Before any action is taken to involuntarily discharge an employee, the employee's manager must request a review by HR and the employee's immediate supervisor.":
+            "Before any action is taken to involuntarily discharge an employee, the employee's manager must request a review by HR and the employee's immediate supervisor.",
+          "The termination review staff will be responsible for reviewing the circumstances and determining if discharge is warranted. If the staff recommends discharge, the employee's manager and an HR representative will notify the employee. The employee's manager should complete an Employee Change Form and notify HR and payroll of the last day worked by the employee.":
+            "The termination review staff will be responsible for reviewing the circumstances and determining if discharge is warranted. If the staff recommends discharge, the employee's manager and an HR representative will notify the employee. The employee's manager should complete an Employee Change Form and notify HR and payroll of the last day worked by the employee.",
+          'Death of an Employee': 'Death of an Employee',
+          'A termination due to the death of an employee will be made effective as of the date of death.':
+            'A termination due to the death of an employee will be made effective as of the date of death.',
+          "Upon receiving notification of the death of an employee, the employee's manager should immediately notify HR.":
+            "Upon receiving notification of the death of an employee, the employee's manager should immediately notify HR.",
+          'The benefits administrator will process all appropriate beneficiary payments from the various benefits plans.':
+            'The benefits administrator will process all appropriate beneficiary payments from the various benefits plans.',
+          "The employee's manager should ensure that the payroll office receives the deceased employee's timecard.":
+            "The employee's manager should ensure that the payroll office receives the deceased employee's timecard.",
+          'Final Pay': 'Final Pay',
+          "An employee who resigns or is discharged will be paid through the last day of work, plus any unused paid time off (PTO), less outstanding loans, advances or other agreements the employee may have with the company, in compliance with state laws. In cases of an employee's death, the final pay due to that employee will be paid to the deceased employee's estate or as otherwise required under state law.":
+            "An employee who resigns or is discharged will be paid through the last day of work, plus any unused paid time off (PTO), less outstanding loans, advances or other agreements the employee may have with the company, in compliance with state laws. In cases of an employee's death, the final pay due to that employee will be paid to the deceased employee's estate or as otherwise required under state law.",
+          'Hiring and Termination Policy with Background Checks':
+            'Hiring and Termination Policy with Background Checks',
+          'The purpose of this policy is to provide guidance that limits the use of encryption to those algorithms that have received substantial public review and have been proven to work effectively. Additionally, this policy provides direction to ensure that Federal regulations are followed, and legal authority is granted for the dissemination and use of encryption technologies outside of the United States.':
+            'The purpose of this policy is to provide guidance that limits the use of encryption to those algorithms that have received substantial public review and have been proven to work effectively. Additionally, this policy provides direction to ensure that Federal regulations are followed, and legal authority is granted for the dissemination and use of encryption technologies outside of the United States.',
+          Policy: 'Policy',
+          'Algorithm Requirements': 'Algorithm Requirements',
+          'Ciphers in use must meet or exceed the set defined as "AES-compatible" or "partially AES-compatible" according to the':
+            'Ciphers in use must meet or exceed the set defined as "AES-compatible" or "partially AES-compatible" according to the',
+          'IETF/IRTF Cipher Catalog,': 'IETF/IRTF Cipher Catalog,',
+          'or the set defined for use in the United States':
+            'or the set defined for use in the United States',
+          'National Institute of Standards and Technology (NIST) publication FIPS 140-2,':
+            'National Institute of Standards and Technology (NIST) publication FIPS 140-2,',
+          'or any superseding documents according to the date of implementation. The use of the Advanced Encryption Standard (AES) is strongly recommended for symmetric encryption.':
+            'or any superseding documents according to the date of implementation. The use of the Advanced Encryption Standard (AES) is strongly recommended for symmetric encryption.',
+          'Algorithms in use must meet the standards defined for use in NIST publication FIPS 140-2 or any superseding document, according to date of implementation. The use of the RSA and Elliptic Curve Cryptography (ECC) algorithms is strongly recommended for asymmetric encryption.':
+            'Algorithms in use must meet the standards defined for use in NIST publication FIPS 140-2 or any superseding document, according to date of implementation. The use of the RSA and Elliptic Curve Cryptography (ECC) algorithms is strongly recommended for asymmetric encryption.',
+          'Signature Algorithms': 'Signature Algorithms',
+          Algorithm: 'Algorithm',
+          'Key Length (min)': 'Key Length (min)',
+          'Additional Comment': 'Additional Comment',
+          'Consider RFC6090 to avoid': 'Consider RFC6090 to avoid',
+          'patent infringement.': 'patent infringement.',
+          'Use a secure padding scheme.': 'Use a secure padding scheme.',
+          'PKCS#7 padding scheme is': 'PKCS#7 padding scheme is',
+          'recommended. Message hashing': 'recommended. Message hashing',
+          'required.': 'required.',
+          'Refer to LDWM Hash-based': 'Refer to LDWM Hash-based',
+          'Signatures Draft': 'Signatures Draft',
+          Summary: 'Summary',
+          'To maintain the trust of our employees, customers, and partners and meet regulatory requirements, it is essential that we do everything we can to protect confidential information and systems in the face of a cyberattack. The better prepared we are to respond to a potential cyberattack, the faster we can eradicate any threat and reduce the impact on our business':
+            'To maintain the trust of our employees, customers, and partners and meet regulatory requirements, it is essential that we do everything we can to protect confidential information and systems in the face of a cyberattack. The better prepared we are to respond to a potential cyberattack, the faster we can eradicate any threat and reduce the impact on our business',
+          'This document describes the plan for responding to information security incidents at Falcon Consulting. This document will explain how to detect and react to cybersecurity incidents and data breaches, determine their scope and risk, respond appropriately and quickly, and communicate the results and risks to all stakeholders':
+            'This document describes the plan for responding to information security incidents at Falcon Consulting. This document will explain how to detect and react to cybersecurity incidents and data breaches, determine their scope and risk, respond appropriately and quickly, and communicate the results and risks to all stakeholders',
+          'The effective incident response involves every part of our organization, including IT teams, legal, technical support, human resources, corporate communications, and business operations. It is important that you read and understand your role as well as the ways you will coordinate with others.':
+            'The effective incident response involves every part of our organization, including IT teams, legal, technical support, human resources, corporate communications, and business operations. It is important that you read and understand your role as well as the ways you will coordinate with others.',
+          'This plan will be updated to reflect organizational changes, new technologies, and new compliance requirements that inform our cybersecurity strategy. We will conduct regular testing of this plan to ensure everyone is fully trained to participate in effective incident response.':
+            'This plan will be updated to reflect organizational changes, new technologies, and new compliance requirements that inform our cybersecurity strategy. We will conduct regular testing of this plan to ensure everyone is fully trained to participate in effective incident response.',
+          'Roles, Responsibilities & Contact Information':
+            'Roles, Responsibilities & Contact Information',
+          'This Security Incident Response Plan must be followed by all personnel, including all  employees, temporary staff, consultants, contractors, suppliers, and third parties operating on behalf of Falcon Consulting. All personnel are referred to as ‘staff’ within this plan.':
+            'This Security Incident Response Plan must be followed by all personnel, including all  employees, temporary staff, consultants, contractors, suppliers, and third parties operating on behalf of Falcon Consulting. All personnel are referred to as ‘staff’ within this plan.',
+          'Below are details about the roles and responsibilities of each member of [Company Name] to prevent and respond to a workplace incident. It is not an exhaustive list of duties but is designed to give each employee a general understanding of their role and the roles of other employees in incident response and prevention.':
+            'Below are details about the roles and responsibilities of each member of [Company Name] to prevent and respond to a workplace incident. It is not an exhaustive list of duties but is designed to give each employee a general understanding of their role and the roles of other employees in incident response and prevention.',
+          'The Incident Response Lead is responsible for:':
+            'The Incident Response Lead is responsible for:',
+          'Making sure that the Security Incident Response Plan and associated response and escalation procedures are defined and documented. This is to ensure that the handling of security incidents is timely and effective.':
+            'Making sure that the Security Incident Response Plan and associated response and escalation procedures are defined and documented. This is to ensure that the handling of security incidents is timely and effective.',
+          'Making sure that the Security Incident Response Plan is current, reviewed, and tested at least once each year.':
+            'Making sure that the Security Incident Response Plan is current, reviewed, and tested at least once each year.',
+          'Making sure that staff with Security Incident Response Plan responsibilities are properly trained at least once each year.':
+            'Making sure that staff with Security Incident Response Plan responsibilities are properly trained at least once each year.',
+          'Leading the investigation of a suspected breach or reported security incident and initiating the Security Incident Response Plan when needed.':
+            'Leading the investigation of a suspected breach or reported security incident and initiating the Security Incident Response Plan when needed.',
+          'Reporting to and liaising with external parties, including pertinent business partners, legal representation, law enforcement, etc., as required.':
+            'Reporting to and liaising with external parties, including pertinent business partners, legal representation, law enforcement, etc., as required.',
+          'Authorizing on-site investigations by appropriate law enforcement or third-party security/forensic personnel, as required during any security incident investigation. This includes authorizing access to/removal of evidence from the site.':
+            'Authorizing on-site investigations by appropriate law enforcement or third-party security/forensic personnel, as required during any security incident investigation. This includes authorizing access to/removal of evidence from the site.',
+          'Security Incident Response Team (SIRT) members are responsible for:':
+            'Security Incident Response Team (SIRT) members are responsible for:',
+          'Making sure that all staff understands how to identify and report a suspected or actual security incident.':
+            'Making sure that all staff understands how to identify and report a suspected or actual security incident.',
+          'Advising the Incident Response Lead of an incident when they receive a security incident report from staff.':
+            'Advising the Incident Response Lead of an incident when they receive a security incident report from staff.',
+          'Investigating and documenting each reported incident.':
+            'Investigating and documenting each reported incident.',
+          'Taking action to limit the exposure of sensitive data and to reduce the risks that may be associated with any incident.':
+            'Taking action to limit the exposure of sensitive data and to reduce the risks that may be associated with any incident.',
+          'Gathering, reviewing, and analysing logs and related information from various central and local safeguards, security measures, and controls.':
+            'Gathering, reviewing, and analysing logs and related information from various central and local safeguards, security measures, and controls.',
+          'Documenting and maintaining accurate and detailed records of the incident and all activities that were undertaken in response to an incident.':
+            'Documenting and maintaining accurate and detailed records of the incident and all activities that were undertaken in response to an incident.',
+          'Assisting law enforcement during the investigation processes. This includes any forensic investigations and prosecutions.':
+            'Assisting law enforcement during the investigation processes. This includes any forensic investigations and prosecutions.',
+          'Initiating follow-up actions to reduce the likelihood of recurrence, as appropriate.':
+            'Initiating follow-up actions to reduce the likelihood of recurrence, as appropriate.',
+          'Determining if policies, processes, technologies, security measures, or controls need to be updated to avoid a similar incident in the future. They also need to consider whether additional safeguards are required in the environment where the incident occurred.':
+            'Determining if policies, processes, technologies, security measures, or controls need to be updated to avoid a similar incident in the future. They also need to consider whether additional safeguards are required in the environment where the incident occurred.',
+          'All staff members are responsible for:': 'All staff members are responsible for:',
+          'Making sure they understand how to identify and report a suspected or actual security incident.':
+            'Making sure they understand how to identify and report a suspected or actual security incident.',
+          'Reporting a suspected or actual security incident to the Incident Response Lead (preferable) or to another member of the Security Incident Response Team (SIRT).':
+            'Reporting a suspected or actual security incident to the Incident Response Lead (preferable) or to another member of the Security Incident Response Team (SIRT).',
+          'Reporting any security-related issues or concerns to line management, or to a member of the SIRT.':
+            'Reporting any security-related issues or concerns to line management, or to a member of the SIRT.',
+          'Complying with the security policies and procedures of Falcon Consulting.':
+            'Complying with the security policies and procedures of Falcon Consulting.',
+          'Security Awareness Training Program': 'Security Awareness Training Program',
+          'Security and privacy awareness and training is an important aspect in protecting the Confidentiality, Integrity, and Availability (CIA) of sensitive information. Employees are the first line of defense and must be made aware of the security risks associated with the work performed at Falcon Consulting.':
+            'Security and privacy awareness and training is an important aspect in protecting the Confidentiality, Integrity, and Availability (CIA) of sensitive information. Employees are the first line of defense and must be made aware of the security risks associated with the work performed at Falcon Consulting.',
+          'Falcon Consulting understands that people are often the biggest threat (intentionally or inadvertently) to the security of sensitive information. As such, all users of information systems must be made aware of the security risks associated with their activities and of the applicable federal and agency requirements related to the security of Strategic information systems performing work on behalf of the Centers for Medicare and Medicaid Services (CMS). Those with significant security responsibilities must be adequately trained to carry out their assigned information security-related duties and responsibilities.':
+            'Falcon Consulting understands that people are often the biggest threat (intentionally or inadvertently) to the security of sensitive information. As such, all users of information systems must be made aware of the security risks associated with their activities and of the applicable federal and agency requirements related to the security of Strategic information systems performing work on behalf of the Centers for Medicare and Medicaid Services (CMS). Those with significant security responsibilities must be adequately trained to carry out their assigned information security-related duties and responsibilities.',
+          'All employees, contractors, and anyone accessing Falcon Consulting information systems must understand how to protect the CIA of information and information systems.':
+            'All employees, contractors, and anyone accessing Falcon Consulting information systems must understand how to protect the CIA of information and information systems.',
+          'Falcon Consulting will ensure that all employees and contractors are given security and privacy awareness training during the new hire process and before accessing any Falcon Consulting systems. This training reflects common security and privacy awareness specific to [Company’s] environment including, but not limited to, physical access, restricted areas, potential incidents, how to report incidents, laptop best practices, and how to spot a phishing scam.':
+            'Falcon Consulting will ensure that all employees and contractors are given security and privacy awareness training during the new hire process and before accessing any Falcon Consulting systems. This training reflects common security and privacy awareness specific to [Company’s] environment including, but not limited to, physical access, restricted areas, potential incidents, how to report incidents, laptop best practices, and how to spot a phishing scam.',
+          'In addition to the initial security training provided in the new hire orientation, all employees must take a security and privacy awareness course and pass the posttest within 30 days of hire. This course and test is provided and tracked by the Learning Management System (LMS).':
+            'In addition to the initial security training provided in the new hire orientation, all employees must take a security and privacy awareness course and pass the posttest within 30 days of hire. This course and test is provided and tracked by the Learning Management System (LMS).',
+          'Falcon Consulting will provide ongoing training through the Security and Privacy Awareness and Training (SPAT) Team activities. The SPAT provides information on a monthly basis on selected topics. An initial SPAT Chat presentation is conducted at the beginning of the month to give information, demonstrations, and general Q&A for all attendees. The SPAT also provides information via posters in designated areas throughout the facility and weekly articles posted on the internal intranet page.':
+            'Falcon Consulting will provide ongoing training through the Security and Privacy Awareness and Training (SPAT) Team activities. The SPAT provides information on a monthly basis on selected topics. An initial SPAT Chat presentation is conducted at the beginning of the month to give information, demonstrations, and general Q&A for all attendees. The SPAT also provides information via posters in designated areas throughout the facility and weekly articles posted on the internal intranet page.',
+          'Falcon Consulting will also conduct annual refresher training for all employees and anytime there are significant changes to the environment. This will be administered via the LMS and tracked for completeness and passing grade to show adequate understanding of the material.':
+            'Falcon Consulting will also conduct annual refresher training for all employees and anytime there are significant changes to the environment. This will be administered via the LMS and tracked for completeness and passing grade to show adequate understanding of the material.',
+          'This policy will be reviewed on an annual basis or whenever there are significant changes to the environment.':
+            'This policy will be reviewed on an annual basis or whenever there are significant changes to the environment.',
+          'Management Commitment': 'Management Commitment',
+          'Falcon Consulting Senior Management will commit to the development of a security and privacy awareness program allocating staff and resources. The Information Security Manager will have access to both the compliance and training departments for completion and update of training materials and tracking results.':
+            'Falcon Consulting Senior Management will commit to the development of a security and privacy awareness program allocating staff and resources. The Information Security Manager will have access to both the compliance and training departments for completion and update of training materials and tracking results.',
+          'Roles and Responsibilities': 'Roles and Responsibilities',
+          'All employees and contractors are responsible for understanding and following all security related policies and procedures, and asking their manager or Security Officer for clarification if needed.':
+            'All employees and contractors are responsible for understanding and following all security related policies and procedures, and asking their manager or Security Officer for clarification if needed.',
+          'Managers are responsible for ensuring all employees complete required security training.':
+            'Managers are responsible for ensuring all employees complete required security training.',
+          'The LMS Administrator is responsible for enrolling all employees in first-time and annual security training and tracking results.':
+            'The LMS Administrator is responsible for enrolling all employees in first-time and annual security training and tracking results.',
+          'The Security Manager is responsible for:': 'The Security Manager is responsible for:',
+          'Maintaining ongoing SPAT team activities': 'Maintaining ongoing SPAT team activities',
+          'Updating annual security training materials':
+            'Updating annual security training materials',
+          'Conducting new hire training': 'Conducting new hire training',
+          'Ensuring all employees understand and following security related policies and procedures':
+            'Ensuring all employees understand and following security related policies and procedures',
+          'Coordination Among Organizational Entities':
+            'Coordination Among Organizational Entities',
+          'Security is everybody’s business. As security tends to cross departmental and organizational boundaries, Falcon Consulting employees and contractors will work together to ensure that required security controls are in place, are maintained, and comply with the policy described in this document. Security concerns, security incidents, or suspected/confirmed vulnerabilities will be shared with appropriate personnel in the organization so that the vulnerability can be remediated (or mitigated with compensating security controls) and we can ensure that similar vulnerabilities in other systems or processes can be addressed.':
+            'Security is everybody’s business. As security tends to cross departmental and organizational boundaries, Falcon Consulting employees and contractors will work together to ensure that required security controls are in place, are maintained, and comply with the policy described in this document. Security concerns, security incidents, or suspected/confirmed vulnerabilities will be shared with appropriate personnel in the organization so that the vulnerability can be remediated (or mitigated with compensating security controls) and we can ensure that similar vulnerabilities in other systems or processes can be addressed.',
+          Compliance: 'Compliance',
+          'Compliance with the policy defined in this document is mandatory. Failure to comply with Falcon Consulting Information Security Policies may result in disciplinary actions up to and including termination of employment. Employees may also be held personally liable for any violations of this policy. Failure to comply with Falcon Consulting Information Security Policies may result in termination of contracts for contractors, partners, consultants, and other entities. Legal actions may also be taken for violations of applicable regulations and laws. Systems that do not satisfy Falcon Consulting Information Security Policy requirements may be prevented from being allowed to operate as a production system.':
+            'Compliance with the policy defined in this document is mandatory. Failure to comply with Falcon Consulting Information Security Policies may result in disciplinary actions up to and including termination of employment. Employees may also be held personally liable for any violations of this policy. Failure to comply with Falcon Consulting Information Security Policies may result in termination of contracts for contractors, partners, consultants, and other entities. Legal actions may also be taken for violations of applicable regulations and laws. Systems that do not satisfy Falcon Consulting Information Security Policy requirements may be prevented from being allowed to operate as a production system.',
+          References: 'References',
+          'This policy establishes mandatory requirements and assigns roles and responsibilities to facilitate the implementation of the Falcon Consulting Security Awareness and Training Policy. The policy contains formal, documented policy statements and language designed to facilitate and guide the implementation of the policy, procedures, and controls. Formal, documented security procedures exist as separate documents titled AT-1 through AT-4. This policy is consistent with the following guidance:':
+            'This policy establishes mandatory requirements and assigns roles and responsibilities to facilitate the implementation of the Falcon Consulting Security Awareness and Training Policy. The policy contains formal, documented policy statements and language designed to facilitate and guide the implementation of the policy, procedures, and controls. Formal, documented security procedures exist as separate documents titled AT-1 through AT-4. This policy is consistent with the following guidance:',
+          'C.F.R. Part 5 Subpart C (5 C.F.R 930.301)': 'C.F.R. Part 5 Subpart C (5 C.F.R 930.301)',
+          'NIST SP 800-12 Introduction to Computer Security: The NIST Handbook':
+            'NIST SP 800-12 Introduction to Computer Security: The NIST Handbook',
+          'NIST SP 800-16 Information Security Training Requirements: A Role- and Performance-Based Model':
+            'NIST SP 800-16 Information Security Training Requirements: A Role- and Performance-Based Model',
+          'NIST SP 800-37 Rev. 1 Guide for Applying the Risk Management Framework to Federal Information Systems: A Security Life Cycle Approach':
+            'NIST SP 800-37 Rev. 1 Guide for Applying the Risk Management Framework to Federal Information Systems: A Security Life Cycle Approach',
+          'NIST SP 800-50 Building an Information Technology Security Awareness and Training Program':
+            'NIST SP 800-50 Building an Information Technology Security Awareness and Training Program',
+          'NIST SP 800-100 Information Security Handbook: A Guide for Managers':
+            'NIST SP 800-100 Information Security Handbook: A Guide for Managers',
+          'Security Awareness (AT-2)': 'Security Awareness (AT-2)',
+          'Falcon Consulting requires that all users complete a security awareness and training course (or courses as applicable) prior to being granted access to Falcon Consulting corporate or client systems. Users are provided basic security awareness training as part of initial training for new users, as well as when required by system changes. All users must take refresher training at least annually. Employees or contractors shall acknowledge having received the security awareness training either in writing or electronically as part of the training course completion (the current process involves sending copies of course completion certificates to the Falcon Consulting CISO). The Falcon Consulting CISO maintains and stores completed security awareness and training evidence artifacts (certificates) for users. Security awareness and training course completion artifacts (certificates) will be provided to the Agency ISSO or Security Steward upon request.':
+            'Falcon Consulting requires that all users complete a security awareness and training course (or courses as applicable) prior to being granted access to Falcon Consulting corporate or client systems. Users are provided basic security awareness training as part of initial training for new users, as well as when required by system changes. All users must take refresher training at least annually. Employees or contractors shall acknowledge having received the security awareness training either in writing or electronically as part of the training course completion (the current process involves sending copies of course completion certificates to the Falcon Consulting CISO). The Falcon Consulting CISO maintains and stores completed security awareness and training evidence artifacts (certificates) for users. Security awareness and training course completion artifacts (certificates) will be provided to the Agency ISSO or Security Steward upon request.',
+          'Security Training (AT-3)': 'Security Training (AT-3)',
+          'Falcon Consulting must provide role-based, security-related training before authorizing access to the system or performing assigned duties, as well as when required by a system change or changes in personnel roles.':
+            'Falcon Consulting must provide role-based, security-related training before authorizing access to the system or performing assigned duties, as well as when required by a system change or changes in personnel roles.',
+          'Falcon Consulting must provide security training materials that address the procedures and activities necessary to fulfill the defined roles and responsibilities for information system security. Falcon Consulting must provide role-based security-related training to all appropriate personnel at least once every three years. Appropriate personnel include but is not limited to System Administrators, Database Administrators, Network Engineers, Security Analysts, and the CISO. The employee or consultant shall acknowledge having received the role-based training either in writing or electronically as part of the training course completion.':
+            'Falcon Consulting must provide security training materials that address the procedures and activities necessary to fulfill the defined roles and responsibilities for information system security. Falcon Consulting must provide role-based security-related training to all appropriate personnel at least once every three years. Appropriate personnel include but is not limited to System Administrators, Database Administrators, Network Engineers, Security Analysts, and the CISO. The employee or consultant shall acknowledge having received the role-based training either in writing or electronically as part of the training course completion.',
+          'Security Training Records (AT-4)': 'Security Training Records (AT-4)',
+          'Falcon Consulting must create and disseminate to users the security training documents. The Falcon Consulting CISO must ensure activities for monitoring and documenting basic security awareness training, as well as role-based training, are conducted. Employees and contractors must provide evidence of successful course completion (certificates) to the Falcon Consulting CISO. All security training records must be stored for at least 5 years.':
+            'Falcon Consulting must create and disseminate to users the security training documents. The Falcon Consulting CISO must ensure activities for monitoring and documenting basic security awareness training, as well as role-based training, are conducted. Employees and contractors must provide evidence of successful course completion (certificates) to the Falcon Consulting CISO. All security training records must be stored for at least 5 years.',
+          'Third party/Vendor management': 'Third party/Vendor management',
+          'Identify Risk:': 'Identify Risk:',
+          'Falcon Consulting helps deliver access to the latest public, proprietary and self-reported information. This enables clients to identify and classify a variety of risk factors, including cyber, privacy, information security, bribery, corruption, financial crime and reputational and operational concerns.':
+            'Falcon Consulting helps deliver access to the latest public, proprietary and self-reported information. This enables clients to identify and classify a variety of risk factors, including cyber, privacy, information security, bribery, corruption, financial crime and reputational and operational concerns.',
+          'Evaluate Third party risk management': 'Evaluate Third party risk management',
+          'Falcon Consulting provide due diligence and investigation services in more than 240 countries and 100 languages. We offer off-the-shelf and customized services for clients to evaluate, segment and understand both the risk landscape and quality controls in place at the local, country, regional and global level.':
+            'Falcon Consulting provide due diligence and investigation services in more than 240 countries and 100 languages. We offer off-the-shelf and customized services for clients to evaluate, segment and understand both the risk landscape and quality controls in place at the local, country, regional and global level.',
+          'Monitor Risk': 'Monitor Risk',
+          'Falcon Consulting help clients understand and implement tactical and strategic methods of managing and mitigating third-party risks. These methods include continuous or periodic monitoring, threat monitoring, and alert management processes to make the job of staying on top of risk easier to implement at a lower overall cost.':
+            'Falcon Consulting help clients understand and implement tactical and strategic methods of managing and mitigating third-party risks. These methods include continuous or periodic monitoring, threat monitoring, and alert management processes to make the job of staying on top of risk easier to implement at a lower overall cost.',
+          'Innovate third-party risk management': 'Innovate third-party risk management',
+          'Falcon Consulting leverage advanced analytics, robotic process automation, advanced workflow, and machine learning to simplify and streamline everyday tasks when implementing and managing effective third-party risk management programs.':
+            'Falcon Consulting leverage advanced analytics, robotic process automation, advanced workflow, and machine learning to simplify and streamline everyday tasks when implementing and managing effective third-party risk management programs.',
+          'Enable third-party risk management': 'Enable third-party risk management',
+          'Falcon Consulting help deliver a range of services that help clients improve their operational risk management. These services include helping clients design risk frameworks, manage governance and model data. We can also provide clients with an outsourced managed service.':
+            'Falcon Consulting help deliver a range of services that help clients improve their operational risk management. These services include helping clients design risk frameworks, manage governance and model data. We can also provide clients with an outsourced managed service.',
+          'System backup policy and program': 'System backup policy and program',
+          'The purpose of this policy is to provide means to:':
+            'The purpose of this policy is to provide means to:',
+          'restore the integrity of the computer systems in the event of a hardware/software failure or physical disaster; and':
+            'restore the integrity of the computer systems in the event of a hardware/software failure or physical disaster; and',
+          'provide a measure of protection against human error or the inadvertent deletion of important files.':
+            'provide a measure of protection against human error or the inadvertent deletion of important files.',
+          Scope: 'Scope',
+          Employees: 'Employees',
+          'This policy applies to all Employees, Contractors, and Third Party Employees, who have access to IT assets of FALCON CONSULTING and may be bound by contractual agreements.':
+            'This policy applies to all Employees, Contractors, and Third Party Employees, who have access to IT assets of FALCON CONSULTING and may be bound by contractual agreements.',
+          'IT Assets': 'IT Assets',
+          'This policy applies to the entire IT infrastructure of FALCON CONSULTING.':
+            'This policy applies to the entire IT infrastructure of FALCON CONSULTING.',
+          Documentation: 'Documentation',
+          'The Policy documentation shall consist of Backup Policy and related procedures and guidelines.':
+            'The Policy documentation shall consist of Backup Policy and related procedures and guidelines.',
+          'Document Control': 'Document Control',
+          'The Backup Policy document and all other referenced documents shall be controlled. Version control shall be used to preserve the latest release and the previous version of any document. However, the previous version of the documents shall be retained only for a period of two years for legal and knowledge preservation purposes.':
+            'The Backup Policy document and all other referenced documents shall be controlled. Version control shall be used to preserve the latest release and the previous version of any document. However, the previous version of the documents shall be retained only for a period of two years for legal and knowledge preservation purposes.',
+          'Records being generated as part of the Backup Policy shall be retained for a period of two years. Records shall be in hard copy or electronic media. The records shall be owned by the respective system administrators and shall be audited once a year.':
+            'Records being generated as part of the Backup Policy shall be retained for a period of two years. Records shall be in hard copy or electronic media. The records shall be owned by the respective system administrators and shall be audited once a year.',
+          'Distribution and Maintenance': 'Distribution and Maintenance',
+          'The Backup Policy document shall be made available to all the employees covered in the scope. All the changes and new releases of this document shall be made available to the persons concerned. The maintenance responsibility of the document shall be with the CISO and system administrators':
+            'The Backup Policy document shall be made available to all the employees covered in the scope. All the changes and new releases of this document shall be made available to the persons concerned. The maintenance responsibility of the document shall be with the CISO and system administrators',
+          'The Backup Policy document shall be considered as “confidential” and shall be made available to the concerned persons with proper access control. Subsequent changes and versions of this document shall be controlled.':
+            'The Backup Policy document shall be considered as “confidential” and shall be made available to the concerned persons with proper access control. Subsequent changes and versions of this document shall be controlled.',
+          Responsibility: 'Responsibility',
+          'The CISO / designated personnel are responsible for proper implementation of the Policy.':
+            'The CISO / designated personnel are responsible for proper implementation of the Policy.',
+          'All user-level and system-level information maintained by FALCON CONSULTING shall be backed up periodically. The backup media shall be stored with sufficient protection and proper environmental conditions.':
+            'All user-level and system-level information maintained by FALCON CONSULTING shall be backed up periodically. The backup media shall be stored with sufficient protection and proper environmental conditions.',
+          'The frequency and extent of backups must be in accordance with the importance of the information and the acceptable risk as determined by the data owner.':
+            'The frequency and extent of backups must be in accordance with the importance of the information and the acceptable risk as determined by the data owner.',
+          'The Information Resources backup and recovery process for each system must be documented and periodically reviewed.':
+            'The Information Resources backup and recovery process for each system must be documented and periodically reviewed.',
+          'Any vendor(s) providing offsite backup storage must be cleared to handle the highest level of information stored.':
+            'Any vendor(s) providing offsite backup storage must be cleared to handle the highest level of information stored.',
+          'Physical access controls implemented at offsite backup storage locations must meet or exceed the physical access controls of the source systems. Additionally, backup media must be protected in accordance with the highest sensitivity level of information stored.':
+            'Physical access controls implemented at offsite backup storage locations must meet or exceed the physical access controls of the source systems. Additionally, backup media must be protected in accordance with the highest sensitivity level of information stored.',
+          'A process must be implemented to verify the success of the KDCC electronic information backup.':
+            'A process must be implemented to verify the success of the KDCC electronic information backup.',
+          'Backup copies of operating systems and other critical information system software shall not be stored in the same location as the operational software.':
+            'Backup copies of operating systems and other critical information system software shall not be stored in the same location as the operational software.',
+          'The system backup information shall be provided with protection from unauthorized modification and environmental conditions.':
+            'The system backup information shall be provided with protection from unauthorized modification and environmental conditions.',
+          'Backups must be periodically tested to ensure that they are recoverable. To confirm media reliability and information integrity, the back-up information shall be tested at some specified frequency.':
+            'Backups must be periodically tested to ensure that they are recoverable. To confirm media reliability and information integrity, the back-up information shall be tested at some specified frequency.',
+          'Signature cards held by the offsite backup storage vendor(s) for access to backup media must be reviewed annually or when an authorized individual leaves FALCON CONSULTING.':
+            'Signature cards held by the offsite backup storage vendor(s) for access to backup media must be reviewed annually or when an authorized individual leaves FALCON CONSULTING.',
+          'Backup information shall be selectively used to restore information system functions as a part of the business continuity process.':
+            'Backup information shall be selectively used to restore information system functions as a part of the business continuity process.',
+          'Procedures between KDCC and the offsite backup storage vendor(s) must be reviewed at least annually.':
+            'Procedures between KDCC and the offsite backup storage vendor(s) must be reviewed at least annually.',
+          'Backup tapes must have at a minimum the following identifying criteria that can be readily identified by labels and/or a bar-coding system:':
+            'Backup tapes must have at a minimum the following identifying criteria that can be readily identified by labels and/or a bar-coding system:',
+          'a. System name ': 'a. System name ',
+          'b. Creation Date': 'b. Creation Date',
+          'c. Sensitivity Classification [Based on applicable electronic record retention regulations.]':
+            'c. Sensitivity Classification [Based on applicable electronic record retention regulations.]',
+          'd. Contact Information': 'd. Contact Information',
+          'Any employee found to have violated this policy may be subjected to disciplinary action in line with the HR Policy.':
+            'Any employee found to have violated this policy may be subjected to disciplinary action in line with the HR Policy.',
+
+          // Title 2
+          'Business Continuity and Disaster Recovery Policy':
+            'Business Continuity and Disaster Recovery Policy',
+          // Body 2
+          'Business Continuity Plan': 'Business Continuity Plan',
+          'Business Continuity focuses on sustaining The Falcon Consulting’s critical business processes during and after a disruption.':
+            'Business Continuity focuses on sustaining The Falcon Consulting’s critical business processes during and after a disruption.',
+          'Falcon Consulting has created and implemented a Business Continuity Plan (“BCP”).':
+            'Falcon Consulting has created and implemented a Business Continuity Plan (“BCP”).',
+          'The BCP is periodically tested and the results should be shared with executive management.':
+            'The BCP is periodically tested and the results should be shared with executive management.',
+          'The BCP is reviewed and updated upon any relevant change to the organization, at the conclusion of plan testing, or least annually.':
+            'The BCP is reviewed and updated upon any relevant change to the organization, at the conclusion of plan testing, or least annually.',
+          'The BCP is communicated and distributed to all relevant internal personnel and executive management.':
+            'The BCP is communicated and distributed to all relevant internal personnel and executive management.',
+          'Business continuity planning includes:': 'Business continuity planning includes:',
+          'The safety and security of personnel is the first priority;':
+            'The safety and security of personnel is the first priority;',
+          'An adequate management structure is in place to prepare for, mitigate and respond to a disruptive event using personnel with the necessary authority, experience, and competence;':
+            'An adequate management structure is in place to prepare for, mitigate and respond to a disruptive event using personnel with the necessary authority, experience, and competence;',
+          'Documented plans, response and recovery procedures are developed and approved, detailing how the organization will manage a disruptive event.':
+            'Documented plans, response and recovery procedures are developed and approved, detailing how the organization will manage a disruptive event.',
+          'A risk assessment for critical business processes and operations (Business Impact Analysis);':
+            'A risk assessment for critical business processes and operations (Business Impact Analysis);',
+          'An inventory of critical systems and records, and their dependencies;':
+            'An inventory of critical systems and records, and their dependencies;',
+          'Requirements for ensuring information security throughout the process;':
+            'Requirements for ensuring information security throughout the process;',
+          'Identification of supply chain relationships and the organization’s role to support critical infrastructure;':
+            'Identification of supply chain relationships and the organization’s role to support critical infrastructure;',
+          'Processes to ensure the safety of personnel;':
+            'Processes to ensure the safety of personnel;',
+          'Communication strategies for communications both inside and outside the organization;':
+            'Communication strategies for communications both inside and outside the organization;',
+          'Notification policy from Falcon Consulting partners to inform the company in case of disruption of their services which may affect the activities of Falcon Consulting;':
+            'Notification policy from Falcon Consulting partners to inform the company in case of disruption of their services which may affect the activities of Falcon Consulting;',
+          'Mitigation strategies and safeguards to reduce impact;':
+            'Mitigation strategies and safeguards to reduce impact;',
+          'Strategies to address and limit the reputational impact from an event;':
+            'Strategies to address and limit the reputational impact from an event;',
+          'Contingency plans for different types of disruption events;':
+            'Contingency plans for different types of disruption events;',
+          'Protection and availability of plan documentation;':
+            'Protection and availability of plan documentation;',
+          'Procedures for plan tests, review, and updates.':
+            'Procedures for plan tests, review, and updates.',
+          'Disaster recovery Policy': 'Disaster recovery Policy',
+          'Disaster Recovery focuses on restoring the technology systems that support both critical and day-to-day business operations.':
+            'Disaster Recovery focuses on restoring the technology systems that support both critical and day-to-day business operations.',
+          'Falcon consulting has created and implement a Disaster Recovery Plan (“DRP”) to support business objectives outlined in the (BCP/critical processes identified by a Business Impact Analysis).':
+            'Falcon consulting has created and implement a Disaster Recovery Plan (“DRP”) to support business objectives outlined in the (BCP/critical processes identified by a Business Impact Analysis).',
+          'The DRP is tested annually, at a minimum.': 'The DRP is tested annually, at a minimum.',
+          'The DRP is reviewed and updated upon any relevant change to IT Infrastructure, at the conclusion of plan testing, or least annually.':
+            'The DRP is reviewed and updated upon any relevant change to IT Infrastructure, at the conclusion of plan testing, or least annually.',
+          'The DRP is communicated and distributed to all relevant internal personnel and executive management.':
+            'The DRP is communicated and distributed to all relevant internal personnel and executive management.',
+          'The Falcon consulting DRP includes:': 'The Falcon consulting DRP includes:',
+          'Roles and responsibilities for implementing the disaster recovery plan;':
+            'Roles and responsibilities for implementing the disaster recovery plan;',
+          'List of potential risks to critical systems and sensitive information;':
+            'List of potential risks to critical systems and sensitive information;',
+          'Procedures for reporting disaster events, event escalation, recovery of critical operations, and resumption of normal operations;':
+            'Procedures for reporting disaster events, event escalation, recovery of critical operations, and resumption of normal operations;',
+          'Requirements for ensuring information security throughout the process;':
+            'Requirements for ensuring information security throughout the process;',
+          'An inventory of backups and offsite storage locations;':
+            'An inventory of backups and offsite storage locations;',
+          'Data Backup and Restoration Plan: Indicates which data is backed up, the media to which it is saved, where that media is stored, and how often the backup is done.':
+            'Data Backup and Restoration Plan: Indicates which data is backed up, the media to which it is saved, where that media is stored, and how often the backup is done.',
+          'Equipment Replacement Plan: Describes what equipment is required to begin to provide services, list the order in which it is necessary, and note where to purchase the equipment.':
+            'Equipment Replacement Plan: Describes what equipment is required to begin to provide services, list the order in which it is necessary, and note where to purchase the equipment.',
+          'Contingency plans for different types of disruption events;':
+            'Contingency plans for different types of disruption events;',
+          'Protection and availability of plan documentation;':
+            'Protection and availability of plan documentation;',
+          'Procedures for plan tests, review, and updates.':
+            'Procedures for plan tests, review, and updates.',
+          'Computer Emergency Response Plan: Indicates who is to be contacted, when, and how. Also indicates what immediate actions must be taken in the event of certain occurrences.':
+            'Computer Emergency Response Plan: Indicates who is to be contacted, when, and how. Also indicates what immediate actions must be taken in the event of certain occurrences.',
+          'Succession Plan: Describes the flow of responsibility when normal staff is unavailable to perform their duties.':
+            'Succession Plan: Describes the flow of responsibility when normal staff is unavailable to perform their duties.',
+          'Data Study: Details the data stored on the systems, its criticality, and its confidentiality.':
+            'Data Study: Details the data stored on the systems, its criticality, and its confidentiality.',
+          'Criticality of Service List: Lists all the services provided and their order of importance.':
+            'Criticality of Service List: Lists all the services provided and their order of importance.',
+          Waivers: 'Waivers',
+          'Waivers from certain policy provisions may be sought following the Falcon Consulting Waiver Process.':
+            'Waivers from certain policy provisions may be sought following the Falcon Consulting Waiver Process.',
+          'Personnel found to have violated this policy may be subject to disciplinary action, up to and including termination of employment, and related civil or criminal penalties.':
+            'Personnel found to have violated this policy may be subject to disciplinary action, up to and including termination of employment, and related civil or criminal penalties.',
+          'Any vendor, consultant, or contractor found to have violated this policy may be subject to sanctions up to and including removal of access rights, termination of contract(s), and related civil or criminal penalties.':
+            'Any vendor, consultant, or contractor found to have violated this policy may be subject to sanctions up to and including removal of access rights, termination of contract(s), and related civil or criminal penalties.',
+          // Privacy Policy
+          // Title 3
+          'Information Security Policy': 'Information Security Policy',
+          // Body 3
+          Introduction: 'Introduction',
+          'Information security is a holistic discipline, meaning that its application, or lack thereof, affects all facets of an organization or enterprise. The goal of the Falcon Consulting Information Security Program is to protect the Confidentiality, Integrity, and Availability of the data employed within the organization while providing value to the way we conduct business. Protection of the Confidentiality, Integrity, and Availability are basic principles of information security, and can be defined as:':
+            'Information security is a holistic discipline, meaning that its application, or lack thereof, affects all facets of an organization or enterprise. The goal of the Falcon Consulting Information Security Program is to protect the Confidentiality, Integrity, and Availability of the data employed within the organization while providing value to the way we conduct business. Protection of the Confidentiality, Integrity, and Availability are basic principles of information security, and can be defined as:',
+          'Confidentiality – Ensuring that information is accessible only to those entities that are authorized to have access, many times enforced by the classic “need-to-know” principle.':
+            'Confidentiality – Ensuring that information is accessible only to those entities that are authorized to have access, many times enforced by the classic “need-to-know” principle.',
+          'Integrity – Protecting the accuracy and completeness of information and the methods that are used to process and manage it.':
+            'Integrity – Protecting the accuracy and completeness of information and the methods that are used to process and manage it.',
+          'Availability – Ensuring that information assets (information, systems, facilities, networks, and computers) are accessible and usable when needed by an authorized entity.':
+            'Availability – Ensuring that information assets (information, systems, facilities, networks, and computers) are accessible and usable when needed by an authorized entity.',
+          'Falcon Consulting has recognized that our business information is a critical asset and as such our ability to manage, control, and protect this asset will have a direct and significant impact on our future success. ':
+            'Falcon Consulting has recognized that our business information is a critical asset and as such our ability to manage, control, and protect this asset will have a direct and significant impact on our future success. ',
+          'The purpose of the Falcon Consulting Information Security Policy is to describe the actions and behaviors required to ensure that due care is taken to avoid inappropriate risks to Falcon Consulting, its business partners, and its stakeholders.':
+            'The purpose of the Falcon Consulting Information Security Policy is to describe the actions and behaviors required to ensure that due care is taken to avoid inappropriate risks to Falcon Consulting, its business partners, and its stakeholders.',
+          Audience: 'Audience',
+          'The Falcon Consulting Information Security Policy applies equally to any individual, entity, or process that interacts with any Falcon Consulting Information Resource.':
+            'The Falcon Consulting Information Security Policy applies equally to any individual, entity, or process that interacts with any Falcon Consulting Information Resource.',
+          Responsibilities: 'Responsibilities',
+          'Executive Management': 'Executive Management',
+          'Ensure that an appropriate risk-based Information Security Program is implemented to protect the confidentiality, integrity, and availability of all Information Resources collected or maintained by or on behalf of Falcon Consulting.':
+            'Ensure that an appropriate risk-based Information Security Program is implemented to protect the confidentiality, integrity, and availability of all Information Resources collected or maintained by or on behalf of Falcon Consulting.',
+          'Ensure that information security processes are integrated with strategic and operational planning processes to secure the organization’s mission.':
+            'Ensure that information security processes are integrated with strategic and operational planning processes to secure the organization’s mission.',
+          'Ensure adequate information security financial and personnel resources are included in the budgeting and/or financial planning process.':
+            'Ensure adequate information security financial and personnel resources are included in the budgeting and/or financial planning process.',
+          'Ensure that the Security Team is given the necessary authority to secure the Information Resources under their control within the scope of the Falcon Consulting Information Security Program.':
+            'Ensure that the Security Team is given the necessary authority to secure the Information Resources under their control within the scope of the Falcon Consulting Information Security Program.',
+          'Designate an Information Security Officer and delegate authority to that individual to ensure compliance with applicable information security requirements.':
+            'Designate an Information Security Officer and delegate authority to that individual to ensure compliance with applicable information security requirements.',
+          'Ensure that the Information Security Officer, in coordination with the Security Team, reports annually to Executive Management on the effectiveness of the Falcon Consulting Information Security Program.':
+            'Ensure that the Information Security Officer, in coordination with the Security Team, reports annually to Executive Management on the effectiveness of the Falcon Consulting Information Security Program.',
+          'Information Security Team': 'Information Security Team',
+          'Ensure compliance with applicable information security requirements.':
+            'Ensure compliance with applicable information security requirements.',
+          'Formulate, review and recommend information security policies.':
+            'Formulate, review and recommend information security policies.',
+          'Approve supporting procedures, standards, and guidelines related to information security.':
+            'Approve supporting procedures, standards, and guidelines related to information security.',
+          'Provide clear direction and visible management support for information security initiatives.':
+            'Provide clear direction and visible management support for information security initiatives.',
+          'Assess the adequacy and effectiveness of the information security policies and coordinate the implementation of information security controls.':
+            'Assess the adequacy and effectiveness of the information security policies and coordinate the implementation of information security controls.',
+          'Ensure that ongoing security activities are executed in compliance with policy.':
+            'Ensure that ongoing security activities are executed in compliance with policy.',
+          'Review and manage the information security policy waiver request process.':
+            'Review and manage the information security policy waiver request process.',
+          'Review information security incident information and recommend follow-up actions.':
+            'Review information security incident information and recommend follow-up actions.',
+          'Promote information security education, training, and awareness throughout Falcon Consulting, and initiate plans and programs to maintain information security awareness.':
+            'Promote information security education, training, and awareness throughout Falcon Consulting, and initiate plans and programs to maintain information security awareness.',
+          'Report annually, in coordination with the Security Officer, to Executive Management on the effectiveness of the Falcon Consulting Information Security Program, including progress of remedial actions.':
+            'Report annually, in coordination with the Security Officer, to Executive Management on the effectiveness of the Falcon Consulting Information Security Program, including progress of remedial actions.',
+          'All Employees, Contractors, and Other Third-Party Personnel':
+            'All Employees, Contractors, and Other Third-Party Personnel',
+          'Understand their responsibilities for complying with the Falcon Consulting Information Security Program.':
+            'Understand their responsibilities for complying with the Falcon Consulting Information Security Program.',
+          'Use Falcon Consulting Information Resources in compliance with all Falcon Consulting Information Security Policies.':
+            'Use Falcon Consulting Information Resources in compliance with all Falcon Consulting Information Security Policies.',
+          'Seek guidance from the Information Security Team for questions or issues related to information security.':
+            'Seek guidance from the Information Security Team for questions or issues related to information security.',
+          'Falcon Consulting maintains and communicates an Information Security Program consisting of topic-specific policies, standards, procedures and guidelines that:':
+            'Falcon Consulting maintains and communicates an Information Security Program consisting of topic-specific policies, standards, procedures and guidelines that:',
+          'Serve to protect the Confidentiality, Integrity, and Availability of the Information Resources maintained within the organization using administrative, physical and technical controls.':
+            'Serve to protect the Confidentiality, Integrity, and Availability of the Information Resources maintained within the organization using administrative, physical and technical controls.',
+          'Provide value to the way we conduct business and support institutional objectives.':
+            'Provide value to the way we conduct business and support institutional objectives.',
+          'Comply with all regulatory and legal requirements, including:':
+            'Comply with all regulatory and legal requirements, including:',
+          'State breach notification laws,': 'State breach notification laws,',
+          'PCI Data Security Standard,': 'PCI Data Security Standard,',
+          'Information Security best practices,': 'Information Security best practices,',
+          'Contractual agreements,': 'Contractual agreements,',
+          'All other applicable federal and state laws or regulations.':
+            'All other applicable federal and state laws or regulations.',
+          'The information security program is reviewed no less than annually or upon significant changes to the information security environment.':
+            'The information security program is reviewed no less than annually or upon significant changes to the information security environment.',
+          'Personnel found to have violated this policy may be subject to disciplinary action, up to and including termination of employment, and related civil or criminal penalties.':
+            'Personnel found to have violated this policy may be subject to disciplinary action, up to and including termination of employment, and related civil or criminal penalties.',
+          'Any vendor, consultant, or contractor found to have violated this policy may be subject to sanctions up to and including removal of access rights, termination of contract(s), and related civil or criminal penalties.':
+            'Any vendor, consultant, or contractor found to have violated this policy may be subject to sanctions up to and including removal of access rights, termination of contract(s), and related civil or criminal penalties.',
+          // Title 4
+          'Acceptable Use Policy': 'Acceptable Use Policy',
+          // Body 4
+          'This policy applies to the use of information, electronic and computing devices, and network resources to conduct Falcon Consulting business or interact with internal networks and business systems, whether owned or leased by Falcon Consulting, the employee, or a third party. All employees, contractors, consultants, temporary, and other workers at Falcon Consulting and its subsidiaries are responsible for exercising good judgment regarding appropriate use of information, electronic devices, and network resources in accordance with Falcon Consulting.':
+            'This policy applies to the use of information, electronic and computing devices, and network resources to conduct Falcon Consulting business or interact with internal networks and business systems, whether owned or leased by Falcon Consulting, the employee, or a third party. All employees, contractors, consultants, temporary, and other workers at Falcon Consulting and its subsidiaries are responsible for exercising good judgment regarding appropriate use of information, electronic devices, and network resources in accordance with Falcon Consulting.',
+          'General Use and Ownership': 'General Use and Ownership',
+          'Falcon Consulting proprietary information stored on electronic and computing devices whether owned or leased by Falcon Consulting, the employee or a third party, remains the sole property of Falcon Consulting. You must ensure through legal or technical means that proprietary information is protected in accordance with the Data Protection Standard.':
+            'Falcon Consulting proprietary information stored on electronic and computing devices whether owned or leased by Falcon Consulting, the employee or a third party, remains the sole property of Falcon Consulting. You must ensure through legal or technical means that proprietary information is protected in accordance with the Data Protection Standard.',
+          'You have a responsibility to promptly report the theft, loss or unauthorized disclosure of Falcon Consulting proprietary information.':
+            'You have a responsibility to promptly report the theft, loss or unauthorized disclosure of Falcon Consulting proprietary information.',
+          'You may access, use or share Falcon Consulting proprietary information only to the extent it is authorized and necessary to fulfill your assigned job duties.':
+            'You may access, use or share Falcon Consulting proprietary information only to the extent it is authorized and necessary to fulfill your assigned job duties.',
+          'Employees are responsible for exercising good judgment regarding the reasonableness of personal use. Individual departments are responsible for creating guidelines concerning personal use of Internet/Intranet/Extranet systems. In the absence of such policies, employees should be guided by departmental policies on personal use, and if there is any uncertainty, employees should consult their supervisor or manager.':
+            'Employees are responsible for exercising good judgment regarding the reasonableness of personal use. Individual departments are responsible for creating guidelines concerning personal use of Internet/Intranet/Extranet systems. In the absence of such policies, employees should be guided by departmental policies on personal use, and if there is any uncertainty, employees should consult their supervisor or manager.',
+          'For security and network maintenance purposes, authorized individuals within Falcon Consulting may monitor equipment, systems and network traffic at any time, per Audit Policy.':
+            'For security and network maintenance purposes, authorized individuals within Falcon Consulting may monitor equipment, systems and network traffic at any time, per Audit Policy.',
+          'Falcon Consulting reserves the right to audit networks and systems on a periodic basis to ensure compliance with this policy.':
+            'Falcon Consulting reserves the right to audit networks and systems on a periodic basis to ensure compliance with this policy.',
+          'Security and Proprietary Information': 'Security and Proprietary Information',
+          'All mobile and computing devices that connect to the internal network must comply with the Minimum Access Policy.':
+            'All mobile and computing devices that connect to the internal network must comply with the Minimum Access Policy.',
+          'System level and user level passwords must comply with the Password Policy. Providing access to another individual, either deliberately or through failure to secure its access, is prohibited.':
+            'System level and user level passwords must comply with the Password Policy. Providing access to another individual, either deliberately or through failure to secure its access, is prohibited.',
+          'All computing devices must be secured with a password-protected screensaver with the automatic activation feature set to 10 minutes or less. You must lock the screen or log off when the device is unattended.':
+            'All computing devices must be secured with a password-protected screensaver with the automatic activation feature set to 10 minutes or less. You must lock the screen or log off when the device is unattended.',
+          'Postings by employees from a Falcon Consulting email address to newsgroups should contain a disclaimer stating that the opinions expressed are strictly their own and not necessarily those of Falcon Consulting, unless posting is in the course of business duties.':
+            'Postings by employees from a Falcon Consulting email address to newsgroups should contain a disclaimer stating that the opinions expressed are strictly their own and not necessarily those of Falcon Consulting, unless posting is in the course of business duties.',
+          'Employees must use extreme caution when opening e-mail attachments received from unknown senders, which may contain malware.':
+            'Employees must use extreme caution when opening e-mail attachments received from unknown senders, which may contain malware.',
+          'Unacceptable Use': 'Unacceptable Use',
+          'The following activities are, in general, prohibited. Employees may be exempted from these restrictions during the course of their legitimate job responsibilities (e.g., systems administration staff may have a need to disable the network access of a host if that host is disrupting production services).':
+            'The following activities are, in general, prohibited. Employees may be exempted from these restrictions during the course of their legitimate job responsibilities (e.g., systems administration staff may have a need to disable the network access of a host if that host is disrupting production services).',
+          'Under no circumstances is an employee of Falcon Consulting authorized to engage in any activity that is illegal under local, state, federal or international law while utilizing Falcon Consulting-owned resources.':
+            'Under no circumstances is an employee of Falcon Consulting authorized to engage in any activity that is illegal under local, state, federal or international law while utilizing Falcon Consulting-owned resources.',
+          'The lists below are by no means exhaustive, but attempt to provide a framework for activities which fall into the category of unacceptable use.':
+            'The lists below are by no means exhaustive, but attempt to provide a framework for activities which fall into the category of unacceptable use.',
+          'System and Network Activities': 'System and Network Activities',
+          'The following activities are strictly prohibited, with no exceptions:':
+            'The following activities are strictly prohibited, with no exceptions:',
+          "Violations of the rights of any person or company protected by copyright, trade secret, patent or other intellectual property, or similar laws or regulations, including, but not limited to, the installation or distribution of 'pirated' or other software products that are not appropriately licensed for use by Falcon Consulting.":
+            "Violations of the rights of any person or company protected by copyright, trade secret, patent or other intellectual property, or similar laws or regulations, including, but not limited to, the installation or distribution of 'pirated' or other software products that are not appropriately licensed for use by Falcon Consulting.",
+          'Unauthorized copying of copyrighted material including, but not limited to, digitization and distribution of photographs from magazines, books or other copyrighted sources, copyrighted music, and the installation of any copyrighted software for which Falcon Consulting or the end user does not have an active license is strictly prohibited.':
+            'Unauthorized copying of copyrighted material including, but not limited to, digitization and distribution of photographs from magazines, books or other copyrighted sources, copyrighted music, and the installation of any copyrighted software for which Falcon Consulting or the end user does not have an active license is strictly prohibited.',
+          'Accessing data, a server or an account for any purpose other than conducting Falcon Consulting business, even if you have authorized access, is prohibited.':
+            'Accessing data, a server or an account for any purpose other than conducting Falcon Consulting business, even if you have authorized access, is prohibited.',
+          'Exporting software, technical information, encryption software or technology, in violation of international or regional export control laws, is illegal. The appropriate management should be consulted prior to export of any material that is in question.':
+            'Exporting software, technical information, encryption software or technology, in violation of international or regional export control laws, is illegal. The appropriate management should be consulted prior to export of any material that is in question.',
+          'Introduction of malicious programs into the network or server (e.g., viruses, worms, Trojan horses, e-mail bombs, etc.).':
+            'Introduction of malicious programs into the network or server (e.g., viruses, worms, Trojan horses, e-mail bombs, etc.).',
+          'Revealing your account password to others or allowing use of your account by others. This includes family and other household members when work is being done at home.':
+            'Revealing your account password to others or allowing use of your account by others. This includes family and other household members when work is being done at home.',
+          "Using a Falcon Consulting computing asset to actively engage in procuring or transmitting material that is in violation of sexual harassment or hostile workplace laws in the user's local jurisdiction.":
+            "Using a Falcon Consulting computing asset to actively engage in procuring or transmitting material that is in violation of sexual harassment or hostile workplace laws in the user's local jurisdiction.",
+          'Making fraudulent offers of products, items, or services originating from any Falcon Consulting account.':
+            'Making fraudulent offers of products, items, or services originating from any Falcon Consulting account.',
+          'Making statements about warranty, expressly or implied, unless it is a part of normal job duties.':
+            'Making statements about warranty, expressly or implied, unless it is a part of normal job duties.',
+          "Effecting security breaches or disruptions of network communication. Security breaches include, but are not limited to, accessing data of which the employee is not an intended recipient or logging into a server or account that the employee is not expressly authorized to access, unless these duties are within the scope of regular duties. For purposes of this section, 'disruption' includes, but is not limited to, network sniffing, pinged floods, packet spoofing, denial of service, and forged routing information for malicious purposes.":
+            "Effecting security breaches or disruptions of network communication. Security breaches include, but are not limited to, accessing data of which the employee is not an intended recipient or logging into a server or account that the employee is not expressly authorized to access, unless these duties are within the scope of regular duties. For purposes of this section, 'disruption' includes, but is not limited to, network sniffing, pinged floods, packet spoofing, denial of service, and forged routing information for malicious purposes.",
+          'Port scanning or security scanning is expressly prohibited unless prior notification to Infosec is made.':
+            'Port scanning or security scanning is expressly prohibited unless prior notification to Infosec is made.',
+          "Executing any form of network monitoring which will intercept data not intended for the employee's host, unless this activity is a part of the employee's normal job/duty.":
+            "Executing any form of network monitoring which will intercept data not intended for the employee's host, unless this activity is a part of the employee's normal job/duty.",
+          'Circumventing user authentication or security of any host, network or account.':
+            'Circumventing user authentication or security of any host, network or account.',
+          'Introducing honeypots, honeynets, or similar technology on the Falcon Consulting network.':
+            'Introducing honeypots, honeynets, or similar technology on the Falcon Consulting network.',
+          "Interfering with or denying service to any user other than the employee's host (for example, denial of service attack).":
+            "Interfering with or denying service to any user other than the employee's host (for example, denial of service attack).",
+          "Using any program/script/command, or sending messages of any kind, with the intent to interfere with, or disable, a user's terminal session, via any means, locally or via the Internet/Intranet/Extranet.":
+            "Using any program/script/command, or sending messages of any kind, with the intent to interfere with, or disable, a user's terminal session, via any means, locally or via the Internet/Intranet/Extranet.",
+          'Providing information about, or lists of, Falcon Consulting employees to parties outside Falcon Consulting.':
+            'Providing information about, or lists of, Falcon Consulting employees to parties outside Falcon Consulting.',
+          'Email and Communication Activitiesa': 'Email and Communication Activitiesa',
+          "When using company resources to access and use the Internet, users must realize they represent the company. Whenever employees state an affiliation to the company, they must also clearly indicate that 'the opinions expressed are my own and not necessarily those of the company'. Questions may be addressed to the IT Department":
+            "When using company resources to access and use the Internet, users must realize they represent the company. Whenever employees state an affiliation to the company, they must also clearly indicate that 'the opinions expressed are my own and not necessarily those of the company'. Questions may be addressed to the IT Department",
+          "Sending unsolicited email messages, including the sending of 'junk mail' or other advertising material to individuals who did not specifically request such material (email spam).":
+            "Sending unsolicited email messages, including the sending of 'junk mail' or other advertising material to individuals who did not specifically request such material (email spam).",
+          'Any form of harassment via email, telephone or paging, whether through language, frequency, or size of messages.':
+            'Any form of harassment via email, telephone or paging, whether through language, frequency, or size of messages.',
+          'Unauthorized use, or forging, of email header information.':
+            'Unauthorized use, or forging, of email header information.',
+          "Solicitation of email for any other email address, other than that of the poster's account, with the intent to harass or to collect replies.":
+            "Solicitation of email for any other email address, other than that of the poster's account, with the intent to harass or to collect replies.",
+          "Creating or forwarding 'chain letters', 'Ponzi' or other 'pyramid' schemes of any type.":
+            "Creating or forwarding 'chain letters', 'Ponzi' or other 'pyramid' schemes of any type.",
+          "Use of unsolicited email originating from within Falcon Consulting's networks of other Internet/Intranet/Extranet service providers on behalf of, or to advertise, any service hosted by Falcon Consulting or connected via Falcon Consulting's network.":
+            "Use of unsolicited email originating from within Falcon Consulting's networks of other Internet/Intranet/Extranet service providers on behalf of, or to advertise, any service hosted by Falcon Consulting or connected via Falcon Consulting's network.",
+          'Posting the same or similar non-business-related messages to large numbers of Usenet newsgroups (newsgroup spam).':
+            'Posting the same or similar non-business-related messages to large numbers of Usenet newsgroups (newsgroup spam).',
+          'Blogging and Social Media': 'Blogging and Social Media',
+          "Blogging by employees, whether using Falcon Consulting’s property and systems or personal computer systems, is also subject to the terms and restrictions set forth in this Policy. Limited and occasional use of Falcon Consulting’s systems to engage in blogging is acceptable, provided that it is done in a professional and responsible manner, does not otherwise violate Falcon Consulting’s policy, is not detrimental to Falcon Consulting’s best interests, and does not interfere with an employee's regular work duties. Blogging from Falcon Consulting’s systems is also subject to monitoring.":
+            "Blogging by employees, whether using Falcon Consulting’s property and systems or personal computer systems, is also subject to the terms and restrictions set forth in this Policy. Limited and occasional use of Falcon Consulting’s systems to engage in blogging is acceptable, provided that it is done in a professional and responsible manner, does not otherwise violate Falcon Consulting’s policy, is not detrimental to Falcon Consulting’s best interests, and does not interfere with an employee's regular work duties. Blogging from Falcon Consulting’s systems is also subject to monitoring.",
+          'Falcon Consulting’s Confidential Information policy also applies to blogging. As such, Employees are prohibited from revealing any confidential or proprietary information, trade secrets or any other material covered by Company’s Confidential Information policy when engaged in blogging.':
+            'Falcon Consulting’s Confidential Information policy also applies to blogging. As such, Employees are prohibited from revealing any confidential or proprietary information, trade secrets or any other material covered by Company’s Confidential Information policy when engaged in blogging.',
+          'Employees shall not engage in any blogging that may harm or tarnish the image, reputation and/or goodwill of Falcon Consulting and/or any of its employees. Employees are also prohibited from making any discriminatory, disparaging, defamatory or harassing comments when blogging or otherwise engaging in any conduct prohibited by Falcon Consulting’s Non-Discrimination and Anti-Harassment policy.':
+            'Employees shall not engage in any blogging that may harm or tarnish the image, reputation and/or goodwill of Falcon Consulting and/or any of its employees. Employees are also prohibited from making any discriminatory, disparaging, defamatory or harassing comments when blogging or otherwise engaging in any conduct prohibited by Falcon Consulting’s Non-Discrimination and Anti-Harassment policy.',
+          'Employees may also not attribute personal statements, opinions or beliefs to Falcon Consulting when engaged in blogging. If an employee is expressing his or her beliefs and/or opinions in blogs, the employee may not, expressly or implicitly, represent themselves as an employee or representative of Falcon Consulting. Employees assume any and all risk associated with blogging.':
+            'Employees may also not attribute personal statements, opinions or beliefs to Falcon Consulting when engaged in blogging. If an employee is expressing his or her beliefs and/or opinions in blogs, the employee may not, expressly or implicitly, represent themselves as an employee or representative of Falcon Consulting. Employees assume any and all risk associated with blogging.',
+          'Apart from following all laws pertaining to the handling and disclosure of copyrighted or export controlled materials, Falcon Consulting’s trademarks, logos and any other Falcon Consulting intellectual property may also not be used in connection with any blogging activity':
+            'Apart from following all laws pertaining to the handling and disclosure of copyrighted or export controlled materials, Falcon Consulting’s trademarks, logos and any other Falcon Consulting intellectual property may also not be used in connection with any blogging activity',
+          // Title 5
+          'Government Data Request Policy': 'Government Data Request Policy',
+          // Body 5
+          'This Government Data Request Policy sets out Falcon Consulting’s procedure for responding to a request received from a law enforcement or other government authority (together the “Requesting Authority“) to disclose personal information processed by Falcon Consulting (hereafter “Data Disclosure Request“) which is aligned with our Binding Corporate Rules: Government Data Request Procedure.':
+            'This Government Data Request Policy sets out Falcon Consulting’s procedure for responding to a request received from a law enforcement or other government authority (together the “Requesting Authority“) to disclose personal information processed by Falcon Consulting (hereafter “Data Disclosure Request“) which is aligned with our Binding Corporate Rules: Government Data Request Procedure.',
+          'Where Falcon Consulting receives a Data Disclosure Request, it will handle that Data Disclosure Request in accordance with this policy. . If applicable data protection law(s) require a higher standard of protection for personal information than is required by this policy, Falcon Consulting will comply with the relevant requirements of those applicable data protection law(s).':
+            'Where Falcon Consulting receives a Data Disclosure Request, it will handle that Data Disclosure Request in accordance with this policy. . If applicable data protection law(s) require a higher standard of protection for personal information than is required by this policy, Falcon Consulting will comply with the relevant requirements of those applicable data protection law(s).',
+          'The lists below are by no means exhaustive, but attempt to provide a framework for activities which fall into the category of unacceptable use.':
+            'The lists below are by no means exhaustive, but attempt to provide a framework for activities which fall into the category of unacceptable use.',
+          'General principle on Data Disclosure Requests':
+            'General principle on Data Disclosure Requests',
+          'As a general principle, Falcon Consulting does not disclose personal information in response to a Data Disclosure Request unless either:':
+            'As a general principle, Falcon Consulting does not disclose personal information in response to a Data Disclosure Request unless either:',
+          'it is under a compelling legal obligation to make such disclosure; or':
+            'it is under a compelling legal obligation to make such disclosure; or',
+          'taking into account the nature, context, purposes, scope and urgency of the Data Disclosure Request and the privacy rights and freedoms of any affected individuals, there is an imminent risk of serious harm that merits compliance with the Data Disclosure Requests in any event.':
+            'taking into account the nature, context, purposes, scope and urgency of the Data Disclosure Request and the privacy rights and freedoms of any affected individuals, there is an imminent risk of serious harm that merits compliance with the Data Disclosure Requests in any event.',
+          'For that reason, unless it is legally prohibited from doing so or there is an imminent risk of serious harm, Falcon Consulting will notify and consult with the competent data protection authorities (and, where it processes the personal information on behalf of a Customer, the Customer) to address the Data Disclosure Request.':
+            'For that reason, unless it is legally prohibited from doing so or there is an imminent risk of serious harm, Falcon Consulting will notify and consult with the competent data protection authorities (and, where it processes the personal information on behalf of a Customer, the Customer) to address the Data Disclosure Request.',
+          'Handling of a Data Disclosure Request': 'Handling of a Data Disclosure Request',
+          'If a Falcon Consulting Group Member receives a Data Disclosure Request, the recipient of the request must pass it to Falcon Consulting’s Chief Privacy Officer and Privacy Team (collectively, the “Privacy Team”) immediately upon receipt, indicating the date on which it was received together with any other information that may assist the Privacy Team to respond to the request.':
+            'If a Falcon Consulting Group Member receives a Data Disclosure Request, the recipient of the request must pass it to Falcon Consulting’s Chief Privacy Officer and Privacy Team (collectively, the “Privacy Team”) immediately upon receipt, indicating the date on which it was received together with any other information that may assist the Privacy Team to respond to the request.',
+          'The Requesting Authority’s request does not have to be made in writing, made under a Court order, or mention data protection law to qualify as a Data Disclosure Request. Any Data Disclosure Request, however made, must be notified to the Privacy Team for review.':
+            'The Requesting Authority’s request does not have to be made in writing, made under a Court order, or mention data protection law to qualify as a Data Disclosure Request. Any Data Disclosure Request, however made, must be notified to the Privacy Team for review.',
+          'Falcon Consulting’s Privacy Team will carefully review each and every Data Disclosure Request on a case-by-case basis. The Privacy Team will liaise with the legal department and outside counsel as appropriate to deal with the request to determine the nature, context, purposes, scope and urgency of the Data Disclosure Request, and its validity under applicable laws, to identify whether action may be needed to challenge the Data Disclosure Request and/or to notify the Customer and/or competent data protection authorities in accordance with paragraph 4.':
+            'Falcon Consulting’s Privacy Team will carefully review each and every Data Disclosure Request on a case-by-case basis. The Privacy Team will liaise with the legal department and outside counsel as appropriate to deal with the request to determine the nature, context, purposes, scope and urgency of the Data Disclosure Request, and its validity under applicable laws, to identify whether action may be needed to challenge the Data Disclosure Request and/or to notify the Customer and/or competent data protection authorities in accordance with paragraph 4.',
+          'Notice of a Data Disclosure Request': 'Notice of a Data Disclosure Request',
+          'Notice to the Customer': 'Notice to the Customer',
+          'If a request concerns personal information for which a Customer is the controller, Falcon Consulting will ordinarily ask the Requesting Authority to make the Data Disclosure Request directly to the relevant Customer. If the Requesting Authority agrees, Falcon Consulting will support the Customer in accordance with the terms of its contract to respond to the Data Disclosure Request.':
+            'If a request concerns personal information for which a Customer is the controller, Falcon Consulting will ordinarily ask the Requesting Authority to make the Data Disclosure Request directly to the relevant Customer. If the Requesting Authority agrees, Falcon Consulting will support the Customer in accordance with the terms of its contract to respond to the Data Disclosure Request.',
+          'If this is not possible (for example, because the Requesting Authority declines to make the Data Disclosure Request directly to the Customer, does not know the customer’s identity, or if Falcon Consulting is not permitted by law to disclose the Data Disclosure Request), Falcon Consulting will notify and provide the Customer with the details of the Data Disclosure Request prior to disclosing any personal information, unless legally prohibited from doing so or where an imminent risk of serious harm exists that prohibits prior notification.':
+            'If this is not possible (for example, because the Requesting Authority declines to make the Data Disclosure Request directly to the Customer, does not know the customer’s identity, or if Falcon Consulting is not permitted by law to disclose the Data Disclosure Request), Falcon Consulting will notify and provide the Customer with the details of the Data Disclosure Request prior to disclosing any personal information, unless legally prohibited from doing so or where an imminent risk of serious harm exists that prohibits prior notification.',
+          'Notice to the competent data protection authorities':
+            'Notice to the competent data protection authorities',
+          'If the Requesting Authority is in a country that does not provide an adequate level of protection for the personal information in accordance with applicable data protection laws, then Falcon Consulting will also put the request on hold to notify and consult with the competent data protection authorities, unless legally prohibited or where an imminent risk of serious harm exists that prohibits prior notification.':
+            'If the Requesting Authority is in a country that does not provide an adequate level of protection for the personal information in accordance with applicable data protection laws, then Falcon Consulting will also put the request on hold to notify and consult with the competent data protection authorities, unless legally prohibited or where an imminent risk of serious harm exists that prohibits prior notification.',
+          'Where Falcon Consulting is prohibited from notifying the competent data protection authorities and suspending the request, Falcon Consulting will use its best efforts (taking into account the nature, context, purposes, scope, and urgency of the request) to inform the Requesting Authority about its obligations under applicable data protection law and to obtain the right to waive this prohibition. Such efforts may include asking the Requesting Authority to put the request on hold, so that Falcon Consulting can consult with the competent data protection authorities, or to allow disclosure to specified personnel at Falcon Consulting’s customer, and may also, in appropriate circumstances, include seeking a court order to this effect. Falcon Consulting will maintain a written record of the efforts it takes.':
+            'Where Falcon Consulting is prohibited from notifying the competent data protection authorities and suspending the request, Falcon Consulting will use its best efforts (taking into account the nature, context, purposes, scope, and urgency of the request) to inform the Requesting Authority about its obligations under applicable data protection law and to obtain the right to waive this prohibition. Such efforts may include asking the Requesting Authority to put the request on hold, so that Falcon Consulting can consult with the competent data protection authorities, or to allow disclosure to specified personnel at Falcon Consulting’s customer, and may also, in appropriate circumstances, include seeking a court order to this effect. Falcon Consulting will maintain a written record of the efforts it takes.',
+          'Transparency reports': 'Transparency reports',
+          'Falcon Consulting commits to preparing a semi-annual report (a “Transparency Report”), which reflects the number and type of Data Disclosure Requests it has received for the preceding six months, as may be limited by applicable law or court order. Falcon Consulting shall publish the Transparency Report on its website, and make the report available upon request to competent data protection authorities.':
+            'Falcon Consulting commits to preparing a semi-annual report (a “Transparency Report”), which reflects the number and type of Data Disclosure Requests it has received for the preceding six months, as may be limited by applicable law or court order. Falcon Consulting shall publish the Transparency Report on its website, and make the report available upon request to competent data protection authorities.',
+          'Bulk transfers': 'Bulk transfers',
+          'In no event will any Group Member transfer Personal Information to a Requesting Authority in a massive, disproportionate, and indiscriminate manner that goes beyond what is necessary in a democratic society.':
+            'In no event will any Group Member transfer Personal Information to a Requesting Authority in a massive, disproportionate, and indiscriminate manner that goes beyond what is necessary in a democratic society.',
+          // Title 6
+          'PRIVACY NOTICE': 'PRIVACY NOTICE',
+          // Body 6
+          'Last updated June 04, 2022': 'Last updated June 04, 2022',
+          'This privacy notice for Falcon Consulting ("Company," "we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:':
+            'This privacy notice for Falcon Consulting ("Company," "we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:',
+          'Visit our website at https://www.falconconsulting.fr, or any website of ours that links to this privacy notice':
+            'Visit our website at https://www.falconconsulting.fr, or any website of ours that links to this privacy notice',
+          'Engage with us in other related ways, including any sales, marketing, or events':
+            'Engage with us in other related ways, including any sales, marketing, or events',
+          'Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at contact@falconconsulting.fr.':
+            'Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at contact@falconconsulting.fr.',
+          'SUMMARY OF KEY POINTS': 'SUMMARY OF KEY POINTS',
+          'This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for.':
+            'This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for.',
+          'What personal information do we process? When you visit, use, or navigate our Services, we may process personal information depending on how you interact with Falcon Consulting and the Services, the choices you make, and the products and features you use.':
+            'What personal information do we process? When you visit, use, or navigate our Services, we may process personal information depending on how you interact with Falcon Consulting and the Services, the choices you make, and the products and features you use.',
+          'Do we process any sensitive personal information? We may process sensitive personal information when necessary with your consent or as otherwise permitted by applicable law.':
+            'Do we process any sensitive personal information? We may process sensitive personal information when necessary with your consent or as otherwise permitted by applicable law.',
+          'Do we receive any information from third parties? We do not receive any information from third parties.':
+            'Do we receive any information from third parties? We do not receive any information from third parties.',
+          'How do we process your information? We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so.':
+            'How do we process your information? We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so.',
+          'In what situations and with which parties do we share personal information?':
+            'In what situations and with which parties do we share personal information?',
+          'We may share information in specific situations and with specific third parties.':
+            'We may share information in specific situations and with specific third parties.',
+          'How do we keep your information safe? We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information.':
+            'How do we keep your information safe? We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information.',
+          'What are your rights? Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information.':
+            'What are your rights? Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information.',
+          'How do you exercise your rights? The easiest way to exercise your rights is by filling out our data subject request form available here, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.':
+            'How do you exercise your rights? The easiest way to exercise your rights is by filling out our data subject request form available here, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.',
+          'TABLE OF CONTENTS': 'TABLE OF CONTENTS',
+          'WHAT INFORMATION DO WE COLLECT?': 'WHAT INFORMATION DO WE COLLECT?',
+          'HOW DO WE PROCESS YOUR INFORMATION?': 'HOW DO WE PROCESS YOUR INFORMATION?',
+          'WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?':
+            'WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?',
+          'WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?':
+            'WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?',
+          'DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?':
+            'DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?',
+          'HOW DO WE HANDLE YOUR SOCIAL LOGINS?': 'HOW DO WE HANDLE YOUR SOCIAL LOGINS?',
+          'HOW LONG DO WE KEEP YOUR INFORMATION?': 'HOW LONG DO WE KEEP YOUR INFORMATION?',
+          'HOW DO WE KEEP YOUR INFORMATION SAFE?': 'HOW DO WE KEEP YOUR INFORMATION SAFE?',
+          'WHAT ARE YOUR PRIVACY RIGHTS?': 'WHAT ARE YOUR PRIVACY RIGHTS?',
+          'CONTROLS FOR DO-NOT-TRACK FEATURES': 'CONTROLS FOR DO-NOT-TRACK FEATURES',
+          'DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?':
+            'DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?',
+          'DO WE MAKE UPDATES TO THIS NOTICE?': 'DO WE MAKE UPDATES TO THIS NOTICE?',
+          'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?': 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?',
+          'Personal information you disclose to us': 'Personal information you disclose to us',
+          'In Short: We collect personal information that you provide to us.':
+            'In Short: We collect personal information that you provide to us.',
+          'We collect personal information that you voluntarily provide to us when you express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.':
+            'We collect personal information that you voluntarily provide to us when you express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.',
+          'Personal Information Provided by You. The personal information that we collect depends on the context of your interactions with us and the Services, the choices you make, and the products and features you use. The personal information we collect may include the following:':
+            'Personal Information Provided by You. The personal information that we collect depends on the context of your interactions with us and the Services, the choices you make, and the products and features you use. The personal information we collect may include the following:',
+          names: 'names',
+          'phone numbers email addresses billing addresses':
+            'phone numbers email addresses billing addresses',
+          'Sensitive Information. When necessary, with your consent or as otherwise permitted by applicable law, we process the following categories of sensitive information:':
+            'Sensitive Information. When necessary, with your consent or as otherwise permitted by applicable law, we process the following categories of sensitive information:',
+          'health data': 'health data',
+          'student data': 'student data',
+          'Social Media Login Data. We may provide you with the option to register with us using your existing social media account details, like your Facebook, Twitter, or other social media account. If you choose to register in this way, we will collect the information described in the section called "HOW DO WE HANDLE YOUR SOCIAL LOGINS?" below.':
+            'Social Media Login Data. We may provide you with the option to register with us using your existing social media account details, like your Facebook, Twitter, or other social media account. If you choose to register in this way, we will collect the information described in the section called "HOW DO WE HANDLE YOUR SOCIAL LOGINS?" below.',
+          'All personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information.':
+            'All personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information.',
+          'HOW DO WE PROCESS YOUR INFORMATION?': 'HOW DO WE PROCESS YOUR INFORMATION?',
+          'In Short: We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent.':
+            'In Short: We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent.',
+          'We process your personal information for a variety of reasons, depending on how you interact with our Services, including:':
+            'We process your personal information for a variety of reasons, depending on how you interact with our Services, including:',
+          "To save or protect an individual's vital interest. We may process your information when necessary to save or protect an individual’s vital interest, such as to prevent harm.":
+            "To save or protect an individual's vital interest. We may process your information when necessary to save or protect an individual’s vital interest, such as to prevent harm.",
+          'WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?':
+            'WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?',
+          'In Short: We only process your personal information when we believe it is necessary and we have a valid legal reason (i.e., legal basis) to do so under applicable law, like with your consent, to comply with laws, to provide you with services to enter into or fulfill our contractual obligations, to protect your rights, or to fulfill our legitimate business interests.':
+            'In Short: We only process your personal information when we believe it is necessary and we have a valid legal reason (i.e., legal basis) to do so under applicable law, like with your consent, to comply with laws, to provide you with services to enter into or fulfill our contractual obligations, to protect your rights, or to fulfill our legitimate business interests.',
+          'If you are located in the EU or UK, this section applies to you.':
+            'If you are located in the EU or UK, this section applies to you.',
+          'The General Data Protection Regulation (GDPR) and UK GDPR require us to explain the valid legal bases we rely on in order to process your personal information. As such, we may rely on the following legal bases to process your personal information:':
+            'The General Data Protection Regulation (GDPR) and UK GDPR require us to explain the valid legal bases we rely on in order to process your personal information. As such, we may rely on the following legal bases to process your personal information:',
+          'Consent. We may process your information if you have given us permission (i.e., consent) to use your personal information for a specific purpose. You can withdraw your consent at any time.':
+            'Consent. We may process your information if you have given us permission (i.e., consent) to use your personal information for a specific purpose. You can withdraw your consent at any time.',
+          'Legal Obligations. We may process your information where we believe it is necessary for compliance with our legal obligations, such as to cooperate with a law enforcement body or regulatory agency, exercise or defend our legal rights, or disclose your information as evidence in litigation in which we are involved.':
+            'Legal Obligations. We may process your information where we believe it is necessary for compliance with our legal obligations, such as to cooperate with a law enforcement body or regulatory agency, exercise or defend our legal rights, or disclose your information as evidence in litigation in which we are involved.',
+          'Vital Interests. We may process your information where we believe it is necessary to protect your vital interests or the vital interests of a third party, such as situations involving potential threats to the safety of any person.':
+            'Vital Interests. We may process your information where we believe it is necessary to protect your vital interests or the vital interests of a third party, such as situations involving potential threats to the safety of any person.',
+          "In legal terms, we are generally the 'data controller' under European data protection laws of the personal information described in this privacy notice, since we determine the means and/or purposes of the data processing we perform. This privacy notice does not apply to the personal information we process as a 'data processor' on behalf of our customers. In those situations, the customer that we provide services to and with whom we have entered into a data processing agreement is the 'data controller' responsible for your personal information, and we merely process your information on their behalf in accordance with your instructions. If you want to know more about our customers' privacy practices, you should read their privacy policies and direct any questions you have to them.":
+            "In legal terms, we are generally the 'data controller' under European data protection laws of the personal information described in this privacy notice, since we determine the means and/or purposes of the data processing we perform. This privacy notice does not apply to the personal information we process as a 'data processor' on behalf of our customers. In those situations, the customer that we provide services to and with whom we have entered into a data processing agreement is the 'data controller' responsible for your personal information, and we merely process your information on their behalf in accordance with your instructions. If you want to know more about our customers' privacy practices, you should read their privacy policies and direct any questions you have to them.",
+          'If you are located in Canada, this section applies to you.':
+            'If you are located in Canada, this section applies to you.',
+          'We may process your information if you have given us specific permission (i.e., express consent) to use your personal information for a specific purpose, or in situations where your permission can be inferred (i.e., implied consent). You can withdraw your consent at any time.':
+            'We may process your information if you have given us specific permission (i.e., express consent) to use your personal information for a specific purpose, or in situations where your permission can be inferred (i.e., implied consent). You can withdraw your consent at any time.',
+          'In some exceptional cases, we may be legally permitted under applicable law to process your information without your consent, including, for example:':
+            'In some exceptional cases, we may be legally permitted under applicable law to process your information without your consent, including, for example:',
+          'If collection is clearly in the interests of an individual and consent cannot be obtained in a timely way':
+            'If collection is clearly in the interests of an individual and consent cannot be obtained in a timely way',
+          'For investigations and fraud detection and prevention':
+            'For investigations and fraud detection and prevention',
+          'For business transactions provided certain conditions are met':
+            'For business transactions provided certain conditions are met',
+          'If it is contained in a witness statement and the collection is necessary to assess, process, or settle an insurance claim':
+            'If it is contained in a witness statement and the collection is necessary to assess, process, or settle an insurance claim',
+          'For identifying injured, ill, or deceased persons and communicating with next of kin':
+            'For identifying injured, ill, or deceased persons and communicating with next of kin',
+          'If we have reasonable grounds to believe an individual has been, is, or may be victim of financial abuse':
+            'If we have reasonable grounds to believe an individual has been, is, or may be victim of financial abuse',
+          'If it is reasonable to expect collection and use with consent would compromise the availability or the accuracy of the information and the collection is reasonable for purposes related to investigating a breach of an agreement or a contravention of the laws of Canada or a province':
+            'If it is reasonable to expect collection and use with consent would compromise the availability or the accuracy of the information and the collection is reasonable for purposes related to investigating a breach of an agreement or a contravention of the laws of Canada or a province',
+          'If disclosure is required to comply with a subpoena, warrant, court order, or rules of the court relating to the production of records':
+            'If disclosure is required to comply with a subpoena, warrant, court order, or rules of the court relating to the production of records',
+          'If it was produced by an individual in the course of their employment, business, or profession and the collection is consistent with the purposes for which the information was produced':
+            'If it was produced by an individual in the course of their employment, business, or profession and the collection is consistent with the purposes for which the information was produced',
+          'If the collection is solely for journalistic, artistic, or literary purposes':
+            'If the collection is solely for journalistic, artistic, or literary purposes',
+          'If the information is publicly available and is specified by the regulations':
+            'If the information is publicly available and is specified by the regulations',
+          'WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?':
+            'WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?',
+          'In Short: We may share information in specific situations described in this section and/or with the following third parties.':
+            'In Short: We may share information in specific situations described in this section and/or with the following third parties.',
+          'We may need to share your personal information in the following situations:':
+            'We may need to share your personal information in the following situations:',
+          'Business Transfers. We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.':
+            'Business Transfers. We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.',
+          'DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?':
+            'DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?',
+          'In Short: We may use cookies and other tracking technologies to collect and store your information.':
+            'In Short: We may use cookies and other tracking technologies to collect and store your information.',
+          'We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice.':
+            'We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice.',
+          'HOW DO WE HANDLE YOUR SOCIAL LOGINS?': 'HOW DO WE HANDLE YOUR SOCIAL LOGINS?',
+          'In Short: If you choose to register or log in to our services using a social media account, we may have access to certain information about you.':
+            'In Short: If you choose to register or log in to our services using a social media account, we may have access to certain information about you.',
+          'Our Services offer you the ability to register and log in using your third-party social media account details (like your Facebook or Twitter logins). Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile information we receive may vary depending on the social media provider concerned, but will often include your name, email address, friends list, and profile picture, as well as other information you choose to make public on such a social media platform.':
+            'Our Services offer you the ability to register and log in using your third-party social media account details (like your Facebook or Twitter logins). Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile information we receive may vary depending on the social media provider concerned, but will often include your name, email address, friends list, and profile picture, as well as other information you choose to make public on such a social media platform.',
+          'We will use the information we receive only for the purposes that are described in this privacy notice or that are otherwise made clear to you on the relevant Services. Please note that we do not control, and are not responsible for, other uses of your personal information by your third-party social media provider. We recommend that you review their privacy notice to understand how they collect, use, and share your personal information, and how you can set your privacy preferences on their sites and apps.':
+            'We will use the information we receive only for the purposes that are described in this privacy notice or that are otherwise made clear to you on the relevant Services. Please note that we do not control, and are not responsible for, other uses of your personal information by your third-party social media provider. We recommend that you review their privacy notice to understand how they collect, use, and share your personal information, and how you can set your privacy preferences on their sites and apps.',
+          'HOW LONG DO WE KEEP YOUR INFORMATION?': 'HOW LONG DO WE KEEP YOUR INFORMATION?',
+          'In Short: We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law.':
+            'In Short: We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law.',
+          'We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than 1 year.':
+            'We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than 1 year.',
+          'When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.':
+            'When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.',
+          'HOW DO WE KEEP YOUR INFORMATION SAFE?': 'HOW DO WE KEEP YOUR INFORMATION SAFE?',
+          'In Short: We aim to protect your personal information through a system of organizational and technical security measures.':
+            'In Short: We aim to protect your personal information through a system of organizational and technical security measures.',
+          'We have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.':
+            'We have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.',
+          'WHAT ARE YOUR PRIVACY RIGHTS?': 'WHAT ARE YOUR PRIVACY RIGHTS?',
+          'In Short: In some regions, such as the European Economic Area (EEA), United Kingdom (UK), and Canada, you have rights that allow you greater access to and control over your personal information. You may review, change, or terminate your account at any time.':
+            'In Short: In some regions, such as the European Economic Area (EEA), United Kingdom (UK), and Canada, you have rights that allow you greater access to and control over your personal information. You may review, change, or terminate your account at any time.',
+          "In some regions (like the EEA, UK, and Canada), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object to the processing of your personal information. You can make such a request by contacting us by using the contact details provided in the section 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?' below.":
+            "In some regions (like the EEA, UK, and Canada), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object to the processing of your personal information. You can make such a request by contacting us by using the contact details provided in the section 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?' below.",
+          'We will consider and act upon any request in accordance with applicable data protection laws.':
+            'We will consider and act upon any request in accordance with applicable data protection laws.',
+          'If you are located in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.':
+            'If you are located in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.',
+          'If you are located in Switzerland, the contact details for the data protection authorities are available here: https://www.edoeb.admin.ch/edoeb/en/home.html.':
+            'If you are located in Switzerland, the contact details for the data protection authorities are available here: https://www.edoeb.admin.ch/edoeb/en/home.html.',
+          "Withdrawing your consent: If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?' below.":
+            "Withdrawing your consent: If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?' below.",
+          'However, please note that this will not affect the lawfulness of the processing before its withdrawal, nor when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.':
+            'However, please note that this will not affect the lawfulness of the processing before its withdrawal, nor when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.',
+          "Opting out of marketing and promotional communications: You can unsubscribe from our marketing and promotional communications at any time by clicking on the unsubscribe link in the emails that we send, or by contacting us using the details provided in the section 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?'":
+            "Opting out of marketing and promotional communications: You can unsubscribe from our marketing and promotional communications at any time by clicking on the unsubscribe link in the emails that we send, or by contacting us using the details provided in the section 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?'",
+          'below. You will then be removed from the marketing lists. However, we may still communicate with you — for example, to send you service-related messages that are necessary for the administration and use of your account, to respond to service requests, or for other non-marketing purposes.':
+            'below. You will then be removed from the marketing lists. However, we may still communicate with you — for example, to send you service-related messages that are necessary for the administration and use of your account, to respond to service requests, or for other non-marketing purposes.',
+          'Cookies and similar technologies: Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. To opt out of interest-based advertising by advertisers on our Services visit http://www.aboutads.info/choices/.':
+            'Cookies and similar technologies: Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. To opt out of interest-based advertising by advertisers on our Services visit http://www.aboutads.info/choices/.',
+          'CONTROLS FOR DO-NOT-TRACK FEATURES': 'CONTROLS FOR DO-NOT-TRACK FEATURES',
+          "Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ('DNT') feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.":
+            "Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ('DNT') feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.",
+          'DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?':
+            'DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?',
+          'In Short: Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information.':
+            'In Short: Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information.,',
+          "California Civil Code Section 1798.83, also known as the 'Shine The Light' law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.":
+            "California Civil Code Section 1798.83, also known as the 'Shine The Light' law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.",
+          'If you are under 18 years of age, reside in California, and have a registered account with Services, you have the right to request removal of unwanted data that you publicly post on the Services. To request removal of such data, please contact us using the contact information provided below and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Services, but please be aware that the data may not be completely or comprehensively removed from all our systems (e.g., backups, etc.).':
+            'If you are under 18 years of age, reside in California, and have a registered account with Services, you have the right to request removal of unwanted data that you publicly post on the Services. To request removal of such data, please contact us using the contact information provided below and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Services, but please be aware that the data may not be completely or comprehensively removed from all our systems (e.g., backups, etc.).',
+          'CCPA Privacy Notice': 'CCPA Privacy Notice',
+          "The California Code of Regulations defines a 'resident' as:":
+            "The California Code of Regulations defines a 'resident' as:",
+          '(1) every individual who is in the State of California for other than a temporary or transitory purpose and (2) every individual who is domiciled in the State of California who is outside the State of California for a temporary or transitory purpose':
+            '(1) every individual who is in the State of California for other than a temporary or transitory purpose and (2) every individual who is domiciled in the State of California who is outside the State of California for a temporary or transitory purpose',
+          "All other individuals are defined as 'non-residents.'":
+            "All other individuals are defined as 'non-residents.'",
+          "If this definition of 'resident' applies to you, we must adhere to certain rights and obligations regarding your personal information.":
+            "If this definition of 'resident' applies to you, we must adhere to certain rights and obligations regarding your personal information.",
+          'What categories of personal information do we collect?':
+            'What categories of personal information do we collect?',
+          'We have collected the following categories of personal information in the past twelve (12) months:':
+            'We have collected the following categories of personal information in the past twelve (12) months:',
+          'Personal information categories listed in the California Customer Records statute':
+            'Personal information categories listed in the California Customer Records statute',
+          'Internet or other similar network activity':
+            'Internet or other similar network activity',
+          'Geolocation data': 'Geolocation data',
+          'Professional or employment-related information':
+            'Professional or employment-related information',
+          'Education Information': 'Education Information',
+          'We may also collect other personal information outside of these categories instances where you interact with us in person, online, or by phone or mail in the context of:':
+            'We may also collect other personal information outside of these categories instances where you interact with us in person, online, or by phone or mail in the context of:',
+          'Receiving help through our customer support channels;':
+            'Receiving help through our customer support channels;',
+          'Participation in customer surveys or contests; and':
+            'Participation in customer surveys or contests; and',
+          'Facilitation in the delivery of our Services and to respond to your inquiries.':
+            'Facilitation in the delivery of our Services and to respond to your inquiries.',
+          'How do we use and share your personal information?':
+            'How do we use and share your personal information?',
+          'More information about our data collection and sharing practices can be found in this privacy notice.':
+            'More information about our data collection and sharing practices can be found in this privacy notice.',
+          'You may contact us by email at contact@falconconsulting.fr, or by referring to the contact details at the bottom of this document.':
+            'You may contact us by email at contact@falconconsulting.fr, or by referring to the contact details at the bottom of this document.',
+          'If you are using an authorized agent to exercise your right to opt out we may deny a request if the authorized agent does not submit proof that they have been validly authorized to act on your behalf.':
+            'If you are using an authorized agent to exercise your right to opt out we may deny a request if the authorized agent does not submit proof that they have been validly authorized to act on your behalf.',
+          'Will your information be shared with anyone else?':
+            'Will your information be shared with anyone else?',
+          'We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Each service provider is a for profit entity that processes the information on our behalf.':
+            'We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Each service provider is a for profit entity that processes the information on our behalf.',
+          "We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be 'selling' of your personal information.":
+            "We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be 'selling' of your personal information.",
+          'Falcon Consulting has not disclosed or sold any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. Falcon Consulting will not sell personal information in the future belonging to website visitors, users, and other consumers.':
+            'Falcon Consulting has not disclosed or sold any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. Falcon Consulting will not sell personal information in the future belonging to website visitors, users, and other consumers.',
+          'Your rights with respect to your personal data':
+            'Your rights with respect to your personal data',
+          'Right to request deletion of the data — Request to delete':
+            'Right to request deletion of the data — Request to delete',
+          'You can ask for the deletion of your personal information. If you ask us to delete your personal information, we will respect your request and delete your personal information, subject to certain exceptions provided by law, such as (but not limited to) the exercise by another consumer of his or her right to free speech, our compliance requirements resulting from a legal obligation, or any processing that may be required to protect against illegal activities.':
+            'You can ask for the deletion of your personal information. If you ask us to delete your personal information, we will respect your request and delete your personal information, subject to certain exceptions provided by law, such as (but not limited to) the exercise by another consumer of his or her right to free speech, our compliance requirements resulting from a legal obligation, or any processing that may be required to protect against illegal activities.',
+          'Right to be informed — Request to know': 'Right to be informed — Request to know',
+          'Depending on the circumstances, you have a right to know: whether we collect and use your personal information; the categories of personal information that we collect; the purposes for which the collected personal information is used; whether we sell your personal information to third parties;':
+            'Depending on the circumstances, you have a right to know: whether we collect and use your personal information; the categories of personal information that we collect; the purposes for which the collected personal information is used; whether we sell your personal information to third parties;',
+          'the categories of personal information that we sold or disclosed for a business purpose;':
+            'the categories of personal information that we sold or disclosed for a business purpose;',
+          'the categories of third parties to whom the personal information was sold or disclosed for a business purpose; and':
+            'the categories of third parties to whom the personal information was sold or disclosed for a business purpose; and',
+          'the business or commercial purpose for collecting or selling personal information.':
+            'the business or commercial purpose for collecting or selling personal information.',
+          'In accordance with applicable law, we are not obligated to provide or delete consumer information that is de-identified in response to a consumer request or to re- identify individual data to verify a consumer request.':
+            'In accordance with applicable law, we are not obligated to provide or delete consumer information that is de-identified in response to a consumer request or to re- identify individual data to verify a consumer request.',
+          'Right to Non-Discrimination for the Exercise of a Consumer’s Privacy Rights We will not discriminate against you if you exercise your privacy rights. Verification process':
+            'Right to Non-Discrimination for the Exercise of a Consumer’s Privacy Rights We will not discriminate against you if you exercise your privacy rights. Verification process',
+          'Upon receiving your request, we will need to verify your identity to determine you are the same person about whom we have the information in our system. These verification efforts require us to ask you to provide information so that we can match it with information you have previously provided us. For instance, depending on the type of request you submit, we may ask you to provide certain information so that we can match the information you provide with the information we already have on file, or we may contact you through a communication method (e.g., phone or email) that you have previously provided to us. We may also use other verification methods as the circumstances dictate.':
+            'Upon receiving your request, we will need to verify your identity to determine you are the same person about whom we have the information in our system. These verification efforts require us to ask you to provide information so that we can match it with information you have previously provided us. For instance, depending on the type of request you submit, we may ask you to provide certain information so that we can match the information you provide with the information we already have on file, or we may contact you through a communication method (e.g., phone or email) that you have previously provided to us. We may also use other verification methods as the circumstances dictate.',
+          'We will only use personal information provided in your request to verify your identity or authority to make the request. To the extent possible, we will avoid requesting additional information from you for the purposes of verification. However, if we cannot verify your identity from the information already maintained by us, we may request that you provide additional information for the purposes of verifying your identity and for security or fraud-prevention purposes. We will delete such additionally provided information as soon as we finish verifying you.':
+            'We will only use personal information provided in your request to verify your identity or authority to make the request. To the extent possible, we will avoid requesting additional information from you for the purposes of verification. However, if we cannot verify your identity from the information already maintained by us, we may request that you provide additional information for the purposes of verifying your identity and for security or fraud-prevention purposes. We will delete such additionally provided information as soon as we finish verifying you.',
+          'Other privacy rights You may object to the processing of your personal information.':
+            'Other privacy rights You may object to the processing of your personal information.',
+          'You may request correction of your personal data if it is incorrect or no longer relevant, or ask to restrict the processing of the information. You can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.':
+            'You may request correction of your personal data if it is incorrect or no longer relevant, or ask to restrict the processing of the information. You can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.',
+          'You may request to opt out from future selling of your personal information to third parties. Upon receiving an opt-out request, we will act upon the request as soon as feasibly possible, but no later than fifteen (15) days from the date of the request submission.':
+            'You may request to opt out from future selling of your personal information to third parties. Upon receiving an opt-out request, we will act upon the request as soon as feasibly possible, but no later than fifteen (15) days from the date of the request submission.',
+          'To exercise these rights, you can contact us by email at contact@falconconsulting.fr, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.':
+            'To exercise these rights, you can contact us by email at contact@falconconsulting.fr, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.',
+          'DO WE MAKE UPDATES TO THIS NOTICE?': 'DO WE MAKE UPDATES TO THIS NOTICE?',
+          'In Short: Yes, we will update this notice as necessary to stay compliant with relevant laws.':
+            'In Short: Yes, we will update this notice as necessary to stay compliant with relevant laws.',
+          "We may update this privacy notice from time to time. The updated version will be indicated by an updated 'Revised' date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.":
+            "We may update this privacy notice from time to time. The updated version will be indicated by an updated 'Revised' date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.",
+          'If you have questions or comments about this notice, you may email us at contact@falconconsulting.fr or by post to:':
+            'If you have questions or comments about this notice, you may email us at contact@falconconsulting.fr or by post to:',
+          "If you are a resident in the European Economic Area, the 'data controller' of your personal information is Falcon Consulting. Falcon Consulting has appointed Zain Asif to be its representative in the EEA. You can contact them directly regarding the processing of your information by Falcon Consulting, by email at zain.asif@falconconsulting.fr, by visiting falconconsulting.fr, or by post to:":
+            "If you are a resident in the European Economic Area, the 'data controller' of your personal information is Falcon Consulting. Falcon Consulting has appointed Zain Asif to be its representative in the EEA. You can contact them directly regarding the processing of your information by Falcon Consulting, by email at zain.asif@falconconsulting.fr, by visiting falconconsulting.fr, or by post to:",
+          // Title 7
+          'Data Breach Policy': 'Data Breach Policy',
+          // Body 7
+          'Data breaches are increasingly common occurrences whether caused through human error or malicious intent. Falcon Consulting operations rely on the proper use of Confidential Information and Personally Identifiable Information (PII) on a daily basis. Managing risk and responding in an organized way to Incidents and Breaches is key to operations.':
+            'Data breaches are increasingly common occurrences whether caused through human error or malicious intent. Falcon Consulting operations rely on the proper use of Confidential Information and Personally Identifiable Information (PII) on a daily basis. Managing risk and responding in an organized way to Incidents and Breaches is key to operations.',
+          'Falcon Consulting must have a robust and systematic process for responding to reported data security Incidents and Breaches. This policy is designed to standardize the Falcon Consulting-wide response to any reported Breach or Incident, and ensure that they are appropriately logged and managed in accordance with best practice guidelines. Standardized processes and procedures help to ensure the Falcon Consulting can act responsibly, respond effectively, and protect its information assets to the extent possible.':
+            'Falcon Consulting must have a robust and systematic process for responding to reported data security Incidents and Breaches. This policy is designed to standardize the Falcon Consulting-wide response to any reported Breach or Incident, and ensure that they are appropriately logged and managed in accordance with best practice guidelines. Standardized processes and procedures help to ensure the Falcon Consulting can act responsibly, respond effectively, and protect its information assets to the extent possible.',
+          'This policy applies to all Falcon Consulting staff.':
+            'This policy applies to all Falcon Consulting staff.',
+          'GENERAL INFORMATION': 'GENERAL INFORMATION',
+          "A 'Data Security Incident' or “Incident’ shall mean an accidental or deliberate event that results in or constitutes an imminent threat of the unauthorized access, loss, disclosure, modification, disruption, or destruction of communication or information resources of the Falcon Consulting.":
+            "A 'Data Security Incident' or “Incident’ shall mean an accidental or deliberate event that results in or constitutes an imminent threat of the unauthorized access, loss, disclosure, modification, disruption, or destruction of communication or information resources of the Falcon Consulting.",
+          'Common examples of data security Incidents include, but are not limited to, any of the following:':
+            'Common examples of data security Incidents include, but are not limited to, any of the following:',
+          'Successful attempts to gain unauthorized access to a Falcon Consulting system or regardless of where such information is located':
+            'Successful attempts to gain unauthorized access to a Falcon Consulting system or regardless of where such information is located',
+          'Unwanted disruption or denial of service': 'Unwanted disruption or denial of service',
+          'The unauthorized use of a Falcon Consulting system for the processing or storage of Confidential Information or PII':
+            'The unauthorized use of a Falcon Consulting system for the processing or storage of Confidential Information or PII',
+          'Changes to Falcon Consulting system hardware, firmware, or software characteristics without the Falcon Consulting’s knowledge, instruction, or consent':
+            'Changes to Falcon Consulting system hardware, firmware, or software characteristics without the Falcon Consulting’s knowledge, instruction, or consent',
+          'Loss or theft of equipment where Confidential Information or PII is stored':
+            'Loss or theft of equipment where Confidential Information or PII is stored',
+          'Unforeseen circumstances such as a fire or flood that could lead to the loss or misuse of Confidential Information or PII':
+            'Unforeseen circumstances such as a fire or flood that could lead to the loss or misuse of Confidential Information or PII',
+          'Human error involving the loss or mistaken transmission of Confidential Information or PII':
+            'Human error involving the loss or mistaken transmission of Confidential Information or PII',
+          'Hacking, social engineering, phishing or other subversive attacks where information is obtained by deceitful practice':
+            'Hacking, social engineering, phishing or other subversive attacks where information is obtained by deceitful practice',
+          "A 'Data Security Breach' or 'Breach' is any Incident where Falcon Consulting cannot put in place controls or take action to reasonably prevent the misuse of Confidential Information or PII. A Breach is also an Incident where data has been misused.":
+            "A 'Data Security Breach' or 'Breach' is any Incident where Falcon Consulting cannot put in place controls or take action to reasonably prevent the misuse of Confidential Information or PII. A Breach is also an Incident where data has been misused.",
+          'Adopting a standardized and consistent approach to Incident management shall ensure that:':
+            'Adopting a standardized and consistent approach to Incident management shall ensure that:',
+          'Incidents are reported in a timely manner and can be properly investigated':
+            'Incidents are reported in a timely manner and can be properly investigated',
+          'Incidents are handled by appropriately authorized and skilled personnel':
+            'Incidents are handled by appropriately authorized and skilled personnel',
+          'Appropriate levels of management are involved in response management':
+            'Appropriate levels of management are involved in response management',
+          'Incidents are recorded and documented': 'Incidents are recorded and documented',
+          'Organizational impacts are understood and action is taken to prevent further damage':
+            'Organizational impacts are understood and action is taken to prevent further damage',
+          'Evidence is gathered, recorded, and maintained in a form that will withstand internal and external scrutiny':
+            'Evidence is gathered, recorded, and maintained in a form that will withstand internal and external scrutiny',
+          'External agencies, customers, and data users are informed as required':
+            'External agencies, customers, and data users are informed as required',
+          'Incidents are dealt with in a timely manner and normal operations are restored':
+            'Incidents are dealt with in a timely manner and normal operations are restored',
+          'Incidents are reviewed to identify improvements in policies and procedures':
+            'Incidents are reviewed to identify improvements in policies and procedures',
+          'Incidents can occur locally, in the cloud, or through third party service providers. Reporting and management of Incidents shall occur similarly. Third party providers shall also be governed by contract terms and liability as defined in their operational agreements.':
+            'Incidents can occur locally, in the cloud, or through third party service providers. Reporting and management of Incidents shall occur similarly. Third party providers shall also be governed by contract terms and liability as defined in their operational agreements.',
+          'DATA CLASSIFICATIONS': 'DATA CLASSIFICATIONS',
+          'Incidents vary in impact and risk depending on a number of mitigating factors including the content and quantity of the data involved. It is critically important that Falcon Consulting management respond quickly and identify the data classification of the Incident. This allows staff to respond accordingly in a timely and thorough manner.':
+            'Incidents vary in impact and risk depending on a number of mitigating factors including the content and quantity of the data involved. It is critically important that Falcon Consulting management respond quickly and identify the data classification of the Incident. This allows staff to respond accordingly in a timely and thorough manner.',
+          'All reported Incidents shall be classified as below in order to assess risk and approaches to mitigate the situation. Data classification shall refer to the following Falcon Consulting data categories:':
+            'All reported Incidents shall be classified as below in order to assess risk and approaches to mitigate the situation. Data classification shall refer to the following Falcon Consulting data categories:',
+          'Public Data - Information intended for public and community use or information that can be made public without any negative impact on the Falcon Consulting or its customers. PII shall never be considered public data unless the data is Directory Information as defined by Falcon Consulting policy.':
+            'Public Data - Information intended for public and community use or information that can be made public without any negative impact on the Falcon Consulting or its customers. PII shall never be considered public data unless the data is Directory Information as defined by Falcon Consulting policy.',
+          'Confidential/Internal Data - Information of a more sensitive nature to the business and educational operations of Falcon Consulting. This data represents basic intellectual capital, applications, and general knowledge. Access shall be limited to only those people that need to know as part of their role within the Falcon Consulting. Employee and Educator PII (with the exception of Social Security Numbers (SSN), financial information, or other critical information) falls within this classification.':
+            'Confidential/Internal Data - Information of a more sensitive nature to the business and educational operations of Falcon Consulting. This data represents basic intellectual capital, applications, and general knowledge. Access shall be limited to only those people that need to know as part of their role within the Falcon Consulting. Employee and Educator PII (with the exception of Social Security Numbers (SSN), financial information, or other critical information) falls within this classification.',
+          'Highly Confidential Data- Information that, if breached, causes significant damage to Falcon Consulting operations, reputation, and/or business continuity. Access to this information should be highly restricted. PII falls into this category of data. Employee or Educator Financial Information, Social Security Numbers, and other critical information also fall into this classification.':
+            'Highly Confidential Data- Information that, if breached, causes significant damage to Falcon Consulting operations, reputation, and/or business continuity. Access to this information should be highly restricted. PII falls into this category of data. Employee or Educator Financial Information, Social Security Numbers, and other critical information also fall into this classification.',
+          'INCIDENT REPORTING': 'INCIDENT REPORTING',
+          'The following process shall be followed when responding to a suspected Incident:':
+            'The following process shall be followed when responding to a suspected Incident:',
+          'Confirmed or suspected Incidents shall be reported promptly to the Security manager. A formal report shall be filed that includes full and accurate details of the Incident including who is reporting the Incident and what classification of data is involved.':
+            'Confirmed or suspected Incidents shall be reported promptly to the Security manager. A formal report shall be filed that includes full and accurate details of the Incident including who is reporting the Incident and what classification of data is involved.',
+          'Once an Incident is reported, the Security manager shall conduct an assessment to establish the severity of the Incident, next steps in response, and potential remedies and solutions. Based on this assessment, the Security manager shall determine if this Incident remains an Incident or if it needs to be categorized as a Breach.':
+            'Once an Incident is reported, the Security manager shall conduct an assessment to establish the severity of the Incident, next steps in response, and potential remedies and solutions. Based on this assessment, the Security manager shall determine if this Incident remains an Incident or if it needs to be categorized as a Breach.',
+          'All Incidents and Breaches will be centrally logged and documented to ensure appropriate documentation, oversight, and consistency in response, management, and reporting.':
+            'All Incidents and Breaches will be centrally logged and documented to ensure appropriate documentation, oversight, and consistency in response, management, and reporting.',
+          CLASSIFICATION: 'CLASSIFICATION',
+          'Data Breaches or Incidents shall be classified as follows:':
+            'Data Breaches or Incidents shall be classified as follows:',
+          'Critical/Major Breach or Incident – Incidents or Breaches in this category deal with Confidential Information or PII and are on a large scale (Falcon Consulting-wide). All Incidents or Breaches involving PII will be classified as Critical or Major. They typically have the following attributes:':
+            'Critical/Major Breach or Incident – Incidents or Breaches in this category deal with Confidential Information or PII and are on a large scale (Falcon Consulting-wide). All Incidents or Breaches involving PII will be classified as Critical or Major. They typically have the following attributes:',
+          'Any Incident that has been determined to be a Breach':
+            'Any Incident that has been determined to be a Breach',
+          'Significant Confidential Information or PII loss, potential for lack of business continuity, Falcon Consulting exposure, or irreversible consequences are imminent':
+            'Significant Confidential Information or PII loss, potential for lack of business continuity, Falcon Consulting exposure, or irreversible consequences are imminent',
+          'Negative media coverage is likely and exposure is high':
+            'Negative media coverage is likely and exposure is high',
+          'Legal or contractual remedies may be required':
+            'Legal or contractual remedies may be required',
+          'Requires significant reporting beyond normal operating procedures':
+            'Requires significant reporting beyond normal operating procedures',
+          'Any breach of contract that involves the misuse or unauthorized access to PII by a Contract Provider':
+            'Any breach of contract that involves the misuse or unauthorized access to PII by a Contract Provider',
+          'Moderately Critical/Serious Incident – Breaches or Incidents in this category typically deal with Confidential Information and are on a medium scale (e.g. 100 users on the internal network, application or database related, limited exposure). Incidents in this category typically have the following attributes:':
+            'Moderately Critical/Serious Incident – Breaches or Incidents in this category typically deal with Confidential Information and are on a medium scale (e.g. 100 users on the internal network, application or database related, limited exposure). Incidents in this category typically have the following attributes:',
+          'Risk to the Falcon Consulting is moderate': 'Risk to the Falcon Consulting is moderate',
+          'Third party service provider and subcontractors may be involved':
+            'Third party service provider and subcontractors may be involved',
+          'Data loss is possible but localized/compartmentalized, potential for limited business continuity losses, and minimized Falcon Consulting exposure':
+            'Data loss is possible but localized/compartmentalized, potential for limited business continuity losses, and minimized Falcon Consulting exposure',
+          'Significant user inconvenience is likely': 'Significant user inconvenience is likely',
+          'Service outages are likely while the breach is addressed':
+            'Service outages are likely while the breach is addressed',
+          'Negative media coverage is possible but exposure is limited':
+            'Negative media coverage is possible but exposure is limited',
+          'Disclosure of Educator or Employee PII is contained and manageable':
+            'Disclosure of Educator or Employee PII is contained and manageable',
+          'Low Criticality/Minor Incident – Incidents in this category typically deal with personal or internal data and are on a small or individualized scale (e.g. 10 users on the internal network, personal or mobile device related). Incidents in this category typically have the following attributes:':
+            'Low Criticality/Minor Incident – Incidents in this category typically deal with personal or internal data and are on a small or individualized scale (e.g. 10 users on the internal network, personal or mobile device related). Incidents in this category typically have the following attributes:',
+          'Risk to the Falcon Consulting is low': 'Risk to the Falcon Consulting is low',
+          'User inconvenience is likely but not Falcon Consulting damaging':
+            'User inconvenience is likely but not Falcon Consulting damaging',
+          'Internal data released but data is not student, employee, or confidential in nature':
+            'Internal data released but data is not student, employee, or confidential in nature',
+          'Loss of data is totally contained on encrypted hardware':
+            'Loss of data is totally contained on encrypted hardware',
+          'Incident can be addressed through normal support channels':
+            'Incident can be addressed through normal support channels',
+          'INCIDENT RESPONSE': 'INCIDENT RESPONSE',
+          'Management response to any reported Incident shall involve the following activities:':
+            'Management response to any reported Incident shall involve the following activities:',
+          'Assess, Contain and Recover Data - All security Incidents shall have immediate analysis of the Incident and an Incident report completed by the Security manager or their designee. This analysis shall include a determination of whether this Incident should be characterized as a Breach. This analysis shall be documented and shared with the [Incident Appropriate Role], the affected parties, and any other relevant stakeholders. At a minimum, the Security manager shall:':
+            'Assess, Contain and Recover Data - All security Incidents shall have immediate analysis of the Incident and an Incident report completed by the Security manager or their designee. This analysis shall include a determination of whether this Incident should be characterized as a Breach. This analysis shall be documented and shared with the [Incident Appropriate Role], the affected parties, and any other relevant stakeholders. At a minimum, the Security manager shall:',
+          Step: 'Step',
+          Action: 'Action',
+          Notes: 'Notes',
+          'Containment and Recovery:': 'Containment and Recovery:',
+          'Contain the breach, limit further organizational damage, seek to recover/restore data.':
+            'Contain the breach, limit further organizational damage, seek to recover/restore data.',
+          'Breach Determination': 'Breach Determination,',
+          'Determine if the Incident needs to be classified as a Breach.':
+            'Determine if the Incident needs to be classified as a Breach.',
+          'Ascertain the severity of the Incident or Breach and determine the level of data involved.':
+            'Ascertain the severity of the Incident or Breach and determine the level of data involved.',
+          'See Incident Classification': 'See Incident Classification',
+          'Investigate the Breach or Incident and forward a copy of the Incident report to the Security manager':
+            'Investigate the Breach or Incident and forward a copy of the Incident report to the Security manager',
+          'Ensure investigator has appropriate resources including sufficient time and authority. If PII or confidential data has been breached, also contact the Security manager. In the event that the Incident or Breach is severe, Falcon Consulting executive management, general counsel and the Security manager shall be contacted':
+            'Ensure investigator has appropriate resources including sufficient time and authority. If PII or confidential data has been breached, also contact the Security manager. In the event that the Incident or Breach is severe, Falcon Consulting executive management, general counsel and the Security manager shall be contacted',
+          'Identify the cause of the Incident or breach and whether the situation has been contained. Ensure that any possibility of further data loss is removed or mitigated as far as possible. If this loss cannot be mitigated, any Incident will be characterized as a Breach.':
+            'Identify the cause of the Incident or breach and whether the situation has been contained. Ensure that any possibility of further data loss is removed or mitigated as far as possible. If this loss cannot be mitigated, any Incident will be characterized as a Breach.',
+          'Compartmentalize and eliminate exposure. Establish what steps can or need to be taken to contain the threat from further data loss. Contact all relevant departments who may be able to assist in this process. This may involve actions such as taking systems offline or restricting access to systems to a very small number of staff until more is known about the Incident.':
+            'Compartmentalize and eliminate exposure. Establish what steps can or need to be taken to contain the threat from further data loss. Contact all relevant departments who may be able to assist in this process. This may involve actions such as taking systems offline or restricting access to systems to a very small number of staff until more is known about the Incident.',
+          'Identify the cause of the Incident or breach and whether the situation has been Determine depth and breadth of losses and limit exposure/damages':
+            'Identify the cause of the Incident or breach and whether the situation has been Determine depth and breadth of losses and limit exposure/damages',
+          'Can data be physically recovered if damaged through use of backups, restoration or other means?':
+            'Can data be physically recovered if damaged through use of backups, restoration or other means?',
+          'Notify authorities as appropriate': 'Notify authorities as appropriate',
+          'For criminal activities where property was stolen or fraudulent activity occurred, contact the appropriate authorities and general counsel. Should the Breach involve PII that involves a Contract Provider, notify the Falcon Consulting Board members.':
+            'For criminal activities where property was stolen or fraudulent activity occurred, contact the appropriate authorities and general counsel. Should the Breach involve PII that involves a Contract Provider, notify the Falcon Consulting Board members.',
+          'Ensure all actions and decisions are logged and recorded as part of incident documentation and reporting.':
+            'Ensure all actions and decisions are logged and recorded as part of incident documentation and reporting.',
+          'Complete Incident Report and file with Security manager.':
+            'Complete Incident Report and file with Security manager.',
+          'Assess Risk and Incident Scope – All Incidents or Breaches shall have a risk and scope analysis completed by the Security manager or their designee. This analysis shall be documented and shared with the Security manager, the affected parties, and any other relevant stakeholders. At a minimum, the Security manager shall:':
+            'Assess Risk and Incident Scope – All Incidents or Breaches shall have a risk and scope analysis completed by the Security manager or their designee. This analysis shall be documented and shared with the Security manager, the affected parties, and any other relevant stakeholders. At a minimum, the Security manager shall:',
+          'Risk Assessment': 'Risk Assessment',
+          'Identify and assess ongoing risks that may be associated with the Incident or Breach.':
+            'Identify and assess ongoing risks that may be associated with the Incident or Breach.',
+          'Determine the type and breadth of the Incident or Breach':
+            'Determine the type and breadth of the Incident or Breach',
+          'Classify Incident or Breach type, data compromised, and extent of breach':
+            'Classify Incident or Breach type, data compromised, and extent of breach',
+          'Review data sensitivity': 'Review data sensitivity',
+          'Determine the confidentiality, scope and extent of the Incident or Breach.':
+            'Determine the confidentiality, scope and extent of the Incident or Breach.',
+          'Understand the current status of the compromised data':
+            'Understand the current status of the compromised data',
+          'If data has been stolen, could it be used for purposes that harm the individuals whose identity has been compromised; If identity theft is involved, this poses a different type and level of risk.':
+            'If data has been stolen, could it be used for purposes that harm the individuals whose identity has been compromised; If identity theft is involved, this poses a different type and level of risk.',
+          'Document risk limiting processes or technology components that contain and manage the Incident':
+            'Document risk limiting processes or technology components that contain and manage the Incident',
+          'Does encryption of data/device help to limit risk of exposure?':
+            'Does encryption of data/device help to limit risk of exposure?',
+          'Determine what technologies or processes will mitigate the loss and restore service':
+            'Determine what technologies or processes will mitigate the loss and restore service',
+          'Are there backups of the compromised data? Can they be restored to a ready state?':
+            'Are there backups of the compromised data? Can they be restored to a ready state?',
+          'Identify and document the scope, number of users affected, and depth of Incident or Breach':
+            'Identify and document the scope, number of users affected, and depth of Incident or Breach',
+          'How many individuals’ personally identifiable information were affected?':
+            'How many individuals’ personally identifiable information were affected?',
+          'Define individuals and roles whose data was compromised':
+            'Define individuals and roles whose data was compromised',
+          'Identify all staff, districts, customers or vendors involved in the Incident or Breach':
+            'Identify all staff, districts, customers or vendors involved in the Incident or Breach',
+          'If exploited, what will the compromised data tell a third party about the individual? Could it be misused?':
+            'If exploited, what will the compromised data tell a third party about the individual? Could it be misused?',
+          'Confidential Information or PII could mean very little to an opportunistic laptop thief while the loss of apparently trivial snippets of information could help a criminal build up a detailed picture associated with identity theft or fraud.':
+            'Confidential Information or PII could mean very little to an opportunistic laptop thief while the loss of apparently trivial snippets of information could help a criminal build up a detailed picture associated with identity theft or fraud.',
+          'Determine actual or potential harm that could come to any individuals':
+            'Determine actual or potential harm that could come to any individuals',
+          'Identify risks to individuals:': 'Identify risks to individuals:',
+          'Physical Safety': 'Physical Safety',
+          'Emotional Wellbeing': 'Emotional Wellbeing',
+          'Personal or Business Reputation': 'Personal or Business Reputation',
+          'Financial Implications': 'Financial Implications',
+          'Identity Concerns': 'Identity Concerns',
+          'A combination of these and other private aspects of their life?':
+            'A combination of these and other private aspects of their life?',
+          'Are there wider consequences to consider?': 'Are there wider consequences to consider?',
+          'Is there risk to another LEP, the state, or loss of public confidence?':
+            'Is there risk to another LEP, the state, or loss of public confidence?',
+          'Are there others who might provide support or advise on risks/courses of action?':
+            'Are there others who might provide support or advise on risks/courses of action?',
+          'Contact all local education providers, agencies, or companies impacted by the breached data, notify them about the Incident, and ask for assistance in limiting the scope of the Incident.':
+            'Contact all local education providers, agencies, or companies impacted by the breached data, notify them about the Incident, and ask for assistance in limiting the scope of the Incident.',
+          'Notification and Incident Communications - Each security Incident or Breach determined to be “moderately critical” or “critical” shall have communication plans documented by the security senior leadership, and their designees to appropriately manage the Incident and communicate progress on its resolution to all effected stakeholders. At a minimum, the Security manager shall:':
+            'Notification and Incident Communications - Each security Incident or Breach determined to be “moderately critical” or “critical” shall have communication plans documented by the security senior leadership, and their designees to appropriately manage the Incident and communicate progress on its resolution to all effected stakeholders. At a minimum, the Security manager shall:',
+          'Notification and Communications': 'Notification and Communications',
+          'Notification enables affected stakeholders to take precautionary steps and allow regulatory bodies to act on the Incident or Breach.':
+            'Notification enables affected stakeholders to take precautionary steps and allow regulatory bodies to act on the Incident or Breach.',
+          'Are there legal, contractual or regulatory notification requirements associated  with the Incident or Breach?':
+            'Are there legal, contractual or regulatory notification requirements associated  with the Incident or Breach?',
+          'Review vendor contracts and compliance terms, assure state and federal reporting and notifications are understood. Contact Legal as necessary to begin contractual adherence. Should the Breach include PII, initiate the Falcon Consulting Board hearing process.':
+            'Review vendor contracts and compliance terms, assure state and federal reporting and notifications are understood. Contact Legal as necessary to begin contractual adherence. Should the Breach include PII, initiate the Falcon Consulting Board hearing process.',
+          'Notify impacted individuals of Incident or Breach remedies.':
+            'Notify impacted individuals of Incident or Breach remedies.',
+          'Provide individuals involved in the Incident or Breach with mitigation strategies to re-secure data (e.g. change user id and/or passwords etc.)':
+            'Provide individuals involved in the Incident or Breach with mitigation strategies to re-secure data (e.g. change user id and/or passwords etc.)',
+          'Determine Internal Communication Plans': 'Determine Internal Communication Plans',
+          'Work with senior leadership and provide regular internal updates on status of Incident or Breach, remedies underway, and current exposure and containment strategies. This messaging should be provided to all internal state stakeholders and management. Messaging shall be coordinated through the Security office.':
+            'Work with senior leadership and provide regular internal updates on status of Incident or Breach, remedies underway, and current exposure and containment strategies. This messaging should be provided to all internal state stakeholders and management. Messaging shall be coordinated through the Security office.',
+          'Determine Public Messaging': 'Determine Public Messaging',
+          'Prepare and execute a communication and follow-up plan with Security manager and senior leadership. Communication strategies need to define audience(s), frequency, messaging, and content.':
+            'Prepare and execute a communication and follow-up plan with Security manager and senior leadership. Communication strategies need to define audience(s), frequency, messaging, and content.',
+          'Execute Messaging Plan': 'Execute Messaging Plan',
+          'Working through the Security manager and appropriate leadership, execute the public and internal communication plans. Depending on the nature and scope of the Incident or Breach, multiple messages may need to be delivered as well as press and public communiques. Minimally notifications should include:':
+            'Working through the Security manager and appropriate leadership, execute the public and internal communication plans. Depending on the nature and scope of the Incident or Breach, multiple messages may need to be delivered as well as press and public communiques. Minimally notifications should include:',
+          'A description of the Incident or Breach (how and when it occurred)':
+            'A description of the Incident or Breach (how and when it occurred)',
+          'What data was involved and whose data was compromised':
+            'What data was involved and whose data was compromised',
+          'Details of what has been done to respond to the Incident or Breach and any associated risks posed':
+            'Details of what has been done to respond to the Incident or Breach and any associated risks posed',
+          'Next-steps for stakeholders': 'Next-steps for stakeholders',
+          'Falcon Consulting contacts for the Incident or Breach, any follow-, and other pertinent information':
+            'Falcon Consulting contacts for the Incident or Breach, any follow-, and other pertinent information',
+          'When notifying individuals, provide specific and clear advice on the steps they can take to protect themselves and what the Falcon Consulting and/or third party vendor will do to help minimize their exposure':
+            'When notifying individuals, provide specific and clear advice on the steps they can take to protect themselves and what the Falcon Consulting and/or third party vendor will do to help minimize their exposure',
+          'Provide a way in which they can contact Falcon Consulting for further information or to ask questions about what has occurred (e.g. a contact name, helpline number or a web page)':
+            'Provide a way in which they can contact Falcon Consulting for further information or to ask questions about what has occurred (e.g. a contact name, helpline number or a web page)',
+          "Post Mortem Evaluation and Response – Each Incident or Breach determined to be 'moderately critical' or 'critical' shall have a post mortem analysis completed by the Security manager and their designees to appropriately document, analyze, and make recommendations on ways to limit risk and exposure in the future. At a minimum, the Security manager shall:":
+            "Post Mortem Evaluation and Response – Each Incident or Breach determined to be 'moderately critical' or 'critical' shall have a post mortem analysis completed by the Security manager and their designees to appropriately document, analyze, and make recommendations on ways to limit risk and exposure in the future. At a minimum, the Security manager shall:",
+          'Evaluation and Response': 'Evaluation and Response',
+          'To evaluate the effectiveness of the University’s response to the Incident or Breach.':
+            'To evaluate the effectiveness of the University’s response to the Incident or Breach.',
+          'Establish where any present or future risks lie.':
+            'Establish where any present or future risks lie.',
+          'Assess and evaluate the root causes of the Incident or Breach and any ways to mitigate and/or prevent a similar occurrence.':
+            'Assess and evaluate the root causes of the Incident or Breach and any ways to mitigate and/or prevent a similar occurrence.',
+          'Consider the data and security measures employed.':
+            'Consider the data and security measures employed.',
+          'Evaluate, analyze, and document the use cases and technical components of the Incident or Breach. Document areas for improvement in environment, technology, or approach that limit future security exposures. Make recommendations as appropriate.':
+            'Evaluate, analyze, and document the use cases and technical components of the Incident or Breach. Document areas for improvement in environment, technology, or approach that limit future security exposures. Make recommendations as appropriate.',
+          'Evaluate and identify areas of weakness in existing security measures and procedures.':
+            'Evaluate and identify areas of weakness in existing security measures and procedures.',
+          'Document lapses in process, procedure, or policy that may have caused the Incident or Breach. Analyze and document solutions and remedies to reduce future risks.':
+            'Document lapses in process, procedure, or policy that may have caused the Incident or Breach. Analyze and document solutions and remedies to reduce future risks.',
+          'Evaluate and identify areas of weakness related to employee skills.':
+            'Evaluate and identify areas of weakness related to employee skills.',
+          'Assess employee readiness, education, and training. Document and plan for updates in education or procedural changes to eliminate potential for future Incidents.':
+            'Assess employee readiness, education, and training. Document and plan for updates in education or procedural changes to eliminate potential for future Incidents.',
+          'Report on findings and implement recommendations.':
+            'Report on findings and implement recommendations.',
+          'Prepare report and presentation to Falcon Consulting for major Incidents or Breaches.':
+            'Prepare report and presentation to Falcon Consulting for major Incidents or Breaches.',
+          'Each of these four elements shall be conducted as appropriate for all qualifying Incidents or Breaches. An activity log recording the timeline of Incident management shall also be completed. Reporting and documentation shall be filed and managed through the office of the Security Manager.':
+            'Each of these four elements shall be conducted as appropriate for all qualifying Incidents or Breaches. An activity log recording the timeline of Incident management shall also be completed. Reporting and documentation shall be filed and managed through the office of the Security Manager.',
+          'Audit Controls and Management': 'Audit Controls and Management',
+          'On-demand documented procedures and evidence of practice should be in place for this operational policy. Appropriate audit controls and management practice examples are as follows:':
+            'On-demand documented procedures and evidence of practice should be in place for this operational policy. Appropriate audit controls and management practice examples are as follows:',
+          'Archival completed Incident Reports demonstrating compliance with reporting, communication and follow-through.':
+            'Archival completed Incident Reports demonstrating compliance with reporting, communication and follow-through.',
+          'Executed communication plans for Incident management.':
+            'Executed communication plans for Incident management.',
+          'Evidence of cross-departmental communication throughout the analysis, response and post-mortem processes.':
+            'Evidence of cross-departmental communication throughout the analysis, response and post-mortem processes.',
+          'Staff members found in policy violation may be subject to disciplinary action, up to and including termination.':
+            'Staff members found in policy violation may be subject to disciplinary action, up to and including termination.',
+          Distribution: 'Distribution',
+          'This policy is to be distributed to all Falcon Consulting staff.':
+            'This policy is to be distributed to all Falcon Consulting staff.'
+        }
       },
       fr: {
         translations: {
+          // Privacy Policy
+          // Title 7
+          'Data Breach Policy': 'Politique de violation de données',
+          // Body 7
+          'This policy is to be distributed to all Falcon Consulting staff.':
+            'Cette politique doit être distribuée à tout le personnel de Falcon Consulting.',
+          Distribution: 'Distribution',
+          'Staff members found in policy violation may be subject to disciplinary action, up to and including termination.':
+            "Les membres du personnel trouvés en violation de la politique peuvent faire l'objet de mesures disciplinaires pouvant aller jusqu'au licenciement.",
+          'Evidence of cross-departmental communication throughout the analysis, response and post-mortem processes.':
+            "Preuve de communication interdépartementale tout au long des processus d'analyse, de réponse et post-mortem.",
+          'Executed communication plans for Incident management.':
+            'Exécution des plans de communication pour la gestion des incidents.',
+          'Archival completed Incident Reports demonstrating compliance with reporting, communication and follow-through.':
+            "Archivage des rapports d'incident remplis démontrant la conformité avec les rapports, la communication et le suivi.",
+          'On-demand documented procedures and evidence of practice should be in place for this operational policy. Appropriate audit controls and management practice examples are as follows:':
+            "Des procédures documentées à la demande et des preuves de pratique doivent être en place pour cette politique opérationnelle. Les contrôles d'audit appropriés et les exemples de pratiques de gestion sont les suivants :",
+          'Audit Controls and Management': 'Contrôles et gestion des audits',
+          'Each of these four elements shall be conducted as appropriate for all qualifying Incidents or Breaches. An activity log recording the timeline of Incident management shall also be completed. Reporting and documentation shall be filed and managed through the office of the Security Manager.':
+            "Chacun de ces quatre éléments doit être mené de manière appropriée pour tous les Incidents ou Violations éligibles. Un journal d'activité enregistrant la chronologie de la gestion des incidents doit également être rempli. Les rapports et la documentation doivent être classés et gérés par le bureau du responsable de la sécurité.",
+          'Prepare report and presentation to Falcon Consulting for major Incidents or Breaches.':
+            'Préparer un rapport et une présentation à Falcon Consulting pour les incidents ou violations majeurs.',
+          'Report on findings and implement recommendations.':
+            'Rendre compte des conclusions et mettre en œuvre les recommandations.',
+          'Assess employee readiness, education, and training. Document and plan for updates in education or procedural changes to eliminate potential for future Incidents.':
+            "Évaluer l'état de préparation, l'éducation et la formation des employés. Documentez et planifiez les mises à jour dans l'éducation ou les changements de procédure pour éliminer le potentiel d'incidents futurs.",
+          'Evaluate and identify areas of weakness related to employee skills.':
+            'Évaluer et identifier les points faibles liés aux compétences des employés.',
+          'Document lapses in process, procedure, or policy that may have caused the Incident or Breach. Analyze and document solutions and remedies to reduce future risks.':
+            "Documenter les manquements au processus, à la procédure ou à la politique qui peuvent avoir causé l'Incident ou la Violation. Analysez et documentez les solutions et les remèdes pour réduire les risques futurs.",
+          'Evaluate and identify areas of weakness in existing security measures and procedures.':
+            'Évaluer et identifier les points faibles des mesures et procédures de sécurité existantes.',
+          'Evaluate, analyze, and document the use cases and technical components of the Incident or Breach. Document areas for improvement in environment, technology, or approach that limit future security exposures. Make recommendations as appropriate.':
+            "Évaluer, analyser et documenter les cas d'utilisation et les composants techniques de l'Incident ou de la Violation. Documentez les domaines d'amélioration de l'environnement, de la technologie ou de l'approche qui limitent les futures expositions à la sécurité. Faire des recommandations, le cas échéant.",
+          'Consider the data and security measures employed.':
+            'Considérez les données et les mesures de sécurité utilisées.',
+          'Assess and evaluate the root causes of the Incident or Breach and any ways to mitigate and/or prevent a similar occurrence.':
+            "Évaluer et évaluer les causes profondes de l'Incident ou de la Violation et tout moyen d'atténuer et/ou de prévenir un événement similaire.",
+          'Establish where any present or future risks lie.':
+            'Déterminez où se situent les risques présents ou futurs.',
+          'To evaluate the effectiveness of the University’s response to the Incident or Breach.':
+            "Évaluer l'efficacité de la réponse de l'Université à l'Incident ou à la Violation.",
+          'Evaluation and Response': 'Évaluation et réponse',
+          "Post Mortem Evaluation and Response – Each Incident or Breach determined to be 'moderately critical' or 'critical' shall have a post mortem analysis completed by the Security manager and their designees to appropriately document, analyze, and make recommendations on ways to limit risk and exposure in the future. At a minimum, the Security manager shall:":
+            "Évaluation et réponse post mortem - Chaque incident ou violation déterminé comme « modérément critique » ou « critique » doit faire l'objet d'une analyse post mortem effectuée par le responsable de la sécurité et ses délégués afin de documenter, d'analyser et de faire des recommandations appropriées sur les moyens de limiter les risques et exposition à l'avenir. Au minimum, le responsable de la sécurité doit :",
+          'Provide a way in which they can contact Falcon Consulting for further information or to ask questions about what has occurred (e.g. a contact name, helpline number or a web page)':
+            "Fournir un moyen par lequel ils peuvent contacter Falcon Consulting pour plus d'informations ou pour poser des questions sur ce qui s'est passé (par exemple, un nom de contact, un numéro d'assistance ou une page Web)",
+          'When notifying individuals, provide specific and clear advice on the steps they can take to protect themselves and what the Falcon Consulting and/or third party vendor will do to help minimize their exposure':
+            "Lors de la notification des personnes, fournissez des conseils précis et clairs sur les mesures qu'elles peuvent prendre pour se protéger et sur ce que Falcon Consulting et/ou le fournisseur tiers feront pour aider à minimiser leur exposition",
+          'Falcon Consulting contacts for the Incident or Breach, any follow-, and other pertinent information':
+            "Contacts de Falcon Consulting pour l'Incident ou la Violation, tout suivi et autres informations pertinentes",
+          'Next-steps for stakeholders': 'Prochaines étapes pour les parties prenantes',
+          'Details of what has been done to respond to the Incident or Breach and any associated risks posed':
+            "Détails de ce qui a été fait pour répondre à l'Incident ou à la Violation et tout risque associé posé",
+          'What data was involved and whose data was compromised':
+            'Quelles données étaient impliquées et quelles données ont été compromises',
+          'A description of the Incident or Breach (how and when it occurred)':
+            "Une description de l'Incident ou de la Violation (comment et quand il s'est produit)",
+          'Working through the Security manager and appropriate leadership, execute the public and internal communication plans. Depending on the nature and scope of the Incident or Breach, multiple messages may need to be delivered as well as press and public communiques. Minimally notifications should include:':
+            "En collaboration avec le responsable de la sécurité et la direction appropriée, exécuter les plans de communication publics et internes. Selon la nature et la portée de l'Incident ou de la Violation, plusieurs messages peuvent devoir être transmis ainsi que des communiqués de presse et publics. Au minimum, les notifications doivent inclure :",
+          'Execute Messaging Plan': 'Exécuter le plan de messagerie',
+          'Prepare and execute a communication and follow-up plan with Security manager and senior leadership. Communication strategies need to define audience(s), frequency, messaging, and content.':
+            'Préparer et exécuter un plan de communication et de suivi avec le responsable de la sécurité et la haute direction. Les stratégies de communication doivent définir le(s) public(s), la fréquence, les messages et le contenu.',
+          'Determine Public Messaging': 'Déterminer la messagerie publique',
+          'Work with senior leadership and provide regular internal updates on status of Incident or Breach, remedies underway, and current exposure and containment strategies. This messaging should be provided to all internal state stakeholders and management. Messaging shall be coordinated through the Security office.':
+            "Travailler avec la haute direction et fournir des mises à jour internes régulières sur l'état de l'incident ou de la violation, les solutions en cours et les stratégies d'exposition et de confinement actuelles. Ce message doit être fourni à toutes les parties prenantes internes de l'État et à la direction. La messagerie doit être coordonnée par le bureau de la sécurité.",
+          'Determine Internal Communication Plans': 'Déterminer les plans de communication interne',
+          'Provide individuals involved in the Incident or Breach with mitigation strategies to re-secure data (e.g. change user id and/or passwords etc.)':
+            "Fournir aux personnes impliquées dans l'Incident ou la Violation des stratégies d'atténuation pour re-sécuriser les données (par exemple, changer l'identifiant d'utilisateur et/ou les mots de passe, etc.)",
+          'Notify impacted individuals of Incident or Breach remedies.':
+            "Informez les personnes concernées des mesures correctives en cas d'incident ou de violation.",
+          'Review vendor contracts and compliance terms, assure state and federal reporting and notifications are understood. Contact Legal as necessary to begin contractual adherence. Should the Breach include PII, initiate the Falcon Consulting Board hearing process.':
+            "Examinez les contrats des fournisseurs et les conditions de conformité, assurez-vous que les rapports et les notifications étatiques et fédéraux sont compris. Contactez le service juridique si nécessaire pour commencer le respect du contrat. Si la Violation comprend des PII, lancer le processus d'audience du Falcon Consulting Board.",
+          'Are there legal, contractual or regulatory notification requirements associated  with the Incident or Breach?':
+            "Existe-t-il des exigences de notification légales, contractuelles ou réglementaires associées à l'Incident ou à la Violation ?",
+          'Notification enables affected stakeholders to take precautionary steps and allow regulatory bodies to act on the Incident or Breach.':
+            "La notification permet aux parties prenantes concernées de prendre des mesures de précaution et aux organismes de réglementation d'agir sur l'Incident ou la Violation.",
+          'Notification and Communications': 'Avis et communications',
+          'Notification and Incident Communications - Each security Incident or Breach determined to be “moderately critical” or “critical” shall have communication plans documented by the security senior leadership, and their designees to appropriately manage the Incident and communicate progress on its resolution to all effected stakeholders. At a minimum, the Security manager shall:':
+            "Notification et communications d'incident - Chaque incident ou violation de sécurité déterminé comme « modérément critique » ou « critique » doit avoir des plans de communication documentés par la haute direction de la sécurité et leurs délégués pour gérer de manière appropriée l'incident et communiquer les progrès de sa résolution à toutes les parties prenantes concernées. . Au minimum, le responsable de la sécurité doit :",
+          'Contact all local education providers, agencies, or companies impacted by the breached data, notify them about the Incident, and ask for assistance in limiting the scope of the Incident.':
+            "Contactez tous les fournisseurs d'enseignement, agences ou entreprises locaux touchés par les données piratées, informez-les de l'Incident et demandez de l'aide pour limiter la portée de l'Incident.",
+          'Are there others who might provide support or advise on risks/courses of action?':
+            "Y a-t-il d'autres personnes qui pourraient fournir un soutien ou des conseils sur les risques/lignes d'action ?",
+          'Is there risk to another LEP, the state, or loss of public confidence?':
+            "Y a-t-il un risque pour un autre LEP, l'État ou une perte de confiance du public ?",
+          'Are there wider consequences to consider?':
+            'Y a-t-il des conséquences plus larges à considérer ?',
+          'A combination of these and other private aspects of their life?':
+            "Une combinaison de ces aspects et d'autres aspects privés de leur vie ?",
+          'Identity Concerns': "Problèmes d'identité",
+          'Financial Implications': 'Implications financières',
+          'Personal or Business Reputation': 'Réputation personnelle ou professionnelle',
+          'Emotional Wellbeing': 'Bien-être émotionnel',
+          'Physical Safety': 'Sécurité physique',
+          'Identify risks to individuals:': 'Identifier les risques pour les individus :',
+          'Determine actual or potential harm that could come to any individuals':
+            "Déterminer les dommages réels ou potentiels qui pourraient survenir à n'importe quel individu",
+          'Confidential Information or PII could mean very little to an opportunistic laptop thief while the loss of apparently trivial snippets of information could help a criminal build up a detailed picture associated with identity theft or fraud.':
+            "Les informations confidentielles ou PII pourraient signifier très peu pour un voleur d'ordinateur portable opportuniste, tandis que la perte d'extraits d'informations apparemment insignifiants pourrait aider un criminel à se faire une image détaillée associée au vol d'identité ou à la fraude.",
+          'If exploited, what will the compromised data tell a third party about the individual? Could it be misused?':
+            "Si elles sont exploitées, que diront les données compromises à un tiers sur l'individu ? Peut-il être mal utilisé ?",
+          'Identify all staff, districts, customers or vendors involved in the Incident or Breach':
+            "Identifier tout le personnel, les districts, les clients ou les fournisseurs impliqués dans l'incident ou la violation",
+          'Define individuals and roles whose data was compromised':
+            'Définir les individus et les rôles dont les données ont été compromises',
+          'How many individuals’ personally identifiable information were affected?':
+            "Combien d'informations personnellement identifiables d'individus ont été affectées ?",
+          'Identify and document the scope, number of users affected, and depth of Incident or Breach':
+            "Identifier et documenter la portée, le nombre d'utilisateurs affectés et la profondeur de l'incident ou de la violation",
+          'Are there backups of the compromised data? Can they be restored to a ready state?':
+            'Existe-t-il des sauvegardes des données compromises ? Peuvent-ils être restaurés dans un état prêt ?',
+          'Determine what technologies or processes will mitigate the loss and restore service':
+            'Déterminer quelles technologies ou processus atténueront la perte et restaureront le service',
+          'Does encryption of data/device help to limit risk of exposure?':
+            "Le cryptage des données/de l'appareil aide-t-il à limiter le risque d'exposition ?",
+          'Document risk limiting processes or technology components that contain and manage the Incident':
+            "Documenter les processus de limitation des risques ou les composants technologiques qui contiennent et gèrent l'incident",
+          'If data has been stolen, could it be used for purposes that harm the individuals whose identity has been compromised; If identity theft is involved, this poses a different type and level of risk.':
+            "Si des données ont été volées, pourraient-elles être utilisées à des fins préjudiciables aux personnes dont l'identité a été compromise ; Si le vol d'identité est impliqué, cela pose un type et un niveau de risque différents.",
+          'Understand the current status of the compromised data':
+            "Comprendre l'état actuel des données compromises",
+          'Determine the confidentiality, scope and extent of the Incident or Breach.':
+            "Déterminer la confidentialité, la portée et l'étendue de l'Incident ou de la Violation.",
+          'Review data sensitivity': 'Examiner la sensibilité des données',
+          'Classify Incident or Breach type, data compromised, and extent of breach':
+            "Classer le type d'incident ou de violation, les données compromises et l'étendue de la violation",
+          'Determine the type and breadth of the Incident or Breach':
+            "Déterminer le type et l'ampleur de l'Incident ou de la Violation",
+          'Identify and assess ongoing risks that may be associated with the Incident or Breach.':
+            "Identifier et évaluer les risques continus qui peuvent être associés à l'Incident ou à la Violation.",
+          'Risk Assessment': "L'évaluation des risques",
+          'Assess Risk and Incident Scope – All Incidents or Breaches shall have a risk and scope analysis completed by the Security manager or their designee. This analysis shall be documented and shared with the Security manager, the affected parties, and any other relevant stakeholders. At a minimum, the Security manager shall:':
+            "Évaluer les risques et la portée de l'incident - Tous les incidents ou violations doivent faire l'objet d'une analyse des risques et de la portée effectuée par le responsable de la sécurité ou son délégué. Cette analyse doit être documentée et partagée avec le responsable de la sécurité, les parties concernées et toute autre partie prenante concernée. Au minimum, le responsable de la sécurité doit :",
+          'Complete Incident Report and file with Security manager.':
+            "Remplir le rapport d'incident et le déposer auprès du responsable de la sécurité.",
+          'Ensure all actions and decisions are logged and recorded as part of incident documentation and reporting.':
+            'Assurez-vous que toutes les actions et décisions sont consignées et enregistrées dans le cadre de la documentation et des rapports sur les incidents.',
+          'For criminal activities where property was stolen or fraudulent activity occurred, contact the appropriate authorities and general counsel. Should the Breach involve PII that involves a Contract Provider, notify the Falcon Consulting Board members.':
+            "Pour les activités criminelles où des biens ont été volés ou des activités frauduleuses se sont produites, contactez les autorités compétentes et l'avocat général. Si la Violation implique des PII impliquant un Fournisseur de contrat, informez-en les membres du Falcon Consulting Board.",
+          'Notify authorities as appropriate': 'Aviser les autorités, le cas échéant',
+          'Can data be physically recovered if damaged through use of backups, restoration or other means?':
+            "Les données peuvent-elles être physiquement récupérées si elles sont endommagées par l'utilisation de sauvegardes, de restaurations ou d'autres moyens ?",
+          'Identify the cause of the Incident or breach and whether the situation has been Determine depth and breadth of losses and limit exposure/damages':
+            "Identifier la cause de l'incident ou de la violation et déterminer si la situation a été déterminée Déterminer l'ampleur et l'ampleur des pertes et limiter l'exposition/les dommages",
+          'Compartmentalize and eliminate exposure. Establish what steps can or need to be taken to contain the threat from further data loss. Contact all relevant departments who may be able to assist in this process. This may involve actions such as taking systems offline or restricting access to systems to a very small number of staff until more is known about the Incident.':
+            "Compartimenter et éliminer l'exposition. Déterminez quelles mesures peuvent ou doivent être prises pour contenir la menace d'une nouvelle perte de données. Contactez tous les départements concernés qui peuvent être en mesure de vous aider dans ce processus. Cela peut impliquer des actions telles que la mise hors ligne des systèmes ou la restriction de l'accès aux systèmes à un très petit nombre d'employés jusqu'à ce que l'on en sache plus sur l'incident.",
+          'Identify the cause of the Incident or breach and whether the situation has been contained. Ensure that any possibility of further data loss is removed or mitigated as far as possible. If this loss cannot be mitigated, any Incident will be characterized as a Breach.':
+            "Identifier la cause de l'Incident ou de la violation et si la situation a été maîtrisée. Assurez-vous que toute possibilité de perte de données supplémentaire est supprimée ou atténuée dans la mesure du possible. Si cette perte ne peut être atténuée, tout Incident sera qualifié d'Infraction.",
+          'Ensure investigator has appropriate resources including sufficient time and authority. If PII or confidential data has been breached, also contact the Security manager. In the event that the Incident or Breach is severe, Falcon Consulting executive management, general counsel and the Security manager shall be contacted':
+            "Assurez-vous que l'enquêteur dispose des ressources appropriées, y compris suffisamment de temps et d'autorité. Si des informations personnelles ou des données confidentielles ont été violées, contactez également le responsable de la sécurité. Dans le cas où l'Incident ou la Violation est grave, la direction générale de Falcon Consulting, le directeur juridique et le responsable de la sécurité seront contactés.",
+          'Investigate the Breach or Incident and forward a copy of the Incident report to the Security manager':
+            "Enquêter sur la violation ou l'incident et transmettre une copie du rapport d'incident au responsable de la sécurité",
+          'See Incident Classification': 'Voir la classification des incidents',
+          'Ascertain the severity of the Incident or Breach and determine the level of data involved.':
+            "Vérifier la gravité de l'Incident ou de la Violation et déterminer le niveau de données impliqué.",
+          'Determine if the Incident needs to be classified as a Breach.':
+            "Déterminez si l'incident doit être classé comme une infraction.",
+          'Breach Determination': "Détermination de l'infraction",
+          'Contain the breach, limit further organizational damage, seek to recover/restore data.':
+            'Contenir la violation, limiter les dommages organisationnels supplémentaires, chercher à récupérer/restaurer les données.',
+          'Containment and Recovery:': 'Confinement et récupération :',
+          Notes: 'Remarques',
+          Action: 'Action',
+          Step: 'Marcher',
+          'Assess, Contain and Recover Data - All security Incidents shall have immediate analysis of the Incident and an Incident report completed by the Security manager or their designee. This analysis shall include a determination of whether this Incident should be characterized as a Breach. This analysis shall be documented and shared with the [Incident Appropriate Role], the affected parties, and any other relevant stakeholders. At a minimum, the Security manager shall:':
+            "Évaluer, contenir et récupérer les données - Tous les incidents de sécurité doivent faire l'objet d'une analyse immédiate de l'incident et d'un rapport d'incident rempli par le responsable de la sécurité ou son délégué. Cette analyse comprendra une détermination de la question de savoir si cet Incident doit être qualifié de Violation. Cette analyse doit être documentée et partagée avec le [rôle approprié de l'incident], les parties concernées et toute autre partie prenante concernée. Au minimum, le responsable de la sécurité doit :",
+          'Management response to any reported Incident shall involve the following activities:':
+            'La réponse de la direction à tout incident signalé impliquera les activités suivantes :',
+          'INCIDENT RESPONSE': 'RÉPONSE AUX INCIDENTS',
+          'Incident can be addressed through normal support channels':
+            "L'incident peut être traité via les canaux d'assistance normaux",
+          'Loss of data is totally contained on encrypted hardware':
+            'La perte de données est totalement contenue sur le matériel crypté',
+          'Internal data released but data is not student, employee, or confidential in nature':
+            'Données internes publiées mais les données ne sont pas de nature étudiante, employée ou confidentielle',
+          'User inconvenience is likely but not Falcon Consulting damaging':
+            'Les désagréments pour les utilisateurs sont probables mais pas dommageables pour Falcon Consulting',
+          'Risk to the Falcon Consulting is low': 'Le risque pour Falcon Consulting est faible',
+          'Low Criticality/Minor Incident – Incidents in this category typically deal with personal or internal data and are on a small or individualized scale (e.g. 10 users on the internal network, personal or mobile device related). Incidents in this category typically have the following attributes:':
+            'Faible criticité/Incident mineur – Les incidents de cette catégorie concernent généralement des données personnelles ou internes et sont à petite échelle ou individualisés (par exemple, 10 utilisateurs sur le réseau interne, liés à un appareil personnel ou mobile). Les incidents de cette catégorie ont généralement les attributs suivants :',
+          'Disclosure of Educator or Employee PII is contained and manageable':
+            "La divulgation des PII de l'éducateur ou de l'employé est contenue et gérable",
+          'Service outages are likely while the breach is addressed':
+            'Des interruptions de service sont probables pendant que la violation est traitée',
+          'Significant user inconvenience is likely':
+            "Des inconvénients importants pour l'utilisateur sont probables",
+          'Data loss is possible but localized/compartmentalized, potential for limited business continuity losses, and minimized Falcon Consulting exposure':
+            "La perte de données est possible mais localisée/compartimentée, potentiel de pertes de continuité d'activité limitées et exposition réduite de Falcon Consulting",
+          'Third party service provider and subcontractors may be involved':
+            'Un fournisseur de services tiers et des sous-traitants peuvent être impliqués',
+          'Risk to the Falcon Consulting is moderate':
+            'Le risque pour Falcon Consulting est modéré',
+          'Moderately Critical/Serious Incident – Breaches or Incidents in this category typically deal with Confidential Information and are on a medium scale (e.g. 100 users on the internal network, application or database related, limited exposure). Incidents in this category typically have the following attributes:':
+            'Incident modérément critique/sérieux - Les violations ou incidents de cette catégorie concernent généralement des informations confidentielles et sont à moyenne échelle (par exemple, 100 utilisateurs sur le réseau interne, liés à une application ou à une base de données, exposition limitée). Les incidents de cette catégorie ont généralement les attributs suivants :',
+          'Any breach of contract that involves the misuse or unauthorized access to PII by a Contract Provider':
+            "Toute rupture de contrat impliquant l'utilisation abusive ou l'accès non autorisé aux PII par un fournisseur de contrat",
+          'Requires significant reporting beyond normal operating procedures':
+            "Nécessite des rapports importants au-delà des procédures d'exploitation normales",
+          'Legal or contractual remedies may be required':
+            'Des recours juridiques ou contractuels peuvent être nécessaires',
+          'Negative media coverage is likely and exposure is high':
+            "Une couverture médiatique négative est probable et l'exposition est élevée",
+          'Significant Confidential Information or PII loss, potential for lack of business continuity, Falcon Consulting exposure, or irreversible consequences are imminent':
+            "Une perte importante d'informations confidentielles ou de PII, un manque potentiel de continuité des activités, une exposition de Falcon Consulting ou des conséquences irréversibles sont imminents",
+          'Any Incident that has been determined to be a Breach':
+            'Tout incident qui a été déterminé comme une infraction',
+          'Critical/Major Breach or Incident – Incidents or Breaches in this category deal with Confidential Information or PII and are on a large scale (Falcon Consulting-wide). All Incidents or Breaches involving PII will be classified as Critical or Major. They typically have the following attributes:':
+            "Violation ou incident critique/majeur - Les incidents ou violations de cette catégorie concernent des informations confidentielles ou PII et sont à grande échelle (à l'échelle de Falcon Consulting). Tous les Incidents ou Violations impliquant des PII seront classés comme Critiques ou Majeurs. Ils ont généralement les attributs suivants :",
+          'Data Breaches or Incidents shall be classified as follows:':
+            'Les violations de données ou les incidents doivent être classés comme suit :',
+          CLASSIFICATION: 'CLASSIFICATION',
+          'All Incidents and Breaches will be centrally logged and documented to ensure appropriate documentation, oversight, and consistency in response, management, and reporting.':
+            'Tous les incidents et violations seront consignés et documentés de manière centralisée pour garantir une documentation, une surveillance et une cohérence appropriées dans la réponse, la gestion et les rapports.',
+          'Once an Incident is reported, the Security manager shall conduct an assessment to establish the severity of the Incident, next steps in response, and potential remedies and solutions. Based on this assessment, the Security manager shall determine if this Incident remains an Incident or if it needs to be categorized as a Breach.':
+            "Une fois qu'un incident est signalé, le responsable de la sécurité doit procéder à une évaluation pour établir la gravité de l'incident, les prochaines étapes de réponse, ainsi que les remèdes et solutions potentiels. Sur la base de cette évaluation, le responsable de la sécurité déterminera si cet incident reste un incident ou s'il doit être catégorisé comme une violation.",
+          'Confirmed or suspected Incidents shall be reported promptly to the Security manager. A formal report shall be filed that includes full and accurate details of the Incident including who is reporting the Incident and what classification of data is involved.':
+            "Les incidents confirmés ou suspectés doivent être signalés rapidement au responsable de la sécurité. Un rapport formel doit être déposé qui comprend des détails complets et précis sur l'Incident, y compris qui signale l'Incident et quelle classification des données est impliquée.",
+          'The following process shall be followed when responding to a suspected Incident:':
+            'Le processus suivant doit être suivi lors de la réponse à un Incident suspect :',
+          'INCIDENT REPORTING': "RAPPORTS D'INCIDENTS",
+          'Highly Confidential Data- Information that, if breached, causes significant damage to Falcon Consulting operations, reputation, and/or business continuity. Access to this information should be highly restricted. PII falls into this category of data. Employee or Educator Financial Information, Social Security Numbers, and other critical information also fall into this classification.':
+            "Données hautement confidentielles - Informations qui, si elles sont violées, causent des dommages importants aux opérations, à la réputation et/ou à la continuité des activités de Falcon Consulting. L'accès à ces informations doit être très restreint. Les PII entrent dans cette catégorie de données. Les informations financières des employés ou des éducateurs, les numéros de sécurité sociale et d'autres informations critiques entrent également dans cette classification.",
+          'Confidential/Internal Data - Information of a more sensitive nature to the business and educational operations of Falcon Consulting. This data represents basic intellectual capital, applications, and general knowledge. Access shall be limited to only those people that need to know as part of their role within the Falcon Consulting. Employee and Educator PII (with the exception of Social Security Numbers (SSN), financial information, or other critical information) falls within this classification.':
+            "Données confidentielles/internes - Informations de nature plus sensible aux opérations commerciales et éducatives de Falcon Consulting. Ces données représentent le capital intellectuel de base, les applications et les connaissances générales. L'accès sera limité aux seules personnes qui ont besoin de savoir dans le cadre de leur rôle au sein de Falcon Consulting. Les PII des employés et des éducateurs (à l'exception des numéros de sécurité sociale (SSN), des informations financières ou d'autres informations critiques) relèvent de cette classification.",
+          'Public Data - Information intended for public and community use or information that can be made public without any negative impact on the Falcon Consulting or its customers. PII shall never be considered public data unless the data is Directory Information as defined by Falcon Consulting policy.':
+            "Données publiques - Informations destinées à un usage public et communautaire ou informations pouvant être rendues publiques sans aucun impact négatif sur Falcon Consulting ou ses clients. Les PII ne seront jamais considérées comme des données publiques à moins que les données ne soient des informations d'annuaire telles que définies par la politique de Falcon Consulting.",
+          'All reported Incidents shall be classified as below in order to assess risk and approaches to mitigate the situation. Data classification shall refer to the following Falcon Consulting data categories:':
+            "Tous les incidents signalés doivent être classés comme ci-dessous afin d'évaluer les risques et les approches pour atténuer la situation. La classification des données fait référence aux catégories de données suivantes de Falcon Consulting :",
+          'Incidents vary in impact and risk depending on a number of mitigating factors including the content and quantity of the data involved. It is critically important that Falcon Consulting management respond quickly and identify the data classification of the Incident. This allows staff to respond accordingly in a timely and thorough manner.':
+            "Les incidents varient en termes d'impact et de risque en fonction d'un certain nombre de facteurs atténuants, notamment le contenu et la quantité des données impliquées. Il est extrêmement important que la direction de Falcon Consulting réponde rapidement et identifie la classification des données de l'Incident. Cela permet au personnel de réagir en conséquence de manière opportune et approfondie.",
+          'DATA CLASSIFICATIONS': 'CLASSEMENT DES DONNÉES',
+          'Incidents can occur locally, in the cloud, or through third party service providers. Reporting and management of Incidents shall occur similarly. Third party providers shall also be governed by contract terms and liability as defined in their operational agreements.':
+            'Les incidents peuvent se produire localement, dans le cloud ou via des fournisseurs de services tiers. Le signalement et la gestion des Incidents se dérouleront de la même manière. Les fournisseurs tiers sont également régis par les conditions contractuelles et la responsabilité telles que définies dans leurs accords opérationnels.',
+          'Incidents are reviewed to identify improvements in policies and procedures':
+            'Les incidents sont examinés pour identifier les améliorations des politiques et des procédures',
+          'Incidents are dealt with in a timely manner and normal operations are restored':
+            'Les incidents sont traités en temps opportun et les opérations normales sont rétablies',
+          'External agencies, customers, and data users are informed as required':
+            'Les agences externes, les clients et les utilisateurs de données sont informés au besoin',
+          'Evidence is gathered, recorded, and maintained in a form that will withstand internal and external scrutiny':
+            'Les preuves sont recueillies, enregistrées et conservées sous une forme qui résistera à un examen interne et externe',
+          'Organizational impacts are understood and action is taken to prevent further damage':
+            "Les impacts organisationnels sont compris et des mesures sont prises pour prévenir d'autres dommages",
+          'Incidents are recorded and documented': 'Les incidents sont enregistrés et documentés',
+          'Appropriate levels of management are involved in response management':
+            'Les niveaux appropriés de gestion sont impliqués dans la gestion de la réponse',
+          'Incidents are handled by appropriately authorized and skilled personnel':
+            'Les incidents sont traités par du personnel dûment autorisé et qualifié',
+          'Incidents are reported in a timely manner and can be properly investigated':
+            "Les incidents sont signalés en temps opportun et peuvent faire l'objet d'une enquête appropriée",
+          'Adopting a standardized and consistent approach to Incident management shall ensure that:':
+            "L'adoption d'une approche normalisée et cohérente de la gestion des incidents garantit que :",
+          "A 'Data Security Breach' or 'Breach' is any Incident where Falcon Consulting cannot put in place controls or take action to reasonably prevent the misuse of Confidential Information or PII. A Breach is also an Incident where data has been misused.":
+            "Une « violation de la sécurité des données » ou une « violation » est tout incident pour lequel Falcon Consulting ne peut pas mettre en place des contrôles ou prendre des mesures pour empêcher raisonnablement l'utilisation abusive des informations confidentielles ou des PII. Une violation est également un incident où des données ont été utilisées à mauvais escient.",
+          'Hacking, social engineering, phishing or other subversive attacks where information is obtained by deceitful practice':
+            'Piratage, ingénierie sociale, hameçonnage ou autres attaques subversives où les informations sont obtenues par des pratiques trompeuses',
+          'Human error involving the loss or mistaken transmission of Confidential Information or PII':
+            "Erreur humaine impliquant la perte ou la transmission erronée d'informations confidentielles ou de PII",
+          'Unforeseen circumstances such as a fire or flood that could lead to the loss or misuse of Confidential Information or PII':
+            "Circonstances imprévues telles qu'un incendie ou une inondation pouvant entraîner la perte ou l'utilisation abusive d'informations confidentielles ou d'IPI",
+          'Loss or theft of equipment where Confidential Information or PII is stored':
+            "Perte ou vol d'équipement où des informations confidentielles ou PII sont stockées",
+          'Changes to Falcon Consulting system hardware, firmware, or software characteristics without the Falcon Consulting’s knowledge, instruction, or consent':
+            "Modifications apportées au matériel, au micrologiciel ou aux caractéristiques logicielles du système Falcon Consulting à l'insu de Falcon Consulting, sans instruction ou consentement",
+          'The unauthorized use of a Falcon Consulting system for the processing or storage of Confidential Information or PII':
+            "L'utilisation non autorisée d'un système Falcon Consulting pour le traitement ou le stockage d'Informations Confidentielles ou PII",
+          'Unwanted disruption or denial of service': 'Interruption indésirable ou déni de service',
+          'Successful attempts to gain unauthorized access to a Falcon Consulting system or regardless of where such information is located':
+            "Tentatives réussies d'obtenir un accès non autorisé à un système Falcon Consulting ou quel que soit l'endroit où ces informations se trouvent",
+          'Common examples of data security Incidents include, but are not limited to, any of the following:':
+            "Les exemples courants d'incidents de sécurité des données incluent, mais sans s'y limiter, l'un des éléments suivants :",
+          "A 'Data Security Incident' or “Incident’ shall mean an accidental or deliberate event that results in or constitutes an imminent threat of the unauthorized access, loss, disclosure, modification, disruption, or destruction of communication or information resources of the Falcon Consulting.":
+            "Un « Incident de sécurité des données » ou « Incident » désigne un événement accidentel ou délibéré qui entraîne ou constitue une menace imminente d'accès non autorisé, de perte, de divulgation, de modification, de perturbation ou de destruction des ressources de communication ou d'information de Falcon Consulting.",
+          'GENERAL INFORMATION': 'INFORMATIONS GÉNÉRALES',
+          'This policy applies to all Falcon Consulting staff.':
+            "Cette politique s'applique à tout le personnel de Falcon Consulting.",
+          'Falcon Consulting must have a robust and systematic process for responding to reported data security Incidents and Breaches. This policy is designed to standardize the Falcon Consulting-wide response to any reported Breach or Incident, and ensure that they are appropriately logged and managed in accordance with best practice guidelines. Standardized processes and procedures help to ensure the Falcon Consulting can act responsibly, respond effectively, and protect its information assets to the extent possible.':
+            "Falcon Consulting doit disposer d'un processus robuste et systématique pour répondre aux incidents et violations de sécurité des données signalés. Cette politique est conçue pour standardiser la réponse de Falcon Consulting à toute violation ou incident signalé, et garantir qu'ils sont correctement enregistrés et gérés conformément aux directives des meilleures pratiques. Des processus et des procédures standardisés aident à garantir que Falcon Consulting peut agir de manière responsable, réagir efficacement et protéger ses actifs informationnels dans la mesure du possible.",
+          'Data breaches are increasingly common occurrences whether caused through human error or malicious intent. Falcon Consulting operations rely on the proper use of Confidential Information and Personally Identifiable Information (PII) on a daily basis. Managing risk and responding in an organized way to Incidents and Breaches is key to operations.':
+            "Les violations de données sont de plus en plus courantes, qu'elles soient causées par une erreur humaine ou une intention malveillante. Les opérations de Falcon Consulting reposent sur l'utilisation appropriée des informations confidentielles et des informations personnellement identifiables (PII) au quotidien. La gestion des risques et la réponse organisée aux incidents et aux violations sont essentielles aux opérations.",
+
+          // Title 6
+          'PRIVACY NOTICE': 'AVIS DE CONFIDENTIALITÉ',
+          // Body 6
+          "If you are a resident in the European Economic Area, the 'data controller' of your personal information is Falcon Consulting. Falcon Consulting has appointed Zain Asif to be its representative in the EEA. You can contact them directly regarding the processing of your information by Falcon Consulting, by email at zain.asif@falconconsulting.fr, by visiting falconconsulting.fr, or by post to:":
+            "Si vous résidez dans l'Espace économique européen, le « responsable du traitement » de vos informations personnelles est Falcon Consulting. Falcon Consulting a nommé Zain Asif pour être son représentant dans l'EEE. Vous pouvez les contacter directement concernant le traitement de vos informations par Falcon Consulting, par email à zain.asif@falconconsulting.fr, en visitant falconconsulting.fr, ou par courrier à :",
+          'If you have questions or comments about this notice, you may email us at contact@falconconsulting.fr or by post to:':
+            'Si vous avez des questions ou des commentaires au sujet de cet avis, vous pouvez nous envoyer un courriel à contact@falconconsulting.fr ou par courrier à :',
+          "We may update this privacy notice from time to time. The updated version will be indicated by an updated 'Revised' date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.":
+            "Nous pouvons mettre à jour cet avis de confidentialité de temps à autre. La version mise à jour sera indiquée par une date de « révision » mise à jour et la version mise à jour entrera en vigueur dès qu'elle sera accessible. Si nous apportons des modifications importantes à cet avis de confidentialité, nous pouvons vous en informer soit en publiant bien en évidence un avis de ces modifications, soit en vous envoyant directement une notification. Nous vous encourageons à consulter fréquemment cet avis de confidentialité pour être informé de la manière dont nous protégeons vos informations.",
+          'In Short: Yes, we will update this notice as necessary to stay compliant with relevant laws.':
+            'En bref : Oui, nous mettrons à jour cet avis si nécessaire pour rester en conformité avec les lois applicables.',
+          'DO WE MAKE UPDATES TO THIS NOTICE?': 'FAISONS-NOUS DES MISES À JOUR À CET AVIS ?',
+          'To exercise these rights, you can contact us by email at contact@falconconsulting.fr, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.':
+            'Pour exercer ces droits, vous pouvez nous contacter par email à contact@falconconsulting.fr, ou en vous référant aux coordonnées en bas de ce document. Si vous avez une plainte concernant la façon dont nous traitons vos données, nous aimerions avoir de vos nouvelles.',
+          'You may request to opt out from future selling of your personal information to third parties. Upon receiving an opt-out request, we will act upon the request as soon as feasibly possible, but no later than fifteen (15) days from the date of the request submission.':
+            "Vous pouvez demander à vous opposer à la vente future de vos informations personnelles à des tiers. Dès réception d'une demande de retrait, nous donnerons suite à la demande dès que possible, mais au plus tard quinze (15) jours à compter de la date de soumission de la demande.",
+          'You may request correction of your personal data if it is incorrect or no longer relevant, or ask to restrict the processing of the information. You can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.':
+            "Vous pouvez demander la correction de vos données personnelles si elles sont incorrectes ou ne sont plus pertinentes, ou demander de restreindre le traitement des informations. Vous pouvez désigner un agent autorisé pour faire une demande en vertu du CCPA en votre nom. Nous pouvons refuser une demande d'un agent autorisé qui ne fournit pas la preuve qu'il a été valablement autorisé à agir en votre nom conformément au CCPA.",
+          'Other privacy rights You may object to the processing of your personal information.':
+            'Autres droits à la vie privée Vous pouvez vous opposer au traitement de vos informations personnelles.',
+          'We will only use personal information provided in your request to verify your identity or authority to make the request. To the extent possible, we will avoid requesting additional information from you for the purposes of verification. However, if we cannot verify your identity from the information already maintained by us, we may request that you provide additional information for the purposes of verifying your identity and for security or fraud-prevention purposes. We will delete such additionally provided information as soon as we finish verifying you.':
+            "Nous n'utiliserons les informations personnelles fournies dans votre demande que pour vérifier votre identité ou votre autorité pour faire la demande. Dans la mesure du possible, nous éviterons de vous demander des informations supplémentaires à des fins de vérification. Toutefois, si nous ne pouvons pas vérifier votre identité à partir des informations déjà conservées par nous, nous pouvons vous demander de fournir des informations supplémentaires aux fins de vérification de votre identité et à des fins de sécurité ou de prévention des fraudes. Nous supprimerons ces informations supplémentaires fournies dès que nous aurons fini de vous vérifier.",
+          'Upon receiving your request, we will need to verify your identity to determine you are the same person about whom we have the information in our system. These verification efforts require us to ask you to provide information so that we can match it with information you have previously provided us. For instance, depending on the type of request you submit, we may ask you to provide certain information so that we can match the information you provide with the information we already have on file, or we may contact you through a communication method (e.g., phone or email) that you have previously provided to us. We may also use other verification methods as the circumstances dictate.':
+            "Dès réception de votre demande, nous devrons vérifier votre identité pour déterminer que vous êtes la même personne dont nous avons les informations dans notre système. Ces efforts de vérification nous obligent à vous demander de fournir des informations afin que nous puissions les faire correspondre avec les informations que vous nous avez précédemment fournies. Par exemple, selon le type de demande que vous soumettez, nous pouvons vous demander de fournir certaines informations afin que nous puissions faire correspondre les informations que vous fournissez avec les informations que nous avons déjà dans nos dossiers, ou nous pouvons vous contacter via une méthode de communication (par exemple, téléphone ou e-mail) que vous nous avez précédemment fournis. Nous pouvons également utiliser d'autres méthodes de vérification selon les circonstances.",
+          'Right to Non-Discrimination for the Exercise of a Consumer’s Privacy Rights We will not discriminate against you if you exercise your privacy rights. Verification process':
+            "Droit à la non-discrimination pour l'exercice des droits à la vie privée d'un consommateur Nous ne ferons aucune discrimination à votre encontre si vous exercez vos droits à la vie privée. Processus de vérification",
+          'In accordance with applicable law, we are not obligated to provide or delete consumer information that is de-identified in response to a consumer request or to re- identify individual data to verify a consumer request.':
+            "Conformément à la loi applicable, nous ne sommes pas obligés de fournir ou de supprimer des informations sur les consommateurs qui sont anonymisées en réponse à une demande d'un consommateur ou de réidentifier des données individuelles pour vérifier une demande d'un consommateur.",
+          'the business or commercial purpose for collecting or selling personal information.':
+            'le but commercial ou commercial de la collecte ou de la vente de renseignements personnels.',
+          'the categories of third parties to whom the personal information was sold or disclosed for a business purpose; and':
+            'les catégories de tiers auxquels les informations personnelles ont été vendues ou divulguées à des fins commerciales ; et',
+          'the categories of personal information that we sold or disclosed for a business purpose;':
+            "les catégories d'informations personnelles que nous avons vendues ou divulguées à des fins commerciales ;",
+          'Depending on the circumstances, you have a right to know: whether we collect and use your personal information; the categories of personal information that we collect; the purposes for which the collected personal information is used; whether we sell your personal information to third parties;':
+            "Selon les circonstances, vous avez le droit de savoir : si nous collectons et utilisons vos informations personnelles ; les catégories d'informations personnelles que nous collectons ; les fins pour lesquelles les renseignements personnels recueillis sont utilisés ; si nous vendons vos informations personnelles à des tiers ;",
+          'Right to be informed — Request to know': "Droit d'être informé — Demande de savoir",
+          'You can ask for the deletion of your personal information. If you ask us to delete your personal information, we will respect your request and delete your personal information, subject to certain exceptions provided by law, such as (but not limited to) the exercise by another consumer of his or her right to free speech, our compliance requirements resulting from a legal obligation, or any processing that may be required to protect against illegal activities.':
+            "Vous pouvez demander la suppression de vos informations personnelles. Si vous nous demandez de supprimer vos informations personnelles, nous respecterons votre demande et supprimerons vos informations personnelles, sous réserve de certaines exceptions prévues par la loi, telles que (mais sans s'y limiter) l'exercice par un autre consommateur de son droit à la liberté d'expression. , nos exigences de conformité résultant d'une obligation légale, ou tout traitement pouvant être nécessaire pour se protéger contre des activités illégales.",
+          'Right to request deletion of the data — Request to delete':
+            'Droit de demander la suppression des données — Demande de suppression',
+          'Your rights with respect to your personal data':
+            'Vos droits sur vos données personnelles',
+          'Falcon Consulting has not disclosed or sold any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. Falcon Consulting will not sell personal information in the future belonging to website visitors, users, and other consumers.':
+            "Falcon Consulting n'a divulgué ni vendu aucune information personnelle à des tiers à des fins professionnelles ou commerciales au cours des douze (12) mois précédents. Falcon Consulting ne vendra pas à l'avenir d'informations personnelles appartenant aux visiteurs du site Web, aux utilisateurs et aux autres consommateurs.",
+          "We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be 'selling' of your personal information.":
+            "Nous pouvons utiliser vos informations personnelles à nos propres fins commerciales, par exemple pour entreprendre des recherches internes pour le développement technologique et la démonstration. Ceci n'est pas considéré comme une « vente » de vos informations personnelles.",
+          'We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Each service provider is a for profit entity that processes the information on our behalf.':
+            'Nous pouvons divulguer vos informations personnelles à nos prestataires de services conformément à un contrat écrit entre nous et chaque prestataire de services. Chaque fournisseur de services est une entité à but lucratif qui traite les informations en notre nom.',
+          'Will your information be shared with anyone else?':
+            "Vos informations seront-elles partagées avec quelqu'un d'autre ?",
+          'If you are using an authorized agent to exercise your right to opt out we may deny a request if the authorized agent does not submit proof that they have been validly authorized to act on your behalf.':
+            "Si vous utilisez un agent autorisé pour exercer votre droit de retrait, nous pouvons refuser une demande si l'agent autorisé ne fournit pas la preuve qu'il a été valablement autorisé à agir en votre nom.",
+          'You may contact us by email at contact@falconconsulting.fr, or by referring to the contact details at the bottom of this document.':
+            'Vous pouvez nous contacter par email à contact@falconconsulting.fr, ou en vous référant aux coordonnées en bas de ce document.',
+          'More information about our data collection and sharing practices can be found in this privacy notice.':
+            "Vous trouverez plus d'informations sur nos pratiques de collecte et de partage de données dans cet avis de confidentialité.",
+          'How do we use and share your personal information?':
+            'Comment utilisons-nous et partageons-nous vos informations personnelles ?',
+          'Facilitation in the delivery of our Services and to respond to your inquiries.':
+            'Faciliter la prestation de nos services et répondre à vos demandes.',
+          'Participation in customer surveys or contests; and':
+            'Participation à des sondages ou à des concours auprès des clients ; et',
+          'Receiving help through our customer support channels;':
+            "Recevoir de l'aide via nos canaux de support client ;",
+          'We may also collect other personal information outside of these categories instances where you interact with us in person, online, or by phone or mail in the context of:':
+            "Nous pouvons également collecter d'autres informations personnelles en dehors de ces catégories lorsque vous interagissez avec nous en personne, en ligne, par téléphone ou par courrier dans le cadre de :",
+          'Education Information': "Informations sur l'éducation",
+          'Professional or employment-related information':
+            "Informations professionnelles ou liées à l'emploi",
+          'Geolocation data': 'Données de géolocalisation',
+          'Internet or other similar network activity':
+            'Internet ou autre activité de réseau similaire',
+          'Personal information categories listed in the California Customer Records statute':
+            "Catégories d'informations personnelles répertoriées dans la loi californienne sur les dossiers des clients",
+          'We have collected the following categories of personal information in the past twelve (12) months:':
+            "Nous avons collecté les catégories d'informations personnelles suivantes au cours des douze (12) derniers mois :",
+          'What categories of personal information do we collect?':
+            "Quelles catégories d'informations personnelles collectons-nous ?",
+          "If this definition of 'resident' applies to you, we must adhere to certain rights and obligations regarding your personal information.":
+            "Si cette définition de « résident » s'applique à vous, nous devons respecter certains droits et obligations concernant vos informations personnelles.",
+          "All other individuals are defined as 'non-residents.'":
+            'Tous les autres individus sont définis comme des « non-résidents ».',
+          '(1) every individual who is in the State of California for other than a temporary or transitory purpose and (2) every individual who is domiciled in the State of California who is outside the State of California for a temporary or transitory purpose':
+            "(1) toute personne qui se trouve dans l'État de Californie à des fins autres que temporaires ou transitoires et (2) toute personne domiciliée dans l'État de Californie qui se trouve en dehors de l'État de Californie à des fins temporaires ou transitoires",
+          "The California Code of Regulations defines a 'resident' as:":
+            'Le California Code of Regulations définit un « résident » comme suit :',
+          'CCPA Privacy Notice': "Avis de confidentialité de l'ACCP",
+          'If you are under 18 years of age, reside in California, and have a registered account with Services, you have the right to request removal of unwanted data that you publicly post on the Services. To request removal of such data, please contact us using the contact information provided below and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Services, but please be aware that the data may not be completely or comprehensively removed from all our systems (e.g., backups, etc.).':
+            "Si vous avez moins de 18 ans, résidez en Californie et disposez d'un compte enregistré auprès des Services, vous avez le droit de demander la suppression des données indésirables que vous publiez publiquement sur les Services. Pour demander la suppression de ces données, veuillez nous contacter en utilisant les coordonnées fournies ci-dessous et inclure l'adresse e-mail associée à votre compte et une déclaration indiquant que vous résidez en Californie. Nous veillerons à ce que les données ne soient pas affichées publiquement sur les Services, mais sachez que les données peuvent ne pas être complètement ou complètement supprimées de tous nos systèmes (par exemple, les sauvegardes, etc.).",
+          "California Civil Code Section 1798.83, also known as the 'Shine The Light' law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.":
+            "La section 1798.83 du Code civil de Californie, également connue sous le nom de loi « Shine The Light », permet à nos utilisateurs qui résident en Californie de demander et d'obtenir de nous, une fois par an et gratuitement, des informations sur les catégories d'informations personnelles (le cas échéant) que nous divulgués à des tiers à des fins de marketing direct et les noms et adresses de tous les tiers avec lesquels nous avons partagé des informations personnelles au cours de l'année civile précédente. Si vous êtes un résident de Californie et souhaitez faire une telle demande, veuillez nous soumettre votre demande par écrit en utilisant les coordonnées fournies ci-dessous.",
+          'In Short: Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information.':
+            "En bref : Oui, si vous résidez en Californie, vous bénéficiez de droits spécifiques concernant l'accès à vos informations personnelles.",
+          'DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?':
+            'LES RÉSIDENTS DE CALIFORNIE ONT-ILS DES DROITS SPÉCIFIQUES À LA VIE PRIVÉE ?',
+          "Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ('DNT') feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.":
+            "La plupart des navigateurs Web et certains systèmes d'exploitation mobiles et applications mobiles incluent une fonction ou un paramètre Do-Not-Track (« DNT ») que vous pouvez activer pour signaler votre préférence en matière de confidentialité de ne pas faire surveiller et collecter de données sur vos activités de navigation en ligne. À ce stade, aucune norme technologique uniforme pour la reconnaissance et la mise en œuvre des signaux DNT n'a été finalisée. En tant que tel, nous ne répondons pas actuellement aux signaux du navigateur DNT ou à tout autre mécanisme qui communique automatiquement votre choix de ne pas être suivi en ligne. Si une norme de suivi en ligne est adoptée que nous devons suivre à l'avenir, nous vous informerons de cette pratique dans une version révisée de cet avis de confidentialité.",
+          'CONTROLS FOR DO-NOT-TRACK FEATURES': 'COMMANDES POUR LES FONCTIONS NE PAS SUIVRE',
+          'Cookies and similar technologies: Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. To opt out of interest-based advertising by advertisers on our Services visit http://www.aboutads.info/choices/.':
+            "Cookies et technologies similaires : la plupart des navigateurs Web sont configurés pour accepter les cookies par défaut. Si vous préférez, vous pouvez généralement choisir de configurer votre navigateur pour supprimer les cookies et rejeter les cookies. Si vous choisissez de supprimer ou de rejeter les cookies, cela pourrait affecter certaines fonctionnalités ou certains services de nos Services. Pour désactiver la publicité basée sur les centres d'intérêt par les annonceurs sur nos services, visitez http://www.aboutads.info/choices/.",
+          'below. You will then be removed from the marketing lists. However, we may still communicate with you — for example, to send you service-related messages that are necessary for the administration and use of your account, to respond to service requests, or for other non-marketing purposes.':
+            "dessous. Vous serez alors retiré des listes marketing. Cependant, nous pouvons toujours communiquer avec vous, par exemple, pour vous envoyer des messages liés au service qui sont nécessaires à l'administration et à l'utilisation de votre compte, pour répondre aux demandes de service ou à d'autres fins non commerciales.",
+          "Opting out of marketing and promotional communications: You can unsubscribe from our marketing and promotional communications at any time by clicking on the unsubscribe link in the emails that we send, or by contacting us using the details provided in the section 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?'":
+            "Désabonnement des communications marketing et promotionnelles : Vous pouvez vous désabonner de nos communications marketing et promotionnelles à tout moment en cliquant sur le lien de désinscription dans les e-mails que nous envoyons, ou en nous contactant en utilisant les coordonnées fournies dans la section 'COMMENT NOUS CONTACTER À PROPOS DE CET AVIS ? »",
+          'However, please note that this will not affect the lawfulness of the processing before its withdrawal, nor when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.':
+            "Cependant, veuillez noter que cela n'affectera pas la légalité du traitement avant son retrait, ni lorsque la loi applicable le permet, cela n'affectera pas le traitement de vos informations personnelles effectué sur la base de motifs de traitement licites autres que le consentement.",
+          "Withdrawing your consent: If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?' below.":
+            'Retrait de votre consentement : si nous comptons sur votre consentement pour traiter vos informations personnelles, qui peut être un consentement exprès et/ou implicite selon la loi applicable, vous avez le droit de retirer votre consentement à tout moment. Vous pouvez retirer votre consentement à tout moment en nous contactant en utilisant les coordonnées fournies dans la section « COMMENT POUVEZ-VOUS NOUS CONTACTER AU SUJET DE CET AVIS ? dessous.',
+          'If you are located in Switzerland, the contact details for the data protection authorities are available here: https://www.edoeb.admin.ch/edoeb/en/home.html.':
+            'Si vous résidez en Suisse, les coordonnées des autorités de protection des données sont disponibles ici : https://www.edoeb.admin.ch/edoeb/fr/home.html.',
+          'If you are located in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.':
+            "Si vous vous trouvez dans l'EEE ou au Royaume-Uni et que vous pensez que nous traitons illégalement vos informations personnelles, vous avez également le droit de porter plainte auprès de votre autorité locale de contrôle de la protection des données. Vous pouvez trouver leurs coordonnées ici : https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.",
+          'We will consider and act upon any request in accordance with applicable data protection laws.':
+            'Nous examinerons et agirons sur toute demande conformément aux lois applicables en matière de protection des données.',
+          "In some regions (like the EEA, UK, and Canada), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object to the processing of your personal information. You can make such a request by contacting us by using the contact details provided in the section 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?' below.":
+            "Dans certaines régions (comme l'EEE, le Royaume-Uni et le Canada), vous disposez de certains droits en vertu des lois applicables en matière de protection des données. Ceux-ci peuvent inclure le droit (i) de demander l'accès et d'obtenir une copie de vos informations personnelles, (ii) de demander la rectification ou l'effacement ; (iii) pour restreindre le traitement de vos informations personnelles ; et (iv) le cas échéant, à la portabilité des données. Dans certaines circonstances, vous pouvez également avoir le droit de vous opposer au traitement de vos informations personnelles. Vous pouvez faire une telle demande en nous contactant en utilisant les coordonnées fournies dans la section « COMMENT POUVEZ-VOUS NOUS CONTACTER AU SUJET DE CET AVIS ? dessous.",
+          'In Short: In some regions, such as the European Economic Area (EEA), United Kingdom (UK), and Canada, you have rights that allow you greater access to and control over your personal information. You may review, change, or terminate your account at any time.':
+            "En bref : dans certaines régions, telles que l'Espace économique européen (EEE), le Royaume-Uni (Royaume-Uni) et le Canada, vous disposez de droits qui vous permettent un accès et un contrôle accrus sur vos informations personnelles. Vous pouvez revoir, modifier ou résilier votre compte à tout moment.",
+          'WHAT ARE YOUR PRIVACY RIGHTS?': 'QUELS SONT VOS DROITS EN MATIÈRE DE CONFIDENTIALITÉ ?',
+          'We have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.':
+            "Nous avons mis en place des mesures de sécurité techniques et organisationnelles appropriées et raisonnables conçues pour protéger la sécurité de toute information personnelle que nous traitons. Cependant, malgré nos mesures de protection et nos efforts pour sécuriser vos informations, aucune transmission électronique sur Internet ou technologie de stockage d'informations ne peut être garantie à 100 %, nous ne pouvons donc pas promettre ou garantir que les pirates, les cybercriminels ou d'autres tiers non autorisés ne seront pas capable de déjouer notre sécurité et de collecter, accéder, voler ou modifier vos informations de manière inappropriée. Bien que nous fassions de notre mieux pour protéger vos informations personnelles, la transmission d'informations personnelles vers et depuis nos Services est à vos risques et périls. Vous ne devez accéder aux Services que dans un environnement sécurisé.",
+          'In Short: We aim to protect your personal information through a system of organizational and technical security measures.':
+            'En bref : Nous visons à protéger vos informations personnelles grâce à un système de mesures de sécurité organisationnelles et techniques.',
+          'HOW DO WE KEEP YOUR INFORMATION SAFE?':
+            'COMMENT GARDONS-NOUS VOS INFORMATIONS EN SÉCURITÉ ?',
+          'When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.':
+            "Lorsque nous n'avons aucun besoin commercial légitime de traiter vos informations personnelles, nous supprimerons ou anonymiserons ces informations, ou, si cela n'est pas possible (par exemple, parce que vos informations personnelles ont été stockées dans des archives de sauvegarde), nous les supprimerons en toute sécurité. stocker vos informations personnelles et les isoler de tout traitement ultérieur jusqu'à ce que la suppression soit possible.",
+          'We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than 1 year.':
+            "Nous ne conserverons vos informations personnelles qu'aussi longtemps que nécessaire aux fins énoncées dans le présent avis de confidentialité, à moins qu'une période de conservation plus longue ne soit requise ou autorisée par la loi (telle que la fiscalité, la comptabilité ou d'autres exigences légales). Aucun objectif de cet avis ne nous obligera à conserver vos informations personnelles pendant plus d'un an.",
+          'In Short: We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law.':
+            'En bref : nous conservons vos informations aussi longtemps que nécessaire pour atteindre les objectifs décrits dans cet avis de confidentialité, sauf disposition contraire de la loi.',
+          'HOW LONG DO WE KEEP YOUR INFORMATION?':
+            'COMBIEN DE TEMPS CONSERVONS-NOUS VOS INFORMATIONS ?',
+          'We will use the information we receive only for the purposes that are described in this privacy notice or that are otherwise made clear to you on the relevant Services. Please note that we do not control, and are not responsible for, other uses of your personal information by your third-party social media provider. We recommend that you review their privacy notice to understand how they collect, use, and share your personal information, and how you can set your privacy preferences on their sites and apps.':
+            'Nous utiliserons les informations que nous recevons uniquement aux fins décrites dans le présent avis de confidentialité ou qui vous sont autrement précisées sur les Services concernés. Veuillez noter que nous ne contrôlons pas et ne sommes pas responsables des autres utilisations de vos informations personnelles par votre fournisseur de médias sociaux tiers. Nous vous recommandons de consulter leur avis de confidentialité pour comprendre comment ils collectent, utilisent et partagent vos informations personnelles, et comment vous pouvez définir vos préférences de confidentialité sur leurs sites et applications.',
+          'Our Services offer you the ability to register and log in using your third-party social media account details (like your Facebook or Twitter logins). Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile information we receive may vary depending on the social media provider concerned, but will often include your name, email address, friends list, and profile picture, as well as other information you choose to make public on such a social media platform.':
+            "Nos Services vous offrent la possibilité de vous inscrire et de vous connecter en utilisant les détails de votre compte de médias sociaux tiers (comme vos identifiants Facebook ou Twitter). Lorsque vous choisissez de le faire, nous recevrons certaines informations de profil vous concernant de votre fournisseur de médias sociaux. Les informations de profil que nous recevons peuvent varier en fonction du fournisseur de médias sociaux concerné, mais incluront souvent votre nom, votre adresse e-mail, votre liste d'amis et votre photo de profil, ainsi que d'autres informations que vous choisissez de rendre publiques sur une telle plate-forme de médias sociaux.",
+          'In Short: If you choose to register or log in to our services using a social media account, we may have access to certain information about you.':
+            "En bref : Si vous choisissez de vous inscrire ou de vous connecter à nos services à l'aide d'un compte de réseau social, nous pouvons avoir accès à certaines informations vous concernant.",
+          'HOW DO WE HANDLE YOUR SOCIAL LOGINS?': 'COMMENT GÉRONS-NOUS VOS CONNEXIONS SOCIALES ?',
+          'We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice.':
+            'Nous pouvons utiliser des cookies et des technologies de suivi similaires (comme des balises Web et des pixels) pour accéder ou stocker des informations. Des informations spécifiques sur la manière dont nous utilisons ces technologies et sur la manière dont vous pouvez refuser certains cookies sont présentées dans notre Avis sur les cookies.',
+          'In Short: We may use cookies and other tracking technologies to collect and store your information.':
+            "En bref : Nous pouvons utiliser des cookies et d'autres technologies de suivi pour collecter et stocker vos informations.",
+          'DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?':
+            "UTILISONS-NOUS DES COOKIES ET D'AUTRES TECHNOLOGIES DE SUIVI ?",
+          'Business Transfers. We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.':
+            "Transferts d'entreprise. Nous pouvons partager ou transférer vos informations dans le cadre de ou pendant les négociations de toute fusion, vente d'actifs de la société, financement ou acquisition de tout ou partie de nos activités à une autre société.",
+          'We may need to share your personal information in the following situations:':
+            'Nous pouvons être amenés à partager vos informations personnelles dans les situations suivantes :',
+          'In Short: We may share information in specific situations described in this section and/or with the following third parties.':
+            'En bref : Nous pouvons partager des informations dans des situations spécifiques décrites dans cette section et/ou avec les tiers suivants.',
+          'WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?':
+            'QUAND ET AVEC QUI PARTAGEONS-NOUS VOS INFORMATIONS PERSONNELLES ?',
+          'If the information is publicly available and is specified by the regulations':
+            'Si les informations sont accessibles au public et sont spécifiées par la réglementation',
+          'If the collection is solely for journalistic, artistic, or literary purposes':
+            'Si la collecte est uniquement à des fins journalistiques, artistiques ou littéraires',
+          'If it was produced by an individual in the course of their employment, business, or profession and the collection is consistent with the purposes for which the information was produced':
+            'Si elles ont été produites par une personne dans le cadre de son emploi, de son entreprise ou de sa profession et que la collecte est conforme aux fins pour lesquelles les informations ont été produites',
+          'If disclosure is required to comply with a subpoena, warrant, court order, or rules of the court relating to the production of records':
+            'Si la divulgation est requise pour se conformer à une citation à comparaître, un mandat, une ordonnance du tribunal ou des règles du tribunal relatives à la production de documents',
+          'If it is reasonable to expect collection and use with consent would compromise the availability or the accuracy of the information and the collection is reasonable for purposes related to investigating a breach of an agreement or a contravention of the laws of Canada or a province':
+            "S'il est raisonnable de s'attendre à ce que la collecte et l'utilisation avec consentement compromettent la disponibilité ou l'exactitude des renseignements et que la collecte est raisonnable à des fins liées à une enquête sur une violation d'un accord ou une contravention aux lois du Canada ou d'une province",
+          'If we have reasonable grounds to believe an individual has been, is, or may be victim of financial abuse':
+            "Si nous avons des motifs raisonnables de croire qu'une personne a été, est ou pourrait être victime d'exploitation financière",
+          'For identifying injured, ill, or deceased persons and communicating with next of kin':
+            'Pour identifier les personnes blessées, malades ou décédées et communiquer avec les plus proches parents',
+          'If it is contained in a witness statement and the collection is necessary to assess, process, or settle an insurance claim':
+            "S'il est contenu dans une déclaration de témoin et que la collecte est nécessaire pour évaluer, traiter ou régler une réclamation d'assurance",
+          'For business transactions provided certain conditions are met':
+            'Pour les transactions commerciales sous certaines conditions',
+          'For investigations and fraud detection and prevention':
+            'Pour les enquêtes et la détection et la prévention des fraudes',
+          'If collection is clearly in the interests of an individual and consent cannot be obtained in a timely way':
+            "Si la collecte est clairement dans l'intérêt d'un individu et que le consentement ne peut être obtenu en temps opportun",
+          'In some exceptional cases, we may be legally permitted under applicable law to process your information without your consent, including, for example:':
+            'Dans certains cas exceptionnels, nous pouvons être légalement autorisés, en vertu de la loi applicable, à traiter vos informations sans votre consentement, y compris, par exemple :',
+          'We may process your information if you have given us specific permission (i.e., express consent) to use your personal information for a specific purpose, or in situations where your permission can be inferred (i.e., implied consent). You can withdraw your consent at any time.':
+            "Nous pouvons traiter vos informations si vous nous avez donné une autorisation spécifique (c'est-à-dire un consentement exprès) pour utiliser vos informations personnelles à des fins spécifiques, ou dans des situations où votre autorisation peut être déduite (c'est-à-dire un consentement implicite). Vous pouvez retirer votre consentement à tout moment.",
+          'If you are located in Canada, this section applies to you.':
+            "Si vous résidez au Canada, cette section s'applique à vous.",
+          "In legal terms, we are generally the 'data controller' under European data protection laws of the personal information described in this privacy notice, since we determine the means and/or purposes of the data processing we perform. This privacy notice does not apply to the personal information we process as a 'data processor' on behalf of our customers. In those situations, the customer that we provide services to and with whom we have entered into a data processing agreement is the 'data controller' responsible for your personal information, and we merely process your information on their behalf in accordance with your instructions. If you want to know more about our customers' privacy practices, you should read their privacy policies and direct any questions you have to them.":
+            "En termes juridiques, nous sommes généralement le « responsable du traitement » en vertu des lois européennes sur la protection des données des informations personnelles décrites dans cet avis de confidentialité, puisque nous déterminons les moyens et/ou les finalités du traitement des données que nous effectuons. Cet avis de confidentialité ne s'applique pas aux informations personnelles que nous traitons en tant que « sous-traitant » pour le compte de nos clients. Dans ces situations, le client auquel nous fournissons des services et avec lequel nous avons conclu un accord de traitement de données est le « contrôleur de données » responsable de vos informations personnelles, et nous traitons simplement vos informations en son nom conformément à vos instructions. Si vous souhaitez en savoir plus sur les pratiques de confidentialité de nos clients, vous devez lire leurs politiques de confidentialité et leur adresser toutes vos questions.",
+          'Vital Interests. We may process your information where we believe it is necessary to protect your vital interests or the vital interests of a third party, such as situations involving potential threats to the safety of any person.':
+            "Intérêts vitaux. Nous pouvons traiter vos informations lorsque nous pensons que cela est nécessaire pour protéger vos intérêts vitaux ou les intérêts vitaux d'un tiers, tels que des situations impliquant des menaces potentielles pour la sécurité de toute personne.",
+          'Legal Obligations. We may process your information where we believe it is necessary for compliance with our legal obligations, such as to cooperate with a law enforcement body or regulatory agency, exercise or defend our legal rights, or disclose your information as evidence in litigation in which we are involved.':
+            "Obligations légales. Nous pouvons traiter vos informations lorsque nous pensons que cela est nécessaire pour respecter nos obligations légales, telles que coopérer avec un organisme chargé de l'application de la loi ou un organisme de réglementation, exercer ou défendre nos droits légaux, ou divulguer vos informations comme preuve dans un litige dans lequel nous sommes impliqué.",
+          'Consent. We may process your information if you have given us permission (i.e., consent) to use your personal information for a specific purpose. You can withdraw your consent at any time.':
+            "Consentement. Nous pouvons traiter vos informations si vous nous avez donné la permission (c'est-à-dire votre consentement) d'utiliser vos informations personnelles à des fins spécifiques. Vous pouvez retirer votre consentement à tout moment.",
+          'The General Data Protection Regulation (GDPR) and UK GDPR require us to explain the valid legal bases we rely on in order to process your personal information. As such, we may rely on the following legal bases to process your personal information:':
+            'Le Règlement général sur la protection des données (RGPD) et le RGPD britannique nous obligent à expliquer les bases juridiques valides sur lesquelles nous nous appuyons pour traiter vos informations personnelles. A ce titre, nous pouvons nous appuyer sur les bases légales suivantes pour traiter vos informations personnelles :',
+          'If you are located in the EU or UK, this section applies to you.':
+            "Si vous résidez dans l'UE ou au Royaume-Uni, cette section s'applique à vous.",
+          'In Short: We only process your personal information when we believe it is necessary and we have a valid legal reason (i.e., legal basis) to do so under applicable law, like with your consent, to comply with laws, to provide you with services to enter into or fulfill our contractual obligations, to protect your rights, or to fulfill our legitimate business interests.':
+            "En bref : nous ne traitons vos informations personnelles que lorsque nous pensons que cela est nécessaire et que nous avons une raison légale valable (c'est-à-dire une base légale) pour le faire en vertu de la loi applicable, comme avec votre consentement, pour nous conformer aux lois, pour vous fournir des services. pour conclure ou remplir nos obligations contractuelles, pour protéger vos droits ou pour satisfaire nos intérêts commerciaux légitimes.",
+          'WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?':
+            'SUR QUELLES BASES JURIDIQUES APPUYONS-NOUS POUR TRAITER VOS INFORMATIONS ?',
+          "To save or protect an individual's vital interest. We may process your information when necessary to save or protect an individual’s vital interest, such as to prevent harm.":
+            "Pour sauvegarder ou protéger l'intérêt vital d'un individu. Nous pouvons traiter vos informations lorsque cela est nécessaire pour sauvegarder ou protéger les intérêts vitaux d'un individu, par exemple pour éviter tout préjudice.",
+          'We process your personal information for a variety of reasons, depending on how you interact with our Services, including:':
+            'Nous traitons vos informations personnelles pour diverses raisons, en fonction de la manière dont vous interagissez avec nos Services, notamment :',
+          'In Short: We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent.':
+            "En bref : Nous traitons vos informations pour fournir, améliorer et administrer nos Services, communiquer avec vous, pour la sécurité et la prévention de la fraude, et pour nous conformer à la loi. Nous pouvons également traiter vos informations à d'autres fins avec votre consentement.",
+          'HOW DO WE PROCESS YOUR INFORMATION?': 'COMMENT TRAITONS-NOUS VOS INFORMATIONS ?',
+          'All personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information.':
+            'Toutes les informations personnelles que vous nous fournissez doivent être véridiques, complètes et exactes, et vous devez nous informer de tout changement apporté à ces informations personnelles.',
+          'Social Media Login Data. We may provide you with the option to register with us using your existing social media account details, like your Facebook, Twitter, or other social media account. If you choose to register in this way, we will collect the information described in the section called "HOW DO WE HANDLE YOUR SOCIAL LOGINS?" below.':
+            'Données de connexion aux médias sociaux. Nous pouvons vous offrir la possibilité de vous inscrire auprès de nous en utilisant les détails de votre compte de réseau social existant, comme votre compte Facebook, Twitter ou un autre compte de réseau social. Si vous choisissez de vous inscrire de cette manière, nous collecterons les informations décrites dans la section intitulée "COMMENT GÉRONS-NOUS VOS CONNEXIONS SOCIALES ?" dessous.',
+          'student data': 'données des étudiants',
+          'health data': 'données de santé',
+          'Sensitive Information. When necessary, with your consent or as otherwise permitted by applicable law, we process the following categories of sensitive information:':
+            "Information sensible. Lorsque cela est nécessaire, avec votre consentement ou autrement autorisé par la loi applicable, nous traitons les catégories d'informations sensibles suivantes :",
+          'phone numbers email addresses billing addresses':
+            'numéros de téléphone adresses e-mail adresses de facturation',
+          names: 'des noms',
+          'Personal Information Provided by You. The personal information that we collect depends on the context of your interactions with us and the Services, the choices you make, and the products and features you use. The personal information we collect may include the following:':
+            'Informations personnelles fournies par vous. Les informations personnelles que nous collectons dépendent du contexte de vos interactions avec nous et les Services, des choix que vous faites et des produits et fonctionnalités que vous utilisez. Les informations personnelles que nous collectons peuvent inclure les éléments suivants :',
+          'We collect personal information that you voluntarily provide to us when you express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.':
+            'Nous collectons les informations personnelles que vous nous fournissez volontairement lorsque vous exprimez un intérêt à obtenir des informations sur nous ou sur nos produits et services, lorsque vous participez à des activités sur les services ou autrement lorsque vous nous contactez.',
+          'In Short: We collect personal information that you provide to us.':
+            'En bref : Nous collectons les informations personnelles que vous nous fournissez.',
+          'Personal information you disclose to us':
+            'Informations personnelles que vous nous divulguez',
+          'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?':
+            'COMMENT POUVEZ-VOUS NOUS CONTACTER AU SUJET DE CET AVIS ?',
+          'DO WE MAKE UPDATES TO THIS NOTICE?': 'FAISONS-NOUS DES MISES À JOUR À CET AVIS ?',
+          'DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?':
+            'LES RÉSIDENTS DE CALIFORNIE ONT-ILS DES DROITS SPÉCIFIQUES À LA VIE PRIVÉE ?',
+          'CONTROLS FOR DO-NOT-TRACK FEATURES': 'COMMANDES POUR LES FONCTIONS NE PAS SUIVRE',
+          'WHAT ARE YOUR PRIVACY RIGHTS?': 'QUELS SONT VOS DROITS EN MATIÈRE DE CONFIDENTIALITÉ ?',
+          'HOW DO WE KEEP YOUR INFORMATION SAFE?':
+            'COMMENT GARDONS-NOUS VOS INFORMATIONS EN SÉCURITÉ ?',
+          'HOW LONG DO WE KEEP YOUR INFORMATION?':
+            'COMBIEN DE TEMPS CONSERVONS-NOUS VOS INFORMATIONS ?',
+          'HOW DO WE HANDLE YOUR SOCIAL LOGINS?': 'COMMENT GÉRONS-NOUS VOS CONNEXIONS SOCIALES ?',
+          'DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?':
+            "UTILISONS-NOUS DES COOKIES ET D'AUTRES TECHNOLOGIES DE SUIVI ?",
+          'WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?':
+            'QUAND ET AVEC QUI PARTAGEONS-NOUS VOS INFORMATIONS PERSONNELLES ?',
+          'WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?':
+            'SUR QUELLES BASES JURIDIQUES APPUYONS-NOUS POUR TRAITER VOS INFORMATIONS PERSONNELLES ?',
+          'HOW DO WE PROCESS YOUR INFORMATION?': 'COMMENT TRAITONS-NOUS VOS INFORMATIONS ?',
+          'WHAT INFORMATION DO WE COLLECT?': 'QUELLES INFORMATIONS COLLECTONS-NOUS?',
+          'TABLE OF CONTENTS': 'TABLE DES MATIÈRES',
+          'How do you exercise your rights? The easiest way to exercise your rights is by filling out our data subject request form available here, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.':
+            "Comment exercez-vous vos droits ? Le moyen le plus simple d'exercer vos droits est de remplir notre formulaire de demande de personne concernée disponible ici, ou de nous contacter. Nous examinerons et agirons sur toute demande conformément aux lois applicables en matière de protection des données.",
+          'What are your rights? Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information.':
+            "Quels sont vos droits ? Selon l'endroit où vous vous trouvez géographiquement, la loi sur la confidentialité applicable peut signifier que vous avez certains droits concernant vos informations personnelles.",
+          'How do we keep your information safe? We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information.':
+            "Comment protégeons-nous vos informations ? Nous avons mis en place des processus et procédures organisationnels et techniques pour protéger vos informations personnelles. Cependant, aucune transmission électronique sur Internet ou technologie de stockage d'informations ne peut être garantie à 100% sécurisée, nous ne pouvons donc pas promettre ou garantir que les pirates, les cybercriminels ou d'autres tiers non autorisés ne seront pas en mesure de déjouer notre sécurité et de collecter, d'accéder de manière inappropriée , voler ou modifier vos informations.",
+          'We may share information in specific situations and with specific third parties.':
+            'Nous pouvons partager des informations dans des situations spécifiques et avec des tiers spécifiques.',
+          'In what situations and with which parties do we share personal information?':
+            'Dans quelles situations et avec quelles parties partageons-nous des informations personnelles ?',
+          'How do we process your information? We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so.':
+            "Comment traitons-nous vos informations ? Nous traitons vos informations pour fournir, améliorer et administrer nos Services, communiquer avec vous, pour la sécurité et la prévention de la fraude, et pour nous conformer à la loi. Nous pouvons également traiter vos informations à d'autres fins avec votre consentement. Nous traitons vos informations uniquement lorsque nous avons une raison légale valable de le faire.",
+          'Do we receive any information from third parties? We do not receive any information from third parties.':
+            'Recevons-nous des informations de tiers ? Nous ne recevons aucune information de tiers.',
+          'Do we process any sensitive personal information? We may process sensitive personal information when necessary with your consent or as otherwise permitted by applicable law.':
+            'Traitons-nous des informations personnelles sensibles ? Nous pouvons traiter des informations personnelles sensibles si nécessaire avec votre consentement ou autrement autorisé par la loi applicable.',
+          'What personal information do we process? When you visit, use, or navigate our Services, we may process personal information depending on how you interact with Falcon Consulting and the Services, the choices you make, and the products and features you use.':
+            'Quelles informations personnelles traitons-nous ? Lorsque vous visitez, utilisez ou naviguez sur nos Services, nous pouvons traiter des informations personnelles en fonction de la manière dont vous interagissez avec Falcon Consulting et les Services, des choix que vous faites et des produits et fonctionnalités que vous utilisez.',
+          'This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for.':
+            "Ce résumé fournit les points clés de notre avis de confidentialité, mais vous pouvez trouver plus de détails sur l'un de ces sujets en cliquant sur le lien suivant chaque point clé ou en utilisant notre table des matières ci-dessous pour trouver la section que vous recherchez.",
+          'SUMMARY OF KEY POINTS': 'RÉSUMÉ DES POINTS CLÉS',
+          'Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at contact@falconconsulting.fr.':
+            "Questions ou préoccupations? La lecture de cet avis de confidentialité vous aidera à comprendre vos droits et vos choix en matière de confidentialité. Si vous n'êtes pas d'accord avec nos politiques et pratiques, veuillez ne pas utiliser nos Services. Si vous avez encore des questions ou des préoccupations, veuillez nous contacter à contact@falconconsulting.fr.",
+          'Engage with us in other related ways, including any sales, marketing, or events':
+            "S'engager avec nous d'autres manières connexes, y compris les ventes, le marketing ou les événements",
+          'Visit our website at https://www.falconconsulting.fr, or any website of ours that links to this privacy notice':
+            "Visitez notre site Web à l'adresse https://www.falconconsulting.fr, ou l'un de nos sites Web qui renvoie à cet avis de confidentialité",
+          'This privacy notice for Falcon Consulting ("Company," "we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:':
+            'Cet avis de confidentialité pour Falcon Consulting ("Société", "nous", "notre" ou "notre") décrit comment et pourquoi nous pouvons collecter, stocker, utiliser et/ou partager ("traiter") vos informations lorsque vous utilisez nos services (« Services »), par exemple lorsque vous :',
+          'Last updated June 04, 2022': 'Dernière mise à jour le 04 juin 2022',
+
+          // Title 5
+          'Government Data Request Policy': 'Politique de demande de données du gouvernement',
+          // Body 5
+          'In no event will any Group Member transfer Personal Information to a Requesting Authority in a massive, disproportionate, and indiscriminate manner that goes beyond what is necessary in a democratic society.':
+            'En aucun cas, un membre du groupe ne transférera des informations personnelles à une autorité requérante de manière massive, disproportionnée et aveugle allant au-delà de ce qui est nécessaire dans une société démocratique.',
+          'Bulk transfers': 'Transferts groupés',
+          'Falcon Consulting commits to preparing a semi-annual report (a “Transparency Report”), which reflects the number and type of Data Disclosure Requests it has received for the preceding six months, as may be limited by applicable law or court order. Falcon Consulting shall publish the Transparency Report on its website, and make the report available upon request to competent data protection authorities.':
+            "Falcon Consulting s'engage à préparer un rapport semestriel (un « rapport de transparence »), qui reflète le nombre et le type de demandes de divulgation de données qu'il a reçues au cours des six mois précédents, dans la mesure où cela peut être limité par la loi applicable ou une ordonnance du tribunal. Falcon Consulting publiera le rapport de transparence sur son site Internet et mettra le rapport à disposition sur demande des autorités compétentes en matière de protection des données.",
+          'Transparency reports': 'Rapports de transparence',
+          'Where Falcon Consulting is prohibited from notifying the competent data protection authorities and suspending the request, Falcon Consulting will use its best efforts (taking into account the nature, context, purposes, scope, and urgency of the request) to inform the Requesting Authority about its obligations under applicable data protection law and to obtain the right to waive this prohibition. Such efforts may include asking the Requesting Authority to put the request on hold, so that Falcon Consulting can consult with the competent data protection authorities, or to allow disclosure to specified personnel at Falcon Consulting’s customer, and may also, in appropriate circumstances, include seeking a court order to this effect. Falcon Consulting will maintain a written record of the efforts it takes.':
+            "Lorsqu'il est interdit à Falcon Consulting d'informer les autorités compétentes en matière de protection des données et de suspendre la demande, Falcon Consulting fera ses meilleurs efforts (compte tenu de la nature, du contexte, des finalités, de l'étendue et de l'urgence de la demande) pour informer l'Autorité requérante de sa obligations en vertu de la législation applicable en matière de protection des données et d'obtenir le droit de renoncer à cette interdiction. Ces efforts peuvent consister à demander à l'autorité requérante de mettre la demande en attente, afin que Falcon Consulting puisse consulter les autorités compétentes en matière de protection des données, ou d'autoriser la divulgation au personnel spécifié chez le client de Falcon Consulting, et peuvent également, dans des circonstances appropriées, inclure la recherche une ordonnance du tribunal à cet effet. Falcon Consulting conservera une trace écrite des efforts nécessaires.",
+          'If the Requesting Authority is in a country that does not provide an adequate level of protection for the personal information in accordance with applicable data protection laws, then Falcon Consulting will also put the request on hold to notify and consult with the competent data protection authorities, unless legally prohibited or where an imminent risk of serious harm exists that prohibits prior notification.':
+            "Si l'Autorité requérante se trouve dans un pays qui n'offre pas un niveau de protection adéquat des informations personnelles conformément aux lois applicables en matière de protection des données, Falcon Consulting mettra également la demande en attente pour informer et consulter les autorités compétentes en matière de protection des données, sauf si la loi l'interdit ou s'il existe un risque imminent de préjudice grave qui interdit la notification préalable.",
+          'Notice to the competent data protection authorities':
+            'Avis aux autorités compétentes en matière de protection des données',
+          'If this is not possible (for example, because the Requesting Authority declines to make the Data Disclosure Request directly to the Customer, does not know the customer’s identity, or if Falcon Consulting is not permitted by law to disclose the Data Disclosure Request), Falcon Consulting will notify and provide the Customer with the details of the Data Disclosure Request prior to disclosing any personal information, unless legally prohibited from doing so or where an imminent risk of serious harm exists that prohibits prior notification.':
+            "Si cela n'est pas possible (par exemple, parce que l'autorité requérante refuse de faire la demande de divulgation de données directement au client, ne connaît pas l'identité du client, ou si Falcon Consulting n'est pas autorisé par la loi à divulguer la demande de divulgation de données), Falcon Consulting informera et fournira au client les détails de la demande de divulgation de données avant de divulguer toute information personnelle, sauf interdiction légale de le faire ou lorsqu'il existe un risque imminent de préjudice grave qui interdit la notification préalable.",
+          'If a request concerns personal information for which a Customer is the controller, Falcon Consulting will ordinarily ask the Requesting Authority to make the Data Disclosure Request directly to the relevant Customer. If the Requesting Authority agrees, Falcon Consulting will support the Customer in accordance with the terms of its contract to respond to the Data Disclosure Request.':
+            "Si une demande concerne des informations personnelles pour lesquelles un client est le responsable du traitement, Falcon Consulting demandera généralement à l'autorité requérante de faire la demande de divulgation de données directement au client concerné. En cas d'accord de l'Autorité Requérante, Falcon Consulting accompagnera le Client conformément aux termes de son contrat pour répondre à la Demande de Communication de Données.",
+          'Notice to the Customer': 'Avis au client',
+          'Notice of a Data Disclosure Request': 'Avis de demande de divulgation de données',
+          'Falcon Consulting’s Privacy Team will carefully review each and every Data Disclosure Request on a case-by-case basis. The Privacy Team will liaise with the legal department and outside counsel as appropriate to deal with the request to determine the nature, context, purposes, scope and urgency of the Data Disclosure Request, and its validity under applicable laws, to identify whether action may be needed to challenge the Data Disclosure Request and/or to notify the Customer and/or competent data protection authorities in accordance with paragraph 4.':
+            "L'équipe de confidentialité de Falcon Consulting examinera attentivement chaque demande de divulgation de données au cas par cas. L'équipe de protection de la vie privée assurera la liaison avec le service juridique et les conseils externes, le cas échéant, pour traiter la demande afin de déterminer la nature, le contexte, les objectifs, la portée et l'urgence de la demande de divulgation de données, ainsi que sa validité en vertu des lois applicables, afin d'identifier si une action peut être nécessaire pour contester la demande de divulgation de données et/ou pour informer le client et/ou les autorités compétentes en matière de protection des données conformément au paragraphe 4.",
+          'The Requesting Authority’s request does not have to be made in writing, made under a Court order, or mention data protection law to qualify as a Data Disclosure Request. Any Data Disclosure Request, however made, must be notified to the Privacy Team for review.':
+            "La demande de l'autorité requérante n'a pas besoin d'être faite par écrit, en vertu d'une ordonnance du tribunal ou de mentionner la loi sur la protection des données pour être qualifiée de demande de divulgation de données. Toute demande de divulgation de données, quelle qu'en soit la forme, doit être notifiée à l'équipe de confidentialité pour examen.",
+          'If a Falcon Consulting Group Member receives a Data Disclosure Request, the recipient of the request must pass it to Falcon Consulting’s Chief Privacy Officer and Privacy Team (collectively, the “Privacy Team”) immediately upon receipt, indicating the date on which it was received together with any other information that may assist the Privacy Team to respond to the request.':
+            "Si un membre de Falcon Consulting Group reçoit une demande de divulgation de données, le destinataire de la demande doit la transmettre au responsable de la confidentialité et à l'équipe de confidentialité de Falcon Consulting (collectivement, l'« équipe de confidentialité ») dès réception, en indiquant la date à laquelle elle a été reçue. ainsi que toute autre information susceptible d'aider l'équipe de confidentialité à répondre à la demande.",
+          'Handling of a Data Disclosure Request':
+            "Traitement d'une demande de divulgation de données",
+          'For that reason, unless it is legally prohibited from doing so or there is an imminent risk of serious harm, Falcon Consulting will notify and consult with the competent data protection authorities (and, where it processes the personal information on behalf of a Customer, the Customer) to address the Data Disclosure Request.':
+            "Pour cette raison, sauf interdiction légale de le faire ou en cas de risque imminent de préjudice grave, Falcon Consulting notifiera et consultera les autorités compétentes en matière de protection des données (et, lorsqu'il traite les informations personnelles pour le compte d'un Client, le Client) pour répondre à la demande de divulgation de données.",
+          'taking into account the nature, context, purposes, scope and urgency of the Data Disclosure Request and the privacy rights and freedoms of any affected individuals, there is an imminent risk of serious harm that merits compliance with the Data Disclosure Requests in any event.':
+            "compte tenu de la nature, du contexte, des objectifs, de la portée et de l'urgence de la demande de divulgation de données et des droits et libertés à la vie privée de toute personne concernée, il existe un risque imminent de préjudice grave qui mérite de se conformer aux demandes de divulgation de données dans tous les cas.",
+          'it is under a compelling legal obligation to make such disclosure; or':
+            'il est soumis à une obligation légale impérieuse de faire une telle divulgation ; ou',
+          'As a general principle, Falcon Consulting does not disclose personal information in response to a Data Disclosure Request unless either:':
+            "En règle générale, Falcon Consulting ne divulgue pas d'informations personnelles en réponse à une demande de divulgation de données, sauf si :",
+          'General principle on Data Disclosure Requests':
+            'Principe général sur les demandes de divulgation de données',
+          'The lists below are by no means exhaustive, but attempt to provide a framework for activities which fall into the category of unacceptable use.':
+            'Les listes ci-dessous ne sont en aucun cas exhaustives, mais tentent de fournir un cadre pour les activités qui entrent dans la catégorie des utilisations inacceptables.',
+          'Where Falcon Consulting receives a Data Disclosure Request, it will handle that Data Disclosure Request in accordance with this policy. . If applicable data protection law(s) require a higher standard of protection for personal information than is required by this policy, Falcon Consulting will comply with the relevant requirements of those applicable data protection law(s).':
+            'Lorsque Falcon Consulting reçoit une demande de divulgation de données, il traitera cette demande de divulgation de données conformément à la présente politique. . Si les lois applicables en matière de protection des données exigent un niveau de protection des informations personnelles plus élevé que celui requis par la présente politique, Falcon Consulting se conformera aux exigences pertinentes de ces lois applicables en matière de protection des données.',
+          'This Government Data Request Policy sets out Falcon Consulting’s procedure for responding to a request received from a law enforcement or other government authority (together the “Requesting Authority“) to disclose personal information processed by Falcon Consulting (hereafter “Data Disclosure Request“) which is aligned with our Binding Corporate Rules: Government Data Request Procedure.':
+            "Cette politique de demande de données gouvernementales définit la procédure de Falcon Consulting pour répondre à une demande reçue d'une autorité chargée de l'application de la loi ou d'une autre autorité gouvernementale (ensemble, l'« Autorité requérante ») pour divulguer des informations personnelles traitées par Falcon Consulting (ci-après « Demande de divulgation de données ») qui est conformément à nos règles d'entreprise contraignantes : procédure de demande de données gouvernementales.",
+
+          // Title 4
+          'Acceptable Use Policy': "Politique d'utilisation acceptable",
+          // Body 4
+          'Apart from following all laws pertaining to the handling and disclosure of copyrighted or export controlled materials, Falcon Consulting’s trademarks, logos and any other Falcon Consulting intellectual property may also not be used in connection with any blogging activity':
+            "Outre le respect de toutes les lois relatives à la manipulation et à la divulgation de documents protégés par le droit d'auteur ou à l'exportation, les marques, logos et toute autre propriété intellectuelle de Falcon Consulting ne peuvent pas non plus être utilisés dans le cadre d'une activité de blog.",
+          'Employees may also not attribute personal statements, opinions or beliefs to Falcon Consulting when engaged in blogging. If an employee is expressing his or her beliefs and/or opinions in blogs, the employee may not, expressly or implicitly, represent themselves as an employee or representative of Falcon Consulting. Employees assume any and all risk associated with blogging.':
+            "Les employés ne peuvent pas non plus attribuer des déclarations personnelles, des opinions ou des croyances à Falcon Consulting lorsqu'ils sont engagés dans des blogs. Si un employé exprime ses convictions et/ou opinions dans des blogs, l'employé ne peut pas, expressément ou implicitement, se présenter comme un employé ou un représentant de Falcon Consulting. Les employés assument tous les risques associés aux blogs.",
+          'Employees shall not engage in any blogging that may harm or tarnish the image, reputation and/or goodwill of Falcon Consulting and/or any of its employees. Employees are also prohibited from making any discriminatory, disparaging, defamatory or harassing comments when blogging or otherwise engaging in any conduct prohibited by Falcon Consulting’s Non-Discrimination and Anti-Harassment policy.':
+            "Les employés ne doivent pas s'engager dans des blogs qui pourraient nuire ou ternir l'image, la réputation et/ou la bonne volonté de Falcon Consulting et/ou de l'un de ses employés. Il est également interdit aux employés de faire des commentaires discriminatoires, dénigrants, diffamatoires ou harcelants lorsqu'ils bloguent ou se livrent à toute conduite interdite par la politique de non-discrimination et de lutte contre le harcèlement de Falcon Consulting.",
+          'Falcon Consulting’s Confidential Information policy also applies to blogging. As such, Employees are prohibited from revealing any confidential or proprietary information, trade secrets or any other material covered by Company’s Confidential Information policy when engaged in blogging.':
+            "La politique d'informations confidentielles de Falcon Consulting s'applique également aux blogs. En tant que tel, il est interdit aux Employés de révéler des informations confidentielles ou exclusives, des secrets commerciaux ou tout autre matériel couvert par la politique d'informations confidentielles de la Société lorsqu'ils sont engagés dans des blogs.",
+          "Blogging by employees, whether using Falcon Consulting’s property and systems or personal computer systems, is also subject to the terms and restrictions set forth in this Policy. Limited and occasional use of Falcon Consulting’s systems to engage in blogging is acceptable, provided that it is done in a professional and responsible manner, does not otherwise violate Falcon Consulting’s policy, is not detrimental to Falcon Consulting’s best interests, and does not interfere with an employee's regular work duties. Blogging from Falcon Consulting’s systems is also subject to monitoring.":
+            "Les blogs des employés, qu'ils utilisent la propriété et les systèmes de Falcon Consulting ou des systèmes informatiques personnels, sont également soumis aux conditions et restrictions énoncées dans la présente politique. L'utilisation limitée et occasionnelle des systèmes de Falcon Consulting pour s'engager dans des blogs est acceptable, à condition qu'elle soit effectuée de manière professionnelle et responsable, qu'elle ne viole pas autrement la politique de Falcon Consulting, qu'elle ne nuise pas aux meilleurs intérêts de Falcon Consulting et qu'elle n'interfère pas avec une tâches habituelles de l'employé. Les blogs à partir des systèmes de Falcon Consulting sont également soumis à une surveillance.",
+          'Blogging and Social Media': 'Blogs et réseaux sociaux',
+          'Posting the same or similar non-business-related messages to large numbers of Usenet newsgroups (newsgroup spam).':
+            "Publier des messages identiques ou similaires non liés à l'entreprise sur un grand nombre de groupes de discussion Usenet (spam de groupes de discussion).",
+          "Use of unsolicited email originating from within Falcon Consulting's networks of other Internet/Intranet/Extranet service providers on behalf of, or to advertise, any service hosted by Falcon Consulting or connected via Falcon Consulting's network.":
+            "Utilisation d'e-mails non sollicités provenant des réseaux de Falcon Consulting d'autres fournisseurs de services Internet/Intranet/Extranet au nom de, ou pour annoncer, tout service hébergé par Falcon Consulting ou connecté via le réseau de Falcon Consulting.",
+          "Creating or forwarding 'chain letters', 'Ponzi' or other 'pyramid' schemes of any type.":
+            "Créer ou transmettre des 'chaînes de lettres', 'Ponzi' ou d'autres schémas 'pyramidaux' de tout type.",
+          "Solicitation of email for any other email address, other than that of the poster's account, with the intent to harass or to collect replies.":
+            "Sollicitation d'e-mail pour toute autre adresse e-mail, autre que celle du compte de l'annonceur, dans l'intention de harceler ou de recueillir des réponses.",
+          'Unauthorized use, or forging, of email header information.':
+            "Utilisation non autorisée ou falsification des informations d'en-tête d'e-mail.",
+          'Any form of harassment via email, telephone or paging, whether through language, frequency, or size of messages.':
+            'Toute forme de harcèlement par e-mail, téléphone ou radiomessagerie, que ce soit par la langue, la fréquence ou la taille des messages.',
+          "Sending unsolicited email messages, including the sending of 'junk mail' or other advertising material to individuals who did not specifically request such material (email spam).":
+            "Envoi de messages électroniques non sollicités, y compris l'envoi de 'courrier indésirable' ou d'autre matériel publicitaire à des personnes qui n'ont pas spécifiquement demandé ce type de matériel (spam par courrier électronique).",
+          "When using company resources to access and use the Internet, users must realize they represent the company. Whenever employees state an affiliation to the company, they must also clearly indicate that 'the opinions expressed are my own and not necessarily those of the company'. Questions may be addressed to the IT Department":
+            "Lorsqu'ils utilisent les ressources de l'entreprise pour accéder à Internet et l'utiliser, les utilisateurs doivent réaliser qu'ils représentent l'entreprise. Chaque fois que les employés déclarent une affiliation à l'entreprise, ils doivent également indiquer clairement que « les opinions exprimées sont les miennes et pas nécessairement celles de l'entreprise ». Les questions peuvent être adressées au service informatique",
+          'Email and Communication Activitiesa': 'Courriel et activités de communicationa',
+          'Providing information about, or lists of, Falcon Consulting employees to parties outside Falcon Consulting.':
+            "Fournir des informations ou des listes d'employés de Falcon Consulting à des parties extérieures à Falcon Consulting.",
+          "Using any program/script/command, or sending messages of any kind, with the intent to interfere with, or disable, a user's terminal session, via any means, locally or via the Internet/Intranet/Extranet.":
+            "Utiliser tout programme/script/commande, ou envoyer des messages de toute nature, avec l'intention d'interférer avec ou de désactiver la session du terminal d'un utilisateur, par tout moyen, localement ou via Internet/Intranet/Extranet.",
+          "Interfering with or denying service to any user other than the employee's host (for example, denial of service attack).":
+            "Interférer avec ou refuser le service à tout utilisateur autre que l'hôte de l'employé (par exemple, attaque par déni de service).",
+          'Introducing honeypots, honeynets, or similar technology on the Falcon Consulting network.':
+            'Introduire des pots de miel, des filets de miel ou une technologie similaire sur le réseau Falcon Consulting.',
+          'Circumventing user authentication or security of any host, network or account.':
+            "Contournement de l'authentification des utilisateurs ou de la sécurité de tout hôte, réseau ou compte.",
+          "Executing any form of network monitoring which will intercept data not intended for the employee's host, unless this activity is a part of the employee's normal job/duty.":
+            "Exécuter toute forme de surveillance du réseau qui interceptera des données non destinées à l'hôte de l'employé, à moins que cette activité ne fasse partie du travail/devoir normal de l'employé.",
+          'Port scanning or security scanning is expressly prohibited unless prior notification to Infosec is made.':
+            "L'analyse de port ou l'analyse de sécurité est expressément interdite, sauf notification préalable à Infosec.",
+          "Effecting security breaches or disruptions of network communication. Security breaches include, but are not limited to, accessing data of which the employee is not an intended recipient or logging into a server or account that the employee is not expressly authorized to access, unless these duties are within the scope of regular duties. For purposes of this section, 'disruption' includes, but is not limited to, network sniffing, pinged floods, packet spoofing, denial of service, and forged routing information for malicious purposes.":
+            "Effectuant des failles de sécurité ou des perturbations de la communication réseau. Les failles de sécurité comprennent, mais sans s'y limiter, l'accès à des données dont l'employé n'est pas le destinataire prévu ou la connexion à un serveur ou à un compte auquel l'employé n'est pas expressément autorisé à accéder, à moins que ces tâches ne relèvent de ses fonctions régulières. Aux fins de cette section, la 'perturbation' inclut, mais sans s'y limiter, le reniflage du réseau, les inondations de ping, l'usurpation de paquets, le déni de service et les informations de routage falsifiées à des fins malveillantes.",
+          'Making statements about warranty, expressly or implied, unless it is a part of normal job duties.':
+            'Faire des déclarations sur la garantie, expresse ou implicite, sauf si cela fait partie des tâches normales du travail.',
+          'Making fraudulent offers of products, items, or services originating from any Falcon Consulting account.':
+            'Faire des offres frauduleuses de produits, articles ou services provenant de tout compte Falcon Consulting.',
+          "Using a Falcon Consulting computing asset to actively engage in procuring or transmitting material that is in violation of sexual harassment or hostile workplace laws in the user's local jurisdiction.":
+            "Utiliser un actif informatique de Falcon Consulting pour s'engager activement dans l'obtention ou la transmission de matériel qui enfreint le harcèlement sexuel ou les lois hostiles sur le lieu de travail dans la juridiction locale de l'utilisateur.",
+          'Revealing your account password to others or allowing use of your account by others. This includes family and other household members when work is being done at home.':
+            "Révéler le mot de passe de votre compte à d'autres ou permettre l'utilisation de votre compte par d'autres. Cela inclut la famille et les autres membres du ménage lorsque le travail est effectué à la maison.",
+          'Introduction of malicious programs into the network or server (e.g., viruses, worms, Trojan horses, e-mail bombs, etc.).':
+            'Introduction de programmes malveillants dans le réseau ou le serveur (par exemple, virus, vers, chevaux de Troie, bombes e-mail, etc.).',
+          'Exporting software, technical information, encryption software or technology, in violation of international or regional export control laws, is illegal. The appropriate management should be consulted prior to export of any material that is in question.':
+            "L'exportation de logiciels, d'informations techniques, de logiciels ou de technologies de cryptage, en violation des lois internationales ou régionales sur le contrôle des exportations, est illégale. La direction appropriée doit être consultée avant l'exportation de tout matériel en question.",
+          'Accessing data, a server or an account for any purpose other than conducting Falcon Consulting business, even if you have authorized access, is prohibited.':
+            "L'accès aux données, à un serveur ou à un compte à des fins autres que la conduite des affaires de Falcon Consulting, même si vous disposez d'un accès autorisé, est interdit.",
+          'Unauthorized copying of copyrighted material including, but not limited to, digitization and distribution of photographs from magazines, books or other copyrighted sources, copyrighted music, and the installation of any copyrighted software for which Falcon Consulting or the end user does not have an active license is strictly prohibited.':
+            "Copie non autorisée de matériel protégé par le droit d'auteur, y compris, mais sans s'y limiter, la numérisation et la distribution de photographies de magazines, de livres ou d'autres sources protégées par le droit d'auteur, la musique protégée par le droit d'auteur et l'installation de tout logiciel protégé par le droit d'auteur pour lequel Falcon Consulting ou l'utilisateur final n'a pas de licence active est strictement interdit.",
+          "Violations of the rights of any person or company protected by copyright, trade secret, patent or other intellectual property, or similar laws or regulations, including, but not limited to, the installation or distribution of 'pirated' or other software products that are not appropriately licensed for use by Falcon Consulting.":
+            "Les violations des droits de toute personne ou société protégée par le droit d'auteur, le secret commercial, le brevet ou toute autre propriété intellectuelle, ou des lois ou réglementations similaires, y compris, mais sans s'y limiter, l'installation ou la distribution de produits logiciels « piratés » ou autres qui ne sont pas sous licence appropriée pour une utilisation par Falcon Consulting.",
+          'The following activities are strictly prohibited, with no exceptions:':
+            'Les activités suivantes sont strictement interdites, sans exception :',
+          'System and Network Activities': 'Activités système et réseau',
+          'The lists below are by no means exhaustive, but attempt to provide a framework for activities which fall into the category of unacceptable use.':
+            'Les listes ci-dessous ne sont en aucun cas exhaustives, mais tentent de fournir un cadre pour les activités qui entrent dans la catégorie des utilisations inacceptables.',
+          'Under no circumstances is an employee of Falcon Consulting authorized to engage in any activity that is illegal under local, state, federal or international law while utilizing Falcon Consulting-owned resources.':
+            "En aucun cas, un employé de Falcon Consulting n'est autorisé à se livrer à une activité illégale en vertu de la loi locale, étatique, fédérale ou internationale tout en utilisant les ressources appartenant à Falcon Consulting.",
+          'The following activities are, in general, prohibited. Employees may be exempted from these restrictions during the course of their legitimate job responsibilities (e.g., systems administration staff may have a need to disable the network access of a host if that host is disrupting production services).':
+            "Les activités suivantes sont, en général, interdites. Les employés peuvent être exemptés de ces restrictions dans le cadre de leurs responsabilités professionnelles légitimes (par exemple, le personnel d'administration des systèmes peut avoir besoin de désactiver l'accès au réseau d'un hôte si cet hôte perturbe les services de production).",
+          'Unacceptable Use': 'Utilisation inacceptable',
+          'Employees must use extreme caution when opening e-mail attachments received from unknown senders, which may contain malware.':
+            "Les employés doivent faire preuve d'une extrême prudence lors de l'ouverture de pièces jointes reçues d'expéditeurs inconnus, qui peuvent contenir des logiciels malveillants.",
+          'Postings by employees from a Falcon Consulting email address to newsgroups should contain a disclaimer stating that the opinions expressed are strictly their own and not necessarily those of Falcon Consulting, unless posting is in the course of business duties.':
+            "Les publications d'employés à partir d'une adresse e-mail de Falcon Consulting vers des groupes de discussion doivent contenir une clause de non-responsabilité indiquant que les opinions exprimées sont strictement les leurs et pas nécessairement celles de Falcon Consulting, à moins que la publication ne soit effectuée dans le cadre de leurs fonctions professionnelles.",
+          'All computing devices must be secured with a password-protected screensaver with the automatic activation feature set to 10 minutes or less. You must lock the screen or log off when the device is unattended.':
+            "Tous les appareils informatiques doivent être sécurisés avec un économiseur d'écran protégé par mot de passe avec la fonction d'activation automatique définie sur 10 minutes ou moins. Vous devez verrouiller l'écran ou vous déconnecter lorsque l'appareil est sans surveillance.",
+          'System level and user level passwords must comply with the Password Policy. Providing access to another individual, either deliberately or through failure to secure its access, is prohibited.':
+            'Les mots de passe de niveau système et de niveau utilisateur doivent être conformes à la politique de mot de passe. Il est interdit de donner accès à une autre personne, que ce soit délibérément ou en ne sécurisant pas son accès.',
+          'All mobile and computing devices that connect to the internal network must comply with the Minimum Access Policy.':
+            "Tous les appareils mobiles et informatiques qui se connectent au réseau interne doivent respecter la politique d'accès minimum.",
+          'Security and Proprietary Information': 'Sécurité et informations exclusives',
+          'Falcon Consulting reserves the right to audit networks and systems on a periodic basis to ensure compliance with this policy.':
+            "Falcon Consulting se réserve le droit d'auditer périodiquement les réseaux et les systèmes pour s'assurer du respect de cette politique.",
+          'For security and network maintenance purposes, authorized individuals within Falcon Consulting may monitor equipment, systems and network traffic at any time, per Audit Policy.':
+            "À des fins de sécurité et de maintenance du réseau, les personnes autorisées au sein de Falcon Consulting peuvent surveiller l'équipement, les systèmes et le trafic réseau à tout moment, conformément à la politique d'audit.",
+          'Employees are responsible for exercising good judgment regarding the reasonableness of personal use. Individual departments are responsible for creating guidelines concerning personal use of Internet/Intranet/Extranet systems. In the absence of such policies, employees should be guided by departmental policies on personal use, and if there is any uncertainty, employees should consult their supervisor or manager.':
+            "Les employés sont responsables d'exercer leur bon jugement quant au caractère raisonnable de l'utilisation personnelle. Les différents départements sont responsables de la création de directives concernant l'utilisation personnelle des systèmes Internet/Intranet/Extranet. En l'absence de telles politiques, les employés doivent être guidés par les politiques ministérielles sur l'utilisation personnelle, et en cas d'incertitude, les employés doivent consulter leur superviseur ou directeur.",
+          'You may access, use or share Falcon Consulting proprietary information only to the extent it is authorized and necessary to fulfill your assigned job duties.':
+            'Vous pouvez accéder, utiliser ou partager les informations exclusives de Falcon Consulting uniquement dans la mesure où cela est autorisé et nécessaire pour remplir les fonctions qui vous sont assignées.',
+          'You have a responsibility to promptly report the theft, loss or unauthorized disclosure of Falcon Consulting proprietary information.':
+            "Vous avez la responsabilité de signaler rapidement le vol, la perte ou la divulgation non autorisée d'informations exclusives à Falcon Consulting.",
+          'Falcon Consulting proprietary information stored on electronic and computing devices whether owned or leased by Falcon Consulting, the employee or a third party, remains the sole property of Falcon Consulting. You must ensure through legal or technical means that proprietary information is protected in accordance with the Data Protection Standard.':
+            "Les informations exclusives de Falcon Consulting stockées sur des appareils électroniques et informatiques, qu'ils soient détenus ou loués par Falcon Consulting, l'employé ou un tiers, restent la propriété exclusive de Falcon Consulting. Vous devez vous assurer par des moyens juridiques ou techniques que les informations exclusives sont protégées conformément à la norme de protection des données.",
+          'General Use and Ownership': 'Utilisation générale et propriété',
+          'This policy applies to the use of information, electronic and computing devices, and network resources to conduct Falcon Consulting business or interact with internal networks and business systems, whether owned or leased by Falcon Consulting, the employee, or a third party. All employees, contractors, consultants, temporary, and other workers at Falcon Consulting and its subsidiaries are responsible for exercising good judgment regarding appropriate use of information, electronic devices, and network resources in accordance with Falcon Consulting.':
+            "Cette politique s'applique à l'utilisation d'informations, d'appareils électroniques et informatiques et de ressources réseau pour mener les activités de Falcon Consulting ou interagir avec des réseaux internes et des systèmes commerciaux, qu'ils soient détenus ou loués par Falcon Consulting, l'employé ou un tiers. Tous les employés, sous-traitants, consultants, intérimaires et autres travailleurs de Falcon Consulting et de ses filiales sont tenus d'exercer leur bon jugement concernant l'utilisation appropriée des informations, des appareils électroniques et des ressources réseau conformément à Falcon Consulting.",
+
+          // Title 3
+          'Information Security Policy': 'Politique de sécurité des informations',
+          // Body 3
+          'Any vendor, consultant, or contractor found to have violated this policy may be subject to sanctions up to and including removal of access rights, termination of contract(s), and related civil or criminal penalties.':
+            "Tout fournisseur, consultant ou sous-traitant reconnu coupable d'avoir enfreint cette politique peut faire l'objet de sanctions pouvant aller jusqu'à la suppression des droits d'accès, la résiliation du ou des contrats et des sanctions civiles ou pénales connexes.",
+          'Personnel found to have violated this policy may be subject to disciplinary action, up to and including termination of employment, and related civil or criminal penalties.':
+            "Le personnel reconnu coupable d'avoir enfreint cette politique peut faire l'objet de mesures disciplinaires, pouvant aller jusqu'au licenciement, et de sanctions civiles ou pénales connexes.",
+          Enforcement: 'Mise en vigueur',
+          'The information security program is reviewed no less than annually or upon significant changes to the information security environment.':
+            "Le programme de sécurité de l'information est revu au moins une fois par an ou lors de modifications importantes de l'environnement de sécurité de l'information.",
+          'All other applicable federal and state laws or regulations.':
+            'Toutes les autres lois ou réglementations fédérales et étatiques applicables.',
+          'Contractual agreements,': 'Accords contractuels,',
+          'Information Security best practices,': "Bonnes pratiques de sécurité de l'information,",
+          'PCI Data Security Standard,': 'Norme de sécurité des données PCI,',
+          'State breach notification laws,': 'Lois étatiques sur la notification des infractions,',
+          'Comply with all regulatory and legal requirements, including:':
+            'Se conformer à toutes les exigences réglementaires et légales, y compris :',
+          'Provide value to the way we conduct business and support institutional objectives.':
+            'Apporter de la valeur à la façon dont nous menons nos activités et soutenir les objectifs institutionnels.',
+          'Serve to protect the Confidentiality, Integrity, and Availability of the Information Resources maintained within the organization using administrative, physical and technical controls.':
+            "Servir à protéger la confidentialité, l'intégrité et la disponibilité des ressources d'information conservées au sein de l'organisation à l'aide de contrôles administratifs, physiques et techniques.",
+          'Falcon Consulting maintains and communicates an Information Security Program consisting of topic-specific policies, standards, procedures and guidelines that:':
+            "Falcon Consulting maintient et communique un programme de sécurité de l'information composé de politiques, normes, procédures et directives spécifiques à un sujet qui :",
+          'Seek guidance from the Information Security Team for questions or issues related to information security.':
+            "Demandez conseil à l'équipe de sécurité de l'information pour toute question ou problème lié à la sécurité de l'information.",
+          'Use Falcon Consulting Information Resources in compliance with all Falcon Consulting Information Security Policies.':
+            "Utilisez les ressources d'information de Falcon Consulting conformément à toutes les politiques de sécurité de l'information de Falcon Consulting.",
+          'Understand their responsibilities for complying with the Falcon Consulting Information Security Program.':
+            "Comprendre leurs responsabilités pour se conformer au programme de sécurité de l'information de Falcon Consulting.",
+          'All Employees, Contractors, and Other Third-Party Personnel':
+            'Tous les employés, sous-traitants et autres membres du personnel tiers',
+          'Report annually, in coordination with the Security Officer, to Executive Management on the effectiveness of the Falcon Consulting Information Security Program, including progress of remedial actions.':
+            "Faire un rapport annuel, en coordination avec le responsable de la sécurité, à la direction générale sur l'efficacité du programme de sécurité de l'information de Falcon Consulting, y compris les progrès des actions correctives.",
+          'Promote information security education, training, and awareness throughout Falcon Consulting, and initiate plans and programs to maintain information security awareness.':
+            "Promouvoir l'éducation, la formation et la sensibilisation à la sécurité de l'information dans l'ensemble de Falcon Consulting, et lancer des plans et des programmes pour maintenir la sensibilisation à la sécurité de l'information.",
+          'Review information security incident information and recommend follow-up actions.':
+            'Examiner les informations sur les incidents de sécurité des informations et recommander des actions de suivi.',
+          'Review and manage the information security policy waiver request process.':
+            'Examiner et gérer le processus de demande de dérogation à la politique de sécurité des informations.',
+          'Ensure that ongoing security activities are executed in compliance with policy.':
+            'Assurez-vous que les activités de sécurité en cours sont exécutées conformément à la politique.',
+          'Assess the adequacy and effectiveness of the information security policies and coordinate the implementation of information security controls.':
+            "Évaluer l'adéquation et l'efficacité des politiques de sécurité de l'information et coordonner la mise en œuvre des contrôles de sécurité de l'information.",
+          'Provide clear direction and visible management support for information security initiatives.':
+            "Fournir une orientation claire et un soutien de gestion visible pour les initiatives de sécurité de l'information.",
+          'Approve supporting procedures, standards, and guidelines related to information security.':
+            "Approuver les procédures, les normes et les directives relatives à la sécurité de l'information.",
+          'Formulate, review and recommend information security policies.':
+            "Formuler, réviser et recommander des politiques de sécurité de l'information.",
+          'Ensure compliance with applicable information security requirements.':
+            "Assurer la conformité aux exigences applicables en matière de sécurité de l'information.",
+          'Information Security Team': "Équipe de sécurité de l'information",
+          'Ensure that the Information Security Officer, in coordination with the Security Team, reports annually to Executive Management on the effectiveness of the Falcon Consulting Information Security Program.':
+            "Veiller à ce que le responsable de la sécurité de l'information, en coordination avec l'équipe de sécurité, rende compte chaque année à la direction générale de l'efficacité du programme de sécurité de l'information de Falcon Consulting.",
+          'Designate an Information Security Officer and delegate authority to that individual to ensure compliance with applicable information security requirements.':
+            "Désignez un responsable de la sécurité de l'information et déléguez l'autorité à cette personne pour assurer le respect des exigences applicables en matière de sécurité de l'information.",
+          'Ensure that the Security Team is given the necessary authority to secure the Information Resources under their control within the scope of the Falcon Consulting Information Security Program.':
+            "Veiller à ce que l'équipe de sécurité reçoive l'autorité nécessaire pour sécuriser les ressources d'information sous son contrôle dans le cadre du programme de sécurité de l'information de Falcon Consulting.",
+          'Ensure adequate information security financial and personnel resources are included in the budgeting and/or financial planning process.':
+            "Veiller à ce que des ressources financières et humaines adéquates pour la sécurité de l'information soient incluses dans le processus de budgétisation et/ou de planification financière.",
+          'Ensure that information security processes are integrated with strategic and operational planning processes to secure the organization’s mission.':
+            "Veiller à ce que les processus de sécurité de l'information soient intégrés aux processus de planification stratégique et opérationnelle pour sécuriser la mission de l'organisation.",
+          'Ensure that an appropriate risk-based Information Security Program is implemented to protect the confidentiality, integrity, and availability of all Information Resources collected or maintained by or on behalf of Falcon Consulting.':
+            "Veiller à ce qu'un programme de sécurité de l'information basé sur les risques approprié soit mis en œuvre pour protéger la confidentialité, l'intégrité et la disponibilité de toutes les ressources d'information collectées ou conservées par ou au nom de Falcon Consulting.",
+          'Executive Management': 'Direction',
+          Responsibilities: 'Responsibilities',
+          'The Falcon Consulting Information Security Policy applies equally to any individual, entity, or process that interacts with any Falcon Consulting Information Resource.':
+            "La politique de sécurité de l'information de Falcon Consulting s'applique également à toute personne, entité ou processus qui interagit avec toute ressource d'information de Falcon Consulting.",
+          Audience: 'Spectateurs',
+          'The purpose of the Falcon Consulting Information Security Policy is to describe the actions and behaviors required to ensure that due care is taken to avoid inappropriate risks to Falcon Consulting, its business partners, and its stakeholders.':
+            "L'objectif de la politique de sécurité de l'information de Falcon Consulting est de décrire les actions et les comportements requis pour s'assurer que toutes les précautions sont prises pour éviter des risques inappropriés pour Falcon Consulting, ses partenaires commerciaux et ses parties prenantes.",
+          'Falcon Consulting has recognized that our business information is a critical asset and as such our ability to manage, control, and protect this asset will have a direct and significant impact on our future success. ':
+            'Falcon Consulting a reconnu que nos informations commerciales sont un atout essentiel et, à ce titre, notre capacité à gérer, contrôler et protéger cet actif aura un impact direct et significatif sur notre succès futur.',
+          'Availability – Ensuring that information assets (information, systems, facilities, networks, and computers) are accessible and usable when needed by an authorized entity.':
+            "Disponibilité – S'assurer que les actifs informationnels (informations, systèmes, installations, réseaux et ordinateurs) sont accessibles et utilisables en cas de besoin par une entité autorisée.",
+          'Integrity – Protecting the accuracy and completeness of information and the methods that are used to process and manage it.':
+            "Intégrité - Protéger l'exactitude et l'exhaustivité des informations et des méthodes utilisées pour les traiter et les gérer.",
+          'Confidentiality – Ensuring that information is accessible only to those entities that are authorized to have access, many times enforced by the classic “need-to-know” principle.':
+            "Confidentialité - Veiller à ce que les informations ne soient accessibles qu'aux entités autorisées à y accéder, souvent appliquées par le principe classique du 'besoin de savoir'.",
+          Introduction: 'Introduction',
+          'Information security is a holistic discipline, meaning that its application, or lack thereof, affects all facets of an organization or enterprise. The goal of the Falcon Consulting Information Security Program is to protect the Confidentiality, Integrity, and Availability of the data employed within the organization while providing value to the way we conduct business. Protection of the Confidentiality, Integrity, and Availability are basic principles of information security, and can be defined as:':
+            "La sécurité de l'information est une discipline holistique, ce qui signifie que son application, ou son absence, affecte toutes les facettes d'une organisation ou d'une entreprise. L'objectif du programme de sécurité de l'information de Falcon Consulting est de protéger la confidentialité, l'intégrité et la disponibilité des données utilisées au sein de l'organisation tout en apportant de la valeur à la façon dont nous menons nos activités. La protection de la confidentialité, de l'intégrité et de la disponibilité sont des principes de base de la sécurité de l'information et peuvent être définies comme :",
+
+          // Title 2
+          'Business Continuity and Disaster Recovery Policy':
+            'Politique de continuité des activités et de reprise après sinistre',
+          // Body 2
+          'Any vendor, consultant, or contractor found to have violated this policy may be subject to sanctions up to and including removal of access rights, termination of contract(s), and related civil or criminal penalties.':
+            "Tout fournisseur, consultant ou sous-traitant reconnu coupable d'avoir enfreint cette politique peut faire l'objet de sanctions pouvant aller jusqu'à la suppression des droits d'accès, la résiliation du ou des contrats et des sanctions civiles ou pénales connexes.",
+          'Personnel found to have violated this policy may be subject to disciplinary action, up to and including termination of employment, and related civil or criminal penalties.':
+            "Le personnel reconnu coupable d'avoir enfreint cette politique peut faire l'objet de mesures disciplinaires, pouvant aller jusqu'au licenciement, et de sanctions civiles ou pénales connexes.",
+          'Waivers from certain policy provisions may be sought following the Falcon Consulting Waiver Process.':
+            'Des dérogations à certaines dispositions de la politique peuvent être demandées à la suite du processus de dérogation de Falcon Consulting.',
+          Waivers: 'Renonciations',
+          'Criticality of Service List: Lists all the services provided and their order of importance.':
+            "Liste de criticité des services : répertorie tous les services fournis et leur ordre d'importance.",
+          'Data Study: Details the data stored on the systems, its criticality, and its confidentiality.':
+            'Étude de données : détaille les données stockées sur les systèmes, leur criticité et leur confidentialité.',
+          'Succession Plan: Describes the flow of responsibility when normal staff is unavailable to perform their duties.':
+            "Plan de relève : Décrit le flux de responsabilité lorsque le personnel normal n'est pas disponible pour accomplir ses tâches.",
+          'Computer Emergency Response Plan: Indicates who is to be contacted, when, and how. Also indicates what immediate actions must be taken in the event of certain occurrences.':
+            "Plan d'intervention en cas d'urgence informatique : indique qui doit être contacté, quand et comment. Indique également quelles mesures immédiates doivent être prises en cas de certains événements.",
+          'Procedures for plan tests, review, and updates.':
+            'Procédures pour les tests, les révisions et les mises à jour du plan.',
+          'Protection and availability of plan documentation;':
+            'Protection et disponibilité de la documentation du régime ;',
+          'Contingency plans for different types of disruption events;':
+            "Plans d'urgence pour différents types d'événements perturbateurs ;",
+          'Equipment Replacement Plan: Describes what equipment is required to begin to provide services, list the order in which it is necessary, and note where to purchase the equipment.':
+            "Plan de remplacement de l'équipement : décrit l'équipement nécessaire pour commencer à fournir des services, indique l'ordre dans lequel il est nécessaire et indique où acheter l'équipement.",
+          'Data Backup and Restoration Plan: Indicates which data is backed up, the media to which it is saved, where that media is stored, and how often the backup is done.':
+            "Plan de sauvegarde et de restauration des données : indique quelles données sont sauvegardées, le support sur lequel elles sont enregistrées, l'emplacement de stockage de ce support et la fréquence à laquelle la sauvegarde est effectuée.",
+          'An inventory of backups and offsite storage locations;':
+            'Un inventaire des sauvegardes et des emplacements de stockage hors site ;',
+          'Requirements for ensuring information security throughout the process;':
+            "Exigences pour assurer la sécurité de l'information tout au long du processus ;",
+          'Procedures for reporting disaster events, event escalation, recovery of critical operations, and resumption of normal operations;':
+            "Procédures de signalement des événements catastrophiques, de l'escalade des événements, de la reprise des opérations critiques et de la reprise des opérations normales ;",
+          'List of potential risks to critical systems and sensitive information;':
+            'Liste des risques potentiels pour les systèmes critiques et les informations sensibles ;',
+          'Roles and responsibilities for implementing the disaster recovery plan;':
+            'Rôles et responsabilités pour la mise en œuvre du plan de reprise après sinistre ;',
+          'The Falcon consulting DRP includes:': 'Le DRP conseil Falcon comprend :',
+          'The DRP is communicated and distributed to all relevant internal personnel and executive management.':
+            'Le DRP est communiqué et distribué à tout le personnel interne et à la direction générale concernés.',
+          'The DRP is reviewed and updated upon any relevant change to IT Infrastructure, at the conclusion of plan testing, or least annually.':
+            "Le DRP est examiné et mis à jour lors de toute modification pertinente de l'infrastructure informatique, à la fin des tests du plan, ou au moins une fois par an.",
+          'The DRP is tested annually, at a minimum.': 'Le DRP est testé annuellement, au minimum.',
+          'Falcon consulting has created and implement a Disaster Recovery Plan (“DRP”) to support business objectives outlined in the (BCP/critical processes identified by a Business Impact Analysis).':
+            "Falcon Consulting a créé et mis en œuvre un plan de reprise après sinistre (« DRP ») pour soutenir les objectifs commerciaux décrits dans le (PCA/processus critiques identifiés par une analyse d'impact sur l'entreprise).",
+          'Disaster Recovery focuses on restoring the technology systems that support both critical and day-to-day business operations.':
+            'La reprise après sinistre se concentre sur la restauration des systèmes technologiques qui prennent en charge les opérations commerciales critiques et quotidiennes.',
+          'Disaster recovery Policy': 'Politique de reprise après sinistre',
+          'Procedures for plan tests, review, and updates.':
+            'Procédures pour les tests, les révisions et les mises à jour du plan.',
+          'Protection and availability of plan documentation;':
+            'Protection et disponibilité de la documentation du régime ;',
+          'Contingency plans for different types of disruption events;':
+            "Plans d'urgence pour différents types d'événements perturbateurs ;",
+          'Strategies to address and limit the reputational impact from an event;':
+            "Stratégies pour traiter et limiter l'impact sur la réputation d'un événement ;",
+          'Mitigation strategies and safeguards to reduce impact;':
+            "Stratégies d'atténuation et mesures de protection pour réduire l'impact ;",
+          'Notification policy from Falcon Consulting partners to inform the company in case of disruption of their services which may affect the activities of Falcon Consulting;':
+            "Politique de notification des partenaires de Falcon Consulting pour informer l'entreprise en cas de perturbation de leurs services pouvant affecter les activités de Falcon Consulting ;",
+          'Communication strategies for communications both inside and outside the organization;':
+            "Stratégies de communication pour les communications à l'intérieur et à l'extérieur de l'organisation ;",
+          'Processes to ensure the safety of personnel;':
+            'Processus pour assurer la sécurité du personnel ;',
+          'Identification of supply chain relationships and the organization’s role to support critical infrastructure;':
+            "Identification des relations de la chaîne d'approvisionnement et du rôle de l'organisation pour soutenir les infrastructures essentielles ;",
+          'Requirements for ensuring information security throughout the process;':
+            "Exigences pour assurer la sécurité de l'information tout au long du processus ;",
+          'An inventory of critical systems and records, and their dependencies;':
+            'Un inventaire des systèmes et enregistrements critiques et de leurs dépendances ;',
+          'A risk assessment for critical business processes and operations (Business Impact Analysis);':
+            'Une évaluation des risques pour les processus et opérations métier critiques (Business Impact Analysis) ;',
+          'Documented plans, response and recovery procedures are developed and approved, detailing how the organization will manage a disruptive event.':
+            "Des plans documentés, des procédures d'intervention et de récupération sont élaborés et approuvés, détaillant comment l'organisation gérera un événement perturbateur.",
+          'An adequate management structure is in place to prepare for, mitigate and respond to a disruptive event using personnel with the necessary authority, experience, and competence;':
+            "Une structure de gestion adéquate est en place pour se préparer, atténuer et répondre à un événement perturbateur en utilisant du personnel ayant l'autorité, l'expérience et la compétence nécessaires ;",
+          'The safety and security of personnel is the first priority;':
+            'La sûreté et la sécurité du personnel sont la première priorité ;',
+          'Business continuity planning includes:':
+            'La planification de la continuité des activités comprend :',
+          'The BCP is communicated and distributed to all relevant internal personnel and executive management.':
+            "Le PCA est communiqué et diffusé à l'ensemble du personnel interne et de la direction générale concernés.",
+          'The BCP is reviewed and updated upon any relevant change to the organization, at the conclusion of plan testing, or least annually.':
+            "Le PCA est revu et mis à jour lors de tout changement pertinent apporté à l'organisation, à la fin des tests du plan, ou au moins une fois par an.",
+          'The BCP is periodically tested and the results should be shared with executive management.':
+            'Le PCA est périodiquement testé et les résultats doivent être partagés avec la direction générale.',
+          'Falcon Consulting has created and implemented a Business Continuity Plan (“BCP”).':
+            "Falcon Consulting a créé et mis en place un Plan de Continuité d'Activité (« PCA »).",
+          'Business Continuity focuses on sustaining The Falcon Consulting’s critical business processes during and after a disruption.':
+            'La continuité des activités se concentre sur le maintien des processus commerciaux critiques de The Falcon Consulting pendant et après une interruption.',
+          'Business Continuity Plan': 'Plan de continuité des activités',
+
+          //
+
+          // Title 1
+          'Falcon Consulting Policy Document': 'Document de politique de Falcon Consulting',
+          // Body 1
+          'Any employee found to have violated this policy may be subjected to disciplinary action in line with the HR Policy.':
+            "Tout employé reconnu coupable d'avoir enfreint cette politique peut faire l'objet de mesures disciplinaires conformément à la politique RH.",
+          'd. Contact Information': 'ré. Coordonnées',
+          'c. Sensitivity Classification [Based on applicable electronic record retention regulations.]':
+            'c. Classification de sensibilité [Selon les réglementations applicables en matière de conservation des enregistrements électroniques.]',
+          'b. Creation Date': 'b. Date de création',
+          'a. System name ': 'un. Nom du système',
+          'Backup tapes must have at a minimum the following identifying criteria that can be readily identified by labels and/or a bar-coding system:':
+            "Les bandes de sauvegarde doivent avoir au minimum les critères d'identification suivants qui peuvent être facilement identifiés par des étiquettes et/ou un système de codes à barres :",
+          'Procedures between KDCC and the offsite backup storage vendor(s) must be reviewed at least annually.':
+            'Les procédures entre KDCC et le(s) fournisseur(s) de stockage de sauvegarde hors site doivent être révisées au moins une fois par an.',
+          'Backup information shall be selectively used to restore information system functions as a part of the business continuity process.':
+            "Les informations de sauvegarde doivent être utilisées de manière sélective pour restaurer les fonctions du système d'information dans le cadre du processus de continuité des activités.",
+          'Signature cards held by the offsite backup storage vendor(s) for access to backup media must be reviewed annually or when an authorized individual leaves FALCON CONSULTING.':
+            "Les cartes de signature détenues par le(s) fournisseur(s) de stockage de sauvegarde hors site pour l'accès aux supports de sauvegarde doivent être examinées chaque année ou lorsqu'une personne autorisée quitte FALCON CONSULTING.",
+          'Backups must be periodically tested to ensure that they are recoverable. To confirm media reliability and information integrity, the back-up information shall be tested at some specified frequency.':
+            "Les sauvegardes doivent être testées périodiquement pour s'assurer qu'elles sont récupérables. Pour confirmer la fiabilité des supports et l'intégrité des informations, les informations de sauvegarde doivent être testées à une fréquence spécifiée.",
+          'The system backup information shall be provided with protection from unauthorized modification and environmental conditions.':
+            'Les informations de sauvegarde du système doivent être protégées contre les modifications non autorisées et les conditions environnementales.',
+          'Backup copies of operating systems and other critical information system software shall not be stored in the same location as the operational software.':
+            "Les copies de sauvegarde des systèmes d'exploitation et autres logiciels critiques du système d'information ne doivent pas être stockées au même endroit que le logiciel opérationnel.",
+          'A process must be implemented to verify the success of the KDCC electronic information backup.':
+            'Un processus doit être mis en place pour vérifier le succès de la sauvegarde électronique des informations du KDCC.',
+          'Physical access controls implemented at offsite backup storage locations must meet or exceed the physical access controls of the source systems. Additionally, backup media must be protected in accordance with the highest sensitivity level of information stored.':
+            "Les contrôles d'accès physique mis en œuvre dans les emplacements de stockage de sauvegarde hors site doivent respecter ou dépasser les contrôles d'accès physique des systèmes sources. De plus, les supports de sauvegarde doivent être protégés conformément au niveau de sensibilité le plus élevé des informations stockées.",
+          'Any vendor(s) providing offsite backup storage must be cleared to handle the highest level of information stored.':
+            "Tout fournisseur fournissant un stockage de sauvegarde hors site doit être autorisé à gérer le plus haut niveau d'informations stockées.",
+          'The Information Resources backup and recovery process for each system must be documented and periodically reviewed.':
+            "Le processus de sauvegarde et de récupération des ressources d'information pour chaque système doit être documenté et révisé périodiquement.",
+          'The frequency and extent of backups must be in accordance with the importance of the information and the acceptable risk as determined by the data owner.':
+            "La fréquence et l'étendue des sauvegardes doivent être conformes à l'importance des informations et au risque acceptable tel que déterminé par le propriétaire des données.",
+          'All user-level and system-level information maintained by FALCON CONSULTING shall be backed up periodically. The backup media shall be stored with sufficient protection and proper environmental conditions.':
+            "Toutes les informations au niveau de l'utilisateur et du système conservées par FALCON CONSULTING doivent être sauvegardées périodiquement. Le support de sauvegarde doit être stocké avec une protection suffisante et dans des conditions environnementales appropriées.",
+          'The CISO / designated personnel are responsible for proper implementation of the Policy.':
+            'Le RSSI / le personnel désigné est responsable de la bonne mise en œuvre de la Politique.',
+          Responsibility: 'Responsabilité',
+          'The Backup Policy document shall be considered as “confidential” and shall be made available to the concerned persons with proper access control. Subsequent changes and versions of this document shall be controlled.':
+            "Le document de politique de sauvegarde doit être considéré comme « confidentiel » et doit être mis à la disposition des personnes concernées avec un contrôle d'accès approprié. Les modifications et versions ultérieures de ce document doivent être contrôlées.",
+          'The Backup Policy document shall be made available to all the employees covered in the scope. All the changes and new releases of this document shall be made available to the persons concerned. The maintenance responsibility of the document shall be with the CISO and system administrators':
+            'Le document de politique de sauvegarde doit être mis à la disposition de tous les employés couverts par le périmètre. Toutes les modifications et nouvelles versions de ce document doivent être mises à la disposition des personnes concernées. La responsabilité de la maintenance du document incombe au RSSI et aux administrateurs système',
+          'Distribution and Maintenance': 'Distribution et entretien',
+          'Records being generated as part of the Backup Policy shall be retained for a period of two years. Records shall be in hard copy or electronic media. The records shall be owned by the respective system administrators and shall be audited once a year.':
+            'Les enregistrements générés dans le cadre de la politique de sauvegarde doivent être conservés pendant une période de deux ans. Les dossiers doivent être sur support papier ou électronique. Les enregistrements appartiennent aux administrateurs système respectifs et sont audités une fois par an.',
+          'The Backup Policy document and all other referenced documents shall be controlled. Version control shall be used to preserve the latest release and the previous version of any document. However, the previous version of the documents shall be retained only for a period of two years for legal and knowledge preservation purposes.':
+            'Le document de politique de sauvegarde et tous les autres documents référencés doivent être contrôlés. Le contrôle de version doit être utilisé pour conserver la dernière version et la version précédente de tout document. Toutefois, la version précédente des documents ne sera conservée que pendant une période de deux ans à des fins juridiques et de préservation des connaissances.',
+          'Document Control': 'Contrôle des documents',
+          'The Policy documentation shall consist of Backup Policy and related procedures and guidelines.':
+            'La documentation de la politique doit comprendre la politique de sauvegarde et les procédures et directives associées.',
+          Documentation: 'Documentation',
+          'This policy applies to the entire IT infrastructure of FALCON CONSULTING.':
+            "Cette politique s'applique à l'ensemble de l'infrastructure informatique de FALCON CONSULTING.",
+          'IT Assets': 'Actifs informatiques',
+          'This policy applies to all Employees, Contractors, and Third Party Employees, who have access to IT assets of FALCON CONSULTING and may be bound by contractual agreements.':
+            "Cette politique s'applique à tous les employés, sous-traitants et employés tiers qui ont accès aux actifs informatiques de FALCON CONSULTING et peuvent être liés par des accords contractuels.",
+          Employees: 'Des employés',
+          Scope: 'Porté',
+          'provide a measure of protection against human error or the inadvertent deletion of important files.':
+            "fournir une mesure de protection contre l'erreur humaine ou la suppression par inadvertance de fichiers importants.",
+          'restore the integrity of the computer systems in the event of a hardware/software failure or physical disaster; and':
+            "restaurer l'intégrité des systèmes informatiques en cas de panne matérielle/logicielle ou de sinistre physique ; et",
+          'The purpose of this policy is to provide means to:':
+            "L'objectif de cette politique est de fournir des moyens pour :",
+          'System backup policy and program': 'Politique et programme de sauvegarde du système',
+          'Falcon Consulting help deliver a range of services that help clients improve their operational risk management. These services include helping clients design risk frameworks, manage governance and model data. We can also provide clients with an outsourced managed service.':
+            'Falcon Consulting aide à fournir une gamme de services qui aident les clients à améliorer leur gestion des risques opérationnels. Ces services consistent notamment à aider les clients à concevoir des cadres de risque, à gérer la gouvernance et à modéliser les données. Nous pouvons également fournir à nos clients un service géré externalisé.',
+          'Enable third-party risk management': 'Activer la gestion des risques tiers',
+          'Falcon Consulting leverage advanced analytics, robotic process automation, advanced workflow, and machine learning to simplify and streamline everyday tasks when implementing and managing effective third-party risk management programs.':
+            "Falcon Consulting tire parti des analyses avancées, de l'automatisation des processus robotiques, du flux de travail avancé et de l'apprentissage automatique pour simplifier et rationaliser les tâches quotidiennes lors de la mise en œuvre et de la gestion de programmes efficaces de gestion des risques tiers.",
+          'Innovate third-party risk management': 'Innover dans la gestion des risques tiers',
+          'Falcon Consulting help clients understand and implement tactical and strategic methods of managing and mitigating third-party risks. These methods include continuous or periodic monitoring, threat monitoring, and alert management processes to make the job of staying on top of risk easier to implement at a lower overall cost.':
+            "Falcon Consulting aide ses clients à comprendre et à mettre en œuvre des méthodes tactiques et stratégiques de gestion et d'atténuation des risques tiers. Ces méthodes comprennent une surveillance continue ou périodique, une surveillance des menaces et des processus de gestion des alertes pour faciliter la mise en œuvre de la maîtrise des risques à un coût global inférieur.",
+          'Monitor Risk': 'Surveiller les risques',
+          'Falcon Consulting provide due diligence and investigation services in more than 240 countries and 100 languages. We offer off-the-shelf and customized services for clients to evaluate, segment and understand both the risk landscape and quality controls in place at the local, country, regional and global level.':
+            "Falcon Consulting fournit des services de diligence raisonnable et d'enquête dans plus de 240 pays et 100 langues. Nous offrons des services prêts à l'emploi et personnalisés aux clients pour évaluer, segmenter et comprendre à la fois le paysage des risques et les contrôles de qualité en place au niveau local, national, régional et mondial.",
+          'Evaluate Third party risk management': 'Évaluer la gestion des risques liés aux tiers',
+          'Falcon Consulting helps deliver access to the latest public, proprietary and self-reported information. This enables clients to identify and classify a variety of risk factors, including cyber, privacy, information security, bribery, corruption, financial crime and reputational and operational concerns.':
+            "Falcon Consulting aide à fournir un accès aux dernières informations publiques, exclusives et autodéclarées. Cela permet aux clients d'identifier et de classer une variété de facteurs de risque, y compris la cybersécurité, la confidentialité, la sécurité de l'information, les pots-de-vin, la corruption, la criminalité financière et les problèmes de réputation et opérationnels.",
+          'Identify Risk:': 'Identifier le risque :',
+          'Third party/Vendor management': 'Gestion des tiers/fournisseurs',
+          'Falcon Consulting must create and disseminate to users the security training documents. The Falcon Consulting CISO must ensure activities for monitoring and documenting basic security awareness training, as well as role-based training, are conducted. Employees and contractors must provide evidence of successful course completion (certificates) to the Falcon Consulting CISO. All security training records must be stored for at least 5 years.':
+            "Falcon Consulting doit créer et diffuser auprès des utilisateurs les documents de formation à la sécurité. Le CISO de Falcon Consulting doit s'assurer que les activités de surveillance et de documentation de la formation de sensibilisation à la sécurité de base, ainsi que la formation basée sur les rôles, sont menées. Les employés et les sous-traitants doivent fournir la preuve de la réussite du cours (certificats) au CISO de Falcon Consulting. Tous les dossiers de formation à la sécurité doivent être conservés pendant au moins 5 ans.",
+          'Security Training Records (AT-4)': 'Dossiers de formation à la sécurité (AT-4)',
+          'Falcon Consulting must provide security training materials that address the procedures and activities necessary to fulfill the defined roles and responsibilities for information system security. Falcon Consulting must provide role-based security-related training to all appropriate personnel at least once every three years. Appropriate personnel include but is not limited to System Administrators, Database Administrators, Network Engineers, Security Analysts, and the CISO. The employee or consultant shall acknowledge having received the role-based training either in writing or electronically as part of the training course completion.':
+            "Falcon Consulting doit fournir des supports de formation à la sécurité qui traitent des procédures et des activités nécessaires pour remplir les rôles et responsabilités définis en matière de sécurité du système d'information. Falcon Consulting doit fournir une formation liée à la sécurité basée sur les rôles à tout le personnel approprié au moins une fois tous les trois ans. Le personnel approprié comprend, mais sans s'y limiter, les administrateurs système, les administrateurs de base de données, les ingénieurs réseau, les analystes de sécurité et le RSSI. L'employé ou le consultant doit reconnaître avoir reçu la formation basée sur les rôles par écrit ou par voie électronique dans le cadre de la formation.",
+          'Falcon Consulting must provide role-based, security-related training before authorizing access to the system or performing assigned duties, as well as when required by a system change or changes in personnel roles.':
+            "Falcon Consulting doit fournir une formation basée sur les rôles et liée à la sécurité avant d'autoriser l'accès au système ou d'effectuer les tâches assignées, ainsi que lorsqu'un changement de système ou des changements dans les rôles du personnel l'exigent.",
+          'Security Training (AT-3)': 'Formation à la sécurité (AT-3)',
+          'Falcon Consulting requires that all users complete a security awareness and training course (or courses as applicable) prior to being granted access to Falcon Consulting corporate or client systems. Users are provided basic security awareness training as part of initial training for new users, as well as when required by system changes. All users must take refresher training at least annually. Employees or contractors shall acknowledge having received the security awareness training either in writing or electronically as part of the training course completion (the current process involves sending copies of course completion certificates to the Falcon Consulting CISO). The Falcon Consulting CISO maintains and stores completed security awareness and training evidence artifacts (certificates) for users. Security awareness and training course completion artifacts (certificates) will be provided to the Agency ISSO or Security Steward upon request.':
+            "Falcon Consulting exige que tous les utilisateurs suivent un cours de sensibilisation et de formation à la sécurité (ou des cours selon le cas) avant d'être autorisés à accéder aux systèmes de l'entreprise ou des clients de Falcon Consulting. Les utilisateurs reçoivent une formation de sensibilisation à la sécurité de base dans le cadre de la formation initiale des nouveaux utilisateurs, ainsi que lorsque les modifications du système l'exigent. Tous les utilisateurs doivent suivre une formation de remise à niveau au moins une fois par an. Les employés ou sous-traitants doivent reconnaître avoir reçu la formation de sensibilisation à la sécurité par écrit ou par voie électronique dans le cadre de la formation (le processus actuel consiste à envoyer des copies des certificats de fin de cours au RSSI de Falcon Consulting). Le CISO de Falcon Consulting maintient et stocke les artefacts de preuve de sensibilisation à la sécurité et de formation (certificats) pour les utilisateurs. Des artefacts de sensibilisation à la sécurité et d'achèvement de cours de formation (certificats) seront fournis à l'ISSO de l'Agence ou au délégué à la sécurité sur demande.",
+          'Security Awareness (AT-2)': 'Sensibilisation à la sécurité (AT-2)',
+          'NIST SP 800-100 Information Security Handbook: A Guide for Managers':
+            'NIST SP 800-100 Information Security Handbook : Un guide pour les gestionnaires',
+          'NIST SP 800-50 Building an Information Technology Security Awareness and Training Program':
+            "NIST SP 800-50 Création d'un programme de sensibilisation et de formation à la sécurité des technologies de l'information",
+          'NIST SP 800-37 Rev. 1 Guide for Applying the Risk Management Framework to Federal Information Systems: A Security Life Cycle Approach':
+            "NIST SP 800-37 Rév. 1 Guide d'application du cadre de gestion des risques aux systèmes d'information fédéraux : une approche du cycle de vie de la sécurité",
+          'NIST SP 800-16 Information Security Training Requirements: A Role- and Performance-Based Model':
+            "NIST SP 800-16 Exigences de formation en sécurité de l'information : un modèle basé sur les rôles et les performances",
+          'NIST SP 800-12 Introduction to Computer Security: The NIST Handbook':
+            'NIST SP 800-12 Introduction à la sécurité informatique : le manuel du NIST',
+          'C.F.R. Part 5 Subpart C (5 C.F.R 930.301)':
+            'C.F.R. Partie 5 Sous-partie C (5 C.F.R 930.301)',
+          'This policy establishes mandatory requirements and assigns roles and responsibilities to facilitate the implementation of the Falcon Consulting Security Awareness and Training Policy. The policy contains formal, documented policy statements and language designed to facilitate and guide the implementation of the policy, procedures, and controls. Formal, documented security procedures exist as separate documents titled AT-1 through AT-4. This policy is consistent with the following guidance:':
+            'Cette politique établit des exigences obligatoires et attribue des rôles et des responsabilités pour faciliter la mise en œuvre de la politique de sensibilisation et de formation à la sécurité de Falcon Consulting. La politique contient des déclarations de politique formelles et documentées et un langage conçu pour faciliter et guider la mise en œuvre de la politique, des procédures et des contrôles. Des procédures de sécurité formelles et documentées existent sous forme de documents distincts intitulés AT-1 à AT-4. Cette politique est conforme aux directives suivantes :',
+          References: 'Références',
+          'Compliance with the policy defined in this document is mandatory. Failure to comply with Falcon Consulting Information Security Policies may result in disciplinary actions up to and including termination of employment. Employees may also be held personally liable for any violations of this policy. Failure to comply with Falcon Consulting Information Security Policies may result in termination of contracts for contractors, partners, consultants, and other entities. Legal actions may also be taken for violations of applicable regulations and laws. Systems that do not satisfy Falcon Consulting Information Security Policy requirements may be prevented from being allowed to operate as a production system.':
+            "Le respect de la politique définie dans ce document est obligatoire. Le non-respect des politiques de sécurité de l'information de Falcon Consulting peut entraîner des mesures disciplinaires pouvant aller jusqu'au licenciement. Les employés peuvent également être tenus personnellement responsables de toute violation de cette politique. Le non-respect des politiques de sécurité de l'information de Falcon Consulting peut entraîner la résiliation des contrats pour les sous-traitants, partenaires, consultants et autres entités. Des actions en justice peuvent également être intentées en cas de violation des réglementations et lois applicables. Les systèmes qui ne satisfont pas aux exigences de la politique de sécurité de l'information de Falcon Consulting peuvent ne pas être autorisés à fonctionner en tant que système de production.",
+          Compliance: 'Conformité',
+          'Security is everybody’s business. As security tends to cross departmental and organizational boundaries, Falcon Consulting employees and contractors will work together to ensure that required security controls are in place, are maintained, and comply with the policy described in this document. Security concerns, security incidents, or suspected/confirmed vulnerabilities will be shared with appropriate personnel in the organization so that the vulnerability can be remediated (or mitigated with compensating security controls) and we can ensure that similar vulnerabilities in other systems or processes can be addressed.':
+            "La sécurité est l'affaire de tous. Comme la sécurité a tendance à dépasser les frontières départementales et organisationnelles, les employés et les sous-traitants de Falcon Consulting travailleront ensemble pour s'assurer que les contrôles de sécurité requis sont en place, maintenus et conformes à la politique décrite dans ce document. Les problèmes de sécurité, les incidents de sécurité ou les vulnérabilités suspectées/confirmées seront partagés avec le personnel approprié de l'organisation afin que la vulnérabilité puisse être corrigée (ou atténuée avec des contrôles de sécurité compensatoires) et que nous puissions nous assurer que des vulnérabilités similaires dans d'autres systèmes ou processus peuvent être traitées.",
+          'Coordination Among Organizational Entities':
+            'Coordination entre les entités organisationnelles',
+          'Ensuring all employees understand and following security related policies and procedures':
+            'Veiller à ce que tous les employés comprennent et respectent les politiques et procédures liées à la sécurité',
+          'Conducting new hire training': 'Animation de la formation des nouveaux embauchés',
+          'Updating annual security training materials':
+            'Mise à jour annuelle des supports de formation à la sécurité',
+          'Maintaining ongoing SPAT team activities':
+            "Maintenir les activités de l'équipe SPAT en cours",
+          'The Security Manager is responsible for:':
+            'Le responsable de la sécurité est responsable de :',
+          'The LMS Administrator is responsible for enrolling all employees in first-time and annual security training and tracking results.':
+            "L'administrateur LMS est responsable de l'inscription de tous les employés à la formation initiale et annuelle sur la sécurité et du suivi des résultats.",
+          'Managers are responsible for ensuring all employees complete required security training.':
+            "Les gestionnaires sont responsables de s'assurer que tous les employés suivent la formation requise en matière de sécurité.",
+          'All employees and contractors are responsible for understanding and following all security related policies and procedures, and asking their manager or Security Officer for clarification if needed.':
+            'Tous les employés et sous-traitants sont responsables de comprendre et de suivre toutes les politiques et procédures liées à la sécurité, et de demander à leur responsable ou agent de sécurité des éclaircissements si nécessaire.',
+          'Roles and Responsibilities': 'Rôles et responsabilités',
+          'Falcon Consulting Senior Management will commit to the development of a security and privacy awareness program allocating staff and resources. The Information Security Manager will have access to both the compliance and training departments for completion and update of training materials and tracking results.':
+            "La haute direction de Falcon Consulting s'engagera à développer un programme de sensibilisation à la sécurité et à la confidentialité en affectant du personnel et des ressources. Le responsable de la sécurité de l'information aura accès aux services de conformité et de formation pour compléter et mettre à jour le matériel de formation et suivre les résultats.",
+          'Management Commitment': 'Engagement de la direction',
+          'This policy will be reviewed on an annual basis or whenever there are significant changes to the environment.':
+            "Cette politique sera révisée sur une base annuelle ou chaque fois qu'il y a des changements importants dans l'environnement.",
+          'Falcon Consulting will also conduct annual refresher training for all employees and anytime there are significant changes to the environment. This will be administered via the LMS and tracked for completeness and passing grade to show adequate understanding of the material.':
+            "Falcon Consulting organisera également une formation de remise à niveau annuelle pour tous les employés et chaque fois que des changements importants surviennent dans l'environnement. Cela sera administré via le LMS et suivi pour l'exhaustivité et la note de passage pour montrer une compréhension adéquate du matériel.",
+          'Falcon Consulting will provide ongoing training through the Security and Privacy Awareness and Training (SPAT) Team activities. The SPAT provides information on a monthly basis on selected topics. An initial SPAT Chat presentation is conducted at the beginning of the month to give information, demonstrations, and general Q&A for all attendees. The SPAT also provides information via posters in designated areas throughout the facility and weekly articles posted on the internal intranet page.':
+            "Falcon Consulting fournira une formation continue par le biais des activités de l'équipe de sensibilisation et de formation à la sécurité et à la confidentialité (SPAT). Le SPAT fournit des informations sur une base mensuelle sur des sujets sélectionnés. Une première présentation SPAT Chat est organisée au début du mois pour donner des informations, des démonstrations et des questions-réponses générales à tous les participants. Le SPAT fournit également des informations via des affiches dans des zones désignées dans tout l'établissement et des articles hebdomadaires publiés sur la page intranet interne.",
+          'In addition to the initial security training provided in the new hire orientation, all employees must take a security and privacy awareness course and pass the posttest within 30 days of hire. This course and test is provided and tracked by the Learning Management System (LMS).':
+            "En plus de la formation initiale à la sécurité fournie dans le cadre de l'orientation des nouveaux employés, tous les employés doivent suivre un cours de sensibilisation à la sécurité et à la confidentialité et réussir le post-test dans les 30 jours suivant l'embauche. Ce cours et ce test sont fournis et suivis par le système de gestion de l'apprentissage (LMS).",
+          'Falcon Consulting will ensure that all employees and contractors are given security and privacy awareness training during the new hire process and before accessing any Falcon Consulting systems. This training reflects common security and privacy awareness specific to [Company’s] environment including, but not limited to, physical access, restricted areas, potential incidents, how to report incidents, laptop best practices, and how to spot a phishing scam.':
+            "Falcon Consulting s'assurera que tous les employés et sous-traitants reçoivent une formation de sensibilisation à la sécurité et à la confidentialité pendant le processus de nouvelle embauche et avant d'accéder aux systèmes de Falcon Consulting. Cette formation reflète la sensibilisation commune à la sécurité et à la confidentialité spécifique à l'environnement [de l'entreprise], y compris, mais sans s'y limiter, l'accès physique, les zones restreintes, les incidents potentiels, la manière de signaler les incidents, les meilleures pratiques pour les ordinateurs portables et la détection d'une escroquerie par hameçonnage.",
+          'Falcon Consulting understands that people are often the biggest threat (intentionally or inadvertently) to the security of sensitive information. As such, all users of information systems must be made aware of the security risks associated with their activities and of the applicable federal and agency requirements related to the security of Strategic information systems performing work on behalf of the Centers for Medicare and Medicaid Services (CMS). Those with significant security responsibilities must be adequately trained to carry out their assigned information security-related duties and responsibilities.':
+            "Falcon Consulting comprend que les personnes sont souvent la plus grande menace (intentionnellement ou par inadvertance) pour la sécurité des informations sensibles. À ce titre, tous les utilisateurs des systèmes d'information doivent être informés des risques de sécurité associés à leurs activités et des exigences fédérales et des agences applicables liées à la sécurité des systèmes d'information stratégiques effectuant des travaux pour le compte des Centers for Medicare and Medicaid Services (CMS ). Les personnes ayant des responsabilités importantes en matière de sécurité doivent être correctement formées pour s'acquitter des tâches et responsabilités qui leur sont assignées en matière de sécurité de l'information.",
+          'Security and privacy awareness and training is an important aspect in protecting the Confidentiality, Integrity, and Availability (CIA) of sensitive information. Employees are the first line of defense and must be made aware of the security risks associated with the work performed at Falcon Consulting.':
+            "La sensibilisation et la formation à la sécurité et à la confidentialité sont un aspect important de la protection de la confidentialité, de l'intégrité et de la disponibilité (CIA) des informations sensibles. Les employés sont la première ligne de défense et doivent être informés des risques de sécurité associés au travail effectué chez Falcon Consulting.",
+          'Security Awareness Training Program':
+            'Programme de formation de sensibilisation à la sécurité',
+          'Complying with the security policies and procedures of Falcon Consulting.':
+            'Respecter les politiques et procédures de sécurité de Falcon Consulting.',
+          'Reporting any security-related issues or concerns to line management, or to a member of the SIRT.':
+            'Signaler tout problème ou préoccupation lié à la sécurité à la hiérarchie ou à un membre du SIRT.',
+          'Reporting a suspected or actual security incident to the Incident Response Lead (preferable) or to another member of the Security Incident Response Team (SIRT).':
+            "Signaler un incident de sécurité suspecté ou réel au responsable de la réponse aux incidents (de préférence) ou à un autre membre de l'équipe de réponse aux incidents de sécurité (SIRT).",
+          'Making sure they understand how to identify and report a suspected or actual security incident.':
+            "S'assurer qu'ils comprennent comment identifier et signaler un incident de sécurité suspecté ou réel.",
+          'All staff members are responsible for:':
+            'Tous les membres du personnel sont responsables de :',
+          'Determining if policies, processes, technologies, security measures, or controls need to be updated to avoid a similar incident in the future. They also need to consider whether additional safeguards are required in the environment where the incident occurred.':
+            "Déterminer si les politiques, les processus, les technologies, les mesures de sécurité ou les contrôles doivent être mis à jour pour éviter un incident similaire à l'avenir. Ils doivent également déterminer si des mesures de protection supplémentaires sont nécessaires dans l'environnement où l'incident s'est produit.",
+          'Initiating follow-up actions to reduce the likelihood of recurrence, as appropriate.':
+            'Initier des actions de suivi pour réduire la probabilité de récidive, le cas échéant.',
+          'Assisting law enforcement during the investigation processes. This includes any forensic investigations and prosecutions.':
+            "Assister les forces de l'ordre lors des procédures d'enquête. Cela comprend toutes les enquêtes médico-légales et les poursuites.",
+          'Documenting and maintaining accurate and detailed records of the incident and all activities that were undertaken in response to an incident.':
+            "Documenter et conserver des enregistrements précis et détaillés de l'incident et de toutes les activités entreprises en réponse à un incident.",
+          'Gathering, reviewing, and analysing logs and related information from various central and local safeguards, security measures, and controls.':
+            'Collecter, examiner et analyser les journaux et les informations connexes à partir de diverses sauvegardes, mesures de sécurité et contrôles centraux et locaux.',
+          'Taking action to limit the exposure of sensitive data and to reduce the risks that may be associated with any incident.':
+            "Agir pour limiter l'exposition des données sensibles et réduire les risques pouvant être associés à tout incident.",
+          'Investigating and documenting each reported incident.':
+            'Enquêter et documenter chaque incident signalé.',
+          'Advising the Incident Response Lead of an incident when they receive a security incident report from staff.':
+            "Informer le responsable de la réponse aux incidents d'un incident lorsqu'il reçoit un rapport d'incident de sécurité du personnel.",
+          'Making sure that all staff understands how to identify and report a suspected or actual security incident.':
+            "S'assurer que tout le personnel comprend comment identifier et signaler un incident de sécurité suspecté ou réel.",
+          'Security Incident Response Team (SIRT) members are responsible for:':
+            "Les membres de l'équipe de réponse aux incidents de sécurité (SIRT) sont responsables de :",
+          'Authorizing on-site investigations by appropriate law enforcement or third-party security/forensic personnel, as required during any security incident investigation. This includes authorizing access to/removal of evidence from the site.':
+            "Autoriser les enquêtes sur place par les forces de l'ordre appropriées ou par le personnel de sécurité / médico-légal tiers, tel que requis lors de toute enquête sur un incident de sécurité. Cela comprend l'autorisation d'accès/de suppression de preuves du site.",
+          'Reporting to and liaising with external parties, including pertinent business partners, legal representation, law enforcement, etc., as required.':
+            "Faire rapport et assurer la liaison avec les parties externes, y compris les partenaires commerciaux pertinents, la représentation légale, les forces de l'ordre, etc., selon les besoins.",
+          'Leading the investigation of a suspected breach or reported security incident and initiating the Security Incident Response Plan when needed.':
+            "Diriger l'enquête sur une violation présumée ou un incident de sécurité signalé et lancer le plan de réponse aux incidents de sécurité si nécessaire.",
+          'Making sure that staff with Security Incident Response Plan responsibilities are properly trained at least once each year.':
+            'Veiller à ce que le personnel chargé du plan de réponse aux incidents de sécurité soit correctement formé au moins une fois par an.',
+          'Making sure that the Security Incident Response Plan is current, reviewed, and tested at least once each year.':
+            "S'assurer que le plan de réponse aux incidents de sécurité est à jour, révisé et testé au moins une fois par an.",
+          'Making sure that the Security Incident Response Plan and associated response and escalation procedures are defined and documented. This is to ensure that the handling of security incidents is timely and effective.':
+            "S'assurer que le plan de réponse aux incidents de sécurité et les procédures de réponse et d'escalade associées sont définis et documentés. Il s'agit de s'assurer que le traitement des incidents de sécurité est rapide et efficace.",
+          'The Incident Response Lead is responsible for:':
+            'Le responsable de la réponse aux incidents est responsable de :',
+          'Below are details about the roles and responsibilities of each member of [Company Name] to prevent and respond to a workplace incident. It is not an exhaustive list of duties but is designed to give each employee a general understanding of their role and the roles of other employees in incident response and prevention.':
+            "Vous trouverez ci-dessous des détails sur les rôles et les responsabilités de chaque membre de [Nom de l'entreprise] pour prévenir et répondre à un incident sur le lieu de travail. Il ne s'agit pas d'une liste exhaustive des tâches, mais elle est conçue pour donner à chaque employé une compréhension générale de son rôle et des rôles des autres employés dans la réponse aux incidents et la prévention.",
+          'This Security Incident Response Plan must be followed by all personnel, including all  employees, temporary staff, consultants, contractors, suppliers, and third parties operating on behalf of Falcon Consulting. All personnel are referred to as ‘staff’ within this plan.':
+            'Ce plan de réponse aux incidents de sécurité doit être suivi par tout le personnel, y compris tous les employés, le personnel temporaire, les consultants, les sous-traitants, les fournisseurs et les tiers opérant pour le compte de Falcon Consulting. Tout le personnel est appelé « personnel » dans ce plan.',
+          'Roles, Responsibilities & Contact Information':
+            'Roles, Responsibilities & Contact Information',
+          'This plan will be updated to reflect organizational changes, new technologies, and new compliance requirements that inform our cybersecurity strategy. We will conduct regular testing of this plan to ensure everyone is fully trained to participate in effective incident response.':
+            'Ce plan sera mis à jour pour refléter les changements organisationnels, les nouvelles technologies et les nouvelles exigences de conformité qui informent notre stratégie de cybersécurité. Nous effectuerons des tests réguliers de ce plan pour nous assurer que tout le monde est parfaitement formé pour participer à une réponse efficace aux incidents.',
+          'The effective incident response involves every part of our organization, including IT teams, legal, technical support, human resources, corporate communications, and business operations. It is important that you read and understand your role as well as the ways you will coordinate with others.':
+            "La réponse efficace aux incidents implique chaque partie de notre organisation, y compris les équipes informatiques, le support juridique, le support technique, les ressources humaines, les communications d'entreprise et les opérations commerciales. Il est important que vous lisiez et compreniez votre rôle ainsi que les façons dont vous vous coordonnerez avec les autres.",
+          'This document describes the plan for responding to information security incidents at Falcon Consulting. This document will explain how to detect and react to cybersecurity incidents and data breaches, determine their scope and risk, respond appropriately and quickly, and communicate the results and risks to all stakeholders':
+            "Ce document décrit le plan de réponse aux incidents de sécurité de l'information chez Falcon Consulting. Ce document expliquera comment détecter et réagir aux incidents de cybersécurité et aux violations de données, déterminer leur portée et leur risque, réagir de manière appropriée et rapide et communiquer les résultats et les risques à toutes les parties prenantes.",
+          'To maintain the trust of our employees, customers, and partners and meet regulatory requirements, it is essential that we do everything we can to protect confidential information and systems in the face of a cyberattack. The better prepared we are to respond to a potential cyberattack, the faster we can eradicate any threat and reduce the impact on our business':
+            "Pour conserver la confiance de nos employés, clients et partenaires et répondre aux exigences réglementaires, il est essentiel que nous mettions tout en œuvre pour protéger les informations et les systèmes confidentiels face à une cyberattaque. Mieux nous sommes préparés pour répondre à une cyberattaque potentielle, plus vite nous pouvons éradiquer toute menace et réduire l'impact sur notre entreprise",
+          Summary: 'Sommaire',
+          'Signatures Draft': 'Brouillon de signatures',
+          'Refer to LDWM Hash-based': 'Reportez-vous à LDWM basé sur le hachage',
+          'required.': 'obligatoire.',
+          'recommended. Message hashing': 'conseillé. Hachage des messages',
+          'PKCS#7 padding scheme is': 'Le schéma de remplissage PKCS#7 est',
+          'Use a secure padding scheme.': 'Utilisez un schéma de remplissage sécurisé.',
+          'patent infringement.': 'violation de brevet.',
+          'Consider RFC6090 to avoid': 'Considérez RFC6090 pour éviter',
+          'Additional Comment': 'Commentaire additionnel',
+          'Key Length (min)': 'Longueur de la clé (min)',
+          Algorithm: 'Algorithme',
+          'Signature Algorithms': 'Algorithmes de signature',
+          'Algorithms in use must meet the standards defined for use in NIST publication FIPS 140-2 or any superseding document, according to date of implementation. The use of the RSA and Elliptic Curve Cryptography (ECC) algorithms is strongly recommended for asymmetric encryption.':
+            "Les algorithmes utilisés doivent répondre aux normes définies pour une utilisation dans la publication NIST FIPS 140-2 ou tout autre document remplaçant, selon la date de mise en œuvre. L'utilisation des algorithmes RSA et Elliptic Curve Cryptography (ECC) est fortement recommandée pour le chiffrement asymétrique.",
+          'or any superseding documents according to the date of implementation. The use of the Advanced Encryption Standard (AES) is strongly recommended for symmetric encryption.':
+            "ou tout autre document remplaçant selon la date de mise en œuvre. L'utilisation de l'Advanced Encryption Standard (AES) est fortement recommandée pour le chiffrement symétrique.",
+          'National Institute of Standards and Technology (NIST) publication FIPS 140-2,':
+            'Publication FIPS 140-2 du National Institute of Standards and Technology (NIST),',
+          'or the set defined for use in the United States':
+            "ou l'ensemble défini pour une utilisation aux États-Unis",
+          'IETF/IRTF Cipher Catalog,': 'Catalogue de chiffrement IETF/IRTF,',
+          'Ciphers in use must meet or exceed the set defined as "AES-compatible" or "partially AES-compatible" according to the':
+            "Les chiffrements utilisés doivent atteindre ou dépasser l'ensemble défini comme 'compatible AES' ou 'partiellement compatible AES' selon le",
+          'Algorithm Requirements': "Exigences d'algorithme",
+          Policy: 'Politique',
+          'The purpose of this policy is to provide guidance that limits the use of encryption to those algorithms that have received substantial public review and have been proven to work effectively. Additionally, this policy provides direction to ensure that Federal regulations are followed, and legal authority is granted for the dissemination and use of encryption technologies outside of the United States.':
+            "Le but de cette politique est de fournir des conseils qui limitent l'utilisation du cryptage aux algorithmes qui ont fait l'objet d'un examen public approfondi et dont l'efficacité a été prouvée. En outre, cette politique fournit des directives pour s'assurer que les réglementations fédérales sont respectées et qu'une autorisation légale est accordée pour la diffusion et l'utilisation des technologies de cryptage en dehors des États-Unis.",
+          'Hiring and Termination Policy with Background Checks':
+            "Politique d'embauche et de résiliation avec vérification des antécédents",
+          "An employee who resigns or is discharged will be paid through the last day of work, plus any unused paid time off (PTO), less outstanding loans, advances or other agreements the employee may have with the company, in compliance with state laws. In cases of an employee's death, the final pay due to that employee will be paid to the deceased employee's estate or as otherwise required under state law.":
+            "Un employé qui démissionne ou est licencié sera payé jusqu'au dernier jour de travail, plus tout congé payé non utilisé (PTO), moins les prêts, avances ou autres accords en cours que l'employé peut avoir avec l'entreprise, conformément aux lois de l'État. En cas de décès d'un employé, le dernier salaire dû à cet employé sera versé à la succession de l'employé décédé ou autrement requis par la loi de l'État.",
+          'Final Pay': 'Paiement final',
+          "The employee's manager should ensure that the payroll office receives the deceased employee's timecard.":
+            "Le gestionnaire de l'employé doit s'assurer que le bureau de la paie reçoit la carte de pointage de l'employé décédé.",
+          'The benefits administrator will process all appropriate beneficiary payments from the various benefits plans.':
+            "L'administrateur des avantages sociaux traitera tous les paiements appropriés aux bénéficiaires des divers régimes d'avantages sociaux.",
+          "Upon receiving notification of the death of an employee, the employee's manager should immediately notify HR.":
+            "Dès réception de la notification du décès d'un employé, le responsable de l'employé doit immédiatement en informer les RH.",
+          'A termination due to the death of an employee will be made effective as of the date of death.':
+            "Une résiliation due au décès d'un employé sera effective à compter de la date du décès.",
+          'Death of an Employee': "Décès d'un employé",
+          "The termination review staff will be responsible for reviewing the circumstances and determining if discharge is warranted. If the staff recommends discharge, the employee's manager and an HR representative will notify the employee. The employee's manager should complete an Employee Change Form and notify HR and payroll of the last day worked by the employee.":
+            "Le personnel chargé de l'examen du licenciement sera chargé d'examiner les circonstances et de déterminer si le congédiement est justifié. Si le personnel recommande le congédiement, le responsable de l'employé et un représentant des RH en aviseront l'employé. Le responsable de l'employé doit remplir un formulaire de changement d'employé et informer les RH et la paie du dernier jour travaillé par l'employé.",
+          "Before any action is taken to involuntarily discharge an employee, the employee's manager must request a review by HR and the employee's immediate supervisor.":
+            "Avant que toute mesure ne soit prise pour licencier involontairement un employé, le responsable de l'employé doit demander un examen par les RH et le superviseur immédiat de l'employé.",
+          Procedures: 'Procédures',
+          'An involuntary termination of employment, including layoffs of over 30 days, is a  management-initiated dismissal with or without cause. The inability of an employee to perform the essential functions of his or her job with or without a reasonable accommodation may also result in an involuntary termination. An employee may also be discharged for any legal reason, including but not limited to: misconduct, tardiness, absenteeism, unsatisfactory performance or inability to perform.':
+            "Une cessation d'emploi involontaire, y compris les mises à pied de plus de 30 jours, est un congédiement initié par la direction avec ou sans motif. L'incapacité d'un employé à exécuter les fonctions essentielles de son travail avec ou sans aménagement raisonnable peut également entraîner un licenciement involontaire. Un employé peut également être licencié pour toute raison légale, y compris, mais sans s'y limiter : inconduite, retard, absentéisme, performance insatisfaisante ou incapacité de travail.",
+          'Involuntary Terminations': 'Licenciements involontaires',
+          'Employees who possess a security clearance (security codes to the building, computer passwords, etc.) must meet with administration for a debriefing no later than their last day of employment.':
+            "Les employés qui possèdent une habilitation de sécurité (codes de sécurité de l'immeuble, mots de passe informatiques, etc.) doivent rencontrer l'administration pour un compte rendu au plus tard lors de leur dernier jour d'emploi.",
+          "The employee's manager will complete a Supervisory Termination Summary and deliver the completed form to HR.":
+            "Le responsable de l'employé remplira un résumé de fin de contrat de supervision et remettra le formulaire dûment rempli aux RH.",
+          "The HR department will coordinate the employee's out-processing. This process will include the employee's returning all company property (computers, documentation, keys, etc.); a review of the employee's post termination benefits status; and the employee's completion of an exit interview.":
+            "Le service des ressources humaines coordonnera le traitement externe de l'employé. Ce processus comprendra la restitution par l'employé de tous les biens de l'entreprise (ordinateurs, documentation, clés, etc.) ; un examen de l'état des avantages sociaux après la cessation d'emploi de l'employé ; et la réalisation par l'employé d'une entrevue de fin d'emploi.",
+          "Upon receipt of an employee's resignation, the manager will notify the human resource (HR) department by sending a copy of the resignation letter and any other pertinent information (i.e., employee's reason for leaving, last day of work).":
+            "Dès réception de la démission d'un employé, le gestionnaire avisera le service des ressources humaines (RH) en envoyant une copie de la lettre de démission et toute autre information pertinente (c'est-à-dire la raison du départ de l'employé, le dernier jour de travail).",
+          "Employees are requested to provide a minimum of three weeks' notice of their intention to separate from the company to allow a reasonable amount of time to transfer ongoing workloads. The employee should provide a written resignation notification to his or her manager.":
+            "Les employés sont priés de fournir un préavis d'au moins trois semaines de leur intention de se séparer de l'entreprise afin de laisser un délai raisonnable pour transférer les charges de travail en cours. L'employé doit fournir une notification écrite de démission à son supérieur hiérarchique.",
+          Procedures: 'Procédures',
+          'A voluntary termination of employment occurs when an employee submits a written or verbal notice of resignation to his or her supervisor.':
+            "Une cessation d'emploi volontaire se produit lorsqu'un employé soumet un avis écrit ou verbal de démission à son superviseur.",
+          'Voluntary Terminations': 'Licenciements volontaires',
+          'Employment with Falcon Consulting is voluntary and subject to termination by the employee or Falcon Consulting at will, with or without cause, and with or without notice, at any time. Nothing in these policies shall be interpreted to be in conflict with or to eliminate or modify in any way the employment-at-will status of Falcon Consulting employees.':
+            "L'emploi chez Falcon Consulting est volontaire et sujet à résiliation par l'employé ou Falcon Consulting à volonté, avec ou sans motif, et avec ou sans préavis, à tout moment. Rien dans ces politiques ne doit être interprété comme étant en conflit avec ou comme éliminant ou modifiant de quelque manière que ce soit le statut d'emploi à volonté des employés de Falcon Consulting.",
+          'At-Will Employment': 'Emploi à volonté',
+          'Falcon Consulting ensures that employee terminations, including voluntary and involuntary terminations and terminations due to the death of an employee, are handled in a professional manner with minimal disruption to the workplace.':
+            "Falcon Consulting veille à ce que les licenciements d'employés, y compris les licenciements volontaires et involontaires et les licenciements dus au décès d'un employé, soient traités de manière professionnelle avec un minimum de perturbations sur le lieu de travail.",
+          Purpose: 'Objectif',
+          'Termination Policy': 'Politique de résiliation',
+          'The HR department will be responsible for tracking all applicants and retaining applications and resumes as required.':
+            'Le service des ressources humaines sera responsable du suivi de tous les candidats et de la conservation des candidatures et des CV au besoin.',
+          'All qualified candidates are encouraged to apply for positions. As the company strives to be an equal opportunity employer, all employment postings will encourage applications from qualified Aboriginal People, or other persons from a visible minority group, persons with disabilities and women. Applicants who self-identify in their cover letter will be given special consideration.':
+            "Tous les candidats qualifiés sont encouragés à postuler pour des postes. Comme l'entreprise s'efforce d'être un employeur garantissant l'égalité des chances, toutes les offres d'emploi encourageront les candidatures d'Autochtones qualifiés ou d'autres personnes appartenant à une minorité visible, de personnes handicapées et de femmes. Les candidats qui s'identifient dans leur lettre de motivation recevront une attention particulière.",
+          "All job openings will be posted concurrently on Falcon Consulting's intranet and externally with sources appropriate for the position being filled. Jobs will remain posted until the position is filled.":
+            "Toutes les offres d'emploi seront publiées simultanément sur l'intranet de Falcon Consulting et à l'extérieur avec des sources appropriées pour le poste à pourvoir. Les emplois resteront affichés jusqu'à ce que le poste soit pourvu.",
+          'The job posting will be prepared based on the job description and any special requirements detailed on the staff request. It may also include preferred qualifications that may enhance performance in the position. These would be considered in the event that two candidates are considered relatively equal.':
+            "L'offre d'emploi sera préparée en fonction de la description de poste et de toute exigence particulière détaillée dans la demande du personnel. Il peut également inclure des qualifications préférées qui peuvent améliorer les performances dans le poste. Ceux-ci seraient considérés dans le cas où deux candidats seraient considérés comme relativement égaux.",
+          "Once the position is approved and the job description is finalized (if applicable), the HR department will prepare the job posting. HR will create job postings that briefly describe the job opening and communicate Falcon Consulting's brand.":
+            "Une fois le poste approuvé et la description de poste finalisée (le cas échéant), le service des ressources humaines préparera l'offre d'emploi. Les RH créeront des offres d'emploi décrivant brièvement l'offre d'emploi et communiquant la marque de Falcon Consulting.",
+          'Job postings': "Offres d'emploi",
+          'HR will arrange a meeting with the hiring manager before posting a job offer. The objective of this meeting is to learn more about the position, requirements and profile of the ideal candidate. The recruitment strategy will be defined during this meeting and expectations will be established with all stakeholders.':
+            "Les RH organiseront une réunion avec le responsable du recrutement avant de publier une offre d'emploi. L'objectif de cette rencontre est d'en savoir plus sur le poste, les exigences et le profil du candidat idéal. La stratégie de recrutement sera définie lors de cette réunion et les attentes seront établies avec toutes les parties prenantes.",
+          Meetings: 'Réunions',
+          'New or modified positions will be evaluated by the HR department in order to determine a salary range corresponding to the underlying responsibilities.':
+            'Les postes nouveaux ou modifiés seront évalués par le service des ressources humaines afin de déterminer une échelle salariale correspondant aux responsabilités sous-jacentes.',
+          'A job description describes the areas of responsibility and accountability within a department. When a position is vacant, it is appropriate to review and, if necessary, update the job description and task description to ensure that it is up to date. Professional qualifications should also be reviewed. The HR department can assist in updating work descriptions.':
+            "Une description de poste décrit les domaines de responsabilité et de responsabilisation au sein d'un ministère. Lorsqu'un poste est vacant, il convient de revoir et, si nécessaire, de mettre à jour la description de poste et la description de tâches pour s'assurer qu'elles sont à jour. Les qualifications professionnelles doivent également être revues. Le service des ressources humaines peut aider à mettre à jour les descriptions de travail.",
+          'Job description': "Description de l'emploi",
+          'Any special instructions relating to advertising on recruitment.':
+            'Toutes instructions particulières relatives à la publicité sur le recrutement.',
+          'Duties and essential qualifications of the position (or a current position description may be attached);':
+            'Fonctions et qualifications essentielles du poste (ou une description du poste actuel peut être jointe);',
+          'Reason for the opening;': "Raison de l'ouverture ;",
+          'The exempt or non-exempt status of the position;':
+            'Le statut exonéré ou non exonéré du poste;',
+          'Hours/shift teams of the position;': 'Heures/équipes de quart du poste ;',
+          'Position title;': 'Titre du poste ;',
+          'Requests must be submitted by the supervisor or service manager and forwarded to the HR department:':
+            'Les demandes doivent être présentées par le superviseur ou le responsable de service et transmises au service des ressources humaines :',
+          'When a position (newly created or replacement, continuing or term position) needs to be filled or extended, a staff request form must be completed and authorized.':
+            "Lorsqu'un poste (nouvellement créé ou de remplacement, poste continu ou à durée déterminée) doit être comblé ou prolongé, un formulaire de demande de personnel doit être rempli et autorisé.",
+          'Staff request': 'Demande de personnel',
+          'In hiring the most qualified candidates for positions, the following process should be followed.':
+            "Lors de l'embauche des candidats les plus qualifiés pour les postes, le processus suivant doit être suivi.",
+          'POLICY AND PROCEDURES': 'POLITIQUE ET PROCÉDURES',
+          'Managers are given continuous support and guidance in regard to recruitment and selection issues.':
+            'Les gestionnaires reçoivent un soutien et des conseils continus en ce qui concerne les questions de recrutement et de sélection.',
+          'All Managers are aware of their responsibilities in the recruitment and selection process;':
+            'Tous les managers sont conscients de leurs responsabilités dans le processus de recrutement et de sélection ;',
+          'It is the responsibility of the HR department to ensure that:':
+            "Il est de la responsabilité du service RH de s'assurer que :",
+          'All roles have current position descriptions that specify role requirements and selection criteria.':
+            'Tous les rôles ont des descriptions de poste actuelles qui précisent les exigences du rôle et les critères de sélection.',
+          'Staffing levels for their department are determined and authorized;':
+            'Les effectifs de leur département sont déterminés et autorisés ;',
+          'It is the responsibility of Managers and Supervisors to ensure that:':
+            "Il est de la responsabilité des managers et superviseurs de s'assurer que :",
+          'It shall be the responsibility of the Human Resources (HR) department to implement this policy and to monitor its performance.':
+            'It shall be the responsibility of the Human Resources (HR) department to implement this policy and to monitor its performance.',
+          RESPONSIBILITY: 'RESPONSABILITÉ',
+          'This hiring policy applies to all employees of Falcon Consulting who are involved in the hiring process.':
+            "Cette politique d'embauche s'applique à tous les employés de Falcon Consulting qui sont impliqués dans le processus d'embauche.",
+          SCOPE: 'PORTÉ',
+          'The hiring policy has been established to ensure Falcon Consulting has the opportunity to attract the best available staff for all vacant positions.':
+            "La politique d'embauche a été établie pour s'assurer que Falcon Consulting a la possibilité d'attirer le meilleur personnel disponible pour tous les postes vacants.",
+          PURPOSE: 'OBJECTIF',
+          "Falcon Consulting believes that hiring qualified personnel to fill positions in the different departments contributes to the company's overall success. Each employee is therefore hired with the objective of making a significant contribution to Falcon Consulting.":
+            "Falcon Consulting croit que l'embauche de personnel qualifié pour combler les postes dans les différents départements contribue au succès global de l'entreprise. Chaque collaborateur est donc embauché avec l'objectif d'apporter une contribution significative à Falcon Consulting.",
+          OVERVIEW: 'APERÇU',
+          'Hiring policy': "Politique d'embauche",
+          'Hiring and Termination Policy with Background Checks':
+            "Politique d'embauche et de résiliation avec vérification des antécédents",
+          'Any vendor, consultant, or contractor found to have violated this policy may be subject to sanctions up to and including removal of access rights, termination of contract(s), and related civil or criminal penalties.':
+            "Tout fournisseur, consultant ou sous-traitant reconnu coupable d'avoir enfreint cette politique peut faire l'objet de sanctions pouvant aller jusqu'à la suppression des droits d'accès, la résiliation du ou des contrats et des sanctions civiles ou pénales connexes.",
+          'Personnel found to have violated this policy may be subject to disciplinary action, up to and including termination of employment, and related civil or criminal penalties.':
+            "Le personnel reconnu coupable d'avoir enfreint cette politique peut faire l'objet de mesures disciplinaires, pouvant aller jusqu'au licenciement, et de sanctions civiles ou pénales connexes.",
+          'Waivers from certain policy provisions may be sought following the Falcon Consulting Waiver Process.':
+            'Des dérogations à certaines dispositions de la politique peuvent être demandées à la suite du processus de dérogation de Falcon Consulting.',
+          Waivers: 'Renonciations',
+          'Procedures for plan tests, review, and updates.':
+            'Procédures pour les tests, les révisions et les mises à jour du plan.',
+          'Protection and availability of plan documentation;':
+            'Protection et disponibilité de la documentation du régime ;',
+          'Contingency plans for different types of disruption events;':
+            "Plans d'urgence pour différents types d'événements perturbateurs ;",
+          'An inventory of backups and offsite storage locations;':
+            'Un inventaire des sauvegardes et des emplacements de stockage hors site ;',
+          'Requirements for ensuring information security throughout the process;':
+            "Exigences pour assurer la sécurité de l'information tout au long du processus ;",
+          'Procedures for reporting disaster events, event escalation, recovery of critical operations, and resumption of normal operations;':
+            "Procédures de signalement des événements catastrophiques, de l'escalade des événements, de la reprise des opérations critiques et de la reprise des opérations normales ;",
+          'List of potential risks to critical systems and sensitive information;':
+            'Liste des risques potentiels pour les systèmes critiques et les informations sensibles ;',
+          'Roles and responsibilities for implementing the disaster recovery plan;':
+            'Rôles et responsabilités pour la mise en œuvre du plan de reprise après sinistre ;',
+          'The Falcon consulting DRP include at a minimum:':
+            'Les DRP de Falcon consulting comprennent au minimum :',
+          'The DRP must be communicated and distributed to all relevant internal personnel and executive management.':
+            'Le DRP doit être communiqué et distribué à tout le personnel interne et à la direction générale concernés.',
+          'The DRP must be reviewed and updated upon any relevant change to IT Infrastructure, at the conclusion of plan testing, or least annually.':
+            "Le DRP doit être examiné et mis à jour lors de toute modification pertinente de l'infrastructure informatique, à la fin des tests du plan, ou au moins une fois par an.",
+          'The DRP must be tested annually, at a minimum.':
+            'Le DRP doit être testé annuellement, au minimum.',
+          'Falcon consulting has created and implement a Disaster Recovery Plan (“DRP”) to support business objectives outlined in the (BCP/critical processes identified by a Business Impact Analysis).':
+            "Falcon Consulting a créé et mis en œuvre un plan de reprise après sinistre (« DRP ») pour soutenir les objectifs commerciaux décrits dans le (PCA/processus critiques identifiés par une analyse d'impact sur l'entreprise).",
+          'Disaster Recovery focuses on restoring the technology systems that support both critical and day-to-day business operations.':
+            'La reprise après sinistre se concentre sur la restauration des systèmes technologiques qui prennent en charge les opérations commerciales critiques et quotidiennes.',
+          'Disaster recovery Policy': 'Politique de reprise après sinistre',
+          'Procedures for plan tests, review, and updates.':
+            'Procédures pour les tests, les révisions et les mises à jour du plan.',
+          'Protection and availability of plan documentation;':
+            'Protection et disponibilité de la documentation du régime ;',
+          'Contingency plans for different types of disruption events;':
+            "Plans d'urgence pour différents types d'événements perturbateurs ;",
+          'Strategies to address and limit the reputational impact from an event':
+            "Stratégies pour traiter et limiter l'impact sur la réputation d'un événement",
+          'Mitigation strategies and safeguards to reduce impact;':
+            "Stratégies d'atténuation et mesures de protection pour réduire l'impact ;",
+          'Communication strategies for communications both inside and outside the organization;':
+            "Stratégies de communication pour les communications à l'intérieur et à l'extérieur de l'organisation ;",
+          'Processes to ensure the safety of personnel;':
+            'Processus pour assurer la sécurité du personnel ;',
+          'Identification of supply chain relationships and the organization’s role to support critical infrastructure;':
+            "Identification des relations de la chaîne d'approvisionnement et du rôle de l'organisation pour soutenir les infrastructures essentielles ;",
+          'Requirements for ensuring information security throughout the process;':
+            "Exigences pour assurer la sécurité de l'information tout au long du processus ;",
+          'An inventory of critical systems and records, and their dependencies;':
+            'Un inventaire des systèmes et enregistrements critiques et de leurs dépendances ;',
+          'A risk assessment for critical business processes and operations (Business Impact Analysis);':
+            'Une évaluation des risques pour les processus et opérations métier critiques (Business Impact Analysis) ;',
+          'The BCP include, at a minimum:': 'Le PCA comprend au minimum :',
+          'Documented plans, response and recovery procedures are developed and approved, detailing how the organization will manage a disruptive event.':
+            "Des plans documentés, des procédures d'intervention et de récupération sont élaborés et approuvés, détaillant comment l'organisation gérera un événement perturbateur.",
+          'An adequate management structure is in place to prepare for, mitigate and respond to a disruptive event using personnel with the necessary authority, experience, and competence;':
+            "Une structure de gestion adéquate est en place pour se préparer, atténuer et répondre à un événement perturbateur en utilisant du personnel ayant l'autorité, l'expérience et la compétence nécessaires ;",
+          'The safety and security of personnel is the first priority;':
+            'La sûreté et la sécurité du personnel sont la première priorité ;',
+          'Business continuity planning includes:':
+            'La planification de la continuité des activités comprend :',
+          'The BCP is communicated and distributed to all relevant internal personnel and executive management.':
+            "Le PCA est communiqué et diffusé à l'ensemble du personnel interne et de la direction générale concernés.",
+          'The BCP is reviewed and updated upon any relevant change to the organization, at the conclusion of plan testing, or least annually.':
+            "Le PCA est revu et mis à jour lors de tout changement pertinent apporté à l'organisation, à la fin des tests du plan, ou au moins une fois par an.",
+          'The BCP is periodically tested and the results should be shared with executive management.':
+            'Le PCA est périodiquement testé et les résultats doivent être partagés avec la direction générale.',
+          'Falcon Consulting has created and implemented a Business Continuity Plan (“BCP”).':
+            "Falcon Consulting a créé et mis en place un Plan de Continuité d'Activité (« PCA »).",
+          'Business Continuity focuses on sustaining The Falcon Consulting’s critical business processes during and after a disruption.':
+            'La continuité des activités se concentre sur le maintien des processus commerciaux critiques de The Falcon Consulting pendant et après une interruption.',
+          'Business Continuity Plan': 'Plan de continuité des activités',
+          'Employees must use extreme caution when opening e-mail attachments received from unknown senders, which may contain malware.':
+            "Les employés doivent faire preuve d'une extrême prudence lors de l'ouverture de pièces jointes reçues d'expéditeurs inconnus, qui peuvent contenir des logiciels malveillants.",
+          'Postings by employees from a Falcon Consulting email address to newsgroups should contain a disclaimer stating that the opinions expressed are strictly their own and not necessarily those of Falcon Consulting, unless posting is in the course of business duties.':
+            "Les publications d'employés à partir d'une adresse e-mail de Falcon Consulting vers des groupes de discussion doivent contenir une clause de non-responsabilité indiquant que les opinions exprimées sont strictement les leurs et pas nécessairement celles de Falcon Consulting, à moins que la publication ne soit effectuée dans le cadre de leurs fonctions professionnelles.",
+          'All computing devices must be secured with a password-protected screensaver with the automatic activation feature set to 10 minutes or less. You must lock the screen or log off when the device is unattended.':
+            "Tous les appareils informatiques doivent être sécurisés avec un économiseur d'écran protégé par mot de passe avec la fonction d'activation automatique définie sur 10 minutes ou moins. Vous devez verrouiller l'écran ou vous déconnecter lorsque l'appareil est sans surveillance.",
+          'System level and user level passwords must comply with the Password Policy. Providing access to another individual, either deliberately or through failure to secure its access, is prohibited.':
+            'Les mots de passe de niveau système et de niveau utilisateur doivent être conformes à la politique de mot de passe. Il est interdit de donner accès à une autre personne, que ce soit délibérément ou en ne sécurisant pas son accès.',
+          'All mobile and computing devices that connect to the internal network must comply with the Minimum Access Policy.':
+            "Tous les appareils mobiles et informatiques qui se connectent au réseau interne doivent respecter la politique d'accès minimum.",
+          'Security and Proprietary Information': 'Sécurité et informations exclusives',
+          'Falcon Consulting reserves the right to audit networks and systems on a periodic basis to ensure compliance with this policy.':
+            "Falcon Consulting se réserve le droit d'auditer périodiquement les réseaux et les systèmes pour s'assurer du respect de cette politique.",
+          'For security and network maintenance purposes, authorized individuals within Falcon Consulting may monitor equipment, systems and network traffic at any time, per Audit Policy.':
+            "À des fins de sécurité et de maintenance du réseau, les personnes autorisées au sein de Falcon Consulting peuvent surveiller l'équipement, les systèmes et le trafic réseau à tout moment, conformément à la politique d'audit.",
+          'Employees are responsible for exercising good judgment regarding the reasonableness of personal use. Individual departments are responsible for creating guidelines concerning personal use of Internet/Intranet/Extranet systems. In the absence of such policies, employees should be guided by departmental policies on personal use, and if there is any uncertainty, employees should consult their supervisor or manager.':
+            "Les employés sont responsables d'exercer leur bon jugement concernant le caractère raisonnable de l'utilisation personnelle. Chaque département est responsable de la création de lignes directrices concernant l'utilisation personnelle des systèmes Internet/Intranet/Extranet. En l'absence de telles politiques, les employés doivent être guidés par les politiques ministérielles sur l'utilisation personnelle et, en cas d'incertitude, les employés doivent consulter leur superviseur ou leur responsable.",
+          'You may access, use or share Falcon Consulting proprietary information only to the extent it is authorized and necessary to fulfill your assigned job duties.':
+            'Vous pouvez accéder, utiliser ou partager les informations exclusives de Falcon Consulting uniquement dans la mesure où cela est autorisé et nécessaire pour remplir les fonctions qui vous sont assignées.',
+          'You have a responsibility to promptly report the theft, loss or unauthorized disclosure of Falcon Consulting proprietary information.':
+            "Vous avez la responsabilité de signaler rapidement le vol, la perte ou la divulgation non autorisée d'informations exclusives à Falcon Consulting.",
+          'Falcon Consulting proprietary information stored on electronic and computing devices whether owned or leased by Falcon Consulting, the employee or a third party, remains the sole property of Falcon Consulting. You must ensure through legal or technical means that proprietary information is protected in accordance with the Data Protection Standard.':
+            "Les informations exclusives de Falcon Consulting stockées sur des appareils électroniques et informatiques, qu'ils soient détenus ou loués par Falcon Consulting, l'employé ou un tiers, restent la propriété exclusive de Falcon Consulting. Vous devez vous assurer par des moyens juridiques ou techniques que les informations exclusives sont protégées conformément à la norme de protection des données.",
+          'General Use and Ownership': 'Utilisation générale et propriété',
+          'This policy applies to the use of information, electronic and computing devices, and network resources to conduct Falcon Consulting business or interact with internal networks and business systems, whether owned or leased by Falcon Consulting, the employee, or a third party. All employees, contractors, consultants, temporary, and other workers at Falcon Consulting and its subsidiaries are responsible for exercising good judgment regarding appropriate use of information, electronic devices, and network resources in accordance with Falcon Consulting.':
+            "Cette politique s'applique à l'utilisation d'informations, d'appareils électroniques et informatiques et de ressources réseau pour mener les activités de Falcon Consulting ou interagir avec des réseaux internes et des systèmes commerciaux, qu'ils soient détenus ou loués par Falcon Consulting, l'employé ou un tiers. Tous les employés, sous-traitants, consultants, intérimaires et autres travailleurs de Falcon Consulting et de ses filiales sont tenus d'exercer leur bon jugement concernant l'utilisation appropriée des informations, des appareils électroniques et des ressources réseau conformément à Falcon Consulting.",
+          'falconconsulting does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.':
+            "falconconsulting ne collecte sciemment aucune information personnelle identifiable d'enfants de moins de 13 ans. Si vous pensez que votre enfant a fourni ce type d'informations sur notre site Web, nous vous encourageons fortement à nous contacter immédiatement et nous ferons de notre mieux pour supprimer rapidement ces informations de nos dossiers.",
+          'Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.':
+            "Une autre partie de notre priorité est d'ajouter une protection pour les enfants lors de l'utilisation d'Internet. Nous encourageons les parents et les tuteurs à observer, participer et/ou surveiller et guider leur activité en ligne.",
+          "Children's Information": 'Informations sur les enfants',
+          'If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.':
+            "Si vous faites une demande, nous avons un mois pour vous répondre. Si vous souhaitez exercer l'un de ces droits, veuillez nous contacter.",
+          'The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.':
+            'Le droit à la portabilité des données – Vous avez le droit de nous demander de transférer les données que nous avons collectées à une autre organisation, ou directement à vous, sous certaines conditions.',
+          'The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.':
+            'Le droit de vous opposer au traitement – ​​Vous avez le droit de vous opposer à notre traitement de vos données personnelles, sous certaines conditions.',
+          'The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.':
+            'Le droit de restreindre le traitement – ​​Vous avez le droit de nous demander de restreindre le traitement de vos données personnelles, sous certaines conditions.',
+          'The right to erasure – You have the right to request that we erase your personal data, under certain conditions.':
+            "Le droit à l'effacement – ​​Vous avez le droit de nous demander d'effacer vos données personnelles, sous certaines conditions.",
+          'The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.':
+            'Le droit de rectification – Vous avez le droit de nous demander de corriger toute information que vous jugez inexacte. Vous avez également le droit de nous demander de compléter les informations que vous jugez incomplètes.',
+          'The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.':
+            "Le droit d'accès – Vous avez le droit de demander des copies de vos données personnelles. Nous pouvons vous facturer une somme modique pour ce service.",
+          'We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:':
+            'Nous souhaitons nous assurer que vous êtes pleinement conscient de tous vos droits en matière de protection des données. Chaque utilisateur a droit à ce qui suit :',
+          'GDPR Data Protection Rights': 'Droits de protection des données GDPR',
+          'If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.':
+            "Si vous faites une demande, nous avons un mois pour vous répondre. Si vous souhaitez exercer l'un de ces droits, veuillez nous contacter.",
+          "Request that a business that sells a consumer's personal data, not sell the consumer's personal data.":
+            "Demander qu'une entreprise qui vend les données personnelles d'un consommateur ne vende pas les données personnelles du consommateur.",
+          'Request that a business delete any personal data about the consumer that a business has collected.':
+            "Demander à une entreprise de supprimer toutes les données personnelles sur le consommateur qu'une entreprise a collectées.",
+          "Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.":
+            "Demander qu'une entreprise qui collecte les données personnelles d'un consommateur divulgue les catégories et les éléments spécifiques de données personnelles qu'une entreprise a collectées sur les consommateurs.",
+          'Under the CCPA, among other rights, California consumers have the right to:':
+            'En vertu du CCPA, entre autres droits, les consommateurs californiens ont le droit de :',
+          'CCPA Privacy Rights (Do Not Sell My Personal Information)':
+            'Droits de confidentialité CCPA (Ne vendez pas mes informations personnelles)',
+          "You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.":
+            'Vous pouvez choisir de désactiver les cookies via les options de votre navigateur. Pour connaître des informations plus détaillées sur la gestion des cookies avec des navigateurs Web spécifiques, vous pouvez les trouver sur les sites Web respectifs des navigateurs.',
+          "falconconsulting's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.":
+            "La politique de confidentialité de falconconsulting ne s'applique pas aux autres annonceurs ou sites Web. Ainsi, nous vous conseillons de consulter les politiques de confidentialité respectives de ces serveurs publicitaires tiers pour des informations plus détaillées. Il peut inclure leurs pratiques et instructions sur la façon de se retirer de certaines options.",
+          'Third Party Privacy Policies': 'Politiques de confidentialité des tiers',
+          'Note that falconconsulting has no access to or control over these cookies that are used by third-party advertisers.':
+            "Notez que falconconsulting n'a aucun accès ni aucun contrôle sur ces cookies qui sont utilisés par des annonceurs tiers.",
+          "Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on falconconsulting, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.":
+            "Les serveurs publicitaires ou réseaux publicitaires tiers utilisent des technologies telles que les cookies, JavaScript ou les balises Web qui sont utilisées dans leurs publicités et liens respectifs qui apparaissent sur falconconsulting, qui sont envoyés directement au navigateur des utilisateurs. Ils reçoivent automatiquement votre adresse IP lorsque cela se produit. Ces technologies sont utilisées pour mesurer l'efficacité de leurs campagnes publicitaires et/ou pour personnaliser le contenu publicitaire que vous voyez sur les sites Web que vous visitez.",
+          'You may consult this list to find the Privacy Policy for each of the advertising partners of falconconsulting.':
+            'Vous pouvez consulter cette liste pour trouver la politique de confidentialité de chacun des partenaires publicitaires de falconconsulting.',
+          'Advertising Partners Privacy Policies':
+            'Politiques de confidentialité des partenaires publicitaires',
+          "Like any other website, falconconsulting uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.":
+            "Comme tout autre site Internet, falconconsulting utilise des « cookies ». Ces cookies sont utilisés pour stocker des informations, y compris les préférences des visiteurs et les pages du site Web auxquelles le visiteur a accédé ou visité. Les informations sont utilisées pour optimiser l'expérience des utilisateurs en personnalisant le contenu de notre page Web en fonction du type de navigateur des visiteurs et/ou d'autres informations.",
+          'Cookies and Web Beacons': 'Cookies et balises Web',
+          "Falcon Consulting follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and are a part of hosting services' analytics. The information collected by log files includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.":
+            "Falcon Consulting suit une procédure standard d'utilisation des fichiers journaux. Ces fichiers enregistrent les visiteurs lorsqu'ils visitent des sites Web. Toutes les sociétés d'hébergement le font et font partie de l'analyse des services d'hébergement. Les informations collectées par les fichiers journaux incluent les adresses IP (protocole Internet), le type de navigateur, le fournisseur d'accès Internet (FAI), l'horodatage, les pages de renvoi/sortie et éventuellement le nombre de clics. Ceux-ci ne sont liés à aucune information personnellement identifiable. Le but de l'information est d'analyser les tendances, d'administrer le site, de suivre le mouvement des utilisateurs sur le site Web et de recueillir des informations démographiques.",
+          'Log Files': 'Fichiers journaux',
+          'Find and prevent fraud': 'Détecter et prévenir la fraude',
+          'Send you emails': 'Vous envoyer des e-mails',
+          'Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes':
+            "Communiquer avec vous, directement ou par l'intermédiaire de l'un de nos partenaires, y compris pour le service client, pour vous fournir des mises à jour et d'autres informations relatives au site Web, et à des fins de marketing et de promotion",
+          'Develop new products, services, features, and functionality':
+            'Développer de nouveaux produits, services, caractéristiques et fonctionnalités',
+          'Understand and analyze how you use our website':
+            'Comprendre et analyser la façon dont vous utilisez notre site Web',
+          'Improve, personalize, and expand our website':
+            'Améliorer, personnaliser et développer notre site Web',
+          'Provide, operate, and maintain our website':
+            'Fournir, exploiter et maintenir notre site Web',
+          'We use the information we collect in various ways, including to:':
+            'Nous utilisons les informations que nous recueillons de diverses manières, notamment pour :',
+          'How we use your information': 'Comment nous utilisons vos informations',
+          'When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.':
+            "Lorsque vous créez un compte, nous pouvons vous demander vos coordonnées, y compris des éléments tels que le nom, le nom de l'entreprise, l'adresse, l'adresse e-mail et le numéro de téléphone.",
+          'If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.':
+            'Si vous nous contactez directement, nous pouvons recevoir des informations supplémentaires vous concernant telles que votre nom, votre adresse e-mail, votre numéro de téléphone, le contenu du message et/ou des pièces jointes que vous pouvez nous envoyer, et toute autre information que vous pouvez choisir de fournir.',
+          'The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.':
+            'Les informations personnelles que vous êtes invité à fournir, et les raisons pour lesquelles vous êtes invité à les fournir, vous seront précisées au moment où nous vous demanderons de fournir vos informations personnelles.',
+          'Information we collect': 'Informations que nous collectons',
+          'By using our website, you hereby consent to our Privacy Policy and agree to its terms.':
+            'En utilisant notre site Web, vous consentez par la présente à notre politique de confidentialité et acceptez ses conditions.',
+          Consent: 'Consentement',
+          'This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in falconconsulting. This policy is not applicable to any information collected offline or via channels other than this website.':
+            "Cette politique de confidentialité s'applique uniquement à nos activités en ligne et est valable pour les visiteurs de notre site Web en ce qui concerne les informations qu'ils ont partagées et/ou collectées dans falconconsulting. Cette politique ne s'applique pas aux informations collectées hors ligne ou via des canaux autres que ce site Web.",
+          'If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.':
+            "Si vous avez des questions supplémentaires ou souhaitez plus d'informations sur notre politique de confidentialité, n'hésitez pas à nous contacter.",
+          'At Falcon consulting, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by falconconsulting and how we use it.':
+            "Chez Falcon consulting, l'une de nos principales priorités est la confidentialité de nos visiteurs. Ce document de politique de confidentialité contient des types d'informations qui sont collectées et enregistrées par falconconsulting et comment nous les utilisons.",
+          'All other applicable federal and state laws or regulations. The information security program is reviewed no less than annually or upon significant changes to the information security environment.':
+            "Toutes les autres lois ou réglementations fédérales et étatiques applicables. Le programme de sécurité de l'information est revu au moins une fois par an ou lors de modifications importantes de l'environnement de sécurité de l'information.",
+          'Contractual agreements,': 'Accords contractuels,',
+          'Information Security best practices, including ISO 27002 and NIST CSF,':
+            "Meilleures pratiques de sécurité de l'information, y compris ISO 27002 et NIST CSF,",
+          'PCI Data Security Standard,': 'Norme de sécurité des données PCI,',
+          'State breach notification laws,': 'Lois étatiques sur la notification des infractions,',
+          'HIPAA Security Rule': 'Règle de sécurité HIPAA',
+          'Information Security policy': 'Politique de sécurité des informations',
+          'Privacy Policy': 'Politique de confidentialité',
+          'Acceptable Use policy': "Politique d'utilisation acceptable",
+          'Business Continuity/Disaster recovery Policy':
+            'Politique de continuité des activités/reprise après sinistre',
+          'Hiring and Termination Policy Including background checks':
+            "Politique d'embauche et de résiliation, y compris la vérification des antécédents",
+          'Encryption Policy': 'Politique de chiffrement',
+          'Incident response Policy (Internal, External, Web)':
+            'Politique de réponse aux incidents (Interne, Externe, Web)',
+          'Security awareness training programs and topics covered':
+            'Programmes de formation de sensibilisation à la sécurité et sujets abordés',
+          'Third party management programs': 'Programmes de gestion tiers',
+          'System backup policy and program': 'Politique et programme de sauvegarde du système',
+          'Falcon Consulting maintains and communicates an Information Security Program consisting of topic-specific policies, standards, procedures and guidelines that:':
+            "Falcon Consulting maintient et communique un programme de sécurité de l'information composé de politiques, normes, procédures et directives spécifiques à un sujet qui:",
+          'Serve to protect the Confidentiality, Integrity, and Availability of the Information Resources maintained within the organization using administrative, physical and technical controls.':
+            "Servir à protéger la confidentialité, l'intégrité et la disponibilité des ressources d'information conservées au sein de l'organisation à l'aide de contrôles administratifs, physiques et techniques.",
+          'Provide value to the way we conduct business and support institutional objectives. Comply with all regulatory and legal requirements, including:':
+            'Apporter de la valeur à la façon dont nous menons nos activités et soutenir les objectifs institutionnels. Se conformer à toutes les exigences réglementaires et légales, y compris :',
+
+          // Legal Mentions
+          //Title 7
+          'Respect de la vie privée': 'Respect de la vie privée',
+          // Body 7
+          "Falcon Consulting respecte votre vie privée et s'engage à la protéger. La présente déclaration est destinée à vous informer de notre politique et de nos pratiques en matière de respect de la vie privée, ainsi que des choix que vous pouvez opérer sur la manière dont vos coordonnées sont recueillies en ligne et comment elles sont utilisées.":
+            "Falcon Consulting respecte votre vie privée et s'engage à la protéger. La présente déclaration est destinée à vous informer de notre politique et de nos pratiques en matière de respect de la vie privée, ainsi que des choix que vous pouvez opérer sur la manière dont vos coordonnées sont recueillies en ligne et comment elles sont utilisées.",
+          'Le site web est régi par le Droit français. Notre activité professionnelle est répartie selon le pays dans lequel le contrat de prestation est signé. En cas de litige résultant de votre utilisation de note site web, seuls les Tribunaux français sont compétents.':
+            'Le site web est régi par le Droit français. Notre activité professionnelle est répartie selon le pays dans lequel le contrat de prestation est signé. En cas de litige résultant de votre utilisation de note site web, seuls les Tribunaux français sont compétents.',
+          'Tous droits réservés © -': 'Tous droits réservés © -',
+          //Title 6
+          "Autorisation de reproduction de contenus et de mise en placed'hyperliens":
+            "Autorisation de reproduction de contenus et de mise en placed'hyperliens",
+          // Body 6
+          "Les liens hypertextes mis en place dans le cadre du présent site en direction d'autres resources présentes sur le réseau Intemet, ne sauraient engager la responsabilité de la société Falcon Consulting. Les utilisateurs / internautes du site ne peuvent mettre en place un lien hypertexte en direction de ce site sans l'autorisation expresse et préalable de la société Falcon Consulting.":
+            "Les liens hypertextes mis en place dans le cadre du présent site en direction d'autres resources présentes sur le réseau Intemet, ne sauraient engager la responsabilité de la société Falcon Consulting. Les utilisateurs / internautes du site ne peuvent mettre en place un lien hypertexte en direction de ce site sans l'autorisation expresse et préalable de la société Falcon Consulting.",
+
+          //Title 5
+          'Liens hypertextes': 'Liens hypertextes',
+          // Body 5
+          "Les liens hypertextes mis en place dans le cadre du présent site en direction d'autres resources présentes sur le réseau Intemet, ne sauraient engager la responsabilité de la société Falcon Consulting. Les utilisateurs/internautes du site ne peuvent mettre en place un lien hypertexte en direction de ce site sans l'autorisation expresse et préalable de la société Falcon Consulting.":
+            "Les liens hypertextes mis en place dans le cadre du présent site en direction d'autres resources présentes sur le réseau Intemet, ne sauraient engager la responsabilité de la société Falcon Consulting. Les utilisateurs/internautes du site ne peuvent mettre en place un lien hypertexte en direction de ce site sans l'autorisation expresse et préalable de la société Falcon Consulting.",
+          //  Title 4
+          'Loi informatique, fichiers et libertés': 'Loi informatique, fichiers et libertés',
+          // Body 4
+          'La société Falcon Consulting est le responsable du traitement des donees collectees sur son site via :':
+            'La société Falcon Consulting est le responsable du traitement des donees collectees sur son site via :',
+          "L'utilisateur est notamment informé que conformément à l'article 32 de la loi Informatique et libertés du 6 janvier 1978 modifiée, les informations qu'il communique par les formulaires présents sur le site de la société Falcon Consulting sot nécessaires pour répondre à sa demande et sont destines aux services en charge de répondre à sa demande à des fins de suivi de cette demande.":
+            "L'utilisateur est notamment informé que conformément à l'article 32 de la loi Informatique et libertés du 6 janvier 1978 modifiée, les informations qu'il communique par les formulaires présents sur le site de la société Falcon Consulting sot nécessaires pour répondre à sa demande et sont destines aux services en charge de répondre à sa demande à des fins de suivi de cette demande.",
+          "Conformément aux dispositions des articles 39 et 40 de la loi « Informatique et Libertés » du 6 janvier 1978 modifiée en 2004, l'utilisateur bénéficie d'un droit d'accès, de rectification, de mise à jour et 'effacement des informations qui le concernent, qu'il peut exercer en s'adressant à l'adresse mail":
+            "Conformément aux dispositions des articles 39 et 40 de la loi « Informatique et Libertés » du 6 janvier 1978 modifiée en 2004, l'utilisateur bénéficie d'un droit d'accès, de rectification, de mise à jour et 'effacement des informations qui le concernent, qu'il peut exercer en s'adressant à l'adresse mail",
+          "ou par courier à l'adresse de la société:": "ou par courier à l'adresse de la société:",
+          "Falcon Consulting, 53 Avenue Victor Hugo, 94290 Villeneuve Le Roi, France, service «Droit des personnes » et en joignant la copie de son justificatif d'identité.":
+            "Falcon Consulting, 53 Avenue Victor Hugo, 94290 Villeneuve Le Roi, France, service «Droit des personnes » et en joignant la copie de son justificatif d'identité.",
+          "Conformément aux dispositions de 'article 38 de la loi « Informatique et Libertés » du 6 ianvier 1978 modifiée en 2004, l'utilisateur put également 'opposer, pour des motifs légitimes à ce que ses données fassent l'objet d' un traitement et sans motif et sans frais, à ce que ses données soient utilisées à des fins de prospection commerciale":
+            "Conformément aux dispositions de 'article 38 de la loi « Informatique et Libertés » du 6 ianvier 1978 modifiée en 2004, l'utilisateur put également 'opposer, pour des motifs légitimes à ce que ses données fassent l'objet d' un traitement et sans motif et sans frais, à ce que ses données soient utilisées à des fins de prospection commerciale",
+          "L'utilisateur est informé que lors de ses visites sur le site":
+            "L'utilisateur est informé que lors de ses visites sur le site",
+          ", un cookie peut 'installer automatiquement sur son logiciel de navigation.":
+            ", un cookie peut 'installer automatiquement sur son logiciel de navigation.",
+          "Le cookie est un bloc de données qui ne permet pas d'identifier les utilisateurs, mais sert à enregistrer des informations relatives à la navigation de celui-ci sur le site. Le paramétrage du logiciel de navigation permet 'informer de la présence de cookie et éventuellement, de la refuser de la manière décrite à l'adresse suivante":
+            "Le cookie est un bloc de données qui ne permet pas d'identifier les utilisateurs, mais sert à enregistrer des informations relatives à la navigation de celui-ci sur le site. Le paramétrage du logiciel de navigation permet 'informer de la présence de cookie et éventuellement, de la refuser de la manière décrite à l'adresse suivante",
+          "L'utilisateur dispose d'un droit d'accès, de retrait et de modification des données à caractère personnel communiques par le bias des cookies dans les conditions indiquées ci-dessus.":
+            "L'utilisateur dispose d'un droit d'accès, de retrait et de modification des données à caractère personnel communiques par le bias des cookies dans les conditions indiquées ci-dessus.",
+          "L'utilisateur du site": "L'utilisateur du site",
+          "est tenu de respecter les dispositions de la loi Informatique et libertés du 6 janvier 1978 modifiée dont la violation est passible de sanctions pénales. Il doit notamment s' abstenir, s'agissant des informations nominatives auxquelles il accède, de toute collecte, de toute utilisation détournée, et d'une manière générale, de tout acte susceptible de porter atteinte à la vie privée ou à la réputation des personnes.":
+            "est tenu de respecter les dispositions de la loi Informatique et libertés du 6 janvier 1978 modifiée dont la violation est passible de sanctions pénales. Il doit notamment s' abstenir, s'agissant des informations nominatives auxquelles il accède, de toute collecte, de toute utilisation détournée, et d'une manière générale, de tout acte susceptible de porter atteinte à la vie privée ou à la réputation des personnes.",
+
+          // Title 3
+          "Licence d'utilisation du Contenu du Site": "Licence d'utilisation du Contenu du Site",
+          // Body 3
+          "Du seul fait de sa connexion au site, l'utilisateur reconnaît accepter de la société Falcon Consulting, une licence 'usage du Contenu du Site strictement limitée aux conditions impératives suivantes:":
+            "Du seul fait de sa connexion au site, l'utilisateur reconnaît accepter de la société Falcon Consulting, une licence 'usage du Contenu du Site strictement limitée aux conditions impératives suivantes:",
+          "La présente licence est accordée à tire non exclusif et n'est pas transmissible.":
+            "La présente licence est accordée à tire non exclusif et n'est pas transmissible.",
+          "Le droit 'usage conféré à l'utilisateur / internaute est personnel et privé : c'est-à-dire que toute reproduction du contenu du site sur un quelconque support pour un usage collectif ou professionnel, même en interne dans l'entreprise, est prohibée. Il en est de même pour toute communication de ce contenu par voie électronique, même diffusé en intranet ou en extranet d'entreprise.":
+            "Le droit 'usage conféré à l'utilisateur / internaute est personnel et privé : c'est-à-dire que toute reproduction du contenu du site sur un quelconque support pour un usage collectif ou professionnel, même en interne dans l'entreprise, est prohibée. Il en est de même pour toute communication de ce contenu par voie électronique, même diffusé en intranet ou en extranet d'entreprise.",
+          "Le droit 'usage comprend seulement l'autorisation de consulter le site et son contenu.":
+            "Le droit 'usage comprend seulement l'autorisation de consulter le site et son contenu.",
+          "Cet usage comprend seulement l'autorisation de reproduire pour stockage aux fins de représentation sur écran monoposte et de reproduction en un exemplaire, pour copie de  sauvegarde et tirage papier. Tout autre usage est soumis à l'autorisation expresse préalable de la société Falcon Consulting. La violation de ces dispositions soumet le contrevenant et toute personne responsable aux peines pénales et civiles prévues par la loi française.":
+            "Cet usage comprend seulement l'autorisation de reproduire pour stockage aux fins de représentation sur écran monoposte et de reproduction en un exemplaire, pour copie de  sauvegarde et tirage papier. Tout autre usage est soumis à l'autorisation expresse préalable de la société Falcon Consulting. La violation de ces dispositions soumet le contrevenant et toute personne responsable aux peines pénales et civiles prévues par la loi française.",
+
+          // Title 2
+          'Contenu du Site': 'Contenu du Site',
+          // Body 2
+          "Le contenu du site la structure générale, les textes, les images, animées ou non, et les sons dont le site est composé sont la propriété exclusive de la société Falcon Consulting. Toute représentation totale ou partielle de ce Site et de son Contenu, par quelques procédés que ce soient, sans l'autorisation pré alable expresse de la société Falcon Consulting est interdite et constituerait une contrefaçon sanctionnée par les articles L.335-2 et suivants du Code de la Propriété intellectuelle.":
+            "Le contenu du site la structure générale, les textes, les images, animées ou non, et les sons dont le site est composé sont la propriété exclusive de la société Falcon Consulting. Toute représentation totale ou partielle de ce Site et de son Contenu, par quelques procédés que ce soient, sans l'autorisation pré alable expresse de la société Falcon Consulting est interdite et constituerait une contrefaçon sanctionnée par les articles L.335-2 et suivants du Code de la Propriété intellectuelle.",
+          "Le site accessible à l'adresse": "Le site accessible à l'adresse",
+          'est hébergé par la société GoDaddy.com, dont le siège social est situé au 14455 North Hayden Rd., Suite 219, Scottsdale, AZ 85260.':
+            'est hébergé par la société GoDaddy.com, dont le siège social est situé au 14455 North Hayden Rd., Suite 219, Scottsdale, AZ 85260.',
+          'Email :': 'Email :',
+          'Téléphone :': 'Téléphone :',
+
+          // title 1
+          Éditeur: 'Éditeur',
+          // Body 1
+          'Le présent site web, accessible à l’adresse':
+            'Le présent site web, accessible à l’adresse',
+          'est réalisé par la Société Falcon Consulting, inscrite au registre du commerce de Créteil sous le numéro B 813 509 536, dont le siège social est situé au 53 avenue Victor Hugo - 94290 Villeneuve Le Roi.':
+            'est réalisé par la Société Falcon Consulting, inscrite au registre du commerce de Créteil sous le numéro B 813 509 536, dont le siège social est situé au 53 avenue Victor Hugo - 94290 Villeneuve Le Roi.',
+          'Le site appartient au groupe Falcon Consulting. En France, c’est la Société Falcon Consulting au capital de 10 000 euros, inscrite au registre du commerce de Créteil sous le numéro B 813 509 536 et numéro TVA intracommunautaire FR84813509536, dont le siège social est situé au 53 avenue Victor Hugo - 94290 Villeneuve Le Roi, qui est reconnu comme propriétaire.':
+            'Le site appartient au groupe Falcon Consulting. En France, c’est la Société Falcon Consulting au capital de 10 000 euros, inscrite au registre du commerce de Créteil sous le numéro B 813 509 536 et numéro TVA intracommunautaire FR84813509536, dont le siège social est situé au 53 avenue Victor Hugo - 94290 Villeneuve Le Roi, qui est reconnu comme propriétaire.',
+          'Le groupe international Falcon Consulting est un ensemble d’ESN toutes spécialisées dans les services informatiques, autour nouvelles technologies logicielles et digitales.':
+            'Le groupe international Falcon Consulting est un ensemble d’ESN toutes spécialisées dans les services informatiques, autour nouvelles technologies logicielles et digitales.',
+          'Le directeur de la publication du Site Web est la société Falcon Consulting elle-même.':
+            'Le directeur de la publication du Site Web est la société Falcon Consulting elle-même.',
+
           //
           // social banner
           'Curious to learn more?': "Curieux d'en savoir plus ?",
@@ -2020,9 +5063,9 @@ i18n
           "Hypertext links 'cookies' and internet tags":
             "Liens hypertextes 'cookies' et balises internet",
           'Applicable law and attribution of jurisdiction':
-            'Droit applicable et attribution de juridiction',
-        },
-      },
+            'Droit applicable et attribution de juridiction'
+        }
+      }
     },
     fallbackLng: 'fr',
     debug: true,
@@ -2031,7 +5074,7 @@ i18n
     defaultNS: 'translations',
     keySeparator: false, // we use content as keys
     interpolation: {
-      escapeValue: false,
-    },
+      escapeValue: false
+    }
   });
 export default i18n;
