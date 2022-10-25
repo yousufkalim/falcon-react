@@ -1,18 +1,20 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const PolicyHeader = () => {
+  const { t } = useTranslation();
   return (
     <>
-      <div className='LegalMention_HeaderContainer'>
-        <div className='LegalMention_HeaderDiv'>
-          <div className='LegalMention_HeaderTitleDiv'>
+      <div className="LegalMention_HeaderContainer">
+        <div className="LegalMention_HeaderDiv">
+          <div className="LegalMention_HeaderTitleDiv">
             <div>
               <img
                 src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/legal_icon.svg`}
-                alt='Policy'
+                alt="Policy"
               />
             </div>
-            <h1 className='LegalMention_HeaderTitle'>Privacy Policy</h1>
+            <h1 className="LegalMention_HeaderTitle">{t('Privacy Policy')}</h1>
           </div>
           {/* <div className="LegalMention_HeaderDespDiv"> */}
           {/* <Typography className="LegalMention_HeaderDesp_H">Privacy Policy</Typography> */}
