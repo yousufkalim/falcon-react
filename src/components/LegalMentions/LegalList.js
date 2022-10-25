@@ -1,5 +1,5 @@
 import React from 'react';
-import { legalMentions } from '../../utils/Data';
+import { LegalData } from '../../utils/Data';
 import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
@@ -9,53 +9,51 @@ export default function LegalList(props) {
   const { t } = useTranslation();
   const [open, setOpen] = React.useState('');
 
-  const handleClick = (item) => {
+  const handleClick = item => {
     setOpen(item);
   };
   return (
     <>
-      <div className='LegalMention_ListContainer'>
-        {legalMentions.map((item) => {
+      <div className="LegalMention_ListContainer">
+        {LegalData()?.map(item => {
           return (
             <>
-              <div className='LegalMention_ListDiv'>
+              <div className="LegalMention_ListDiv">
                 <div
-                  className='LegalMention_ListBar'
+                  className="LegalMention_ListBar"
                   onClick={() => {
                     if (open !== item.title) {
                       handleClick(item.title);
                     } else {
                       handleClick('');
                     }
-                  }}
-                >
-                  <div className='LegalMention_ListBar_Left'>
-                    <div className='LegalMention_ListBar_IndexDiv'>
-                      <div className='LegalMention_ListBar_Index'>{item.index}</div>
+                  }}>
+                  <div className="LegalMention_ListBar_Left">
+                    <div className="LegalMention_ListBar_IndexDiv">
+                      <div className="LegalMention_ListBar_Index">{item.index}</div>
                     </div>
 
-                    <div className='LegalMention_ListBar_TitleDiv'>
-                      <Typography className='LegalMention_ListBar_Title'>
+                    <div className="LegalMention_ListBar_TitleDiv">
+                      <Typography className="LegalMention_ListBar_Title">
                         {t(item.title)}
                       </Typography>
                     </div>
                   </div>
-                  <div className='LegalMention_Collapse_Btn'>
+                  <div className="LegalMention_Collapse_Btn">
                     {open === item.title ? (
-                      <ExpandLess fontSize='large' />
+                      <ExpandLess fontSize="large" />
                     ) : (
-                      <ExpandMore fontSize='large' />
+                      <ExpandMore fontSize="large" />
                     )}
                   </div>
                 </div>
 
                 <Collapse
-                  className='Service_list'
+                  className="Service_list"
                   in={open === item.title}
-                  timeout='auto'
-                  unmountOnExit
-                >
-                  <div className='LegalMention_Collapse_Body'>
+                  timeout="auto"
+                  unmountOnExit>
+                  <div className="LegalMention_Collapse_Body">
                     <Typography>{item.body}</Typography>
                   </div>
                 </Collapse>
