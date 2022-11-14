@@ -45,7 +45,9 @@ export default function RegisterRH() {
         title="Registre-RH"
         subTitle="Registre-RH"
         // iconTheme="#9D3C64"
-        description="This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another."
+        description={t(
+          'This web application offers a complete panel of features to manage all the employees and consultants of a business entity, as well as their documents and status.'
+        )}
       />
       <DetailOverview
         desp="This system offers complete functionality to manage staff, documents related to them and their status. One can also manage the Risk assessment documents of the Company. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another."
@@ -70,7 +72,7 @@ export default function RegisterRH() {
 
       <DetailDemo
         to="https://registre-rh.fr/"
-        // desp
+        desp="This web application offers a complete panel of features to manage all the employees and consultants of a business entity, as well as their documents and status. Registre-RH also allows to manage the Risk assessment documents of the Company, in order to make sure the entity is complying with the regulation. This application is capable of managing multiple Companies, their branches and Employee along with the transfer of employee from one branch to another. This application is deployed in big Construction groups in France, and it is used on a day-to-day basis by their HR Department."
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
@@ -83,6 +85,7 @@ export default function RegisterRH() {
       <DetailDesign
         titleTheme="#142E68"
         title="UI DESIGN"
+        desp="Our client is an expert in the HR industry, and he has worked for top companies in strategic position such as HR Director. He had to make sure to comply with all the regulation requirement, which could be a real challenge when not having the appropriate tool. This is why he came up with the idea of filling this need and having Falcon creating a complete platform, especially targeting big companies with several branches. The specification had to be redacted by Falcon based on several meetings planned with the client. After getting the completed mockups, the client was able to present them with his targeted audience and make sure of the product market fit."
         // overlap
         // TopImg={Register_Design1}
         // MidImg={Register_Design2}
@@ -110,7 +113,7 @@ export default function RegisterRH() {
         // fullscreen
         title="COLOR THEME AND DESIGN"
         titleTheme="#142E68"
-        // desp
+        desp="The color theme was proposed by Falcon, in order to stay in corporate standard and professional colors."
         Theme1="#142E68"
         Theme2="#42C2FF"
         Theme3="#FFFFFF"
@@ -125,7 +128,7 @@ export default function RegisterRH() {
       <DetailAppDev
         website
         title="WEB DEVELOPMENT"
-        // desp
+        desp="The project has been developed in modules, based on priorities provided by the client, and in order to be able to launch it as soon as possible. the project team was composed of a project manager, two developers (one back-end and one front-end), and a UI/UX designer. There were bi-weekly meetings with the client to provide frequent updates and get all the required clarification. The project was also tested internally. As the platform is storing sensitive information related to HR, the platform went through several security tests, and Falcon made sure to be 100% compliant with all the security requirement of the big companies. As the project is for the French market, GDPR compliance was also strictly met, and an specialized attorney was overviewing this aspect."
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_webdev.png`}
         titleTheme="#142E68"
         // halfImg={Yuwway_AppDesign}

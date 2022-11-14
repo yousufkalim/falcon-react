@@ -46,7 +46,7 @@ export default function RealEstate() {
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_header.png`}
         title="Real Estate"
         subTitle="Real Estate"
-        description="The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company."
+        description="The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan."
       />
       <DetailOverview
         // desp
@@ -72,6 +72,7 @@ export default function RealEstate() {
       <DetailDemo
         to="https://realestate-landing.web.app/"
         // desp
+        desp="The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan. For this, there are two main interfaces : a mobile application for the investors, and an admin panel, for the responsible of the company."
         // btnText
         // DetailDemo_SquareDiv
         DetailDemo_RoundDiv

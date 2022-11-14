@@ -11,7 +11,7 @@ import DetailDesign from '../../components/ProjectDetails/DetailDesign';
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+// import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet';
@@ -23,7 +23,7 @@ import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjec
 // Home Component
 export default function Quadrabase() {
   let lang = localStorage.getItem('i18nextLng');
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="Permispop_Container">
@@ -48,12 +48,12 @@ export default function Quadrabase() {
         subTitle="Quadrabase"
         iconTheme="#9D3C64"
         description={t(
-          'Quadrabase is a web platform allowing engineering offices to automatically generate tender documents in the construction industry: Project Specification, Project Cost Estimate, Project bidding template. The platform has a well structured and multi-level database, allowing to include the most pertinent data for each specific project, based on the project details.'
+          'Our client being a project manager with more than 30 years of experience in the field, we had to show a great capacity of adaptation to correctly apprehend the project, and understand all the technical aspects.'
         )}
       />
       <DetailOverview
         titleTheme="#FF8616"
-        desp="The project was released in several modules, so that the client could see the progress on the go. We started by completing and validating the admin panel, then we worked on the Architect interface, and finally on the Manufacturer features. The project took overall 6 months, including all the edits in order to make it very functional."
+        desp="Quadrabase is a project from a client who has worked in the Construction industry in France for more than 20 years. He has built over the time a very detailed and rich database for the construction projects, and his goal is to revolutionize the construction industry by providing a unique platform, allowing each stakeholder to generate detailed and accurate tender documents very quickly !"
         // desp=""
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/overview_quadraAvatar.png`}
         nameColor="#9D3C64"
@@ -83,6 +83,7 @@ export default function Quadrabase() {
       <DetailDesign
         title="UI DESIGN"
         titleTheme="#FFA450"
+        desp="Quadrabase already used a specific UI and UX for the Prescriber interface, which was satisfying the clients needs. As the goal was not to reinvent screens which are already approved, Falcon focus on the other ones to make sure the overall project looks modern : landing pages, subscription process, manufacturer interface. We also implemented a dashboard for the prescriber, to enhance the overall User experience."
         grids
         src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_qb_design1.png`}
         src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_qb_design2.png`}
@@ -95,7 +96,7 @@ export default function Quadrabase() {
         fullscreen
         // centerImage
         titleTheme="#FF8616"
-        // desp
+        desp="The main color was provided by the client, and the secondary colors were provided by Falcon in order to match and create a nice impression overall."
         Theme1="#FF8616"
         Theme2="#202020"
         Theme3="#D7D7D7"
@@ -114,6 +115,7 @@ export default function Quadrabase() {
         titleTheme="#FF8616"
         website
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_qb_design.png`}
+        desp="Quadrabase was a project initially developed by another development agency. As the client Is very meticulous and wants its platform to be perfect for its users, the development agency was not willing to complete the project. And as the initial platform was using an old technology, it was decided to start again from scratch, and propose a modern platform, which would meet the client’s expectation. Even though not 100% complete, the project specification provided by the client were satisfying to have a very good idea of the big picture, and Falcon was able to start the development very quickly. A team of two developers were working on the project for 4 months, with a Project Manager and a Lead Developer as a support. One of the developers was realizing the modules, starting by the admin panel, prescribers and manufacturers interface, while the other developer was focusing on the document generation module, which was requiring quite some work. The main challenge of the project was all the details that were important for the client, but not appearing in the document. Falcon has a policy of completing the last mile of its projects without discussion (as long as there is no new feature), and it was the case here."
       />
       {/* <DetailFeedback
         ThemeBG='#9D3C64'

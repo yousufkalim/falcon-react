@@ -45,7 +45,7 @@ export default function Sindoor() {
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_header.png`}
         title="Sindoor"
         subTitle="Sindoor"
-        description="Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App."
+        description="Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding."
       />
       <DetailOverview
         // desp
@@ -70,6 +70,7 @@ export default function Sindoor() {
 
       <DetailDemo
         to="https://sindoor-demo.web.app/"
+        desp="Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding. The User and vendors can communicate through App. The user and vendor have send and receive quotes then validate quotes on App."
         // desp
         // btnText
         // DetailDemo_SquareDiv

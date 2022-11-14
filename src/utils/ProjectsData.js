@@ -720,6 +720,7 @@ export const Advertisement = [
     tag3: 'Advertisement'
   }
 ];
+// client data
 export const clientData = [
   {
     title: 'Microsoft',
@@ -821,6 +822,7 @@ export const clientData = [
     image: [FieldBox]
   }
 ];
+// More Projects
 export const EducationType = [
   {
     to: '/ourprojects/orientator',
@@ -1111,14 +1113,15 @@ export const GamingType = [
     tag3: 'Advertisement'
   },
   {
-    to: '/ourprojects/telehealthplatform',
-    title: 'Movement detection for health providers',
     index: 3,
-    desp: 'Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.',
-    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_update.png`,
-    tag1: 'MERNStack',
-    tag2: 'Website',
-    tag3: 'Health',
-    tag4: 'Business'
+    to: '/ourprojects/kidcab',
+    image: `${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_update.png`,
+    title: 'Kidcab',
+    desp: 'Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application.',
+    tag1: 'NodeJS',
+    tag2: 'ReactNative',
+    tag3: 'MobileApp',
+    tag4: 'Transport',
+    tag5: 'Business'
   }
 ];

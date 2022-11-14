@@ -46,7 +46,7 @@ export default function Fireman() {
         title="Firemen"
         subTitle="Fireman"
         // iconTheme="#9D3C64"
-        description="Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:"
+        description="Fireman is the management and report generating system for fire fighters."
       />
       <DetailOverview
         titleTheme="#282828"
@@ -72,6 +72,7 @@ export default function Fireman() {
       <DetailDemo
         to="https://fireman-dev3.web.app/login"
         // desp
+        desp="Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:"
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv

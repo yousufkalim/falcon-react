@@ -53,7 +53,7 @@ export default function Orientator() {
       />
       <DetailOverview
         titleTheme="#FF29AA"
-        desp="Orientator is a French-based platform for students to decide on their university.This site is developed with the front end on React and the backend on Node JS and the whole project was completed in 5 months"
+        desp="Orientator is a French-based platform for students to decide on their university. This website is developed with the front end on React and the backend on Node JS, and the whole project was completed within 5 months, from a simple concept idea to a full-fledge website."
         // desp=""
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/overview_quadraAvatar.png`}
         nameColor="FF29AA"
@@ -88,6 +88,7 @@ export default function Orientator() {
       <DetailDesign
         titleTheme="#FF29AA"
         title="UI DESIGN"
+        desp="The goal of the project was to create an Akinator-like for allowing students to find the best course for them, based on several criteria. This strategy was based on the fact that the client wanted the orientation topic, seen as complex and worrisome, seen as funny and personified. As the target audience is young, we wanted to add some gamification features, such as the progress bar, and the character reacting to the answers provided by the user. Finally, the project had to look very modern and responsive for mobile phones, as it would predominantly be used on mobile phones."
         // overlap
         // TopImg={Facility_Design1}
         // MidImg={Facility_Design2}
@@ -119,7 +120,7 @@ export default function Orientator() {
         // fullscreen
         title="COLOR THEME AND DESIGN"
         titleTheme="#FF29AA"
-        // desp
+        desp="Falcon proposed to use a dark color as the main one, and some very bright ones as secondary colors, in order to give a dynamic feeling. The same idea was used for the colors of the action buttons : the gradient of color give a sense of movement, as present in some gaming applications."
         Theme1="#FF29AA"
         Theme2="#FF6D1A"
         Theme3="#FFFFFF"
@@ -134,7 +135,7 @@ export default function Orientator() {
       <DetailAppDev
         website
         title="WEB DEVELOPMENT"
-        // desp
+        desp="On this project, the client, coming from a top business school in France (HEC Paris), had no technical knowledge in development. He had a clear concept, which was not written down on a document, and the details were not worked out. This is one of the aspects where Falcon has a lot of value added : understanding the context and end goals of the project, and proposing a custom-application which would fit the needs best, while staying within the allocated budget. As the client is expert in orientation, he was able to generate a spreadsheet with thousands lines of data. The end goal was to create a modern tool, easy to use for the students. After several meetings, Falcon drafted the project Functional Requirement, which were approved by the Client. Falcon worked on project feasibility and work arounds to get to the end goals. Orientator starts with open questions in shape of a decision tree. Afterwards, it has several closed questions allowing to fine-tune the results provided at the end. The results are shown with a percentage of matching, which is calculated through an algorithm taking into account several parameters. The development process was completed within 3 months, including the integration of all the data and the realization of the administrative panel."
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_ss.png`}
         titleTheme="#FF29AA"
         halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_webhalf.png`}

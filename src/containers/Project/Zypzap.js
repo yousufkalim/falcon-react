@@ -48,7 +48,7 @@ export default function Zypzap() {
         title="Zypzap"
         subTitle="Zypzap"
         // iconTheme="#9D3C64"
-        description="ZypZap is a gaming platform by Falcon IT. It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way."
+        description="ZypZap is a gaming website developed by Falcon IT."
       />
       <DetailOverview
         titleTheme="#282828"
@@ -73,7 +73,7 @@ export default function Zypzap() {
 
       <DetailDemo
         to="https://zypzap.com"
-        desp="ZypZap is a gaming platform by Falcon IT. It works for both learners and creators. As readable content creates a mess for users or learners so this ZypZap will be helpful for the learners to learn in an easy and faster way.For learners, ZypZap helps them to become Pro players.Full gameplay courses are available on this site. For creators, gamers teach, what they are good at. Specifically, for the gamers who want to teach how to play and make familiar with the game content quickly."
+        desp="ZypZap is a gaming website developed by Falcon IT. It is an e-learning platform connecting the e-sport professionals and the gamers willing to acquire more skills. The application has several features, among which is a video editing tool. As the gaming world is especially demanding regarding the quality of the realization, our client wanted to get a great team of designers / developers / project managers to complete this project."
         // desp
         // btnText
         DetailDemo_SquareDiv
@@ -87,6 +87,7 @@ export default function Zypzap() {
       <DetailDesign
         titleTheme="#282828"
         title="UI DESIGN"
+        desp="The client had a general idea about the project, and Falcon, acting also as a role of CTO for this project, worked on the feasibility of the features and priorities based on the effort required for each tasks. The design team realized several versions of the mockups on Figma, for getting feedbacks from the gaming community and improving it continuously. The goal was to create a website with a “wow” effect, as this is quite a challenge to attract this target audience."
         // overlap
         // TopImg={Facility_Design1}
         // MidImg={Facility_Design2}
@@ -118,7 +119,7 @@ export default function Zypzap() {
         // fullscreen
         title="COLOR THEME"
         titleTheme="#000000"
-        // desp
+        desp="The goal was to use mostly dark colors to get to a specific gaming world."
         Theme1="#522F6D"
         Theme2="#20BF55"
         Theme3="#F5F5F5"
@@ -133,7 +134,7 @@ export default function Zypzap() {
       <DetailAppDev
         website
         title="WEB DESIGN"
-        // desp
+        desp="The main difficulty of the project was to adapt to the several changes requested by the client due to feedbacks received from the target audience. Ideally, one should have the mockups fully completed before starting the development phase, but this was not the case in this project, mainly due to time schedule requirement. The project team was composed of a designer, two developers, one project manager and a lead developer. They had 2 meetings per week with the client to speed-up the feedbacks and make sure we would be going to the right direction. The video editing feature was something new developed at Falcon Consulting, but thanks to the diversity of the talents in the team, it was successfully realized. Falcon also optimized the flux of data exchanges in order to optimize the operating costs, which can be significant for such projects."
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_webdesign.png`}
         titleTheme="#000000"
         // halfImg={Zypzap_WebDesign}

@@ -46,10 +46,10 @@ export default function Orgaplan() {
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_header.png`}
         title="OrgaPlan"
         subTitle="OrgaPlan"
-        description="Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities."
+        description="Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...)."
       />
       <DetailOverview
-        desp="Orgaplan is a Logistics management in France on a large scale and its site is developed on React front end and Node JS backend. This project was delivered in just 6 months, which was possible by scalling the team from 2 developers to up to 8 developers."
+        desp="Orgaplan is a Logistics management web and mobile application developed for the French Construction market. Its technology stacks are React for the front end and Node JS for the backend. This project was delivered in just 6 months, which was possible by scaling the team from 2 to up to 8 developers."
         // desp
         // location
         titleTheme="#282828"
@@ -86,6 +86,7 @@ export default function Orgaplan() {
       <DetailDesign
         titleTheme="#282828"
         title="UI DESIGN"
+        desp="A big construction company tried, few years ago, to realize exactly this project internally, and they worked on designing and developing the platform. Unfortunately, it was a failure due to the fact that the platform was not intuitive enough, and taking in consideration all the situation of a construction site. Thus, the project had to be re-started. Falon has an internal expertise regarding construction project, as one of the lead managers has 10+ years of experience in managing very big construction projects. Thanks to this double expertise (Construction / IT), it was possible to create mockups which were simple enough, intuitive, and generic to consider all the thousands of possible scenarios while using the platform."
         // overlap
         TopImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design1.png`}
         MidImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_design2.png`}
@@ -102,7 +103,7 @@ export default function Orgaplan() {
       />
 
       <DetailTheme
-        // desp
+        desp="The color theme was imposed by the client, due to its already existing digital identity. Based on this requirement, Falcon developed the mockups."
         // centerImage
         overlap
         // src
@@ -130,7 +131,7 @@ export default function Orgaplan() {
       <DetailAppDev
         website
         title="WEB DEVELOPMENT"
-        // desp
+        desp="Ideally, the client would have liked the whole project to be developed within 4 months. As the Design and Development processes were going, the team figured out that the initial specs were incomplete and were not covering the whole need of the platform. Thus, it was decided that the project would be done under 6 months. This was still a challenged timeline for such a project (+140 screens in total, 6 user interfaces, web and mobile application, …), so Falcon did scale the team from 3 to 6 developers. The development was realized in module, and starting with the Super admin interface. At the end of each module, a meeting was planned with the client to review and adjust the requirement, as needed. One of the features was to allow the users to delineate areas in a construction layout, by drawing a colored shape. This was possible by using the Canvas API, and this created a nice user experience (the alternate solution would have been to upload the construction layout with pre-existing delineation done). The real challenge was to code the platform generically, so that it could adapt to all thousands of potential scenarios, and provide the right response. This was possible as the database infrastructure was realized by one of the Falcon Lead developers. The project was finally completed within 6 months, and launched in big construction sites. Falcon realized the last mile for the project, completing a lot of contractually unclear features, without any additional cost."
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_webdesign.png`}
         titleTheme="#282828"
         // halfImg=(src Required)

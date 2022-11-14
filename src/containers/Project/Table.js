@@ -46,7 +46,7 @@ export default function Table() {
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_header.png`}
         title="@Table"
         subTitle="@Table"
-        description="MediaPipe offers cross-platform, customizable ML solutions for live and streaming media"
+        description="MediaPipe offers cross-platform, customizable ML solutions for live and streaming media."
       />
       <DetailOverview
         // desp

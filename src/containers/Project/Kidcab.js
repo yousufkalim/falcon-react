@@ -46,7 +46,7 @@ export default function Kidcab() {
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabHeader.png`}
         title="KidCab."
         subTitle="KidCab"
-        description="Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location. For our partner, we developed two mobile application and a Ride Management web application."
+        description="Kidcab is a mobile application aiming to help parents find drivers for their children’s activities, and safely monitor their location."
       />
       <DetailOverview
         // desp
