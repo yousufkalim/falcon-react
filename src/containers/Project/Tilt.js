@@ -46,7 +46,7 @@ export default function Tilt() {
         title="Tilt"
         subTitle="Tilt"
         // iconTheme="#9D3C64"
-        description="Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique. This smart concept allows each customer to save on the delivery fees, as they are shared among everyone passing an order."
+        description="Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique."
       />
       <DetailOverview
         titleTheme="#282828"

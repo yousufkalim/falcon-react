@@ -45,7 +45,7 @@ export default function Permispop() {
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/pp_header.png`}
         title="Permispop."
         subTitle="Permispop"
-        description="Permispop is a web platform connecting students, independent driving teachers, and driving schools. Each type of user has a dedicated interface, allowing them to manage their activities efficiently."
+        description="Permispop is a web platform connecting students, independent driving teachers, and driving schools."
       />
 
       <DetailOverview
@@ -69,6 +69,7 @@ export default function Permispop() {
       />
       <DetailDesign
         grids
+        desp="PermisPop is a project which started in 2019, and which is evolving with time. The first version of the platform was focusing on proving the product-market-fit, and was not having a modern design at all. The UX was also basic. Falcon’s team worked on a whole redesign of the platform, to make it more attractive for the users."
         src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
         src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
         src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_4.png`}
@@ -79,6 +80,7 @@ export default function Permispop() {
       />
       <DetailTheme
         centerImage
+        desp="The goal was to have a refined design, which is why the platform is mainly white, and using logo colors are the secondary ones."
         // fullscreen
         Theme1="#FFA333"
         Theme2="#11A283"
@@ -92,6 +94,7 @@ export default function Permispop() {
       <DetailAppDev
         application
         halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_appdev_new.png`}
+        desp="The project has been developed based on several sprints, and versions of the application. The first version of the application was a web app, and afterwards, a mobile application (android and iOS) has been developed. The stacks of the project are : ReactJS / ASP.NET Core / React Native. The project development team did change over the time as there has been few months without development activities between each version of the project. Thus, Falcon had to make sure the documentation of the project, as well as the code, where well written to allow an easy handover of the project throughout the different teams. The challenging aspect of the project was the high number of features, spread among the different types of users. Unit testing was necessary to make sure to have a durable code."
       />
       <DetailWebDev
         // titleTheme

@@ -44,11 +44,13 @@ export default function Telehealth() {
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/telehealth_header.png`}
         title="Telehealth Platform"
         subTitle="Telehealth Platform"
-        description="Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. "
+        description={t(
+          'Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely.'
+        )}
       />
       <DetailOverview
         // desp
-        desp="French based mobile application to analyze patient’s movement developed on ReactJS/NodeJS and Mediapipe technology. The MVP was successfully completed within 3 months."
+        desp="The health startup, based in Chicago and specialized in remote consultation, worked with several agencies in order to realize their project. Not satisfied by the previous results, they reached out to Falcon, who realized a project MVP to prove the technical feasibility of this cutting-edge project, and allowing the client to raise money for the development of the complete platform. The platform is developed in Web and mobile application."
         // location
         titleTheme="#FBA622"
         // AvatarSrc={Kidcab_Avatar}
@@ -70,7 +72,7 @@ export default function Telehealth() {
 
       <DetailDemo
         // to='https://screnr-ui.web.app/'
-        desp="Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. The patient is filmed performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc...). The program then analyzes the data based on internal rules and deduces whether the movements are abnormal or not.The detection of the movements is done with the help of a Media pipe and requires advanced knowledge in terms of image processing to ensure fluidity and accuracy of the final results."
+        desp="Telehealth platform (project name is confidential) is a US web and mobile application which allows physiotherapists to analyze the movements of their patients remotely. The patient is recorded through his own phone, performing different types of exercises, and the tool detects and calculates the angles of the patient body (such as his legs, arms, foot, waist, etc...). The program then analyzes the data based on internal rules and indicates whether the movements are abnormal or not. The detection of the movements is done with the help of a Media pipe, ARKit and ARCore, and requires advanced knowledge in terms of image processing to ensure fluidity and accuracy of the final results. The health experts can also create custom-made motion exercises by using the exercise generator feature of the platform. This is a complex and cutting-edge technology which allows to define automatically the internal rules of the exercises generated (allowing to know when a patient is correctly realizing the movements or not)."
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
@@ -83,6 +85,7 @@ export default function Telehealth() {
       <DetailDesign
         titleTheme="#454238"
         title="UI DESIGN"
+        desp="Based on client requirement, Falcon did a simple and modern UI/UX mockups, which got validated and realized in the first half of 2022. After the confirmation of the product-market fit, the client asked Falcon to create the complete platform, based on its requirement. Falcon’s UI/UX team worked on defining project workflow and mockups, with the use of Figma. After several weekly meetings allowing to confirm all the assumptions, the mockups got validated within 5 weeks."
         // overlap
         // TopImg={Tele_Design1}
         // MidImg={Tele_Design2}

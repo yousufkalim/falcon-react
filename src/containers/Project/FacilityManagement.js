@@ -45,7 +45,7 @@ export default function FacilityManagement() {
         title="Facility Management"
         subTitle="Facility Management"
         // iconTheme="#9D3C64"
-        description="This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user."
+        description="This is the platform for management of office building."
       />
       <DetailOverview
         titleTheme="#282828"
@@ -71,6 +71,7 @@ export default function FacilityManagement() {
       <DetailDemo
         to="https://facilitymanagement-demo.web.app/"
         // desp
+        desp="This is the platform for management of office building. It is similar to Trello-like Dashboard, showing the tickets and their status. here is one module in this project is Ticket management system which needs to be create and manage tickets. A Ticket management system is a module where there are two types of users : admin user / Employee user."
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv

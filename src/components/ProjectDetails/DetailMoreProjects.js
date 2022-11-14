@@ -31,7 +31,7 @@ export default function DetailMoreProjects(props) {
       <div>
         <div className="DetailMoreProjects_SectionHeaderDiv">
           <h2 className="DetailMoreProjects_SectionHeader_H1">
-            {t('a project offers a challenge')}
+            {t('EACH PROJECT IS A NEW OPPORTUNITY')}
           </h2>
           <Divider className="DetailMoreProjects_SectionHeader_Divider" />
           <h1 className="DetailMoreProjects_SectionHeader_H2">{t('More Projects')}</h1>
@@ -42,7 +42,7 @@ export default function DetailMoreProjects(props) {
           menuRoute === '/ourprojects/quadrabase' ||
           menuRoute === '/ourprojects/orgaplan' ? (
             <Grid container spacing={1} className="DetailMoreProjects_ContainerGrid">
-              {ConstructionType.map(item => {
+              {EducationType.map(item => {
                 return (
                   <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
                     <MoreProjectCards
@@ -62,7 +62,7 @@ export default function DetailMoreProjects(props) {
           menuRoute === '/ourprojects/orientator' ||
           menuRoute === '/ourprojects/permispop' ? (
             <Grid container spacing={1} className="DetailMoreProjects_ContainerGrid">
-              {EducationType.map(item => {
+              {ConstructionType.map(item => {
                 return (
                   <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
                     <MoreProjectCards
@@ -82,7 +82,7 @@ export default function DetailMoreProjects(props) {
           menuRoute === '/ourprojects/facilitymanagement' ||
           menuRoute === '/ourprojects/excellence' ? (
             <Grid container spacing={1} className="DetailMoreProjects_ContainerGrid">
-              {HumanResourcesType.map(item => {
+              {FoodType.map(item => {
                 return (
                   <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
                     <MoreProjectCards
@@ -100,7 +100,7 @@ export default function DetailMoreProjects(props) {
           )}
           {menuRoute === '/ourprojects/tilt' || menuRoute === '/ourprojects/table' ? (
             <Grid container spacing={1} className="DetailMoreProjects_ContainerGrid">
-              {FoodType.map(item => {
+              {HumanResourcesType.map(item => {
                 return (
                   <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
                     <MoreProjectCards
@@ -118,7 +118,7 @@ export default function DetailMoreProjects(props) {
           )}
           {menuRoute === '/ourprojects/yuwway' || menuRoute === '/ourprojects/kidcab' ? (
             <Grid container spacing={1} className="DetailMoreProjects_ContainerGrid">
-              {TransportType.map(item => {
+              {FashionType.map(item => {
                 return (
                   <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
                     <MoreProjectCards
@@ -136,7 +136,7 @@ export default function DetailMoreProjects(props) {
           )}
           {menuRoute === '/ourprojects/designconfection' ? (
             <Grid container spacing={1} className="DetailMoreProjects_ContainerGrid">
-              {FashionType.map(item => {
+              {TransportType.map(item => {
                 return (
                   <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
                     <MoreProjectCards
@@ -154,7 +154,7 @@ export default function DetailMoreProjects(props) {
           )}
           {menuRoute === '/ourprojects/zypzap' || menuRoute === '/ourprojects/ezbox' ? (
             <Grid container spacing={1} className="DetailMoreProjects_ContainerGrid">
-              {GamingType.map(item => {
+              {BusinessType.map(item => {
                 return (
                   <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
                     <MoreProjectCards
@@ -173,7 +173,7 @@ export default function DetailMoreProjects(props) {
           {menuRoute === '/ourprojects/telehealthplatform' ||
           menuRoute === '/ourprojects/sindoor' ? (
             <Grid container spacing={1} className="DetailMoreProjects_ContainerGrid">
-              {BusinessType.map(item => {
+              {GamingType.map(item => {
                 return (
                   <Grid sm={10} md={3.5} className="DetailMoreProjects_Grid">
                     <MoreProjectCards
