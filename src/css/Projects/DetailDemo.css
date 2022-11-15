@@ -47,11 +47,12 @@
   width: 60%;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   position: relative;
 }
 .DetailDemo_RoundDiv {
   width: 60%;
-  height: 550px;
+  height: 100%;
   border-radius: 275px 0 0 275px;
 }
 .DetailDemo_SquareDiv {
@@ -59,25 +60,30 @@
   /* height: 550px; */
   height: 100%;
 }
-
+.DetailDemo_ImgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .DetailDemo_Img {
   position: absolute;
   width: 50%;
   left: 20%;
-  top: 10%;
 }
 
 @media only screen and (max-width: 1700px) {
   .DetailDemo_RoundDiv {
-    height: 450px;
+    /* height: 450px; */
+    height: 80%;
+
     border-radius: 225px 0 0 225px;
   }
   .DetailDemo_SquareDiv {
     height: 100%;
   }
-  .DetailDemo_Img {
+  /* .DetailDemo_Img {
     top: 20%;
-  }
+  } */
 }
 @media only screen and (max-width: 1400px) {
   .DetailDemo_Desp {
@@ -86,12 +92,13 @@
   }
   .DetailDemo_Img {
     width: 60%;
-    top: 30%;
+    /* top: 30%; */
   }
 }
 @media only screen and (max-width: 1200px) {
   .DetailDemo_RoundDiv {
-    height: 400px;
+    /* height: 400px; */
+    height: 60%;
     border-radius: 200px 0 0 200px;
   }
   /* .DetailDemo_SquareDiv {
@@ -107,7 +114,9 @@
 @media only screen and (max-width: 1024px) {
   .DetailDemo_RoundDiv {
     width: 70%;
-    height: 350px;
+    height: 70%;
+
+    /* height: 350px; */
     border-radius: 175px 0 0 175px;
   }
   /* .DetailDemo_SquareDiv {
@@ -137,7 +146,8 @@
   }
   .DetailDemo_Img {
     width: 70%;
-    top: 12%;
+    left: 7%;
+    /* top: 12%; */
   }
   .DetailDemo_MainDiv {
     justify-content: space-between;
@@ -173,7 +183,7 @@
   }
   .DetailDemo_Img {
     width: 85%;
-    top: 12%;
+    /* top: 12%; */
   }
 }
 /* @media only screen and (max-width: 600px) {
