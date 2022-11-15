@@ -58,6 +58,7 @@
 }
 .DetailDemo_SquareDiv {
   width: 60%;
+  min-height: 450px;
   /* height: 550px; */
   height: 100%;
 }
@@ -146,7 +147,9 @@
     border-radius: 150px 0 0 150px;
   }
   .DetailDemo_SquareDiv {
-    height: 300px;
+    min-height: 300px;
+
+    max-height: 300px;
   }
   .DetailDemo_Img {
     width: 70%;
