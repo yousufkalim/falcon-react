@@ -9,6 +9,7 @@ import DetailService from '../../components/ProjectDetails/DetailService';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
 import DetailDesign from '../../components/ProjectDetails/DetailDesign';
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
@@ -123,13 +124,14 @@ export default function Telehealth() {
         // src={KidCab_Theme}
       />
       {/* <DetailLogo theme="#454238" src={EZbox_Logo} /> */}
-      {/* <DetailAppDev
-        title="WEB DESIGN"
-        // desp
-        halfImg={EZbox_WebDesign}
+      <DetailAppDev
+        website
+        title="WEB DEVELOPMENT"
+        desp="The global platform has 5 levels of users, in addition to the super admin. It is available in both web and mobile application, using mainly MERN stacks (React / Node / MongoDB), but also Flutter for mobile apps, for its compatibility with some external features. As this project involves some movement detection aspect, Falcon is working with Mediapipe, ARCore and ARKit technologies, making sure the platform is operational on all types of devices. It is a challenging and cutting-edge project, requiring a lot of R&D which is realized by Falcon’s Lead Developer. The startup has its internal CTO, who is overviewing the overall development of the platform, exclusively done by Falcon developers.The project team is composed of a Lead Developer, a back-end developer, a web front-end developer, and a mobile developer. They are working together with a Project Manager, and a Quality tester as required, and reporting to the CTO from the startup. During the development, a lot of angle calculation were necessary, considering several scenarios, in order to provide the right feedback to health provider. The team also had to be skilled in Video processing, needing to consider the capabilities of both Android and iOS devices, to get a smooth process, without lags, while getting enough data to provide the right feedback This is an ongoing project, where Falcon is developing additional features."
+        // halfImg={EZbox_WebDesign}
         titleTheme="#454238"
         // fullImg=(src Required)
-      /> */}
+      />
       <DetailFeedback
         // titleTheme
         // despTheme
