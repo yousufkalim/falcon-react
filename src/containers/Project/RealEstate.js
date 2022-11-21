@@ -46,7 +46,9 @@ export default function RealEstate() {
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_header.png`}
         title="Real Estate"
         subTitle="Real Estate"
-        description="The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan."
+        description={t(
+          'The goal is to allow investors to have transparency on investments they would be doing in real estate in Pakistan.'
+        )}
       />
       <DetailOverview
         // desp

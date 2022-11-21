@@ -45,7 +45,9 @@ export default function Sindoor() {
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_header.png`}
         title="Sindoor"
         subTitle="Sindoor"
-        description="Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding."
+        description={t(
+          'Marriage app connecting user and vendors Platform to connect  users with wedding vendors, The people who wanted to get married can easily find vendors for their wedding.'
+        )}
       />
       <DetailOverview
         // desp

@@ -46,7 +46,9 @@ export default function Wina() {
         title="Winaa"
         subTitle="Winaa"
         // iconTheme="#9D3C64"
-        description="Winaa is a job board, in the shape of a mobile and web application, for connecting companies and apprentices."
+        description={t(
+          'Winaa is a job board, in the shape of a mobile and web application, for connecting companies and apprentices.'
+        )}
       />
       <DetailOverview
         titleTheme="#2A5AA6"

@@ -46,7 +46,9 @@ export default function EZbox() {
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_header.png`}
         title="EZbox Media"
         subTitle="EZbox Media"
-        description="EZBox media is a platform providing different services including Advertising Advertising by understanding how a user can react to the advertisement shown to them."
+        description={t(
+          'EZBox media is a platform providing different services including Advertising Advertising by understanding how a user can react to the advertisement shown to them.'
+        )}
       />
       <DetailOverview
         // desp

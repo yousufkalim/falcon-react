@@ -46,7 +46,9 @@ export default function Orgaplan() {
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_header.png`}
         title="OrgaPlan"
         subTitle="OrgaPlan"
-        description="Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...)."
+        description={t(
+          'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...).'
+        )}
       />
       <DetailOverview
         desp="Orgaplan is a Logistics management web and mobile application developed for the French Construction market. Its technology stacks are React for the front end and Node JS for the backend. This project was delivered in just 6 months, which was possible by scaling the team from 2 to up to 8 developers."

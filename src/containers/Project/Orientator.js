@@ -49,7 +49,9 @@ export default function Orientator() {
         title="Orientator"
         subTitle="Orientator"
         // iconTheme="#9D3C64"
-        description="Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire."
+        description={t(
+          'Orientator is a web application that allows high school students to make their best career choice, after filling out an online and customized questionnaire.'
+        )}
       />
       <DetailOverview
         titleTheme="#FF29AA"

@@ -46,7 +46,9 @@ export default function Yuwway() {
         title="Yuwway"
         subTitle="Yuwway"
         // iconTheme="#9D3C64"
-        description="Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs."
+        description={t(
+          "Yuwway is a search engine that compares fares for all types of transport (Taxi/VTC/Moto-taxi, etc.) allowing, in a simple search, to access all the fares available and corresponding to the customer's needs."
+        )}
       />
       <DetailOverview
         titleTheme="#0073BB"
