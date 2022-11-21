@@ -45,7 +45,9 @@ export default function Excellence() {
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_header.png`}
         title="Excellence ERP"
         subTitle="Excellence ERP"
-        description="Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France."
+        description={t(
+          'Excellence Mode is a chain of ready-to-wear stores in France, with several dozen locations throughout France.'
+        )}
       />
       <DetailOverview
         // desp

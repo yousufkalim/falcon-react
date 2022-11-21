@@ -46,7 +46,9 @@ export default function Tilt() {
         title="Tilt"
         subTitle="Tilt"
         // iconTheme="#9D3C64"
-        description="Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique."
+        description={t(
+          'Web and mobile platform connecting restaurants, corporate customers and delivery drivers for bulked meal deliveries in Martinique.'
+        )}
       />
       <DetailOverview
         titleTheme="#282828"

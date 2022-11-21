@@ -46,7 +46,7 @@ export default function Fireman() {
         title="Firemen"
         subTitle="Fireman"
         // iconTheme="#9D3C64"
-        description="Fireman is the management and report generating system for fire fighters."
+        description={t('Fireman is the management and report generating system for fire fighters.')}
       />
       <DetailOverview
         titleTheme="#282828"

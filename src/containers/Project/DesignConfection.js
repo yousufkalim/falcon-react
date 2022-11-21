@@ -54,7 +54,9 @@ export default function DesignConfection() {
           HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_DC_header.png`}
           title="Design Confection."
           subTitle="Design Confection"
-          description="A web app designed to help customers with customized stitching to receive your creation at your home."
+          description={t(
+            'A web app designed to help customers with customized stitching to receive your creation at your home.'
+          )}
         />
         <DetailOverview
           // desp

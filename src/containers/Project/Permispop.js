@@ -45,7 +45,9 @@ export default function Permispop() {
         HeaderImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/pp_header.png`}
         title="Permispop."
         subTitle="Permispop"
-        description="Permispop is a web platform connecting students, independent driving teachers, and driving schools."
+        description={t(
+          'Permispop is a web platform connecting students, independent driving teachers, and driving schools.'
+        )}
       />
 
       <DetailOverview

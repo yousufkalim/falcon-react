@@ -45,7 +45,7 @@ export default function FacilityManagement() {
         title="Facility Management"
         subTitle="Facility Management"
         // iconTheme="#9D3C64"
-        description="This is the platform for management of office building."
+        description={t('This is the platform for management of office building.')}
       />
       <DetailOverview
         titleTheme="#282828"
