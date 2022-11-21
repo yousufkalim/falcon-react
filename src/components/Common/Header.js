@@ -3,7 +3,7 @@ import React from 'react';
 import { Grid } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import Button from '@mui/material/Button';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import Twitter from '../../assets/images/twitter.svg';
 import Instagram from '../../assets/images/instagram.svg';

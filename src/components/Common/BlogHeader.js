@@ -7,21 +7,25 @@ import { toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 import BackToTop from '../../assets/images/btp.svg';
 import { useScrollPosition } from '../../utils/ScrollPosition';
+import BackTopEnglish from '../../assets/images/btp.svg';
+import BackTopFrench from '../../assets/images/scrolltop_french.svg';
 // Importing Components
 
 // Home Component
 export default function BlogHeader(props) {
-  const { t } = useTranslation();
+  const { i18n, t } = useTranslation();
   let position = useScrollPosition();
   var rootElement = document.documentElement;
+  const { language } = i18n;
+
   function scrollToTop() {
     // Scroll to top logic
     rootElement.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: 'smooth'
     });
   }
-  const sendEmail = (e) => {
+  const sendEmail = e => {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
     let regex = /[^\s@]+@[^\s@]+\.[^\s@]+/;
@@ -36,20 +40,20 @@ export default function BlogHeader(props) {
           ? emailjs
               .sendForm('service_9tq9fqk', 'template_yc206p5', e.target, 'tMMbs5Pn0amH90Aml')
               .then(
-                (result) => {
+                result => {
                   return result;
                 },
-                (error) => {
+                error => {
                   return error;
                 }
               )
           : emailjs
               .sendForm('service_9tq9fqk', 'template_lmpx1v8', e.target, 'tMMbs5Pn0amH90Aml')
               .then(
-                (result) => {
+                result => {
                   return result;
                 },
-                (error) => {
+                error => {
                   return error;
                 }
               );
@@ -65,41 +69,37 @@ export default function BlogHeader(props) {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className='BlogHeaderMain'
-      >
+        className="BlogHeaderMain">
         <h1
-          className='BlogHeaderTypo'
-          style={{ color: '#263238', fontSize: '1.7rem', fontWeight: '800' }}
-        >
+          className="BlogHeaderTypo"
+          style={{ color: '#263238', fontSize: '1.7rem', fontWeight: '800' }}>
           FALCON <span style={{ color: '#0F52BA' }}>BLOG</span>
         </h1>
         <Typography
-          className='BlogHeaderTypo'
+          className="BlogHeaderTypo"
           sx={{
             color: '#263238',
             fontSize: '1.1rem',
             fontWeight: '500',
             width: '35%',
-            margin: '.5% 0%',
-          }}
-        >
+            margin: '.5% 0%'
+          }}>
           {t('Always looking into improving ourselves.')}
         </Typography>
         <Typography
-          className='BlogHeaderTypo'
+          className="BlogHeaderTypo"
           sx={{
             color: '#263238',
             fontSize: '1rem',
             fontWeight: '400',
-            width: '30%',
-          }}
-        >
+            width: '30%'
+          }}>
           {t(
             'The articles written below by our team reflect our values and expertize when it comes to collaborating in mid-size and big projects.'
           )}
         </Typography>
         <div
-          className='BlogHeaderInput'
+          className="BlogHeaderInput"
           style={{
             width: '40%',
             border: '1px solid rgb(235, 233, 233)',
@@ -107,49 +107,66 @@ export default function BlogHeader(props) {
             borderRadius: '35px',
             display: 'flex',
             height: '12%',
-            marginTop: '1%',
-          }}
-        >
+            marginTop: '1%'
+          }}>
           <form
-            autocomplete='off'
+            autocomplete="off"
             style={{
               width: '100%',
-              display: 'flex',
+              display: 'flex'
             }}
-            onSubmit={sendEmail}
-          >
+            onSubmit={sendEmail}>
             <input
               // autocomplete='false'
-              name='email'
+              name="email"
               style={{
                 width: '100%',
                 border: 'none',
                 borderRadius: '35px',
                 paddingLeft: '5%',
-                fontSize: '1rem',
+                fontSize: '1rem'
               }}
               placeholder={t('Your Email')}
             />
-            <button type='submit' className='BlogHeader_Btn'>
+            <button type="submit" className="BlogHeader_Btn">
               {t('SUBSCRIBE')}
             </button>
           </form>
         </div>
       </motion.div>
-      {props.ScrollTop && (
+      {/* {props.ScrollTop && (
         <div
-          className='scrollToTopDiv'
+          className="scrollToTopDiv"
           style={{
-            display: position <= 700 ? 'none' : 'flex',
-          }}
-        >
-          <img className='scrollToTopText' src={BackToTop} alt='text'/>
-          <div className='scrollToTopDivider'></div>
+            display: position <= 700 ? 'none' : 'flex'
+          }}>
+          <img className="scrollToTopText" src={BackToTop} alt="text" />
+          <div className="scrollToTopDivider"></div>
           <img
-            className='scrollToTopIcon'
+            className="scrollToTopIcon"
             onClick={scrollToTop}
             src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/top_btn.svg`}
-            alt='top'
+            alt="top"
+          />
+        </div>
+      )} */}
+      {props.ScrollTop && (
+        <div
+          className={language === 'fr' ? 'scrollToTopFr' : 'scrollToTopDiv'}
+          style={{
+            display: position <= 700 ? 'none' : 'flex'
+          }}>
+          <img
+            className={language === 'fr' ? 'scrollToTopTextFr' : 'scrollToTopText'}
+            src={language === 'fr' ? BackTopFrench : BackTopEnglish}
+            alt="Change Language"
+          />
+          <div className="scrollToTopDivider"></div>
+          <img
+            className="scrollToTopIcon"
+            onClick={scrollToTop}
+            src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/top_btn.svg`}
+            alt="top"
           />
         </div>
       )}

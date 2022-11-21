@@ -6,16 +6,20 @@ import emailjs from 'emailjs-com';
 import validate from 'validate.js';
 import BackToTop from '../../assets/images/btp.svg';
 import { useScrollPosition } from '../../utils/ScrollPosition';
+import BackTopEnglish from '../../assets/images/btp.svg';
+import BackTopFrench from '../../assets/images/scrolltop_french.svg';
 
 export default function ContactSection(props) {
-  const { t } = useTranslation();
+  const { i18n, t } = useTranslation();
   let position = useScrollPosition();
   var rootElement = document.documentElement;
+  const { language } = i18n;
+
   function scrollToTop() {
     // Scroll to top logic
     rootElement.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: 'smooth'
     });
   }
   const [val, setVal] = useState('');
@@ -32,20 +36,20 @@ export default function ContactSection(props) {
       phone: '',
       company: '',
       email: '',
-      message: '',
+      message: ''
     },
     touched: {},
-    errors: {},
+    errors: {}
   });
   const schema = {
     name: {
       presence: { allowEmpty: false, message: 'is required' },
       // message: 'must start with 0',
       length: {
-        minimum: 3,
+        minimum: 3
         // message: 'must be atleast 3 characters long',
         // maximum: 40,
-      },
+      }
     },
 
     phone: {
@@ -53,32 +57,32 @@ export default function ContactSection(props) {
       length: {
         minimum: 10,
 
-        message: 'number must be atleast 10 digits long',
-      },
+        message: 'number must be atleast 10 digits long'
+      }
     },
     company: {
       presence: { allowEmpty: false, message: 'is required' },
       length: {
-        maximum: 60,
-      },
+        maximum: 60
+      }
     },
     email: {
       presence: { allowEmpty: false, message: 'is required' },
       email: {
         attribute: 'true',
-        message: 'must be in this format (name@domain.com)',
+        message: 'must be in this format (name@domain.com)'
       },
 
       length: {
-        maximum: 60,
-      },
+        maximum: 60
+      }
     },
     message: {
       presence: { allowEmpty: false, message: 'is required' },
       length: {
-        maximum: 1000,
-      },
-    },
+        maximum: 1000
+      }
+    }
   };
 
   useEffect(() => {
@@ -102,10 +106,10 @@ export default function ContactSection(props) {
     textAreaMobRef.current.style.height = textAreaMobRef.current.scrollHeight + 'px';
   };
 
-  const onChange = (e) => {
+  const onChange = e => {
     setCheckCaptch(true);
   };
-  const onError = (e) => {
+  const onError = e => {
     setCheckCaptch(false);
   };
 
@@ -117,37 +121,37 @@ export default function ContactSection(props) {
         phone: '',
         company: '',
         email: '',
-        message: '',
+        message: ''
       },
       touched: {},
-      errors: {},
+      errors: {}
     });
     setCheckCaptch(false);
   };
 
-  const sendEmail = (e) => {
+  const sendEmail = e => {
     e.preventDefault();
     {
       localStorage.getItem('i18nextLng') === 'fr'
         ? emailjs
             .sendForm('service_9tq9fqk', 'template_yc206p5', e.target, 'tMMbs5Pn0amH90Aml')
             .then(
-              (result) => {
+              result => {
                 resetForm();
                 return result;
               },
-              (error) => {
+              error => {
                 return error;
               }
             )
         : emailjs
             .sendForm('service_9tq9fqk', 'template_lmpx1v8', e.target, 'tMMbs5Pn0amH90Aml')
             .then(
-              (result) => {
+              result => {
                 resetForm();
                 return result;
               },
-              (error) => {
+              error => {
                 return error;
               }
             );
@@ -158,54 +162,54 @@ export default function ContactSection(props) {
     resetForm();
   };
 
-  const handleChange = (event) => {
-    setFormState((formState) => ({
+  const handleChange = event => {
+    setFormState(formState => ({
       ...formState,
       values: {
         ...formState.values,
-        [event.target.name]: event.target.value,
-      },
+        [event.target.name]: event.target.value
+      }
     }));
   };
 
-  const blurHandler = (e) => {
+  const blurHandler = e => {
     e.preventDefault();
     setActiveName('');
     const errors = validate(formState.values, schema);
-    setFormState((formState) => ({
+    setFormState(formState => ({
       ...formState,
       isValid: errors ? false : true,
       touched: {
         ...formState.touched,
-        [e.target.name]: true,
+        [e.target.name]: true
       },
-      errors: errors || {},
+      errors: errors || {}
     }));
   };
 
-  const hasError = (field) => (formState.touched[field] && formState.errors[field] ? true : false);
+  const hasError = field => (formState.touched[field] && formState.errors[field] ? true : false);
 
   return (
     <>
-      <div className='New_ContactSection_Container'>
+      <div className="New_ContactSection_Container">
         {showForm ? (
-          <div className='New_ContactSection_MainDiv'>
-            <div className='New_ContactSection_HeaderDiv'>
-              <div className='New_ContactSection_TitleDiv'>
-                <Divider className='New_ContactSection_TitleDivider' />
-                <h2 className='New_ContactSection_Title'>{t('Contact Us')}</h2>
+          <div className="New_ContactSection_MainDiv">
+            <div className="New_ContactSection_HeaderDiv">
+              <div className="New_ContactSection_TitleDiv">
+                <Divider className="New_ContactSection_TitleDivider" />
+                <h2 className="New_ContactSection_Title">{t('Contact Us')}</h2>
               </div>
-              <p className='New_ContactSection_Desp'>
+              <p className="New_ContactSection_Desp">
                 {t('Our Team Member will get back to you within 24 hours.')}
               </p>
             </div>
 
             <form onSubmit={sendEmail}>
-              <div className='New_ContactSection_FormDiv'>
-                <div className='New_ContactSection_LeftForm'>
-                  <div className='New_ContactSection_InputDiv' style={{ position: 'relative' }}>
+              <div className="New_ContactSection_FormDiv">
+                <div className="New_ContactSection_LeftForm">
+                  <div className="New_ContactSection_InputDiv" style={{ position: 'relative' }}>
                     <label
-                      className='New_ContactSection_Label'
+                      className="New_ContactSection_Label"
                       style={{
                         color:
                           activeName === 'name'
@@ -214,19 +218,18 @@ export default function ContactSection(props) {
                             ? '#f8f8f8'
                             : hasError('name')
                             ? '#FF603D'
-                            : '#7C99BB',
-                      }}
-                    >
+                            : '#7C99BB'
+                      }}>
                       {t('My name is')}
                     </label>
                     <input
                       // autoComplete='off'
-                      maxLength='64'
-                      name='name'
+                      maxLength="64"
+                      name="name"
                       onChange={handleChange}
-                      onBlur={(e) => blurHandler(e)}
-                      onFocus={(e) => setActiveName(e.target.name)}
-                      className='New_ContactSection_Input'
+                      onBlur={e => blurHandler(e)}
+                      onFocus={e => setActiveName(e.target.name)}
+                      className="New_ContactSection_Input"
                       value={formState.values.name}
                       style={{
                         borderBottom:
@@ -235,7 +238,7 @@ export default function ContactSection(props) {
                             : hasError('name')
                             ? '1px solid #FF603D'
                             : '1px solid #7c99bb',
-                        marginBottom: '1%',
+                        marginBottom: '1%'
                       }}
                       placeholder={t('Your name')}
                     />
@@ -246,16 +249,15 @@ export default function ContactSection(props) {
                           position: 'absolute',
                           bottom: '0',
                           right: '0',
-                          color: '#FF603D',
-                        }}
-                      >
+                          color: '#FF603D'
+                        }}>
                         {t(formState.errors.name[0])}
                       </div>
                     )}
                   </div>
-                  <div className='New_ContactSection_InputDiv' style={{ position: 'relative' }}>
+                  <div className="New_ContactSection_InputDiv" style={{ position: 'relative' }}>
                     <label
-                      className='New_ContactSection_Label'
+                      className="New_ContactSection_Label"
                       style={{
                         color:
                           activeName === 'phone'
@@ -264,16 +266,15 @@ export default function ContactSection(props) {
                             ? '#f8f8f8'
                             : hasError('phone')
                             ? '#FF603D'
-                            : '#7C99BB',
-                      }}
-                    >
+                            : '#7C99BB'
+                      }}>
                       {t('My phone number is')}
                     </label>
                     <input
-                      name='phone'
+                      name="phone"
                       value={formState.values.phone}
-                      maxLength='13'
-                      onChange={(e) => {
+                      maxLength="13"
+                      onChange={e => {
                         // check input using regex
                         var regex = RegExp(/^\d+$/);
                         const test_Result = regex.test(e.target.value);
@@ -281,9 +282,9 @@ export default function ContactSection(props) {
                           handleChange(e);
                         }
                       }}
-                      onBlur={(e) => blurHandler(e)}
-                      onFocus={(e) => setActiveName(e.target.name)}
-                      className='New_ContactSection_Input'
+                      onBlur={e => blurHandler(e)}
+                      onFocus={e => setActiveName(e.target.name)}
+                      className="New_ContactSection_Input"
                       style={{
                         borderBottom:
                           activeName === 'phone'
@@ -291,7 +292,7 @@ export default function ContactSection(props) {
                             : hasError('phone')
                             ? '1px solid #FF603D'
                             : '1px solid #7c99bb',
-                        marginBottom: '1%',
+                        marginBottom: '1%'
                       }}
                       placeholder={t('Your phone number')}
                     />
@@ -301,16 +302,15 @@ export default function ContactSection(props) {
                           position: 'absolute',
                           bottom: '0',
                           right: '0',
-                          color: '#FF603D',
-                        }}
-                      >
+                          color: '#FF603D'
+                        }}>
                         {t(formState.errors.phone[0])}
                       </div>
                     )}
                   </div>
-                  <div className='New_ContactSection_InputDiv'>
+                  <div className="New_ContactSection_InputDiv">
                     <label
-                      className='New_ContactSection_Label'
+                      className="New_ContactSection_Label"
                       style={{
                         color:
                           activeName === 'company'
@@ -319,19 +319,18 @@ export default function ContactSection(props) {
                             ? '#f8f8f8'
                             : hasError('company')
                             ? '#FF603D'
-                            : '#7C99BB',
-                      }}
-                    >
+                            : '#7C99BB'
+                      }}>
                       {t('I work at')}
                     </label>
                     <input
-                      name='company'
-                      maxLength='60'
+                      name="company"
+                      maxLength="60"
                       value={formState.values.company}
                       onChange={handleChange}
-                      onBlur={(e) => blurHandler(e)}
-                      onFocus={(e) => setActiveName(e.target.name)}
-                      className='New_ContactSection_Input'
+                      onBlur={e => blurHandler(e)}
+                      onFocus={e => setActiveName(e.target.name)}
+                      className="New_ContactSection_Input"
                       style={{
                         borderBottom:
                           activeName === 'company'
@@ -339,7 +338,7 @@ export default function ContactSection(props) {
                             : hasError('company')
                             ? '1px solid #FF603D'
                             : '1px solid #7c99bb',
-                        marginBottom: '1%',
+                        marginBottom: '1%'
                       }}
                       placeholder={t('Your company')}
                     />
@@ -349,16 +348,15 @@ export default function ContactSection(props) {
                           position: 'absolute',
                           bottom: '0',
                           right: '0',
-                          color: '#FF603D',
-                        }}
-                      >
+                          color: '#FF603D'
+                        }}>
                         {t(formState.errors.company[0])}
                       </div>
                     )}
                   </div>
-                  <div className='New_ContactSection_InputDiv'>
+                  <div className="New_ContactSection_InputDiv">
                     <label
-                      className='New_ContactSection_Label'
+                      className="New_ContactSection_Label"
                       style={{
                         color:
                           activeName === 'email'
@@ -367,19 +365,18 @@ export default function ContactSection(props) {
                             ? '#f8f8f8'
                             : hasError('email')
                             ? '#FF603D'
-                            : '#7C99BB',
-                      }}
-                    >
+                            : '#7C99BB'
+                      }}>
                       {t('Reach me at')}
                     </label>
                     <input
-                      maxLength='60'
-                      name='email'
+                      maxLength="60"
+                      name="email"
                       value={formState.values.email}
-                      onChange={(e) => handleChange(e)}
-                      onBlur={(e) => blurHandler(e)}
-                      onFocus={(e) => setActiveName(e.target.name)}
-                      className='New_ContactSection_Input'
+                      onChange={e => handleChange(e)}
+                      onBlur={e => blurHandler(e)}
+                      onFocus={e => setActiveName(e.target.name)}
+                      className="New_ContactSection_Input"
                       style={{
                         borderBottom:
                           activeName === 'email'
@@ -387,7 +384,7 @@ export default function ContactSection(props) {
                             : hasError('email')
                             ? '1px solid #FF603D'
                             : '1px solid #7c99bb',
-                        marginBottom: '1%',
+                        marginBottom: '1%'
                       }}
                       placeholder={t('name@email.com')}
                     />
@@ -397,16 +394,15 @@ export default function ContactSection(props) {
                           position: 'absolute',
                           bottom: '0',
                           right: '0',
-                          color: '#FF603D',
-                        }}
-                      >
+                          color: '#FF603D'
+                        }}>
                         {t(formState.errors.email[0])}
                       </div>
                     )}
                   </div>
-                  <div className='New_ContactSection_InputDiv contactTextarea_MobView'>
+                  <div className="New_ContactSection_InputDiv contactTextarea_MobView">
                     <label
-                      className='New_ContactSection_Label'
+                      className="New_ContactSection_Label"
                       style={{
                         color:
                           activeName === 'message'
@@ -415,20 +411,19 @@ export default function ContactSection(props) {
                             ? '#f8f8f8'
                             : hasError('message')
                             ? '#FF603D'
-                            : '#7C99BB',
-                      }}
-                    >
+                            : '#7C99BB'
+                      }}>
                       {t('Message')}
                     </label>
                     <textarea
-                      autoComplete='off'
-                      name='message'
-                      maxLength='1000'
+                      autoComplete="off"
+                      name="message"
+                      maxLength="1000"
                       value={formState.values.message}
-                      onChange={(e) => handleChange(e)}
-                      onBlur={(e) => blurHandler(e)}
-                      onFocus={(e) => setActiveName(e.target.name)}
-                      className='New_ContactSection_Textarea'
+                      onChange={e => handleChange(e)}
+                      onBlur={e => blurHandler(e)}
+                      onFocus={e => setActiveName(e.target.name)}
+                      className="New_ContactSection_Textarea"
                       style={{
                         borderBottom:
                           activeName === 'message'
@@ -436,7 +431,7 @@ export default function ContactSection(props) {
                             : hasError('message')
                             ? '1px solid #FF603D'
                             : '1px solid #7c99bb',
-                        marginBottom: '1%',
+                        marginBottom: '1%'
                       }}
                       placeholder={t('Start typing here...')}
                       ref={textAreaMobRef}
@@ -449,18 +444,17 @@ export default function ContactSection(props) {
                           position: 'absolute',
                           bottom: '0',
                           right: '0',
-                          color: '#FF603D',
-                        }}
-                      >
+                          color: '#FF603D'
+                        }}>
                         {t(formState.errors.message[0])}
                       </div>
                     )}
                   </div>
                 </div>
-                <div className='New_ContactSection_RightForm'>
-                  <div className='New_ContactSection_InputDiv'>
+                <div className="New_ContactSection_RightForm">
+                  <div className="New_ContactSection_InputDiv">
                     <label
-                      className='New_ContactSection_Label'
+                      className="New_ContactSection_Label"
                       style={{
                         color:
                           activeName === 'message'
@@ -469,20 +463,19 @@ export default function ContactSection(props) {
                             ? '#f8f8f8'
                             : hasError('message')
                             ? '#FF603D'
-                            : '#7C99BB',
-                      }}
-                    >
+                            : '#7C99BB'
+                      }}>
                       {t('Message')}
                     </label>
                     <textarea
-                      autoComplete='off'
-                      name='message'
-                      maxLength='1000'
+                      autoComplete="off"
+                      name="message"
+                      maxLength="1000"
                       value={formState.values.message}
-                      onChange={(e) => handleChange(e)}
-                      onBlur={(e) => blurHandler(e)}
-                      onFocus={(e) => setActiveName(e.target.name)}
-                      className='New_ContactSection_Textarea'
+                      onChange={e => handleChange(e)}
+                      onBlur={e => blurHandler(e)}
+                      onFocus={e => setActiveName(e.target.name)}
+                      className="New_ContactSection_Textarea"
                       style={{
                         borderBottom:
                           activeName === 'message'
@@ -490,7 +483,7 @@ export default function ContactSection(props) {
                             : hasError('message')
                             ? '1px solid #FF603D'
                             : '1px solid #7c99bb',
-                        marginBottom: '1%',
+                        marginBottom: '1%'
                       }}
                       placeholder={t('Start typing here...')}
                       ref={textAreaRef}
@@ -503,16 +496,15 @@ export default function ContactSection(props) {
                           position: 'absolute',
                           bottom: '0',
                           right: '0',
-                          color: '#FF603D',
-                        }}
-                      >
+                          color: '#FF603D'
+                        }}>
                         {t(formState.errors.message[0])}
                       </div>
                     )}
                   </div>
                 </div>
               </div>
-              <div className='ContactCaptcha'>
+              <div className="ContactCaptcha">
                 <ReCAPTCHA
                   sitekey={process.env.REACT_APP_GOOGLE_CAPTCHA_SITE_KEY}
                   onChange={onChange}
@@ -520,7 +512,7 @@ export default function ContactSection(props) {
                   onErrored={onError}
                 />
               </div>
-              <div className='New_ContactSection_ButtonDiv'>
+              <div className="New_ContactSection_ButtonDiv">
                 <button
                   disabled={formState.isValid && checkCaptch ? false : true}
                   className={
@@ -536,55 +528,54 @@ export default function ContactSection(props) {
                       ? '3px solid #7c99bb'
                       : !checkCaptch
                       ? '3px solid #7c99bb'
-                      : '3px solid #42C2FF ',
-                  }}
-                >
+                      : '3px solid #42C2FF '
+                  }}>
                   {showForm ? t('Submit') : t('Submit another')}
                 </button>
                 <h2 style={{ color: '#7C99BB', fontWeight: '800' }}>{t('or')}</h2>
-                <div className='New_ContactSection_LinksContainer'>
-                  <a href='mailto:contact@falconconsulting.fr' target='_blank'>
-                    <div className='SocialMediaDiv'>
+                <div className="New_ContactSection_LinksContainer">
+                  <a href="mailto:contact@falconconsulting.fr" target="_blank">
+                    <div className="SocialMediaDiv">
                       <img
-                        className='SocialMediaIcons'
+                        className="SocialMediaIcons"
                         style={{ width: '45%' }}
                         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/emailIcon.svg`}
-                        alt='email'
+                        alt="email"
                       />
-                      <div className='SocialMediaText'>
-                        <h2 id='contactHover'>{t('Email')}</h2>
-                        <div id='b'></div>
+                      <div className="SocialMediaText">
+                        <h2 id="contactHover">{t('Email')}</h2>
+                        <div id="b"></div>
                       </div>
                     </div>
                   </a>
-                  <Divider className='New_ContactSection_LinksDivider' orientation='vertical' />
+                  <Divider className="New_ContactSection_LinksDivider" orientation="vertical" />
                   {localStorage.getItem('i18nextLng') === 'fr' ? (
-                    <a href='https://calendly.com/falconconsulting' target='_blank'>
-                      <div className='SocialMediaDiv'>
+                    <a href="https://calendly.com/falconconsulting" target="_blank">
+                      <div className="SocialMediaDiv">
                         <img
-                          className='SocialMediaIcons'
+                          className="SocialMediaIcons"
                           style={{ width: '35%' }}
                           src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendlyIcon.svg`}
-                          alt='calendly'
+                          alt="calendly"
                         />
-                        <div className='SocialMediaText'>
-                          <h2 id='contactHover'>{t('Calendly')}</h2>
-                          <div id='b'></div>
+                        <div className="SocialMediaText">
+                          <h2 id="contactHover">{t('Calendly')}</h2>
+                          <div id="b"></div>
                         </div>
                       </div>
                     </a>
                   ) : (
-                    <a href='http://calendly.com/falconit' target='_blank'>
-                      <div className='SocialMediaDiv'>
+                    <a href="http://calendly.com/falconit" target="_blank">
+                      <div className="SocialMediaDiv">
                         <img
-                          className='SocialMediaIcons'
+                          className="SocialMediaIcons"
                           style={{ width: '35%' }}
                           src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendlyIcon.svg`}
-                          alt='calendly'
+                          alt="calendly"
                         />
-                        <div className='SocialMediaText'>
-                          <h2 id='contactHover'>{t('Calendly')}</h2>
-                          <div id='b'></div>
+                        <div className="SocialMediaText">
+                          <h2 id="contactHover">{t('Calendly')}</h2>
+                          <div id="b"></div>
                         </div>
                       </div>
                     </a>
@@ -594,71 +585,70 @@ export default function ContactSection(props) {
             </form>
           </div>
         ) : (
-          <div className='New_ContactSection_SuccessDiv'>
-            <div className='New_ContactSection_HeaderDiv'>
-              <div className='New_ContactSection_TitleDiv' style={{ marginBottom: '2%' }}>
-                <Divider className='New_ContactSection_TitleDivider' />
-                <h2 className='New_ContactSection_Title'>
+          <div className="New_ContactSection_SuccessDiv">
+            <div className="New_ContactSection_HeaderDiv">
+              <div className="New_ContactSection_TitleDiv" style={{ marginBottom: '2%' }}>
+                <Divider className="New_ContactSection_TitleDivider" />
+                <h2 className="New_ContactSection_Title">
                   {t('Thank you')}, {saveName}
                 </h2>
               </div>
-              <p className='New_ContactSection_Desp'>
+              <p className="New_ContactSection_Desp">
                 {t(
                   'Your message has been sent successfully. Our Team Member will get back to you within 24 hours.'
                 )}
               </p>
             </div>
-            <div className='New_ContactSection_ButtonDiv '>
+            <div className="New_ContactSection_ButtonDiv ">
               <button
                 onClick={() => setShowForm(true)}
-                className='New_ContactSection_ButtonSuccess'
-              >
+                className="New_ContactSection_ButtonSuccess">
                 {showForm ? t('Submit') : t('Submit another')}
               </button>
               <h2 style={{ color: '#7C99BB', fontWeight: '800' }}>or</h2>
-              <div className='New_ContactSection_SuccessLinksContainer'>
-                <a href='mailto:contact@falconconsulting.fr' target='_blank'>
-                  <div className='SocialMediaDiv'>
+              <div className="New_ContactSection_SuccessLinksContainer">
+                <a href="mailto:contact@falconconsulting.fr" target="_blank">
+                  <div className="SocialMediaDiv">
                     <img
-                      className='SocialMediaIcons'
+                      className="SocialMediaIcons"
                       style={{ width: '45%' }}
                       src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/emailIcon.svg`}
-                      alt='email'
+                      alt="email"
                     />
-                    <div className='SocialMediaText'>
-                      <h2 id='contactHover'>{t('Email')}</h2>
-                      <div id='b'></div>
+                    <div className="SocialMediaText">
+                      <h2 id="contactHover">{t('Email')}</h2>
+                      <div id="b"></div>
                     </div>
                   </div>
                 </a>
-                <Divider className='New_ContactSection_LinksDivider' orientation='vertical' />
+                <Divider className="New_ContactSection_LinksDivider" orientation="vertical" />
                 {localStorage.getItem('i18nextLng') === 'fr' ? (
-                  <a href='https://calendly.com/falconconsulting' target='_blank'>
-                    <div className='SocialMediaDiv'>
+                  <a href="https://calendly.com/falconconsulting" target="_blank">
+                    <div className="SocialMediaDiv">
                       <img
-                        className='SocialMediaIcons'
+                        className="SocialMediaIcons"
                         style={{ width: '35%' }}
                         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendlyIcon.svg`}
-                        alt='calendly'
+                        alt="calendly"
                       />
-                      <div className='SocialMediaText'>
-                        <h2 id='contactHover'>{t('Calendly')}</h2>
-                        <div id='b'></div>
+                      <div className="SocialMediaText">
+                        <h2 id="contactHover">{t('Calendly')}</h2>
+                        <div id="b"></div>
                       </div>
                     </div>
                   </a>
                 ) : (
-                  <a href='http://calendly.com/falconit' target='_blank'>
-                    <div className='SocialMediaDiv'>
+                  <a href="http://calendly.com/falconit" target="_blank">
+                    <div className="SocialMediaDiv">
                       <img
-                        className='SocialMediaIcons'
+                        className="SocialMediaIcons"
                         style={{ width: '35%' }}
                         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/calendlyIcon.svg`}
-                        alt='calendly'
+                        alt="calendly"
                       />
-                      <div className='SocialMediaText'>
-                        <h2 id='contactHover'>{t('Calendly')}</h2>
-                        <div id='b'></div>
+                      <div className="SocialMediaText">
+                        <h2 id="contactHover">{t('Calendly')}</h2>
+                        <div id="b"></div>
                       </div>
                     </div>
                   </a>
@@ -668,19 +658,18 @@ export default function ContactSection(props) {
           </div>
         )}
         <div
-          className='New_ContactSection_RightTextDiv'
+          className="New_ContactSection_RightTextDiv"
           style={{
-            width: '30%',
-          }}
-        >
-          <div className='New_ContactSection_RightTextSubDiv'>
+            width: '30%'
+          }}>
+          <div className="New_ContactSection_RightTextSubDiv">
             <h2>
               {t('Share')} <br /> {t('Your')} <br /> {t('Project')} <br /> {t('or')} <br />{' '}
               {t('Idea')} <br /> {t('with')} <br /> {t('us!')}
             </h2>
           </div>
         </div>
-        {props.ScrollTop && (
+        {/* {props.ScrollTop && (
           <div
             className='scrollToTopDiv'
             style={{
@@ -694,6 +683,26 @@ export default function ContactSection(props) {
               onClick={scrollToTop}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/top_btn.svg`}
               alt='top'
+            />
+          </div>
+        )} */}
+        {props.ScrollTop && (
+          <div
+            className={language === 'fr' ? 'scrollToTopFr' : 'scrollToTopDiv'}
+            style={{
+              display: position <= 700 ? 'none' : 'flex'
+            }}>
+            <img
+              className={language === 'fr' ? 'scrollToTopTextFr' : 'scrollToTopText'}
+              src={language === 'fr' ? BackTopFrench : BackTopEnglish}
+              alt="Change Language"
+            />
+            <div className="scrollToTopDivider"></div>
+            <img
+              className="scrollToTopIcon"
+              onClick={scrollToTop}
+              src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/top_btn.svg`}
+              alt="top"
             />
           </div>
         )}
