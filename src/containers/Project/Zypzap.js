@@ -48,7 +48,8 @@ export default function Zypzap() {
         title="Zypzap"
         subTitle="Zypzap"
         // iconTheme="#9D3C64"
-        description="ZypZap is a gaming website developed by Falcon IT."
+        // description="ZypZap is a gaming website developed by Falcon IT."
+        description="ZypZap is a gaming website developed by Falcon IT. It is an e-learning platform connecting the e-sport professionals and the gamers willing to acquire more skills."
       />
       <DetailOverview
         titleTheme="#282828"
