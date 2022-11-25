@@ -15,20 +15,23 @@ export default function BlogReadArticles(props) {
   useEffect(() => {
     setDesp(t(props?.description));
   }, [props?.description]);
+
+  const handleRedirect = () => {
+    window.location = [props?.href];
+  };
   return (
     <>
       {props.Reverse ? (
-        <div className='BlogArticleMain'>
-          <Grid container spacing={1} className='BlogArticleContainer2'>
+        <div className="BlogArticleMain">
+          <Grid container spacing={1} className="BlogArticleContainer2">
             <Grid xs={12} sm={10} md={6}>
               <motion.div
-                className='BlogReadImgDiv'
+                className="BlogReadImgDiv"
                 initial={{ y: 50, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
-                viewport={{ once: true }}
-              >
-                <img className='BlogReadImg' width={props.width} src={props.src} alt='blog' />
+                viewport={{ once: true }}>
+                <img className="BlogReadImg" width={props.width} src={props.src} alt="blog" />
               </motion.div>
             </Grid>
             <Grid xs={12} sm={10} md={6}>
@@ -37,15 +40,14 @@ export default function BlogReadArticles(props) {
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true }}
-                className='BlogTypo'
-              >
-                <Typography className='BlogReadTitle'>
+                className="BlogTypo">
+                <Typography className="BlogReadTitle">
                   {t(props.title || 'Manager une équipe en télétravail')}
                 </Typography>
-                <Typography className='BlogReadDate'>
+                <Typography className="BlogReadDate">
                   {t('Published on')} {t(props.PublishDate || 'June 13th 2022')}
                 </Typography>
-                <Typography className='BlogReadPara'>
+                <Typography className="BlogReadPara">
                   {/* {t(props.text)} */}
                   {/* {t(desp?.length > 150 ? desp.slice(0, 150) + "..." : desp)} */}
                   {/* {props?.desp?.length > 250 ? props?.desp?.slice(0, 250) + "..." : props?.desp} */}
@@ -55,7 +57,7 @@ export default function BlogReadArticles(props) {
                   )} */}
                   {t(desp?.length > 250 ? desp.slice(0, 250) + '...' : desp)}
                 </Typography>
-                <Button className='BlogReadBtn' variant='text'>
+                <Button className="BlogReadBtn" variant="text">
                   <Link to={props.to} style={{ color: '#42C2FF', fontWeight: '600' }}>
                     {t(props.BtnTexr || 'READ MORE')}
                   </Link>
@@ -65,45 +67,45 @@ export default function BlogReadArticles(props) {
           </Grid>
         </div>
       ) : (
-        <div className='BlogArticleMain'>
-          <Grid container spacing={1} className='BlogArticleContainer1'>
+        <div className="BlogArticleMain">
+          <Grid container spacing={1} className="BlogArticleContainer1">
             <Grid xs={12} sm={10} md={6}>
               <motion.div
                 initial={{ y: 50, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true }}
-                className='BlogTypo'
-              >
-                <Typography className='BlogReadTitle'>
+                className="BlogTypo">
+                <Typography className="BlogReadTitle">
                   {t(props.title || 'Manager une équipe en télétravail')}
                 </Typography>
-                <Typography className='BlogReadDate'>
+                <Typography className="BlogReadDate">
                   {t('Published on')} {t(props.PublishDate || 'June 13th 2022')}
                 </Typography>
-                <Typography className='BlogReadPara'>
+                <Typography className="BlogReadPara">
                   {t(desp?.length > 250 ? desp.slice(0, 250) + '...' : desp)}
 
                   {/* {t(
                     "In the past, it was easy to manage a team of employees who were not working thousands of miles away from you. Nowadays, businesses are adopting remote trends by employing skilled workers from around the globe. Naturally, the manager is responsible for not only managing the team of employees but also to instruct, foster, and support that team. This responsibility is not always that easy. Thus, here we will be discussing the possible challenges of managing a remote team and how to overcome such obstacles."
                   )} */}
                 </Typography>
-                <Button className='BlogReadBtn' variant='text'>
+                <Button className="BlogReadBtn" variant="text">
                   <Link to={props.to} style={{ color: '#42C2FF', fontWeight: '600' }}>
-                    {t(props.BtnTexr || 'READ MORE')}
+                    <div onClick={props.to ? '' : handleRedirect}>
+                      {t(props.BtnTexr || 'READ MORE')}
+                    </div>
                   </Link>
                 </Button>
               </motion.div>
             </Grid>
             <Grid xs={12} sm={10} md={6}>
               <motion.div
-                className='BlogReadImgDiv'
+                className="BlogReadImgDiv"
                 initial={{ y: 50, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
-                viewport={{ once: true }}
-              >
-                <img className='BlogReadImg' width={props.width} src={props.src} alt='blog' />
+                viewport={{ once: true }}>
+                <img className="BlogReadImg" width={props.width} src={props.src} alt="blog" />
               </motion.div>
             </Grid>
           </Grid>
