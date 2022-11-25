@@ -31,16 +31,15 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
             height: '100vh',
             position: 'absolute',
             left: '0',
-            zIndex: '9999999',
+            zIndex: '9999999'
           }}
           animate={{
-            y: [-1000, 0],
+            y: [-1000, 0]
           }}
           transition={{
             ease: 'easeOut',
-            delay: 0.05,
-          }}
-        >
+            delay: 0.05
+          }}>
           <motion.div
             style={{
               background: '#003b7e',
@@ -49,22 +48,20 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
               width: '100%',
               height: '100vh',
               position: 'absolute',
-              left: '0',
+              left: '0'
             }}
             animate={{ y: [-1000, 0] }}
             transition={{
               ease: 'easeOut',
-              delay: 0.15,
-            }}
-          >
+              delay: 0.15
+            }}>
             <Toolbar
-              className='NavToolbar '
+              className="NavToolbar "
               sx={{
                 margin: '0 5%',
                 display: 'flex',
-                justifyContent: 'space-between',
-              }}
-            >
+                justifyContent: 'space-between'
+              }}>
               {/* <Link className='NavLogo_Link' to={`/`}>
               <LogoWhite
                 style={{
@@ -102,14 +99,13 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
               {/* </motion.div> */}
             </Toolbar>
             <div
-              className='destopView'
+              className="destopView"
               style={{
                 display: 'flex',
                 justifyContent: 'center',
-                alignItems: 'center',
-              }}
-            >
-              <div className='newMenuDiv' style={{ height: '100vh' }}>
+                alignItems: 'center'
+              }}>
+              <div className="newMenuDiv" style={{ height: '100vh' }}>
                 <motion.div
                   // animate={{ opacity: Menu ? [0, 1] : [1, 0] }}
                   animate={{ opacity: [0, 1] }}
@@ -119,44 +115,40 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                     height: '70vh',
                     justifyContent: 'space-between',
                     textDecoration: 'none',
-                    alignItems: 'center',
-                  }}
-                >
+                    alignItems: 'center'
+                  }}>
                   <motion.div
                     // animate={{ y: [50, 0], opacity: [0, 1] }}
                     animate={{ y: Menu ? [50, 0] : [0, 50], opacity: Menu ? [0, 1] : [1, 0] }}
                     transition={{ ease: 'easeOut', delay: 0.6 }}
                     // style={{ width: '30%' }}
-                    style={{ overflow: 'visible', whiteSpace: 'nowrap' }}
-                  >
+                    style={{ overflow: 'visible', whiteSpace: 'nowrap' }}>
                     <div
-                      className='MenuHoverDiv'
+                      className="MenuHoverDiv"
                       style={{
                         display: 'flex',
                         justifyContent: 'space-between',
-                        alignItems: 'center',
-                      }}
-                    >
-                      <div className='MenuExpandDiv'></div>
+                        alignItems: 'center'
+                      }}>
+                      <div className="MenuExpandDiv"></div>
 
                       <div>
-                        <Link id={menuRoute === '/about' ? 'disableId' : 'menuId'} to='/about'>
+                        <Link id={menuRoute === '/about' ? 'disableId' : 'menuId'} to="/about">
                           {t('About')}
                         </Link>
                         <div id={menuRoute === '/about' ? 'b_disable' : 'b'}></div>
                       </div>
-                      <div className='MenuExpandDiv'></div>
+                      <div className="MenuExpandDiv"></div>
                     </div>
                   </motion.div>
                   <motion.div
                     // animate={{ y: [50, 0], opacity: [0, 1] }}
                     animate={{ y: Menu ? [50, 0] : [0, 50], opacity: Menu ? [0, 1] : [1, 0] }}
-                    transition={{ ease: 'easeOut', delay: 0.7 }}
-                  >
+                    transition={{ ease: 'easeOut', delay: 0.7 }}>
                     <div
-                      className='dropdown_new'
+                      className="dropdown_new"
                       style={{
-                        margin: '1% 2%',
+                        margin: '1% 2%'
                       }}
                       // onClick={(e) => SetServiceDropDown(!ServiceDropDown)}
                     >
@@ -164,81 +156,96 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                         style={{
                           display: 'flex',
                           justifyContent: 'space-between',
-                          alignItems: 'center',
-                        }}
-                      >
+                          alignItems: 'center'
+                        }}>
                         <div>
-                          <div id='menuId' style={{ marginLeft: '10px' }}>
+                          <div
+                            // id='menuId'
+                            id={
+                              menuRoute === '/services/web-development' ||
+                              menuRoute === '/services/app-development' ||
+                              menuRoute === '/services/software-development' ||
+                              menuRoute === '/services/ui-development' ||
+                              menuRoute === '/services/ondemand-developers'
+                                ? 'disableId'
+                                : 'menuId'
+                            }
+                            style={{ marginLeft: '10px' }}>
                             {t('Services')}
                           </div>
-                          <div id='b' style={{ marginLeft: '10px' }}></div>
-                          <div id='c'>
-                            <div id='r'></div>
+                          <div
+                            id={
+                              menuRoute === '/services/web-development' ||
+                              menuRoute === '/services/app-development' ||
+                              menuRoute === '/services/software-development' ||
+                              menuRoute === '/services/ui-development' ||
+                              menuRoute === '/services/ondemand-developers'
+                                ? 'b_disable'
+                                : 'b'
+                            }
+                            style={{ marginLeft: '10px' }}></div>
+                          <div id="c">
+                            <div id="r"></div>
                             <ul style={{ listStyle: 'none', width: '100%' }}>
-                              <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                              <li className="MenuDropdownList" style={{ padding: '5px 0' }}>
                                 <Link
                                   className={
                                     menuRoute === '/services/web-development'
                                       ? 'MenuDropdownLinksDisable'
                                       : 'MenuDropdownLinks'
                                   }
-                                  to={`/services/web-development`}
-                                >
+                                  to={`/services/web-development`}>
                                   {t('Website')}
                                 </Link>
                               </li>
-                              <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                              <li className="MenuDropdownList" style={{ padding: '5px 0' }}>
                                 <Link
                                   className={
                                     menuRoute === '/services/app-development'
                                       ? 'MenuDropdownLinksDisable'
                                       : 'MenuDropdownLinks'
                                   }
-                                  to={`/services/app-development`}
-                                >
+                                  to={`/services/app-development`}>
                                   {t('Mobile Application')}
                                 </Link>
                               </li>
-                              <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                              <li className="MenuDropdownList" style={{ padding: '5px 0' }}>
                                 <Link
                                   className={
                                     menuRoute === '/services/software-development'
                                       ? 'MenuDropdownLinksDisable'
                                       : 'MenuDropdownLinks'
                                   }
-                                  to={`/services/software-development`}
-                                >
+                                  to={`/services/software-development`}>
                                   {t('Software')}
                                 </Link>
                               </li>
-                              <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                              <li className="MenuDropdownList" style={{ padding: '5px 0' }}>
                                 <Link
                                   className={
                                     menuRoute === '/services/ui-development'
                                       ? 'MenuDropdownLinksDisable'
                                       : 'MenuDropdownLinks'
                                   }
-                                  to={`/services/ui-development`}
-                                >
+                                  to={`/services/ui-development`}>
                                   {t('UI/UX Design')}
                                 </Link>
                               </li>
-                              <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
+                              <li className="MenuDropdownList" style={{ padding: '5px 0' }}>
                                 <Link
                                   className={
                                     menuRoute === '/services/ondemand-developers'
                                       ? 'MenuDropdownLinksDisable'
                                       : 'MenuDropdownLinks'
                                   }
-                                  to={`/services/ondemand-developers`}
-                                >
+                                  to={`/services/ondemand-developers`}>
                                   {t('On Demand')}
                                 </Link>
                               </li>
                             </ul>
                           </div>
                         </div>
-                        <div className='spaceDiv'></div>
+                        <div className="spaceDiv"></div>
                       </div>
                       {/* {ServiceDropDown && ( */}
                       {/* <motion.div
@@ -380,29 +387,26 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                     // animate={{ y: Menu ? [50, 0] : [0, 50], opacity: Menu ? [0, 1] : [1, 0] }}
                     transition={{ ease: 'easeOut', delay: 0.8 }}
                     style={{
-                      margin: '1% 2%',
-                    }}
-                  >
+                      margin: '1% 2%'
+                    }}>
                     <div
-                      className='MenuHoverDiv'
+                      className="MenuHoverDiv"
                       style={{
                         display: 'flex',
                         justifyContent: 'space-between',
-                        alignItems: 'center',
-                      }}
-                    >
-                      <div className='MenuExpandDiv'></div>
+                        alignItems: 'center'
+                      }}>
+                      <div className="MenuExpandDiv"></div>
 
                       <div>
                         <Link
                           id={menuRoute === '/ourprojects' ? 'disableId' : 'menuId'}
-                          to='/ourprojects'
-                        >
+                          to="/ourprojects">
                           {t('Projects')}
                         </Link>
                         <div id={menuRoute === '/ourprojects' ? 'b_disable' : 'b'}></div>
                       </div>
-                      <div className='MenuExpandDiv'></div>
+                      <div className="MenuExpandDiv"></div>
                     </div>
                   </motion.div>
                   <motion.div
@@ -410,26 +414,24 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                     // animate={{ y: Menu ? [50, 0] : [0, 50], opacity: Menu ? [0, 1] : [1, 0] }}
                     transition={{ ease: 'easeOut', delay: 0.8 }}
                     style={{
-                      margin: '1% 2%',
-                    }}
-                  >
+                      margin: '1% 2%'
+                    }}>
                     <div
-                      className='MenuHoverDiv'
+                      className="MenuHoverDiv"
                       style={{
                         display: 'flex',
                         justifyContent: 'space-between',
-                        alignItems: 'center',
-                      }}
-                    >
-                      <div className='MenuExpandDiv'></div>
+                        alignItems: 'center'
+                      }}>
+                      <div className="MenuExpandDiv"></div>
 
                       <div>
-                        <Link id={menuRoute === '/clients' ? 'disableId' : 'menuId'} to='/clients'>
+                        <Link id={menuRoute === '/clients' ? 'disableId' : 'menuId'} to="/clients">
                           {t('Clients')}
                         </Link>
                         <div id={menuRoute === '/clients' ? 'b_disable' : 'b'}></div>
                       </div>
-                      <div className='MenuExpandDiv'></div>
+                      <div className="MenuExpandDiv"></div>
                     </div>
                   </motion.div>
                   <motion.div
@@ -437,26 +439,24 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                     // animate={{ y: Menu ? [50, 0] : [0, 50], opacity: Menu ? [0, 1] : [1, 0] }}
                     transition={{ ease: 'easeOut', delay: 0.9 }}
                     style={{
-                      margin: '1% 2%',
-                    }}
-                  >
+                      margin: '1% 2%'
+                    }}>
                     <div
-                      className='MenuHoverDiv'
+                      className="MenuHoverDiv"
                       style={{
                         display: 'flex',
                         justifyContent: 'space-between',
-                        alignItems: 'center',
-                      }}
-                    >
-                      <div className='MenuExpandDiv'></div>
+                        alignItems: 'center'
+                      }}>
+                      <div className="MenuExpandDiv"></div>
 
                       <div>
-                        <Link id={menuRoute === '/blog' ? 'disableId' : 'menuId'} to='/blog'>
+                        <Link id={menuRoute === '/blog' ? 'disableId' : 'menuId'} to="/blog">
                           {t('Blog')}
                         </Link>
                         <div id={menuRoute === '/blog' ? 'b_disable' : 'b'}></div>
                       </div>
-                      <div className='MenuExpandDiv'></div>
+                      <div className="MenuExpandDiv"></div>
                     </div>
                   </motion.div>
                   <motion.div
@@ -464,29 +464,26 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                     // animate={{ y: Menu ? [50, 0] : [0, 50], opacity: Menu ? [0, 1] : [1, 0] }}
                     transition={{ ease: 'easeOut', delay: 1 }}
                     style={{
-                      margin: '1% 2%',
-                    }}
-                  >
+                      margin: '1% 2%'
+                    }}>
                     <div
-                      className='MenuHoverDiv'
+                      className="MenuHoverDiv"
                       style={{
                         display: 'flex',
                         justifyContent: 'space-between',
-                        alignItems: 'center',
-                      }}
-                    >
-                      <div className='MenuExpandDiv'></div>
+                        alignItems: 'center'
+                      }}>
+                      <div className="MenuExpandDiv"></div>
 
                       <div>
                         <Link
                           id={menuRoute === '/contactus' ? 'disableId' : 'menuId'}
-                          to='/contactus'
-                        >
+                          to="/contactus">
                           {t('Contact')}
                         </Link>
                         <div id={menuRoute === '/contactus' ? 'b_disable' : 'b'}></div>
                       </div>
-                      <div className='MenuExpandDiv'></div>
+                      <div className="MenuExpandDiv"></div>
                     </div>
                   </motion.div>
                 </motion.div>
@@ -496,18 +493,16 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                     height: '20vh',
                     justifyContent: 'space-between',
                     textDecoration: 'none',
-                    alignItems: 'center',
-                  }}
-                >
+                    alignItems: 'center'
+                  }}>
                   <div
                     style={{
                       display: 'flex',
                       justifyContent: 'center',
                       alignItems: 'center',
                       textAlign: 'center',
-                      width: '100%',
-                    }}
-                  >
+                      width: '100%'
+                    }}>
                     <motion.div
                       animate={{ y: [50, 0], opacity: [0, 1] }}
                       transition={{ ease: 'easeOut', delay: 1.2 }}
@@ -515,13 +510,11 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                         display: 'flex',
                         justifyContent: 'center',
                         alignItems: 'center',
-                        textAlign: 'center',
-                      }}
-                    >
+                        textAlign: 'center'
+                      }}>
                       <Typography
-                        className='Menu_languageTypo'
-                        sx={{ color: '#f8f8f8', fontWeight: '600', fontSize: '1.5rem' }}
-                      >
+                        className="Menu_languageTypo"
+                        sx={{ color: '#f8f8f8', fontWeight: '600', fontSize: '1.5rem' }}>
                         <span style={{ color: '#fff', opacity: '.6' }}>
                           {' '}
                           {t('Changer de langue en')}{' '}
@@ -534,8 +527,7 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                             } else {
                               i18n.changeLanguage('fr');
                             }
-                          }}
-                        >
+                          }}>
                           {t('Français')}{' '}
                         </span>
                       </Typography>
@@ -544,101 +536,100 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                 </div>
               </div>
             </div>
-            <div className='Service_Mobile'>
-              <div className='Service_MobileDiv'>
+            <div className="Service_Mobile">
+              <div className="Service_MobileDiv">
                 <List
                   sx={{
                     width: '100%',
                     maxWidth: 360,
-                    bgcolor: 'background.paper',
+                    bgcolor: 'background.paper'
                   }}
-                  component='nav'
-                  className='NavMenu_box'
+                  component="nav"
+                  className="NavMenu_box"
                   // aria-labelledby="nested-list-subheader"
                 >
-                  <ListItemButton id='Mob_nav'>
-                    <Link className='Nav_links' to={`/about`}>
-                      <ListItemText id='Mob_items' primary={t('About')} />
+                  <ListItemButton id="Mob_nav">
+                    <Link className="Nav_links" to={`/about`}>
+                      <ListItemText id="Mob_items" primary={t('About')} />
                     </Link>
                   </ListItemButton>
-                  <ListItemButton id='Mob_nav' onClick={handleClick}>
+                  <ListItemButton id="Mob_nav" onClick={handleClick}>
                     <ListItemText
-                      id='Mob_items'
-                      className='dropDown_list'
+                      id="Mob_items"
+                      className="dropDown_list"
                       primary={t('Services')}
                     />
                     {open ? <ExpandLess /> : <ExpandMore />}
                   </ListItemButton>
-                  <Collapse className='Service_list' in={open} timeout='auto' unmountOnExit>
-                    <List component='div' disablePadding>
+                  <Collapse className="Service_list" in={open} timeout="auto" unmountOnExit>
+                    <List component="div" disablePadding>
                       {/* primaryTypographyProps={{fontSize: "1.4rem",color:"white",fontWeight:"500",lineHeight:1 }}  */}
                       <ListItemButton
-                        id='Mob_nav'
+                        id="Mob_nav"
                         sx={{
-                          pl: 6,
-                        }}
-                      >
+                          pl: 6
+                        }}>
                         <Link style={{ width: '100%' }} to={`/services/web-development`}>
                           <ListItemText>
-                            <div className='Servive_DropDown'> {t('WEB DEVELOPMENT')}</div>
+                            <div className="Servive_DropDown"> {t('WEB DEVELOPMENT')}</div>
                           </ListItemText>
                         </Link>
                       </ListItemButton>
-                      <ListItemButton id='Mob_nav' sx={{ pl: 6 }}>
+                      <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
                         <Link style={{ width: '100%' }} to={`/services/app-development`}>
                           <ListItemText>
-                            <div className='Servive_DropDown'> {t('APP DEVELOPMENT')}</div>
+                            <div className="Servive_DropDown"> {t('APP DEVELOPMENT')}</div>
                           </ListItemText>
                         </Link>
                       </ListItemButton>
-                      <ListItemButton id='Mob_nav' sx={{ pl: 6 }}>
+                      <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
                         <Link style={{ width: '100%' }} to={`/services/software-development`}>
                           <ListItemText>
-                            <div className='Servive_DropDown'> {t('SOFTWARE DEVELOPMENT')}</div>
+                            <div className="Servive_DropDown"> {t('SOFTWARE DEVELOPMENT')}</div>
                           </ListItemText>
                         </Link>
                       </ListItemButton>
-                      <ListItemButton id='Mob_nav' sx={{ pl: 6 }}>
+                      <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
                         <Link style={{ width: '100%' }} to={`/services/ondemand-developers`}>
                           <ListItemText>
-                            <div className='Servive_DropDown'> {t('ON DEMAND DEVELOPERS')}</div>
+                            <div className="Servive_DropDown"> {t('ON DEMAND DEVELOPERS')}</div>
                           </ListItemText>
                         </Link>
                       </ListItemButton>
-                      <ListItemButton id='Mob_nav' sx={{ pl: 6 }}>
+                      <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
                         <Link style={{ width: '100%' }} to={`/services/ui-development`}>
                           <ListItemText>
-                            <div className='Servive_DropDown'> {t('UI/UX DEVELOPMENT')}</div>
+                            <div className="Servive_DropDown"> {t('UI/UX DEVELOPMENT')}</div>
                           </ListItemText>
                         </Link>
                       </ListItemButton>
                     </List>
                   </Collapse>
-                  <ListItemButton id='Mob_nav'>
-                    <Link className='Nav_links' to={`/blog`}>
+                  <ListItemButton id="Mob_nav">
+                    <Link className="Nav_links" to={`/blog`}>
                       <ListItemText primary={t('Blog')} />
                     </Link>
                   </ListItemButton>
-                  <ListItemButton id='Mob_nav'>
-                    <Link className='Nav_links' to={`/ourprojects`}>
+                  <ListItemButton id="Mob_nav">
+                    <Link className="Nav_links" to={`/ourprojects`}>
                       <ListItemText primary={t('Our Projects')} />
                     </Link>
                   </ListItemButton>
-                  <ListItemButton id='Mob_nav'>
-                    <Link className='Nav_links' to={`/clients`}>
+                  <ListItemButton id="Mob_nav">
+                    <Link className="Nav_links" to={`/clients`}>
                       <ListItemText primary={t('Clients')} />
                     </Link>
                   </ListItemButton>
-                  <ListItemButton id='Mob_nav'>
-                    <Link className='Nav_links' to={`/contactus`}>
+                  <ListItemButton id="Mob_nav">
+                    <Link className="Nav_links" to={`/contactus`}>
                       <ListItemText primary={t('Contact Us')} />
                     </Link>
                   </ListItemButton>
                 </List>
-                <div className='Menu_languageMobMain'>
-                  <div className='Menu_languageMobDiv'>
+                <div className="Menu_languageMobMain">
+                  <div className="Menu_languageMobDiv">
                     <Typography
-                      className='Menu_languageTypo'
+                      className="Menu_languageTypo"
                       sx={{ color: '#f8f8f8', fontWeight: '600' }}
                       onClick={() => {
                         if (language === 'fr') {
@@ -646,8 +637,7 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                         } else {
                           i18n.changeLanguage('fr');
                         }
-                      }}
-                    >
+                      }}>
                       <span style={{ color: '#fff', opacity: '.6' }}>
                         {' '}
                         {t('Changer de langue en')}{' '}
