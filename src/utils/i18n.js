@@ -2619,12 +2619,22 @@ i18n
             'The global platform has 5 levels of users, in addition to the super admin. It is available in both web and mobile application, using mainly MERN stacks (React / Node / MongoDB), but also Flutter for mobile apps, for its compatibility with some external features. As this project involves some movement detection aspect, Falcon is working with Mediapipe, ARCore and ARKit technologies, making sure the platform is operational on all types of devices. It is a challenging and cutting-edge project, requiring a lot of R&D which is realized by Falcon’s Lead Developer. The startup has its internal CTO, who is overviewing the overall development of the platform, exclusively done by Falcon developers.The project team is composed of a Lead Developer, a back-end developer, a web front-end developer, and a mobile developer. They are working together with a Project Manager, and a Quality tester as required, and reporting to the CTO from the startup. During the development, a lot of angle calculation were necessary, considering several scenarios, in order to provide the right feedback to health provider. The team also had to be skilled in Video processing, needing to consider the capabilities of both Android and iOS devices, to get a smooth process, without lags, while getting enough data to provide the right feedback This is an ongoing project, where Falcon is developing additional features.',
           'More Projects': 'More Projects',
           'ZypZap is a gaming website developed by Falcon IT. It is an e-learning platform connecting the e-sport professionals and the gamers willing to acquire more skills.':
-            'ZypZap is a gaming website developed by Falcon IT. It is an e-learning platform connecting the e-sport professionals and the gamers willing to acquire more skills.'
+            'ZypZap is a gaming website developed by Falcon IT. It is an e-learning platform connecting the e-sport professionals and the gamers willing to acquire more skills.',
+          'Feature in best Custom Software Development Companies':
+            'Feature in best Custom Software Development Companies',
+          'We will gladly feature Falcon Consulting in the upcoming publication on Best Custom Software Development Companies.':
+            'We will gladly feature Falcon Consulting in the upcoming publication on Best Custom Software Development Companies.',
+          'November 25th 2022': 'November 25th 2022'
         }
       },
       fr: {
         translations: {
           // changes 14/11/2022"
+          'November 25th 2022': '25 novembre 2022',
+          'We will gladly feature Falcon Consulting in the upcoming publication on Best Custom Software Development Companies.':
+            'Nous serons heureux de présenter Falcon Consulting dans la prochaine publication sur les meilleures sociétés de développement de logiciels personnalisés.',
+          'Feature in best Custom Software Development Companies':
+            'Présent dans les meilleures sociétés de développement de logiciels personnalisés',
           'ZypZap is a gaming website developed by Falcon IT. It is an e-learning platform connecting the e-sport professionals and the gamers willing to acquire more skills.':
             "ZypZap est un site de jeu développé par Falcon IT. Il s'agit d'une plateforme d'apprentissage en ligne mettant en relation les professionnels de l'e-sport et les joueurs désireux d'acquérir plus de compétences.",
           'More Projects': 'Plus de projets',
