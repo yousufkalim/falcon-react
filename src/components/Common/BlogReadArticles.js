@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 // Init
 import { Grid, Typography } from '@mui/material';
 import { React, useState, useEffect } from 'react';
@@ -15,10 +16,10 @@ export default function BlogReadArticles(props) {
   useEffect(() => {
     setDesp(t(props?.description));
   }, [props?.description]);
-
-  const handleRedirect = () => {
-    window.location = [props?.href];
-  };
+  const href = props?.href;
+  // const handleRedirect = () => {
+  //   window.location = [props?.href];
+  // };
   return (
     <>
       {props.Reverse ? (
@@ -58,9 +59,15 @@ export default function BlogReadArticles(props) {
                   {t(desp?.length > 250 ? desp.slice(0, 250) + '...' : desp)}
                 </Typography>
                 <Button className="BlogReadBtn" variant="text">
-                  <Link to={props.to} style={{ color: '#42C2FF', fontWeight: '600' }}>
-                    {t(props.BtnTexr || 'READ MORE')}
-                  </Link>
+                  {props.to ? (
+                    <Link to={props.to} style={{ color: '#42C2FF', fontWeight: '600' }}>
+                      {t(props.BtnText || 'READ MORE')}
+                    </Link>
+                  ) : (
+                    <a style={{ color: '#42C2FF', fontWeight: '600' }} href={href} target="_blank">
+                      {t(props.BtnText || 'READ MORE')}
+                    </a>
+                  )}
                 </Button>
               </motion.div>
             </Grid>
@@ -90,11 +97,15 @@ export default function BlogReadArticles(props) {
                   )} */}
                 </Typography>
                 <Button className="BlogReadBtn" variant="text">
-                  <Link to={props.to} style={{ color: '#42C2FF', fontWeight: '600' }}>
-                    <div onClick={props.to ? '' : handleRedirect}>
-                      {t(props.BtnTexr || 'READ MORE')}
-                    </div>
-                  </Link>
+                  {props.to ? (
+                    <Link to={props.to} style={{ color: '#42C2FF', fontWeight: '600' }}>
+                      {t(props.BtnText || 'READ MORE')}
+                    </Link>
+                  ) : (
+                    <a style={{ color: '#42C2FF', fontWeight: '600' }} href={href} target="_blank">
+                      {t(props.BtnText || 'READ MORE')}
+                    </a>
+                  )}
                 </Button>
               </motion.div>
             </Grid>
