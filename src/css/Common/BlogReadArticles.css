@@ -21,7 +21,7 @@
   color: #0f52ba;
   font-size: 2.5rem !important;
   font-weight: 800 !important;
-  width: 75%;
+  width: 95%;
   line-height: 120% !important;
 }
 .BlogReadDate {
@@ -35,6 +35,7 @@
   font-size: 1rem !important;
   font-weight: 500 !important;
   width: 90%;
+  text-align: justify;
 }
 .BlogReadBtn {
   color: #42c2ff !important;

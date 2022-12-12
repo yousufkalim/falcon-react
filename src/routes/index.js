@@ -42,45 +42,45 @@ import SuccessfulBusiness from '../containers/Blog/SuccessfulBusiness';
 const index = () => {
   return (
     <Switch>
-      <Route exact path='/' component={Home} />
-      <Route exact path='/about' component={About} />
-      <Route exact path='/services/web-development' component={WebDev} />
-      <Route exact path='/services/app-development' component={AppDev} />
-      <Route exact path='/services/software-development' component={SoftwareDev} />
-      <Route exact path='/services/ondemand-developers' component={OnDemandDev} />
-      <Route exact path='/services/ui-development' component={UiDev} />
-      <Route exact path='/contactus' component={ContactUs} />
-      <Route exact path='/blog' component={Blog} />
-      <Route exact path='/remoteteam' component={RemoteTeam} />
-      <Route exact path='/businesswebsite' component={BusinessWebsite} />
-      <Route exact path='/agilemethodology' component={AgileMethod} />
-      <Route exact path='/successfulbusiness' component={SuccessfulBusiness} />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/services/web-development" component={WebDev} />
+      <Route exact path="/services/app-development" component={AppDev} />
+      <Route exact path="/services/software-development" component={SoftwareDev} />
+      <Route exact path="/services/ondemand-developers" component={OnDemandDev} />
+      <Route exact path="/services/ui-development" component={UiDev} />
+      <Route exact path="/contactus" component={ContactUs} />
+      <Route exact path="/blog" component={Blog} />
+      <Route exact path="/blog/remoteteam" component={RemoteTeam} />
+      <Route exact path="/blog/businesswebsite" component={BusinessWebsite} />
+      <Route exact path="/blog/agilemethodology" component={AgileMethod} />
+      <Route exact path="/blog/successfulbusiness" component={SuccessfulBusiness} />
 
-      <Route exact path='/legalmentions' component={LegalMentions} />
-      <Route exact path='/policy' component={Policy} />
+      <Route exact path="/legalmentions" component={LegalMentions} />
+      <Route exact path="/policy" component={Policy} />
 
-      <Route exact path='/ourprojects' component={OurProjects} />
-      <Route exact path='/clients' component={Clients} />
-      <Route exact path='/ourprojects/permispop' component={Permispop} />
-      <Route exact path='/ourprojects/quadrabase' component={Quadrabase} />
-      <Route exact path='/ourprojects/kidcab' component={Kidcab} />
-      <Route exact path='/ourprojects/designconfection' component={DesignConfection} />
-      <Route exact path='/ourprojects/ezbox' component={EZbox} />
-      <Route exact path='/ourprojects/telehealthplatform' component={Telehealth} />
-      <Route exact path='/ourprojects/realestate' component={RealEstate} />
-      <Route exact path='/ourprojects/orgaplan' component={Orgaplan} />
-      <Route exact path='/ourprojects/tilt' component={Tilt} />
-      <Route exact path='/ourprojects/excellence' component={Excellence} />
-      <Route exact path='/ourprojects/table' component={Table} />
-      <Route exact path='/ourprojects/sindoor' component={Sindoor} />
-      <Route exact path='/ourprojects/zypzap' component={Zypzap} />
+      <Route exact path="/ourprojects" component={OurProjects} />
+      <Route exact path="/clients" component={Clients} />
+      <Route exact path="/ourprojects/permispop" component={Permispop} />
+      <Route exact path="/ourprojects/quadrabase" component={Quadrabase} />
+      <Route exact path="/ourprojects/kidcab" component={Kidcab} />
+      <Route exact path="/ourprojects/designconfection" component={DesignConfection} />
+      <Route exact path="/ourprojects/ezbox" component={EZbox} />
+      <Route exact path="/ourprojects/telehealthplatform" component={Telehealth} />
+      <Route exact path="/ourprojects/realestate" component={RealEstate} />
+      <Route exact path="/ourprojects/orgaplan" component={Orgaplan} />
+      <Route exact path="/ourprojects/tilt" component={Tilt} />
+      <Route exact path="/ourprojects/excellence" component={Excellence} />
+      <Route exact path="/ourprojects/table" component={Table} />
+      <Route exact path="/ourprojects/sindoor" component={Sindoor} />
+      <Route exact path="/ourprojects/zypzap" component={Zypzap} />
 
-      <Route exact path='/ourprojects/yuwway' component={Yuwway} />
-      <Route exact path='/ourprojects/facilitymanagement' component={FacilityManagement} />
-      <Route exact path='/ourprojects/fireman' component={Fireman} />
-      <Route exact path='/ourprojects/wina' component={Wina} />
-      <Route exact path='/ourprojects/orientator' component={Orientator} />
-      <Route exact path='/ourprojects/registerrh' component={RegisterRH} />
+      <Route exact path="/ourprojects/yuwway" component={Yuwway} />
+      <Route exact path="/ourprojects/facilitymanagement" component={FacilityManagement} />
+      <Route exact path="/ourprojects/fireman" component={Fireman} />
+      <Route exact path="/ourprojects/wina" component={Wina} />
+      <Route exact path="/ourprojects/orientator" component={Orientator} />
+      <Route exact path="/ourprojects/registerrh" component={RegisterRH} />
     </Switch>
   );
 };

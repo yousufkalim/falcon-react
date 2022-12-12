@@ -10,56 +10,55 @@ export default function BlogReadMore(props) {
   const { t } = useTranslation();
   return (
     <>
-      <div className='BlogReadMore_Container'>
-        <div className='BlogReadMore_HeaderDiv'>
-          <img className='BlogReadMore_HeaderImg' src={props.src} 
-           alt='BlogHeader'/>
+      <div className="BlogReadMore_Container">
+        <div className="BlogReadMore_HeaderDiv">
+          <img className="BlogReadMore_HeaderImg" src={props.src} alt="BlogHeader" />
         </div>
-        <Grid container spacing={1} className='BlogReadMore_ContentContainer'>
+        <Grid container spacing={1} className="BlogReadMore_ContentContainer">
           <Grid xs={12} md={7}>
-            <div className='BlogReadMore_TitleDiv'>
-              <Typography className='BlogReadMore_Title'>
+            <div className="BlogReadMore_TitleDiv">
+              <Typography className="BlogReadMore_Title">
                 {t(props.title || 'Managing a Remote Team')}
               </Typography>
-              <Typography className='BlogReadMore_Date'>
+              <Typography className="BlogReadMore_Date">
                 {t('Published on')} {t(props.PublishDate || 'June 13th 2022')}
               </Typography>
             </div>
-            <div className='BlogReadMore_DespDiv'>
-              <Typography className='BlogReadMore_Desp'>{props.content} </Typography>
+            <div className="BlogReadMore_DespDiv">
+              <Typography className="BlogReadMore_Desp">{props.content} </Typography>
             </div>
           </Grid>
-          <Grid xs={12} md={5} className='BlogReadMore_RightGrid'>
-            <div className='BlogReadMore_CardsContainer'>
-              <div className='BlogReadMore_CardsDiv'>
-                <Link to='/businesswebsite'>
+          <Grid xs={12} md={5} className="BlogReadMore_RightGrid">
+            <div className="BlogReadMore_CardsContainer">
+              <div className="BlogReadMore_CardsDiv">
+                <Link to="/blog/businesswebsite">
                   <BlogCard
                     src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/blogarticle2.svg`}
-                    date='June 13th 2022'
-                    title='Why having a business website is necessary ?'
+                    date="June 13th 2022"
+                    title="Why having a business website is necessary ?"
                   />
                 </Link>
               </div>
-              <div className='BlogReadMore_CardsDiv'>
-                <Link to='/remoteteam'>
+              <div className="BlogReadMore_CardsDiv">
+                <Link to="/blog/remoteteam">
                   <BlogCard
                     src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/blogarticle1.svg`}
-                    date='June 13th 2022'
-                    title='Managing a Remote Team'
+                    date="June 13th 2022"
+                    title="Managing a Remote Team"
                   />
                 </Link>
               </div>
-              <div className='BlogReadMore_CardsDiv'>
-                <Link to='/agilemethodology'>
-                  <BlogCard src={Agile} date='August 3rd 2022' title='Agile Methodology' />
+              <div className="BlogReadMore_CardsDiv">
+                <Link to="/blog/agilemethodology">
+                  <BlogCard src={Agile} date="August 3rd 2022" title="Agile Methodology" />
                 </Link>
               </div>
-              <div className='BlogReadMore_CardsDiv'>
-                <Link to='/successfulbusiness'>
+              <div className="BlogReadMore_CardsDiv">
+                <Link to="/blog/successfulbusiness">
                   <BlogCard
                     src={SB_Cover}
-                    date='August 12th 2022'
-                    title='Business ran Successfully'
+                    date="August 12th 2022"
+                    title="Business ran Successfully"
                   />
                 </Link>
               </div>

@@ -25,9 +25,10 @@
 }
 .DetailDemo_Desp {
   width: 100% !important;
-  font-weight: 400 !important;
+  font-weight: 500 !important;
   font-size: 1.1rem !important;
   margin: 4% 0 !important;
+  text-align: justify !important;
 }
 .DetailDemo_Btn {
   margin: 1% 0;
