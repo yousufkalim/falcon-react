@@ -40,10 +40,9 @@ export default function SuccessfulBusiness() {
             width: '100%',
             display: 'flex',
             justifycontent: 'center',
-            alignItems: 'center',
-          }}
-        >
-          <img style={{ width: '100%', padding: '2%' }} src={SB_Cover} alt='blog Image'/>
+            alignItems: 'center'
+          }}>
+          <img style={{ width: '100%', padding: '2%' }} src={SB_Cover} alt="blog Image" />
         </div>
         <br />
         <br />
@@ -88,10 +87,9 @@ export default function SuccessfulBusiness() {
             width: '100%',
             display: 'flex',
             justifycontent: 'center',
-            alignItems: 'center',
-          }}
-        >
-          <img style={{ width: '100%', padding: '2%' }} src={SB_Precision}  alt='blog Image'/>
+            alignItems: 'center'
+          }}>
+          <img style={{ width: '100%', padding: '2%' }} src={SB_Precision} alt="blog Image" />
         </div>
         <br />
         {t(
@@ -124,10 +122,9 @@ export default function SuccessfulBusiness() {
             width: '100%',
             display: 'flex',
             justifycontent: 'center',
-            alignItems: 'center',
-          }}
-        >
-          <img style={{ width: '100%', padding: '2%' }} src={SB_Team}  alt='blog Image'/>
+            alignItems: 'center'
+          }}>
+          <img style={{ width: '100%', padding: '2%' }} src={SB_Team} alt="blog Image" />
         </div>
         <br />
         {t(
@@ -163,10 +160,9 @@ export default function SuccessfulBusiness() {
             width: '100%',
             display: 'flex',
             justifycontent: 'center',
-            alignItems: 'center',
-          }}
-        >
-          <img style={{ width: '100%', padding: '2%' }} src={SB_Thumbsup} alt='blog Image' />
+            alignItems: 'center'
+          }}>
+          <img style={{ width: '100%', padding: '2%' }} src={SB_Thumbsup} alt="blog Image" />
         </div>
         <br />
         {t(
@@ -174,27 +170,27 @@ export default function SuccessfulBusiness() {
         )}
         <br />
       </>
-    ),
+    )
   };
   return (
-    <div className='BlogContainer'>
+    <div className="BlogContainer">
       <Helmet>
         <title>{t('FalconIT : Expert Software Engineers')}</title>
         <meta
-          name='description'
-          content='We live in a digital world where everyone has cell-phones with the internet. Most consumers will be using their electronic devices to search for online information that will help them in making a smarter purchase decision. Actually, according to a survey, 88% of the consumers will search online information about a product before they finally buy it. Hence if your business doesn’t have a website, you are probably losing a lot of customers and opportunities. Nowadays business website serves as the backbone of the business as it lures new customers and can be used to employ different marketing strategies to expand your business. Below we’ll discuss the role of an online website in boosting your sales and growing your business.'
+          name="description"
+          content="We live in a digital world where everyone has cell-phones with the internet. Most consumers will be using their electronic devices to search for online information that will help them in making a smarter purchase decision. Actually, according to a survey, 88% of the consumers will search online information about a product before they finally buy it. Hence if your business doesn’t have a website, you are probably losing a lot of customers and opportunities. Nowadays business website serves as the backbone of the business as it lures new customers and can be used to employ different marketing strategies to expand your business. Below we’ll discuss the role of an online website in boosting your sales and growing your business."
         />
         <meta
-          name='keywords'
-          content='falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies '
+          name="keywords"
+          content="falcon, falconit, falcon consulting,blogs, projects, software, websites, application, developers, app developments, ios, android, blogs, articles, blog articles,collaborating,expertize,Trustful, about us, about,skilled, , ambitious, UI/UX, designers, project managers, quality testers,partnerships, contact, contact us, contact info, facebook, twitter, linkedin, calendly, social media,whatsapp,legal mentions, privacy policy,policies "
         />
       </Helmet>
       <NavBar default />
       <BlogReadMore
         src={SB_Cover}
-        title='Business ran Successfully'
+        title="Business ran Successfully"
         content={blog.body}
-        PublishDate='August 12th 2022'
+        PublishDate="August 12th 2022"
       />
       <Footer />
     </div>
