@@ -82,6 +82,8 @@ export default function LatestProjects(props) {
           <Carousel
             className="SliderDiv"
             autoPlay={true}
+            focusOnSelect={true}
+            autoPlaySpeed={window.innerWidth > 900 ? 4000 : 6000}
             responsive={responsive}
             customTransition="transform 800ms linear"
             transitionDuration={500}
