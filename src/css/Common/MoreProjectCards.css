@@ -36,6 +36,8 @@
   border-radius: 10px;
   transform: scale(1);
   transition: 0.5s;
+  overflow: hidden;
+  z-index: 1;
 }
 .MoreProjectCards_MainDiv:hover {
   transform: scale(1.1);
@@ -44,10 +46,12 @@
   position: absolute;
   border-radius: 10px;
   opacity: 0;
+  margin-top: 60%;
   transition: 1s;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, rgba(157, 60, 100, 0.414) 0%, rgba(0, 0, 0, 0.9) 95.27%);
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(157, 60, 100, 0.114) 0%, rgba(0, 0, 0, 0.9) 95.27%);
 }
 .MoreProjectCards_TextDiv {
   display: flex;
@@ -76,6 +80,11 @@
 .MoreProjectCards_HoverDiv:hover {
   opacity: 1;
 }
+.MoreProjectCards_MainDiv:hover .MoreProjectCards_HoverDiv {
+  margin-top: 0;
+  opacity: 1;
+  z-index: 2;
+}
 .DetailMoreProjects_ContainerGrid {
   display: flex;
   justify-content: space-between;
@@ -100,6 +109,9 @@
   .MoreProjectCards_MainDiv {
     height: 250px;
   }
+  /* .MoreProjectCards_HoverDiv {
+    opacity: 1;
+  } */
 }
 @media only screen and (max-width: 600px) {
   .MoreProjectCards_MainDiv:hover {

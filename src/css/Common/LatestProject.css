@@ -379,6 +379,19 @@
   .HoverDivBtnArrow {
     width: 10%;
   }
+  /* .HoverDetail {
+    opacity: 1;
+  }
+  .HoverDetailSubDiv {
+    opacity: 1;
+    padding-left: 0;
+  }
+  .HoverDetailLite {
+    opacity: 0.9;
+  }
+  .HoverDivTypo {
+    opacity: 0.8;
+  } */
 }
 
 @media only screen and (max-width: 768px) {

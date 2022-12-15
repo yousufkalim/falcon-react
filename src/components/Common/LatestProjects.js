@@ -16,18 +16,18 @@ const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
     items: 4,
-    slidesToSlide: 3, // optional, default to 1.
+    slidesToSlide: 3 // optional, default to 1.
   },
   tablet: {
     breakpoint: { max: 1024, min: 520 },
     items: 3,
-    slidesToSlide: 2, // optional, default to 1.
+    slidesToSlide: 2 // optional, default to 1.
   },
   mobile: {
     breakpoint: { max: 520, min: 0 },
     items: 1.5,
-    slidesToSlide: 1, // optional, default to 1.
-  },
+    slidesToSlide: 1 // optional, default to 1.
+  }
 };
 
 export default function LatestProjects(props) {
@@ -35,20 +35,19 @@ export default function LatestProjects(props) {
 
   const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
     const {
-      carouselState: { currentSlide },
+      carouselState: { currentSlide }
     } = rest;
     return (
-      <div className='carousel-button-group'>
+      <div className="carousel-button-group">
         <Fab
-          className='CarouselLeftArrow'
+          className="CarouselLeftArrow"
           onClick={() => {
             goToSlide(currentSlide - 1);
-          }}
-        >
+          }}>
           <LeftArrow />
         </Fab>
         <Fab
-          className='CarouselRightArrow'
+          className="CarouselRightArrow"
           onClick={() => {
             if (window.innerWidth > 1024) {
               goToSlide(currentSlide + 3);
@@ -57,8 +56,7 @@ export default function LatestProjects(props) {
             } else {
               goToSlide(currentSlide + 1);
             }
-          }}
-        >
+          }}>
           <RightArrow />
         </Fab>
       </div>
@@ -67,11 +65,11 @@ export default function LatestProjects(props) {
 
   return (
     <>
-      <div className='LatestProjectDiv'>
+      <div className="LatestProjectDiv">
         <SectionHeader
-          width='30%'
-          h1='EACH PROJECT IS A NEW CHALLENGE'
-          h2='Latest Projects'
+          width="30%"
+          h1="EACH PROJECT IS A NEW CHALLENGE"
+          h2="Latest Projects"
           // decription="This sounds simple, but it is beneficial to your business success."
         />
 
@@ -80,13 +78,12 @@ export default function LatestProjects(props) {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
-          className='LatestProjectsSlider'
-        >
+          className="LatestProjectsSlider">
           <Carousel
-            className='SliderDiv'
+            className="SliderDiv"
             autoPlay={true}
             responsive={responsive}
-            customTransition='transform 800ms linear'
+            customTransition="transform 800ms linear"
             transitionDuration={500}
             slidesToSlide={1}
             // renderArrowNext={true}
@@ -94,19 +91,18 @@ export default function LatestProjects(props) {
             arrows={false}
             showDots={true}
             renderDotsOutside={true}
-            dotListClass='custom-dot-list-style'
-            customButtonGroup={<ButtonGroup />}
-          >
+            dotListClass="custom-dot-list-style"
+            customButtonGroup={<ButtonGroup />}>
             <LatestProjectsCard
               hoverDesp={t(
                 'Orgaplan is a complex and full platform allowing the logistic management of large construction sites, in very dense areas (such as Paris - La Défense, etc...). The platform is currently used in Vinci’s construction sites, in order to facilitate very challenging logistic activities.'
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orgaplan_logo.svg`}
-              to='/ourprojects/orgaplan'
-              DividerTheme='#3399FE'
+              to="/ourprojects/orgaplan"
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
-              heading='Orgaplan'
+              heading="Orgaplan"
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -114,10 +110,10 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/orientator_logo_lp.png`}
-              to='/ourprojects/orientator'
-              DividerTheme='#3399FE'
+              to="/ourprojects/orientator"
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
-              heading='Orientator'
+              heading="Orientator"
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -125,10 +121,10 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/register_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/rr_logo_lp.svg`}
-              to='/ourprojects/registerrh'
-              DividerTheme='#3399FE'
+              to="/ourprojects/registerrh"
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
-              heading='Registre RH'
+              heading="Registre RH"
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -136,19 +132,19 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tele_logo.svg`}
-              to='/ourprojects/telehealthplatform'
-              DividerTheme='#3399FE'
+              to="/ourprojects/telehealthplatform"
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
-              heading='Tele Health'
+              heading="Tele Health"
             />
             <LatestProjectsCard
               hoverDesp={t('ZypZap is a gaming platform by Falcon IT.')}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/zypzap_Logo.svg`}
-              to='/ourprojects/zypzap'
-              DividerTheme='#3399FE'
+              to="/ourprojects/zypzap"
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
-              heading='Zypzap'
+              heading="Zypzap"
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -156,10 +152,10 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/permispop.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/pp_logo_lp.svg`}
-              DividerTheme='#11A283'
+              DividerTheme="#11A283"
               // btnBackground="#11A283"
-              heading='Permispop'
-              to='/ourprojects/permispop'
+              heading="Permispop"
+              to="/ourprojects/permispop"
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -167,10 +163,10 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/quadrabase.svg`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/qb_lp_logo.svg`}
-              to='/ourprojects/quadrabase'
-              DividerTheme='#FF8616'
+              to="/ourprojects/quadrabase"
+              DividerTheme="#FF8616"
               // btnBackground="#FF8616"
-              heading='Quadrabase'
+              heading="Quadrabase"
             />
 
             <LatestProjectsCard
@@ -179,10 +175,10 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_logo_lp.png`}
-              to='/ourprojects/yuwway'
-              DividerTheme='#3399FE'
+              to="/ourprojects/yuwway"
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
-              heading='Yuwway'
+              heading="Yuwway"
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -190,10 +186,10 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_logo_lp.png`}
-              to='/ourprojects/sindoor'
-              DividerTheme='#3399FE'
+              to="/ourprojects/sindoor"
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
-              heading='Sindoor'
+              heading="Sindoor"
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -201,10 +197,10 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/desine.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/desineLogo.png`}
-              to='/ourprojects/designconfection'
-              DividerTheme='#CC8E9C'
+              to="/ourprojects/designconfection"
+              DividerTheme="#CC8E9C"
               // btnBackground="#CC8E9C"
-              heading='Design Confection'
+              heading="Design Confection"
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -212,10 +208,10 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realEstate.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestateLogo.png`}
-              to='/ourprojects/realestate'
-              DividerTheme='#837C6B'
+              to="/ourprojects/realestate"
+              DividerTheme="#837C6B"
               // btnBackground="#837C6B"
-              heading='Real Estate'
+              heading="Real Estate"
             />
             <LatestProjectsCard
               // HoverDetailLite
@@ -225,18 +221,18 @@ export default function LatestProjects(props) {
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab.svg`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabLogo.png`}
               // btnBackground="#47B9B4"
-              to='/ourprojects/kidcab'
-              heading='Kidcab'
+              to="/ourprojects/kidcab"
+              heading="Kidcab"
             />
 
             <LatestProjectsCard
               hoverDesp={t('EZBox media is a platform providing different services')}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezBox.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezBoxLogo.png`}
-              to='/ourprojects/ezbox'
-              DividerTheme='#3399FE'
+              to="/ourprojects/ezbox"
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
-              heading='Box Media'
+              heading="Box Media"
             />
             <LatestProjectsCard
               hoverDesp={t(
@@ -244,10 +240,10 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_logo_lp.svg`}
-              to='/ourprojects/facilitymanagement'
-              DividerTheme='#3399FE'
+              to="/ourprojects/facilitymanagement"
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
-              heading='Facility Management'
+              heading="Facility Management"
             />
 
             <LatestProjectsCard
@@ -256,10 +252,10 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_logo_lp.svg`}
-              to='/ourprojects/excellence'
-              DividerTheme='#3399FE'
+              to="/ourprojects/excellence"
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
-              heading='Excellence'
+              heading="Excellence"
             />
             {/* <LatestProjectsCard
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fnac_lp.png`}
@@ -285,10 +281,10 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fireman_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fireman_logo_lp.png`}
-              to='/ourprojects/fireman'
-              DividerTheme='#3399FE'
+              to="/ourprojects/fireman"
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
-              heading='Fireman'
+              heading="Fireman"
             />
             {/* <LatestProjectsCard
               hoverDesp='Toyota'
@@ -344,10 +340,10 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_logo_lp.svg`}
-              to='/ourprojects/wina'
-              DividerTheme='#3399FE'
+              to="/ourprojects/wina"
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
-              heading='Winaa'
+              heading="Winaa"
             />
 
             <LatestProjectsCard
@@ -356,10 +352,10 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_logo.png`}
-              to='/ourprojects/tilt'
-              DividerTheme='#3399FE'
+              to="/ourprojects/tilt"
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
-              heading='Tilt'
+              heading="Tilt"
             />
             {/* <LatestProjectsCard
               src={Blsh}
@@ -381,25 +377,25 @@ export default function LatestProjects(props) {
 
             <LatestProjectsCard
               // hoverDesp='Tajweed'
-              href='https://tajweedmadeeasy.com/home'
+              href="https://tajweedmadeeasy.com/home"
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo_lp.svg`}
               ModalLogo={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tajweed_logo.svg`}
               // to='/ourprojects/ezbox'
-              DividerTheme='#3399FE'
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
               // DividerTheme='#007536'
-              heading='Tajweed'
-              title='Tajweed'
+              heading="Tajweed"
+              title="Tajweed"
               hoverDesp={t(
                 'Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
               )}
               // Modal Data
-              para1='Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij.'
-              para2='•	User can signup and start learning Quran with Tajweed.'
-              para3='•	Practice lessons are available.'
-              para4='•	User can repeat the lesson at any time without an internet connection'
-              para5='•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy.'
+              para1="Tajweed Made Easy is an application developed by Falcon IT.  Website and application based on Qura’an learning with proper Tajweed rules and Makharij."
+              para2="•	User can signup and start learning Quran with Tajweed."
+              para3="•	Practice lessons are available."
+              para4="•	User can repeat the lesson at any time without an internet connection"
+              para5="•	On the website, books are available in different languages which are the flagship publications of Tajweed Made Easy."
             />
             {/* <LatestProjectsCard
               src={Beauty}
@@ -436,10 +432,10 @@ export default function LatestProjects(props) {
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_logo_lp.png`}
-              to='/ourprojects/table'
-              DividerTheme='#3399FE'
+              to="/ourprojects/table"
+              DividerTheme="#3399FE"
               // btnBackground="#3399FE"
-              heading='Table'
+              heading="Table"
             />
             {/* <LatestProjectsCard
               hoverDesp={t(
@@ -461,28 +457,27 @@ export default function LatestProjects(props) {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: false }}
-            className='ProjectsCompletedDiv'
-          >
-            <div className='About_InfoLeft' style={{ position: 'relative' }}>
-              <Timer className='ProjectsCompleted_Timer' />
-              <h2 className='ProjectsCompleted_Num' sx={{ fontWeight: '700' }}>
+            className="ProjectsCompletedDiv">
+            <div className="About_InfoLeft" style={{ position: 'relative' }}>
+              <Timer className="ProjectsCompleted_Timer" />
+              <h2 className="ProjectsCompleted_Num" sx={{ fontWeight: '700' }}>
                 8+
               </h2>
-              <h2 className='ProjectsCompleted_H'>{t('Years of Excellence')}</h2>
+              <h2 className="ProjectsCompleted_H">{t('Years of Excellence')}</h2>
             </div>
-            <div className='About_InfoCenter' style={{ position: 'relative' }}>
-              <MedKit className='ProjectsCompleted_MedKit' />
-              <h2 className='ProjectsCompleted_Num' sx={{ fontWeight: '700' }}>
+            <div className="About_InfoCenter" style={{ position: 'relative' }}>
+              <MedKit className="ProjectsCompleted_MedKit" />
+              <h2 className="ProjectsCompleted_Num" sx={{ fontWeight: '700' }}>
                 85+
               </h2>
-              <h2 className='ProjectsCompleted_H'>{t('Project Completed')}</h2>
+              <h2 className="ProjectsCompleted_H">{t('Project Completed')}</h2>
             </div>
-            <div className='About_InfoRight' style={{ position: 'relative' }}>
-              <Award className='ProjectsCompleted_Award' />
-              <h2 className='ProjectsCompleted_Num' sx={{ fontWeight: '700' }}>
+            <div className="About_InfoRight" style={{ position: 'relative' }}>
+              <Award className="ProjectsCompleted_Award" />
+              <h2 className="ProjectsCompleted_Num" sx={{ fontWeight: '700' }}>
                 60+
               </h2>
-              <h2 className='ProjectsCompleted_H'>{t('Clients Satisfied')}</h2>
+              <h2 className="ProjectsCompleted_H">{t('Clients Satisfied')}</h2>
             </div>
           </motion.div>
         )}

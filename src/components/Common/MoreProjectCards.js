@@ -12,20 +12,18 @@ export default function MoreProjectCards(props) {
   }, [props?.desp]);
   return (
     <>
-      <Link to={props.to}>
-        <div className="MoreProjectCards_MainDiv">
-          <div className="MoreProjectCards_HoverDiv">
-            <div className="MoreProjectCards_TextDiv">
-              <h2 className="MoreProjectCards_Title">{props.title}</h2>
-              <p className="MoreProjectCards_Description">
-                {/* {t(props.desp)} */}
-                {t(desp?.length > 70 ? desp.slice(0, 70) + '...' : desp)}
-              </p>
-            </div>
+      <div className="MoreProjectCards_MainDiv">
+        <Link to={props.to} className="MoreProjectCards_HoverDiv">
+          <div className="MoreProjectCards_TextDiv">
+            <h2 className="MoreProjectCards_Title">{props.title}</h2>
+            <p className="MoreProjectCards_Description">
+              {/* {t(props.desp)} */}
+              {t(desp?.length > 70 ? desp.slice(0, 70) + '...' : desp)}
+            </p>
           </div>
-          <img className="MoreProjectCards_Image" src={props.image} alt="ProjectCards" />
-        </div>
-      </Link>
+        </Link>
+        <img className="MoreProjectCards_Image" src={props.image} alt="ProjectCards" />
+      </div>
     </>
   );
 }

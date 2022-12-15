@@ -1,3 +1,5 @@
+/* eslint-disable no-labels */
+/* eslint-disable no-unused-labels */
 // Init
 import React from 'react';
 
@@ -32,15 +34,15 @@ export default function Home() {
         <Helmet>
           {/* <title>{t('Falcon IT Consulting - Software House')}</title> */}
           <title>{t('Home - Falcon IT Consulting - Software House')}</title>
-          <link rel='canonical' href='https://falconitconsultant.com/' />
+          <link rel="canonical" href="https://falconitconsultant.com/" />
 
           <meta
-            name='description'
-            content='Falcon IT is a software development and IT company with the best software management system.'
+            name="description"
+            content="Falcon IT is a software development and IT company with the best software management system."
           />
           <meta
-            name='keywords'
-            content='software house, IT company, software development, software management system'
+            name="keywords"
+            content="software house, IT company, software development, software management system"
           />
         </Helmet>
         {/* <Helmet>
@@ -54,15 +56,15 @@ export default function Home() {
             content='falcon, falconit, falcon consulting, blogs, projects,websites, Software house, EXCEED YOUR EXPECTATION, développement, application, mobile, web, ingénieur, qualité, développeurs, javascript, reactjs, react native, .net, ui, Expert Software Engineers '
           />
         </Helmet> */}
-        <div className='HomeContainer'>
+        <div className="HomeContainer">
           <NavBar default />
           <Header
             ScrollTop
             ImgSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/HeaderImg.svg`}
-            Title='WE PROVIDE GREAT SERVICES AT THE BEST PRICE.'
-            Description='Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners. '
+            Title="WE PROVIDE GREAT SERVICES AT THE BEST PRICE."
+            Description="Software house with a team of experienced developers and project managers. We pride ourselves in delivering high-quality work for our partners. "
             btn
-            btnText='GET A FREE QUOTE'
+            btnText="GET A FREE QUOTE"
             chatIcons
           />
           <ServiceProvided />
