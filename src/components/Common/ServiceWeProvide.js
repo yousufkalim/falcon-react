@@ -51,7 +51,7 @@ export default function ServiceWeProvide() {
           </Grid>
           <Grid className="ServiceCardSection_Grid" sm={12} md={5} lg={3.5}>
             <ServiceWeProvideCard
-              to={`/services/ui-development`}
+              to={`/services/ui/ux-development`}
               UiDev
               btnColor="#8232A8"
               heading="UI/UX DEVELOPMENT"

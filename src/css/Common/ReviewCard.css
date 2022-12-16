@@ -160,6 +160,17 @@
     margin-top: 60px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .CarouselLeftArrow {
+    width: 12% !important;
+    height: 12% !important;
+  }
+
+  .CarouselRightArrow {
+    width: 12% !important;
+    height: 12% !important;
+  }
+}
 /* @media only screen and (max-width: 480px) {
 
     .ReviewCard_Container{

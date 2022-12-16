@@ -165,7 +165,7 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                               menuRoute === '/services/web-development' ||
                               menuRoute === '/services/app-development' ||
                               menuRoute === '/services/software-development' ||
-                              menuRoute === '/services/ui-development' ||
+                              menuRoute === '/services/ui/ux-development' ||
                               menuRoute === '/services/ondemand-developers'
                                 ? 'disableId'
                                 : 'menuId'
@@ -178,7 +178,7 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                               menuRoute === '/services/web-development' ||
                               menuRoute === '/services/app-development' ||
                               menuRoute === '/services/software-development' ||
-                              menuRoute === '/services/ui-development' ||
+                              menuRoute === '/services/ui/ux-development' ||
                               menuRoute === '/services/ondemand-developers'
                                 ? 'b_disable'
                                 : 'b'
@@ -223,11 +223,11 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                               <li className="MenuDropdownList" style={{ padding: '5px 0' }}>
                                 <Link
                                   className={
-                                    menuRoute === '/services/ui-development'
+                                    menuRoute === '/services/ui/ux-development'
                                       ? 'MenuDropdownLinksDisable'
                                       : 'MenuDropdownLinks'
                                   }
-                                  to={`/services/ui-development`}>
+                                  to={`/services/ui/ux-development`}>
                                   {t('UI/UX Design')}
                                 </Link>
                               </li>
@@ -293,11 +293,11 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                           <li className='MenuDropdownList' style={{ padding: '5px 0' }}>
                             <Link
                               className={
-                                menuRoute === '/services/ui-development'
+                                menuRoute === '/services/ui/ux-development'
                                   ? 'MenuDropdownLinksDisable'
                                   : 'MenuDropdownLinks'
                               }
-                              to={`/services/ui-development`}
+                              to={`/services/ui/ux-development`}
                             >
                               {t('UI/UX Design')}
                             </Link>
@@ -597,7 +597,7 @@ export default function NewNavBarMenu({ Menu, SetMenu }) {
                         </Link>
                       </ListItemButton>
                       <ListItemButton id="Mob_nav" sx={{ pl: 6 }}>
-                        <Link style={{ width: '100%' }} to={`/services/ui-development`}>
+                        <Link style={{ width: '100%' }} to={`/services/ui/ux-development`}>
                           <ListItemText>
                             <div className="Servive_DropDown"> {t('UI/UX DEVELOPMENT')}</div>
                           </ListItemText>

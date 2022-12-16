@@ -48,17 +48,15 @@ const index = () => {
       <Route exact path="/services/app-development" component={AppDev} />
       <Route exact path="/services/software-development" component={SoftwareDev} />
       <Route exact path="/services/ondemand-developers" component={OnDemandDev} />
-      <Route exact path="/services/ui-development" component={UiDev} />
+      <Route exact path="/services/ui/ux-development" component={UiDev} />
       <Route exact path="/contactus" component={ContactUs} />
       <Route exact path="/blog" component={Blog} />
       <Route exact path="/blog/remoteteam" component={RemoteTeam} />
       <Route exact path="/blog/businesswebsite" component={BusinessWebsite} />
       <Route exact path="/blog/agilemethodology" component={AgileMethod} />
       <Route exact path="/blog/successfulbusiness" component={SuccessfulBusiness} />
-
       <Route exact path="/legalmentions" component={LegalMentions} />
       <Route exact path="/policy" component={Policy} />
-
       <Route exact path="/ourprojects" component={OurProjects} />
       <Route exact path="/clients" component={Clients} />
       <Route exact path="/ourprojects/permispop" component={Permispop} />
@@ -74,7 +72,6 @@ const index = () => {
       <Route exact path="/ourprojects/table" component={Table} />
       <Route exact path="/ourprojects/sindoor" component={Sindoor} />
       <Route exact path="/ourprojects/zypzap" component={Zypzap} />
-
       <Route exact path="/ourprojects/yuwway" component={Yuwway} />
       <Route exact path="/ourprojects/facilitymanagement" component={FacilityManagement} />
       <Route exact path="/ourprojects/fireman" component={Fireman} />
