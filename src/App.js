@@ -22,6 +22,8 @@ function App() {
     const { host } = window.location;
     if (host === 'falconconsulting.fr') {
       i18n.changeLanguage('fr');
+    } else {
+      i18n.changeLanguage('en');
     }
   }, []);
 
@@ -36,7 +38,7 @@ function App() {
     // Scroll to top logic
     window.scrollTo({
       top: 0,
-      behavior: 'auto',
+      behavior: 'auto'
     });
   }, [pathname]);
 
@@ -55,7 +57,7 @@ function App() {
         <AnimatedCursor
           innerSize={10}
           outerSize={60}
-          color='66, 195, 255'
+          color="66, 195, 255"
           outerAlpha={0.2}
           innerScale={1.2}
           outerScale={1.5}
@@ -72,7 +74,7 @@ function App() {
             'button',
             '.link',
             'span',
-            '#CursorZoom',
+            '#CursorZoom'
           ]}
         />
       </div>
@@ -80,12 +82,12 @@ function App() {
         <title>{t('Falcon IT Consulting - Software House')}</title>
 
         <meta
-          name='description'
-          content='Falcon IT is a software development and IT company with the best software management system.'
+          name="description"
+          content="Falcon IT is a software development and IT company with the best software management system."
         />
         <meta
-          name='keywords'
-          content='software house, IT company, software development, software management system'
+          name="keywords"
+          content="software house, IT company, software development, software management system"
         />
       </Helmet>
       {open === 'true' && (
@@ -94,26 +96,25 @@ function App() {
           whileInView={{ y: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className='CookieBanner_Container'
-        >
-          <div className='CookieBanner_Div'>
-            <div className='CookieBanner_TypoDiv'>
-              <Typography sx={{ fontWeight: '500' }} className='CookieBanner_desp'>
+          className="CookieBanner_Container">
+          <div className="CookieBanner_Div">
+            <div className="CookieBanner_TypoDiv">
+              <Typography sx={{ fontWeight: '500' }} className="CookieBanner_desp">
                 {t(
                   'We Use our own and third-party cookies to personalize content and to analyze web traffic.'
                 )}
               </Typography>
-              <Typography className='CookieBanner_Link'>
-                <Link style={{ color: '#003B7E' }} to='/legalmentions'>
+              <Typography className="CookieBanner_Link">
+                <Link style={{ color: '#003B7E' }} to="/legalmentions">
                   <h4>{t('Read more about cookies')}</h4>
                 </Link>
               </Typography>
             </div>
-            <div className='CookieBanner_BtnDiv'>
-              <Button onClick={handleClose} className='CookieBanner_AgreeBtn' variant='contained'>
+            <div className="CookieBanner_BtnDiv">
+              <Button onClick={handleClose} className="CookieBanner_AgreeBtn" variant="contained">
                 {t('Agree')}
               </Button>
-              <Button onClick={handleClose} className='CookieBanner_DeclineBtn' variant='outlined'>
+              <Button onClick={handleClose} className="CookieBanner_DeclineBtn" variant="outlined">
                 {t('Decline')}
               </Button>
             </div>
@@ -121,10 +122,10 @@ function App() {
         </motion.div>
       )}
       <div className={open === 'true' && 'CookieBanner_DullScreen'}>
-        <div className='App'>
+        <div className="App">
           {/* toastify Container for Notification */}
           <ToastContainer
-            position='bottom-right'
+            position="bottom-right"
             autoClose={3000}
             hideProgressBar={true}
             transition={Flip}
