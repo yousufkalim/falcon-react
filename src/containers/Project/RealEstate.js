@@ -148,7 +148,7 @@ export default function RealEstate() {
         // location
         ThemeBG="#837C6B"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
-        name="Steve Jobs"
+        name="Usman C."
       />
       <DetailMoreProjects />
 

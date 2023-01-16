@@ -140,7 +140,8 @@ export default function Sindoor() {
       <DetailFeedback
         // titleTheme
         // despTheme
-        // desp
+        desp1="The team worked hard and took into consideration all my feedbacks in order to get the mobile application I wanted."
+        desp2="Very smooth process, with a design phase first in order to see and validate the visual aspects first. Good job !"
         // location
         ThemeBG="#E45A5A"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}

@@ -2624,11 +2624,43 @@ i18n
             'Feature in best Custom Software Development Companies',
           'We will gladly feature Falcon Consulting in the upcoming publication on Best Custom Software Development Companies.':
             'We will gladly feature Falcon Consulting in the upcoming publication on Best Custom Software Development Companies.',
-          'November 25th 2022': 'November 25th 2022'
+          'November 25th 2022': 'November 25th 2022',
+
+          // RegisterRH Client feedback
+
+          'Falcon’s team was very reliant, and considered all the changes of scopes that we had, in order to adapt best to the market and my client’s feedback. These are people we can trust !':
+            'Falcon’s team was very reliant, and considered all the changes of scopes that we had, in order to adapt best to the market and my client’s feedback. These are people we can trust !',
+
+          //OrgaPlan Client Feedback
+          'This was a very challenging project, and Falcon completed it successfully ! The applications are now used in big construction sites, even by workers who are unfamiliar with such kind of technologies.':
+            'This was a very challenging project, and Falcon completed it successfully ! The applications are now used in big construction sites, even by workers who are unfamiliar with such kind of technologies.',
+          'We missed a lot of scope in the initial contract, but we were always able to work around those smartly.':
+            'We missed a lot of scope in the initial contract, but we were always able to work around those smartly.',
+
+          //Sindoor Cient Feedback
+          'The team worked hard and took into consideration all my feedbacks in order to get the mobile application I wanted.':
+            'The team worked hard and took into consideration all my feedbacks in order to get the mobile application I wanted.',
+          'Very smooth process, with a design phase first in order to see and validate the visual aspects first. Good job !':
+            'Very smooth process, with a design phase first in order to see and validate the visual aspects first. Good job !'
         }
       },
       fr: {
         translations: {
+          // RegisterRH Client feedback
+          'Falcon’s team was very reliant, and considered all the changes of scopes that we had, in order to adapt best to the market and my client’s feedback. These are people we can trust !':
+            'L’équipe Falcon est très résiliente, et m’a accompagné jusqu’à ce que le projet soit une réussite. Nous avons dû faire preuve de beaucoup d’adaptabilité pour répondre au feedback des prospects. Équipe sur laquelle nous pouvons compter !',
+
+          //OrgaPlan client feedback
+          'This was a very challenging project, and Falcon completed it successfully ! The applications are now used in big construction sites, even by workers who are unfamiliar with such kind of technologies.':
+            'C’était un projet techniquement compliqué, et l’équipe Falcon l’a réussi avec succès ! L’application est aujourd’hui utilisée sur de gros chantiers de construction, et même par des personnes non familières avec les produits technologiques.',
+          'We missed a lot of scope in the initial contract, but we were always able to work around those smartly.':
+            'Il y avait du scope manquant dans le contrat initial, mais on a toujours réussi à faire en sorte de rester dans le budget de façon intélligente.',
+
+          //Sindoor Cient Feedback
+          'The team worked hard and took into consideration all my feedbacks in order to get the mobile application I wanted.':
+            'Très bon travail, les développeurs ont pris en compte toutes mes remarques afin d’obtenir l’application mobile que je souhaitais.',
+          'Very smooth process, with a design phase first in order to see and validate the visual aspects first. Good job !':
+            'Le process de réalisation est très bien fait, avec une phase de maquetage qui m’a permis de valider l’aspect visuel d’abord. Bon boulot !',
           // changes 14/11/2022"
           'November 25th 2022': '25 novembre 2022',
           'We will gladly feature Falcon Consulting in the upcoming publication on Best Custom Software Development Companies.':
