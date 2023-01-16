@@ -57,7 +57,7 @@ export default function RealEstate() {
         titleTheme="#837C6B"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor="#837C6B"
-        name="Steve jobs"
+        name="Usman C."
         // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_realestate.png`}
         src={Real_Overview}
       />
