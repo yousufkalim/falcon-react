@@ -141,7 +141,8 @@ export default function Orgaplan() {
       <DetailFeedback
         titleTheme="#9D936D"
         despTheme="#282828"
-        desp="Falcon’s website design team far exceeded my expectations on every front as I had very high expectations of them. The end product is a responsive website that embodies who we are as a company."
+        desp1="This was a very challenging project, and Falcon completed it successfully ! The applications are now used in big construction sites, even by workers who are unfamiliar with such kind of technologies."
+        desp2="We missed a lot of scope in the initial contract, but we were always able to work around those smartly."
         // location
         ThemeBG="#ffffff"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}

@@ -20,8 +20,8 @@ export default function ReviewSection() {
       name: 'Ryan Hutchinson',
       country: 'United States',
       review:
-        'We were looking for a team who could take on our project and finish the job, Falcon IT Consulting Completed all work as asked. Gladly I found them',
-      work: 'Amazon API Gateway Migration',
+        'We had a job which needed quick expert help and right then we found Falcon Consulting, Job completed successfully with all work asked within the timeline, Kudos',
+      work: 'Amazon API Gateway Migration'
     },
     {
       // avatar: Client_3,
@@ -30,7 +30,7 @@ export default function ReviewSection() {
 
       review:
         'They have a very good development team. Responsive and dependable. We are working with them on other projects. Highly recommended!',
-      work: 'Kidgystic-Mobile application for Parental Control',
+      work: 'Kidgystic-Mobile application for Parental Control'
     },
     // {
     //   // avatar: Client_4,
@@ -46,7 +46,7 @@ export default function ReviewSection() {
       country: 'Pakistan',
       review:
         'Falcon Consulting was a delight to work with. There Mobile App development team has a very firm grasp on React and React Native, ensured timely delivery and dedication. Will consider them for future for sure',
-      work: 'ONX-Mobile application for EdTech',
+      work: 'ONX-Mobile application for EdTech'
     },
 
     {
@@ -56,15 +56,15 @@ export default function ReviewSection() {
 
       review:
         'Falcon Consulting a permis à mon application de prendre forme ! En partant d’une simple idée, ils ont su faire preuve d’initiative et me conseiller sur les décisions à prendre.',
-      work: 'Tilt Entreprise',
+      work: 'Tilt Entreprise'
     },
     {
       // avatar: Client_5,
-      name: 'RD',
+      name: 'Romain D',
       country: 'France',
 
       review: 'Equipe très motivée, et allant au bout des choses ! Ce n’est pas le cas de tous !',
-      work: 'Registre-RH',
+      work: 'Registre-RH'
     },
     {
       // avatar: Client_5,
@@ -73,8 +73,8 @@ export default function ReviewSection() {
 
       review:
         'Falcon Consulting did a great job. I am happy to work with them. They have great skills in MERN stack. Being not so tech savvy I had my own challenges but their Business team helped me on each step along the journey. Hope we will work very soon near future. Thank you',
-      work: 'SybilSoft-Web application Development for Travel Agency',
-    },
+      work: 'SybilSoft-Web application Development for Travel Agency'
+    }
     // {
     //   avatar: Client_6,
     //   name: "Maham Zahid",
@@ -107,7 +107,7 @@ export default function ReviewSection() {
       country: 'France',
 
       review: 'Equipe très motivée, et allant au bout des choses ! Ce n’est pas le cas de tous !',
-      work: 'Registre-RH',
+      work: 'Registre-RH'
     },
     {
       // avatar: Client_5,
@@ -116,7 +116,7 @@ export default function ReviewSection() {
 
       review:
         'Falcon Consulting a permis à mon application de prendre forme ! En partant d’une simple idée, ils ont su faire preuve d’initiative et me conseiller sur les décisions à prendre.',
-      work: 'Tilt Entreprise',
+      work: 'Tilt Entreprise'
     },
 
     {
@@ -125,7 +125,7 @@ export default function ReviewSection() {
       country: 'United States',
       review:
         'We were looking for a team who could take on our project and finish the job, Falcon IT Consulting Completed all work as asked. Gladly I found them',
-      work: 'Amazon API Gateway Migration',
+      work: 'Amazon API Gateway Migration'
     },
     {
       // avatar: Client_1,
@@ -133,7 +133,7 @@ export default function ReviewSection() {
       country: 'Pakistan',
       review:
         'Falcon Consulting was a delight to work with. There Mobile App development team has a very firm grasp on React and React Native, ensured timely delivery and dedication. Will consider them for future for sure',
-      work: 'ONX-Mobile application for EdTech',
+      work: 'ONX-Mobile application for EdTech'
     },
 
     {
@@ -143,7 +143,7 @@ export default function ReviewSection() {
 
       review:
         'They have a very good development team. Responsive and dependable. We are working with them on other projects. Highly recommended!',
-      work: 'Kidgystic-Mobile application for Parental Control',
+      work: 'Kidgystic-Mobile application for Parental Control'
     },
     // {
     //   // avatar: Client_4,
@@ -160,8 +160,8 @@ export default function ReviewSection() {
 
       review:
         'Falcon Consulting did a great job. I am happy to work with them. They have great skills in MERN stack. Being not so tech savvy I had my own challenges but their Business team helped me on each step along the journey. Hope we will work very soon near future. Thank you',
-      work: 'SybilSoft-Web application Development for Travel Agency',
-    },
+      work: 'SybilSoft-Web application Development for Travel Agency'
+    }
     // {
     //   avatar: Client_6,
     //   name: "Maham Zahid",
@@ -195,20 +195,19 @@ export default function ReviewSection() {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.4 }}
         viewport={{ once: true }}
-        className='ReviewSectionMain'
-      >
+        className="ReviewSectionMain">
         <SectionHeader
-          colorH2='#0F52BA'
-          h1='your feedback matters'
-          h2='Client Reviews'
-          width='30%'
+          colorH2="#0F52BA"
+          h1="your feedback matters"
+          h2="Client Reviews"
+          width="30%"
         />
-        <div className='ReviewCardSlider'>
-          <div className='ReviewSliderContainer'>
-            <div className='fade-left'></div>
+        <div className="ReviewCardSlider">
+          <div className="ReviewSliderContainer">
+            <div className="fade-left"></div>
 
             <ResponsiveContainer
-              className='ReviewSection_Carousel'
+              className="ReviewSection_Carousel"
               carouselRef={ref}
               render={(parentWidth, carouselRef) => {
                 let currentVisibleSlide = 5;
@@ -238,20 +237,18 @@ export default function ReviewSection() {
             />
             <>
               <Fab
-                className='CarouselLeftArrow'
+                className="CarouselLeftArrow"
                 onClick={() => {
                   ref.current?.goBack();
-                }}
-              >
+                }}>
                 {/* <img src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/left_arrow_btn.svg`} /> */}
                 <LeftArrow />
               </Fab>
               <Fab
-                className='CarouselRightArrow'
+                className="CarouselRightArrow"
                 onClick={() => {
                   ref.current?.goNext(6);
-                }}
-              >
+                }}>
                 <RightArrow />
               </Fab>
             </>
@@ -259,7 +256,7 @@ export default function ReviewSection() {
               {">"}
             </button> */}
 
-            <div className='fade-right'></div>
+            <div className="fade-right"></div>
           </div>
         </div>
       </motion.div>

@@ -5,18 +5,22 @@
   width: 100%;
   margin: 5% 2%;
 }
+
 .BlogArticleContainer1 {
   display: flex !important;
   width: 90% !important;
 }
+
 .BlogArticleContainer2 {
   display: flex !important;
   width: 90% !important;
 }
+
 .BlogTypo {
   margin: 1% !important;
   /* width: 90% !important; */
 }
+
 .BlogReadTitle {
   color: #0f52ba;
   font-size: 2.5rem !important;
@@ -24,6 +28,7 @@
   width: 95%;
   line-height: 120% !important;
 }
+
 .BlogReadDate {
   color: #000000 !important;
   font-size: 1.2rem !important;
@@ -31,79 +36,105 @@
   opacity: 60%;
   margin: 2% 0% !important;
 }
+
 .BlogReadPara {
   font-size: 1rem !important;
   font-weight: 500 !important;
   width: 90%;
   text-align: justify;
 }
+
 .BlogReadBtn {
   color: #42c2ff !important;
   margin-top: 2% !important;
   font-weight: 500 !important;
   font-size: 1rem !important;
 }
+
 .BlogReadImgDiv {
   overflow: hidden;
   border-radius: 15px;
 }
+
 .BlogReadImg {
   width: 90%;
   border-radius: 15px;
   transform: scale(1);
   transition: 0.5s;
 }
+
 .BlogReadImg:hover {
   transform: scale(1.05);
 }
+
 @media only screen and (max-width: 1400px) {
   .BlogReadTitle {
     font-size: 1.8rem !important;
   }
+
   .BlogReadDate {
     font-size: 1rem !important;
   }
+
   .BlogReadPara {
     font-size: 1rem !important;
   }
 }
+
 @media only screen and (max-width: 1200px) {
   .BlogReadTitle {
     font-size: 1.5rem !important;
   }
+
   .BlogReadPara {
     font-size: 1rem !important;
   }
+
   .BlogReadBtn {
     font-size: 1.1rem !important;
   }
 }
+
 @media only screen and (max-width: 900px) {
+  .BlogArticleMain {
+    margin: 5% 2% 20% 2%;
+  }
+
   .BlogArticleContainer1 {
     flex-direction: column-reverse !important;
     align-items: center;
   }
+
   .BlogArticleContainer2 {
     justify-content: center;
   }
+
   .BlogReadImg {
     width: 100%;
   }
+
   .BlogReadBtn {
     font-size: 1rem !important;
   }
 }
 
 @media only screen and (max-width: 600px) {
+  .BlogArticleMain {
+    margin: 5% 2% 20% 2%;
+  }
+
   .BlogTypo {
     text-align: center;
   }
+
   .BlogReadTitle {
     width: 100%;
   }
+
   .BlogReadImg {
     width: 97%;
   }
+
   .BlogReadPara {
     width: 100%;
   }

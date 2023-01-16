@@ -1,97 +1,102 @@
-.ModernAgencyDiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2%;
-    background-color: #003B7E;
+.ModernAgencyDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  background-color: #003b7e;
 }
-.AgencyTypo{
-    text-align: center;
 
+.AgencyTypo {
+  text-align: center;
 }
-.HistorySumary{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3%;
-    width: 100%;
-}
-.HistoryMain{
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-}
-.HistoryMain_Last{
-    display: flex;
-    flex-direction: column;
-    width: 150px;
-}
-.HistoryDiv{
-    display: flex;
-    text-align: center;
-    width: 100%;
-}
-.HistoryImgDiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20%;
-    text-align: center;
-    background-color: #0F52BA40;
-    border: 2px solid #42C2FF40;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px !important;
 
+.HistorySumary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+  width: 100%;
+}
 
+.HistoryMain {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
 }
-.HistoryImg{
-    width: 100%;
-    align-items: center;
-}
-.Last_icon{
-    padding: 30%;
-}
-.ArrowMain{
-    width: 100px;
-    height: 150px; 
-    display: flex; 
-    align-items: center;
 
+.HistoryMain_Last {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
 }
-.HistoryTypoDiv{
-    width: 60%;
-    margin-top: 2%;
-    text-align: center;
-}
-.HistoryTypoDiv_Last{
-    width: 100%;
-    margin-top: 2%;
-    text-align: center;
-}
-.HistoryTypoH{ 
-    color: #fff; 
-    font-size: 1.3rem !important;
-    margin-top: 3%;
-    /* font-family: Roboto !important; */
-    font-family: Montserrat!important;
 
-
+.HistoryDiv {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
 }
-.HistoryTypoP{
-    font-size: .9rem !important;
-    color: white;
-        font-family: Montserrat!important;
-        /* font-family: Roboto !important; */
-    width: 100% !important;
 
+.HistoryImgDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20%;
+  text-align: center;
+  background-color: #0f52ba40;
+  border: 2px solid #42c2ff40;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px !important;
 }
+
+.HistoryImg {
+  width: 100%;
+  align-items: center;
+}
+
+.Last_icon {
+  padding: 30%;
+}
+
+.ArrowMain {
+  width: 100px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.HistoryTypoDiv {
+  width: 60%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.HistoryTypoDiv_Last {
+  width: 100%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.HistoryTypoH {
+  color: #fff;
+  font-size: 1.3rem !important;
+  margin-top: 3%;
+  /* font-family: Roboto !important; */
+  font-family: Montserrat !important;
+}
+
+.HistoryTypoP {
+  font-size: 0.9rem !important;
+  color: white;
+  font-family: Montserrat !important;
+  /* font-family: Roboto !important; */
+  width: 100% !important;
+}
+
 /* style={{ height: 100, display: "flex", alignItems: "center" }} */
-
-
-
 
 /* @media only screen and (max-width: 2000px) {
   
@@ -100,95 +105,120 @@
     }
 } */
 @media only screen and (max-width: 900px) {
-    .HistoryMain{
-        width: 200px;
-    }
-    .HistoryImgDiv{
-        width: 100px;
-        height: 100px !important;
-        padding: 15%;
+  .HistoryMain {
+    width: 200px;
+  }
 
-    }
-    .HistoryMain_Last{
-        width: 100px;
-    }
-    .ArrowMain{
-        width: 100px;
-        height: 100px; 
-    }
-    .HistoryTypoDiv{
-        width: 50%;
-        margin-top: 2%;
-        text-align: center;
-    }
-    .Last_icon{
-        padding: 30%;
-    }
+  .HistoryImgDiv {
+    width: 100px;
+    height: 100px !important;
+    padding: 15%;
+  }
+
+  .HistoryMain_Last {
+    width: 100px;
+    white-space: nowrap;
+  }
+
+  .ArrowMain {
+    width: 100px;
+    height: 100px;
+  }
+
+  .HistoryTypoDiv {
+    width: 50%;
+    margin-top: 2%;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .Last_icon {
+    padding: 30%;
+  }
 }
+
 @media only screen and (max-width: 778px) {
-    .HistoryTypoDiv{
-        width: 50%;
-    }
-    .HistoryTypoH{
-        font-size: 1.1rem !important;
-    }
-    .HistoryTypoP{
-        font-size: 1rem !important;
-    }
-    .HistoryMain{
-        width: 150px;
-    }
-    .HistoryMain_Last{
-        width: 75px;
-    }
-    .HistoryImgDiv{
-        width: 75px;
-        height: 75px !important;
-    }
-    .ArrowMain{
-        width: 75px;
-        height: 75px; 
-    }
-  
+  .HistoryTypoDiv {
+    width: 50%;
+    white-space: nowrap;
+  }
+
+  .HistoryTypoH {
+    font-size: 1.1rem !important;
+  }
+
+  .HistoryTypoP {
+    font-size: 1rem !important;
+  }
+
+  .HistoryMain {
+    width: 150px;
+  }
+
+  .HistoryMain_Last {
+    width: 75px;
+    white-space: nowrap;
+  }
+
+  .HistoryImgDiv {
+    width: 75px;
+    height: 75px !important;
+  }
+
+  .ArrowMain {
+    width: 75px;
+    height: 75px;
+  }
 }
+
 @media only screen and (max-width: 600px) {
-    .HistoryTypoDiv{
-        width: 100%;
-    }
-    .HistoryTypoH{
-        font-size: 1.2rem !important;
-    }
-    .HistoryTypoP{
-        font-size: 1rem !important;
-    }
-    .HistorySumary{
-        margin: 5%;
-        flex-direction: column;
-    }
-    .HistoryMain{
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-            width: 100px;
-            margin-bottom: 5%;
-    }
-    .HistoryMain_Last{
-        width: 100px;
-    }
-    .HistoryImgDiv{
-        width: 100px;
-        height: 100px !important;
-        padding: 20%;
-    }
-    .HistoryImg{
-        width: 80%;
-    }
-    .ArrowMain{
-        visibility: hidden;
-        width: 0px;
-        height: 0px; 
-    }
-    /* .ArrowMain{
+  .HistoryTypoDiv {
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  .HistoryTypoH {
+    font-size: 1.2rem !important;
+  }
+
+  .HistoryTypoP {
+    font-size: 1rem !important;
+  }
+
+  .HistorySumary {
+    margin: 5%;
+    flex-direction: column;
+  }
+
+  .HistoryMain {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin-bottom: 5%;
+  }
+
+  .HistoryMain_Last {
+    width: 120px;
+  }
+
+  .HistoryImgDiv {
+    width: 100px;
+    height: 100px !important;
+    padding: 20%;
+  }
+
+  .HistoryImg {
+    width: 80%;
+  }
+
+  .ArrowMain {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+
+  /* .ArrowMain{
         height: 5vh;
     } */
 }

@@ -156,7 +156,7 @@ export default function Wina() {
         ThemeBG="#2A5AA6"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         // AvatarSrc={Kidcab_Avatar}
-        name="Shane jhon"
+        name="Jean-Philippe O"
       />
       <DetailMoreProjects />
 

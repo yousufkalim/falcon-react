@@ -136,7 +136,7 @@ export default function RegisterRH() {
       <DetailFeedback
         titleTheme="#0086EF"
         despTheme="#282828"
-        // desp
+        desp1="Falcon’s team was very reliant, and considered all the changes of scopes that we had, in order to adapt best to the market and my client’s feedback. These are people we can trust !"
         // location
         ThemeBG="#fffff"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
