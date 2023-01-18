@@ -11,11 +11,10 @@ export default function WorkProcessSteps(props) {
           flexDirection: 'column',
           alignItems: 'center',
           textAlign: 'center',
-          marginBottom: '10%',
-        }}
-      >
-        <img style={{ width: '20%', margin: '3% 0%' }} src={props.src} alt='process' />
-        <Typography sx={{ color: 'white', fontWeight: '700', margin: '5% 0%', fontSize: '1.2rem' }}>
+          marginBottom: '10%'
+        }}>
+        <img style={{ width: '20%', margin: '3% 0%' }} src={props.src} alt="process" />
+        <Typography sx={{ color: 'white', fontWeight: '700', marginTop: '5%', fontSize: '1.2rem' }}>
           {t(props.title)}
         </Typography>
         <Typography
@@ -24,9 +23,8 @@ export default function WorkProcessSteps(props) {
             fontWeight: '400',
             fontSize: '1rem',
             width: '90%',
-            opacity: '80%',
-          }}
-        >
+            opacity: '80%'
+          }}>
           {t(props.desp)}
         </Typography>
       </div>

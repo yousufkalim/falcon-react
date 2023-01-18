@@ -124,7 +124,7 @@ export default function ReviewSection() {
       name: 'Ryan Hutchinson',
       country: 'United States',
       review:
-        'We were looking for a team who could take on our project and finish the job, Falcon IT Consulting Completed all work as asked. Gladly I found them',
+        'We had a job which needed quick expert help and right then we found Falcon Consulting, Job completed successfully with all work asked within the timeline, Kudos',
       work: 'Amazon API Gateway Migration'
     },
     {

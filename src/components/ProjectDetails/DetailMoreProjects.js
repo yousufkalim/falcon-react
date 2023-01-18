@@ -28,7 +28,7 @@ export default function DetailMoreProjects(props) {
 
   return (
     <>
-      <div>
+      <div style={{ margin: '10% 0' }}>
         <div className="DetailMoreProjects_SectionHeaderDiv">
           <h2 className="DetailMoreProjects_SectionHeader_H1">
             {t('EACH PROJECT IS A NEW OPPORTUNITY')}

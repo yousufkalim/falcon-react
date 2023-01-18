@@ -188,7 +188,22 @@
     margin: 2% 0 !important;
   }
 }
+@media only screen and (max-width: 600px) {
+  .ServiceCardSection_H {
+    font-size: 1.5rem;
+  }
+  .ServiceCardSection_P {
+    font-size: 1rem;
+  }
+  .ServiceCard_heading {
+    font-size: 1rem;
+  }
+}
 @media only screen and (max-width: 480px) {
+  .ServiceCardSection_H {
+    font-size: 1.3rem;
+  }
+
   .ServiceCardSection_Grid {
     margin: 3% 0 !important;
   }

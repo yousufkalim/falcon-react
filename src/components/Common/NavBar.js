@@ -36,19 +36,19 @@ export default function NavBar(props) {
         <>
           {!Menu && (
             <motion.div
-              className='progress-bar'
+              className="progress-bar"
               style={{
                 scaleX: scrollYProgress,
-                background: props.scrollBarBG ? props.scrollBarBG : 'transparent',
+                background: props.scrollBarBG ? props.scrollBarBG : 'transparent'
               }}
             />
           )}
-          <div className='logoNew'>
-            <Link className='NavLogo_Link' to={`/`}>
+          <div className="logoNew">
+            <Link className="NavLogo_Link" to={`/`}>
               <img
-                className='Falcon_logo'
+                className="Falcon_logo"
                 style={{ margin: '1% 0', cursor: 'pointer' }}
-                alt='logo'
+                alt="logo"
                 src={
                   Active
                     ? WhiteLogo
@@ -62,10 +62,9 @@ export default function NavBar(props) {
           <Tooltip
             title={
               language === 'fr' ? 'Change the Language to English' : 'Changer de langue en Français'
-            }
-          >
+            }>
             <div
-              id='CursorZoom'
+              id="CursorZoom"
               className={
                 Active
                   ? 'NavbarLanguageMenuDiv'
@@ -79,7 +78,7 @@ export default function NavBar(props) {
                   ? '0px 15px 30px rgba(0, 0, 0, 0.1)'
                   : position <= 970
                   ? '0px 15px 30px rgba(0, 0, 0, 0.1)'
-                  : 'none',
+                  : 'none'
               }}
               onClick={() => {
                 if (language === 'fr') {
@@ -87,15 +86,17 @@ export default function NavBar(props) {
                 } else {
                   i18n.changeLanguage('fr');
                 }
-              }}
-            >
-              <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} alt='flag'/>
+              }}>
+              <img
+                className="NavbarLanguageFlag"
+                src={language === 'fr' ? USA : French}
+                alt="flag"
+              />
               <h2
-                className='NavbarLanguageName'
+                className="NavbarLanguageName"
                 style={{
-                  color: Active ? '#f8f8f8' : position <= 970 ? '#f8f8f8' : '#003b7e',
-                }}
-              >
+                  color: Active ? '#f8f8f8' : position <= 970 ? '#f8f8f8' : '#003b7e'
+                }}>
                 {t('FR')}
               </h2>
             </div>
@@ -110,38 +111,34 @@ export default function NavBar(props) {
               } else {
                 document.body.style.overflow = 'visible';
               }
-            }}
-          >
+            }}>
             <div
-              className='bars1'
+              className="bars1"
               style={{
-                background: Active ? '' : position <= 970 ? '#fff' : '#003b7e',
-              }}
-            ></div>
+                background: Active ? '' : position <= 970 ? '#fff' : '#003b7e'
+              }}></div>
             <div
-              className='bars2'
+              className="bars2"
               style={{
-                background: Active ? '' : position <= 970 ? '#fff' : '#003b7e',
-              }}
-            ></div>
-            <div className='bars3'>
+                background: Active ? '' : position <= 970 ? '#fff' : '#003b7e'
+              }}></div>
+            <div className="bars3">
               <div
-                className='abcd'
+                className="abcd"
                 style={{
-                  background: Active ? '' : position <= 970 ? '#fff' : '#003b7e',
-                }}
-              ></div>
+                  background: Active ? '' : position <= 970 ? '#fff' : '#003b7e'
+                }}></div>
             </div>
           </div>
         </>
       )}
       {props.default && (
         <>
-          <div className='logoNew'>
-            <Link className='NavLogo_Link' to={`/`}>
+          <div className="logoNew">
+            <Link className="NavLogo_Link" to={`/`}>
               <img
-                className='Falcon_logo'
-                alt='logo'
+                className="Falcon_logo"
+                alt="logo"
                 src={
                   Active ? WhiteLogo : `${process.env.REACT_APP_MEDIA_URL}/uploads/images/logo.svg`
                 }
@@ -152,14 +149,13 @@ export default function NavBar(props) {
           <Tooltip
             title={
               language === 'fr' ? 'Change the Language to English' : 'Changer de langue en Français'
-            }
-          >
+            }>
             <div
-              id='CursorZoom'
+              id="CursorZoom"
               className={Active ? 'NavbarLanguageMenuDiv' : 'NavbarLanguageDiv'}
               style={{
                 background: Active ? '#003b7e' : '#f8f8f8',
-                boxShadow: Active ? '0px 15px 30px rgba(0, 0, 0, 0.1)' : 'none',
+                boxShadow: Active ? '0px 15px 30px rgba(0, 0, 0, 0.1)' : 'none'
               }}
               onClick={() => {
                 if (language === 'fr') {
@@ -167,22 +163,24 @@ export default function NavBar(props) {
                 } else {
                   i18n.changeLanguage('fr');
                 }
-              }}
-            >
-              <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} alt='flag' />
+              }}>
+              <img
+                className="NavbarLanguageFlag"
+                src={language === 'fr' ? USA : French}
+                alt="flag"
+              />
               <h2
-                className='NavbarLanguageName'
+                className="NavbarLanguageName"
                 style={{
-                  color: Active ? '#f8f8f8' : '#003b7e',
-                }}
-              >
+                  color: Active ? '#f8f8f8' : '#003b7e'
+                }}>
                 {t('FR')}
               </h2>
             </div>
           </Tooltip>
 
           <div
-            id='CursorZoom'
+            id="CursorZoom"
             className={Active ? 'change' : 'container'}
             // style={{ width: '50px', height: '30px', background: 'red' }}
             onClick={() => {
@@ -193,12 +191,11 @@ export default function NavBar(props) {
               } else {
                 document.body.style.overflow = 'visible';
               }
-            }}
-          >
-            <div className='bar1'></div>
-            <div className='bar2'></div>
-            <div className='bar3'>
-              <div className='abc'></div>
+            }}>
+            <div className="bar1"></div>
+            <div className="bar2"></div>
+            <div className="bar3">
+              <div className="abc"></div>
             </div>
           </div>
         </>
@@ -215,11 +212,11 @@ export default function NavBar(props) {
             />
           )} */}
           <div className={!Menu ? '*' : 'root'}>
-            <div className='logoNew'>
-              <Link className='NavLogo_Link' to={`/`}>
+            <div className="logoNew">
+              <Link className="NavLogo_Link" to={`/`}>
                 <img
-                  className='Falcon_logo'
-                  alt='logo'
+                  className="Falcon_logo"
+                  alt="logo"
                   // src={
                   //   Active
                   //     ? WhiteLogo
@@ -235,14 +232,13 @@ export default function NavBar(props) {
                 language === 'fr'
                   ? 'Change the Language to English'
                   : 'Changer de langue en Français'
-              }
-            >
+              }>
               <div
-                id='CursorZoom'
-                className='NavbarLanguageMenuDiv'
+                id="CursorZoom"
+                className="NavbarLanguageMenuDiv"
                 style={{
                   background: '#003b7e',
-                  boxShadow: '0px 15px 30px rgba(0, 0, 0, 0.1)',
+                  boxShadow: '0px 15px 30px rgba(0, 0, 0, 0.1)'
                 }}
                 onClick={() => {
                   if (language === 'fr') {
@@ -250,15 +246,17 @@ export default function NavBar(props) {
                   } else {
                     i18n.changeLanguage('fr');
                   }
-                }}
-              >
-                <img className='NavbarLanguageFlag' src={language === 'fr' ? USA : French} alt='flag' />
+                }}>
+                <img
+                  className="NavbarLanguageFlag"
+                  src={language === 'fr' ? USA : French}
+                  alt="flag"
+                />
                 <h2
-                  className='NavbarLanguageName'
+                  className="NavbarLanguageName"
                   style={{
-                    color: '#f8f8f8',
-                  }}
-                >
+                    color: '#f8f8f8'
+                  }}>
                   {t('FR')}
                 </h2>
               </div>
@@ -273,27 +271,23 @@ export default function NavBar(props) {
                 } else {
                   document.body.style.overflow = 'visible';
                 }
-              }}
-            >
+              }}>
               <div
-                className='bars1'
+                className="bars1"
                 style={{
-                  background: '#fff',
-                }}
-              ></div>
+                  background: '#fff'
+                }}></div>
               <div
-                className='bars2'
+                className="bars2"
                 style={{
-                  background: '#fff',
-                }}
-              ></div>
-              <div className='bars3'>
+                  background: '#fff'
+                }}></div>
+              <div className="bars3">
                 <div
-                  className='abcd'
+                  className="abcd"
                   style={{
-                    background: '#fff',
-                  }}
-                ></div>
+                    background: '#fff'
+                  }}></div>
               </div>
             </div>
           </div>
@@ -301,68 +295,65 @@ export default function NavBar(props) {
       )}
 
       {props.ContactUs && (
-        <Box className='NavBarBox' sx={{ flexGrow: 1 }}>
+        <Box className="NavBarBox" sx={{ flexGrow: 1 }}>
           <AppBar
-            className='AppBarBox'
-            position='fixed'
+            className="AppBarBox"
+            position="fixed"
             sx={{
               transition: '.5s',
               backgroundColor: position <= 970 ? 'transparent' : 'white',
               color: 'blue',
               padding: '0px 20px',
               // boxShadow: position <= 3 && 'none',
-              boxShadow: position <= 3 ? 'none' : '0px 4px 13px rgba(0, 0, 0, 0.1)',
-            }}
-          >
+              boxShadow: position <= 3 ? 'none' : '0px 4px 13px rgba(0, 0, 0, 0.1)'
+            }}>
             {Menu && (
               <AnimatePresence>
                 <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
               </AnimatePresence>
             )}
 
-            <Toolbar className='NavToolbar '></Toolbar>
+            <Toolbar className="NavToolbar"></Toolbar>
           </AppBar>
         </Box>
       )}
       {props.default && (
-        <Box className='NavBarBox' sx={{ flexGrow: 1 }}>
+        <Box className="NavBarBox" sx={{ flexGrow: 1 }}>
           <AppBar
-            className='AppBarBox'
-            position='fixed'
+            className="AppBarBox"
+            position="fixed"
             sx={{
               backgroundColor: 'white',
               padding: '0px 20px',
               // boxShadow: position <= 3 && 'none',
-              boxShadow: position <= 3 ? 'none' : '0px 4px 13px rgba(0, 0, 0, 0.1)',
-            }}
-          >
+              boxShadow: position <= 3 ? 'none' : '0px 4px 13px rgba(0, 0, 0, 0.1)'
+            }}>
             {Menu && (
               <AnimatePresence>
                 <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
               </AnimatePresence>
             )}
-            <Toolbar className='NavToolbar '></Toolbar>
+            <Toolbar className="NavToolbar"></Toolbar>
           </AppBar>
         </Box>
       )}
       {props.transparent && (
-        <Box className='NavBarBox' sx={{ flexGrow: 1 }}>
+        <Box className="NavBarBox" sx={{ flexGrow: 1 }}>
           <AppBar
-            className='AppBarBox'
-            position='fixed'
+            className="AppBarBox"
+            position="fixed"
             sx={{
               backgroundColor: position <= 3 ? 'transparent' : '#003B7E',
               padding: '0px 20px',
               // boxShadow: position <= 3 && 'none',
-              boxShadow: position <= 3 ? 'none' : '0px 4px 13px rgba(0, 0, 0, 0.1)',
-            }}
-          >
+              boxShadow: position <= 3 ? 'none' : '0px 4px 13px rgba(0, 0, 0, 0.1)'
+            }}>
             {Menu && (
               <AnimatePresence>
                 <NavBarMenu Menu={Menu} SetMenu={SetMenu} />
               </AnimatePresence>
             )}
-            <Toolbar className='NavToolbar '></Toolbar>
+            <Toolbar className="NavToolbar"></Toolbar>
           </AppBar>
         </Box>
       )}

@@ -10,9 +10,8 @@ export default function SectionHeader(props) {
       {props.WorkProcess ? (
         <motion.div className={props.LeftSectionHeader ? 'LeftSectionHeader' : 'SectionHeaderTypo'}>
           <h4
-            className='SectionHeaderDesp'
-            style={{ color: props.colorDesp ? props.colorDesp : '#fff' }}
-          >
+            className="SectionHeaderDesp"
+            style={{ color: props.colorDesp ? props.colorDesp : '#fff' }}>
             {t(props.decription)}
           </h4>
           <Divider
@@ -20,25 +19,23 @@ export default function SectionHeader(props) {
             className={props.SectionHeaderMargin ? 'SectionHeaderMargin' : 'SectionHeaderDivider'}
             width={props.width || '10%'}
             sx={{
-              backgroundColor: '#42C2FF',
+              backgroundColor: '#42C2FF'
             }}
           />
           <h2
-            className='SectionHeaderH1'
+            className="SectionHeaderH1_WP"
             style={{
               color: props.colorH1 ? props.colorH1 : '#fff',
               width: '30%',
               fontWeight: '600',
-              fontSize: '1.5rem',
-            }}
-          >
+              fontSize: '1.5rem'
+            }}>
             {t(props.h1)}
           </h2>
 
           <h2
-            className='SectionHeaderH2'
-            style={{ color: props.colorH2 ? props.colorH2 : '#003B7E' }}
-          >
+            className="SectionHeaderH2"
+            style={{ color: props.colorH2 ? props.colorH2 : '#003B7E' }}>
             {t(props.h2)}
           </h2>
         </motion.div>
@@ -50,7 +47,7 @@ export default function SectionHeader(props) {
           // transition={{ duration: 1 }}
           // viewport={{ once: true }}
         >
-          <h2 className='SectionHeaderH1' color={props.colorH1 || '#42C2FF'}>
+          <h2 className="SectionHeaderH1" color={props.colorH1 || '#42C2FF'}>
             {t(props.h1)}
           </h2>
           <Divider
@@ -58,17 +55,15 @@ export default function SectionHeader(props) {
             width={props.width || '10%'}
           />
           <h2
-            className='SectionHeaderH2'
-            style={{ color: props.colorH2 ? props.colorH2 : '#003B7E' }}
-          >
+            className="SectionHeaderH2"
+            style={{ color: props.colorH2 ? props.colorH2 : '#003B7E' }}>
             {t(props.h2)}
           </h2>
           <h3
-            className='SectionHeaderDesp'
+            className="SectionHeaderDesp"
             style={{ color: props.colorDesp ? props.colorDesp : '#404040B2' }}
             // color={props.colorDesp || '#404040B2'}
-            width={props.despWidth}
-          >
+            width={props.despWidth}>
             {t(props.decription)}
           </h3>
         </div>
