@@ -70,45 +70,16 @@ export default function BlogHeader(props) {
         transition={{ duration: 1 }}
         viewport={{ once: true }}
         className="BlogHeaderMain">
-        <h1
-          className="BlogHeaderTypo"
-          style={{ color: '#263238', fontSize: '1.7rem', fontWeight: '800' }}>
-          FALCON <span style={{ color: '#0F52BA' }}>BLOG</span>
+        <h1 className="BlogHeaderHeading">
+          FALCON <span>BLOG</span>
         </h1>
-        <Typography
-          className="BlogHeaderTypo"
-          sx={{
-            color: '#263238',
-            fontSize: '1.1rem',
-            fontWeight: '500',
-            width: '35%',
-            margin: '.5% 0%'
-          }}>
-          {t('Always looking into improving ourselves.')}
-        </Typography>
-        <Typography
-          className="BlogHeaderTypo"
-          sx={{
-            color: '#263238',
-            fontSize: '1rem',
-            fontWeight: '400',
-            width: '30%'
-          }}>
+        <div className="BlogHeaderSubHeading">{t('Always looking into improving ourselves.')}</div>
+        <div className="BlogHeaderDesp">
           {t(
             'The articles written below by our team reflect our values and expertize when it comes to collaborating in mid-size and big projects.'
           )}
-        </Typography>
-        <div
-          className="BlogHeaderInput"
-          style={{
-            width: '40%',
-            border: '1px solid rgb(235, 233, 233)',
-            boxShadow: '0px 4px 23px rgba(0, 0, 0, 0.1)',
-            borderRadius: '35px',
-            display: 'flex',
-            height: '12%',
-            marginTop: '1%'
-          }}>
+        </div>
+        <div className="BlogHeaderInput">
           <form
             autocomplete="off"
             style={{

@@ -1,112 +1,108 @@
-.DetailFeedback_container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 5% 0;
+.DetailFeedback_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
 }
-.DetailFeedback_Div{
-    width: 40%;
+.DetailFeedback_Div {
+  width: 40%;
 }
-.DetailFeedback_TitleDiv{
-    display: flex; 
-    align-items: center;
+.DetailFeedback_TitleDiv {
+  display: flex;
+  align-items: center;
 }
-.DetailFeedback_TitleDivider{
-    width: 15%; 
-    height: 2px; 
-    margin-right: 2% !important;
+.DetailFeedback_TitleDivider {
+  width: 15%;
+  height: 2px;
+  margin-right: 2% !important;
 }
-.DetailFeedback_Title{
-    font-weight: 700 !important; 
-    font-size: 1.5rem !important;
+.DetailFeedback_Title {
+  font-weight: 700 !important;
+  font-size: 1.5rem !important;
 }
-.DetailFeedback_DespDiv{
-    margin: 5% 0;
+.DetailFeedback_DespDiv {
+  margin: 5% 0;
 }
-.DetailFeedback_Desp{
-    font-weight: 400 !important;
-    margin-top: 1.5%;
+.DetailFeedback_Desp {
+  font-weight: 400 !important;
+  margin-top: 1.5%;
+  text-align: justify;
 }
-.DetailFeedback_ClientContainer{
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
+.DetailFeedback_ClientContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
-.DetailFeedback_ClientDiv{
-     width: 40%;
-     display: flex;
-     justify-content: flex-end;
+.DetailFeedback_ClientDiv {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
 }
-.DetailFeedback_AvatarDiv{
-        display: flex;
-        width: 100%;
-        padding: 2% 0;
-        align-items: center;
+.DetailFeedback_AvatarDiv {
+  display: flex;
+  width: 100%;
+  padding: 2% 0;
+  align-items: center;
 }
-.DetailFeedback_Avatar{
-    width: 30% !important;
-    height: 100% !important;
-
+.DetailFeedback_Avatar {
+  width: 30% !important;
+  height: 100% !important;
 }
-.DetailFeedback_NameDiv{
-    width: 100%;
-    padding-left: 5%;
-  }
-  .DetailFeedback_Name{
-    font-size: 100% !important;
-    font-weight: 700 !important;
+.DetailFeedback_NameDiv {
+  width: 100%;
+  padding-left: 5%;
 }
-.DetailFeedback_Location{
-        opacity: .8;
-        font-weight: 500;
+.DetailFeedback_Name {
+  font-size: 100% !important;
+  font-weight: 700 !important;
+}
+.DetailFeedback_Location {
+  opacity: 0.8;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 1200px) {
-    .DetailFeedback_Div{
-        width: 50%;
-    }
-    .DetailFeedback_ClientDiv{
-        width: 50%;
-   }
+  .DetailFeedback_Div {
+    width: 50%;
+  }
+  .DetailFeedback_ClientDiv {
+    width: 50%;
+  }
 }
 @media only screen and (max-width: 900px) {
-    .DetailFeedback_Div{
-        width: 60%;
-    }
-    .DetailFeedback_Desp{
-        font-size: 1rem !important;
-    }
-  
+  .DetailFeedback_Div {
+    width: 60%;
+  }
+  .DetailFeedback_Desp {
+    font-size: 1rem !important;
+  }
 }
 @media only screen and (max-width: 600px) {
-    .DetailFeedback_Div{
-        width: 70%;
-    }
-    /* .DetailFeedback_Desp{
+  .DetailFeedback_Div {
+    width: 70%;
+  }
+  /* .DetailFeedback_Desp{
         font-size: .9rem !important;
     } */
-    .DetailFeedback_ClientDiv{
-        width: 60%;
-   }
-   .DetailFeedback_Avatar{
-       width:30% !important;
-   }
+  .DetailFeedback_ClientDiv {
+    width: 60%;
+  }
+  .DetailFeedback_Avatar {
+    width: 30% !important;
+  }
 }
 @media only screen and (max-width: 480px) {
-    .DetailFeedback_ClientDiv{
-        width: 70%;
-   }
-
+  .DetailFeedback_ClientDiv {
+    width: 70%;
+  }
 }
 @media only screen and (max-width: 480px) {
-    .DetailFeedback_ClientDiv{
-        width: 70%;
-   }
-
+  .DetailFeedback_ClientDiv {
+    width: 70%;
+  }
 }
 @media only screen and (max-width: 320px) {
-    .DetailFeedback_ClientDiv{
-        width: 80%;
-   }
-
+  .DetailFeedback_ClientDiv {
+    width: 80%;
+  }
 }

@@ -1,33 +1,32 @@
-.DetailAppDev_Container{
-    width: 100%; 
-    padding: 5%;
+.DetailAppDev_Container {
+  width: 100%;
+  padding: 5%;
 }
-.DetailAppDev_TitleDiv{
-   display: flex; 
-   align-items: center;
+.DetailAppDev_TitleDiv {
+  display: flex;
+  align-items: center;
 }
-.DetailAppDev_TitleDivider{
-   width: 7%; 
-   height: 2px; 
-   margin-right: 1% !important;
+.DetailAppDev_TitleDivider {
+  width: 7%;
+  height: 2px;
+  margin-right: 1% !important;
 }
-.DetailAppDev_Title{
-   font-weight: 700 !important; 
-   font-size: 1.5rem !important;
+.DetailAppDev_Title {
+  font-weight: 700 !important;
+  font-size: 1.5rem !important;
 }
-.DetailAppDev_Desp{
-   font-weight: 500 !important; 
-   margin-top: 1.5% !important; 
-   font-size: 1.1rem !important;
+.DetailAppDev_Desp {
+  font-weight: 500 !important;
+  margin-top: 1.5% !important;
+  font-size: 1.1rem !important;
+  text-align: justify;
 }
-.DetailAppDev_Img{
-    width: 100%;
-
+.DetailAppDev_Img {
+  width: 100%;
 }
-.DetailAppDev_ImgDiv{
-   margin-top: 5%;
+.DetailAppDev_ImgDiv {
+  margin-top: 5%;
 }
-.HalfImg{
-   padding:2%;
-
+.HalfImg {
+  padding: 2%;
 }

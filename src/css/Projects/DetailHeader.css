@@ -54,6 +54,7 @@
 .DetailHeader_Desp {
   color: #f8f8f8;
   font-family: Raleway;
+  text-align: justify;
 }
 .DetailHeader_BottomDiv {
   width: 100%;
