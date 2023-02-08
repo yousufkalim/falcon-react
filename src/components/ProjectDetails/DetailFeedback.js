@@ -32,7 +32,7 @@ export default function DetailFeedback(props) {
               <Typography className="DetailFeedback_Desp" color={props.despTheme || '#fff'}>
                 {t(
                   props.desp1 ||
-                    'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself actual teachings of the great explorer of the truth, the master-builder of human happiness.'
+                    'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself actual teachings of the great explorer of the truth, the master-builder of human happiness.....'
                 )}
               </Typography>
               <Typography className="DetailFeedback_Desp" color={props.despTheme || '#fff'}>
@@ -50,7 +50,7 @@ export default function DetailFeedback(props) {
                     <Typography
                       className="DetailFeedback_Location"
                       color={props.despTheme || '#fff'}>
-                      {props.location || 'France'}
+                      {props.location || 'Chicago'}
                     </Typography>
                   </div>
                 </div>

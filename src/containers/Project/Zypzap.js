@@ -59,7 +59,7 @@ export default function Zypzap() {
         // desp=""
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/overview_quadraAvatar.png`}
         nameColor="linear-gradient(269.14deg, #20BF55 0%, #25B058 0.01%, #522F6D 82.32%)"
-        name="Valentin L."
+        name="Catastrophic…."
         // location="France"
         // src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ov_zypzap.png`}
         src={Zypzap_Overview}
@@ -150,7 +150,7 @@ export default function Zypzap() {
         ThemeBG="linear-gradient(261.67deg, #20BF55 -0.52%, #522F6D 65.51%)"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         // AvatarSrc={Kidcab_Avatar}
-        name="Valentin L."
+        name="Catastrophic…."
       />
       <DetailMoreProjects />
 
