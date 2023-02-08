@@ -49,7 +49,7 @@ export default function DetailOverview(props) {
                     {props.name}
                   </Typography>
                   <Typography className='DetailOverview_Location'>
-                    {props.location || 'France'}
+                    {props.location || 'Chicago'}
                   </Typography>
                 </div>
               </div>
