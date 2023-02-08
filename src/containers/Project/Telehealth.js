@@ -103,7 +103,7 @@ export default function Telehealth() {
       />
 
       <DetailTheme
-        // desp
+        desp="The primary hue was requested by the client, and Falcon supplemented it with secondary shades to form a pleasing overall effect."
         // centerImage
         // src
         // Images

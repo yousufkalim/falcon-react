@@ -2641,11 +2641,13 @@ i18n
           'The team worked hard and took into consideration all my feedbacks in order to get the mobile application I wanted.':
             'The team worked hard and took into consideration all my feedbacks in order to get the mobile application I wanted.',
           'Very smooth process, with a design phase first in order to see and validate the visual aspects first. Good job !':
-            'Very smooth process, with a design phase first in order to see and validate the visual aspects first. Good job !'
+            'Very smooth process, with a design phase first in order to see and validate the visual aspects first. Good job !',
+            "The primary hue was requested by the client, and Falcon supplemented it with secondary shades to form a pleasing overall effect.":"The primary hue was requested by the client, and Falcon supplemented it with secondary shades to form a pleasing overall effect."
         }
       },
       fr: {
         translations: {
+          "The primary hue was requested by the client, and Falcon supplemented it with secondary shades to form a pleasing overall effect.":"La teinte primaire a été demandée par le client, et Falcon l'a complétée avec des teintes secondaires pour former un effet global agréable.",
           // RegisterRH Client feedback
           'Falcon’s team was very reliant, and considered all the changes of scopes that we had, in order to adapt best to the market and my client’s feedback. These are people we can trust !':
             'L’équipe Falcon est très résiliente, et m’a accompagné jusqu’à ce que le projet soit une réussite. Nous avons dû faire preuve de beaucoup d’adaptabilité pour répondre au feedback des prospects. Équipe sur laquelle nous pouvons compter !',
