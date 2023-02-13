@@ -50,7 +50,7 @@ export default function DetailFeedback(props) {
                     <Typography
                       className="DetailFeedback_Location"
                       color={props.despTheme || '#fff'}>
-                      {props.location || 'Chicago'}
+                      {props.location || 'Paris'}
                     </Typography>
                   </div>
                 </div>
