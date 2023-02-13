@@ -52,7 +52,7 @@ export default function Telehealth() {
       <DetailOverview
         // desp
         desp="The health startup, based in Chicago and specialized in remote consultation, worked with several agencies in order to realize their project. Not satisfied by the previous results, they reached out to Falcon, who realized a project MVP to prove the technical feasibility of this cutting-edge project, and allowing the client to raise money for the development of the complete platform. The platform is developed in Web and mobile application."
-        // location
+        location="Chicago"
         titleTheme="#FBA622"
         // AvatarSrc={Kidcab_Avatar}
         nameColor="#FBA622"
@@ -135,8 +135,9 @@ export default function Telehealth() {
       <DetailFeedback
         // titleTheme
         // despTheme
+
         desp="This was a very challenging project, and to be honest, we were uncertain whether it was even technically possible. In the past, we reached out to another offshore company for a first version, which did cost us more than $100k, even though the final result was not user friendly. When we met with Falcon, they were confident to be able to do a better and more efficient project, as an MVP as a start. It was not an easy project, but they did show a lot of commitment and they finally made it successfully. Great job guys !"
-        // location
+        location="Chicago"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         ThemeBG="#FBA622"
         // AvatarSrc={Kidcab_Avatar}
