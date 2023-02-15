@@ -11,7 +11,7 @@ import DetailDesign from '../../components/ProjectDetails/DetailDesign';
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
-import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
+// import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
 import Footer from '../../components/Common/Footer';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
@@ -135,7 +135,7 @@ export default function EZbox() {
         titleTheme="#454238"
         // fullImg=(src Required)
       />
-      <DetailFeedback
+      {/* <DetailFeedback
         // titleTheme
         // despTheme
         desp="Falcon IT is a great company to work with as they are always responsive and willing to do what it takes to get the job done right and in a timely manner. They are very reliable and it was very clear during working that they are the right choice. Thank you, Falcon IT!"
@@ -143,7 +143,7 @@ export default function EZbox() {
         ThemeBG="#3399FE"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name="Eassa Awake"
-      />
+      /> */}
       <DetailMoreProjects />
 
       <Footer />
