@@ -144,7 +144,7 @@ export default function RealEstate() {
       <DetailFeedback
         // titleTheme
         // despTheme
-        desp="We were pleased with Falcon IT and the overall development process of our website. Our website has transformed the image of our firm and is the key introductory point for new and potential clients. Thanks for a job well done!"
+        desp1="I especially liked the fact that Falcon was able to make this project real, from a simple idea that I had. We had several coordination meetings and at the end, I was able to sell this app to my clients !"
         // location
         ThemeBG="#837C6B"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}

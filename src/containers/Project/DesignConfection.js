@@ -147,6 +147,7 @@ export default function DesignConfection() {
         <DetailFeedback
           // titleTheme
           // despTheme
+          location=" Lyon, France"
           desp="I contacted Falcon IT with a basic feel I wanted in a website. They developed the best of Design Confection, the overall website visual layout, and the content too. Falcon’s services are a bargain when you weigh the cost versus the product you received. I will be using them again in future endeavors. Thanks again!"
           // location
           ThemeBG="#CC8E9C"

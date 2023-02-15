@@ -7,7 +7,7 @@ import DetailHeader from '../../components/ProjectDetails/DetailHeader';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
 import DetailService from '../../components/ProjectDetails/DetailService';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+// import DetailDesign from '../../components/ProjectDetails/DetailDesign';
 import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
@@ -83,10 +83,10 @@ export default function Sindoor() {
         theme="#E45A5A"
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_demo.png`}
       />
-      <DetailDesign
+      {/* <DetailDesign
         titleTheme="#E45A5A"
-        title="APP UI DESIGN"
-        // // overlap
+        title="APP UI DESIGN" */}
+      {/* // // overlap
         // TopImg={Sindoor_Design1}
         // MidImg={Sindoor_Design2}
         // BottomImg={Sindoor_Design3}
@@ -104,7 +104,7 @@ export default function Sindoor() {
         // src5
         // src6
         // overlap
-      />
+      /> */}
 
       <DetailTheme
         // desp

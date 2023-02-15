@@ -151,8 +151,8 @@ export default function Kidcab() {
       <DetailFeedback
         // titleTheme
         // despTheme
-        desp="Expertise and systematic approach to fulfilling client needs. I love the energy and excitement the Falcon IT team exhibits towards the success of my APP."
-        // location
+        desp1="Responsive team, able to go to the end and adapt to new requirements."
+        location="Suresnes, France"
         ThemeBG="#18374E"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name="Maxime Chevallier"

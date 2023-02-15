@@ -70,7 +70,8 @@ export default function Quadrabase() {
       />
 
       <DetailDemo
-        to="https://quadrabase-demo.web.app/auth/home"
+        // to="https://quadrabase-demo.web.app/auth/home"
+        to="https://quadrabase.fr/auth/home"
         // to='https://www.quadrabase.fr'
         titleColor="#FF8616"
         title="Quadrabase"

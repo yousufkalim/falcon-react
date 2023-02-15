@@ -17,7 +17,7 @@ import { useTranslation } from 'react-i18next';
 import ZypzapService from '../../assets/images/zypzap_detailservice.svg';
 import ZypzapService_fr from '../../assets/images/zypzap_detailservice_fr.svg';
 import Zypzap_Overview from '../../assets/images/detail_zypzap_overview.svg';
-import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
+// import DetailMoreProjects from '../../components/ProjectDetails/DetailMoreProjects';
 
 // Home Component
 export default function Zypzap() {
@@ -142,7 +142,7 @@ export default function Zypzap() {
         titleTheme="#000000"
         // halfImg={Zypzap_WebDesign}
       />
-      <DetailFeedback
+      {/* <DetailFeedback
         // titleTheme="#3675B7"
         // despTheme="#282828"
         desp="Quick response to ideas and changes. Falcon always answers the right ways and ideas"
@@ -152,7 +152,7 @@ export default function Zypzap() {
         // AvatarSrc={Kidcab_Avatar}
         name="Catastrophic…."
       />
-      <DetailMoreProjects />
+      <DetailMoreProjects /> */}
 
       <Footer />
     </div>

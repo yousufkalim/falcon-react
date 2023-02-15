@@ -151,8 +151,8 @@ export default function Tilt() {
       <DetailFeedback
         // titleTheme="#9D936D"
         // despTheme="#282828"
-        desp="Falcon IT excels at turning your website dreams into reality. We are so proud of the work they have done for us that we have already recommended them to many of Our partners and we are very thankful to them."
-        // location
+        desp1="We started to work together since 2019, and since then, it is just ongoing ! I really appreciate when the Project Manager challenges my ideas and tells me how to achieve the expectations with a minimum effort."
+        location="Martinique, France"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         ThemeBG="#D3014A"
         // AvatarSrc={Kidcab_Avatar}

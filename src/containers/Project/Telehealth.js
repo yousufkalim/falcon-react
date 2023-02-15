@@ -135,8 +135,8 @@ export default function Telehealth() {
       <DetailFeedback
         // titleTheme
         // despTheme
-
-        desp="This was a very challenging project, and to be honest, we were uncertain whether it was even technically possible. In the past, we reached out to another offshore company for a first version, which did cost us more than $100k, even though the final result was not user friendly. When we met with Falcon, they were confident to be able to do a better and more efficient project, as an MVP as a start. It was not an easy project, but they did show a lot of commitment and they finally made it successfully. Great job guys !"
+        desp1="The MVP was necessary in order to prove the feasibility of the concept, as this is a project never done by any other company, and requiring some advanced skills in motion detection and video processing. Falcon was able to complete it just on time (even though it required them to work on the last week-end to meet the deadline). We were able to raise funds for the bigger project, which is ongoing with Falcon."
+        // desp="This was a very challenging project, and to be honest, we were uncertain whether it was even technically possible. In the past, we reached out to another offshore company for a first version, which did cost us more than $100k, even though the final result was not user friendly. When we met with Falcon, they were confident to be able to do a better and more efficient project, as an MVP as a start. It was not an easy project, but they did show a lot of commitment and they finally made it successfully. Great job guys !"
         location="Chicago"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         ThemeBG="#FBA622"

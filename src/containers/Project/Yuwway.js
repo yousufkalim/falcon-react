@@ -7,8 +7,8 @@ import DetailHeader from '../../components/ProjectDetails/DetailHeader';
 import DetailOverview from '../../components/ProjectDetails/DetailOverview';
 import DetailService from '../../components/ProjectDetails/DetailService';
 import DetailDemo from '../../components/ProjectDetails/DetailDemo';
-import DetailDesign from '../../components/ProjectDetails/DetailDesign';
-import DetailTheme from '../../components/ProjectDetails/DetailTheme';
+// import DetailDesign from '../../components/ProjectDetails/DetailDesign';
+// import DetailTheme from '../../components/ProjectDetails/DetailTheme';
 import DetailLogo from '../../components/ProjectDetails/DetailLogo';
 import DetailAppDev from '../../components/ProjectDetails/DetailAppDev';
 import DetailFeedback from '../../components/ProjectDetails/DetailFeedback';
@@ -84,31 +84,31 @@ export default function Yuwway() {
         theme="#0073BB"
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_demo.png`}
       />
-      <DetailDesign
-        titleTheme="#0073BB"
+      {/* <DetailDesign */}
+      {/* titleTheme="#0073BB"
         title="APP UI DESIGN"
         // overlap
         // TopImg={Yuwway_Design1}
         // MidImg={Yuwway_Design2}
         // BottomImg={Yuwway_Design3}
-        grids
-        src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
+        grids */}
+      {/* src1={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
         src2={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
         src3={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_4.png`}
         src4={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_1.png`}
         src5={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_2.png`}
         src6={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_design_3.png`}
-        // src1
-        // src2
+        // src1 */}
+      {/* // src2
         // src3
         // src4
         // src5
         // src6
         // overlap
-      />
+      // /> */}
 
-      <DetailTheme
-        // desp
+      {/* <DetailTheme */}
+      {/* // desp
         // centerImage
         // src
         // Images
@@ -116,19 +116,19 @@ export default function Yuwway() {
         // src2={OrgaPlan_Theme}
         // src3={EZbox_Theme3}
         // fullscreen
-        title="COLOR THEME"
-        titleTheme="#0073BB"
+        // title="COLOR THEME"
+        // titleTheme="#0073BB"
         // desp
-        Theme1="#0073BB"
-        Theme2="#FAFAFA"
-        Theme3="#191A1F"
-        Theme4="#575961"
+        // Theme1="#0073BB"
+        // Theme2="#FAFAFA"
+        // Theme3="#191A1F"
+        // Theme4="#575961"
         // Theme5="#00000040"
         // Theme6=""
         // Theme7=""
         // Theme7={`${linear-gradient (180deg, #E9A454 39.58%, rgba(0, 0, 0, 0) 100%), #A0A0A0;}`}
         // src={OrgaPlan_Theme}
-      />
+      // /> */}
       <DetailLogo
         theme="#0073BB"
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_yuwway_logo.png`}
@@ -144,7 +144,7 @@ export default function Yuwway() {
       <DetailFeedback
         // titleTheme="#9D936D"
         // despTheme="#282828"
-        // desp
+        desp1="Falcon did a tremendous work for Yuwway !! I was in charge of the backend while they covered the frontend and the integration. They adapted to my availabilities, and we worked as a team to launch the project. Good job guys !"
         // location
         ThemeBG="#0073BB"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}

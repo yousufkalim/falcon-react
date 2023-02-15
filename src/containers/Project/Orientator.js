@@ -145,7 +145,8 @@ export default function Orientator() {
       <DetailFeedback
         // titleTheme="#FF29AA"
         // despTheme="#282828"
-        desp="Falcon IT has done a great job of creating exactly what I wanted. Easy to work with and very responsive. They met all of my expectations. Thank you!"
+        desp1="Falcon was very responsive and made sure to complete the project as per our requirement. At first, we had a concept in our mind, and thanks to Falcon, we were able to put this in a paper and have it take shape. We are working with this team on ongoing projects."
+        // desp1="Falcon IT has done a great job of creating exactly what I wanted. Easy to work with and very responsive. They met all of my expectations. Thank you!"
         // location
         ThemeBG="linear-gradient(269.14deg, #BE9400 0%, #CB4B03 48.96%, #8B0054 100%)"
         // AvatarSrc={Kidcab_Avatar}
