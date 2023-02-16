@@ -95,6 +95,7 @@ export default function DesignConfection() {
         <DetailDesign
           titleTheme="#282828"
           title="UI DESIGN"
+          desp="This web app simplifies the process of getting a custom dress. Users register and add dress details, then post ads for designers to bid on. Over 100 designers with high accuracy ratings compete, and users can choose the best fit for their needs and budget. The interface is clean and intuitive, with tools to simplify file sharing and communication. The design is focused on the user, ensuring a hassle-free experience. Customers have control over the process and can easily get the dress of their dreams. Overall, this app provides a transparent and user-friendly experience, from registration to delivery."
           // overlap
           // TopImg={DC_Design1}
           // MidImg={DC_Design2}
@@ -111,7 +112,7 @@ export default function DesignConfection() {
         />
 
         <DetailTheme
-          // desp
+          desp="The combination of black, shades of pink, grey, and white creates a well-rounded color theme that conveys the refinement and playfulness of the app's design. It also aligns with the app's purpose of providing custom dress designs to customers in a stylish and modern way. These shades bring a sense of modernity and professionalism to the overall look and feel of the app. We've also used white to balance the color palette, creating a clean and minimalist look."
           // centerImage
           // src
           // Images
@@ -139,7 +140,7 @@ export default function DesignConfection() {
         <DetailAppDev
           website
           title="WEB DEVELOPMENT"
-          // desp
+          desp="After analyzing the business idea for Design Confection, we began the development phase with a clear and precise project plan. However, our development team faced challenges in incorporating continuous feature and design changes. Despite this, we successfully managed to complete the project on time thanks to our diverse talents. The development process included front-end and back-end development, quality assurance, and changes/error fixes. Our UI designers utilized Figma and Adobe to create mockups for the site, and client meetings were a top priority for feedback. Throughout the process, we focused on the client's requirements and resource limitations, optimizing the flow of data exchanges to minimize operating costs. As a result, end users can receive their customized creations within their budget."
           // halfImg (src Required)
           titleTheme="#282828"
           fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_dc_webdesign.png`}
@@ -148,7 +149,7 @@ export default function DesignConfection() {
           // titleTheme
           // despTheme
           location=" Lyon, France"
-          desp="I contacted Falcon IT with a basic feel I wanted in a website. They developed the best of Design Confection, the overall website visual layout, and the content too. Falcon’s services are a bargain when you weigh the cost versus the product you received. I will be using them again in future endeavors. Thanks again!"
+          desp1="Their commitment to the project was evident through effective collaboration, clear communication, and prioritizing our needs. Achieved objectives happily."
           // location
           ThemeBG="#CC8E9C"
           AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}

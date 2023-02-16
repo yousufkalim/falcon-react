@@ -86,6 +86,7 @@ export default function Tilt() {
       <DetailDesign
         titleTheme="#282828"
         title="APP UI DESIGN"
+        desp="Our design has an intuitive, user-friendly interface for restaurant, corporate, and delivery users, allowing customers to quickly order, mix dishes, and save on delivery fees. Users will receive real-time notifications and rate their experience. Restaurant-side will manage menus, incoming orders, and order status, while delivery drivers will inform users with push notifications. Using a consistent design system and user research, we conducted usability testing to optimize the experience. Expect increased user satisfaction, boosted usage, and overall platform success."
         // overlap
         // TopImg={Tilt_Design1}
         // MidImg={Tilt_Design2}
@@ -107,7 +108,7 @@ export default function Tilt() {
       />
 
       <DetailTheme
-        // desp
+        desp="Pink added liveliness, white brought cleanliness and sophistication. Black and grey complemented, creating a cohesive, modern aesthetic and trustworthiness. High contrast and accessibility were prioritized for a visually appealing, user-friendly color scheme that enhanced the experience."
         // centerImage
         // src
         // Images
@@ -135,7 +136,7 @@ export default function Tilt() {
       <DetailAppDev
         application
         title="MOBILE APP DEVELOPMENT"
-        // desp
+        desp="The front-end team worked on developing a user-friendly interface that enabled customers to easily place orders, while the back-end team focused on creating a robust system that handled orders from multiple restaurants and delivery drivers. The mobile development team worked on the development of the mobile platform, ensuring a consistent user experience across all devices.The quality assurance team conducted rigorous testing to ensure the platform was stable, secure, and free from bugs. The platform was launched successfully, meeting all the client's requirements and providing an easy-to-use solution for customers, restaurants, and delivery drivers."
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_appdesign.png`}
         titleTheme="#282828"
         // halfImg=(src Required)
@@ -143,7 +144,7 @@ export default function Tilt() {
       <DetailAppDev
         website
         title="WEB DEVELOPMENT"
-        // desp
+        desp="Regular client meetings were held throughout the project to ensure that the product was meeting their expectations. The client provided valuable feedback that was taken into account during the development process, resulting in a final product that met their needs and requirements. Proper integration with the mobile application was performed under highly experience developers to ensure the smoothness of work and to avoid any conflicts and errors, . The platform was launched successfully, meeting all the client's requirements and providing an easy-to-use solution for customers, restaurants, and delivery drivers. Overall, the project was a success, meeting the client's expectations and providing a valuable service to the end-users. and finally regression testing and final product's overall testing was performed at the end too."
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/tilt_webdesign.png`}
         titleTheme="#282828"
         // halfImg=(src Required)
@@ -152,11 +153,11 @@ export default function Tilt() {
         // titleTheme="#9D936D"
         // despTheme="#282828"
         desp1="We started to work together since 2019, and since then, it is just ongoing ! I really appreciate when the Project Manager challenges my ideas and tells me how to achieve the expectations with a minimum effort."
-        location="Martinique, France"
+        location="Martinique, Fr"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}
         ThemeBG="#D3014A"
         // AvatarSrc={Kidcab_Avatar}
-        name="Laurent Louis-Henry"
+        name="Laurent Louis"
       />
       <DetailMoreProjects />
 

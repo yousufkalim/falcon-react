@@ -136,7 +136,7 @@ export default function Yuwway() {
       <DetailAppDev
         application
         title="MOBILE APP DEVELOPMENT"
-        // desp
+        desp="The project was divided into various phases under the supervision of project managers. This included front-end and back-end development, as well as quality assurance testing. Each team was assigned a specific timeframe to meet the overall project timeline. The V-model agile development method was employed to ensure that each module was developed and tested before moving on to the next phase. The project began with the development and testing of the user interface. Once the design was complete, the back-end developers implemented the necessary functionality. Verification and validation testing was then conducted to ensure that the requirements were met and that the product was being developed correctly. Weekly meetings with the client were held to obtain feedback and input, and any required changes were implemented within the given time frame. Unit testing, regression testing, and performance testing were performed to guarantee that the app produced accurate and precise results."
         // fullImg={Yuwway_AppDesign}
         titleTheme="#0073BB"
         halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/yuwway_appdesign.png`}

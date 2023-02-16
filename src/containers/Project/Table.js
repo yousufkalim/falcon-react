@@ -89,6 +89,7 @@ export default function Table() {
       <DetailDesign
         titleTheme="#D60000"
         title="APP UI DESIGN"
+        desp="The UI/UX design has been implemented for this project, featuring visually appealing and consistent branding for the restaurant, as well as an intuitive and easy-to-navigate interface. The restaurant app's UI provides clear information about incoming orders and facilitates efficient order management, including easy order editing, order status updates, and quick access to customer information. Similarly, the customer app prioritizes ease of use with clear and attractive menu displays, easy-to-use filters, and seamless ordering and payment processes. The chat feature has been made easily accessible to enable clear communication between customers and restaurant staff. The app has been optimized for different screen sizes and orientations, ensuring a smooth user experience on all devices."
         // overlap
         // TopImg={RealEstate_Design1}
         // MidImg={RealEstate_Design2}
@@ -110,7 +111,7 @@ export default function Table() {
       />
 
       <DetailTheme
-        // desp
+        desp="These colors have been used to create a modern and stylish look for the apps. The red color has been used to draw attention to important elements such as buttons, alerts, and notifications. The yellow color has been used sparingly to add contrast and vibrancy to the UI, particularly in the logo and branding elements. The white color has been used as the primary background color, giving the UI a clean and minimalist feel. The black and grey colors have been used for text, icons, and other UI elements, creating a sophisticated and professional look. Overall, the color theme has been designed to create a visually appealing and user-friendly UI, while also conveying a sense of professionalism and quality associated with a restaurant."
         // centerImage
         // src
         // Images
@@ -138,7 +139,7 @@ export default function Table() {
       <DetailAppDev
         application
         title="MOBILE APP DEVELOPMENT"
-        // desp
+        desp=" The project began with planning, where the project management team collaborated with the client to understand their requirements and goals. They then created a plan that included timelines, milestones, and resource allocation. The front end team then worked on designing the user interface for both the restaurant and customer apps, taking into account the branding and visual appeal, which was approved by the client before moving forward. The back end team built the server-side logic and APIs, while the mobile development team developed the restaurant and customer apps, with regular code reviews and testing. The Quality Assurance team conducted thorough testing of the app on multiple devices to identify any bugs, issues or glitches. Once all issues were resolved, the app was submitted for final client review. The final version of the app was deployed to the relevant app stores for public use. Throughout the process, the teams collaborated and communicated effectively to ensure the project was completed according to the client's requirements and expectations."
         // fullImg={Table_AppDesign}
         titleTheme="#D60000"
         halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/table_appdesign.png`}
@@ -146,7 +147,7 @@ export default function Table() {
       <DetailFeedback
         // titleTheme
         // despTheme
-        // desp
+        desp1="Your team was professional, efficient, and dedicated throughout the development process, and I am extremely impressed with the quality of the final product."
         // location
         ThemeBG="#D60000"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}

@@ -84,6 +84,7 @@ export default function FacilityManagement() {
       <DetailDesign
         titleTheme="#2F696D"
         title="UI DESIGN"
+        desp="UI/UX design of Facility Management is Trello-like and straightforward, with an easy-to-use dashboard for managing tickets. The platform features a ticket management system with two user types: admin and employee. The color scheme is professional, with a mix of neutral and bright colors and clear typography. The design is optimized for desktop and mobile devices and has a clear hierarchy of information for easy navigation. The ticket management system is user-friendly, with simple options for creating, tracking, and updating tickets. The platform facilitates efficient task management for both admin and employee users based on extensive user research."
         // overlap
         // TopImg={Facility_Design1}
         // MidImg={Facility_Design2}
@@ -100,7 +101,7 @@ export default function FacilityManagement() {
       />
 
       <DetailTheme
-        // desp
+        desp="The color scheme helps to convey the project's focus on efficient and organized management, while also communicating professionalism and balance. The sea-green provides a fresh and modern feel, while the black and grey add a sense of stability and reliability. The white color helps to balance the design and add a clean and polished look. Overall, the color theme creates a visually appealing and professional design that enhances the user experience and conveys the brand message."
         // centerImage
         // src
         // Images
@@ -125,7 +126,7 @@ export default function FacilityManagement() {
       <DetailAppDev
         website
         title="WEB DEVELOPMENT"
-        // desp
+        desp="Development process involved multiple client meetings to gather feedback and requirements. A thorough business analysis was carried out to align the platform with the client's goals. Testing, development, bug fixes, and reviews were done to ensure a high-quality end product that met the client's expectations. Client feedback was taken into consideration to ensure the final product was fit for their needs. Emphasis was placed on data accuracy and safety, with robust measures in place to protect against breaches or unauthorized access. The platform was thoroughly tested to provide the highest level of data accuracy and safety. The project aimed to deliver a secure and reliable platform designed to cater to the client's needs."
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/facility_theme.png`}
         titleTheme="#282828"
         // halfImg={Yuwway_AppDesign}
@@ -133,7 +134,7 @@ export default function FacilityManagement() {
       <DetailFeedback
         titleTheme="#2F696D"
         despTheme="#282828"
-        // desp
+        desp1="Overall, the development team and all members involved in the project deserve praise for delivering an exceptional platform. End result product met our requirements and exceeds expectations at some components. Well done!"
         // location
         ThemeBG="#ffffff"
         // AvatarSrc={Kidcab_Avatar}

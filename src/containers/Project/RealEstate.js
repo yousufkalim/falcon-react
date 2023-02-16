@@ -87,6 +87,7 @@ export default function RealEstate() {
       <DetailDesign
         titleTheme="#837C6B"
         title="APP UI DESIGN"
+        desp="We understand that transparency is key in the real estate industry. That's why we made sure to create a design that is clear and concise, allowing users to easily track their investments and stay updated on the latest market trends. The mobile application and admin panel were designed to display real-time data and investment metrics, helping investors make informed decisions. With real-time accurate data, and easy-to-use functionality, we believe that users will be satisfied with their experience and trust this platform for their real estate investments."
         // overlap
         // TopImg={RealEstate_Design1}
         // MidImg={RealEstate_Design2}
@@ -108,7 +109,7 @@ export default function RealEstate() {
       />
 
       <DetailTheme
-        // desp
+        desp="This color palette creates a visually appealing and professional appearance, which is likely to inspire confidence in investors who want to make informed investment decisions. And adds a touch of warmth and stability in overall look of this app and admin panel."
         // centerImage
         // src
         inline
@@ -136,7 +137,7 @@ export default function RealEstate() {
       <DetailAppDev
         application
         title="MOBILE APP DEVELOPMENT"
-        // desp
+        desp="During the planning phase, the project management team collaborated with stakeholders to define the project's scope, objectives, and requirements. In the design phase, the front-end and mobile development teams worked together to design the user interfaces using React Native and JavaScript. In the mobile development phase, the back-end and mobile development teams collaborated to build the admin panel and mobile app, utilizing Android development and React Native. Following the development phase, the quality assurance team thoroughly tested the mobile app and admin panel to detect and resolve any issues found by the development team. During the deployment phase, the project management team closely collaborated with the development team to guarantee a successful launch on all platforms. The entire development process took almost 4 to 5 months, and we achieved high levels of client satisfaction."
         // fullImg={RealEstate_AppDesign}
         titleTheme="#837C6B"
         halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/realestate_appdesign_new.png`}

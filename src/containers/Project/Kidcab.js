@@ -86,6 +86,7 @@ export default function Kidcab() {
         src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_demo_new.png`}
       />
       <DetailDesign
+        desp="When designing the UI/UX of the Kidcab mobile app, we kept in mind the client requirements and the market competitor applications. As the project was designed for the French market, we tailored the app's interface to the local culture and language. We utilized React Native to develop the mobile application, ensuring its compatibility with both iOS and Android platforms. Additionally, we ensured the app's ease of use for its intended audience, providing intuitive navigation and a clear visual hierarchy for essential information. And also its admin panel was designed in a simple and clean format for better user experience."
         // titleTheme
         // title
         // overlap
@@ -109,7 +110,7 @@ export default function Kidcab() {
       />
 
       <DetailTheme
-        // desp
+        desp="This color theme is associated with stability, trust, and reliability, which aligns with the app's goal of providing a safe and secure transportation service for children. Black and white colors create a high-contrast color scheme, making the text and icons easier to read and navigate, enhancing the user experience. the color scheme enhances the app's usability and reflects the brand's values, giving the users a sense of reliability and trust."
         // centerImage
         // src
         // Images
@@ -135,7 +136,7 @@ export default function Kidcab() {
       <DetailAppDev
         application
         // title
-        // desp
+        desp="Firstly, we identified the features and functionality required for the Driver and Parent mobile applications. In the design phase, the front-end and mobile development teams collaborated on the design of the user interfaces for the mobile apps, using React Native and other design tools. During the development phase, the back-end and mobile development teams built the applications using Android development and React Native. The quality assurance team tested the mobile applications thoroughly, identifying and fixing any issues found. The project resulted in two mobile applications that met the partner's needs and provided a safe and reliable service for parents to find drivers for their children's activities and monitor their location."
         halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_appDesign_new.png`}
         titleTheme="#4CB9B4"
         // fullImg={KidCab_AppDesign}
@@ -143,7 +144,7 @@ export default function Kidcab() {
       <DetailAppDev
         website
         title="WEB DEVELOPMENT"
-        // desp
+        desp="In the design phase, the front-end and mobile development teams collaborated on the design of the web application. During the development phase, the front-end team developed the Ride Management web application using JS, React & Node.js, and other web development tools. Ride management was done in the phase. The quality assurance team tested the web application thoroughly, identifying and fixing any issues found. During the deployment phase, the project management and development teams worked closely to deploy the Ride Management web application to the appropriate platform. The project resulted in a Ride Management web application that met the partner's needs and provided an efficient and effective management tool for the Kidcab administrators."
         // halfImg={KidCab_AppDesign}
         titleTheme="#4CB9B4"
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcab_webDesign_new.png`}
@@ -152,7 +153,7 @@ export default function Kidcab() {
         // titleTheme
         // despTheme
         desp1="Responsive team, able to go to the end and adapt to new requirements."
-        location="Suresnes, France"
+        location="Suresnes, Fr"
         ThemeBG="#18374E"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         name="Maxime Chevallier"

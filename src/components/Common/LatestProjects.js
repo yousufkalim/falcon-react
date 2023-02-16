@@ -279,7 +279,7 @@ export default function LatestProjects(props) {
             /> */}
             <LatestProjectsCard
               hoverDesp={t(
-                'Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:'
+                'Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file.'
               )}
               src={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fireman_lp.png`}
               LogoSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/fireman_logo_lp.png`}
