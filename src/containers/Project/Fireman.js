@@ -50,7 +50,7 @@ export default function Fireman() {
       />
       <DetailOverview
         titleTheme="#282828"
-        desp="Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:"
+        desp="Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file."
         // desp=""
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/overview_quadraAvatar.png`}
         nameColor="#3675B7"
@@ -72,7 +72,7 @@ export default function Fireman() {
       <DetailDemo
         to="https://fireman-dev3.web.app/login"
         // desp
-        desp="Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file. Fireman including following modules:"
+        desp="Fireman is the management and report generating system for fire fighters. The safety committees visit establishments open to the public and advise the mayor for business continuity. Each visit or study gives rise to a report. Fire fighters create/modify file according to visit or study category. Group director/Service director validate that file."
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
@@ -85,6 +85,7 @@ export default function Fireman() {
       <DetailDesign
         titleTheme="#282828"
         title="UI DESIGN"
+        desp="Fireman, the management and report generating system for fire fighters, boasts a meticulously crafted UI/UX design for a seamless and intuitive user experience. The platform features a visually striking, modern, and sleek interface that is easy to navigate. The system's functionality is thoughtfully designed, emphasizing usability and efficiency. Firefighters can create or modify files by category, and the group and service directors can validate them with ease. The features are logically organized, with all necessary information easily accessible. The design is user-centered, with a focus on simplicity, usability, and functionality, making it easy for all users to navigate the platform efficiently. Overall, the UI/UX design for Fireman is impressive and will not only meet but exceed the client's expectations."
         // overlap
         // TopImg={Facility_Design1}
         // MidImg={Facility_Design2}
@@ -101,7 +102,7 @@ export default function Fireman() {
       />
 
       <DetailTheme
-        // desp
+        desp="The color theme of blue, white, black, and grey creates a professional and authoritative look for the Fireman management and report generating system. The use of blue symbolizes trust, reliability, and stability, while the white represents cleanliness and organization. The black and grey tones add a sense of formality and seriousness to the project. Together, the color scheme conveys a sense of confidence and competence in the fire department's ability to manage and report on fire safety."
         // centerImage
         // src
         // Images
@@ -126,7 +127,7 @@ export default function Fireman() {
       <DetailAppDev
         website
         title="WEB DEVELOPMENT"
-        // desp
+        desp="The web development process for the Fireman management and report generating system started with requirements gathering, where the development team gathered information on the system's functional requirements and technical specifications. Based on that information, the team created a project plan, including project scope, timeline, and deliverables, followed by the design phase, where wireframes, mockups, and layouts were created in the blue, white, black, and grey color theme. The web development team then began coding the system, implementing features and functionality to meet the requirements while the client provided continuous input and feedback on the project's progress. Rigorous testing was conducted to identify and fix bugs and errors, followed by validation and verification by the business idea report to ensure that the system met the required standards and specifications. Once approved, the system was deployed to the live server and maintained by the web development team to ensure that it remained functional and up-to-date. This process prioritized continuous input and feedback from the client and rigorous testing to ensure that the system met the needs of the client."
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/firemen_theme.png`}
         titleTheme="#282828"
         // halfImg={Yuwway_AppDesign}
@@ -134,7 +135,7 @@ export default function Fireman() {
       <DetailFeedback
         titleTheme="#3675B7"
         despTheme="#282828"
-        // desp
+        desp1="I am thoroughly impressed with the level of professionalism, expertise, and creativity they brought to the table. Throughout the entire project, the team at Falcon Consulting, consistently provided excellent communication and kept me informed on the progress of Fireman project."
         // location
         ThemeBG="#ffffff"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}

@@ -86,6 +86,7 @@ export default function Wina() {
       <DetailDesign
         titleTheme="#2A5AA6"
         title="APP UI DESIGN"
+        desp="The platform automatically scrapes all offers from reference websites in France and adds them to Winaa's database. Companies have access to a full dashboard, where they can manage their offers, view potential matches and accept interview sessions. With its matching algorithm based on several criteria, Winaa calculates a percentage of compatibility between a student and a job offer, a calendar is provided to allow students to book an interview session with the company. Winaa offers a user-friendly interface with an intuitive design to ensure a seamless and efficient job search experience for both students and companies."
         // overlap
         // TopImg={Yuwway_Design1}
         // MidImg={Yuwway_Design2}
@@ -107,7 +108,7 @@ export default function Wina() {
       />
 
       <DetailTheme
-        // desp
+        desp="Winaa's job board application features a color theme that combines a cool tone, a neutral tone, a warm tone, and a subdued tone. This creates a professional, modern, and sophisticated aesthetic that also feels approachable and trustworthy. The color scheme is designed to convey a sense of reliability, strength, simplicity, and warmth, which is suitable for both companies and students using the platform."
         // centerImage
         // src
         // Images
@@ -135,7 +136,7 @@ export default function Wina() {
       <DetailAppDev
         application
         title="MOBILE APP DEVELOPMENT"
-        // desp
+        desp="During the app development process of Winaa's job board project, the project team faced challenges due to client feedback and time constraints. The matching algorithm, based on several criteria, had to be integrated into the mobile application, and a calendar feature was developed to enable students to book interview sessions with companies. The team also integrated a feature that automatically retrieved job offers from reference websites in France and added them to Winaa's database.The project team included a designer, two developers, one project manager, and a lead developer, who had regular meetings with the client to ensure they were meeting expectations. Despite changes and additions to the project, the client's satisfaction was maintained. Winaa's job board project was designed to cater to mobile users and featured an automated system that made it easier for job seekers to connect with companies and explore job opportunities efficiently. This system reduced the workload for both companies and apprentices, making the job search process more accessible and efficient for all parties involved."
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_appdesign.png`}
         titleTheme="#2A5AA6"
         // halfImg={Wina_AppDesign}
@@ -143,7 +144,7 @@ export default function Wina() {
       <DetailAppDev
         website
         title="WEB DEVELOPMENT"
-        // desp
+        desp="The web development process for the Winaa job board project encountered significant challenges due to client feedback and time constraints. Initially, the project team had planned to complete the mockups before initiating the development phase. However, due to a tight schedule, this was not viable, and the team had to adapt to changes requested by the client in real-time. The team comprised a designer, two developers, one project manager, and a lead developer who had regular meetings with the client to ensure they were on track. Despite the changes and additions made to the project, the client's satisfaction was not compromised throughout the process.During the web development process, Falcon optimized the data exchange flow to minimize operating expenses, which can be significant for such projects. The Winaa job board project aimed to serve web users, with features that enabled job seekers to connect with companies and explore job opportunities efficiently. The platform's automated system reduces the workload for both companies and apprentices, streamlining the job search process and making it more accessible and efficient for all parties involved."
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/wina_webdesign.png`}
         titleTheme="#2A5AA6"
         // halfImg={Wina_AppDesign}
@@ -151,7 +152,7 @@ export default function Wina() {
       <DetailFeedback
         // titleTheme="#3675B7"
         // despTheme="#282828"
-        desp="Falcon IT has done a great job and we are impressed with the overall services."
+        desp1="I really appreciate when the Falcon’s team gives me new ideas and also elaborates them to meet the expectations with a minimum effort, mature and professional behavior overall. Thanks for co-operations."
         // location
         ThemeBG="#2A5AA6"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/detail_overviewAvatar.png`}

@@ -107,7 +107,7 @@ export default function Sindoor() {
       /> */}
 
       <DetailTheme
-        // desp
+        desp="The color theme for Sindoor was intentionally chosen to align with elegance and create a warm, trustworthy atmosphere. Pink represents love, black adds sophistication and professionalism, white symbolizes purity and simplicity, and grey brings balance and stability. This helps users make informed decisions and feel excited and stress-free."
         // centerImage
         // src
         // Images
@@ -132,7 +132,7 @@ export default function Sindoor() {
       <DetailAppDev
         application
         title="MOBILE APP DEVELOPMENT"
-        // desp
+        desp="The development process commences with a comprehensive analysis of the client's business requirements and goals. Our team of adept professionals worked closely with the client to gain a thorough understanding of the app's vision and to define the features and functionality necessary to accomplish their objectives. Subsequently, tasks were assigned to each team accordingly. The User Interface was designed with a wedding event theme to evoke the ambiance of a wedding event, and testing was conducted to validate the clients' agreed-upon design mockups and the developed UI. Given that this app is designed for wedding events, we prioritized the security and accuracy of user information and streamlined communication channels between vendors and users to ensure that users could effortlessly manage their event. We acknowledge the importance of precision when it comes to sensitive data and information, and have thus incorporated advanced security features into the app to safeguard user data from unauthorized access. Furthermore, integration and overall app testing were performed to ensure seamless functioning. All these tasks were accomplished while considering the client's continuous feedback and adhering to the given timeline."
         // fullImg={Table_AppDesign}
         titleTheme="#E45A5A"
         halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/sindoor_appdesign.png`}

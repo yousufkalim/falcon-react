@@ -50,9 +50,8 @@ export default function Excellence() {
         )}
       />
       <DetailOverview
-        // desp
+        desp="Excellence ERP is designed to assist both the brand owner (Excellence) and franchisees in effectively managing their stores and business operations. Excellence owns the brand and has franchisees who operate stores. These stores are leased from landlords, and franchisees are responsible for paying rent to the landlords as well as fees to Excellence."
         // location
-        desp="In order to develop A French-based ready-to-wear store chain, its brand image, and its online activity, the company wanted to have an e-commerce site. The website was developed on .NET and was complete in 4 months from April 2022 to July 2022"
         titleTheme="#282828"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}
         nameColor="#0086EF"
@@ -72,7 +71,7 @@ export default function Excellence() {
 
       <DetailDemo
         // to='http://160.153.249.64:4455/'
-        // desp
+        desp="Excellence ERP is designed to assist both the brand owner (Excellence) and franchisees in effectively managing their stores and business operations. Excellence owns the brand and has franchisees who operate stores. These stores are leased from landlords, and franchisees are responsible for paying rent to the landlords as well as fees to Excellence."
         // btnText
         DetailDemo_SquareDiv
         // DetailDemo_RoundDiv
@@ -85,6 +84,7 @@ export default function Excellence() {
       <DetailDesign
         titleTheme="#282828"
         title="UI DESIGN"
+        desp="The UI/UX design of Excellence ERP prioritizes simplicity and ease of use for all stakeholders managing their franchise operations. The application is divided into three modules: Rent Management, Franchise Management, and Store Management. Rent Management has clear interfaces to monitor payments and generate reports, while Franchise Management gives brand owners control over their franchisees and performance tracking. Store Management is the system's centerpiece, with Monthly Cost Monitoring, Contract Term Information, Facility Management, and Payment Device Management features. The design is user-friendly and modern, with an easy-to-navigate interface for monthly expenses, lease agreements, store maintenance, and secure payment processing. The Excellence ERP system streamlines franchise operations, ensuring efficient and effective management."
         // overlap
         // TopImg={OrgaPlan_Design1}
         // MidImg={OrgaPlan_Design2}
@@ -111,7 +111,7 @@ export default function Excellence() {
         // fullscreen
         title="COLOR THEME AND DESIGN"
         titleTheme="#282828"
-        // desp
+        desp="The Excellence ERP color theme features light blue, white, black, and grey. Light blue is the primary color, representing trust, reliability, and stability, essential characteristics for a business management app. The white color denotes simplicity, purity, and cleanliness, highlighting the system's ease of use. Black symbolizes power, sophistication, and elegance, giving a sense of professionalism and confidence. Grey, used as an accent color, represents neutrality, calmness, and balance, adding a sense of tranquility and harmony to the theme. The color scheme is designed to create a clean, modern, and professional look reflecting the ERP's purpose while keeping the UI visually appealing and user-friendly."
         Theme1="#0086EF"
         Theme2="#FAFAFA"
         Theme3="#191A1F"
@@ -126,7 +126,7 @@ export default function Excellence() {
       <DetailAppDev
         website
         title="WEB DEVELOPMENT"
-        // desp
+        desp="The Excellence ERP development process was a collaborative effort between the project team and the client, which was divided into three stages: planning, design, and implementation. In the planning stage, the team created a detailed list of requirements and features with the client. In the design stage, the UI/UX design was created with simplicity and ease of use in mind. During implementation, the team built the application, starting with core modules, and added critical features such as Monthly Cost Monitoring, Contract Term Information, Facility Management, and Payment Device Management.The team rigorously tested the system to ensure quality and promptly fixed any issues or glitches. The team maintained an open line of communication with the client, providing regular updates and seeking feedback throughout the development process. The result was a highly collaborative and iterative process, producing a robust and user-friendly application that streamlines franchise operations and enhances efficiency for all stakeholders involved."
         fullImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/excellence_theme.png`}
         titleTheme="#282828"
         // halfImg=(src Required)
@@ -134,7 +134,8 @@ export default function Excellence() {
       <DetailFeedback
         titleTheme="#0086EF"
         despTheme="#282828"
-        desp="It is a distinct pleasure for me to recommend falcon IT to all interested parties.They have been professional, comprehensive, and competent throughout the process of working together. We have established a relationship with them for years to come."
+        desp1="I highly commend the development team for their meticulous planning, which proved crucial in defining the project's objectives and establishing clear milestones. Moreover, the team's delivery of an impressive UI/UX design perfectly aligned with our business objectives and is truly laudable, with its visually appealing and user-friendly interface."
+        // desp="It is a distinct pleasure for me to recommend falcon IT to all interested parties.They have been professional, comprehensive, and competent throughout the process of working together. We have established a relationship with them for years to come."
         // location
         ThemeBG="#ffffff"
         AvatarSrc={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/kidcabAvatar.png`}

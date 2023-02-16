@@ -87,6 +87,7 @@ export default function EZbox() {
       <DetailDesign
         titleTheme="#454238"
         title="UI DESIGN"
+        desp="EZBox media offers an intuitive experience for users to advertise products and develop next-gen products with turnkey solutions. The design is modern and professional, optimized for desktop and mobile devices, with clean lines and typography. Features are well-organized and easy to navigate, with real-time analytics and audience targeting for advertising. The product development section provides engineering support to bring products to market quickly. User personas and feedback were incorporated into the design, and the platform is constantly evolving to meet user needs for a high-quality experience."
         // overlap
         // TopImg={EZbox_Design1}
         // MidImg={EZbox_Design2}
@@ -103,7 +104,7 @@ export default function EZbox() {
       />
 
       <DetailTheme
-        // desp
+        desp="This color theme of light blue, black, white, and a light orange gradient represents professionalism, elegance, simplicity, and innovation. This combination helps to communicate the platform's focus on technology and creativity, while also providing balance and contrast. The color scheme creates a visually appealing and dynamic design that enhances the user experience and effectively conveys the brand message."
         // centerImage
         // src
         Images
@@ -130,7 +131,7 @@ export default function EZbox() {
       <DetailAppDev
         website
         title="WEB DESIGN"
-        // desp
+        desp="The EZBox media website is designed to be visually appealing, modern, and user-friendly. With a white background, light blue, black, and a light orange gradient, the website creates a clean and professional look. The website's layout is optimized for desktop and mobile devices, with clear messaging and easy navigation. Consistent color scheme and typography are used throughout the website, with a focus on legibility and clarity. The homepage provides a concise overview of the platform's services and key features. Overall, the design effectively conveys EZBox's commitment to technology, innovation, and professionalism while providing an enjoyable user experience."
         halfImg={`${process.env.REACT_APP_MEDIA_URL}/uploads/images/ezbox_webdesign.png`}
         titleTheme="#454238"
         // fullImg=(src Required)
