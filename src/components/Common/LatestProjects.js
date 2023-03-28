@@ -462,24 +462,25 @@ export default function LatestProjects(props) {
             className="ProjectsCompletedDiv">
             <div className="About_InfoLeft" style={{ position: 'relative' }}>
               <Timer className="ProjectsCompleted_Timer" />
-              <h2 className="ProjectsCompleted_Num" sx={{ fontWeight: '700' }}>
+             
+                            <p className="ProjectsCompleted_Num" sx={{ fontWeight: '900' }}>
                 8+
-              </h2>
-              <h2 className="ProjectsCompleted_H">{t('Years of Excellence')}</h2>
+              </p>
+              <p className="ProjectsCompleted_H">{t('Years of Excellence')}</p>
             </div>
             <div className="About_InfoCenter" style={{ position: 'relative' }}>
               <MedKit className="ProjectsCompleted_MedKit" />
-              <h2 className="ProjectsCompleted_Num" sx={{ fontWeight: '700' }}>
+              <p className="ProjectsCompleted_Num" sx={{ fontWeight: '700' }}>
                 85+
-              </h2>
-              <h2 className="ProjectsCompleted_H">{t('Project Completed')}</h2>
+              </p>
+              <p className="ProjectsCompleted_H">{t('Project Completed')}</p>
             </div>
             <div className="About_InfoRight" style={{ position: 'relative' }}>
               <Award className="ProjectsCompleted_Award" />
-              <h2 className="ProjectsCompleted_Num" sx={{ fontWeight: '700' }}>
+              <p className="ProjectsCompleted_Num" sx={{ fontWeight: '700' }}>
                 60+
-              </h2>
-              <h2 className="ProjectsCompleted_H">{t('Clients Satisfied')}</h2>
+              </p>
+              <p className="ProjectsCompleted_H">{t('Clients Satisfied')}</p>
             </div>
           </motion.div>
         )}

@@ -63,6 +63,10 @@
   display: flex;
   justify-content: center;
 }
+.propsNumber {
+  font-size: 25px !important;
+  font-weight: 600;
+}
 .InfoDiv img {
   width: 70%;
   /* margin-bottom: 2%; */

@@ -9,8 +9,9 @@ export default function BlogCard(props) {
           <img className='BlogCardImg' src={props.src} alt='blog' />
         </div>
 
-        <h3>{t(props.date)}</h3>
-        <h2 className='BlogCardTitle'>{t(props.title)}</h2>
+        
+        <p className='blogDate'>{t(props.date)}</p>
+        <p className='BlogCardTitle'>{t(props.title)}</p>
       </div>
     </>
   );

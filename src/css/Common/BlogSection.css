@@ -9,6 +9,11 @@
   background: #fff;
   overflow: hidden;
 }
+.blogDate {
+  color: gray;
+  font-size: 19px;
+  margin: 10px 0;
+}
 .BlogCardImg {
   object-fit: cover;
   height: 100%;

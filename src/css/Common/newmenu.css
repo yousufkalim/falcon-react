@@ -116,6 +116,10 @@
 #menuId:hover {
   color: #42c2ff;
 }
+#contactHover {
+  font-weight: 600;
+  font-size: 25px;
+}
 #contactHover:hover + #b {
   width: 100%;
 }
