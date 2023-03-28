@@ -251,7 +251,7 @@
   position: fixed;
   left: 5%;
   top: 1%;
-  z-index: 999999999999 !important;
+  z-index: 1000000 !important;
   width: 10% !important;
 }
 .bar1 {
