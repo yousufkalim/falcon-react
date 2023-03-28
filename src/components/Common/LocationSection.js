@@ -75,7 +75,7 @@ export default function LocationSection(props) {
                   />
 
                   <h2 className='Location_Country'>United States</h2>
-                  <h3 className='Location_Address'>4201 31st St S, Arlington, VA 22206</h3>
+                  <p className='Location_Address'>4201 31st St S, Arlington, VA 22206</p>
                 </div>
                 <div className='LocationDiv_Img'>
                   <img
@@ -121,7 +121,7 @@ export default function LocationSection(props) {
                   />
 
                   <h2 className='Location_Country'>United States</h2>
-                  <h3 className='Location_Address'>4201 31st St S, Arlington, VA 22206</h3>
+                  <p className='Location_Address'>4201 31st St S, Arlington, VA 22206</p>
                 </div>
                 <div className='LocationDiv_Img'>
                   <img

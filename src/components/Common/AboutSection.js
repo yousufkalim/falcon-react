@@ -141,7 +141,7 @@ export default function AboutSection() {
                       }}>
                       {t('We believe that talent and skills do not have borders')}
                     </h2>
-                    <h3
+                    <p
                       style={{
                         fontSize: '1rem',
                         fontWeight: '400',
@@ -151,7 +151,7 @@ export default function AboutSection() {
                       {t(
                         'We are a human-oriented company, investing in training healthy atmosphere and cooperative management to make sure our employees reach their full potential, and personally develop through their work. Our team is sensitized every day about the importance of quality management, and we strive to put in place a continuous improvement process internally'
                       )}
-                    </h3>
+                    </p>
                     <button className="AboutSectionBtn">
                       <Link style={{ color: '#42C2FF' }} to="/about">
                         {t('More About Our Company')}

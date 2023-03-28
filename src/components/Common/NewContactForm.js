@@ -532,7 +532,7 @@ export default function ContactSection(props) {
                   }}>
                   {showForm ? t('Submit') : t('Submit another')}
                 </button>
-                <h2 style={{ color: '#7C99BB', fontWeight: '800' }}>{t('or')}</h2>
+                <p style={{ color: '#7C99BB', fontWeight: '800' }}>{t('or')}</p>
                 <div className="New_ContactSection_LinksContainer">
                   <a href="mailto:contact@falconconsulting.fr" target="_blank">
                     <div className="SocialMediaDiv">
@@ -543,7 +543,7 @@ export default function ContactSection(props) {
                         alt="email"
                       />
                       <div className="SocialMediaText">
-                        <h2 id="contactHover">{t('Email')}</h2>
+                        <p id="contactHover">{t('Email')}</p>
                         <div id="b"></div>
                       </div>
                     </div>
@@ -559,7 +559,7 @@ export default function ContactSection(props) {
                           alt="calendly"
                         />
                         <div className="SocialMediaText">
-                          <h2 id="contactHover">{t('Calendly')}</h2>
+                          <p id="contactHover">{t('Calendly')}</p>
                           <div id="b"></div>
                         </div>
                       </div>
@@ -574,7 +574,7 @@ export default function ContactSection(props) {
                           alt="calendly"
                         />
                         <div className="SocialMediaText">
-                          <h2 id="contactHover">{t('Calendly')}</h2>
+                          <p id="contactHover">{t('Calendly')}</p>
                           <div id="b"></div>
                         </div>
                       </div>
@@ -605,7 +605,7 @@ export default function ContactSection(props) {
                 className="New_ContactSection_ButtonSuccess">
                 {showForm ? t('Submit') : t('Submit another')}
               </button>
-              <h2 style={{ color: '#7C99BB', fontWeight: '800' }}>or</h2>
+              <p style={{ color: '#7C99BB', fontWeight: '800' }}>or</p>
               <div className="New_ContactSection_SuccessLinksContainer">
                 <a href="mailto:contact@falconconsulting.fr" target="_blank">
                   <div className="SocialMediaDiv">
@@ -616,7 +616,7 @@ export default function ContactSection(props) {
                       alt="email"
                     />
                     <div className="SocialMediaText">
-                      <h2 id="contactHover">{t('Email')}</h2>
+                      <p id="contactHover">{t('Email')}</p>
                       <div id="b"></div>
                     </div>
                   </div>
@@ -632,7 +632,7 @@ export default function ContactSection(props) {
                         alt="calendly"
                       />
                       <div className="SocialMediaText">
-                        <h2 id="contactHover">{t('Calendly')}</h2>
+                        <p id="contactHover">{t('Calendly')}</p>
                         <div id="b"></div>
                       </div>
                     </div>
@@ -647,7 +647,7 @@ export default function ContactSection(props) {
                         alt="calendly"
                       />
                       <div className="SocialMediaText">
-                        <h2 id="contactHover">{t('Calendly')}</h2>
+                        <p id="contactHover">{t('Calendly')}</p>
                         <div id="b"></div>
                       </div>
                     </div>
@@ -667,6 +667,7 @@ export default function ContactSection(props) {
               {t('Share')} <br /> {t('Your')} <br /> {t('Project')} <br /> {t('or')} <br />{' '}
               {t('Idea')} <br /> {t('with')} <br /> {t('us!')}
             </h2>
+          
           </div>
         </div>
         {/* {props.ScrollTop && (

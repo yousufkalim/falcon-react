@@ -43,21 +43,21 @@ export default function Footer(props) {
                   alt="logo"
                 />
               </Link>
-              <h4
+              <p
                 className="FooterTypo"
                 style={{ color: '#282828', opacity: '50%', marginBottom: '3%', fontWeight: '500' }}>
                 {t(
                   'The services are provided at a flat rate, or according to a determined daily rate, based on your preference. In both cases, we guarantee you a quality service at a very competitive price.'
                 )}
-              </h4>
+              </p>
             </div>
             <div className="FooterRight">
               <div className="FooterList">
-                <h4
+                <p
                   className="FooterListHeading"
                   style={{ fontWeight: '700', opacity: '40%', marginBottom: '10%' }}>
                   {t('Overview')}
-                </h4>
+                </p>
                 <ul>
                   <li>
                     <Link className="Footer_li" to="/about">
@@ -77,11 +77,11 @@ export default function Footer(props) {
                 </ul>
               </div>
               <div className="FooterList">
-                <h4
+                <p
                   className="FooterListHeading"
                   style={{ fontWeight: '700', opacity: '40%', marginBottom: '10%' }}>
                   {t('Solutions')}
-                </h4>
+                </p>
                 <ul>
                   <li>
                     <Link className="Footer_li" to="/services/web-development">
@@ -179,13 +179,13 @@ export default function Footer(props) {
 
         <Divider />
         <div className="CopyRightDiv">
-          <h5 ClassName="CopyRightTypo" style={{ fontWeight: '700' }}>
+          <p ClassName="CopyRightTypo" style={{ fontWeight: '700' }}>
             © 2015-{new Date().getFullYear()}
             <span style={{ color: '#003B7E' }}> Falcon Consulting</span>, {t('All Rights Reserved')}
             .
-          </h5>
+          </p>
 
-          <h4
+          <p
             className="Footer_ChangeLanguage"
             onClick={() => {
               if (language === 'fr') {
@@ -196,7 +196,7 @@ export default function Footer(props) {
             }}>
             <span style={{ color: '#000', opacity: '.6' }}> {t('Changer de langue en')} </span>
             {t('Français')}
-          </h4>
+          </p>
         </div>
       </div>
       <div className="Footer_MobView">
@@ -211,7 +211,7 @@ export default function Footer(props) {
         </div>
         <div className="Footer_MobView_ListContainer">
           <div className="Footer_MobView_ListDiv">
-            <h4 className="Footer_MobView_Title">{t('Overview')}</h4>
+            <p className="Footer_MobView_Title">{t('Overview')}</p>
             <ul className="Footer_MobView_List">
               <Link className="FooterMob_Link" to="/about">
                 <li className="FooterMob_Li">{t('About')}</li>
@@ -227,7 +227,7 @@ export default function Footer(props) {
         </div>
         <div className="Footer_MobView_ListContainer">
           <div className="Footer_MobView_ListDiv">
-            <h4 className="Footer_MobView_Title">{t('Solutions')}</h4>
+            <p className="Footer_MobView_Title">{t('Solutions')}</p>
             <ul className="Footer_MobView_List">
               <Link className="FooterMob_Link" to="/services/ui/ux-development">
                 <li className="FooterMob_Li">{t('UI/UX Developmemt')}</li>

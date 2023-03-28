@@ -22,7 +22,7 @@ export default function SectionHeader(props) {
               backgroundColor: '#42C2FF'
             }}
           />
-          <h2
+          <p
             className="SectionHeaderH1_WP"
             style={{
               color: props.colorH1 ? props.colorH1 : '#fff',
@@ -31,7 +31,7 @@ export default function SectionHeader(props) {
               fontSize: '1.5rem'
             }}>
             {t(props.h1)}
-          </h2>
+          </p>
 
           <h2
             className="SectionHeaderH2"
@@ -47,9 +47,9 @@ export default function SectionHeader(props) {
           // transition={{ duration: 1 }}
           // viewport={{ once: true }}
         >
-          <h2 className="SectionHeaderH1" color={props.colorH1 || '#42C2FF'}>
+          <p className="SectionHeaderH1" color={props.colorH1 || '#42C2FF'}>
             {t(props.h1)}
-          </h2>
+          </p>
           <Divider
             className={props.SectionHeaderMargin ? 'SectionHeaderMargin' : 'SectionHeaderDivider'}
             width={props.width || '10%'}
