@@ -12,11 +12,14 @@ import { useTranslation } from 'react-i18next';
 import WhiteLogo from '../../assets/images/falconwhitelogo.svg';
 import Tooltip from '@mui/material/Tooltip';
 import USA from '../../assets/images/usa_flag.svg';
+import FRFR from '../../assets/images/FRFR.svg';
+import ENEN from '../../assets/images/ENEN.svg';
+
 import French from '../../assets/images/french_flag.svg';
 export default function NavBar(props) {
   const [Menu, SetMenu] = React.useState(false);
   const [Active, SetActive] = React.useState(false);
-  const [Flag, SetFlag] = React.useState(false);
+  // const [Flag, SetFlag] = React.useState(false);
   // const [isOpen, setOpen] = useState(false);
   let position = useScrollPosition();
   const { scrollYProgress } = useScroll();
@@ -92,13 +95,14 @@ export default function NavBar(props) {
                 src={language === 'fr' ? USA : French}
                 alt="flag"
               />
-              <h2
+              {/* <h2
                 className="NavbarLanguageName"
                 style={{
                   color: Active ? '#f8f8f8' : position <= 970 ? '#f8f8f8' : '#003b7e'
                 }}>
                 {t('FR')}
-              </h2>
+              </h2> */}
+              <img className="txtENEN" src={language === 'fr' ? ENEN : FRFR} alt="flag" />
             </div>
           </Tooltip>
           <div
@@ -169,13 +173,14 @@ export default function NavBar(props) {
                 src={language === 'fr' ? USA : French}
                 alt="flag"
               />
-              <h2
+              <img className="txtENEN" src={language === 'fr' ? ENEN : FRFR} alt="flag" />
+              {/* <h2
                 className="NavbarLanguageName"
                 style={{
                   color: Active ? '#f8f8f8' : '#003b7e'
                 }}>
                 {t('FR')}
-              </h2>
+              </h2> */}
             </div>
           </Tooltip>
 
@@ -252,13 +257,14 @@ export default function NavBar(props) {
                   src={language === 'fr' ? USA : French}
                   alt="flag"
                 />
-                <h2
+                <img className="txtENEN" src={language === 'fr' ? ENEN : FRFR} alt="flag" />
+                {/* <h2
                   className="NavbarLanguageName"
                   style={{
                     color: '#f8f8f8'
                   }}>
                   {t('FR')}
-                </h2>
+                </h2> */}
               </div>
             </Tooltip>
             <div
