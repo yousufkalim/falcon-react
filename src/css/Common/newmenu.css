@@ -223,6 +223,12 @@
   width: 100%;
   padding: 3%;
   transition: 0.5s;
+  height: 100%;
+}
+.txtENEN {
+  width: 60%;
+  height: 60%;
+  margin-top: 8%;
 }
 .NavbarLanguageName {
   transition: 0.5s;
