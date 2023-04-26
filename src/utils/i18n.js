@@ -5111,7 +5111,7 @@ i18n
           //   Our Projects
           // Projects_Header
           'ALL PROJECTS START BY A SIMPLE IDEA LET US TAKE CARE OF THE REST!':
-            'TOUS LES PROJETS COMMENCENT PAR UNE IDÉE SIMPLE LAISSEZ NOUS PRENDRE SOIN DU RESTE !',
+            'CHAQUE PROJET COMMENCE PAR UNE SIMPLE IDÉE LAISSEZ NOUS PRENDRE SOIN DU RESTE !',
           'Falcon Consulting had the opportunity to work on various type of projects for its clients. We implemented an efficient process in order to deliver qualitative work on time.':
             "Falcon Consulting a eu l'opportunité de travailler sur différents types de projets pour ses clients. Nous avons mis en place un processus efficace afin de livrer un travail qualitatif dans les délais.",
           'ALL PROJECTS START BY A SIMPLE IDEA, LET US TAKE CARE OF THE REST!':
